@@ -1,0 +1,13 @@
+{
+  "verified_utc": "2026-10-01T10:40:33.788034+00:00",
+  "source_protocol_hashes_verified": true,
+  "training_runs": 6,
+  "total_steps": 6144000,
+  "checkpoints": 120,
+  "replay_snapshots": 18,
+  "budget_test_rows": 36,
+  "all_selections_before_test": true,
+  "selected_weights_match_frozen_hash": true,
+  "a4_not_started": true,
+  "test_band_1400000_unused_by_this_work": true
+}

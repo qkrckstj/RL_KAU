@@ -1,0 +1,197 @@
+diff --git a/aircombat-rl/experiments/plan_a/core.py b/aircombat-rl/experiments/plan_a/core.py
+index 0ba8400..cdc6ae8 100644
+--- a/aircombat-rl/experiments/plan_a/core.py
++++ b/aircombat-rl/experiments/plan_a/core.py
+@@ -94,18 +94,47 @@ class State:
+         return np.clip(np.asarray(values, dtype=np.float32), -1.0, 1.0)
+ 
+ 
++def potential(features) -> float:
++    """Fixed A3 Phi in [-0.5, 0.5], using only the existing 31 features.
++
++    0.25 * proximity * relative nose advantage
++      + 0.125 * health advantage + 0.125 * track advantage.
++    Proximity = 10000 / (range + 10000). No schedules or learned weights.
++    """
++    f = np.asarray(features)
++    if f.shape != (31,) or not np.isfinite(f).all():
++        raise ValueError("Potential requires 31 finite relative_v1 features.")
++    own_cos = float(np.clip(f[4], -1.0, 1.0))
++    opp_cos = float(np.clip(-(f[4] * f[6] + f[3] * f[5]), -1.0, 1.0))
++    proximity = 1.0 - float(np.clip(f[0], 0.0, 1.0))
++    health = float(np.clip(f[19], 0, 1) - np.clip(f[20], 0, 1))
++    track = float(np.clip(f[21], 0, 1) - np.clip(f[22], 0, 1))
++    return 0.25 * proximity * (own_cos - opp_cos) / 2 + 0.125 * (health + track)
++
++
+ class TrainingEnv(gym.Wrapper):
+     def __init__(self, env: gym.Env, spec: dict):
+         super().__init__(env)
+         self.training_spec = spec
+         self.state = State(spec)
+         self.observation_space = gym.spaces.Box(-1.0, 1.0, (self.state.dim,), np.float32)
++        self.reward_mode = spec.get("reward", "terminal")
++        if self.reward_mode not in ("terminal", "potential_v1"):
++            raise ValueError("Unknown training reward.")
++        if self.reward_mode == "potential_v1" and spec["observation"] != "relative_v1":
++            raise ValueError("A3 potential requires relative_v1 observations.")
++        self._previous_potential = None
+ 
+     def reset(self, **kwargs):
+         obs, info = self.env.reset(**kwargs)
+-        return self.state(obs), info
++        features = self.state(obs)
++        if self.reward_mode == "potential_v1":
++            self._previous_potential = potential(features)
++        return features, info
+ 
+     def step(self, action):
++        if self.reward_mode == "potential_v1" and self._previous_potential is None:
++            raise RuntimeError("reset() is required before a shaped transition.")
+         obs, _, terminated, truncated, info = self.env.step(int(action))
+         won = info.get("won")
+         reward = 0.0 if won is None else (1.0 if won else -0.2)
+@@ -113,7 +142,17 @@ class TrainingEnv(gym.Wrapper):
+         # Keep evaluation untouched, but do not bootstrap beyond match end.
+         if self.training_spec["finite_match"] and truncated and info.get("outcome") == "timeout":
+             terminated, truncated = True, False
+-        return self.state(obs), reward, terminated, truncated, info
++        features = self.state(obs)
++        if self.reward_mode == "potential_v1":
++            # Actual match timeout was converted to terminated above. An external
++            # collector truncation retains Phi(s') and the learner bootstrap.
++            next_potential = 0.0 if terminated else potential(features)
++            bonus = self.training_spec["gamma"] * next_potential - self._previous_potential
++            info = dict(info, base_reward=reward, shaping_reward=bonus,
++                        potential_before=self._previous_potential, potential_after=next_potential)
++            reward += bonus
++            self._previous_potential = None if terminated or truncated else next_potential
++        return features, reward, terminated, truncated, info
+ 
+ 
+ def make_env(spec: dict, seed=None, shaped=True, seat="red"):
+diff --git a/aircombat-rl/tests/test_resume_dqn.py b/aircombat-rl/tests/test_resume_dqn.py
+index 5caa08d..51de793 100644
+--- a/aircombat-rl/tests/test_resume_dqn.py
++++ b/aircombat-rl/tests/test_resume_dqn.py
+@@ -1,5 +1,6 @@
+ from argparse import Namespace
+ import json
++import hashlib
+ 
+ import pytest
+ import torch
+@@ -11,12 +12,17 @@ from tools.plan_a import export_design, save_training_state, write_json
+ from tools import resume_dqn
+ 
+ 
+-def test_resume_keeps_replay_optimizer_counters_and_fixed_exploration(tmp_path, monkeypatch):
++@pytest.mark.parametrize("reward", ["terminal", "potential_v1"])
++def test_resume_keeps_replay_optimizer_counters_and_fixed_exploration(tmp_path, monkeypatch, reward):
+     torch.set_num_threads(1)
+     source, output = tmp_path / "source", tmp_path / "continued"
+-    spec = specification("observed_dqn")
++    spec = dict(specification("observed_dqn"), reward=reward)
+     export_design(source, spec)
+-    write_json(source / "config.json", dict(spec=spec))
++    # Simulate a trusted archived core differing from the current working tree.
++    with (source / "utils.py").open("a", encoding="utf-8") as stream:
++        stream.write("\n# Frozen historical run.\n")
++    frozen_hash = hashlib.sha256((source / "utils.py").read_bytes()).hexdigest()
++    write_json(source / "config.json", dict(spec=spec, source_sha256=frozen_hash))
+     model = make_learner(spec, 0)
+     model.learning_starts = 8
+     model.exploration_schedule = LinearSchedule(0.05, 0.05, 1)
+diff --git a/aircombat-rl/tools/plan_a.py b/aircombat-rl/tools/plan_a.py
+index 12a68b6..cb9235b 100644
+--- a/aircombat-rl/tools/plan_a.py
++++ b/aircombat-rl/tools/plan_a.py
+@@ -53,8 +53,10 @@ def export_design(out: Path, spec: dict, total_steps=204800):
+         + "        return _make_learner(SPEC, seed, device)\n", encoding="utf-8")
+ 
+ 
+-def evaluate(model, spec, band, n):
+-    from experiments.plan_a.core import State, make_env
++def evaluate(model, spec, band, n, core_module=None):
++    if core_module is None:
++        from experiments.plan_a import core as core_module
++    State, make_env = core_module.State, core_module.make_env
+     from tools.grade import play, summarise
+     state = State(spec)
+     def act(obs):
+@@ -88,6 +90,8 @@ def worker(args):
+     torch.set_num_threads(1)
+     out = Path(args.out).resolve()
+     spec = specification(args.variant, args.task)
++    if getattr(args, "reward", "terminal") != "terminal":
++        spec["reward"] = args.reward
+     metadata = dict(spec=spec, seed=args.seed, steps=args.steps, val_every=args.val_every,
+                     val_n=args.val_n, val_band=VAL_BAND,
+                     test_band_reserved=getattr(args, "test_band", TEST_BAND),
+diff --git a/aircombat-rl/tools/resume_dqn.py b/aircombat-rl/tools/resume_dqn.py
+index 79855ca..ffd14a0 100644
+--- a/aircombat-rl/tools/resume_dqn.py
++++ b/aircombat-rl/tools/resume_dqn.py
+@@ -4,6 +4,7 @@ from __future__ import annotations
+ import argparse
+ from collections import Counter
+ import hashlib
++import importlib.util
+ import json
+ from pathlib import Path
+ import pickle
+@@ -19,7 +20,6 @@ from stable_baselines3.common.logger import configure
+ from stable_baselines3.common.monitor import Monitor
+ from stable_baselines3.common.utils import LinearSchedule
+ 
+-from experiments.plan_a.core import make_env
+ from tools.plan_a import ROOT, evaluate, save_training_state, timestamp, write_json
+ 
+ 
+@@ -35,9 +35,16 @@ def resume(args):
+     for name in ("policy_net.zip", "replay_buffer.pkl", "rng_state.pkl", "resume.json"):
+         if not (checkpoint / name).is_file():
+             raise FileNotFoundError(f"Complete learner/replay checkpoint required: {checkpoint / name}")
+-    if (source / "utils.py").read_bytes() != (ROOT / "experiments/plan_a/core.py").read_bytes():
+-        raise ValueError("Frozen preprocessing differs from current Plan A core; use the matching source version.")
+     config = json.loads((source / "config.json").read_text(encoding="utf-8"))
++    frozen_hash = hashlib.sha256((source / "utils.py").read_bytes()).hexdigest()
++    expected_hash = config.get("source_sha256")
++    if expected_hash is not None and frozen_hash != expected_hash:
++        raise ValueError("Frozen preprocessing hash differs from the run config.")
++    if expected_hash is None and (source / "utils.py").read_bytes() != (ROOT / "experiments/plan_a/core.py").read_bytes():
++        raise ValueError("Cannot verify frozen preprocessing without source_sha256.")
++    module_spec = importlib.util.spec_from_file_location("_resume_frozen_core", source / "utils.py")
++    frozen_core = importlib.util.module_from_spec(module_spec)
++    module_spec.loader.exec_module(frozen_core)
+     if config["spec"]["algorithm"] != "dqn":
+         raise ValueError("This command resumes DQN only.")
+     if args.device == "cuda" and not torch.cuda.is_available():
+@@ -45,7 +52,7 @@ def resume(args):
+     if args.device == "xpu" and not (hasattr(torch, "xpu") and torch.xpu.is_available()):
+         raise RuntimeError("Intel XPU is unavailable. Install the matching build/driver or choose cpu.")
+     torch.set_num_threads(1)
+-    env = Monitor(make_env(config["spec"], seed=args.seed))
++    env = Monitor(frozen_core.make_env(config["spec"], seed=args.seed))
+     try:
+         model = DQN.load(checkpoint / "policy_net.zip", env=env, device=args.device, force_reset=True)
+         model.load_replay_buffer(checkpoint / "replay_buffer.pkl")
+@@ -70,7 +77,8 @@ def resume(args):
+         out.mkdir(parents=True)
+         for name in ("policy.py", "wrappers.py", "utils.py"):
+             shutil.copyfile(source / name, out / name)
+-        metadata = dict(spec=config["spec"], seed=args.seed, device=args.device,
++        metadata = dict(spec=config["spec"], source_sha256=frozen_hash,
++                        seed=args.seed, device=args.device,
+                         torch=torch.__version__, start_step=start_step,
+                         steps=start_step + args.additional_steps, additional_steps=args.additional_steps,
+                         initial_gradient_updates=start_updates, initial_replay_size=initial_replay_size,
+@@ -97,7 +105,7 @@ def resume(args):
+ 
+             def validate(self):
+                 self.status("validation")
+-                result = evaluate(model, config["spec"], 900000, args.val_n)
++                result = evaluate(model, config["spec"], 900000, args.val_n, frozen_core)
+                 result["step"] = model.num_timesteps
+                 summary = result["summary"]
+                 score = (summary["kills"], -(summary["t_kill"] if summary["t_kill"] is not None else 1e9))

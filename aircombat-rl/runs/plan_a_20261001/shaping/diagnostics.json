@@ -1,0 +1,1151 @@
+{
+  "created_utc": "2026-10-01T10:37:34.946950+00:00",
+  "run": "C:\\Users\\hsmb1\\Desktop\\박찬서\\RL_KAU\\aircombat-rl\\runs\\plan_a_20261001\\shaping",
+  "decision": {
+    "paired_test_win_rate_deltas": [
+      -0.125,
+      0.425,
+      0.0
+    ],
+    "mean_delta": 0.09999999999999999,
+    "endpoint_mean_delta": 0.0,
+    "next_step": "validation_and_training_diagnostics",
+    "automatic_adoption": false
+  },
+  "records": [
+    {
+      "reward": "terminal",
+      "seed": 0,
+      "training_episodes": 688,
+      "training_wins": 2,
+      "training_win_rate": 0.0029069767441860465,
+      "validation_first_nonzero_step": 358400,
+      "validation_nonzero_checkpoints": 2,
+      "validation_checkpoint_count": 20,
+      "validation_wins_by_step": [
+        {
+          "step": 51200,
+          "wins": 0
+        },
+        {
+          "step": 102400,
+          "wins": 0
+        },
+        {
+          "step": 153600,
+          "wins": 0
+        },
+        {
+          "step": 204800,
+          "wins": 0
+        },
+        {
+          "step": 256000,
+          "wins": 0
+        },
+        {
+          "step": 307200,
+          "wins": 0
+        },
+        {
+          "step": 358400,
+          "wins": 1
+        },
+        {
+          "step": 409600,
+          "wins": 0
+        },
+        {
+          "step": 460800,
+          "wins": 0
+        },
+        {
+          "step": 512000,
+          "wins": 0
+        },
+        {
+          "step": 563200,
+          "wins": 0
+        },
+        {
+          "step": 614400,
+          "wins": 0
+        },
+        {
+          "step": 665600,
+          "wins": 0
+        },
+        {
+          "step": 716800,
+          "wins": 0
+        },
+        {
+          "step": 768000,
+          "wins": 0
+        },
+        {
+          "step": 819200,
+          "wins": 0
+        },
+        {
+          "step": 870400,
+          "wins": 0
+        },
+        {
+          "step": 921600,
+          "wins": 10
+        },
+        {
+          "step": 972800,
+          "wins": 0
+        },
+        {
+          "step": 1024000,
+          "wins": 0
+        }
+      ],
+      "selected_step": 921600,
+      "selected_validation": {
+        "n": 20,
+        "kills": 10,
+        "rate": 0.5,
+        "t_kill": 59.8,
+        "outcomes": {
+          "died": 10,
+          "kill": 10
+        },
+        "own_health": 0.1444,
+        "opp_health": 0.1263,
+        "wez_time": 4.18,
+        "wez_time_foe": 4.03,
+        "engaged": 1.0,
+        "first_wez": 40.9,
+        "longest_track": 2.93,
+        "min_range": 38,
+        "out_of_bounds": 0.0
+      },
+      "final_validation": {
+        "n": 20,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 19,
+          "timeout": 1
+        },
+        "own_health": 0.0203,
+        "opp_health": 0.6981,
+        "wez_time": 2.06,
+        "wez_time_foe": 5.1,
+        "engaged": 1.0,
+        "first_wez": 23.2,
+        "longest_track": 1.81,
+        "min_range": 110,
+        "out_of_bounds": 0.0
+      },
+      "validation_win_drop": 10,
+      "final_replay": {
+        "checkpoint_sha256": "40e301e4d7a8460127782ba0ac8434fef812c0521d3c85648b3fb4cbac7d6717",
+        "replay_size": 50000,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.20000000298023224,
+          "max": 0.0,
+          "mean": -0.00014399999054148793,
+          "nonzero_fraction": 0.00072
+        },
+        "terminal_count": 36,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 4714,
+          "1": 5070,
+          "2": 5428,
+          "3": 4697,
+          "4": 5114,
+          "5": 5026,
+          "6": 7525,
+          "7": 5943,
+          "8": 6483
+        },
+        "greedy_action_counts_sample": {
+          "0": 85,
+          "1": 36,
+          "2": 347,
+          "3": 161,
+          "4": 93,
+          "6": 424,
+          "7": 84,
+          "8": 818
+        },
+        "dominant_greedy_action_fraction": 0.3994140625,
+        "q_min": -0.003534972667694092,
+        "q_max": 11.454030990600586,
+        "analytical_global_return_bounds": [
+          -0.2,
+          1.0
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 0.9916449785232544,
+        "sampled_action_return_bound_violation_fraction": 0.99169921875,
+        "max_excess_above_state_return_bound": 10.454030990600586,
+        "mean_top_two_q_gap": 0.006654614116996527,
+        "td_rmse": 0.11274180561304092,
+        "td_mean": 0.009285748936235905,
+        "own_weapon_zone_fraction": 0.014100000262260437,
+        "opponent_weapon_zone_fraction": 0.066880002617836,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    },
+    {
+      "reward": "terminal",
+      "seed": 1,
+      "training_episodes": 693,
+      "training_wins": 2,
+      "training_win_rate": 0.002886002886002886,
+      "validation_first_nonzero_step": 614400,
+      "validation_nonzero_checkpoints": 1,
+      "validation_checkpoint_count": 20,
+      "validation_wins_by_step": [
+        {
+          "step": 51200,
+          "wins": 0
+        },
+        {
+          "step": 102400,
+          "wins": 0
+        },
+        {
+          "step": 153600,
+          "wins": 0
+        },
+        {
+          "step": 204800,
+          "wins": 0
+        },
+        {
+          "step": 256000,
+          "wins": 0
+        },
+        {
+          "step": 307200,
+          "wins": 0
+        },
+        {
+          "step": 358400,
+          "wins": 0
+        },
+        {
+          "step": 409600,
+          "wins": 0
+        },
+        {
+          "step": 460800,
+          "wins": 0
+        },
+        {
+          "step": 512000,
+          "wins": 0
+        },
+        {
+          "step": 563200,
+          "wins": 0
+        },
+        {
+          "step": 614400,
+          "wins": 2
+        },
+        {
+          "step": 665600,
+          "wins": 0
+        },
+        {
+          "step": 716800,
+          "wins": 0
+        },
+        {
+          "step": 768000,
+          "wins": 0
+        },
+        {
+          "step": 819200,
+          "wins": 0
+        },
+        {
+          "step": 870400,
+          "wins": 0
+        },
+        {
+          "step": 921600,
+          "wins": 0
+        },
+        {
+          "step": 972800,
+          "wins": 0
+        },
+        {
+          "step": 1024000,
+          "wins": 0
+        }
+      ],
+      "selected_step": 614400,
+      "selected_validation": {
+        "n": 20,
+        "kills": 2,
+        "rate": 0.1,
+        "t_kill": 71.6,
+        "outcomes": {
+          "died": 11,
+          "kill": 2,
+          "mutual": 3,
+          "timeout": 4
+        },
+        "own_health": 0.0822,
+        "opp_health": 0.3177,
+        "wez_time": 3.65,
+        "wez_time_foe": 4.88,
+        "engaged": 1.0,
+        "first_wez": 25.7,
+        "longest_track": 2.44,
+        "min_range": 35,
+        "out_of_bounds": 0.0
+      },
+      "final_validation": {
+        "n": 20,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 20
+        },
+        "own_health": 0.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 4.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 932,
+        "out_of_bounds": 0.0
+      },
+      "validation_win_drop": 2,
+      "final_replay": {
+        "checkpoint_sha256": "79b6971d63c89d24ee0f78cd4593903a085a8bb0be1ef445d62e2643dce1f177",
+        "replay_size": 50000,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.20000000298023224,
+          "max": 0.0,
+          "mean": -0.00011999999696854502,
+          "nonzero_fraction": 0.0006
+        },
+        "terminal_count": 30,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 3557,
+          "1": 3428,
+          "2": 4529,
+          "3": 4674,
+          "4": 5888,
+          "5": 4930,
+          "6": 5352,
+          "7": 8080,
+          "8": 9562
+        },
+        "greedy_action_counts_sample": {
+          "0": 370,
+          "2": 7,
+          "3": 94,
+          "5": 206,
+          "6": 94,
+          "7": 784,
+          "8": 493
+        },
+        "dominant_greedy_action_fraction": 0.3828125,
+        "q_min": -0.2633313536643982,
+        "q_max": 13.648965835571289,
+        "analytical_global_return_bounds": [
+          -0.2,
+          1.0
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 0.9900173544883728,
+        "sampled_action_return_bound_violation_fraction": 0.990234375,
+        "max_excess_above_state_return_bound": 12.648965835571289,
+        "mean_top_two_q_gap": 0.009257481433451176,
+        "td_rmse": 0.12366616725921631,
+        "td_mean": 0.0032601351849734783,
+        "own_weapon_zone_fraction": 0.0,
+        "opponent_weapon_zone_fraction": 0.05339999869465828,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    },
+    {
+      "reward": "terminal",
+      "seed": 2,
+      "training_episodes": 726,
+      "training_wins": 3,
+      "training_win_rate": 0.004132231404958678,
+      "validation_first_nonzero_step": 665600,
+      "validation_nonzero_checkpoints": 1,
+      "validation_checkpoint_count": 20,
+      "validation_wins_by_step": [
+        {
+          "step": 51200,
+          "wins": 0
+        },
+        {
+          "step": 102400,
+          "wins": 0
+        },
+        {
+          "step": 153600,
+          "wins": 0
+        },
+        {
+          "step": 204800,
+          "wins": 0
+        },
+        {
+          "step": 256000,
+          "wins": 0
+        },
+        {
+          "step": 307200,
+          "wins": 0
+        },
+        {
+          "step": 358400,
+          "wins": 0
+        },
+        {
+          "step": 409600,
+          "wins": 0
+        },
+        {
+          "step": 460800,
+          "wins": 0
+        },
+        {
+          "step": 512000,
+          "wins": 0
+        },
+        {
+          "step": 563200,
+          "wins": 0
+        },
+        {
+          "step": 614400,
+          "wins": 0
+        },
+        {
+          "step": 665600,
+          "wins": 1
+        },
+        {
+          "step": 716800,
+          "wins": 0
+        },
+        {
+          "step": 768000,
+          "wins": 0
+        },
+        {
+          "step": 819200,
+          "wins": 0
+        },
+        {
+          "step": 870400,
+          "wins": 0
+        },
+        {
+          "step": 921600,
+          "wins": 0
+        },
+        {
+          "step": 972800,
+          "wins": 0
+        },
+        {
+          "step": 1024000,
+          "wins": 0
+        }
+      ],
+      "selected_step": 665600,
+      "selected_validation": {
+        "n": 20,
+        "kills": 1,
+        "rate": 0.05,
+        "t_kill": 66.0,
+        "outcomes": {
+          "died": 14,
+          "kill": 1,
+          "timeout": 5
+        },
+        "own_health": 0.0921,
+        "opp_health": 0.7503,
+        "wez_time": 1.39,
+        "wez_time_foe": 4.61,
+        "engaged": 0.6,
+        "first_wez": 41.2,
+        "longest_track": 1.25,
+        "min_range": 152,
+        "out_of_bounds": 0.0
+      },
+      "final_validation": {
+        "n": 20,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 20
+        },
+        "own_health": 0.0,
+        "opp_health": 0.9992,
+        "wez_time": 0.05,
+        "wez_time_foe": 5.19,
+        "engaged": 0.05,
+        "first_wez": 44.2,
+        "longest_track": 0.05,
+        "min_range": 119,
+        "out_of_bounds": 0.0
+      },
+      "validation_win_drop": 1,
+      "final_replay": {
+        "checkpoint_sha256": "8d1711ba59d3864a76f191b7e6749a7efa09cf3eebd86c6608601d268a07cf2f",
+        "replay_size": 50000,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.20000000298023224,
+          "max": 0.0,
+          "mean": -0.00014000000373926014,
+          "nonzero_fraction": 0.0007
+        },
+        "terminal_count": 35,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 3649,
+          "1": 4587,
+          "2": 3961,
+          "3": 3367,
+          "4": 4608,
+          "5": 4502,
+          "6": 6716,
+          "7": 9419,
+          "8": 9191
+        },
+        "greedy_action_counts_sample": {
+          "0": 386,
+          "1": 71,
+          "2": 72,
+          "3": 731,
+          "4": 274,
+          "5": 60,
+          "6": 225,
+          "8": 229
+        },
+        "dominant_greedy_action_fraction": 0.35693359375,
+        "q_min": -1.1409447193145752,
+        "q_max": 20.796512603759766,
+        "analytical_global_return_bounds": [
+          -0.2,
+          1.0
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 0.9972873330116272,
+        "sampled_action_return_bound_violation_fraction": 0.9970703125,
+        "max_excess_above_state_return_bound": 19.796512603759766,
+        "mean_top_two_q_gap": 0.015158850699663162,
+        "td_rmse": 0.09434690326452255,
+        "td_mean": -0.024474382400512695,
+        "own_weapon_zone_fraction": 0.016380000859498978,
+        "opponent_weapon_zone_fraction": 0.06564000248908997,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    },
+    {
+      "reward": "potential_v1",
+      "seed": 0,
+      "training_episodes": 634,
+      "training_wins": 7,
+      "training_win_rate": 0.011041009463722398,
+      "validation_first_nonzero_step": 921600,
+      "validation_nonzero_checkpoints": 2,
+      "validation_checkpoint_count": 20,
+      "validation_wins_by_step": [
+        {
+          "step": 51200,
+          "wins": 0
+        },
+        {
+          "step": 102400,
+          "wins": 0
+        },
+        {
+          "step": 153600,
+          "wins": 0
+        },
+        {
+          "step": 204800,
+          "wins": 0
+        },
+        {
+          "step": 256000,
+          "wins": 0
+        },
+        {
+          "step": 307200,
+          "wins": 0
+        },
+        {
+          "step": 358400,
+          "wins": 0
+        },
+        {
+          "step": 409600,
+          "wins": 0
+        },
+        {
+          "step": 460800,
+          "wins": 0
+        },
+        {
+          "step": 512000,
+          "wins": 0
+        },
+        {
+          "step": 563200,
+          "wins": 0
+        },
+        {
+          "step": 614400,
+          "wins": 0
+        },
+        {
+          "step": 665600,
+          "wins": 0
+        },
+        {
+          "step": 716800,
+          "wins": 0
+        },
+        {
+          "step": 768000,
+          "wins": 0
+        },
+        {
+          "step": 819200,
+          "wins": 0
+        },
+        {
+          "step": 870400,
+          "wins": 0
+        },
+        {
+          "step": 921600,
+          "wins": 13
+        },
+        {
+          "step": 972800,
+          "wins": 0
+        },
+        {
+          "step": 1024000,
+          "wins": 1
+        }
+      ],
+      "selected_step": 921600,
+      "selected_validation": {
+        "n": 20,
+        "kills": 13,
+        "rate": 0.65,
+        "t_kill": 64.3,
+        "outcomes": {
+          "kill": 13,
+          "timeout": 7
+        },
+        "own_health": 0.1907,
+        "opp_health": 0.0513,
+        "wez_time": 3.84,
+        "wez_time_foe": 3.45,
+        "engaged": 1.0,
+        "first_wez": 60.7,
+        "longest_track": 3.81,
+        "min_range": 173,
+        "out_of_bounds": 0.0
+      },
+      "final_validation": {
+        "n": 20,
+        "kills": 1,
+        "rate": 0.05,
+        "t_kill": 81.3,
+        "outcomes": {
+          "died": 12,
+          "kill": 1,
+          "timeout": 7
+        },
+        "own_health": 0.2433,
+        "opp_health": 0.7949,
+        "wez_time": 1.33,
+        "wez_time_foe": 3.91,
+        "engaged": 0.75,
+        "first_wez": 45.4,
+        "longest_track": 1.21,
+        "min_range": 657,
+        "out_of_bounds": 0.0
+      },
+      "validation_win_drop": 12,
+      "final_replay": {
+        "checkpoint_sha256": "9e1aee6adae5ae2b788107557d4693fd4d7065abd87c300d09fc0264f9578048",
+        "replay_size": 50000,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.12919117510318756,
+          "max": 0.277310848236084,
+          "mean": -2.9295274543983396e-06,
+          "nonzero_fraction": 1.0
+        },
+        "terminal_count": 30,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 3327,
+          "1": 3429,
+          "2": 3455,
+          "3": 5294,
+          "4": 5014,
+          "5": 6767,
+          "6": 8201,
+          "7": 6711,
+          "8": 7802
+        },
+        "greedy_action_counts_sample": {
+          "0": 61,
+          "1": 41,
+          "2": 825,
+          "3": 5,
+          "4": 93,
+          "5": 174,
+          "6": 76,
+          "7": 768,
+          "8": 5
+        },
+        "dominant_greedy_action_fraction": 0.40283203125,
+        "q_min": 17.798728942871094,
+        "q_max": 86.42552185058594,
+        "analytical_global_return_bounds": [
+          -0.7,
+          1.5
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 1.0,
+        "sampled_action_return_bound_violation_fraction": 1.0,
+        "max_excess_above_state_return_bound": 85.33699798583984,
+        "mean_top_two_q_gap": 0.06937414407730103,
+        "td_rmse": 1.647774338722229,
+        "td_mean": 0.0009279372170567513,
+        "own_weapon_zone_fraction": 0.007319999858736992,
+        "opponent_weapon_zone_fraction": 0.05332000181078911,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    },
+    {
+      "reward": "potential_v1",
+      "seed": 1,
+      "training_episodes": 740,
+      "training_wins": 1,
+      "training_win_rate": 0.0013513513513513514,
+      "validation_first_nonzero_step": 51200,
+      "validation_nonzero_checkpoints": 3,
+      "validation_checkpoint_count": 20,
+      "validation_wins_by_step": [
+        {
+          "step": 51200,
+          "wins": 5
+        },
+        {
+          "step": 102400,
+          "wins": 0
+        },
+        {
+          "step": 153600,
+          "wins": 8
+        },
+        {
+          "step": 204800,
+          "wins": 0
+        },
+        {
+          "step": 256000,
+          "wins": 0
+        },
+        {
+          "step": 307200,
+          "wins": 0
+        },
+        {
+          "step": 358400,
+          "wins": 6
+        },
+        {
+          "step": 409600,
+          "wins": 0
+        },
+        {
+          "step": 460800,
+          "wins": 0
+        },
+        {
+          "step": 512000,
+          "wins": 0
+        },
+        {
+          "step": 563200,
+          "wins": 0
+        },
+        {
+          "step": 614400,
+          "wins": 0
+        },
+        {
+          "step": 665600,
+          "wins": 0
+        },
+        {
+          "step": 716800,
+          "wins": 0
+        },
+        {
+          "step": 768000,
+          "wins": 0
+        },
+        {
+          "step": 819200,
+          "wins": 0
+        },
+        {
+          "step": 870400,
+          "wins": 0
+        },
+        {
+          "step": 921600,
+          "wins": 0
+        },
+        {
+          "step": 972800,
+          "wins": 0
+        },
+        {
+          "step": 1024000,
+          "wins": 0
+        }
+      ],
+      "selected_step": 153600,
+      "selected_validation": {
+        "n": 20,
+        "kills": 8,
+        "rate": 0.4,
+        "t_kill": 60.2,
+        "outcomes": {
+          "died": 11,
+          "kill": 8,
+          "mutual": 1
+        },
+        "own_health": 0.1145,
+        "opp_health": 0.105,
+        "wez_time": 4.34,
+        "wez_time_foe": 4.21,
+        "engaged": 1.0,
+        "first_wez": 40.9,
+        "longest_track": 2.93,
+        "min_range": 38,
+        "out_of_bounds": 0.0
+      },
+      "final_validation": {
+        "n": 20,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 20
+        },
+        "own_health": 0.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 4.46,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 638,
+        "out_of_bounds": 0.0
+      },
+      "validation_win_drop": 8,
+      "final_replay": {
+        "checkpoint_sha256": "8a31cf9d4f73cea7cda4ab709368b8eb3fe19afd13e100c2e7be45073697a1d2",
+        "replay_size": 50000,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.12558206915855408,
+          "max": 0.27430227398872375,
+          "mean": 4.1023551602847874e-05,
+          "nonzero_fraction": 1.0
+        },
+        "terminal_count": 28,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 5075,
+          "1": 5567,
+          "2": 6924,
+          "3": 4457,
+          "4": 5914,
+          "5": 6378,
+          "6": 4526,
+          "7": 4635,
+          "8": 6524
+        },
+        "greedy_action_counts_sample": {
+          "0": 216,
+          "1": 2,
+          "2": 1108,
+          "3": 585,
+          "4": 31,
+          "6": 11,
+          "7": 52,
+          "8": 43
+        },
+        "dominant_greedy_action_fraction": 0.541015625,
+        "q_min": -0.27452552318573,
+        "q_max": 16.96449089050293,
+        "analytical_global_return_bounds": [
+          -0.7,
+          1.5
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 0.9868706464767456,
+        "sampled_action_return_bound_violation_fraction": 0.9873046875,
+        "max_excess_above_state_return_bound": 15.974740982055664,
+        "mean_top_two_q_gap": 0.0057672131806612015,
+        "td_rmse": 0.05306100472807884,
+        "td_mean": -0.001091907499358058,
+        "own_weapon_zone_fraction": 0.0,
+        "opponent_weapon_zone_fraction": 0.04453999921679497,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    },
+    {
+      "reward": "potential_v1",
+      "seed": 2,
+      "training_episodes": 785,
+      "training_wins": 0,
+      "training_win_rate": 0.0,
+      "validation_first_nonzero_step": null,
+      "validation_nonzero_checkpoints": 0,
+      "validation_checkpoint_count": 20,
+      "validation_wins_by_step": [
+        {
+          "step": 51200,
+          "wins": 0
+        },
+        {
+          "step": 102400,
+          "wins": 0
+        },
+        {
+          "step": 153600,
+          "wins": 0
+        },
+        {
+          "step": 204800,
+          "wins": 0
+        },
+        {
+          "step": 256000,
+          "wins": 0
+        },
+        {
+          "step": 307200,
+          "wins": 0
+        },
+        {
+          "step": 358400,
+          "wins": 0
+        },
+        {
+          "step": 409600,
+          "wins": 0
+        },
+        {
+          "step": 460800,
+          "wins": 0
+        },
+        {
+          "step": 512000,
+          "wins": 0
+        },
+        {
+          "step": 563200,
+          "wins": 0
+        },
+        {
+          "step": 614400,
+          "wins": 0
+        },
+        {
+          "step": 665600,
+          "wins": 0
+        },
+        {
+          "step": 716800,
+          "wins": 0
+        },
+        {
+          "step": 768000,
+          "wins": 0
+        },
+        {
+          "step": 819200,
+          "wins": 0
+        },
+        {
+          "step": 870400,
+          "wins": 0
+        },
+        {
+          "step": 921600,
+          "wins": 0
+        },
+        {
+          "step": 972800,
+          "wins": 0
+        },
+        {
+          "step": 1024000,
+          "wins": 0
+        }
+      ],
+      "selected_step": 51200,
+      "selected_validation": {
+        "n": 20,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 20
+        },
+        "own_health": 0.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 4.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 753,
+        "out_of_bounds": 0.0
+      },
+      "final_validation": {
+        "n": 20,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 20
+        },
+        "own_health": 0.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 4.75,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 467,
+        "out_of_bounds": 0.0
+      },
+      "validation_win_drop": 0,
+      "final_replay": {
+        "checkpoint_sha256": "f83c6cfc2fae6290679255a93a5c708b4bd1aa2270ed975765c267930fc9169a",
+        "replay_size": 50000,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.1010243147611618,
+          "max": 0.2841584384441376,
+          "mean": -6.364651926560327e-05,
+          "nonzero_fraction": 1.0
+        },
+        "terminal_count": 48,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 2207,
+          "1": 3941,
+          "2": 6040,
+          "3": 5325,
+          "4": 5843,
+          "5": 5093,
+          "6": 6549,
+          "7": 8014,
+          "8": 6988
+        },
+        "greedy_action_counts_sample": {
+          "0": 285,
+          "1": 430,
+          "2": 371,
+          "3": 11,
+          "4": 25,
+          "5": 2,
+          "6": 210,
+          "7": 697,
+          "8": 17
+        },
+        "dominant_greedy_action_fraction": 0.34033203125,
+        "q_min": 0.5181518793106079,
+        "q_max": 30.495494842529297,
+        "analytical_global_return_bounds": [
+          -0.7,
+          1.5
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 0.9332139492034912,
+        "sampled_action_return_bound_violation_fraction": 0.93359375,
+        "max_excess_above_state_return_bound": 29.496129989624023,
+        "mean_top_two_q_gap": 0.0159563310444355,
+        "td_rmse": 0.11128820478916168,
+        "td_mean": 0.010117114521563053,
+        "own_weapon_zone_fraction": 0.0003000000142492354,
+        "opponent_weapon_zone_fraction": 0.07881999760866165,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    }
+  ],
+  "scope": "Existing validation records and final replay; no new test queries.",
+  "selected_before_test": {
+    "reward": "potential_v1",
+    "seed": 0,
+    "budget": 1024000,
+    "kind": "validation_selected",
+    "step": 921600,
+    "validation": {
+      "n": 20,
+      "kills": 13,
+      "rate": 0.65,
+      "t_kill": 64.3,
+      "outcomes": {
+        "kill": 13,
+        "timeout": 7
+      },
+      "own_health": 0.1907,
+      "opp_health": 0.0513,
+      "wez_time": 3.84,
+      "wez_time_foe": 3.45,
+      "engaged": 1.0,
+      "first_wez": 60.7,
+      "longest_track": 3.81,
+      "min_range": 173,
+      "out_of_bounds": 0.0
+    },
+    "weights": "potential_v1/s0/checkpoints/step_921600/policy_net.zip",
+    "weights_sha256": "3c0354f67428275ff1365b244ad2aace292f6ca81f926e591276a3dccae1f47a"
+  }
+}

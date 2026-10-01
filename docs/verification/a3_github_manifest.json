@@ -1,0 +1,1695 @@
+{
+  "created_utc": "2026-10-01T11:44:19.859754+00:00",
+  "source_manifest": "docs/verification/a3_artifact_manifest.json",
+  "source_manifest_sha256": "8b1e08045831a145c5b7bb6d4ef5c11d7569bc84aa64ce3e519b9dba69d71711",
+  "artifact_root": "aircombat-rl/runs/plan_a_20261001/shaping",
+  "included_file_count": 318,
+  "included_bytes": 22533615,
+  "omitted_file_count": 18,
+  "omitted_bytes": 241233136,
+  "note": "All result JSON, figures, logs, frozen source, 120 validation checkpoints, representative/final weights, and RNG metadata are included. The 18 replay buffers remain local; A3 exact continuation requires those buffers. CPU execution only; CUDA deferred by user.",
+  "files": [
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/audit.json",
+      "bytes": 392,
+      "sha256": "50867966cf983cab265a41b8d9f09923f1a7a9f53d294e808be517c4b0f1b211"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/diagnostics.json",
+      "bytes": 28771,
+      "sha256": "d30a2282d1fb2a4f2813b9f46a1fe92e17540cf477ea51179086f5551b667c7c"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/diagnostics.md",
+      "bytes": 1803,
+      "sha256": "dd6512e7612f92deba6508879e15634b5c0954c0089c289035892fa971398c24"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/environment.json",
+      "bytes": 1280,
+      "sha256": "13108e6b34805636c3854206cf43219faa89d916ee08d1991c096d11e975268b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/learning_curves.png",
+      "bytes": 124212,
+      "sha256": "dd6ed91bc4bcfe0a6ad547543e4c9ea4636fe7f801feaad32cfdac3ec4b26160"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/learning_curves.svg",
+      "bytes": 92036,
+      "sha256": "1ce12ea429bb8a3f8b259ac2c33383a78b769c9bbd6a699f192aa092772a34de"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/plan.json",
+      "bytes": 5058,
+      "sha256": "25e2f842485229bbf51428ff85286904a8fecc7ccf6a1cc67437dc23484549d9"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_102400/policy_net.zip",
+      "bytes": 134910,
+      "sha256": "fcbf5f5f8c6f08ef5062d116caf69c7238f2238cf4f491e0ee34f6ee936372f7"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_1024000/policy_net.zip",
+      "bytes": 136139,
+      "sha256": "9e1aee6adae5ae2b788107557d4693fd4d7065abd87c300d09fc0264f9578048"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_1024000/resume.json",
+      "bytes": 345,
+      "sha256": "06d1d8d89624469f1165db45ef49df74276739c3c8ae1a3739a33f15af0d71af"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_1024000/rng_state.pkl",
+      "bytes": 11851,
+      "sha256": "dd4afca7c7c67a79b8a3fafe0a982a417ef44d6e103a2077be9716a4d89a2afe"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_1024000/test_band_1300000.json",
+      "bytes": 17437,
+      "sha256": "d2a977d47140927097f319d2dcf6e56dd318fa2d1b419fa0ce0dc8aeeab165f9"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_153600/policy_net.zip",
+      "bytes": 136108,
+      "sha256": "2b70ff4e74e820cfe2919eb20a424f0fd474f291c7fdc59bb0ca1d57edebeb7d"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_204800/policy_net.zip",
+      "bytes": 136107,
+      "sha256": "ec1e8bd94e8925e93612b31baed4bc2ca43771b9af24b38b31bd7b0382dadf39"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_204800/resume.json",
+      "bytes": 343,
+      "sha256": "59e7ccadbdb58034fd38d6c820cfdb542803f629382d763be6519d354e16784f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_204800/rng_state.pkl",
+      "bytes": 11850,
+      "sha256": "7ff6e230c29bd99c254608d112c0c774962f942fe18e67970f34ecb7b3d6d6bd"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_204800/test_band_1300000.json",
+      "bytes": 17223,
+      "sha256": "8c53ac64037d2c0fa23dd7d498d0334f71b3256a7f9d59f36743218a5141c374"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_256000/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "4f6fa53e6fce9544ecaaad0deeb4a55f2249ca45f347876ba162822dda3a746b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_307200/policy_net.zip",
+      "bytes": 136136,
+      "sha256": "a2c5dd980fad4bcb4fc9e803df80304bfffca904b9ac10f9a0901127c9e5163f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_358400/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "9b67a939b9e3e891c8f4624783ac33e624a684e3da8bd830f79856bea97846f5"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_409600/policy_net.zip",
+      "bytes": 136141,
+      "sha256": "6ffbbe9fcee93627d04b4afce2ee47c539fe9e980071ded4da880a6aaddc5276"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_460800/policy_net.zip",
+      "bytes": 136138,
+      "sha256": "09db6f006d780fa4c258ff145112bcb4a18e938f446e06146732ebcbbba4a3a3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_51200/policy_net.zip",
+      "bytes": 133293,
+      "sha256": "8884b297f7751ce10b53b306a4fe490bc0ed7e080b2b8062d4574f36ed2edb3a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_51200/test_band_1300000.json",
+      "bytes": 17437,
+      "sha256": "163fb05a2841262f23d71df3863b9e81030c4b2f59fcb54e039c998a9ddd4a5b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_512000/policy_net.zip",
+      "bytes": 136141,
+      "sha256": "4516c8616081342c09def7d58dcbc7d486fb71106327ec4bf95c1fdef0104cb6"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_512000/resume.json",
+      "bytes": 344,
+      "sha256": "cccaf26a3d9b9d886bf96632c6f8db9fb3a846df5180b29c3a51d9be1b2d1070"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_512000/rng_state.pkl",
+      "bytes": 11850,
+      "sha256": "6c0b8c2cd06010d5f965060b98e9dca32430189f4e34ca9ec31d62c52debae4c"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_512000/test_band_1300000.json",
+      "bytes": 17173,
+      "sha256": "21d2d78e5e8d444dd9ae43fea53843c7e21da123dae2c699836ddae9dcc21848"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_563200/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "7e2e1d27a43c0646fc9be623c97b14e7e8678106b670239001ff3321b559e6e7"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_614400/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "4d434e0c43f4c81076fcf234b36880eb077f390c85efd2158e14368aae6f60b3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_665600/policy_net.zip",
+      "bytes": 136138,
+      "sha256": "c519864435623c2fe9a09e67a5b43ef2e8cd03470cc1cc9de5a4fa07f98f028d"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_716800/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "ce3def51d4d16cd70797f4b7d938c00371cfd3c2ce0b1bbf7b6df76e923b4e44"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_768000/policy_net.zip",
+      "bytes": 136142,
+      "sha256": "2ffce653dde37093d2274f2ae9052e03710103e3ba006cc86734aa722f40297a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_819200/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "53f1cc95024191887f373995eed1856b4acdd5ba7b278e7fb94fda93b68f82b4"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_870400/policy_net.zip",
+      "bytes": 136157,
+      "sha256": "3f12a06279a97e5b3838fcabd1cdbe0dbe7f09d648f3abf2c49b23bbe27db7f9"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_921600/policy_net.zip",
+      "bytes": 136157,
+      "sha256": "3c0354f67428275ff1365b244ad2aace292f6ca81f926e591276a3dccae1f47a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_921600/test_band_1300000.json",
+      "bytes": 17584,
+      "sha256": "42110d0ec8188318ac7b4a34a87f40355bbb12358be1d4b62bf8a0fa17576568"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_972800/policy_net.zip",
+      "bytes": 136154,
+      "sha256": "c97f799d7a9426701cb0144f8028be8c75576c7e70f13ff51897c9e330cd888a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/config.json",
+      "bytes": 1611,
+      "sha256": "1f08874849b6fae116d21a6cb8b35046e85392eb88bc54e1eed5f34341367873"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/final_net.zip",
+      "bytes": 136139,
+      "sha256": "9e1aee6adae5ae2b788107557d4693fd4d7065abd87c300d09fc0264f9578048"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/metrics/progress.csv",
+      "bytes": 13725,
+      "sha256": "3310d416017d0682fa14f45f378f9d263c73bbdb93a650127e0e0862e0adfaa6"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/policy.py",
+      "bytes": 275,
+      "sha256": "bf094f1c99d06c1f17cc57a7ce70e16fc212562eed830c75fb277fa45426ebb3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/policy_net.zip",
+      "bytes": 136157,
+      "sha256": "3c0354f67428275ff1365b244ad2aace292f6ca81f926e591276a3dccae1f47a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/progress.json",
+      "bytes": 349,
+      "sha256": "636512a88c9303d387279d743a1ef5ab4890ae33c93c7d75a21f8c4177715660"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/result.json",
+      "bytes": 433,
+      "sha256": "76e0e540f06d1286a487e1e1035a15ce61bf3625d57eaee5b2732ac1914ea3bd"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/test.log",
+      "bytes": 633,
+      "sha256": "0a86073d1edea6a8bb1533a48ae3497ce27d6c3b0e7ade265366d4c615d44af8"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/test_summary.json",
+      "bytes": 126761,
+      "sha256": "c2377f58d48cba56337b634db158f6acf91e9c95ae0ef90b766b0e73085b7b0b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/train.log",
+      "bytes": 10778,
+      "sha256": "1bcab521c525952eebdfea6bd86e8d7342e55fba056014e4d16b9b012e8ee845"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/utils.py",
+      "bytes": 9214,
+      "sha256": "614caf59d607af737e5d1906d64af672fc976f5c633022ac5bd96ef032d4b575"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/validation.json",
+      "bytes": 210970,
+      "sha256": "d1432983cbf787c89f3b14be9e140c1775607be65783158d800d11e5232ff2a1"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/wrappers.py",
+      "bytes": 459,
+      "sha256": "4b89ebda757ac43d95e82dd87764d55abf72963ec6475086a462d35e4aa641d4"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_102400/policy_net.zip",
+      "bytes": 135238,
+      "sha256": "a2d88542724feb6ba261b6632d12921864417a9002487a962ccebbe688fc5994"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_1024000/policy_net.zip",
+      "bytes": 136143,
+      "sha256": "8a31cf9d4f73cea7cda4ab709368b8eb3fe19afd13e100c2e7be45073697a1d2"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_1024000/resume.json",
+      "bytes": 345,
+      "sha256": "062ea8fb96f50478c86a7e190ae608c78d217569dfacc5b8c660924e54866631"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_1024000/rng_state.pkl",
+      "bytes": 11893,
+      "sha256": "e1918c676b2adab5d27784153400c2931573efe056fdd1bf6925fa029e785d63"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_1024000/test_band_1300000.json",
+      "bytes": 17285,
+      "sha256": "25b99a3e63e7b256b2d1d2e7ef1f33e3bcdecbf5a3a87091468de9a5d372c0f2"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_153600/policy_net.zip",
+      "bytes": 136108,
+      "sha256": "385cd1b2e3b4545b8410de708cdd0cf09694f203824f039b8b0349f2cc632676"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_153600/test_band_1300000.json",
+      "bytes": 17464,
+      "sha256": "bea55381710c9a6780c9ecb9ee838be69b8c339e3ad5104eb4e8bed0f516c9fc"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_204800/policy_net.zip",
+      "bytes": 136111,
+      "sha256": "6628c0df5fd6adc80d04b2f521b50c14da8357a033bf5f9364b0eeac17368059"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_204800/resume.json",
+      "bytes": 343,
+      "sha256": "b205f1219e973ffab81bb2657be669339504249383e7cd008be98d4879b6ff5b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_204800/rng_state.pkl",
+      "bytes": 11892,
+      "sha256": "cd6cc574a497c6df0dd1ed46ab7dac5f2693a393c0b546e5007765db15eccb32"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_204800/test_band_1300000.json",
+      "bytes": 17275,
+      "sha256": "e56461b9dc9e5191318f02e3339d15de1f3279eca77be8ab312e8f89165ebbf1"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_256000/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "279256617af0ce47a67c3d6dd0a51ef5ed2d6d8c971c85f4eddb5aecaecb4829"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_307200/policy_net.zip",
+      "bytes": 136136,
+      "sha256": "e346f90288071fde1690200c64ea8435d2c07354c865d6882e1d2642f29bceb9"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_358400/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "25b6306cece3a91246bab24b83d0551ddb92782d25634b1a56fdc7cfe94125bf"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_409600/policy_net.zip",
+      "bytes": 136141,
+      "sha256": "788c6adc30dce366742392c4817851fc6853f7e095cd41f513e10f772aacd05e"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_460800/policy_net.zip",
+      "bytes": 136142,
+      "sha256": "639d4dbbf0613a59fa3d920375817dfd5c98456326a51c17f3161f303eabd1c4"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_51200/policy_net.zip",
+      "bytes": 133545,
+      "sha256": "9b34b9ddad9d9019a276f47b61a330fd8a96eda967b3b74c08be4043482f0b15"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_512000/policy_net.zip",
+      "bytes": 136141,
+      "sha256": "d3806ddfc80b91d51c034e1732f0588ebc8d110456b7b0751a13dbe3879d91ed"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_512000/resume.json",
+      "bytes": 344,
+      "sha256": "fcdb63852da84cf341a43a5b01e55ab70f5691f0645b3fe289eabfadda38a2ad"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_512000/rng_state.pkl",
+      "bytes": 11893,
+      "sha256": "6b4420df7d97dc6a1e0978bf8815450f5e811ce3a7108a308c27d62e8db5c2c8"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_512000/test_band_1300000.json",
+      "bytes": 17520,
+      "sha256": "b56efda3fdfde3bccd11f693b02b0c2146bb0da37b1020d504e457412dc2e0d4"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_563200/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "8879302bb811fb4e295face778843ccab72eb5ba49e45d5f824d1ee7c1b003f6"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_614400/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "5bc1e54fee5daa3e4df1b3573dc63d0bbeeb010d60735f38c32d995badcfc2b4"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_665600/policy_net.zip",
+      "bytes": 136142,
+      "sha256": "34de86a5e45f70ca89735a921758c2fba994bebf11ec75bd5fdc6d9560d26562"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_716800/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "567e2b3460e2d49b046c5dcbacb1754decf0bb17bca9b2a15ed1adeebd75dfde"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_768000/policy_net.zip",
+      "bytes": 136142,
+      "sha256": "481850d7e7e1114fe2ef18233b7e12e0219d2915555231d2a18ab6db05556af3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_819200/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "c5bcae953db653507620ba829b440b007a6d69eaf2002f1ac80ffb9ecec7c501"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_870400/policy_net.zip",
+      "bytes": 136157,
+      "sha256": "8f96e737b934638345615768eecb61fafad1c224e9de87d644c272b5b325c396"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_921600/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "d7073744753755aeeb85c6ad89e6e924b3f14cebe737495cf6391d2662ee71bb"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_972800/policy_net.zip",
+      "bytes": 136154,
+      "sha256": "b07556039bae7df28a245000c9224ca0ca1efe9b6458d155eaad1a5f8ceb3a5e"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/config.json",
+      "bytes": 1611,
+      "sha256": "9807450113c39aff1692e832ffdad34a612d35aa12e00de87f624e76d52ed9f0"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/final_net.zip",
+      "bytes": 136143,
+      "sha256": "8a31cf9d4f73cea7cda4ab709368b8eb3fe19afd13e100c2e7be45073697a1d2"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/metrics/progress.csv",
+      "bytes": 16191,
+      "sha256": "bf90fc5d8fbfad9c43b2bc95b5a094ba8efa268e0d74a8df3dded7150e542edf"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/policy.py",
+      "bytes": 275,
+      "sha256": "bf094f1c99d06c1f17cc57a7ce70e16fc212562eed830c75fb277fa45426ebb3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/policy_net.zip",
+      "bytes": 136108,
+      "sha256": "385cd1b2e3b4545b8410de708cdd0cf09694f203824f039b8b0349f2cc632676"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/progress.json",
+      "bytes": 330,
+      "sha256": "9fdf773cb4c0df8590f1e809b72117efd750747e41e0afb33ebd58d6307b92de"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/result.json",
+      "bytes": 414,
+      "sha256": "ea0babde896d1f31157500b5272f24bc563c35032461792c94b0d138d8b6b992"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/test.log",
+      "bytes": 637,
+      "sha256": "fb8c7c78059ceef84905ab45ccdf6f2aba2105fed9b1b4396aa34384dcbdd187"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/test_summary.json",
+      "bytes": 126990,
+      "sha256": "46d5aa9424ac8a9804932e786aef107189491b5de2fd10c4328300ccbd822d82"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/train.log",
+      "bytes": 10040,
+      "sha256": "2a93fbbe488988507ae590619bf899f4461ba14cd88f979baefe26924776c44c"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/utils.py",
+      "bytes": 9214,
+      "sha256": "614caf59d607af737e5d1906d64af672fc976f5c633022ac5bd96ef032d4b575"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/validation.json",
+      "bytes": 210605,
+      "sha256": "6350ad65de4927a0a4d0a7a0c6ccac72c20a7ad222ceacee75cf211b5cab73e0"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/wrappers.py",
+      "bytes": 459,
+      "sha256": "4b89ebda757ac43d95e82dd87764d55abf72963ec6475086a462d35e4aa641d4"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_102400/policy_net.zip",
+      "bytes": 135238,
+      "sha256": "156056e1abe5cb5a4bcd0950b1c78ae74ffca750f734193047bea7b1d0aee5fb"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_1024000/policy_net.zip",
+      "bytes": 136139,
+      "sha256": "f83c6cfc2fae6290679255a93a5c708b4bd1aa2270ed975765c267930fc9169a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_1024000/resume.json",
+      "bytes": 345,
+      "sha256": "505fcd529e437554ff358b0fa4e66db4919c71ca0a50a95ede90e9adb504edfd"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_1024000/rng_state.pkl",
+      "bytes": 11902,
+      "sha256": "c1e8d27c9d746177a459f0de3c6a6582f4084a60dc300925592b2d547d7d711a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_1024000/test_band_1300000.json",
+      "bytes": 17228,
+      "sha256": "04360b7b0c9551e6a6ebae540d399c3dfe20ddbb586a20e84c5c0c58714d0371"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_153600/policy_net.zip",
+      "bytes": 136108,
+      "sha256": "db69bc607a447000575d85cae327bbab14da7790e6a7aec215459d7667fda45b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_204800/policy_net.zip",
+      "bytes": 136107,
+      "sha256": "668fae726575b731b7733604071bf693bcbf45b39a441cc015741abef38a819f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_204800/resume.json",
+      "bytes": 343,
+      "sha256": "0e925a473dfbeeed60357da78b3d81e9dcbb4d42befb9ea93e0d41fa2772ec9b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_204800/rng_state.pkl",
+      "bytes": 11903,
+      "sha256": "2f5d8373e399906dd8f12d11bbc568c41f746dd7d157f791c1a4d2860a2228ea"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_204800/test_band_1300000.json",
+      "bytes": 17158,
+      "sha256": "65504b89d8ff0306a3ca283ec5ff96d82657323ed4cb4851ddd2aaa46da119f1"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_256000/policy_net.zip",
+      "bytes": 136141,
+      "sha256": "ff70230e07b0b6f73b12e1fc103f71d451bf76e6553d7b98b6f7f4a7a835e593"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_307200/policy_net.zip",
+      "bytes": 136140,
+      "sha256": "71ed4a89b4b05ef6147bbfb74ffc1fdb971e86a0a633de61edda6d361aaef2ba"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_358400/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "716374a5f2c6ca4a1f7073bdd0180df313ce39541ee11d59d653bfa86019e328"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_409600/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "9398f615e239878b1c5408735e9a7e025233d7eb1c6e2960cce6da93cfa7bc26"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_460800/policy_net.zip",
+      "bytes": 136138,
+      "sha256": "018689b8cc4a24db9ae81ad5d95c9dc8fe3a3f000e5e29a2e2bdf87eb0aac1e0"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_51200/policy_net.zip",
+      "bytes": 133581,
+      "sha256": "39cef710be4f9e4c18eaca275114513cfd6eed71229f6f0222e395145eab7390"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_51200/test_band_1300000.json",
+      "bytes": 17159,
+      "sha256": "4ef4da191f160c244d35808d1146dd5e383b42b49c7a28c25833f14f98050c36"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_512000/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "c01637396605af31b505eddc98167762dca14b8750cf79e7f33d35d892a43668"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_512000/resume.json",
+      "bytes": 344,
+      "sha256": "7dd3158880557f103b6bf5a268b266e7729d10a572287cc515531ff8974b4bd7"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_512000/rng_state.pkl",
+      "bytes": 11902,
+      "sha256": "2381a76ad4fe0a1781caaddd031c0f5dfa284210dfbfbb0281df9c8c172458ca"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_512000/test_band_1300000.json",
+      "bytes": 17296,
+      "sha256": "64f8e32bf22c18767082b8c26566c6f3b8f7168acae99e7e5b2fc8c5bd85781f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_563200/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "df5b19badfec40f570dd67d4ded579b283cd4acb7e87117bc7a54a9e9e90025c"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_614400/policy_net.zip",
+      "bytes": 136141,
+      "sha256": "f45bd2119f75bade22b201df9e0e220381f4bede931e41def3177645fa063caa"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_665600/policy_net.zip",
+      "bytes": 136138,
+      "sha256": "6d51133edd1ac871825b91626c996c4e0d12dc96bab64709f42c31f2a24a0938"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_716800/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "db797ad74d8de5a890273bef34651846d3674427c6efbffc1eba4b29f3b26d33"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_768000/policy_net.zip",
+      "bytes": 136138,
+      "sha256": "6a79cf6d6965957b930277982df7369bb8684578a37f4b38c63459a45e76ba29"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_819200/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "019b9b569a27f74fd6c0105787bc1809f1849b01fcd782817d26b5b5135a023e"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_870400/policy_net.zip",
+      "bytes": 136157,
+      "sha256": "51cc87385a3a461067783be574a143684fdadc0b39e02a032e0990e400b3f208"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_921600/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "678aff095f8387e2edd2e0ab6aefa70871b4149556c07f013fde645f57cf6677"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_972800/policy_net.zip",
+      "bytes": 136154,
+      "sha256": "d82ee9d739c1c17041f79145df04062772f28a71dddbe0dde0e0585b4456deb5"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/config.json",
+      "bytes": 1611,
+      "sha256": "b3da68ceeff551e47fdbb1bfbb3abdc6553f98a30a8e4bcc8407e7e05f551363"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/final_net.zip",
+      "bytes": 136139,
+      "sha256": "f83c6cfc2fae6290679255a93a5c708b4bd1aa2270ed975765c267930fc9169a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/metrics/progress.csv",
+      "bytes": 17181,
+      "sha256": "999647d0c455b4a68615853cf2739b27a1acbb5e13fd29c9075d4ebf90ba2bea"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/policy.py",
+      "bytes": 275,
+      "sha256": "bf094f1c99d06c1f17cc57a7ce70e16fc212562eed830c75fb277fa45426ebb3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/policy_net.zip",
+      "bytes": 133581,
+      "sha256": "39cef710be4f9e4c18eaca275114513cfd6eed71229f6f0222e395145eab7390"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/progress.json",
+      "bytes": 331,
+      "sha256": "3580380c70513a6f8ff5952efc88fde03474af321a2133d2d1146dcbc698d83b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/result.json",
+      "bytes": 416,
+      "sha256": "76c67564d3e496069736ef83008ebe8d250b5bc1096ea64e7a79054054dc721f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/test.log",
+      "bytes": 631,
+      "sha256": "41b45bccddf26b8798b75b2f41ce6056023f526d6d5fd4f16945d2fb80d50c9f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/test_summary.json",
+      "bytes": 125394,
+      "sha256": "8bca780e812ad4c6ec628f1ca701973240f50251f47d23a45e4762514a8ed705"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/train.log",
+      "bytes": 9516,
+      "sha256": "77d0a0278d1139b6195b0e43a0c26de8bff9788a95ba3ad6bfc6c1f328cf1c61"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/utils.py",
+      "bytes": 9214,
+      "sha256": "614caf59d607af737e5d1906d64af672fc976f5c633022ac5bd96ef032d4b575"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/validation.json",
+      "bytes": 209236,
+      "sha256": "c5f7b27b5b151ccef4033d279c7145279bf1487f27a75be800955d405d715fa2"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/wrappers.py",
+      "bytes": 459,
+      "sha256": "4b89ebda757ac43d95e82dd87764d55abf72963ec6475086a462d35e4aa641d4"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/selected_policy/config.json",
+      "bytes": 1611,
+      "sha256": "1f08874849b6fae116d21a6cb8b35046e85392eb88bc54e1eed5f34341367873"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/selected_policy/policy.py",
+      "bytes": 275,
+      "sha256": "bf094f1c99d06c1f17cc57a7ce70e16fc212562eed830c75fb277fa45426ebb3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/selected_policy/policy_net.zip",
+      "bytes": 136157,
+      "sha256": "3c0354f67428275ff1365b244ad2aace292f6ca81f926e591276a3dccae1f47a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/selected_policy/selection.json",
+      "bytes": 28455,
+      "sha256": "0ec99fa2792d25f6b5f59f13bc1ab7c169d650ae70a6491e4e2cead8af3c54cc"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/selected_policy/test.json",
+      "bytes": 17584,
+      "sha256": "42110d0ec8188318ac7b4a34a87f40355bbb12358be1d4b62bf8a0fa17576568"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/selected_policy/utils.py",
+      "bytes": 9214,
+      "sha256": "614caf59d607af737e5d1906d64af672fc976f5c633022ac5bd96ef032d4b575"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/selected_policy/wrappers.py",
+      "bytes": 459,
+      "sha256": "4b89ebda757ac43d95e82dd87764d55abf72963ec6475086a462d35e4aa641d4"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/selection.json",
+      "bytes": 28455,
+      "sha256": "0ec99fa2792d25f6b5f59f13bc1ab7c169d650ae70a6491e4e2cead8af3c54cc"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/__init__.py",
+      "bytes": 350,
+      "sha256": "7a7d34804096c97d9edd29c334271a78380613c4add004c5864b1686f6b92bee"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/core/__init__.py",
+      "bytes": 269,
+      "sha256": "3388185b1d766cf03f8295dc3f0ccd2216518699d5b7a840136746ba1ac2916e"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/core/aircraft.py",
+      "bytes": 4885,
+      "sha256": "d154ade534a67afe6dfefbbbd1c7b91c4547a3c175ed3a16b3a47315b57bc48c"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/core/backends/__init__.py",
+      "bytes": 73,
+      "sha256": "950fc433f31a37986cb0e98ca9ba735b5fd79819dc91110738cc93dfd243e449"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/core/backends/base.py",
+      "bytes": 4040,
+      "sha256": "4f81d90411ea799ee905de1b17f55b695231ee4ee607be30cea6ed6679b2b5b3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/core/backends/jsbsim_f16.py",
+      "bytes": 11079,
+      "sha256": "6adeca0c79decaa5c1e6c1133a3df7d9a71ad17db99686ece7ae1b0460883537"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/core/control/__init__.py",
+      "bytes": 46,
+      "sha256": "e4fcf37f183a55a5094189038c8da574862799fbe19f161816498707fc18d916"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/core/control/autopilot.py",
+      "bytes": 13351,
+      "sha256": "e894b37a95e440f30364cd714e14d844c65cfbbadbadf17f8d5b8f11c35f1068"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/core/envelope.py",
+      "bytes": 8367,
+      "sha256": "8be7361782c21532eaf9a0826fb84481e1f3457b7010282b97c6b06fbb64d0e9"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/core/tacview.py",
+      "bytes": 9659,
+      "sha256": "0039039ab99b1bc055a87081ace71db3b1ee6eac6fbe8c0372d80f4c9220bc76"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/tools/__init__.py",
+      "bytes": 384,
+      "sha256": "1e53eed17378808e9923747a76802bde02b6d26731338c2e64741fd582bbf730"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/tools/auto_operation.py",
+      "bytes": 8950,
+      "sha256": "c1b81ac6fd6f863032cbc364175e688f161eb0c85b301b3cebf0500519bb20b3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/tools/manual_operation.py",
+      "bytes": 51191,
+      "sha256": "d81b3df0ff1596e081af539f664474cb64651fdfea7bbf7bdc8147ddef8b52af"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/tools/render.py",
+      "bytes": 35010,
+      "sha256": "44cdc7a5b6133afc8e8689183d5a5798d3c0d71c99917483c95266bec84d2a3f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/wvr/__init__.py",
+      "bytes": 552,
+      "sha256": "ee36aa27a15459ca87e7d349c13cb3646a2d5f5c2f4a4bfb4aa5a9a636c65c85"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/wvr/actions.py",
+      "bytes": 4094,
+      "sha256": "2c05fde386971b3e1aacd773a3186f0847bbc801aebe394be00fd35d72a73f7c"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/wvr/baselines.py",
+      "bytes": 12393,
+      "sha256": "5137356c7808d699689fa9a71596ca7ce415ca0be6265457953268f805e1db1b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/wvr/engagement.py",
+      "bytes": 8296,
+      "sha256": "478765a4fe4a0f1d68cc1583e1b2f3dc2869f4fcc9d3240b3328aa47742414b9"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/wvr/envs/__init__.py",
+      "bytes": 2029,
+      "sha256": "7b4aa45227b35a0787e789f5b2230efc2358311298c45d0a1f81c28694fc016a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/wvr/envs/advantaged.py",
+      "bytes": 7451,
+      "sha256": "f54f5cfb833505f8321e6141b964978f269a4a64c62a61c41553bf80862ac50e"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/wvr/envs/base.py",
+      "bytes": 28690,
+      "sha256": "878de26ba2e393af0f506828b364024bc8587db021fc12550fa90c336de8a0f1"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/wvr/envs/circular.py",
+      "bytes": 4562,
+      "sha256": "e545b15e18515978d905091e83bb1476cd7ddb9c4e46fdcb6ed7ced1f448a2f7"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/wvr/envs/evader.py",
+      "bytes": 4989,
+      "sha256": "545c944caefc5c64fe155c30a6319d6ae8a4d6ad1aa010ed4ef092c2e165998c"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/wvr/envs/fair.py",
+      "bytes": 5771,
+      "sha256": "f7f5429c240eef866662876ac2d6cd11925b5d73c52032547e67fad49771082f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/wvr/obs.py",
+      "bytes": 8006,
+      "sha256": "ab08af221d27df2bcb7a233b540134c25fc2f891f035d6a6d3a0485711c1a7e4"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/aircombat_gym/wvr/play.py",
+      "bytes": 15158,
+      "sha256": "04cd830eabee8c185df305a83310ac593335c31c8ce214dec5c0b39c0acf9576"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/experiments/plan_a/core.py",
+      "bytes": 9214,
+      "sha256": "614caf59d607af737e5d1906d64af672fc976f5c633022ac5bd96ef032d4b575"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/experiments/plan_a/shaping.md",
+      "bytes": 4791,
+      "sha256": "bca38bd7a666040bdbb62132d858b3dc6fbd4471197f01147fea687e3dfea55b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/git_diff.patch",
+      "bytes": 10324,
+      "sha256": "8c229f06d20b921db779a1152e59e58780afd5f18bbcff31e850900789f7cece"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/requirements-portable.txt",
+      "bytes": 223,
+      "sha256": "90e8b25849aa337d2a9fbba1a3faf9132646a3ed5ded4d82543466f0c7628e6f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/tests/test_plan_a_shaping.py",
+      "bytes": 7718,
+      "sha256": "1d878ad44d848782491e80931435451d8a0088c3db2dbf118b647e70991986f8"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/tools/grade.py",
+      "bytes": 9920,
+      "sha256": "75e9d0ab945e0510da5880604b7edff3b61f00a48205783fa30a605a132d90e2"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/tools/plan_a.py",
+      "bytes": 16738,
+      "sha256": "0b733bb537202708d8c6ac630d03b7514aba072b9166684df8baa6949187ac08"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/tools/plan_a_long.py",
+      "bytes": 10548,
+      "sha256": "15cf426425669be3db480fd439cdf9b5da386086f086b4131b11f93cb70355f6"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/tools/plan_a_shaping.py",
+      "bytes": 16842,
+      "sha256": "71c0db9b87d9c959c6bd2385ee8d44c5dc2921af67e4cccd2256d2d7d0040ba7"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/tools/policies.py",
+      "bytes": 5367,
+      "sha256": "a91e1f86a20760bf972c2676b3cf9134b203655a249968179acef9bb57d74bca"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/source_snapshot/tools/resume_dqn.py",
+      "bytes": 9872,
+      "sha256": "57066cd28629893b8f82d5b073527e9cf23867fbf88fcc245b8d68fc99631329"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/summary.json",
+      "bytes": 30297,
+      "sha256": "ff545269c5adc064794d15d077b3895931852161145a59866ca9ee633ba2666f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_102400/policy_net.zip",
+      "bytes": 134498,
+      "sha256": "dc9d8549d5c8ba700d98929ab81e4f24b3e44446fa95e20822297abbcb5f101f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_1024000/policy_net.zip",
+      "bytes": 136139,
+      "sha256": "40e301e4d7a8460127782ba0ac8434fef812c0521d3c85648b3fb4cbac7d6717"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_1024000/resume.json",
+      "bytes": 345,
+      "sha256": "daaa8cbae5664103141ac09b2be53771e406c94fdd94146bcca21cfdae98a398"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_1024000/rng_state.pkl",
+      "bytes": 11851,
+      "sha256": "cc54046ebd68b9875fdd4498a102e2203a7c38d66bb214123c44dcd5f0e05ed7"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_1024000/test_band_1300000.json",
+      "bytes": 17381,
+      "sha256": "21902535e29fd0fe9750a9cf65b02fa3a94f436c454d1f682e010c95c62a6a25"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_153600/policy_net.zip",
+      "bytes": 136063,
+      "sha256": "5d23c96191afce6672a419a0c6528cd1127c5301e40e1026c842132632bb3c14"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_204800/policy_net.zip",
+      "bytes": 136107,
+      "sha256": "ad3dfce3574bd13de9fbd072ffec1f8578cb5d56a2a4b92b907ec97ec3a17249"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_204800/resume.json",
+      "bytes": 343,
+      "sha256": "eade65bf604f182c35b258c69b2aaedbd86816706a3cc81249c68c5d03478e56"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_204800/rng_state.pkl",
+      "bytes": 11850,
+      "sha256": "f0ecf5a4becd2e2192bb244d65d2f6085535bfd9774aeabe725fe09b9e477847"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_204800/test_band_1300000.json",
+      "bytes": 17181,
+      "sha256": "eac8cd2f541274d93c01dd4b5003d7824f9ab73bcaa9e77ea14838a3028daf01"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_256000/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "9cb148884f37c8fa356548a29d1be85b15177b1f3bcbb784eb537825608b07fa"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_307200/policy_net.zip",
+      "bytes": 136136,
+      "sha256": "4033bb398ebd941d60f82b6ff36a152e47a58fdf7705f87a32ef1684fe9b988e"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_358400/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "5f0872970374170326f4414c06fa87bdab20161554f0efc2167250385be4790c"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_358400/test_band_1300000.json",
+      "bytes": 17288,
+      "sha256": "20569f1edc74f2eadc46ca30a7248f3ebbc9ea697020cd6f46409f2f9a3554c9"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_409600/policy_net.zip",
+      "bytes": 136141,
+      "sha256": "ab6dc0a24c50c12656aec4ae1d1899ccf3ba3bc65f4f8a979f36d7f8309698b3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_460800/policy_net.zip",
+      "bytes": 136138,
+      "sha256": "a512f1b54d9bd7e54ad01dc8a4e24c1450dbbcc18dc80cd9d781f87fef39ec46"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_51200/policy_net.zip",
+      "bytes": 133209,
+      "sha256": "c1da8a73000283ebb1da7ef47265d2c2f919e46c3737e10034f125e975c5a38b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_51200/test_band_1300000.json",
+      "bytes": 17340,
+      "sha256": "390a7a6a22324a793c6000a49a0be410775ad409d0ad6a737e07ffcf57cb12b1"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_512000/policy_net.zip",
+      "bytes": 136141,
+      "sha256": "7f57d9126157b8ddd0eed207e508f86d487bbc4fe95c7b6e6df32301edae06f1"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_512000/resume.json",
+      "bytes": 344,
+      "sha256": "02c1dec2f1898fcea7b7d47c7931417716b17fa752ca1b5b0ee85b1ce35b4ac2"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_512000/rng_state.pkl",
+      "bytes": 11850,
+      "sha256": "0756eae7021d97f734cb7efe9fd67c5e37e2aba11d343c2b958165f9117605a4"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_512000/test_band_1300000.json",
+      "bytes": 17457,
+      "sha256": "346c34a8f0e0ea438c55f59494dc87cb9de37457a1867b8b628f54c17c82d35f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_563200/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "7059955e36d0e0af14d88b7a12ad3e76b01464d94f2faf0b28038b30b3a117de"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_614400/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "dba0174816f9db3e4b44d9d38838de9c5d0827ed948d419ec5a06346c1ad5167"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_665600/policy_net.zip",
+      "bytes": 136138,
+      "sha256": "14f4900439f8e5859326d3cd7600696f6ca1c3fc5e22339a0b74e1f267405be1"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_716800/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "a6c3d9f7e9ece8b3356061ce34987df0f59fd371c93b414ff452f617c5aaed1a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_768000/policy_net.zip",
+      "bytes": 136142,
+      "sha256": "17ab0f63e651e265e2d5a723c12e8f9523e84fa1079010a237d1c4ba99fd4bca"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_819200/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "262b5e4f54707daefd26b5bea3c49735288b83344556a8bab461ab24ac6a01a7"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_870400/policy_net.zip",
+      "bytes": 136157,
+      "sha256": "7f88c630bc70ca1f3f2f641b116ae5daf0e6befb62c3b282021144f3a5cfb9f3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_921600/policy_net.zip",
+      "bytes": 136157,
+      "sha256": "5fd919ad9b61a86705c729a7986861f54811c22c134e4e21dc4abaf6042e2656"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_921600/test_band_1300000.json",
+      "bytes": 17404,
+      "sha256": "8ffe6ababf17dd64e9d0d49540aa8e35e2ee0eb8faeec75f173f0e2db07c0f88"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_972800/policy_net.zip",
+      "bytes": 136154,
+      "sha256": "68280f7727323d8e355520cf69575f22480de75499088755ab54548874de1691"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/config.json",
+      "bytes": 1580,
+      "sha256": "7ab2700ee91c2a4345cd063c3494b2ef908a3709e059fd1a77172097545cb5f4"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/final_net.zip",
+      "bytes": 136139,
+      "sha256": "40e301e4d7a8460127782ba0ac8434fef812c0521d3c85648b3fb4cbac7d6717"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/metrics/progress.csv",
+      "bytes": 15688,
+      "sha256": "96f13a3ad18515fd2906be62404494fcd34814e5fafabd90ffb498d4f8a15528"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/policy.py",
+      "bytes": 275,
+      "sha256": "bf094f1c99d06c1f17cc57a7ce70e16fc212562eed830c75fb277fa45426ebb3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/policy_net.zip",
+      "bytes": 136157,
+      "sha256": "5fd919ad9b61a86705c729a7986861f54811c22c134e4e21dc4abaf6042e2656"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/progress.json",
+      "bytes": 331,
+      "sha256": "0ec08e7c47162e2f3765cc9169e19a1b6b14108d9a4a5b0456a55ed60d8a40c5"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/result.json",
+      "bytes": 415,
+      "sha256": "a2f7b67588191e9a721c812ea2ac357e9aa088d4787cc9173dbe4cf4197590fe"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/test.log",
+      "bytes": 610,
+      "sha256": "b9d0a16dc79791d37cce716f148e3df2ab13a84a98405de3fb71383f6417c864"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/test_summary.json",
+      "bytes": 126448,
+      "sha256": "2b6c62f1ec066688fd20be69c74f8aa84c99629ad3a89917afac0c9b4937b170"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/train.log",
+      "bytes": 9470,
+      "sha256": "f000a48eb41ad4492a314d1ec371b5155f87ec4b35d4f0519f1dcde26de07d89"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/utils.py",
+      "bytes": 9214,
+      "sha256": "614caf59d607af737e5d1906d64af672fc976f5c633022ac5bd96ef032d4b575"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/validation.json",
+      "bytes": 210919,
+      "sha256": "679ba4e019e6739b7b4c9dfb2984c10a01d46f64fb0d4a86240ce2f77f300d86"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/wrappers.py",
+      "bytes": 433,
+      "sha256": "b2d8a6e2c53f4de10527b70f889af437908b34e66c8a5f30ed7711ba230cb36f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_102400/policy_net.zip",
+      "bytes": 134906,
+      "sha256": "7c1f1196db9d722ada6c5ac3ecbea6318ca8f634a7aa3f037c20aa78fac22c11"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_1024000/policy_net.zip",
+      "bytes": 136143,
+      "sha256": "79b6971d63c89d24ee0f78cd4593903a085a8bb0be1ef445d62e2643dce1f177"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_1024000/resume.json",
+      "bytes": 345,
+      "sha256": "b97c97686d48a87cb5ef2ed09391055f44612058cd882ede71d8cd8a6423fa5c"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_1024000/rng_state.pkl",
+      "bytes": 11893,
+      "sha256": "b57143f856a2faf444ef4fe9fd4f87cbc720a5354de7a47bac33287927af6eb9"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_1024000/test_band_1300000.json",
+      "bytes": 17199,
+      "sha256": "0931060f626e963e2c040e37853322aad64261696719539952f68dacfb318dbc"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_153600/policy_net.zip",
+      "bytes": 136108,
+      "sha256": "9610e5a75a6fec58bd3c4b9db6eb88375d620b00d7bfc3c329ec52891ed9cffe"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_204800/policy_net.zip",
+      "bytes": 136111,
+      "sha256": "d5cfb70a4f2e4f5b09a368e9a4dcfcddb219196d660b16db49d18244e2c9032e"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_204800/resume.json",
+      "bytes": 343,
+      "sha256": "7d3944cfadae1c31a0f399d2dcc92028912c5400ed9fd45d4dbf4f40e8fcec77"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_204800/rng_state.pkl",
+      "bytes": 11892,
+      "sha256": "d06c240dbb4d445a8d19691713f7bd1fbc473c5175207bea9bad4773985f998f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_204800/test_band_1300000.json",
+      "bytes": 17217,
+      "sha256": "24040746c82a1e0feba98ba93e91d227468c6da96db745b5e359b44916a94859"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_256000/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "f964355a33063576b9618045a155a86a46b1301296ee24c43883939c5ba83ed0"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_307200/policy_net.zip",
+      "bytes": 136136,
+      "sha256": "313aa138d44da1c9ecf7d1cb10c50c10985d18445751befdaf3cf8f012a9c85d"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_358400/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "e0c77b141f03df160f297f77c2bdeebbd038fcb2952d64bca324de16551da69a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_409600/policy_net.zip",
+      "bytes": 136141,
+      "sha256": "379aa53e79233eb18a0e610f06b91a16bf36f32d2a607211d7dac12848fdc527"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_460800/policy_net.zip",
+      "bytes": 136142,
+      "sha256": "b44fc669b546e5beaae770585584a7b92458b133e4f2eb790198aa07a9e10872"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_51200/policy_net.zip",
+      "bytes": 133381,
+      "sha256": "590e41ff94226e699c0ee12cdfa88a18993f372bdaf512e979f0bc36c08fd635"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_51200/test_band_1300000.json",
+      "bytes": 17194,
+      "sha256": "d049c293b374673eb2aecdb963af55a40405886c4f41b0f2dcb84bcd80e9ea1d"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_512000/policy_net.zip",
+      "bytes": 136141,
+      "sha256": "6ddbdae939f422f5b33a46e97774d4f9264c0c3f1e07f01cf8170e117addf2ab"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_512000/resume.json",
+      "bytes": 344,
+      "sha256": "4aebf3e1e605c64a95b94f6f4f4df06017a54b3ff8de9f40c8fbfc4d7d2468b8"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_512000/rng_state.pkl",
+      "bytes": 11893,
+      "sha256": "eca902491d7a73b39d0bfff1c8ea50be216016818d9a99dd8d6f5be0bdc0f0d0"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_512000/test_band_1300000.json",
+      "bytes": 17290,
+      "sha256": "c21e220cc5f2d387a1ccd791e3be355c096034ac51cd12cf3ffe927f0dd0d217"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_563200/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "ada34f9ef36f016f35e63723a37ead49c441800696ae92464f09449e2848657a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_614400/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "3613fbc118bcf0facb49a250d4c1952a1bff4ca50db803651a8c4675f72705c0"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_614400/test_band_1300000.json",
+      "bytes": 17599,
+      "sha256": "972a267f2f0a1ad7fcc3bea4acc1220ba41aaca3616270849163b567fb936591"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_665600/policy_net.zip",
+      "bytes": 136142,
+      "sha256": "98e32cf9e6d818161fcb55cbd447f63727a80d6361d11d795743e49abb36628f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_716800/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "66bd3e6e805721dfa88e402c1a41d57f54d248d7f59e5a3ee0d980f1d4b872d6"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_768000/policy_net.zip",
+      "bytes": 136142,
+      "sha256": "4fb258aaaa79657b7aa6fbedabf6f6d719aa39cb2029ea998198fd4d3c5447c1"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_819200/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "a027ee390d061ffb51ba5fd6b991cc8f400ef5e3f094954f84e0e6133a9ccff7"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_870400/policy_net.zip",
+      "bytes": 136157,
+      "sha256": "e3ed6da214b66cf83e3d198b16fdb8aaeb0aeb1c2170a2a1eb11e500a957138b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_921600/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "42efedcb7594954f2ffe42688ce108118d934283a5211e56d76ef69a3e1141c5"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_972800/policy_net.zip",
+      "bytes": 136154,
+      "sha256": "b5022a45d8d5cb35a036bf73e0be345adf7d034b02639985cd73e1bbf1823a4f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/config.json",
+      "bytes": 1580,
+      "sha256": "6ac62abb6850c10b6b52f77df651099b365f5c216b834c94f270e15c005c2751"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/final_net.zip",
+      "bytes": 136143,
+      "sha256": "79b6971d63c89d24ee0f78cd4593903a085a8bb0be1ef445d62e2643dce1f177"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/metrics/progress.csv",
+      "bytes": 15708,
+      "sha256": "315f57395337a7d71c0300e4de6f33745e61cf84822d6d327503ab260556ea7a"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/policy.py",
+      "bytes": 275,
+      "sha256": "bf094f1c99d06c1f17cc57a7ce70e16fc212562eed830c75fb277fa45426ebb3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "3613fbc118bcf0facb49a250d4c1952a1bff4ca50db803651a8c4675f72705c0"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/progress.json",
+      "bytes": 330,
+      "sha256": "4ae7b9c85289858b71ccb8e6665e9e247390b3b29bf869d29113484aa4a6fa23"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/result.json",
+      "bytes": 415,
+      "sha256": "24e49f73f8689feb41e3b7d97ee04b98bfb384ee934390cd70a81f92ce9112ed"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/test.log",
+      "bytes": 608,
+      "sha256": "97b77bd6f3af3091c97fccf340a167ccb3b878d394ce8c79a2de88e41925dafc"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/test_summary.json",
+      "bytes": 126023,
+      "sha256": "41d7d99067905a180dc19eb5074e2226027f4f48476496f2a5c7e3a3ae0b75dd"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/train.log",
+      "bytes": 9862,
+      "sha256": "5ffc6e62aaf5ffe464ea0c41df16dd47de3844523353e89f10768c1b614aa258"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/utils.py",
+      "bytes": 9214,
+      "sha256": "614caf59d607af737e5d1906d64af672fc976f5c633022ac5bd96ef032d4b575"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/validation.json",
+      "bytes": 209992,
+      "sha256": "c9a9b37211aff506cc319bb73b5c763c18848ced7d6d0b50bceeef43afca2bb2"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/wrappers.py",
+      "bytes": 433,
+      "sha256": "b2d8a6e2c53f4de10527b70f889af437908b34e66c8a5f30ed7711ba230cb36f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_102400/policy_net.zip",
+      "bytes": 134782,
+      "sha256": "8eb74b8fa715777d6032c1a8ad70ccf54c1d05288c7910c63ce0c775ba8f989d"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_1024000/policy_net.zip",
+      "bytes": 136139,
+      "sha256": "8d1711ba59d3864a76f191b7e6749a7efa09cf3eebd86c6608601d268a07cf2f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_1024000/resume.json",
+      "bytes": 345,
+      "sha256": "87e6e491533fbb711c7aeb1c3f1027b57bbee610b908d0531d3e6ba19b6cb058"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_1024000/rng_state.pkl",
+      "bytes": 11902,
+      "sha256": "7d75de2bc52d2b8d749ae9136622c449512cf7a6b04ae45e0925af28134e7b78"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_1024000/test_band_1300000.json",
+      "bytes": 17260,
+      "sha256": "3e320378a543740bf6583216f7884231e14e6abf22357a251868ba252ad19737"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_153600/policy_net.zip",
+      "bytes": 136108,
+      "sha256": "6d2044d9f732e9ed5176496116c36716fbcbd3b90bd9dc10d184f7fa67b82a69"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_204800/policy_net.zip",
+      "bytes": 136107,
+      "sha256": "f43d8d65836d3cf68b7d7bc55016401687cdd659760ff552b87cf40c659caa5d"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_204800/resume.json",
+      "bytes": 343,
+      "sha256": "3501cdbc5b4d30db4bfbfa1adcdbbd28b3e20637276f5f87031fbf9c6258e0cd"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_204800/rng_state.pkl",
+      "bytes": 11903,
+      "sha256": "09002a4560d7a79c4252d5d100b0463fa652a64c22031a4605c417d71b838401"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_204800/test_band_1300000.json",
+      "bytes": 17240,
+      "sha256": "507292db26e51e74f45ad2f8182962efb25d0bf81cab4c65e82362a11e362225"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_256000/policy_net.zip",
+      "bytes": 136141,
+      "sha256": "321aae0f772120596951b2c0be1881464a72cf09e319759f0b45900e5ae2266f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_307200/policy_net.zip",
+      "bytes": 136140,
+      "sha256": "b0f237a33594c21ed941789816c8926553b7706e2b4d563ebaf126562dec65e1"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_358400/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "399e5a6427f568bdb4338dd6f1a5b34d019761a50a6bada1e0814a6297ab6c39"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_409600/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "ec15a4de0cc8c691be9ee8b767c91b8e9f89c4dd8ac153d58beaeb9b5eff9c87"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_460800/policy_net.zip",
+      "bytes": 136138,
+      "sha256": "fc0821cec5b3f846f968605cc620966c62d1f7b119e3e76da3f2d89f4a383edb"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_51200/policy_net.zip",
+      "bytes": 133417,
+      "sha256": "67ecd75fe250bf55f095480b1be8980f1c93169851131ae86b72c69af2f6d571"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_51200/test_band_1300000.json",
+      "bytes": 17174,
+      "sha256": "f60b5d356158908acb35180f2ae1f600e2eadbd208866cb16f4b8cca20169592"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_512000/policy_net.zip",
+      "bytes": 136137,
+      "sha256": "aa8520495a50ac5242be086c42685d6c7203fa801e2fc2f281a7b3159d813387"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_512000/resume.json",
+      "bytes": 344,
+      "sha256": "1628fa11ae992ae3c94ec474f81bc36f5d1fcbab06da9d13decea8db197790de"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_512000/rng_state.pkl",
+      "bytes": 11902,
+      "sha256": "9d1f0cc1959f165750e96ca2eaf71fec16510ef83c05b06970835fc0eb5b43ee"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_512000/test_band_1300000.json",
+      "bytes": 17625,
+      "sha256": "2c7a2c1920fcadad550249e3fd7df3936e038525eb51bbd5166c1c3c2cc81d3b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_563200/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "9dd14af6789691c8d24ecdaae2982920b213ada69a701655bc18d49a3417b351"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_614400/policy_net.zip",
+      "bytes": 136141,
+      "sha256": "4881ff343f19e10df90acccaa24d619c71d3681c67139295497dad6dbb8585c4"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_665600/policy_net.zip",
+      "bytes": 136138,
+      "sha256": "b0a38715af0e2cdc20896b180dafb4b649aec6072d41ece8ad7d0d252da911ef"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_665600/test_band_1300000.json",
+      "bytes": 17416,
+      "sha256": "dffc9eecb38983d947928299ac49cb8a0f92ceed0c703968d90a29503236589c"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_716800/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "1d8273ae92b612ae93ffcce4611ef36e254f3b2010dcc1325e6f1d9d933635af"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_768000/policy_net.zip",
+      "bytes": 136138,
+      "sha256": "f3f8a8b32bb11cf37f95b25bbc734b5b3216d8b3a36409026c94e6eb2d49f74c"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_819200/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "f2427fe0721330f2d70567348e44442df27a9a0886ad7085745345053115e218"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_870400/policy_net.zip",
+      "bytes": 136157,
+      "sha256": "c7362433d60c68c0fdb220b91596f52fad61e6858f69477f4be03e48569f4e07"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_921600/policy_net.zip",
+      "bytes": 136153,
+      "sha256": "5e8d99015f88bf1000be4d79487092d8e5990be3a055a316b523ac2331d6d85d"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_972800/policy_net.zip",
+      "bytes": 136154,
+      "sha256": "2f8813b87c1605a2ee2ba9611be5d1cbc4585643cca1f0a750ec259394fd1403"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/config.json",
+      "bytes": 1580,
+      "sha256": "61e107154791274ebb52b1b515f5e63b05f1b9e1fa0022a2a7db47896caf72e7"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/final_net.zip",
+      "bytes": 136139,
+      "sha256": "8d1711ba59d3864a76f191b7e6749a7efa09cf3eebd86c6608601d268a07cf2f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/metrics/progress.csv",
+      "bytes": 16421,
+      "sha256": "eccbd9d4dc05168d400ffc4648cf01dcdd5769f69ddb3d5614d15d2bf695c41b"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/policy.py",
+      "bytes": 275,
+      "sha256": "bf094f1c99d06c1f17cc57a7ce70e16fc212562eed830c75fb277fa45426ebb3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/policy_net.zip",
+      "bytes": 136138,
+      "sha256": "b0a38715af0e2cdc20896b180dafb4b649aec6072d41ece8ad7d0d252da911ef"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/progress.json",
+      "bytes": 348,
+      "sha256": "b280a417be52a2f9de0dede95a8c928d8845011dbc646f6af4a23a4ea431a53e"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/result.json",
+      "bytes": 433,
+      "sha256": "77159fde3b540cbbc90df142c0aad71362d022f93d89180e2a6b05afe4071e63"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/test.log",
+      "bytes": 608,
+      "sha256": "e114ea70dcf750b26a5f7a36b3db402359bd92c2307c95864e37bb1e356a73c7"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/test_summary.json",
+      "bytes": 126206,
+      "sha256": "b45bc1f6a7d035f755e0f3d87b13f0341905e471208f2f79c9ccff2e38d2af2d"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/train.log",
+      "bytes": 9755,
+      "sha256": "973e4144a2a281e7d870b18c56c40fda47a50c97ea48d84a235be2e4903a3814"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/utils.py",
+      "bytes": 9214,
+      "sha256": "614caf59d607af737e5d1906d64af672fc976f5c633022ac5bd96ef032d4b575"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/validation.json",
+      "bytes": 210291,
+      "sha256": "7922ea7ee7ec0eae24aba52aad27e30abecc922ec6a6480035a74ee3fc5aadbf"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/wrappers.py",
+      "bytes": 433,
+      "sha256": "b2d8a6e2c53f4de10527b70f889af437908b34e66c8a5f30ed7711ba230cb36f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/test_summary.json",
+      "bytes": 757807,
+      "sha256": "5391bc0d56656da64b34c10dc265162d99b0f92ad3c03ae52aca87d47ccbaec4"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/timing.json",
+      "bytes": 97,
+      "sha256": "4b52a73db553a2eb15512ced42cb6694d1040479ab8a7669fb7eee7453420b78"
+    }
+  ],
+  "local_only_files": [
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_1024000/replay_buffer.pkl",
+      "bytes": 13401840,
+      "sha256": "f72d331bafef094bd411e28915ec6d5c940835f92f07d80803719fab62a4463d"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_204800/replay_buffer.pkl",
+      "bytes": 13401839,
+      "sha256": "1d7964523a054502ceff97056df9ca35631742fae6f53c4a9530558993d8d689"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s0/checkpoints/step_512000/replay_buffer.pkl",
+      "bytes": 13401842,
+      "sha256": "65cc9da599b582c6d1039b56249aa64c5020689709d94b36eda68b418654b040"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_1024000/replay_buffer.pkl",
+      "bytes": 13401843,
+      "sha256": "ad7b78749c252b3abcf62e321b388df2f9c877ca453fb110491310f1c99d5ec3"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_204800/replay_buffer.pkl",
+      "bytes": 13401843,
+      "sha256": "2c191218bfda3ead0d0bb7327fae5a9433627d02788c8f438b25cb511b078847"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s1/checkpoints/step_512000/replay_buffer.pkl",
+      "bytes": 13401842,
+      "sha256": "35fd9224592684a0f96b9c613db272a8456c3bd455ca8b31ac2f292c89c8cc83"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_1024000/replay_buffer.pkl",
+      "bytes": 13401841,
+      "sha256": "efc20537c4b048df35eb0b46436603f37cbaa9f4b1f424ea06c4a4d7dbc96d10"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_204800/replay_buffer.pkl",
+      "bytes": 13401839,
+      "sha256": "b012fcd98a9a929e307dd124ee0f69fb90b8479849385d97bfd379f4d53b9f4c"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/potential_v1/s2/checkpoints/step_512000/replay_buffer.pkl",
+      "bytes": 13401839,
+      "sha256": "494a858528c6d74c99ee8348003f7223f25dd9f369d197055ac085f7dd833580"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_1024000/replay_buffer.pkl",
+      "bytes": 13401840,
+      "sha256": "51a29c8675232073546861de05d6f0512dac0a527a6e8665730eea0477af1a1e"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_204800/replay_buffer.pkl",
+      "bytes": 13401839,
+      "sha256": "8e1215a892896e867fbc7ee26b84aef27ef5d611e049a5fbe3347428d3756753"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s0/checkpoints/step_512000/replay_buffer.pkl",
+      "bytes": 13401842,
+      "sha256": "40e44616f4fb6fa090314ac01ad9f504d85094dc064711d7620e6d0650f25741"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_1024000/replay_buffer.pkl",
+      "bytes": 13401843,
+      "sha256": "74d832f55a304900becaac01bae6ee2bea5d3e86848d36ddb2d0eae428c32c20"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_204800/replay_buffer.pkl",
+      "bytes": 13401843,
+      "sha256": "ea9ccd342b323ccc6a82b8b021808c2b1edd1cb66a902b56993b853544e558e1"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s1/checkpoints/step_512000/replay_buffer.pkl",
+      "bytes": 13401842,
+      "sha256": "ca3576ae61e548525639a0f1ba503e93a014025879aa1ae6d65a63cde90bb352"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_1024000/replay_buffer.pkl",
+      "bytes": 13401841,
+      "sha256": "2c602d6066cd5405a6677e4309966f3f3b5cefb7bf6d310b61105fe8f5ab0b7f"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_204800/replay_buffer.pkl",
+      "bytes": 13401839,
+      "sha256": "17e16c3ef612eaa160285337fba445ac95b015419fe5974302aa5c546b0e0a69"
+    },
+    {
+      "path": "aircombat-rl/runs/plan_a_20261001/shaping/terminal/s2/checkpoints/step_512000/replay_buffer.pkl",
+      "bytes": 13401839,
+      "sha256": "9fc4f328d2a2d4a8262e92512849e69897761551691d4974158d10dd9dc7c93e"
+    }
+  ]
+}

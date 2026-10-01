@@ -1,5 +1,6 @@
 from argparse import Namespace
 import json
+import hashlib
 
 import pytest
 import torch
@@ -11,12 +12,17 @@ from tools.plan_a import export_design, save_training_state, write_json
 from tools import resume_dqn
 
 
-def test_resume_keeps_replay_optimizer_counters_and_fixed_exploration(tmp_path, monkeypatch):
+@pytest.mark.parametrize("reward", ["terminal", "potential_v1"])
+def test_resume_keeps_replay_optimizer_counters_and_fixed_exploration(tmp_path, monkeypatch, reward):
     torch.set_num_threads(1)
     source, output = tmp_path / "source", tmp_path / "continued"
-    spec = specification("observed_dqn")
+    spec = dict(specification("observed_dqn"), reward=reward)
     export_design(source, spec)
-    write_json(source / "config.json", dict(spec=spec))
+    # Simulate a trusted archived core differing from the current working tree.
+    with (source / "utils.py").open("a", encoding="utf-8") as stream:
+        stream.write("\n# Frozen historical run.\n")
+    frozen_hash = hashlib.sha256((source / "utils.py").read_bytes()).hexdigest()
+    write_json(source / "config.json", dict(spec=spec, source_sha256=frozen_hash))
     model = make_learner(spec, 0)
     model.learning_starts = 8
     model.exploration_schedule = LinearSchedule(0.05, 0.05, 1)

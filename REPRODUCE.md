@@ -52,8 +52,8 @@ OS, Pip, Python, GPU/드라이버에 맞는 CUDA 빌드를 선택한다.
 ```
 
 마지막 결과가 `True`여야 재개 명령에 `--device cuda`를 사용한다.
-목적 컴퓨터의 GPU와 드라이버는 아직 확인하지 않았으므로 CUDA 빌드를 임의로 고정하지 않았다.
-실제 CUDA 학습은 이 노트북에서 검증하지 않았다.
+이 절은 이전 PC 이관 당시의 일반 설치 안내다. 새 PC의 RTX 5080과 드라이버는 확인했지만
+Windows DLL 차단으로 실제 CUDA 학습은 검증하지 못했다. 현재는 CUDA 사용을 보류한다.
 
 ### Intel XPU — 기존 Windows 환경과 같은 구성
 
@@ -147,3 +147,35 @@ CUDA로 바뀌는 명령은 위 `tools.resume_dqn --device cuda` 또는 각 과�
 가중치 저장과 검증을 확인했다. 다른 컴퓨터의 장치 검증은 위 설치 점검으로 수행한다.
 GitHub에서 다시 clone한 복사본에서도 같은 재개 점검을 통과했다.
 [전체 검증 기록](docs/verification/clone_smoke.json)에 당시 커밋과 결과를 남겼다.
+
+## 2026-10-01 새 PC 검증 추가
+
+Ryzen 7 9800X3D / Python 3.12.10의 CPU 환경은
+`aircombat-rl/requirements-windows-cpu.lock.txt`에 고정했다.
+Windows에서 한글 경로를 사용할 때는 Python 명령에 `-X utf8`을 지정한다.
+패키지 메타데이터 기록은 `pip freeze`의 한글 Git 경로 오류를 피하도록 표준 라이브러리로 수집한다.
+
+`resume_dqn`은 실행 폴더의 source_sha256을 검증한 뒤 저장 당시 utils.py를 불러온다.
+현재 소스에 A3 보상이 추가돼도 이전 sparse 모델은 이전 보상으로 재개된다.
+보상 조건을 바꾸면서 과거 버퍼를 재사용하는 명령은 아니다.
+
+RTX 5080을 인식했지만 별도 CUDA 환경은 Windows 애플리케이션 제어에서 DLL 로딩이 차단됐다.
+`.venv-cuda` 설치 완료만으로 CUDA 사용이 검증된 것은 아니다.
+자세한 결과는 [새 PC 검증 기록](docs/verification/new_pc_a3.json)에 있다.
+
+
+## A3 결과의 GitHub 보관 범위
+
+[보관 목록](docs/verification/a3_github_manifest.json)의 `files`에는 업로드한 A3 산출물
+318개의 상대 경로·크기·SHA-256이 있다. 평가 JSON, 학습/검증 로그, 그래프,
+고정 소스, 120개 검증 체크포인트, 대표·최종 가중치와 RNG 기록을 포함한다.
+`local_only_files`의 재생 버퍼 18개는 약 230 MiB이며 원래 PC에 보존한다.
+[전체 로컬 목록](docs/verification/a3_artifact_manifest.json)은 두 범위를 합친 336개 파일의 기록이다.
+
+clone만으로 A3 모델 평가와 결과 열람이 가능하다. A3 체크포인트에서
+`tools.resume_dqn`으로 학습 상태를 이어가거나 `tools.diagnose_shaping`으로
+버퍼 진단을 다시 수행하려면 필요한 `replay_buffer.pkl`을 원래 상대 경로에 복사하고
+목록의 해시와 일치하는지 확인해야 한다. 기존 duration 실험의 버퍼는 계속 저장소에 포함한다.
+
+CUDA DLL 차단 해결과 GPU 사용은 사용자 결정으로 보류했다.
+Smart App Control을 포함한 Windows 보안 설정은 변경하지 않았다.
