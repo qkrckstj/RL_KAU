@@ -1,0 +1,25 @@
+{
+    "cpu":  {
+                "Name":  "Intel(R) Core(TM) Ultra X7 358H",
+                "NumberOfCores":  16,
+                "NumberOfLogicalProcessors":  16
+            },
+    "gpu":  {
+                "Name":  "Intel(R) Arc(TM) B390 GPU",
+                "DriverVersion":  "32.0.101.8622"
+            },
+    "battery_before":  {
+                           "BatteryStatus":  1,
+                           "EstimatedChargeRemaining":  36
+                       },
+    "power_scheme":  {
+                         "guid":  "ab6534a3-bc02-4c44-94d1-a8535b2eb070",
+                         "name":  "SAMSUNG MODE"
+                     },
+    "captured_at":  "2026-10-01T14:26:44.4514474+09:00",
+    "battery_after":  {
+                          "BatteryStatus":  1,
+                          "EstimatedChargeRemaining":  34
+                      },
+    "completed_at":  "2026-10-01T14:31:14.4029963+09:00"
+}

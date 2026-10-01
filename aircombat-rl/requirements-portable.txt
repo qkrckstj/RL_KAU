@@ -1,0 +1,8 @@
+# Install a CPU/CUDA/XPU PyTorch build for the destination FIRST.
+# Main experiment dependencies, validated with Python 3.12.
+jsbsim==1.3.0
+numpy==2.5.3
+gymnasium==1.3.0
+pygame==2.6.1
+stable_baselines3==2.9.0
+pytest==9.1.1

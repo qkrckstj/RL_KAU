@@ -1,0 +1,7 @@
+{
+  "seed": 2,
+  "policy_parameters_bitwise_equal": true,
+  "max_parameter_absolute_difference": 0.0,
+  "first_five_validation_episode_lists_equal": true,
+  "previous_model": "C:\\Users\\qkrck\\Desktop\\강화학습\\aircombat-rl\\runs\\plan_a_20261001\\comparison\\observed_dqn\\s2\\final_net.zip"
+}

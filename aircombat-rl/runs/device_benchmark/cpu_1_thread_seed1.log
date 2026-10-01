@@ -1,0 +1,9 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.0 [GitHub build 1742/commit 01ea7816288dce9e9f6a1a6dc048014bc65d699e] Apr  9 2026 10:02:36
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+RESULT {"device": "cpu", "cpu_threads": 1, "interop_threads": 16, "seed": 1, "steps": 10000, "gradient_updates": 2250, "episodes": 4, "training_seconds": 14.809065199980978, "steps_per_second": 675.2620685344032, "imports_seconds": 1.9457276000175625, "throwaway_warmup_seconds": 2.1886825999827124, "model_setup_seconds": 0.025512600026559085, "initial_weights_sha256": "867cc0b7d6b6dd181b16d1e9d2ffbfb692b13733d38543a10c3537faef23fce0", "python": "3.12.13", "torch": "2.14.1+xpu", "gpu": null}
+

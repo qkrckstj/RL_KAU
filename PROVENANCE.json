@@ -1,0 +1,13 @@
+{
+  "upstream": "https://github.com/inmo-jang/aircombat-rl",
+  "upstream_commit": "4141a2996507e7f0b2e7a8af26815832b5e13d52",
+  "copied_source_files": 75,
+  "layout": "aircombat-rl/ plus root-level planning document",
+  "omitted": [
+    ".git",
+    ".venv",
+    "bytecode caches",
+    "solutions private instructor submodule",
+    "locally downloaded reference PDFs"
+  ]
+}

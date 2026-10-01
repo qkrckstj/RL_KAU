@@ -1,0 +1,31 @@
+{
+  "task": "fair",
+  "variant": "observed_dqn",
+  "budgets": [
+    204800,
+    512000,
+    1024000
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "epsilon_decay_steps": 20480,
+  "val_every": 51200,
+  "val_n": 20,
+  "val_band": 900000,
+  "test_band": 1200000,
+  "test_n": 40,
+  "workers": 3,
+  "cpu_threads_per_worker": 1,
+  "source_sha256": {
+    "tools/plan_a.py": "8cb5bc23415f0e74aea2e11cc912f0a1111bdf67da59797fb77fb41eb6090325",
+    "tools/plan_a_long.py": "15cf426425669be3db480fd439cdf9b5da386086f086b4131b11f93cb70355f6",
+    "experiments/plan_a/core.py": "13422eda2f5c2b84132e066fef0b05f1603076135a544cbcff05373f14e1f193",
+    "tests/test_plan_a_long.py": "18db97f0a3119a84359a1ceed1b0ca949ea972c8966cc85f74b1f0734fad6a13",
+    "requirements-windows-xpu.lock.txt": "43423f502a945e32e6259e6ce479508441b6e0a4bd832c7bcb0f660b2f2c33c5"
+  },
+  "selection": "Wins then win time; ties earlier checkpoint, then lower seed.",
+  "comparison": "Fresh trajectories; selected-within-budget and fixed endpoints; same held-out test."
+}

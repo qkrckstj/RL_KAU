@@ -1,0 +1,18 @@
+{
+  "source_hashes_match": true,
+  "checkpoint_copy_matches": true,
+  "test_rows_verified": 18,
+  "test_conditions_per_model": 40,
+  "seats_balanced": true,
+  "selection_precedes_test": true,
+  "document_links_checked": 44,
+  "policy_checkpoints_saved": 60,
+  "replay_snapshots_verified": 9,
+  "focused_tests_passed": 8,
+  "exact_prefix_reproduction_seeds": [
+    0,
+    1,
+    2
+  ],
+  "final_learner_budgets_and_parameters_verified": true
+}

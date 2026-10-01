@@ -1,0 +1,155 @@
+[
+  {
+    "status": "complete",
+    "variant": "observed_dqn",
+    "seed": 0,
+    "steps": 204800,
+    "best_step": 51200,
+    "best_val_kills": 0,
+    "val_n": 20,
+    "train_outcomes": {
+      "died": 145,
+      "timeout": 9
+    },
+    "gradient_update_counter": 50950,
+    "wall_seconds": 226.86874669999816,
+    "evaluation_seconds": 47.31787610001629,
+    "finished_utc": "2026-10-01T06:01:20.426204+00:00"
+  },
+  {
+    "status": "complete",
+    "variant": "control_dqn",
+    "seed": 0,
+    "steps": 204800,
+    "best_step": 51200,
+    "best_val_kills": 0,
+    "val_n": 20,
+    "train_outcomes": {
+      "died": 138,
+      "timeout": 6
+    },
+    "gradient_update_counter": 50950,
+    "wall_seconds": 236.47825490002288,
+    "evaluation_seconds": 63.165255700063426,
+    "finished_utc": "2026-10-01T06:01:30.025080+00:00"
+  },
+  {
+    "status": "complete",
+    "variant": "observed_ppo",
+    "seed": 0,
+    "steps": 204800,
+    "best_step": 51200,
+    "best_val_kills": 0,
+    "val_n": 20,
+    "train_outcomes": {
+      "died": 140,
+      "timeout": 5
+    },
+    "gradient_update_counter": 2000,
+    "wall_seconds": 311.02577890001703,
+    "evaluation_seconds": 92.36549070011824,
+    "finished_utc": "2026-10-01T06:02:44.573732+00:00"
+  },
+  {
+    "status": "complete",
+    "variant": "control_dqn",
+    "seed": 1,
+    "steps": 204800,
+    "best_step": 51200,
+    "best_val_kills": 0,
+    "val_n": 20,
+    "train_outcomes": {
+      "died": 130,
+      "timeout": 7
+    },
+    "gradient_update_counter": 50950,
+    "wall_seconds": 232.63765420002164,
+    "evaluation_seconds": 62.15180689987028,
+    "finished_utc": "2026-10-01T06:05:17.212612+00:00"
+  },
+  {
+    "status": "complete",
+    "variant": "observed_dqn",
+    "seed": 1,
+    "steps": 204800,
+    "best_step": 51200,
+    "best_val_kills": 0,
+    "val_n": 20,
+    "train_outcomes": {
+      "died": 154,
+      "timeout": 5
+    },
+    "gradient_update_counter": 50950,
+    "wall_seconds": 238.67813040001784,
+    "evaluation_seconds": 61.028686100034975,
+    "finished_utc": "2026-10-01T06:05:32.746484+00:00"
+  },
+  {
+    "status": "complete",
+    "variant": "observed_ppo",
+    "seed": 1,
+    "steps": 204800,
+    "best_step": 51200,
+    "best_val_kills": 0,
+    "val_n": 20,
+    "train_outcomes": {
+      "died": 12,
+      "timeout": 78
+    },
+    "gradient_update_counter": 2000,
+    "wall_seconds": 343.141237200005,
+    "evaluation_seconds": 130.55399070004933,
+    "finished_utc": "2026-10-01T06:08:31.525540+00:00"
+  },
+  {
+    "status": "complete",
+    "variant": "control_dqn",
+    "seed": 2,
+    "steps": 204800,
+    "best_step": 51200,
+    "best_val_kills": 0,
+    "val_n": 20,
+    "train_outcomes": {
+      "died": 137,
+      "timeout": 6
+    },
+    "gradient_update_counter": 50950,
+    "wall_seconds": 225.36264199996367,
+    "evaluation_seconds": 55.648460300057195,
+    "finished_utc": "2026-10-01T06:09:06.270225+00:00"
+  },
+  {
+    "status": "complete",
+    "variant": "observed_dqn",
+    "seed": 2,
+    "steps": 204800,
+    "best_step": 204800,
+    "best_val_kills": 6,
+    "val_n": 20,
+    "train_outcomes": {
+      "died": 143,
+      "timeout": 5
+    },
+    "gradient_update_counter": 50950,
+    "wall_seconds": 232.33934690000024,
+    "evaluation_seconds": 56.35482570005115,
+    "finished_utc": "2026-10-01T06:09:28.888851+00:00"
+  },
+  {
+    "status": "complete",
+    "variant": "observed_ppo",
+    "seed": 2,
+    "steps": 204800,
+    "best_step": 51200,
+    "best_val_kills": 0,
+    "val_n": 20,
+    "train_outcomes": {
+      "died": 162,
+      "timeout": 10
+    },
+    "gradient_update_counter": 1993,
+    "wall_seconds": 281.87084779998986,
+    "evaluation_seconds": 63.661738999944646,
+    "finished_utc": "2026-10-01T06:13:17.187099+00:00"
+  }
+]

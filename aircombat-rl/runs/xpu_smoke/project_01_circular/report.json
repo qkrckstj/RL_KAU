@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "project": "project_01_circular",
+  "python": "3.12.13",
+  "torch": "2.14.1+xpu",
+  "gpu": "Intel(R) Arc(TM) B390 GPU",
+  "device": "xpu",
+  "steps": 1200,
+  "gradient_updates": 50,
+  "weights_changed": true,
+  "weights_finite": true,
+  "checkpoint_reload_xpu_and_cpu": true,
+  "training_seconds": 2.625,
+  "note": "Compatibility check only; not a performance or win-rate benchmark."
+}

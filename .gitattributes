@@ -1,0 +1,8 @@
+# Preserve checkpoint/source-snapshot hashes on Windows and Linux.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Archived logs/patches are immutable experiment evidence.
+aircombat-rl/runs/** -whitespace
+*.zip binary
+*.pkl binary
+*.png binary
+*.gif binary

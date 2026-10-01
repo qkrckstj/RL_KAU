@@ -1,0 +1,29 @@
+{
+  "selected_before_test_utc": "2026-10-01T06:14:14.597686+00:00",
+  "variant": "observed_dqn",
+  "training_seed": 2,
+  "checkpoint_step": 204800,
+  "source_run": "runs/plan_a_20261001/comparison/observed_dqn/s2",
+  "criterion": "Validation kills, then mean time-to-kill, then fewer inputs and lower seed for ties. No final test results used.",
+  "validation": {
+    "n": 20,
+    "kills": 6,
+    "rate": 0.3,
+    "t_kill": 77.9,
+    "outcomes": {
+      "died": 12,
+      "kill": 6,
+      "mutual": 1,
+      "timeout": 1
+    },
+    "own_health": 0.0959,
+    "opp_health": 0.4982,
+    "wez_time": 2.71,
+    "wez_time_foe": 4.45,
+    "engaged": 0.6,
+    "first_wez": 44.0,
+    "longest_track": 1.63,
+    "min_range": 190,
+    "out_of_bounds": 0.0
+  }
+}

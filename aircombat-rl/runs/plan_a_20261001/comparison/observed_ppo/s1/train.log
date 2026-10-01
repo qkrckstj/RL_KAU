@@ -1,0 +1,32 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.0 [GitHub build 1742/commit 01ea7816288dce9e9f6a1a6dc048014bc65d699e] Apr  9 2026 10:02:36
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+VAL observed_ppo s1 step=0 kills=0/20 outcomes={'died': 18, 'timeout': 2}
+TRAIN observed_ppo s1 step=10000 outcomes={'died': 7}
+TRAIN observed_ppo s1 step=20000 outcomes={'died': 12, 'timeout': 1}
+TRAIN observed_ppo s1 step=30000 outcomes={'died': 12, 'timeout': 5}
+TRAIN observed_ppo s1 step=40000 outcomes={'died': 12, 'timeout': 9}
+TRAIN observed_ppo s1 step=50000 outcomes={'died': 12, 'timeout': 13}
+VAL observed_ppo s1 step=51200 kills=0/20 outcomes={'timeout': 20}
+TRAIN observed_ppo s1 step=60000 outcomes={'died': 12, 'timeout': 17}
+TRAIN observed_ppo s1 step=70000 outcomes={'died': 12, 'timeout': 21}
+TRAIN observed_ppo s1 step=80000 outcomes={'died': 12, 'timeout': 26}
+TRAIN observed_ppo s1 step=90000 outcomes={'died': 12, 'timeout': 30}
+TRAIN observed_ppo s1 step=100000 outcomes={'died': 12, 'timeout': 34}
+VAL observed_ppo s1 step=102400 kills=0/20 outcomes={'timeout': 20}
+TRAIN observed_ppo s1 step=110000 outcomes={'died': 12, 'timeout': 38}
+TRAIN observed_ppo s1 step=120000 outcomes={'died': 12, 'timeout': 42}
+TRAIN observed_ppo s1 step=130000 outcomes={'died': 12, 'timeout': 46}
+TRAIN observed_ppo s1 step=140000 outcomes={'died': 12, 'timeout': 51}
+TRAIN observed_ppo s1 step=150000 outcomes={'died': 12, 'timeout': 55}
+VAL observed_ppo s1 step=153600 kills=0/20 outcomes={'timeout': 20}
+TRAIN observed_ppo s1 step=160000 outcomes={'died': 12, 'timeout': 59}
+TRAIN observed_ppo s1 step=170000 outcomes={'died': 12, 'timeout': 63}
+TRAIN observed_ppo s1 step=180000 outcomes={'died': 12, 'timeout': 67}
+TRAIN observed_ppo s1 step=190000 outcomes={'died': 12, 'timeout': 71}
+TRAIN observed_ppo s1 step=200000 outcomes={'died': 12, 'timeout': 76}
+VAL observed_ppo s1 step=204800 kills=0/20 outcomes={'timeout': 20}

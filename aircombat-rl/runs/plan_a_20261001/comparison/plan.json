@@ -1,0 +1,22 @@
+{
+  "task": "fair",
+  "variants": [
+    "control_dqn",
+    "observed_dqn",
+    "observed_ppo"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "steps": 204800,
+  "val_every": 51200,
+  "val_n": 20,
+  "val_band": 900000,
+  "test_band": 1100000,
+  "test_n": 40,
+  "workers": 3,
+  "selection": "validation kills, then mean time-to-kill; ties keep earlier trained checkpoint",
+  "notes": "Same sparse rewards, gamma, finite-match handling, action space, environment budget, validation episodes; fixed algorithm-specific optimizer settings."
+}

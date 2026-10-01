@@ -1,0 +1,31 @@
+{
+  "spec": {
+    "variant": "control_dqn",
+    "task": "fair",
+    "algorithm": "dqn",
+    "observation": "baseline",
+    "gamma": 0.999,
+    "finite_match": true,
+    "action_mode": "discrete",
+    "feature_version": 1
+  },
+  "seed": 0,
+  "steps": 204800,
+  "val_every": 51200,
+  "val_n": 20,
+  "val_band": 900000,
+  "test_band_reserved": 1100000,
+  "python": "3.12.13",
+  "torch": "2.14.1+xpu",
+  "stable_baselines3": "2.9.0",
+  "device": "cpu",
+  "cpu_threads": 1,
+  "source_sha256": "13422eda2f5c2b84132e066fef0b05f1603076135a544cbcff05373f14e1f193",
+  "git_head": "4141a2996507e7f0b2e7a8af26815832b5e13d52",
+  "started_utc": "2026-10-01T05:57:32.083657+00:00",
+  "features": [
+    "range",
+    "own_health"
+  ],
+  "parameter_count_including_targets": 9874
+}
