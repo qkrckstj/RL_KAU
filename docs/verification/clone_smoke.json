@@ -1,0 +1,22 @@
+{
+  "verified_utc": "2026-10-01T08:48:02.393890+00:00",
+  "remote": "https://github.com/qkrckstj/RL_KAU.git",
+  "commit": "cfc663dbe3d4af5972b20444919136a3abbfb1a0",
+  "archived_files_verified": 361,
+  "project_imports_from_fresh_clone": true,
+  "resume_smoke": {
+    "status": "complete",
+    "steps": 204928,
+    "start_step": 204800,
+    "gradient_updates_before": 50950,
+    "gradient_updates_after": 50982,
+    "replay_size_before": 50000,
+    "replay_size_after": 50000,
+    "best_step": 204800,
+    "best_validation_kills": 0,
+    "train_outcomes": {},
+    "finished_utc": "2026-10-01T08:48:01.817096+00:00"
+  },
+  "dependencies": "Existing validated Windows Python environment; destination CUDA hardware not tested.",
+  "full_suite_passed": 62
+}

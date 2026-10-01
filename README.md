@@ -62,3 +62,12 @@ aircombat-rl/
 기반 코드: [inmo-jang/aircombat-rl](https://github.com/inmo-jang/aircombat-rl),
 커밋 `4141a2996507e7f0b2e7a8af26815832b5e13d52`.
 교수자용 비공개 `solutions` submodule과 개인 Python 환경은 복사하지 않았다.
+
+## 이관 검증
+
+이관한 코드에서 전체 테스트 **62개**가 통과했다.
+GitHub에 올린 뒤 별도 폴더에 다시 clone하여 실험 파일 **361개**의 해시를 확인했고,
+대표 체크포인트에서 **128스텝 재개**도 성공했다. 기존 50,000개 버퍼를 유지하면서
+학습 갱신이 50,950회에서 50,982회로 늘었다.
+[검증 기록](docs/verification/clone_smoke.json)을 함께 보관한다.
+이 검증은 기존 Windows Python 환경에서 수행했으며 새 컴퓨터의 CUDA 하드웨어 검증은 별도다.
