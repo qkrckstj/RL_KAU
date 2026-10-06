@@ -1,0 +1,26 @@
+{
+  "controls": {
+    "untuned_initial": [
+      40.0,
+      300.0,
+      350.0,
+      0.5,
+      0.0,
+      1.0,
+      3.75
+    ],
+    "untuned_anchor": [
+      120.0,
+      300.0,
+      300.0,
+      0.0,
+      0.0,
+      0.0,
+      3.75
+    ]
+  },
+  "band": 2000000,
+  "matches": 200,
+  "policy_sha256": "32b13f6c75d9b43edf77c14ccda9beaf4bd39cf712e168f909c83c0b74142fdf",
+  "purpose": "Frozen before heldout, untuned controls; never used for model selection"
+}

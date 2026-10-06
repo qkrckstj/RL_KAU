@@ -1,0 +1,47 @@
+{
+  "frozen_utc": "2026-10-05T10:53:30.542712+00:00",
+  "choices": [
+    {
+      "capacity": 50000,
+      "kind": "starting",
+      "step": 1024000,
+      "weights": "checkpoints/step_1024000/policy_net.zip",
+      "sha256": "4d82a5e57c22b9a4ac5929c29c51b6dc7329dcb78e47b9bee057264682a67de0"
+    },
+    {
+      "capacity": 50000,
+      "kind": "validation_selected",
+      "step": 1024000,
+      "weights": "policy_net.zip",
+      "sha256": "4d82a5e57c22b9a4ac5929c29c51b6dc7329dcb78e47b9bee057264682a67de0"
+    },
+    {
+      "capacity": 50000,
+      "kind": "final",
+      "step": 1024128,
+      "weights": "final_net.zip",
+      "sha256": "21db2b7ca344bec0b72bc8d490d5a0cc9295daddeeb654aa9c0a6d1ce5c675e8"
+    },
+    {
+      "capacity": 500000,
+      "kind": "starting",
+      "step": 1024000,
+      "weights": "checkpoints/step_1024000/policy_net.zip",
+      "sha256": "b5852b0d612b3838b17d1a99e9caa68e15a73b863fb43805cb4898bf73bfb64d"
+    },
+    {
+      "capacity": 500000,
+      "kind": "validation_selected",
+      "step": 1024000,
+      "weights": "policy_net.zip",
+      "sha256": "b5852b0d612b3838b17d1a99e9caa68e15a73b863fb43805cb4898bf73bfb64d"
+    },
+    {
+      "capacity": 500000,
+      "kind": "final",
+      "step": 1024128,
+      "weights": "final_net.zip",
+      "sha256": "6973361768fec9c820774460e1b324bff32860a1e0325b132ce5ef3ca353f4ca"
+    }
+  ]
+}

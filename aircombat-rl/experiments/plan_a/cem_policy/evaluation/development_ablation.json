@@ -1,0 +1,77 @@
+{
+  "full": {
+    "n": 40,
+    "kills": 40,
+    "rate": 1.0,
+    "t_kill": 57.3,
+    "outcomes": {
+      "kill": 40
+    },
+    "own_health": 0.3012,
+    "opp_health": 0.0,
+    "wez_time": 4.42,
+    "wez_time_foe": 3.07,
+    "engaged": 1.0,
+    "first_wez": 44.5,
+    "longest_track": 3.79,
+    "min_range": 109,
+    "out_of_bounds": 0.0
+  },
+  "always_left_same_opening_speed": {
+    "n": 40,
+    "kills": 10,
+    "rate": 0.25,
+    "t_kill": 79.5,
+    "outcomes": {
+      "died": 29,
+      "kill": 10,
+      "mutual": 1
+    },
+    "own_health": 0.0458,
+    "opp_health": 0.0883,
+    "wez_time": 5.04,
+    "wez_time_foe": 4.76,
+    "engaged": 1.0,
+    "first_wez": 44.5,
+    "longest_track": 2.77,
+    "min_range": 109,
+    "out_of_bounds": 0.0
+  },
+  "both_speeds_300": {
+    "n": 40,
+    "kills": 29,
+    "rate": 0.725,
+    "t_kill": 60.0,
+    "outcomes": {
+      "died": 11,
+      "kill": 29
+    },
+    "own_health": 0.2032,
+    "opp_health": 0.0762,
+    "wez_time": 4.44,
+    "wez_time_foe": 3.63,
+    "engaged": 1.0,
+    "first_wez": 40.3,
+    "longest_track": 3.09,
+    "min_range": 45,
+    "out_of_bounds": 0.0
+  },
+  "no_opening": {
+    "n": 40,
+    "kills": 0,
+    "rate": 0.0,
+    "t_kill": null,
+    "outcomes": {
+      "died": 40
+    },
+    "own_health": 0.0,
+    "opp_health": 0.9299,
+    "wez_time": 0.77,
+    "wez_time_foe": 5.7,
+    "engaged": 0.8,
+    "first_wez": 27.0,
+    "longest_track": 0.77,
+    "min_range": 214,
+    "out_of_bounds": 0.0
+  }
+}

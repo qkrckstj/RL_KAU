@@ -1,0 +1,107 @@
+{
+  "records": [
+    {
+      "status": "complete",
+      "steps": 131072,
+      "best_step": 32768,
+      "best_validation_wins": 8,
+      "final_validation": {
+        "n": 20,
+        "kills": 4,
+        "rate": 0.2,
+        "t_kill": 61.6,
+        "outcomes": {
+          "died": 16,
+          "kill": 4
+        },
+        "own_health": 0.0565,
+        "opp_health": 0.2274,
+        "wez_time": 3.49,
+        "wez_time_foe": 4.92,
+        "engaged": 1.0,
+        "first_wez": 40.5,
+        "longest_track": 3.07,
+        "min_range": 28,
+        "out_of_bounds": 0.0
+      },
+      "train_wins": 36,
+      "train_episodes": 84
+    },
+    {
+      "status": "complete",
+      "steps": 131072,
+      "best_step": 32768,
+      "best_validation_wins": 7,
+      "final_validation": {
+        "n": 20,
+        "kills": 5,
+        "rate": 0.25,
+        "t_kill": 83.7,
+        "outcomes": {
+          "died": 11,
+          "kill": 5,
+          "mutual": 1,
+          "timeout": 3
+        },
+        "own_health": 0.0457,
+        "opp_health": 0.1935,
+        "wez_time": 3.78,
+        "wez_time_foe": 4.81,
+        "engaged": 1.0,
+        "first_wez": 48.4,
+        "longest_track": 3.07,
+        "min_range": 79,
+        "out_of_bounds": 0.0
+      },
+      "train_wins": 32,
+      "train_episodes": 81
+    },
+    {
+      "status": "complete",
+      "steps": 131072,
+      "best_step": 65536,
+      "best_validation_wins": 8,
+      "final_validation": {
+        "n": 20,
+        "kills": 7,
+        "rate": 0.35,
+        "t_kill": 69.7,
+        "outcomes": {
+          "died": 13,
+          "kill": 7
+        },
+        "own_health": 0.091,
+        "opp_health": 0.1715,
+        "wez_time": 4.17,
+        "wez_time_foe": 4.43,
+        "engaged": 1.0,
+        "first_wez": 40.4,
+        "longest_track": 2.93,
+        "min_range": 29,
+        "out_of_bounds": 0.0
+      },
+      "train_wins": 28,
+      "train_episodes": 79
+    }
+  ],
+  "fixed_baseline": {
+    "n": 20,
+    "kills": 7,
+    "rate": 0.35,
+    "t_kill": 61.2,
+    "outcomes": {
+      "died": 13,
+      "kill": 7
+    },
+    "own_health": 0.0967,
+    "opp_health": 0.1674,
+    "wez_time": 4.12,
+    "wez_time_foe": 4.32,
+    "engaged": 1.0,
+    "first_wez": 40.4,
+    "longest_track": 3.0,
+    "min_range": 34,
+    "out_of_bounds": 0.0
+  },
+  "stage": "development screening only"
+}

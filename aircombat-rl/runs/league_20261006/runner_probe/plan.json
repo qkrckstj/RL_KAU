@@ -1,0 +1,202 @@
+{
+  "band": 33000000,
+  "n": 12,
+  "foe": {
+    "id": "evader",
+    "kind": "bot",
+    "name": "evader"
+  },
+  "candidates": [
+    {
+      "id": "pursuit_600_lead0",
+      "kind": "reactive",
+      "parameters": [
+        0.0,
+        600.0,
+        600.0,
+        0.0,
+        0.0,
+        0.3,
+        3.0,
+        -1.0,
+        0.0,
+        0.0,
+        600.0,
+        0.0,
+        60.0,
+        90.0,
+        600.0,
+        120.0,
+        0.0
+      ]
+    },
+    {
+      "id": "pursuit_600_lead3",
+      "kind": "reactive",
+      "parameters": [
+        0.0,
+        600.0,
+        600.0,
+        3.0,
+        0.0,
+        0.3,
+        3.0,
+        -1.0,
+        0.0,
+        0.0,
+        600.0,
+        0.0,
+        60.0,
+        90.0,
+        600.0,
+        120.0,
+        0.0
+      ]
+    },
+    {
+      "id": "pursuit_600_lead6",
+      "kind": "reactive",
+      "parameters": [
+        0.0,
+        600.0,
+        600.0,
+        6.0,
+        0.0,
+        0.3,
+        3.0,
+        -1.0,
+        0.0,
+        0.0,
+        600.0,
+        0.0,
+        60.0,
+        90.0,
+        600.0,
+        120.0,
+        0.0
+      ]
+    },
+    {
+      "id": "pursuit_650_lead0",
+      "kind": "reactive",
+      "parameters": [
+        0.0,
+        650.0,
+        650.0,
+        0.0,
+        0.0,
+        0.3,
+        3.0,
+        -1.0,
+        0.0,
+        0.0,
+        650.0,
+        0.0,
+        60.0,
+        90.0,
+        650.0,
+        120.0,
+        0.0
+      ]
+    },
+    {
+      "id": "pursuit_650_lead3",
+      "kind": "reactive",
+      "parameters": [
+        0.0,
+        650.0,
+        650.0,
+        3.0,
+        0.0,
+        0.3,
+        3.0,
+        -1.0,
+        0.0,
+        0.0,
+        650.0,
+        0.0,
+        60.0,
+        90.0,
+        650.0,
+        120.0,
+        0.0
+      ]
+    },
+    {
+      "id": "pursuit_650_lead6",
+      "kind": "reactive",
+      "parameters": [
+        0.0,
+        650.0,
+        650.0,
+        6.0,
+        0.0,
+        0.3,
+        3.0,
+        -1.0,
+        0.0,
+        0.0,
+        650.0,
+        0.0,
+        60.0,
+        90.0,
+        650.0,
+        120.0,
+        0.0
+      ]
+    },
+    {
+      "id": "fast_until_1000",
+      "kind": "reactive",
+      "parameters": [
+        0.0,
+        650.0,
+        500.0,
+        6.0,
+        0.0,
+        0.3,
+        3.0,
+        -1.0,
+        0.0,
+        1000.0,
+        650.0,
+        0.0,
+        60.0,
+        90.0,
+        500.0,
+        120.0,
+        0.0
+      ]
+    },
+    {
+      "id": "fast_until_1500",
+      "kind": "reactive",
+      "parameters": [
+        0.0,
+        650.0,
+        500.0,
+        6.0,
+        0.0,
+        0.3,
+        3.0,
+        -1.0,
+        0.0,
+        1500.0,
+        650.0,
+        0.0,
+        60.0,
+        90.0,
+        500.0,
+        120.0,
+        0.0
+      ]
+    }
+  ],
+  "waiting_for_pids": [
+    37932,
+    39804
+  ],
+  "source_sha256": "83744d8980bc75680cb9f6d6add5ccd3b15fad0b8b542441124aa5617e7682b0",
+  "parent_rule": "Frozen development-selected refinement, otherwise development pool choice, otherwise main champion; never ranked by sealed test",
+  "scope": "Exploratory runner diagnosis, same official physics and 120s, no impossibility claim"
+}

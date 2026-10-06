@@ -1,0 +1,63 @@
+{
+  "untuned_initial": {
+    "n": 200,
+    "kills": 25,
+    "rate": 0.125,
+    "t_kill": 60.3,
+    "outcomes": {
+      "died": 114,
+      "kill": 25,
+      "mutual": 6,
+      "timeout": 55
+    },
+    "own_health": 0.1072,
+    "opp_health": 0.3091,
+    "wez_time": 3.24,
+    "wez_time_foe": 4.6,
+    "engaged": 1.0,
+    "first_wez": 40.4,
+    "longest_track": 2.87,
+    "min_range": 68,
+    "out_of_bounds": 0.0
+  },
+  "untuned_anchor": {
+    "n": 200,
+    "kills": 69,
+    "rate": 0.345,
+    "t_kill": 62.0,
+    "outcomes": {
+      "died": 112,
+      "kill": 69,
+      "mutual": 15,
+      "timeout": 4
+    },
+    "own_health": 0.096,
+    "opp_health": 0.122,
+    "wez_time": 4.46,
+    "wez_time_foe": 4.34,
+    "engaged": 1.0,
+    "first_wez": 40.4,
+    "longest_track": 2.97,
+    "min_range": 45,
+    "out_of_bounds": 0.0
+  },
+  "learned_parent": {
+    "n": 200,
+    "kills": 196,
+    "rate": 0.98,
+    "t_kill": 57.5,
+    "outcomes": {
+      "kill": 196,
+      "timeout": 4
+    },
+    "own_health": 0.298,
+    "opp_health": 0.0027,
+    "wez_time": 4.42,
+    "wez_time_foe": 3.08,
+    "engaged": 1.0,
+    "first_wez": 44.6,
+    "longest_track": 3.8,
+    "min_range": 113,
+    "out_of_bounds": 0.0
+  }
+}

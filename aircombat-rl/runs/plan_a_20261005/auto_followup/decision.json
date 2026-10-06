@@ -1,0 +1,30 @@
+{
+  "followup": true,
+  "validation": {
+    "50000": {
+      "start": 9,
+      "end": 8,
+      "recent": [
+        0,
+        0,
+        0,
+        0,
+        8
+      ],
+      "retained": false
+    },
+    "500000": {
+      "start": 9,
+      "end": 0,
+      "recent": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "retained": false
+    }
+  },
+  "decided_utc": "2026-10-05T11:32:59.211206+00:00"
+}

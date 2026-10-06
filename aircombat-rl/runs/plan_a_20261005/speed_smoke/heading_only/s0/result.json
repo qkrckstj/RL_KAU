@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "variant": "observed_dqn",
+  "seed": 0,
+  "steps": 2048,
+  "best_step": 1024,
+  "best_val_kills": 0,
+  "val_n": 2,
+  "train_outcomes": {
+    "died": 2
+  },
+  "gradient_update_counter": 262,
+  "wall_seconds": 16.896442299941555,
+  "evaluation_seconds": 11.95808999997098,
+  "finished_utc": "2026-10-05T12:38:25.776852+00:00"
+}

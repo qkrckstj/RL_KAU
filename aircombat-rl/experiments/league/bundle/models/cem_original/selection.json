@@ -1,0 +1,30 @@
+{
+  "seed": 904,
+  "generation": 3,
+  "development_band": 906000,
+  "development": {
+    "n": 40,
+    "kills": 40,
+    "rate": 1.0,
+    "t_kill": 57.3,
+    "outcomes": {
+      "kill": 40
+    },
+    "own_health": 0.3012,
+    "opp_health": 0.0,
+    "wez_time": 4.42,
+    "wez_time_foe": 3.07,
+    "engaged": 1.0,
+    "first_wez": 44.5,
+    "longest_track": 3.79,
+    "min_range": 109,
+    "out_of_bounds": 0.0
+  },
+  "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_warm_followup_v2\\replication\\s904",
+  "rule": "Development wins, then health advantage, then smaller seed; heldout never read by this script",
+  "source_policy_sha256": "32b13f6c75d9b43edf77c14ccda9beaf4bd39cf712e168f909c83c0b74142fdf",
+  "source_parameters_sha256": "02e7522034d11668d1e5d15409c234d17c809e7faf9b76dc31add1f6bd5297c3",
+  "archive_sha256": "b33a20f5cfa1690d162f70e91dc6d8db46ba2abdddb39d05e0779d98fca8a09b",
+  "policy_sha256": "8df8492520437ffafa2d8a1211dbaf96f539fbe5bef59e093c8d01b93ef82d18",
+  "format": "ZIP containing JSON coefficients; no neural weights or torch dependency"
+}

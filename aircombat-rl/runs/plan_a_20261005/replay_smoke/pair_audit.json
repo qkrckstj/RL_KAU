@@ -1,0 +1,12 @@
+{
+  "initial_weights_identical": true,
+  "initial_experiences_identical": true,
+  "capacities": [
+    50000,
+    500000
+  ],
+  "sizes": [
+    50000,
+    50000
+  ]
+}

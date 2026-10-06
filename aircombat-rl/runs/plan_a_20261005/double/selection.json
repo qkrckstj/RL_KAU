@@ -1,0 +1,375 @@
+{
+  "frozen_utc": "2026-10-05T08:58:27.183472+00:00",
+  "choices": [
+    {
+      "reward": "ddqn",
+      "seed": 0,
+      "budget": 1024000,
+      "kind": "validation_selected",
+      "step": 614400,
+      "validation": {
+        "n": 20,
+        "kills": 10,
+        "rate": 0.5,
+        "t_kill": 44.5,
+        "outcomes": {
+          "died": 9,
+          "kill": 10,
+          "timeout": 1
+        },
+        "own_health": 0.1895,
+        "opp_health": 0.1337,
+        "wez_time": 4.38,
+        "wez_time_foe": 4.03,
+        "engaged": 0.95,
+        "first_wez": 24.6,
+        "longest_track": 2.53,
+        "min_range": 96,
+        "out_of_bounds": 0.0
+      },
+      "weights": "ddqn/s0/checkpoints/step_614400/policy_net.zip",
+      "weights_sha256": "a7d075694b582de9920fe6b7b7e3603cecc69de64cc0badef0b412871f587a2e"
+    },
+    {
+      "reward": "ddqn",
+      "seed": 0,
+      "budget": 1024000,
+      "kind": "budget_endpoint",
+      "step": 1024000,
+      "validation": {
+        "n": 20,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 20
+        },
+        "own_health": 0.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 4.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 873,
+        "out_of_bounds": 0.0
+      },
+      "weights": "ddqn/s0/checkpoints/step_1024000/policy_net.zip",
+      "weights_sha256": "de3a589264525d3d2ea0f380f04071b01b25e408006647b120f95f329792151f"
+    },
+    {
+      "reward": "ddqn",
+      "seed": 1,
+      "budget": 1024000,
+      "kind": "validation_selected",
+      "step": 1024000,
+      "validation": {
+        "n": 20,
+        "kills": 9,
+        "rate": 0.45,
+        "t_kill": 74.6,
+        "outcomes": {
+          "died": 10,
+          "kill": 9,
+          "mutual": 1
+        },
+        "own_health": 0.1208,
+        "opp_health": 0.1123,
+        "wez_time": 4.62,
+        "wez_time_foe": 4.38,
+        "engaged": 1.0,
+        "first_wez": 41.1,
+        "longest_track": 2.86,
+        "min_range": 34,
+        "out_of_bounds": 0.0
+      },
+      "weights": "ddqn/s1/checkpoints/step_1024000/policy_net.zip",
+      "weights_sha256": "92fa9ba4c0fbf28352f38fab237e2c75dbab5cf19a2367c1ffa13ecf2d0faa85"
+    },
+    {
+      "reward": "ddqn",
+      "seed": 1,
+      "budget": 1024000,
+      "kind": "budget_endpoint",
+      "step": 1024000,
+      "validation": {
+        "n": 20,
+        "kills": 9,
+        "rate": 0.45,
+        "t_kill": 74.6,
+        "outcomes": {
+          "died": 10,
+          "kill": 9,
+          "mutual": 1
+        },
+        "own_health": 0.1208,
+        "opp_health": 0.1123,
+        "wez_time": 4.62,
+        "wez_time_foe": 4.38,
+        "engaged": 1.0,
+        "first_wez": 41.1,
+        "longest_track": 2.86,
+        "min_range": 34,
+        "out_of_bounds": 0.0
+      },
+      "weights": "ddqn/s1/checkpoints/step_1024000/policy_net.zip",
+      "weights_sha256": "92fa9ba4c0fbf28352f38fab237e2c75dbab5cf19a2367c1ffa13ecf2d0faa85"
+    },
+    {
+      "reward": "ddqn",
+      "seed": 2,
+      "budget": 1024000,
+      "kind": "validation_selected",
+      "step": 51200,
+      "validation": {
+        "n": 20,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 19,
+          "timeout": 1
+        },
+        "own_health": 0.036,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 4.36,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 990,
+        "out_of_bounds": 0.0
+      },
+      "weights": "ddqn/s2/checkpoints/step_51200/policy_net.zip",
+      "weights_sha256": "c803a4abe7634fc029e3cd04150eec7b9ad90068ec403e1c5f688aa2d28f3741"
+    },
+    {
+      "reward": "ddqn",
+      "seed": 2,
+      "budget": 1024000,
+      "kind": "budget_endpoint",
+      "step": 1024000,
+      "validation": {
+        "n": 20,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 20
+        },
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 0.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 8603,
+        "out_of_bounds": 0.0
+      },
+      "weights": "ddqn/s2/checkpoints/step_1024000/policy_net.zip",
+      "weights_sha256": "bca399eda76598b4eb6c7ec371ebe29549c929eb4ea3e3ca2d760c66b2c0b037"
+    },
+    {
+      "reward": "dqn_reference",
+      "seed": 0,
+      "budget": 1024000,
+      "kind": "validation_selected",
+      "step": 819200,
+      "validation": {
+        "n": 20,
+        "kills": 5,
+        "rate": 0.25,
+        "t_kill": 68.4,
+        "outcomes": {
+          "died": 13,
+          "kill": 5,
+          "timeout": 2
+        },
+        "own_health": 0.0637,
+        "opp_health": 0.684,
+        "wez_time": 1.87,
+        "wez_time_foe": 5.21,
+        "engaged": 0.8,
+        "first_wez": 42.1,
+        "longest_track": 1.21,
+        "min_range": 33,
+        "out_of_bounds": 0.0
+      },
+      "weights": "dqn_reference/s0/checkpoints/step_819200/policy_net.zip",
+      "weights_sha256": "6397047a64d5a4c10a6c192dfd1f58357a1fe6c5bd456d888614a1e0678a02bd"
+    },
+    {
+      "reward": "dqn_reference",
+      "seed": 0,
+      "budget": 1024000,
+      "kind": "budget_endpoint",
+      "step": 1024000,
+      "validation": {
+        "n": 20,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 20
+        },
+        "own_health": 0.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 4.53,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 491,
+        "out_of_bounds": 0.0
+      },
+      "weights": "dqn_reference/s0/checkpoints/step_1024000/policy_net.zip",
+      "weights_sha256": "23d4c1e63cd389d7e4914af43747357cf93578117e2ecf2bdd17ea6093c17229"
+    },
+    {
+      "reward": "dqn_reference",
+      "seed": 1,
+      "budget": 1024000,
+      "kind": "validation_selected",
+      "step": 972800,
+      "validation": {
+        "n": 20,
+        "kills": 4,
+        "rate": 0.2,
+        "t_kill": 60.0,
+        "outcomes": {
+          "died": 15,
+          "kill": 4,
+          "timeout": 1
+        },
+        "own_health": 0.0644,
+        "opp_health": 0.3562,
+        "wez_time": 3.16,
+        "wez_time_foe": 4.63,
+        "engaged": 1.0,
+        "first_wez": 44.2,
+        "longest_track": 2.66,
+        "min_range": 48,
+        "out_of_bounds": 0.0
+      },
+      "weights": "dqn_reference/s1/checkpoints/step_972800/policy_net.zip",
+      "weights_sha256": "4515161306a55b18f0924e5aae81a108153c4b613d9c1a8e483d65e381e99c34"
+    },
+    {
+      "reward": "dqn_reference",
+      "seed": 1,
+      "budget": 1024000,
+      "kind": "budget_endpoint",
+      "step": 1024000,
+      "validation": {
+        "n": 20,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 20
+        },
+        "own_health": 0.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 4.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 894,
+        "out_of_bounds": 0.0
+      },
+      "weights": "dqn_reference/s1/checkpoints/step_1024000/policy_net.zip",
+      "weights_sha256": "2c0648fb5d45a962bd7de7d7663165ea125ad9347c412b4a49bbbad147dd6a6d"
+    },
+    {
+      "reward": "dqn_reference",
+      "seed": 2,
+      "budget": 1024000,
+      "kind": "validation_selected",
+      "step": 204800,
+      "validation": {
+        "n": 20,
+        "kills": 6,
+        "rate": 0.3,
+        "t_kill": 77.9,
+        "outcomes": {
+          "died": 12,
+          "kill": 6,
+          "mutual": 1,
+          "timeout": 1
+        },
+        "own_health": 0.0959,
+        "opp_health": 0.4982,
+        "wez_time": 2.71,
+        "wez_time_foe": 4.45,
+        "engaged": 0.6,
+        "first_wez": 44.0,
+        "longest_track": 1.63,
+        "min_range": 190,
+        "out_of_bounds": 0.0
+      },
+      "weights": "dqn_reference/s2/checkpoints/step_204800/policy_net.zip",
+      "weights_sha256": "9fc67bb4d796ca5cdd29033503efdb30064e50dd2dc0764f1be851896e7a7a6c"
+    },
+    {
+      "reward": "dqn_reference",
+      "seed": 2,
+      "budget": 1024000,
+      "kind": "budget_endpoint",
+      "step": 1024000,
+      "validation": {
+        "n": 20,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 11,
+          "timeout": 9
+        },
+        "own_health": 0.1827,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 4.1,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 422,
+        "out_of_bounds": 0.0
+      },
+      "weights": "dqn_reference/s2/checkpoints/step_1024000/policy_net.zip",
+      "weights_sha256": "c098d80df3614a5e336d0178960cca5efb313eaa21105972aeef39cb494ecd55"
+    }
+  ],
+  "selected_policy": {
+    "reward": "ddqn",
+    "seed": 0,
+    "budget": 1024000,
+    "kind": "validation_selected",
+    "step": 614400,
+    "validation": {
+      "n": 20,
+      "kills": 10,
+      "rate": 0.5,
+      "t_kill": 44.5,
+      "outcomes": {
+        "died": 9,
+        "kill": 10,
+        "timeout": 1
+      },
+      "own_health": 0.1895,
+      "opp_health": 0.1337,
+      "wez_time": 4.38,
+      "wez_time_foe": 4.03,
+      "engaged": 0.95,
+      "first_wez": 24.6,
+      "longest_track": 2.53,
+      "min_range": 96,
+      "out_of_bounds": 0.0
+    },
+    "weights": "ddqn/s0/checkpoints/step_614400/policy_net.zip",
+    "weights_sha256": "a7d075694b582de9920fe6b7b7e3603cecc69de64cc0badef0b412871f587a2e"
+  },
+  "test_band": 1500000,
+  "test_n": 40
+}

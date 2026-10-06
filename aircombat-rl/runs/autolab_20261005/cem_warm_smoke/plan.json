@@ -1,0 +1,37 @@
+{
+  "algorithm": "Warm CEM parameter refinement",
+  "seeds": [
+    900
+  ],
+  "population": 4,
+  "elites": 2,
+  "generations": 1,
+  "training_band": 5000000,
+  "training_n": 2,
+  "validation_band": 905000,
+  "validation_n": 2,
+  "initial_std": 0.06,
+  "minimum_std": 0.025,
+  "immigrants": 0,
+  "parent": "runs/autolab_20261005/cem_pilot/s800",
+  "parent_sha256": "12f813db98087e424a3642379ddc286ec92093cd8e9e86c14bb848f6016d850b",
+  "initial_parameters": [
+    50.431493077329236,
+    326.04787821143503,
+    307.9512891049956,
+    2.4703488646358647,
+    18.568945138235897,
+    0.4953988774922795,
+    3.014880784059802
+  ],
+  "source_sha256": {
+    "tools/autolab_cem_warm.py": "2b48ec05e4fcb1e390cc9166b1a8934126e48a15c51a9440c818331f286150d0",
+    "tools/autolab_cem.py": "90b3e7df94d219de07b4657c1a05575455abe6d2e619dd90a9f3a14b20265fdf",
+    "experiments/plan_a/tactical.py": "32b13f6c75d9b43edf77c14ccda9beaf4bd39cf712e168f909c83c0b74142fdf",
+    "tools/grade.py": "75e9d0ab945e0510da5880604b7edff3b61f00a48205783fa30a605a132d90e2",
+    "aircombat_gym/wvr/envs/fair.py": "f7f5429c240eef866662876ac2d6cd11925b5d73c52032547e67fad49771082f"
+  },
+  "heldout_test": "Not opened",
+  "hypothesis": "Keep a verified parent in every training pool; use twice as many training ICs for candidate selection",
+  "scope": "Independent refinements sharing pilot s800 parent; not independent original discovery"
+}

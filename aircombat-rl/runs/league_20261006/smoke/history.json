@@ -1,0 +1,191 @@
+[
+  {
+    "round": 0,
+    "challenger": {
+      "id": "round_00",
+      "kind": "reactive",
+      "parameters": [
+        46.5795821161632,
+        324.6037751529909,
+        305.6533702700848,
+        2.418697871782606,
+        18.936747197224676,
+        0.48848060094490076,
+        3.5707727915270118,
+        -1.0,
+        0.0,
+        0.0,
+        305.6533702700848,
+        0.0,
+        60.0,
+        90.0,
+        305.6533702700848
+      ]
+    },
+    "champion": {
+      "id": "champion_initial",
+      "kind": "reactive",
+      "parameters": [
+        46.5795821161632,
+        324.6037751529909,
+        305.6533702700848,
+        2.418697871782606,
+        18.936747197224676,
+        0.48848060094490076,
+        3.5707727915270118,
+        -1.0,
+        0.0,
+        0.0,
+        305.6533702700848,
+        0.0,
+        60.0,
+        90.0,
+        305.6533702700848
+      ]
+    },
+    "admission": {
+      "promoted": false,
+      "candidate": {
+        "objective": 0.5499999999999999,
+        "mean_win_rate": 0.5,
+        "mean_score": 0.75,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5,
+        "health": 0.3844714285714286,
+        "games": 14,
+        "steps": 28589
+      },
+      "incumbent": {
+        "objective": 0.5499999999999999,
+        "mean_win_rate": 0.5,
+        "mean_score": 0.75,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5,
+        "health": 0.3844714285714286,
+        "games": 14,
+        "steps": 28589
+      },
+      "head_to_head": {
+        "n": 2,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 2
+        },
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 0.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 503,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 2,
+        "score": 0.5
+      },
+      "rule": "objective +.015; mean win regression <=.01; lower-quarter score regression <=.05; H2H score >=.5"
+    },
+    "pool_ids": [
+      "cem_original",
+      "ddqn_s1",
+      "ace",
+      "pursuit",
+      "evader",
+      "fixed_left",
+      "fixed_right"
+    ],
+    "search": {
+      "status": "complete",
+      "seed": 1100,
+      "selected": {
+        "id": "champion_initial",
+        "kind": "reactive",
+        "parameters": [
+          46.5795821161632,
+          324.6037751529909,
+          305.6533702700848,
+          2.418697871782606,
+          18.936747197224676,
+          0.48848060094490076,
+          3.5707727915270118,
+          -1.0,
+          0.0,
+          0.0,
+          305.6533702700848,
+          0.0,
+          60.0,
+          90.0,
+          305.6533702700848
+        ]
+      },
+      "selected_generation": -1,
+      "initial_metrics": {
+        "objective": 0.4160714285714286,
+        "mean_win_rate": 0.5,
+        "mean_score": 0.75,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5,
+        "health": 0.29323809523809524,
+        "games": 14,
+        "steps": 28447
+      },
+      "selected_metrics": {
+        "objective": 0.4160714285714286,
+        "mean_win_rate": 0.5,
+        "mean_score": 0.75,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5,
+        "health": 0.29323809523809524,
+        "games": 14,
+        "steps": 28447
+      },
+      "final_metrics": {
+        "objective": 0.4160714285714286,
+        "mean_win_rate": 0.5,
+        "mean_score": 0.75,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5,
+        "health": 0.29323809523809524,
+        "games": 14,
+        "steps": 28447
+      },
+      "final": {
+        "id": "s1100_g0",
+        "kind": "reactive",
+        "parameters": [
+          46.5795821161632,
+          324.6037751529909,
+          305.6533702700848,
+          2.418697871782606,
+          18.93674719722469,
+          0.48848060094490076,
+          3.5707727915270118,
+          -1.0,
+          0.0,
+          0.0,
+          305.6533702700848,
+          0.0,
+          60.0,
+          90.0,
+          305.6533702700848
+        ]
+      },
+      "training_steps": 223265,
+      "training_games": 112,
+      "elapsed_seconds": 83.76655759999994,
+      "weights": [
+        0.20238095238095238,
+        0.20238095238095238,
+        0.08333333333333333,
+        0.08333333333333333,
+        0.20238095238095238,
+        0.14285714285714285,
+        0.08333333333333333
+      ]
+    }
+  }
+]

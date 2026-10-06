@@ -1,0 +1,13 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.0 [GitHub build 1742/commit 01ea7816288dce9e9f6a1a6dc048014bc65d699e] Apr  9 2026 10:02:36
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+TEST lr_1e3/s1 validation_selected budget=204800 step=51200: 0/40
+TEST lr_1e3/s1 budget_endpoint budget=204800 step=204800: 0/40
+TEST lr_1e3/s1 validation_selected budget=512000 step=51200: 0/40
+TEST lr_1e3/s1 budget_endpoint budget=512000 step=512000: 0/40
+TEST lr_1e3/s1 validation_selected budget=1024000 step=972800: 2/40
+TEST lr_1e3/s1 budget_endpoint budget=1024000 step=1024000: 0/40

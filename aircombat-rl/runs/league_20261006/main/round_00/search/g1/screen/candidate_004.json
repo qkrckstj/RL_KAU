@@ -1,0 +1,544 @@
+{
+  "request": {
+    "spec": {
+      "id": "s1100_g1_c4",
+      "kind": "reactive",
+      "parameters": [
+        46.5795821161632,
+        324.6037751529909,
+        305.6533702700848,
+        2.418697871782606,
+        18.93674719722469,
+        0.48848060094490076,
+        3.5707727915270118,
+        -1.0,
+        0.0,
+        3121.6051815905566,
+        502.53518985400467,
+        0.0,
+        60.0,
+        90.0,
+        305.6533702700848,
+        139.66311647033623,
+        4640.956944014542
+      ]
+    },
+    "opponents": [
+      {
+        "id": "cem_original",
+        "kind": "cem",
+        "parameters": [
+          46.5795821161632,
+          324.6037751529909,
+          305.6533702700848,
+          2.418697871782606,
+          18.936747197224676,
+          0.48848060094490076,
+          3.5707727915270118
+        ]
+      },
+      {
+        "id": "ddqn_s1",
+        "kind": "submission",
+        "design": "runs/plan_a_20261005/double/ddqn/s1",
+        "weights": "runs/plan_a_20261005/double/ddqn/s1/checkpoints/step_1024000/policy_net.zip"
+      },
+      {
+        "id": "ace",
+        "kind": "bot",
+        "name": "ace"
+      },
+      {
+        "id": "pursuit",
+        "kind": "bot",
+        "name": "pursuit"
+      },
+      {
+        "id": "evader",
+        "kind": "bot",
+        "name": "evader"
+      },
+      {
+        "id": "fixed_left",
+        "kind": "fixed",
+        "action": 0
+      },
+      {
+        "id": "fixed_right",
+        "kind": "fixed",
+        "action": 6
+      }
+    ],
+    "band": 100000100,
+    "n": 2,
+    "weights": [
+      0.20778995388505975,
+      0.13548123171517823,
+      0.08382506074279764,
+      0.08382506074279764,
+      0.20778995388505975,
+      0.19746367828630929,
+      0.08382506074279764
+    ]
+  },
+  "results": [
+    {
+      "own": "s1100_g1_c4",
+      "foe": "cem_original",
+      "band": 100000100,
+      "summary": {
+        "n": 2,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 2
+        },
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.15,
+        "wez_time_foe": 0.0,
+        "engaged": 0.5,
+        "first_wez": 83.0,
+        "longest_track": 0.15,
+        "min_range": 466,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 2,
+        "score": 0.5
+      },
+      "episodes": [
+        {
+          "seed": 100000100,
+          "outcome": "timeout",
+          "won": false,
+          "t": 120.0,
+          "steps": 2401,
+          "truncated": true,
+          "own_health": 1.0,
+          "opp_health": 1.0,
+          "wez_time": 0.0,
+          "wez_time_foe": 0.0,
+          "first_wez": null,
+          "longest_track": 0.0,
+          "min_range": 431,
+          "out_of_bounds": false,
+          "seat": "red"
+        },
+        {
+          "seed": 100000100,
+          "outcome": "timeout",
+          "won": false,
+          "t": 120.0,
+          "steps": 2401,
+          "truncated": true,
+          "own_health": 1.0,
+          "opp_health": 1.0,
+          "wez_time": 0.3,
+          "wez_time_foe": 0.0,
+          "first_wez": 83.0,
+          "longest_track": 0.3,
+          "min_range": 500,
+          "out_of_bounds": false,
+          "seat": "blue"
+        }
+      ],
+      "elapsed_seconds": 2.088111700024456
+    },
+    {
+      "own": "s1100_g1_c4",
+      "foe": "ddqn_s1",
+      "band": 100000100,
+      "summary": {
+        "n": 2,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 2
+        },
+        "own_health": 0.0347,
+        "opp_health": 0.4225,
+        "wez_time": 2.75,
+        "wez_time_foe": 3.88,
+        "engaged": 1.0,
+        "first_wez": 104.2,
+        "longest_track": 2.7,
+        "min_range": 80,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 2,
+        "score": 0.5
+      },
+      "episodes": [
+        {
+          "seed": 100000100,
+          "outcome": "timeout",
+          "won": false,
+          "t": 120.0,
+          "steps": 2401,
+          "truncated": true,
+          "own_health": 0.0265,
+          "opp_health": 0.4225,
+          "wez_time": 2.7,
+          "wez_time_foe": 3.9,
+          "first_wez": 104.4,
+          "longest_track": 2.7,
+          "min_range": 101,
+          "out_of_bounds": false,
+          "seat": "red"
+        },
+        {
+          "seed": 100000100,
+          "outcome": "timeout",
+          "won": false,
+          "t": 120.0,
+          "steps": 2401,
+          "truncated": true,
+          "own_health": 0.043,
+          "opp_health": 0.4225,
+          "wez_time": 2.8,
+          "wez_time_foe": 3.85,
+          "first_wez": 103.9,
+          "longest_track": 2.7,
+          "min_range": 59,
+          "out_of_bounds": false,
+          "seat": "blue"
+        }
+      ],
+      "elapsed_seconds": 2.9025245999218896
+    },
+    {
+      "own": "s1100_g1_c4",
+      "foe": "ace",
+      "band": 100000100,
+      "summary": {
+        "n": 2,
+        "kills": 2,
+        "rate": 1.0,
+        "t_kill": 56.7,
+        "outcomes": {
+          "kill": 2
+        },
+        "own_health": 0.3235,
+        "opp_health": 0.0,
+        "wez_time": 4.0,
+        "wez_time_foe": 3.0,
+        "engaged": 1.0,
+        "first_wez": 52.8,
+        "longest_track": 3.95,
+        "min_range": 149,
+        "out_of_bounds": 0.0,
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      },
+      "episodes": [
+        {
+          "seed": 100000100,
+          "outcome": "kill",
+          "won": true,
+          "t": 56.6,
+          "steps": 1132,
+          "truncated": false,
+          "own_health": 0.3235,
+          "opp_health": 0.0,
+          "wez_time": 4.0,
+          "wez_time_foe": 3.0,
+          "first_wez": 52.6,
+          "longest_track": 3.95,
+          "min_range": 146,
+          "out_of_bounds": false,
+          "seat": "red"
+        },
+        {
+          "seed": 100000100,
+          "outcome": "kill",
+          "won": true,
+          "t": 56.8,
+          "steps": 1137,
+          "truncated": false,
+          "own_health": 0.3235,
+          "opp_health": 0.0,
+          "wez_time": 4.0,
+          "wez_time_foe": 3.0,
+          "first_wez": 52.9,
+          "longest_track": 3.95,
+          "min_range": 152,
+          "out_of_bounds": false,
+          "seat": "blue"
+        }
+      ],
+      "elapsed_seconds": 0.9662146000191569
+    },
+    {
+      "own": "s1100_g1_c4",
+      "foe": "pursuit",
+      "band": 100000100,
+      "summary": {
+        "n": 2,
+        "kills": 2,
+        "rate": 1.0,
+        "t_kill": 59.3,
+        "outcomes": {
+          "kill": 2
+        },
+        "own_health": 0.2492,
+        "opp_health": 0.0,
+        "wez_time": 4.83,
+        "wez_time_foe": 3.23,
+        "engaged": 1.0,
+        "first_wez": 41.0,
+        "longest_track": 3.95,
+        "min_range": 96,
+        "out_of_bounds": 0.0,
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      },
+      "episodes": [
+        {
+          "seed": 100000100,
+          "outcome": "kill",
+          "won": true,
+          "t": 59.2,
+          "steps": 1185,
+          "truncated": false,
+          "own_health": 0.241,
+          "opp_health": 0.0,
+          "wez_time": 4.9,
+          "wez_time_foe": 3.25,
+          "first_wez": 40.8,
+          "longest_track": 3.95,
+          "min_range": 91,
+          "out_of_bounds": false,
+          "seat": "red"
+        },
+        {
+          "seed": 100000100,
+          "outcome": "kill",
+          "won": true,
+          "t": 59.4,
+          "steps": 1189,
+          "truncated": false,
+          "own_health": 0.2575,
+          "opp_health": 0.0,
+          "wez_time": 4.75,
+          "wez_time_foe": 3.2,
+          "first_wez": 41.2,
+          "longest_track": 3.95,
+          "min_range": 100,
+          "out_of_bounds": false,
+          "seat": "blue"
+        }
+      ],
+      "elapsed_seconds": 1.004752599983476
+    },
+    {
+      "own": "s1100_g1_c4",
+      "foe": "evader",
+      "band": 100000100,
+      "summary": {
+        "n": 2,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 2
+        },
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 0.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 10002,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 2,
+        "score": 0.5
+      },
+      "episodes": [
+        {
+          "seed": 100000100,
+          "outcome": "timeout",
+          "won": false,
+          "t": 120.0,
+          "steps": 2401,
+          "truncated": true,
+          "own_health": 1.0,
+          "opp_health": 1.0,
+          "wez_time": 0.0,
+          "wez_time_foe": 0.0,
+          "first_wez": null,
+          "longest_track": 0.0,
+          "min_range": 10002,
+          "out_of_bounds": false,
+          "seat": "red"
+        },
+        {
+          "seed": 100000100,
+          "outcome": "timeout",
+          "won": false,
+          "t": 120.0,
+          "steps": 2401,
+          "truncated": true,
+          "own_health": 1.0,
+          "opp_health": 1.0,
+          "wez_time": 0.0,
+          "wez_time_foe": 0.0,
+          "first_wez": null,
+          "longest_track": 0.0,
+          "min_range": 10002,
+          "out_of_bounds": false,
+          "seat": "blue"
+        }
+      ],
+      "elapsed_seconds": 1.9886900999117643
+    },
+    {
+      "own": "s1100_g1_c4",
+      "foe": "fixed_left",
+      "band": 100000100,
+      "summary": {
+        "n": 2,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 2
+        },
+        "own_health": 0.0347,
+        "opp_health": 0.4968,
+        "wez_time": 2.75,
+        "wez_time_foe": 3.88,
+        "engaged": 1.0,
+        "first_wez": 102.3,
+        "longest_track": 2.47,
+        "min_range": 64,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 2,
+        "score": 0.5
+      },
+      "episodes": [
+        {
+          "seed": 100000100,
+          "outcome": "timeout",
+          "won": false,
+          "t": 120.0,
+          "steps": 2401,
+          "truncated": true,
+          "own_health": 0.043,
+          "opp_health": 0.3565,
+          "wez_time": 3.15,
+          "wez_time_foe": 3.85,
+          "first_wez": 102.7,
+          "longest_track": 2.9,
+          "min_range": 36,
+          "out_of_bounds": false,
+          "seat": "red"
+        },
+        {
+          "seed": 100000100,
+          "outcome": "timeout",
+          "won": false,
+          "t": 120.0,
+          "steps": 2401,
+          "truncated": true,
+          "own_health": 0.0265,
+          "opp_health": 0.637,
+          "wez_time": 2.35,
+          "wez_time_foe": 3.9,
+          "first_wez": 101.9,
+          "longest_track": 2.05,
+          "min_range": 91,
+          "out_of_bounds": false,
+          "seat": "blue"
+        }
+      ],
+      "elapsed_seconds": 1.9767823999281973
+    },
+    {
+      "own": "s1100_g1_c4",
+      "foe": "fixed_right",
+      "band": 100000100,
+      "summary": {
+        "n": 2,
+        "kills": 2,
+        "rate": 1.0,
+        "t_kill": 96.0,
+        "outcomes": {
+          "kill": 2
+        },
+        "own_health": 1.0,
+        "opp_health": 0.0,
+        "wez_time": 4.6,
+        "wez_time_foe": 0.0,
+        "engaged": 1.0,
+        "first_wez": 81.7,
+        "longest_track": 3.92,
+        "min_range": 636,
+        "out_of_bounds": 0.0,
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      },
+      "episodes": [
+        {
+          "seed": 100000100,
+          "outcome": "kill",
+          "won": true,
+          "t": 93.5,
+          "steps": 1870,
+          "truncated": false,
+          "own_health": 1.0,
+          "opp_health": 0.0,
+          "wez_time": 4.0,
+          "wez_time_foe": 0.0,
+          "first_wez": 89.5,
+          "longest_track": 3.95,
+          "min_range": 731,
+          "out_of_bounds": false,
+          "seat": "red"
+        },
+        {
+          "seed": 100000100,
+          "outcome": "kill",
+          "won": true,
+          "t": 98.4,
+          "steps": 1969,
+          "truncated": false,
+          "own_health": 1.0,
+          "opp_health": 0.0,
+          "wez_time": 5.2,
+          "wez_time_foe": 0.0,
+          "first_wez": 73.8,
+          "longest_track": 3.9,
+          "min_range": 541,
+          "out_of_bounds": false,
+          "seat": "blue"
+        }
+      ],
+      "elapsed_seconds": 1.5899027999257669
+    }
+  ],
+  "metrics": {
+    "objective": 0.3636063866712947,
+    "mean_win_rate": 0.42857142857142855,
+    "mean_score": 0.7142857142857143,
+    "worst_score": 0.5,
+    "lower_quarter_score": 0.5,
+    "health": -0.011955914365051806,
+    "games": 14,
+    "steps": 27690
+  }
+}

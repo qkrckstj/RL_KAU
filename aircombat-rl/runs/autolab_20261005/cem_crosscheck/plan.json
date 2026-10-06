@@ -1,0 +1,107 @@
+{
+  "jobs": [
+    {
+      "name": "s800",
+      "parameters": [
+        50.431493077329236,
+        326.04787821143503,
+        307.9512891049956,
+        2.4703488646358647,
+        18.568945138235897,
+        0.4953988774922795,
+        3.014880784059802
+      ],
+      "band": 904000,
+      "n": 40,
+      "output": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_crosscheck\\s800.json",
+      "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_pilot\\s800",
+      "weights_sha256": "12f813db98087e424a3642379ddc286ec92093cd8e9e86c14bb848f6016d850b"
+    },
+    {
+      "name": "s801",
+      "parameters": [
+        45.70901422548722,
+        317.7674861559132,
+        300.0,
+        3.639335408924336,
+        20.11810059165458,
+        1.0950623035054257,
+        6.722238275456322
+      ],
+      "band": 904000,
+      "n": 40,
+      "output": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_crosscheck\\s801.json",
+      "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_pilot\\s801",
+      "weights_sha256": "042fa766b43fd090a134b235bbff28424e4c67295d3a00027f21b8b48e94b1b0"
+    },
+    {
+      "name": "s802",
+      "parameters": [
+        30.873487659524883,
+        300.0,
+        380.34790407472127,
+        1.4318689106398867,
+        -6.276678189441675,
+        1.0051549057257314,
+        6.4100030811994575
+      ],
+      "band": 904000,
+      "n": 40,
+      "output": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_crosscheck\\s802.json",
+      "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_pilot\\s802",
+      "weights_sha256": "4f8458a3ce27b2224e15ee247d97de8e769fed9085f65a109392d26b960639b1"
+    },
+    {
+      "name": "s803",
+      "parameters": [
+        89.13165995778292,
+        311.2112357977703,
+        479.67900941886955,
+        -0.8118941489059106,
+        -12.78273153155152,
+        0.3593523025925298,
+        7.242770418301691
+      ],
+      "band": 903000,
+      "n": 20,
+      "output": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_crosscheck\\s803.json",
+      "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_followup\\replication\\s803",
+      "weights_sha256": "a60e9be5d71304ad3465d24e6e17db660db9b0443ef5cfdeb1b061d15a7a927b"
+    },
+    {
+      "name": "s804",
+      "parameters": [
+        44.257194538758895,
+        300.0,
+        324.8919014488801,
+        0.889290394017574,
+        3.0588806756599993,
+        0.0,
+        4.543359136707097
+      ],
+      "band": 903000,
+      "n": 20,
+      "output": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_crosscheck\\s804.json",
+      "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_followup\\replication\\s804",
+      "weights_sha256": "b3fed4486acbba175efc354765b2a1905f187562f59cbb9ba6585b3a2705cab1"
+    },
+    {
+      "name": "s805",
+      "parameters": [
+        44.536681521262715,
+        303.0291242737664,
+        421.0218106199495,
+        1.8395485990569589,
+        7.188350342642444,
+        1.0760282631507612,
+        4.9047112622534925
+      ],
+      "band": 903000,
+      "n": 20,
+      "output": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_crosscheck\\s805.json",
+      "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_followup\\replication\\s805",
+      "weights_sha256": "d626d0a6dfba19eaad7121cb13a7e9ddd02baf0eb90a716f2eb77501800bee9c"
+    }
+  ],
+  "purpose": "Development crosscheck only; no heldout data"
+}

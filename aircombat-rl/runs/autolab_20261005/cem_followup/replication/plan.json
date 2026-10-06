@@ -1,0 +1,53 @@
+{
+  "algorithm": "CEM direct episodic search",
+  "seeds": [
+    803,
+    804,
+    805
+  ],
+  "population": 12,
+  "elites": 3,
+  "generations": 6,
+  "training_band": 4000000,
+  "training_n": 6,
+  "validation_band": 904000,
+  "validation_n": 40,
+  "parameters": [
+    "opening_seconds",
+    "opening_speed_kt",
+    "tracking_speed_kt",
+    "lead_seconds",
+    "aim_bias_deg",
+    "yaw_brake_seconds",
+    "deadband_deg"
+  ],
+  "lower": [
+    0.0,
+    300.0,
+    300.0,
+    -2.0,
+    -45.0,
+    0.0,
+    0.5
+  ],
+  "upper": [
+    120.0,
+    600.0,
+    600.0,
+    6.0,
+    45.0,
+    4.0,
+    12.0
+  ],
+  "hypothesis": "Search a small reactive maneuver family directly by completed matches, avoiding critic instability",
+  "heldout_test": "Not opened",
+  "source_sha256": {
+    "tools/autolab_cem.py": "90b3e7df94d219de07b4657c1a05575455abe6d2e619dd90a9f3a14b20265fdf",
+    "experiments/plan_a/tactical.py": "32b13f6c75d9b43edf77c14ccda9beaf4bd39cf712e168f909c83c0b74142fdf",
+    "tools/grade.py": "75e9d0ab945e0510da5880604b7edff3b61f00a48205783fa30a605a132d90e2",
+    "aircombat_gym/wvr/envs/fair.py": "f7f5429c240eef866662876ac2d6cd11925b5d73c52032547e67fad49771082f"
+  },
+  "selection": "Training selects distribution; development validation selects saved deployment candidate",
+  "parent": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_pilot",
+  "purpose": "Independent replication of frozen search method; all controller/search hyperparameters unchanged"
+}

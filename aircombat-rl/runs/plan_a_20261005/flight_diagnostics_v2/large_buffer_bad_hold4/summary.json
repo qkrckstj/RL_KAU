@@ -1,0 +1,16 @@
+{
+  "model": "large_buffer_bad",
+  "hold": 4,
+  "wins": 0,
+  "n": 20,
+  "changes_per_second": 0.899918131198153,
+  "heading_reversals_per_second": 0.08697568414463006,
+  "speed_reversals_per_second": 0.023883638563850864,
+  "wez_time": 0.20750000000000002,
+  "enemy_wez_time": 4.592499999999991,
+  "max_track": 0.20750000000000002,
+  "wez_entries": 0.1,
+  "short_windows": 0,
+  "mean_speed": 326.993472122702,
+  "mean_q_gap": 0.002879929818615998
+}

@@ -1,0 +1,15 @@
+{
+  "epsilon": [
+    0.0,
+    0.005,
+    0.05
+  ],
+  "kinds": [
+    "policy",
+    "constant"
+  ],
+  "band": 900000,
+  "n": 20,
+  "scope": "Fixed-policy diagnosis only; no training or fresh test queries",
+  "created_utc": "2026-10-05T14:19:23.916386+00:00"
+}

@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-10-05T10:54:52.395575+00:00",
+  "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\plan_a_20261005\\double\\ddqn\\s1",
+  "capacities": [
+    50000,
+    500000
+  ],
+  "exploratory": true,
+  "additional_steps": 1024000,
+  "target_steps": 2048000,
+  "environment_seed": 10002,
+  "val_band": 900000,
+  "val_n": 20,
+  "val_every": 51200,
+  "test_band": 1700000,
+  "test_n": 40,
+  "changes": "Replay capacity only; both arms repacked oldest-first with all 50000 transitions retained",
+  "controls": "Same saved learner, optimizer, CPU RNG, fresh environment seed, epsilon=.05, lr=.001 and terminal rewards",
+  "limits": "Exploratory paired continuation of one selected training seed; not independent replication",
+  "selection": "Validation wins, mean win time, earlier checkpoint; starting model eligible; no test-driven reselection",
+  "extension": "Fixed endpoint at 2048000; no automatic extension",
+  "source_hashes": {
+    "policy_net.zip": "92fa9ba4c0fbf28352f38fab237e2c75dbab5cf19a2367c1ffa13ecf2d0faa85",
+    "replay_buffer.pkl": "4ae91399989c6f8a5583ff978af18ce51af779fc69b2210a9021c4e124a85c1a",
+    "rng_state.pkl": "4df8b4f382638d6c14a6fb26914d75c3966ec41f621f46df14affa97f9fe6dfa",
+    "resume.json": "c552888a37db6b61521b87944a67fea239b68978a577261a2fa5ce861a2b8f38"
+  },
+  "code_hashes": {
+    "tools/compare_replay.py": "ab7845085afef19f5667953340476ae7a4e29e8f7a74eaea885ad79aa6f34961",
+    "tools/resume_dqn.py": "eb5a60aa69107719584b10a01db4303d13b14cd6381752d4132d9f3955310ac3",
+    "tools/plan_a.py": "a1d572e1b8a0daffb346db3ebc0809c3762f9be95703b777f320ec3b9addb7c2",
+    "tools/grade.py": "75e9d0ab945e0510da5880604b7edff3b61f00a48205783fa30a605a132d90e2",
+    "tools/policies.py": "a91e1f86a20760bf972c2676b3cf9134b203655a249968179acef9bb57d74bca",
+    "tests/test_replay_resize.py": "f0a8759dc86bf9fa9c01a07b2ca59dc851a5e28ae7bfff44df842bddf48f2519"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "status": "complete",
+  "seed": 903,
+  "best_generation": -1,
+  "initial_validation": {
+    "n": 2,
+    "kills": 2,
+    "rate": 1.0,
+    "t_kill": 57.0,
+    "outcomes": {
+      "kill": 2
+    },
+    "own_health": 0.3153,
+    "opp_health": 0.0,
+    "wez_time": 4.95,
+    "wez_time_foe": 3.02,
+    "engaged": 1.0,
+    "first_wez": 38.2,
+    "longest_track": 3.05,
+    "min_range": 50,
+    "out_of_bounds": 0.0
+  },
+  "best_validation": {
+    "n": 2,
+    "kills": 2,
+    "rate": 1.0,
+    "t_kill": 57.0,
+    "outcomes": {
+      "kill": 2
+    },
+    "own_health": 0.3153,
+    "opp_health": 0.0,
+    "wez_time": 4.95,
+    "wez_time_foe": 3.02,
+    "engaged": 1.0,
+    "first_wez": 38.2,
+    "longest_track": 3.05,
+    "min_range": 50,
+    "out_of_bounds": 0.0
+  },
+  "final_validation": {
+    "n": 2,
+    "kills": 2,
+    "rate": 1.0,
+    "t_kill": 57.0,
+    "outcomes": {
+      "kill": 2
+    },
+    "own_health": 0.3153,
+    "opp_health": 0.0,
+    "wez_time": 4.95,
+    "wez_time_foe": 3.02,
+    "engaged": 1.0,
+    "first_wez": 38.2,
+    "longest_track": 3.05,
+    "min_range": 50,
+    "out_of_bounds": 0.0
+  },
+  "training_steps": 9860,
+  "train_episodes": 8,
+  "train_wins": 8,
+  "elapsed_seconds": 5.036820499924943,
+  "scope": "Independent refinement with one shared learned parent"
+}

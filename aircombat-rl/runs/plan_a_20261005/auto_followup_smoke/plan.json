@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-05T11:01:29.517529+00:00",
+  "parent": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\plan_a_20261005\\replay_smoke",
+  "parent_plan_sha256": "4ccfdb9122351fa881966846b3d2ad665e0f24eb44c32ad4a5d1035e91de883f",
+  "decision": "If neither buffer ends at least as good as the starting validation wins AND retains half that win count on average over the last five validations, run the follow-up",
+  "branch_data": "Validation only; parent test scores not used",
+  "additional_steps": 128,
+  "learning_rate": 0.0001,
+  "replay_capacity": 50000,
+  "environment_seed": 10002,
+  "val_every": 128,
+  "val_n": 2,
+  "test_band": 900000,
+  "test_n": 2,
+  "budget": "One follow-up maximum; no recursive optimization or further extension"
+}

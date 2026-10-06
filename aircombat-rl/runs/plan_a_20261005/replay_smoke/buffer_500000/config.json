@@ -1,0 +1,36 @@
+{
+  "spec": {
+    "variant": "observed_dqn",
+    "task": "fair",
+    "algorithm": "dqn",
+    "observation": "relative_v1",
+    "gamma": 0.999,
+    "finite_match": true,
+    "action_mode": "discrete",
+    "feature_version": 1,
+    "double_dqn": true,
+    "learning_rate": 0.001
+  },
+  "source_sha256": "f6ee94395f9e2ab3c04088190ac6f9150a5fbe40c8b7c7df407ecff1a2455e8e",
+  "replay_resize": {
+    "old_capacity": 50000,
+    "new_capacity": 500000,
+    "retained": 50000,
+    "order": "oldest-first; both arms repacked identically"
+  },
+  "seed": 10002,
+  "device": "cpu",
+  "torch": "2.14.1+xpu",
+  "start_step": 1024000,
+  "steps": 1024128,
+  "additional_steps": 128,
+  "initial_gradient_updates": 255750,
+  "initial_replay_size": 50000,
+  "source_model_sha256": "92fa9ba4c0fbf28352f38fab237e2c75dbab5cf19a2367c1ffa13ecf2d0faa85",
+  "val_band": 900000,
+  "val_n": 2,
+  "val_every": 128,
+  "epsilon": 0.05,
+  "started_utc": "2026-10-05T10:53:26.489688+00:00",
+  "continuation": "Restored learner, optimizer, replay and CPU RNG; fresh episode; not exact trajectory resume."
+}

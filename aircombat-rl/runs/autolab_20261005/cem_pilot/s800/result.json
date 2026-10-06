@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "seed": 800,
+  "best_generation": 5,
+  "best_validation": {
+    "n": 20,
+    "kills": 20,
+    "rate": 1.0,
+    "t_kill": 57.4,
+    "outcomes": {
+      "kill": 20
+    },
+    "own_health": 0.3045,
+    "opp_health": 0.0,
+    "wez_time": 4.74,
+    "wez_time_foe": 3.06,
+    "engaged": 1.0,
+    "first_wez": 39.2,
+    "longest_track": 3.74,
+    "min_range": 82,
+    "out_of_bounds": 0.0
+  },
+  "final_validation": {
+    "n": 20,
+    "kills": 20,
+    "rate": 1.0,
+    "t_kill": 57.4,
+    "outcomes": {
+      "kill": 20
+    },
+    "own_health": 0.3045,
+    "opp_health": 0.0,
+    "wez_time": 4.74,
+    "wez_time_foe": 3.06,
+    "engaged": 1.0,
+    "first_wez": 39.2,
+    "longest_track": 3.74,
+    "min_range": 82,
+    "out_of_bounds": 0.0
+  },
+  "training_steps": 695356,
+  "train_episodes": 432,
+  "train_wins": 170,
+  "elapsed_seconds": 807.8402583999559
+}

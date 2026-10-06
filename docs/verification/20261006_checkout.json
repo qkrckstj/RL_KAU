@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-06T13:00:42.253592+09:00",
+  "source": "Isolated checkout of the Git staging area before upload",
+  "manifest_sha256": "8fc639d77889e08c4798e4f1d310f792f78b02411b6b1a1bb8f64ebed74731be",
+  "artifact_files_verified": 8283,
+  "loaded_policy_models": [
+    "cem_original",
+    "round_00",
+    "round_01",
+    "round_02",
+    "round_03",
+    "round_04",
+    "round_05",
+    "ddqn_s1",
+    "ddqn_s0",
+    "refine_2200",
+    "refine_2201",
+    "refine_2202"
+  ],
+  "preselected_policy": "refine_2200",
+  "synthetic_observations_per_policy": 64,
+  "selected_models_match_native_controller": true,
+  "original_cem_hashes_preserved": true,
+  "frozen_benchmark_sources_and_inputs_verified": true,
+  "scope": "File completeness, hashes and portable policy loading/actions. No simulator games or new performance tests were run in this check."
+}

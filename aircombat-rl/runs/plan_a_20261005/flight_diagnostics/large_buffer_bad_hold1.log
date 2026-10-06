@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\qkrck\Desktop\강화학습\RL_KAU\aircombat-rl\tools\diagnose_flights.py", line 150, in <module>
+    (worker(a.out.resolve(),a.model,a.hold) if a.model else run(a.out.resolve()))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qkrck\Desktop\강화학습\RL_KAU\aircombat-rl\tools\diagnose_flights.py", line 87, in worker
+    wez_time=info["wez_time_own"],enemy_wez_time=info["wez_time_opp"],max_track=max_track,
+             ~~~~^^^^^^^^^^^^^^^^
+KeyError: 'wez_time_own'
+
+
+     JSBSim Flight Dynamics Model v1.3.0 [GitHub build 1742/commit 01ea7816288dce9e9f6a1a6dc048014bc65d699e] Apr  9 2026 10:02:36
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+

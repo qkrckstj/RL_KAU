@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "steps": 2048000,
+  "start_step": 1024000,
+  "gradient_updates_before": 255750,
+  "gradient_updates_after": 511750,
+  "replay_size_before": 50000,
+  "replay_size_after": 500000,
+  "best_step": 1024000,
+  "best_validation_kills": 9,
+  "train_outcomes": {
+    "died": 727,
+    "timeout": 19,
+    "kill": 4,
+    "mutual": 1
+  },
+  "finished_utc": "2026-10-05T11:23:05.131298+00:00"
+}

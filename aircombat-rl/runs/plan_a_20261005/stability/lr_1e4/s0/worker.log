@@ -1,0 +1,130 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.0 [GitHub build 1742/commit 01ea7816288dce9e9f6a1a6dc048014bc65d699e] Apr  9 2026 10:02:36
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+VAL observed_dqn s0 step=0 kills=0/20 outcomes={'died': 20}
+TRAIN observed_dqn s0 step=10000 outcomes={'died': 8}
+TRAIN observed_dqn s0 step=20000 outcomes={'died': 16}
+TRAIN observed_dqn s0 step=30000 outcomes={'died': 18, 'timeout': 2}
+TRAIN observed_dqn s0 step=40000 outcomes={'died': 22, 'timeout': 3}
+TRAIN observed_dqn s0 step=50000 outcomes={'died': 27, 'timeout': 4}
+VAL observed_dqn s0 step=51200 kills=0/20 outcomes={'died': 18, 'timeout': 2}
+TRAIN observed_dqn s0 step=60000 outcomes={'died': 32, 'timeout': 5}
+TRAIN observed_dqn s0 step=70000 outcomes={'died': 37, 'timeout': 6}
+TRAIN observed_dqn s0 step=80000 outcomes={'died': 43, 'timeout': 7}
+TRAIN observed_dqn s0 step=90000 outcomes={'died': 52, 'timeout': 7}
+TRAIN observed_dqn s0 step=100000 outcomes={'died': 60, 'timeout': 7}
+VAL observed_dqn s0 step=102400 kills=0/20 outcomes={'died': 20}
+TRAIN observed_dqn s0 step=110000 outcomes={'died': 65, 'timeout': 8}
+TRAIN observed_dqn s0 step=120000 outcomes={'died': 73, 'timeout': 8}
+TRAIN observed_dqn s0 step=130000 outcomes={'died': 82, 'timeout': 8}
+TRAIN observed_dqn s0 step=140000 outcomes={'died': 88, 'timeout': 9}
+TRAIN observed_dqn s0 step=150000 outcomes={'died': 96, 'timeout': 9}
+VAL observed_dqn s0 step=153600 kills=0/20 outcomes={'died': 20}
+TRAIN observed_dqn s0 step=160000 outcomes={'died': 103, 'timeout': 10}
+TRAIN observed_dqn s0 step=170000 outcomes={'died': 111, 'timeout': 10}
+TRAIN observed_dqn s0 step=180000 outcomes={'died': 119, 'timeout': 10}
+TRAIN observed_dqn s0 step=190000 outcomes={'died': 132, 'timeout': 10}
+TRAIN observed_dqn s0 step=200000 outcomes={'died': 141, 'timeout': 10}
+VAL observed_dqn s0 step=204800 kills=0/20 outcomes={'died': 20}
+TRAIN observed_dqn s0 step=210000 outcomes={'died': 151, 'timeout': 10}
+TRAIN observed_dqn s0 step=220000 outcomes={'died': 158, 'timeout': 10}
+TRAIN observed_dqn s0 step=230000 outcomes={'died': 165, 'timeout': 10}
+TRAIN observed_dqn s0 step=240000 outcomes={'died': 172, 'timeout': 10}
+TRAIN observed_dqn s0 step=250000 outcomes={'died': 180, 'timeout': 10}
+VAL observed_dqn s0 step=256000 kills=0/20 outcomes={'died': 20}
+TRAIN observed_dqn s0 step=260000 outcomes={'died': 186, 'timeout': 11}
+TRAIN observed_dqn s0 step=270000 outcomes={'died': 192, 'timeout': 11}
+TRAIN observed_dqn s0 step=280000 outcomes={'died': 198, 'timeout': 11}
+TRAIN observed_dqn s0 step=290000 outcomes={'died': 204, 'timeout': 11}
+TRAIN observed_dqn s0 step=300000 outcomes={'died': 207, 'timeout': 13}
+VAL observed_dqn s0 step=307200 kills=0/20 outcomes={'died': 13, 'timeout': 7}
+TRAIN observed_dqn s0 step=310000 outcomes={'died': 212, 'timeout': 14}
+TRAIN observed_dqn s0 step=320000 outcomes={'died': 220, 'timeout': 14}
+TRAIN observed_dqn s0 step=330000 outcomes={'died': 225, 'timeout': 15}
+TRAIN observed_dqn s0 step=340000 outcomes={'died': 233, 'timeout': 15}
+TRAIN observed_dqn s0 step=350000 outcomes={'died': 239, 'timeout': 15}
+VAL observed_dqn s0 step=358400 kills=0/20 outcomes={'died': 20}
+TRAIN observed_dqn s0 step=360000 outcomes={'died': 245, 'timeout': 16}
+TRAIN observed_dqn s0 step=370000 outcomes={'died': 252, 'timeout': 16}
+TRAIN observed_dqn s0 step=380000 outcomes={'died': 259, 'timeout': 16}
+TRAIN observed_dqn s0 step=390000 outcomes={'died': 264, 'timeout': 17}
+TRAIN observed_dqn s0 step=400000 outcomes={'died': 269, 'timeout': 18}
+VAL observed_dqn s0 step=409600 kills=0/20 outcomes={'died': 20}
+TRAIN observed_dqn s0 step=410000 outcomes={'died': 277, 'timeout': 18}
+TRAIN observed_dqn s0 step=420000 outcomes={'died': 286, 'timeout': 18}
+TRAIN observed_dqn s0 step=430000 outcomes={'died': 291, 'timeout': 19}
+TRAIN observed_dqn s0 step=440000 outcomes={'died': 297, 'timeout': 20}
+TRAIN observed_dqn s0 step=450000 outcomes={'died': 301, 'timeout': 21}
+TRAIN observed_dqn s0 step=460000 outcomes={'died': 303, 'timeout': 24}
+VAL observed_dqn s0 step=460800 kills=0/20 outcomes={'died': 14, 'timeout': 6}
+TRAIN observed_dqn s0 step=470000 outcomes={'died': 305, 'timeout': 27}
+TRAIN observed_dqn s0 step=480000 outcomes={'died': 311, 'timeout': 27}
+TRAIN observed_dqn s0 step=490000 outcomes={'died': 316, 'timeout': 28}
+TRAIN observed_dqn s0 step=500000 outcomes={'died': 320, 'timeout': 29}
+TRAIN observed_dqn s0 step=510000 outcomes={'died': 326, 'timeout': 30}
+VAL observed_dqn s0 step=512000 kills=0/20 outcomes={'died': 19, 'timeout': 1}
+TRAIN observed_dqn s0 step=520000 outcomes={'died': 329, 'timeout': 32}
+TRAIN observed_dqn s0 step=530000 outcomes={'died': 333, 'timeout': 33}
+TRAIN observed_dqn s0 step=540000 outcomes={'died': 337, 'timeout': 34}
+TRAIN observed_dqn s0 step=550000 outcomes={'died': 337, 'timeout': 38}
+TRAIN observed_dqn s0 step=560000 outcomes={'died': 338, 'timeout': 41}
+VAL observed_dqn s0 step=563200 kills=0/20 outcomes={'died': 16, 'timeout': 4}
+TRAIN observed_dqn s0 step=570000 outcomes={'died': 339, 'timeout': 44}
+TRAIN observed_dqn s0 step=580000 outcomes={'died': 341, 'timeout': 47}
+TRAIN observed_dqn s0 step=590000 outcomes={'died': 341, 'timeout': 51}
+TRAIN observed_dqn s0 step=600000 outcomes={'died': 342, 'timeout': 54}
+TRAIN observed_dqn s0 step=610000 outcomes={'died': 345, 'timeout': 56}
+VAL observed_dqn s0 step=614400 kills=0/20 outcomes={'died': 18, 'timeout': 2}
+TRAIN observed_dqn s0 step=620000 outcomes={'died': 346, 'timeout': 59}
+TRAIN observed_dqn s0 step=630000 outcomes={'died': 350, 'timeout': 60}
+TRAIN observed_dqn s0 step=640000 outcomes={'died': 355, 'timeout': 62}
+TRAIN observed_dqn s0 step=650000 outcomes={'died': 362, 'timeout': 63}
+TRAIN observed_dqn s0 step=660000 outcomes={'died': 371, 'timeout': 63}
+VAL observed_dqn s0 step=665600 kills=0/20 outcomes={'died': 20}
+TRAIN observed_dqn s0 step=670000 outcomes={'died': 372, 'timeout': 66}
+TRAIN observed_dqn s0 step=680000 outcomes={'died': 375, 'timeout': 69}
+TRAIN observed_dqn s0 step=690000 outcomes={'died': 377, 'timeout': 71}
+TRAIN observed_dqn s0 step=700000 outcomes={'died': 381, 'timeout': 72}
+TRAIN observed_dqn s0 step=710000 outcomes={'died': 384, 'timeout': 75}
+VAL observed_dqn s0 step=716800 kills=0/20 outcomes={'died': 10, 'timeout': 10}
+TRAIN observed_dqn s0 step=720000 outcomes={'died': 387, 'timeout': 77}
+TRAIN observed_dqn s0 step=730000 outcomes={'died': 392, 'timeout': 79}
+TRAIN observed_dqn s0 step=740000 outcomes={'died': 397, 'timeout': 80}
+TRAIN observed_dqn s0 step=750000 outcomes={'died': 400, 'timeout': 82}
+TRAIN observed_dqn s0 step=760000 outcomes={'died': 406, 'timeout': 82}
+VAL observed_dqn s0 step=768000 kills=0/20 outcomes={'died': 18, 'timeout': 2}
+TRAIN observed_dqn s0 step=770000 outcomes={'died': 411, 'timeout': 83}
+TRAIN observed_dqn s0 step=780000 outcomes={'died': 415, 'timeout': 84}
+TRAIN observed_dqn s0 step=790000 outcomes={'died': 416, 'timeout': 88}
+TRAIN observed_dqn s0 step=800000 outcomes={'died': 421, 'timeout': 88}
+TRAIN observed_dqn s0 step=810000 outcomes={'died': 429, 'timeout': 88}
+VAL observed_dqn s0 step=819200 kills=0/20 outcomes={'died': 16, 'timeout': 4}
+TRAIN observed_dqn s0 step=820000 outcomes={'died': 434, 'timeout': 88}
+TRAIN observed_dqn s0 step=830000 outcomes={'died': 438, 'timeout': 89}
+TRAIN observed_dqn s0 step=840000 outcomes={'died': 440, 'timeout': 91, 'kill': 1}
+TRAIN observed_dqn s0 step=850000 outcomes={'died': 445, 'timeout': 92, 'kill': 1}
+TRAIN observed_dqn s0 step=860000 outcomes={'died': 445, 'timeout': 96, 'kill': 1}
+TRAIN observed_dqn s0 step=870000 outcomes={'died': 449, 'timeout': 97, 'kill': 1}
+VAL observed_dqn s0 step=870400 kills=0/20 outcomes={'died': 16, 'timeout': 4}
+TRAIN observed_dqn s0 step=880000 outcomes={'died': 454, 'timeout': 98, 'kill': 1}
+TRAIN observed_dqn s0 step=890000 outcomes={'died': 458, 'timeout': 100, 'kill': 1}
+TRAIN observed_dqn s0 step=900000 outcomes={'died': 460, 'timeout': 102, 'kill': 1}
+TRAIN observed_dqn s0 step=910000 outcomes={'died': 463, 'timeout': 104, 'kill': 1}
+TRAIN observed_dqn s0 step=920000 outcomes={'died': 463, 'timeout': 108, 'kill': 1}
+VAL observed_dqn s0 step=921600 kills=0/20 outcomes={'died': 19, 'timeout': 1}
+TRAIN observed_dqn s0 step=930000 outcomes={'died': 464, 'timeout': 111, 'kill': 1}
+TRAIN observed_dqn s0 step=940000 outcomes={'died': 467, 'timeout': 114, 'kill': 1}
+TRAIN observed_dqn s0 step=950000 outcomes={'died': 469, 'timeout': 116, 'kill': 1}
+TRAIN observed_dqn s0 step=960000 outcomes={'died': 471, 'timeout': 120, 'kill': 1}
+TRAIN observed_dqn s0 step=970000 outcomes={'died': 472, 'timeout': 123, 'kill': 1}
+VAL observed_dqn s0 step=972800 kills=0/20 outcomes={'died': 12, 'timeout': 8}
+TRAIN observed_dqn s0 step=980000 outcomes={'died': 473, 'timeout': 126, 'kill': 1}
+TRAIN observed_dqn s0 step=990000 outcomes={'died': 475, 'timeout': 128, 'kill': 1}
+TRAIN observed_dqn s0 step=1000000 outcomes={'died': 475, 'timeout': 132, 'kill': 1}
+TRAIN observed_dqn s0 step=1010000 outcomes={'died': 478, 'timeout': 134, 'kill': 1}
+TRAIN observed_dqn s0 step=1020000 outcomes={'died': 479, 'timeout': 137, 'kill': 1}
+VAL observed_dqn s0 step=1024000 kills=0/20 outcomes={'died': 18, 'timeout': 2}

@@ -1,0 +1,194 @@
+{
+  "groups": [
+    {
+      "condition": "lr_1e3",
+      "kind": "validation_selected",
+      "budget": 2048,
+      "wins": [
+        0
+      ],
+      "mean_win_rate": 0.0
+    },
+    {
+      "condition": "lr_1e3",
+      "kind": "budget_endpoint",
+      "budget": 2048,
+      "wins": [
+        0
+      ],
+      "mean_win_rate": 0.0
+    },
+    {
+      "condition": "lr_1e4",
+      "kind": "validation_selected",
+      "budget": 2048,
+      "wins": [
+        0
+      ],
+      "mean_win_rate": 0.0
+    },
+    {
+      "condition": "lr_1e4",
+      "kind": "budget_endpoint",
+      "budget": 2048,
+      "wins": [
+        0
+      ],
+      "mean_win_rate": 0.0
+    }
+  ],
+  "diagnostics": [
+    {
+      "condition": "lr_1e3",
+      "seed": 0,
+      "late_validation_wins": [
+        0,
+        0
+      ],
+      "previous_validation_wins": [],
+      "final": {
+        "checkpoint_sha256": "cfaa1347f5df6de5f14adf8b9c951e27b2ce54d1246ad5587661fd5cd078ae28",
+        "replay_size": 2048,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.20000000298023224,
+          "max": 0.0,
+          "mean": -9.765625145519152e-05,
+          "nonzero_fraction": 0.00048828125
+        },
+        "terminal_count": 1,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 348,
+          "1": 297,
+          "2": 116,
+          "3": 138,
+          "4": 118,
+          "5": 285,
+          "6": 121,
+          "7": 225,
+          "8": 400
+        },
+        "greedy_action_counts_sample": {
+          "0": 194,
+          "1": 171,
+          "2": 125,
+          "3": 467,
+          "4": 435,
+          "5": 15,
+          "6": 170,
+          "7": 318,
+          "8": 153
+        },
+        "dominant_greedy_action_fraction": 0.22802734375,
+        "q_min": 0.10236820578575134,
+        "q_max": 0.2090747356414795,
+        "analytical_global_return_bounds": [
+          -0.2,
+          1.0
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 0.0,
+        "sampled_action_return_bound_violation_fraction": 0.0,
+        "max_excess_above_state_return_bound": 0.0,
+        "mean_top_two_q_gap": 0.004363482818007469,
+        "td_rmse": 0.010537389665842056,
+        "td_mean": -0.001471600728109479,
+        "own_weapon_zone_fraction": 0.0,
+        "opponent_weapon_zone_fraction": 0.0478515625,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    },
+    {
+      "condition": "lr_1e4",
+      "seed": 0,
+      "late_validation_wins": [
+        0,
+        0
+      ],
+      "previous_validation_wins": [],
+      "final": {
+        "checkpoint_sha256": "de65145fc846b0a2eb604356dcfa68f99c68f8df604348428b9d65cc824830e5",
+        "replay_size": 2048,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.20000000298023224,
+          "max": 0.0,
+          "mean": -9.765625145519152e-05,
+          "nonzero_fraction": 0.00048828125
+        },
+        "terminal_count": 1,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 140,
+          "1": 1029,
+          "2": 116,
+          "3": 109,
+          "4": 110,
+          "5": 176,
+          "6": 121,
+          "7": 122,
+          "8": 125
+        },
+        "greedy_action_counts_sample": {
+          "0": 50,
+          "1": 973,
+          "2": 432,
+          "4": 40,
+          "5": 146,
+          "6": 125,
+          "7": 64,
+          "8": 218
+        },
+        "dominant_greedy_action_fraction": 0.47509765625,
+        "q_min": 0.032131314277648926,
+        "q_max": 0.22820626199245453,
+        "analytical_global_return_bounds": [
+          -0.2,
+          1.0
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 0.0,
+        "sampled_action_return_bound_violation_fraction": 0.0,
+        "max_excess_above_state_return_bound": 0.0,
+        "mean_top_two_q_gap": 0.011845158413052559,
+        "td_rmse": 0.024233754724264145,
+        "td_mean": -0.010893311351537704,
+        "own_weapon_zone_fraction": 0.00634765625,
+        "opponent_weapon_zone_fraction": 0.080078125,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    }
+  ],
+  "test_band": 900000,
+  "selected_policy": {
+    "reward": "lr_1e3",
+    "seed": 0,
+    "budget": 2048,
+    "kind": "validation_selected",
+    "step": 1024,
+    "validation": {
+      "n": 2,
+      "kills": 0,
+      "rate": 0.0,
+      "t_kill": null,
+      "outcomes": {
+        "died": 2
+      },
+      "own_health": 0.0,
+      "opp_health": 1.0,
+      "wez_time": 0.0,
+      "wez_time_foe": 4.0,
+      "engaged": 0.0,
+      "first_wez": null,
+      "longest_track": 0.0,
+      "min_range": 610,
+      "out_of_bounds": 0.0
+    },
+    "weights": "lr_1e3/s0/checkpoints/step_1024/policy_net.zip",
+    "weights_sha256": "1b389619e77fd10be997e82ab0373c9c082908ac7da53e4bacabcd281875184a"
+  },
+  "finished_utc": "2026-10-05T05:38:17.555396+00:00"
+}

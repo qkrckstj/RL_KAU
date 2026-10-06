@@ -1,0 +1,344 @@
+{
+  "result": {
+    "status": "complete",
+    "steps": 1024128,
+    "start_step": 1024000,
+    "gradient_updates_before": 255750,
+    "gradient_updates_after": 255782,
+    "replay_size_before": 50000,
+    "replay_size_after": 50000,
+    "best_step": 1024000,
+    "best_validation_kills": 2,
+    "train_outcomes": {},
+    "finished_utc": "2026-10-05T09:49:49.887392+00:00"
+  },
+  "rows": [
+    {
+      "kind": "starting_policy",
+      "step": 1024000,
+      "weights": "checkpoints/step_1024000/policy_net.zip",
+      "sha256": "0be2d4165bb1634911e70214cf0f50572eb63cfcd2e4f67b979ff28d001807a7",
+      "test": {
+        "submission": "learner",
+        "policy": "checkpoints/step_1024000/policy_net.zip",
+        "policy_abs": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\plan_a_20261005\\double_continue_smoke\\learner\\checkpoints\\step_1024000\\policy_net.zip",
+        "note": "observed_dqn 31->[64,64]->9",
+        "band": 900000,
+        "seats": [
+          "red",
+          "blue"
+        ],
+        "summary": {
+          "n": 2,
+          "kills": 2,
+          "rate": 1.0,
+          "t_kill": 63.2,
+          "outcomes": {
+            "kill": 2
+          },
+          "own_health": 0.2575,
+          "opp_health": 0.0,
+          "wez_time": 4.95,
+          "wez_time_foe": 3.2,
+          "engaged": 1.0,
+          "first_wez": 42.1,
+          "longest_track": 2.88,
+          "min_range": 18,
+          "out_of_bounds": 0.0
+        },
+        "per_seat": {
+          "red": {
+            "n": 1,
+            "kills": 1,
+            "rate": 1.0,
+            "t_kill": 62.5,
+            "outcomes": {
+              "kill": 1
+            },
+            "own_health": 0.2575,
+            "opp_health": 0.0,
+            "wez_time": 4.95,
+            "wez_time_foe": 3.2,
+            "engaged": 1.0,
+            "first_wez": 41.5,
+            "longest_track": 3.15,
+            "min_range": 10,
+            "out_of_bounds": 0.0
+          },
+          "blue": {
+            "n": 1,
+            "kills": 1,
+            "rate": 1.0,
+            "t_kill": 63.9,
+            "outcomes": {
+              "kill": 1
+            },
+            "own_health": 0.2575,
+            "opp_health": 0.0,
+            "wez_time": 4.95,
+            "wez_time_foe": 3.2,
+            "engaged": 1.0,
+            "first_wez": 42.7,
+            "longest_track": 2.6,
+            "min_range": 25,
+            "out_of_bounds": 0.0
+          }
+        },
+        "episodes": [
+          {
+            "seed": 900000,
+            "outcome": "kill",
+            "won": true,
+            "t": 62.5,
+            "steps": 1250,
+            "truncated": false,
+            "own_health": 0.2575,
+            "opp_health": 0.0,
+            "wez_time": 4.95,
+            "wez_time_foe": 3.2,
+            "first_wez": 41.5,
+            "longest_track": 3.15,
+            "min_range": 10,
+            "out_of_bounds": false,
+            "seat": "red"
+          },
+          {
+            "seed": 900000,
+            "outcome": "kill",
+            "won": true,
+            "t": 63.9,
+            "steps": 1278,
+            "truncated": false,
+            "own_health": 0.2575,
+            "opp_health": 0.0,
+            "wez_time": 4.95,
+            "wez_time_foe": 3.2,
+            "first_wez": 42.7,
+            "longest_track": 2.6,
+            "min_range": 25,
+            "out_of_bounds": false,
+            "seat": "blue"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "validation_selected",
+      "step": 1024000,
+      "weights": "policy_net.zip",
+      "sha256": "0be2d4165bb1634911e70214cf0f50572eb63cfcd2e4f67b979ff28d001807a7",
+      "test": {
+        "submission": "learner",
+        "policy": "checkpoints/step_1024000/policy_net.zip",
+        "policy_abs": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\plan_a_20261005\\double_continue_smoke\\learner\\checkpoints\\step_1024000\\policy_net.zip",
+        "note": "observed_dqn 31->[64,64]->9",
+        "band": 900000,
+        "seats": [
+          "red",
+          "blue"
+        ],
+        "summary": {
+          "n": 2,
+          "kills": 2,
+          "rate": 1.0,
+          "t_kill": 63.2,
+          "outcomes": {
+            "kill": 2
+          },
+          "own_health": 0.2575,
+          "opp_health": 0.0,
+          "wez_time": 4.95,
+          "wez_time_foe": 3.2,
+          "engaged": 1.0,
+          "first_wez": 42.1,
+          "longest_track": 2.88,
+          "min_range": 18,
+          "out_of_bounds": 0.0
+        },
+        "per_seat": {
+          "red": {
+            "n": 1,
+            "kills": 1,
+            "rate": 1.0,
+            "t_kill": 62.5,
+            "outcomes": {
+              "kill": 1
+            },
+            "own_health": 0.2575,
+            "opp_health": 0.0,
+            "wez_time": 4.95,
+            "wez_time_foe": 3.2,
+            "engaged": 1.0,
+            "first_wez": 41.5,
+            "longest_track": 3.15,
+            "min_range": 10,
+            "out_of_bounds": 0.0
+          },
+          "blue": {
+            "n": 1,
+            "kills": 1,
+            "rate": 1.0,
+            "t_kill": 63.9,
+            "outcomes": {
+              "kill": 1
+            },
+            "own_health": 0.2575,
+            "opp_health": 0.0,
+            "wez_time": 4.95,
+            "wez_time_foe": 3.2,
+            "engaged": 1.0,
+            "first_wez": 42.7,
+            "longest_track": 2.6,
+            "min_range": 25,
+            "out_of_bounds": 0.0
+          }
+        },
+        "episodes": [
+          {
+            "seed": 900000,
+            "outcome": "kill",
+            "won": true,
+            "t": 62.5,
+            "steps": 1250,
+            "truncated": false,
+            "own_health": 0.2575,
+            "opp_health": 0.0,
+            "wez_time": 4.95,
+            "wez_time_foe": 3.2,
+            "first_wez": 41.5,
+            "longest_track": 3.15,
+            "min_range": 10,
+            "out_of_bounds": false,
+            "seat": "red"
+          },
+          {
+            "seed": 900000,
+            "outcome": "kill",
+            "won": true,
+            "t": 63.9,
+            "steps": 1278,
+            "truncated": false,
+            "own_health": 0.2575,
+            "opp_health": 0.0,
+            "wez_time": 4.95,
+            "wez_time_foe": 3.2,
+            "first_wez": 42.7,
+            "longest_track": 2.6,
+            "min_range": 25,
+            "out_of_bounds": false,
+            "seat": "blue"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "final_policy",
+      "step": 1024128,
+      "weights": "final_net.zip",
+      "sha256": "f1fdeb749647e060c55ff5be1c91042145a96d6f59017e2583b6c5dc5c18be39",
+      "test": {
+        "submission": "learner",
+        "policy": "final_net.zip",
+        "policy_abs": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\plan_a_20261005\\double_continue_smoke\\learner\\final_net.zip",
+        "note": "observed_dqn 31->[64,64]->9",
+        "band": 900000,
+        "seats": [
+          "red",
+          "blue"
+        ],
+        "summary": {
+          "n": 2,
+          "kills": 0,
+          "rate": 0.0,
+          "t_kill": null,
+          "outcomes": {
+            "died": 2
+          },
+          "own_health": 0.0,
+          "opp_health": 1.0,
+          "wez_time": 0.3,
+          "wez_time_foe": 4.47,
+          "engaged": 0.5,
+          "first_wez": 29.8,
+          "longest_track": 0.3,
+          "min_range": 718,
+          "out_of_bounds": 0.0
+        },
+        "per_seat": {
+          "red": {
+            "n": 1,
+            "kills": 0,
+            "rate": 0.0,
+            "t_kill": null,
+            "outcomes": {
+              "died": 1
+            },
+            "own_health": 0.0,
+            "opp_health": 1.0,
+            "wez_time": 0.0,
+            "wez_time_foe": 4.0,
+            "engaged": 0.0,
+            "first_wez": null,
+            "longest_track": 0.0,
+            "min_range": 1101,
+            "out_of_bounds": 0.0
+          },
+          "blue": {
+            "n": 1,
+            "kills": 0,
+            "rate": 0.0,
+            "t_kill": null,
+            "outcomes": {
+              "died": 1
+            },
+            "own_health": 0.0,
+            "opp_health": 1.0,
+            "wez_time": 0.6,
+            "wez_time_foe": 4.95,
+            "engaged": 1.0,
+            "first_wez": 29.8,
+            "longest_track": 0.6,
+            "min_range": 334,
+            "out_of_bounds": 0.0
+          }
+        },
+        "episodes": [
+          {
+            "seed": 900000,
+            "outcome": "died",
+            "won": false,
+            "t": 87.4,
+            "steps": 1748,
+            "truncated": false,
+            "own_health": 0.0,
+            "opp_health": 1.0,
+            "wez_time": 0.0,
+            "wez_time_foe": 4.0,
+            "first_wez": null,
+            "longest_track": 0.0,
+            "min_range": 1101,
+            "out_of_bounds": false,
+            "seat": "red"
+          },
+          {
+            "seed": 900000,
+            "outcome": "died",
+            "won": false,
+            "t": 54.5,
+            "steps": 1090,
+            "truncated": false,
+            "own_health": 0.0,
+            "opp_health": 1.0,
+            "wez_time": 0.6,
+            "wez_time_foe": 4.95,
+            "first_wez": 29.8,
+            "longest_track": 0.6,
+            "min_range": 334,
+            "out_of_bounds": false,
+            "seat": "blue"
+          }
+        ]
+      }
+    }
+  ]
+}

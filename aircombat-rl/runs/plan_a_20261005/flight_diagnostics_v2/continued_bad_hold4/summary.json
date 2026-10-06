@@ -1,0 +1,16 @@
+{
+  "model": "continued_bad",
+  "hold": 4,
+  "wins": 0,
+  "n": 20,
+  "changes_per_second": 0.27888905427972216,
+  "heading_reversals_per_second": 0.04743270820855411,
+  "speed_reversals_per_second": 0.0941791609886819,
+  "wez_time": 1.3249999999999984,
+  "enemy_wez_time": 4.692499999999991,
+  "max_track": 0.9549999999999997,
+  "wez_entries": 0.75,
+  "short_windows": 0.15,
+  "mean_speed": 400.1163216852161,
+  "mean_q_gap": 0.0010125575887569376
+}

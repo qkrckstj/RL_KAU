@@ -1,0 +1,19 @@
+{
+  "stage": "training",
+  "generation": 3,
+  "generations": 3,
+  "selected_generation": 0,
+  "selected": {
+    "objective": 0.6883544303797469,
+    "mean_win_rate": 0.775,
+    "mean_score": 0.8791666666666667,
+    "worst_score": 0.5,
+    "lower_quarter_score": 0.5972222222222222,
+    "health": 0.45629233654627804,
+    "games": 120,
+    "steps": 153163
+  },
+  "training_steps": 2107309,
+  "training_games": 1380,
+  "elapsed_seconds": 444.07587139995303
+}

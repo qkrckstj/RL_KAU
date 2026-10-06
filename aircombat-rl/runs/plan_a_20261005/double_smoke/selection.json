@@ -1,0 +1,142 @@
+{
+  "frozen_utc": "2026-10-05T07:58:14.421824+00:00",
+  "choices": [
+    {
+      "reward": "ddqn",
+      "seed": 0,
+      "budget": 2048,
+      "kind": "validation_selected",
+      "step": 1024,
+      "validation": {
+        "n": 2,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 2
+        },
+        "own_health": 0.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 4.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 610,
+        "out_of_bounds": 0.0
+      },
+      "weights": "ddqn/s0/checkpoints/step_1024/policy_net.zip",
+      "weights_sha256": "ab7be6ef40d1633299ef93d53ef7865dbc1a51c3a4bc331e47bd598f73b0a887"
+    },
+    {
+      "reward": "ddqn",
+      "seed": 0,
+      "budget": 2048,
+      "kind": "budget_endpoint",
+      "step": 2048,
+      "validation": {
+        "n": 2,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 2
+        },
+        "own_health": 0.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 5.7,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 210,
+        "out_of_bounds": 0.0
+      },
+      "weights": "ddqn/s0/checkpoints/step_2048/policy_net.zip",
+      "weights_sha256": "25d7031000e227fcc568a3c587b4b235d60f8648cb639ff2426b2c962aa91b7d"
+    },
+    {
+      "reward": "dqn_reference",
+      "seed": 0,
+      "budget": 2048,
+      "kind": "validation_selected",
+      "step": 1024,
+      "validation": {
+        "n": 2,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 2
+        },
+        "own_health": 0.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 4.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 610,
+        "out_of_bounds": 0.0
+      },
+      "weights": "dqn_reference/s0/checkpoints/step_1024/policy_net.zip",
+      "weights_sha256": "1b389619e77fd10be997e82ab0373c9c082908ac7da53e4bacabcd281875184a"
+    },
+    {
+      "reward": "dqn_reference",
+      "seed": 0,
+      "budget": 2048,
+      "kind": "budget_endpoint",
+      "step": 2048,
+      "validation": {
+        "n": 2,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 2
+        },
+        "own_health": 0.0,
+        "opp_health": 0.703,
+        "wez_time": 1.38,
+        "wez_time_foe": 4.95,
+        "engaged": 0.5,
+        "first_wez": 25.8,
+        "longest_track": 1.38,
+        "min_range": 65,
+        "out_of_bounds": 0.0
+      },
+      "weights": "dqn_reference/s0/checkpoints/step_2048/policy_net.zip",
+      "weights_sha256": "cfaa1347f5df6de5f14adf8b9c951e27b2ce54d1246ad5587661fd5cd078ae28"
+    }
+  ],
+  "selected_policy": {
+    "reward": "ddqn",
+    "seed": 0,
+    "budget": 2048,
+    "kind": "validation_selected",
+    "step": 1024,
+    "validation": {
+      "n": 2,
+      "kills": 0,
+      "rate": 0.0,
+      "t_kill": null,
+      "outcomes": {
+        "died": 2
+      },
+      "own_health": 0.0,
+      "opp_health": 1.0,
+      "wez_time": 0.0,
+      "wez_time_foe": 4.0,
+      "engaged": 0.0,
+      "first_wez": null,
+      "longest_track": 0.0,
+      "min_range": 610,
+      "out_of_bounds": 0.0
+    },
+    "weights": "ddqn/s0/checkpoints/step_1024/policy_net.zip",
+    "weights_sha256": "ab7be6ef40d1633299ef93d53ef7865dbc1a51c3a4bc331e47bd598f73b0a887"
+  },
+  "test_band": 900000,
+  "test_n": 2
+}

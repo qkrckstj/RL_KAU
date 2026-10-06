@@ -1,0 +1,593 @@
+{
+  "groups": [
+    {
+      "condition": "lr_1e3",
+      "kind": "validation_selected",
+      "budget": 204800,
+      "wins": [
+        0,
+        0,
+        6
+      ],
+      "mean_win_rate": 0.05
+    },
+    {
+      "condition": "lr_1e3",
+      "kind": "validation_selected",
+      "budget": 512000,
+      "wins": [
+        0,
+        0,
+        6
+      ],
+      "mean_win_rate": 0.05
+    },
+    {
+      "condition": "lr_1e3",
+      "kind": "validation_selected",
+      "budget": 1024000,
+      "wins": [
+        13,
+        2,
+        6
+      ],
+      "mean_win_rate": 0.175
+    },
+    {
+      "condition": "lr_1e3",
+      "kind": "budget_endpoint",
+      "budget": 204800,
+      "wins": [
+        0,
+        0,
+        6
+      ],
+      "mean_win_rate": 0.05
+    },
+    {
+      "condition": "lr_1e3",
+      "kind": "budget_endpoint",
+      "budget": 512000,
+      "wins": [
+        0,
+        0,
+        0
+      ],
+      "mean_win_rate": 0.0
+    },
+    {
+      "condition": "lr_1e3",
+      "kind": "budget_endpoint",
+      "budget": 1024000,
+      "wins": [
+        0,
+        0,
+        0
+      ],
+      "mean_win_rate": 0.0
+    },
+    {
+      "condition": "lr_1e4",
+      "kind": "validation_selected",
+      "budget": 204800,
+      "wins": [
+        0,
+        0,
+        1
+      ],
+      "mean_win_rate": 0.008333333333333333
+    },
+    {
+      "condition": "lr_1e4",
+      "kind": "validation_selected",
+      "budget": 512000,
+      "wins": [
+        0,
+        0,
+        1
+      ],
+      "mean_win_rate": 0.008333333333333333
+    },
+    {
+      "condition": "lr_1e4",
+      "kind": "validation_selected",
+      "budget": 1024000,
+      "wins": [
+        0,
+        1,
+        1
+      ],
+      "mean_win_rate": 0.016666666666666666
+    },
+    {
+      "condition": "lr_1e4",
+      "kind": "budget_endpoint",
+      "budget": 204800,
+      "wins": [
+        0,
+        0,
+        1
+      ],
+      "mean_win_rate": 0.008333333333333333
+    },
+    {
+      "condition": "lr_1e4",
+      "kind": "budget_endpoint",
+      "budget": 512000,
+      "wins": [
+        0,
+        0,
+        0
+      ],
+      "mean_win_rate": 0.0
+    },
+    {
+      "condition": "lr_1e4",
+      "kind": "budget_endpoint",
+      "budget": 1024000,
+      "wins": [
+        0,
+        0,
+        0
+      ],
+      "mean_win_rate": 0.0
+    }
+  ],
+  "diagnostics": [
+    {
+      "condition": "lr_1e3",
+      "seed": 0,
+      "late_validation_wins": [
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous_validation_wins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "final": {
+        "checkpoint_sha256": "23d4c1e63cd389d7e4914af43747357cf93578117e2ecf2bdd17ea6093c17229",
+        "replay_size": 50000,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.20000000298023224,
+          "max": 0.0,
+          "mean": -0.00011999999696854502,
+          "nonzero_fraction": 0.0006
+        },
+        "terminal_count": 30,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 6915,
+          "1": 8615,
+          "2": 9622,
+          "3": 6263,
+          "4": 4517,
+          "5": 5416,
+          "6": 2533,
+          "7": 2753,
+          "8": 3366
+        },
+        "greedy_action_counts_sample": {
+          "0": 76,
+          "1": 88,
+          "2": 67,
+          "3": 12,
+          "4": 870,
+          "5": 89,
+          "6": 1,
+          "7": 815,
+          "8": 30
+        },
+        "dominant_greedy_action_fraction": 0.4248046875,
+        "q_min": -0.4450288414955139,
+        "q_max": 23.374908447265625,
+        "analytical_global_return_bounds": [
+          -0.2,
+          1.0
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 0.9953884482383728,
+        "sampled_action_return_bound_violation_fraction": 0.99560546875,
+        "max_excess_above_state_return_bound": 22.374908447265625,
+        "mean_top_two_q_gap": 0.010231631807982922,
+        "td_rmse": 0.24441488087177277,
+        "td_mean": -0.021102333441376686,
+        "own_weapon_zone_fraction": 0.0012000000569969416,
+        "opponent_weapon_zone_fraction": 0.053300000727176666,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    },
+    {
+      "condition": "lr_1e3",
+      "seed": 1,
+      "late_validation_wins": [
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "previous_validation_wins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "final": {
+        "checkpoint_sha256": "2c0648fb5d45a962bd7de7d7663165ea125ad9347c412b4a49bbbad147dd6a6d",
+        "replay_size": 50000,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.20000000298023224,
+          "max": 0.0,
+          "mean": -0.0001320000010309741,
+          "nonzero_fraction": 0.00066
+        },
+        "terminal_count": 33,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 4711,
+          "1": 5174,
+          "2": 5160,
+          "3": 6107,
+          "4": 5979,
+          "5": 5496,
+          "6": 5513,
+          "7": 6082,
+          "8": 5778
+        },
+        "greedy_action_counts_sample": {
+          "1": 14,
+          "2": 1,
+          "3": 52,
+          "5": 2,
+          "6": 2,
+          "8": 1977
+        },
+        "dominant_greedy_action_fraction": 0.96533203125,
+        "q_min": -0.4700004458427429,
+        "q_max": 14.157857894897461,
+        "analytical_global_return_bounds": [
+          -0.2,
+          1.0
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 0.9780815839767456,
+        "sampled_action_return_bound_violation_fraction": 0.978515625,
+        "max_excess_above_state_return_bound": 13.157857894897461,
+        "mean_top_two_q_gap": 0.03238597512245178,
+        "td_rmse": 0.06081425026059151,
+        "td_mean": -0.031058814376592636,
+        "own_weapon_zone_fraction": 0.007540000136941671,
+        "opponent_weapon_zone_fraction": 0.057179998606443405,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    },
+    {
+      "condition": "lr_1e3",
+      "seed": 2,
+      "late_validation_wins": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "previous_validation_wins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "final": {
+        "checkpoint_sha256": "c098d80df3614a5e336d0178960cca5efb313eaa21105972aeef39cb494ecd55",
+        "replay_size": 50000,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.20000000298023224,
+          "max": 0.0,
+          "mean": -0.00014000000373926014,
+          "nonzero_fraction": 0.0007
+        },
+        "terminal_count": 35,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 3118,
+          "1": 5091,
+          "2": 4797,
+          "3": 5454,
+          "4": 5715,
+          "5": 4876,
+          "6": 7260,
+          "7": 6754,
+          "8": 6935
+        },
+        "greedy_action_counts_sample": {
+          "0": 43,
+          "1": 1,
+          "2": 318,
+          "3": 272,
+          "4": 377,
+          "5": 231,
+          "6": 76,
+          "7": 233,
+          "8": 497
+        },
+        "dominant_greedy_action_fraction": 0.24267578125,
+        "q_min": -0.21076196432113647,
+        "q_max": 13.387533187866211,
+        "analytical_global_return_bounds": [
+          -0.2,
+          1.0
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 0.9919704794883728,
+        "sampled_action_return_bound_violation_fraction": 0.99169921875,
+        "max_excess_above_state_return_bound": 12.387533187866211,
+        "mean_top_two_q_gap": 0.009358515962958336,
+        "td_rmse": 0.09718112647533417,
+        "td_mean": -0.0052844989113509655,
+        "own_weapon_zone_fraction": 0.009220000356435776,
+        "opponent_weapon_zone_fraction": 0.06136000156402588,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    },
+    {
+      "condition": "lr_1e4",
+      "seed": 0,
+      "late_validation_wins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous_validation_wins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "final": {
+        "checkpoint_sha256": "3e33dae960015fa71ea71230ddbe6901d292728e94592cbe3a07fce2c4504a04",
+        "replay_size": 50000,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.20000000298023224,
+          "max": 0.0,
+          "mean": -8.399999933317304e-05,
+          "nonzero_fraction": 0.00042
+        },
+        "terminal_count": 21,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 5999,
+          "1": 7026,
+          "2": 7457,
+          "3": 3862,
+          "4": 4034,
+          "5": 5238,
+          "6": 4043,
+          "7": 6437,
+          "8": 5904
+        },
+        "greedy_action_counts_sample": {
+          "0": 88,
+          "1": 137,
+          "2": 513,
+          "3": 25,
+          "4": 64,
+          "5": 569,
+          "6": 265,
+          "7": 302,
+          "8": 85
+        },
+        "dominant_greedy_action_fraction": 0.27783203125,
+        "q_min": -0.24029874801635742,
+        "q_max": 2.6532678604125977,
+        "analytical_global_return_bounds": [
+          -0.2,
+          1.0
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 0.8492295742034912,
+        "sampled_action_return_bound_violation_fraction": 0.85009765625,
+        "max_excess_above_state_return_bound": 1.6532678604125977,
+        "mean_top_two_q_gap": 0.001683559501543641,
+        "td_rmse": 0.01786038652062416,
+        "td_mean": 0.001305387238971889,
+        "own_weapon_zone_fraction": 0.0033599999733269215,
+        "opponent_weapon_zone_fraction": 0.0200399998575449,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    },
+    {
+      "condition": "lr_1e4",
+      "seed": 1,
+      "late_validation_wins": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous_validation_wins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "final": {
+        "checkpoint_sha256": "8432779a8d61a24a4d55e8baf24e754bf6294275e65ee50459c0d88fdf8825c2",
+        "replay_size": 50000,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.20000000298023224,
+          "max": 0.0,
+          "mean": -0.00010800000018207356,
+          "nonzero_fraction": 0.00054
+        },
+        "terminal_count": 27,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 4400,
+          "1": 4680,
+          "2": 4640,
+          "3": 3996,
+          "4": 3447,
+          "5": 5688,
+          "6": 7305,
+          "7": 6793,
+          "8": 9051
+        },
+        "greedy_action_counts_sample": {
+          "0": 180,
+          "1": 56,
+          "2": 317,
+          "3": 34,
+          "4": 75,
+          "5": 84,
+          "6": 110,
+          "7": 114,
+          "8": 1078
+        },
+        "dominant_greedy_action_fraction": 0.5263671875,
+        "q_min": -0.26275402307510376,
+        "q_max": 1.9984666109085083,
+        "analytical_global_return_bounds": [
+          -0.2,
+          1.0
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 0.5507270097732544,
+        "sampled_action_return_bound_violation_fraction": 0.55078125,
+        "max_excess_above_state_return_bound": 0.9984666109085083,
+        "mean_top_two_q_gap": 0.0015739861410111189,
+        "td_rmse": 0.011742294766008854,
+        "td_mean": -0.00031526724342256784,
+        "own_weapon_zone_fraction": 0.013980000279843807,
+        "opponent_weapon_zone_fraction": 0.050119999796152115,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    },
+    {
+      "condition": "lr_1e4",
+      "seed": 2,
+      "late_validation_wins": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous_validation_wins": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "final": {
+        "checkpoint_sha256": "b2e0bcb921d341e6fd07c3c00523b0987f35cdee270ac0b2283864b98b32d839",
+        "replay_size": 50000,
+        "sampled_states": 2048,
+        "sampling_seed": 1729,
+        "rewards": {
+          "min": -0.20000000298023224,
+          "max": 0.0,
+          "mean": -9.20000093174167e-05,
+          "nonzero_fraction": 0.00046
+        },
+        "terminal_count": 23,
+        "external_timeout_count": 0,
+        "training_action_counts": {
+          "0": 6343,
+          "1": 4696,
+          "2": 6971,
+          "3": 3917,
+          "4": 5631,
+          "5": 6820,
+          "6": 5634,
+          "7": 4299,
+          "8": 5689
+        },
+        "greedy_action_counts_sample": {
+          "0": 113,
+          "1": 5,
+          "2": 243,
+          "3": 68,
+          "4": 593,
+          "5": 33,
+          "6": 20,
+          "7": 865,
+          "8": 108
+        },
+        "dominant_greedy_action_fraction": 0.42236328125,
+        "q_min": -0.24721254408359528,
+        "q_max": 2.507136583328247,
+        "analytical_global_return_bounds": [
+          -0.2,
+          1.0
+        ],
+        "state_bound_rule": "[-0.2 - Phi(state), 1.0 - Phi(state)]",
+        "all_action_return_bound_violation_fraction": 0.7038845419883728,
+        "sampled_action_return_bound_violation_fraction": 0.70361328125,
+        "max_excess_above_state_return_bound": 1.507136583328247,
+        "mean_top_two_q_gap": 0.0020772505085915327,
+        "td_rmse": 0.02366987243294716,
+        "td_mean": -0.0016432899283245206,
+        "own_weapon_zone_fraction": 0.0023799999617040157,
+        "opponent_weapon_zone_fraction": 0.02913999930024147,
+        "limits": "Off-policy replay diagnostics, not calibrated value accuracy or a causal explanation."
+      }
+    }
+  ],
+  "test_band": 1400000,
+  "selected_policy": {
+    "reward": "lr_1e3",
+    "seed": 2,
+    "budget": 1024000,
+    "kind": "validation_selected",
+    "step": 204800,
+    "validation": {
+      "n": 20,
+      "kills": 6,
+      "rate": 0.3,
+      "t_kill": 77.9,
+      "outcomes": {
+        "died": 12,
+        "kill": 6,
+        "mutual": 1,
+        "timeout": 1
+      },
+      "own_health": 0.0959,
+      "opp_health": 0.4982,
+      "wez_time": 2.71,
+      "wez_time_foe": 4.45,
+      "engaged": 0.6,
+      "first_wez": 44.0,
+      "longest_track": 1.63,
+      "min_range": 190,
+      "out_of_bounds": 0.0
+    },
+    "weights": "lr_1e3/s2/checkpoints/step_204800/policy_net.zip",
+    "weights_sha256": "9fc67bb4d796ca5cdd29033503efdb30064e50dd2dc0764f1be851896e7a7a6c"
+  },
+  "finished_utc": "2026-10-05T07:25:04.674188+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "frozen_utc": "2026-10-05T11:59:54.855514+00:00",
+  "choices": [
+    {
+      "condition": "starting",
+      "design": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\plan_a_20261005\\auto_followup\\learner",
+      "kind": "starting",
+      "step": 1024000,
+      "weights": "checkpoints/step_1024000/policy_net.zip",
+      "sha256": "05c866d3921e773fa538797736cc4f753b818d054096c334217292ad4cf53c09"
+    },
+    {
+      "condition": "lr_0.001",
+      "design": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\plan_a_20261005\\replay_compare\\buffer_50000",
+      "kind": "validation_selected",
+      "step": 1024000,
+      "weights": "checkpoints/step_1024000/policy_net.zip",
+      "sha256": "8683237af6d4bad3da23dd57ec07ab3ed34ba03e2622cf968734280509268831"
+    },
+    {
+      "condition": "lr_0.001",
+      "design": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\plan_a_20261005\\replay_compare\\buffer_50000",
+      "kind": "final",
+      "step": 1536000,
+      "weights": "checkpoints/step_1536000/policy_net.zip",
+      "sha256": "28c051bb03abc9b745f3ed3265891aaac5e1fe53e1e9a1f3c69a72dc86072920"
+    },
+    {
+      "condition": "lr_0.0001",
+      "design": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\plan_a_20261005\\auto_followup\\learner",
+      "kind": "validation_selected",
+      "step": 1024000,
+      "weights": "policy_net.zip",
+      "sha256": "05c866d3921e773fa538797736cc4f753b818d054096c334217292ad4cf53c09"
+    },
+    {
+      "condition": "lr_0.0001",
+      "design": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\plan_a_20261005\\auto_followup\\learner",
+      "kind": "final",
+      "step": 1536000,
+      "weights": "final_net.zip",
+      "sha256": "4e810dcd12af2176933ba6d6f6351620cae4574b356bece2fdf484cdb9f2d7b6"
+    }
+  ]
+}

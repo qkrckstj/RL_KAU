@@ -1,0 +1,15 @@
+{
+  "parameters": [
+    50.431493077329236,
+    326.04787821143503,
+    307.9512891049956,
+    2.4703488646358647,
+    18.568945138235897,
+    0.4953988774922795,
+    3.014880784059802
+  ],
+  "weights_sha256": "12f813db98087e424a3642379ddc286ec92093cd8e9e86c14bb848f6016d850b",
+  "band": 2000000,
+  "n": 200,
+  "purpose": "Predeclared parent control; evaluate only after heldout gate opens; never use test to choose model"
+}

@@ -1,0 +1,30 @@
+{
+  "seed": 900,
+  "generation": -1,
+  "development_band": 905000,
+  "development": {
+    "n": 40,
+    "kills": 40,
+    "rate": 1.0,
+    "t_kill": 56.6,
+    "outcomes": {
+      "kill": 40
+    },
+    "own_health": 0.2963,
+    "opp_health": 0.0,
+    "wez_time": 4.32,
+    "wez_time_foe": 3.08,
+    "engaged": 1.0,
+    "first_wez": 45.4,
+    "longest_track": 3.84,
+    "min_range": 117,
+    "out_of_bounds": 0.0
+  },
+  "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_warm_pilot\\s900",
+  "rule": "Development wins, then health advantage, then smaller seed; heldout never read by this script",
+  "source_policy_sha256": "32b13f6c75d9b43edf77c14ccda9beaf4bd39cf712e168f909c83c0b74142fdf",
+  "source_parameters_sha256": "12f813db98087e424a3642379ddc286ec92093cd8e9e86c14bb848f6016d850b",
+  "archive_sha256": "de15baaa3c6ba49cbad38c57dc8aab788ead4c5698b8662d364867befcc82467",
+  "policy_sha256": "8df8492520437ffafa2d8a1211dbaf96f539fbe5bef59e093c8d01b93ef82d18",
+  "format": "ZIP containing JSON coefficients; no neural weights or torch dependency"
+}

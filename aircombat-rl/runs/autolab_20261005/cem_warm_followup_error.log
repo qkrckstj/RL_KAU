@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\qkrck\Desktop\강화학습\RL_KAU\aircombat-rl\tools\autolab_cem_followup.py", line 145, in <module>
+    run(args.pilot.resolve(),args.out.resolve(),args.warm)
+  File "C:\Users\qkrck\Desktop\강화학습\RL_KAU\aircombat-rl\tools\autolab_cem_followup.py", line 99, in run
+    list(pool.map(lambda s:run_child(confirmation,s),plan["seeds"]))
+  File "C:\Users\qkrck\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qkrck\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qkrck\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qkrck\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\qkrck\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qkrck\Desktop\강화학습\RL_KAU\aircombat-rl\tools\autolab_cem_followup.py", line 99, in <lambda>
+    list(pool.map(lambda s:run_child(confirmation,s),plan["seeds"]))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qkrck\Desktop\강화학습\RL_KAU\aircombat-rl\tools\autolab_cem_warm.py", line 89, in child
+    raise RuntimeError(f"Warm CEM worker {seed} failed")
+RuntimeError: Warm CEM worker 903 failed

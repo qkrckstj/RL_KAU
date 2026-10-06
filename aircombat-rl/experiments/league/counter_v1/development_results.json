@@ -1,0 +1,52 @@
+{
+  "admission": {
+    "promoted": false,
+    "candidate": {
+      "objective": 0.4678125,
+      "mean_win_rate": 0.53125,
+      "mean_score": 0.6125,
+      "worst_score": 0.0,
+      "lower_quarter_score": 0.0,
+      "health": 0.24767499999999998,
+      "games": 160,
+      "steps": 239355
+    },
+    "incumbent": {
+      "objective": 0.423125,
+      "mean_win_rate": 0.36250000000000004,
+      "mean_score": 0.6468750000000001,
+      "worst_score": 0.275,
+      "lower_quarter_score": 0.3875,
+      "health": 0.2104125,
+      "games": 160,
+      "steps": 328449
+    },
+    "head_to_head": {
+      "n": 20,
+      "kills": 17,
+      "rate": 0.85,
+      "t_kill": 82.8,
+      "outcomes": {
+        "died": 3,
+        "kill": 17
+      },
+      "own_health": 0.6,
+      "opp_health": 0.0362,
+      "wez_time": 4.27,
+      "wez_time_foe": 1.86,
+      "engaged": 1.0,
+      "first_wez": 58.4,
+      "longest_track": 3.66,
+      "min_range": 296,
+      "out_of_bounds": 0.0,
+      "wins": 17,
+      "losses": 3,
+      "draws": 0,
+      "score": 0.85
+    },
+    "rule": "objective +.015; mean win regression <=.01; lower-quarter score regression <=.05; H2H score >=.5"
+  },
+  "source": "runs\\league_20261006\\main\\round_01\\round.json",
+  "source_sha256": "3970e519fd6c893ea74721e6b4a4ad581e7a1e73c3d5affb2169417a60d9834f",
+  "scope": "Development challenger, rejected as champion because Ace and Pursuit each won all 20 games"
+}

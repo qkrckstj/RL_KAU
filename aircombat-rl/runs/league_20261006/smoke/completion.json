@@ -1,0 +1,27 @@
+{
+  "status": "development_batch_complete",
+  "champion": {
+    "id": "champion_initial",
+    "kind": "reactive",
+    "parameters": [
+      46.5795821161632,
+      324.6037751529909,
+      305.6533702700848,
+      2.418697871782606,
+      18.936747197224676,
+      0.48848060094490076,
+      3.5707727915270118,
+      -1.0,
+      0.0,
+      0.0,
+      305.6533702700848,
+      0.0,
+      60.0,
+      90.0,
+      305.6533702700848
+    ]
+  },
+  "rounds": 1,
+  "promotions": 0,
+  "next": "Independent repeat training and withheld-opponent evaluation; no final test opened"
+}

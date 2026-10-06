@@ -1,0 +1,14 @@
+{
+  "stage": "complete",
+  "steps": 1024000,
+  "target_steps": 1024000,
+  "elapsed_seconds": 3291.77,
+  "evaluation_seconds": 902.73,
+  "train_outcomes": {
+    "died": 596,
+    "timeout": 70
+  },
+  "best_validation_kills": 1,
+  "best_step": 819200,
+  "updated_utc": "2026-10-05T07:11:42.523595+00:00"
+}

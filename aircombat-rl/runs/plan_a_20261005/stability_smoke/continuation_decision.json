@@ -1,0 +1,5 @@
+{
+  "lower_lr_extension_validation_gate": false,
+  "automatic_extension": false,
+  "reason": "Final validation wins or late performance retention did not meet the preregistered gate"
+}

@@ -1,0 +1,10 @@
+{
+  "steps": 1075200,
+  "gradient_updates": 268550,
+  "exploration_rate": 0.05,
+  "replay_size": 50000,
+  "saved_utc": "2026-10-05T09:53:11.780778+00:00",
+  "optimizer_in": "policy_net.zip",
+  "simulator_state_saved": false,
+  "resume_semantics": "Learner and replay continuation with a fresh episode; not an exact trajectory resume."
+}

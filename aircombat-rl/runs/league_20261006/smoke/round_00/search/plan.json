@@ -1,0 +1,83 @@
+{
+  "parent": {
+    "id": "champion_initial",
+    "kind": "reactive",
+    "parameters": [
+      46.5795821161632,
+      324.6037751529909,
+      305.6533702700848,
+      2.418697871782606,
+      18.936747197224676,
+      0.48848060094490076,
+      3.5707727915270118,
+      -1.0,
+      0.0,
+      0.0,
+      305.6533702700848,
+      0.0,
+      60.0,
+      90.0,
+      305.6533702700848
+    ]
+  },
+  "opponents": [
+    {
+      "id": "cem_original",
+      "kind": "cem",
+      "parameters": [
+        46.5795821161632,
+        324.6037751529909,
+        305.6533702700848,
+        2.418697871782606,
+        18.936747197224676,
+        0.48848060094490076,
+        3.5707727915270118
+      ]
+    },
+    {
+      "id": "ddqn_s1",
+      "kind": "submission",
+      "design": "runs/plan_a_20261005/double/ddqn/s1",
+      "weights": "runs/plan_a_20261005/double/ddqn/s1/checkpoints/step_1024000/policy_net.zip"
+    },
+    {
+      "id": "ace",
+      "kind": "bot",
+      "name": "ace"
+    },
+    {
+      "id": "pursuit",
+      "kind": "bot",
+      "name": "pursuit"
+    },
+    {
+      "id": "evader",
+      "kind": "bot",
+      "name": "evader"
+    },
+    {
+      "id": "fixed_left",
+      "kind": "fixed",
+      "action": 0
+    },
+    {
+      "id": "fixed_right",
+      "kind": "fixed",
+      "action": 6
+    }
+  ],
+  "seed": 1100,
+  "training_band": 100000000,
+  "development_band": 30001000,
+  "settings": {
+    "population": 6,
+    "elites": 2,
+    "generations": 1,
+    "screen_n": 2,
+    "confirmation_n": 2,
+    "development_n": 2,
+    "initial_std": 0.14,
+    "minimum_std": 0.035,
+    "workers": 3
+  }
+}

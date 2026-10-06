@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-10-05T09:49:49.971602+00:00",
+  "choices": [
+    {
+      "kind": "starting_policy",
+      "step": 1024000,
+      "weights": "checkpoints/step_1024000/policy_net.zip",
+      "sha256": "0be2d4165bb1634911e70214cf0f50572eb63cfcd2e4f67b979ff28d001807a7"
+    },
+    {
+      "kind": "validation_selected",
+      "step": 1024000,
+      "weights": "policy_net.zip",
+      "sha256": "0be2d4165bb1634911e70214cf0f50572eb63cfcd2e4f67b979ff28d001807a7"
+    },
+    {
+      "kind": "final_policy",
+      "step": 1024128,
+      "weights": "final_net.zip",
+      "sha256": "f1fdeb749647e060c55ff5be1c91042145a96d6f59017e2583b6c5dc5c18be39"
+    }
+  ]
+}

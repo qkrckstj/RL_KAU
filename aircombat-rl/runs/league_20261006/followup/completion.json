@@ -1,0 +1,7 @@
+{
+  "stopped_helper_pid": 5124,
+  "status": "superseded_before_evaluation",
+  "final_test_opened": false,
+  "reason": "Re-evaluate all archived candidates against the same full opponent pool; do not discard the stronger generalist solely on the previous champion matchup.",
+  "main_training_untouched": true
+}

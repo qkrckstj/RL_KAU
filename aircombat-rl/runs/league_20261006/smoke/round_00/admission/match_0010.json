@@ -1,0 +1,96 @@
+{
+  "job": {
+    "own": {
+      "id": "champion_initial",
+      "kind": "reactive",
+      "parameters": [
+        46.5795821161632,
+        324.6037751529909,
+        305.6533702700848,
+        2.418697871782606,
+        18.936747197224676,
+        0.48848060094490076,
+        3.5707727915270118,
+        -1.0,
+        0.0,
+        0.0,
+        305.6533702700848,
+        0.0,
+        60.0,
+        90.0,
+        305.6533702700848
+      ]
+    },
+    "foe": {
+      "id": "pursuit",
+      "kind": "bot",
+      "name": "pursuit"
+    },
+    "band": 31000000,
+    "n": 2
+  },
+  "result": {
+    "own": "champion_initial",
+    "foe": "pursuit",
+    "band": 31000000,
+    "summary": {
+      "n": 2,
+      "kills": 2,
+      "rate": 1.0,
+      "t_kill": 59.2,
+      "outcomes": {
+        "kill": 2
+      },
+      "own_health": 0.2575,
+      "opp_health": 0.0,
+      "wez_time": 4.62,
+      "wez_time_foe": 3.2,
+      "engaged": 1.0,
+      "first_wez": 41.1,
+      "longest_track": 3.95,
+      "min_range": 115,
+      "out_of_bounds": 0.0,
+      "wins": 2,
+      "losses": 0,
+      "draws": 0,
+      "score": 1.0
+    },
+    "episodes": [
+      {
+        "seed": 31000000,
+        "outcome": "kill",
+        "won": true,
+        "t": 59.4,
+        "steps": 1188,
+        "truncated": false,
+        "own_health": 0.2575,
+        "opp_health": 0.0,
+        "wez_time": 4.5,
+        "wez_time_foe": 3.2,
+        "first_wez": 41.4,
+        "longest_track": 3.95,
+        "min_range": 121,
+        "out_of_bounds": false,
+        "seat": "red"
+      },
+      {
+        "seed": 31000000,
+        "outcome": "kill",
+        "won": true,
+        "t": 59.0,
+        "steps": 1181,
+        "truncated": false,
+        "own_health": 0.2575,
+        "opp_health": 0.0,
+        "wez_time": 4.75,
+        "wez_time_foe": 3.2,
+        "first_wez": 40.8,
+        "longest_track": 3.95,
+        "min_range": 109,
+        "out_of_bounds": false,
+        "seat": "blue"
+      }
+    ],
+    "elapsed_seconds": 1.003024300094694
+  }
+}

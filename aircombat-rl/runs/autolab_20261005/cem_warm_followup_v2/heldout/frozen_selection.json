@@ -1,0 +1,101 @@
+{
+  "band": 2000000,
+  "ic_seeds": 100,
+  "seats": [
+    "red",
+    "blue"
+  ],
+  "policies": [
+    {
+      "name": "s903_selected",
+      "parameters": [
+        50.431493077329236,
+        326.04787821143503,
+        307.9512891049956,
+        2.4703488646358647,
+        18.568945138235897,
+        0.4953988774922795,
+        3.014880784059802
+      ],
+      "policy_sha256": "32b13f6c75d9b43edf77c14ccda9beaf4bd39cf712e168f909c83c0b74142fdf",
+      "weights_sha256": "12f813db98087e424a3642379ddc286ec92093cd8e9e86c14bb848f6016d850b",
+      "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_warm_followup_v2\\replication\\s903"
+    },
+    {
+      "name": "s903_final",
+      "parameters": [
+        48.01281663582057,
+        315.0894239973175,
+        390.3783212294042,
+        2.523773821156052,
+        21.77754937991331,
+        0.44855769474414575,
+        5.110309662267292
+      ],
+      "policy_sha256": "32b13f6c75d9b43edf77c14ccda9beaf4bd39cf712e168f909c83c0b74142fdf",
+      "weights_sha256": "e335a65a0e15e33e7b20764dd9b41e442ad588ac648ec22f7c333a4947b2ec5d",
+      "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_warm_followup_v2\\replication\\s903\\final"
+    },
+    {
+      "name": "s904_selected",
+      "parameters": [
+        46.5795821161632,
+        324.6037751529909,
+        305.6533702700848,
+        2.418697871782606,
+        18.936747197224676,
+        0.48848060094490076,
+        3.5707727915270118
+      ],
+      "policy_sha256": "32b13f6c75d9b43edf77c14ccda9beaf4bd39cf712e168f909c83c0b74142fdf",
+      "weights_sha256": "02e7522034d11668d1e5d15409c234d17c809e7faf9b76dc31add1f6bd5297c3",
+      "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_warm_followup_v2\\replication\\s904"
+    },
+    {
+      "name": "s904_final",
+      "parameters": [
+        46.5795821161632,
+        324.6037751529909,
+        305.6533702700848,
+        2.418697871782606,
+        18.936747197224676,
+        0.48848060094490076,
+        3.5707727915270118
+      ],
+      "policy_sha256": "32b13f6c75d9b43edf77c14ccda9beaf4bd39cf712e168f909c83c0b74142fdf",
+      "weights_sha256": "02e7522034d11668d1e5d15409c234d17c809e7faf9b76dc31add1f6bd5297c3",
+      "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_warm_followup_v2\\replication\\s904\\final"
+    },
+    {
+      "name": "s905_selected",
+      "parameters": [
+        49.67512615381739,
+        322.23806268232914,
+        307.2484810538967,
+        2.389309321439219,
+        17.552892417614352,
+        0.4894270851308933,
+        2.7723156856044704
+      ],
+      "policy_sha256": "32b13f6c75d9b43edf77c14ccda9beaf4bd39cf712e168f909c83c0b74142fdf",
+      "weights_sha256": "1db4f95f9d0ee92a0ac02cf66db3dfdce467998bc8538ea93c53930a632949e1",
+      "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_warm_followup_v2\\replication\\s905"
+    },
+    {
+      "name": "s905_final",
+      "parameters": [
+        49.67512615381739,
+        322.23806268232914,
+        307.2484810538967,
+        2.389309321439219,
+        17.552892417614352,
+        0.4894270851308933,
+        2.7723156856044704
+      ],
+      "policy_sha256": "32b13f6c75d9b43edf77c14ccda9beaf4bd39cf712e168f909c83c0b74142fdf",
+      "weights_sha256": "1db4f95f9d0ee92a0ac02cf66db3dfdce467998bc8538ea93c53930a632949e1",
+      "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_warm_followup_v2\\replication\\s905\\final"
+    }
+  ],
+  "criteria": "mean>=60%, advantage>=15pp, final>=80% of selected, >=2/3 repeats improve, paired IC bootstrap CI lower>0"
+}

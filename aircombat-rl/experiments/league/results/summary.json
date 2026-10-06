@@ -1,0 +1,815 @@
+{
+  "baseline": [
+    {
+      "own": "cem_original",
+      "foe": "ddqn_s1",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 12
+        },
+        "own_health": 1.0,
+        "opp_health": 0.5944,
+        "wez_time": 1.95,
+        "wez_time_foe": 0.0,
+        "engaged": 0.75,
+        "first_wez": 116.7,
+        "longest_track": 1.9,
+        "min_range": 1237,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 12,
+        "score": 0.5
+      }
+    },
+    {
+      "own": "cem_original",
+      "foe": "ace",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 12,
+        "rate": 1.0,
+        "t_kill": 56.6,
+        "outcomes": {
+          "kill": 12
+        },
+        "own_health": 0.2933,
+        "opp_health": 0.0,
+        "wez_time": 4.78,
+        "wez_time_foe": 3.09,
+        "engaged": 1.0,
+        "first_wez": 38.6,
+        "longest_track": 3.8,
+        "min_range": 80,
+        "out_of_bounds": 0.0,
+        "wins": 12,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      }
+    },
+    {
+      "own": "cem_original",
+      "foe": "pursuit",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 12,
+        "rate": 1.0,
+        "t_kill": 59.5,
+        "outcomes": {
+          "kill": 12
+        },
+        "own_health": 0.2781,
+        "opp_health": 0.0,
+        "wez_time": 4.95,
+        "wez_time_foe": 3.14,
+        "engaged": 1.0,
+        "first_wez": 40.3,
+        "longest_track": 3.05,
+        "min_range": 26,
+        "out_of_bounds": 0.0,
+        "wins": 12,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      }
+    },
+    {
+      "own": "cem_original",
+      "foe": "evader",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 12
+        },
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 0.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 9996,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 12,
+        "score": 0.5
+      }
+    },
+    {
+      "own": "cem_original",
+      "foe": "fixed_left",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 3,
+        "rate": 0.25,
+        "t_kill": 116.6,
+        "outcomes": {
+          "kill": 3,
+          "timeout": 9
+        },
+        "own_health": 1.0,
+        "opp_health": 0.4681,
+        "wez_time": 3.06,
+        "wez_time_foe": 0.0,
+        "engaged": 0.917,
+        "first_wez": 109.3,
+        "longest_track": 2.1,
+        "min_range": 1240,
+        "out_of_bounds": 0.0,
+        "wins": 3,
+        "losses": 0,
+        "draws": 9,
+        "score": 0.625
+      }
+    },
+    {
+      "own": "cem_original",
+      "foe": "fixed_right",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 9,
+        "rate": 0.75,
+        "t_kill": 116.5,
+        "outcomes": {
+          "kill": 9,
+          "timeout": 3
+        },
+        "own_health": 1.0,
+        "opp_health": 0.162,
+        "wez_time": 3.43,
+        "wez_time_foe": 0.0,
+        "engaged": 0.917,
+        "first_wez": 113.2,
+        "longest_track": 3.38,
+        "min_range": 1178,
+        "out_of_bounds": 0.0,
+        "wins": 9,
+        "losses": 0,
+        "draws": 3,
+        "score": 0.875
+      }
+    },
+    {
+      "own": "ddqn_s1",
+      "foe": "ace",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 11,
+        "rate": 0.9167,
+        "t_kill": 69.3,
+        "outcomes": {
+          "died": 1,
+          "kill": 11
+        },
+        "own_health": 0.2347,
+        "opp_health": 0.0242,
+        "wez_time": 5.11,
+        "wez_time_foe": 3.67,
+        "engaged": 1.0,
+        "first_wez": 39.2,
+        "longest_track": 2.89,
+        "min_range": 21,
+        "out_of_bounds": 0.0,
+        "wins": 11,
+        "losses": 1,
+        "draws": 0,
+        "score": 0.9166666666666666
+      }
+    },
+    {
+      "own": "ddqn_s1",
+      "foe": "pursuit",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 9,
+          "timeout": 3
+        },
+        "own_health": 0.0245,
+        "opp_health": 0.2946,
+        "wez_time": 3.09,
+        "wez_time_foe": 5.3,
+        "engaged": 1.0,
+        "first_wez": 41.1,
+        "longest_track": 3.09,
+        "min_range": 139,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 9,
+        "draws": 3,
+        "score": 0.125
+      }
+    },
+    {
+      "own": "ddqn_s1",
+      "foe": "evader",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 12
+        },
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 0.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 9996,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 12,
+        "score": 0.5
+      }
+    },
+    {
+      "own": "ddqn_s1",
+      "foe": "fixed_left",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 12
+        },
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 0.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 9996,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 12,
+        "score": 0.5
+      }
+    },
+    {
+      "own": "ddqn_s1",
+      "foe": "fixed_right",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 12
+        },
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 0.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 8940,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 12,
+        "score": 0.5
+      }
+    },
+    {
+      "own": "ace",
+      "foe": "pursuit",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 1,
+          "timeout": 11
+        },
+        "own_health": 0.1783,
+        "opp_health": 0.5078,
+        "wez_time": 3.4,
+        "wez_time_foe": 5.19,
+        "engaged": 1.0,
+        "first_wez": 21.5,
+        "longest_track": 2.1,
+        "min_range": 140,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 1,
+        "draws": 11,
+        "score": 0.4583333333333333
+      }
+    },
+    {
+      "own": "ace",
+      "foe": "evader",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 12
+        },
+        "own_health": 1.0,
+        "opp_health": 0.8996,
+        "wez_time": 0.62,
+        "wez_time_foe": 0.0,
+        "engaged": 0.333,
+        "first_wez": 118.2,
+        "longest_track": 0.6,
+        "min_range": 2230,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 12,
+        "score": 0.5
+      }
+    },
+    {
+      "own": "ace",
+      "foe": "fixed_left",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 1,
+        "rate": 0.0833,
+        "t_kill": 84.4,
+        "outcomes": {
+          "died": 9,
+          "kill": 1,
+          "mutual": 2
+        },
+        "own_health": 0.0259,
+        "opp_health": 0.2179,
+        "wez_time": 3.64,
+        "wez_time_foe": 4.87,
+        "engaged": 1.0,
+        "first_wez": 39.2,
+        "longest_track": 3.09,
+        "min_range": 21,
+        "out_of_bounds": 0.0,
+        "wins": 1,
+        "losses": 9,
+        "draws": 2,
+        "score": 0.16666666666666666
+      }
+    },
+    {
+      "own": "ace",
+      "foe": "fixed_right",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 12,
+        "rate": 1.0,
+        "t_kill": 32.2,
+        "outcomes": {
+          "kill": 12
+        },
+        "own_health": 1.0,
+        "opp_health": 0.0,
+        "wez_time": 4.28,
+        "wez_time_foe": 0.0,
+        "engaged": 1.0,
+        "first_wez": 26.8,
+        "longest_track": 3.83,
+        "min_range": 720,
+        "out_of_bounds": 0.0,
+        "wins": 12,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      }
+    },
+    {
+      "own": "pursuit",
+      "foe": "evader",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 12
+        },
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 0.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 6862,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 12,
+        "score": 0.5
+      }
+    },
+    {
+      "own": "pursuit",
+      "foe": "fixed_left",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 12
+        },
+        "own_health": 0.2946,
+        "opp_health": 0.6136,
+        "wez_time": 2.62,
+        "wez_time_foe": 3.09,
+        "engaged": 1.0,
+        "first_wez": 41.1,
+        "longest_track": 2.01,
+        "min_range": 139,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 12,
+        "score": 0.5
+      }
+    },
+    {
+      "own": "pursuit",
+      "foe": "fixed_right",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 12,
+        "rate": 1.0,
+        "t_kill": 36.5,
+        "outcomes": {
+          "kill": 12
+        },
+        "own_health": 1.0,
+        "opp_health": 0.0,
+        "wez_time": 4.5,
+        "wez_time_foe": 0.0,
+        "engaged": 1.0,
+        "first_wez": 29.9,
+        "longest_track": 3.52,
+        "min_range": 708,
+        "out_of_bounds": 0.0,
+        "wins": 12,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      }
+    },
+    {
+      "own": "evader",
+      "foe": "fixed_left",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 12
+        },
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 0.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 9996,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 12,
+        "score": 0.5
+      }
+    },
+    {
+      "own": "evader",
+      "foe": "fixed_right",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 12
+        },
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 0.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 9583,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 12,
+        "score": 0.5
+      }
+    },
+    {
+      "own": "fixed_left",
+      "foe": "fixed_right",
+      "band": 30000000,
+      "summary": {
+        "n": 12,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 12
+        },
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 0.0,
+        "engaged": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 8940,
+        "out_of_bounds": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "draws": 12,
+        "score": 0.5
+      }
+    }
+  ],
+  "baseline_scope": "Six shared ICs, both seats, 12 games per pairing; development only",
+  "rounds": [
+    {
+      "round": 0,
+      "challenger": "round_00",
+      "champion": "champion_initial",
+      "opponents": 7,
+      "admission": {
+        "promoted": false,
+        "candidate": {
+          "objective": 0.43294642857142857,
+          "mean_win_rate": 0.35714285714285715,
+          "mean_score": 0.6571428571428571,
+          "worst_score": 0.425,
+          "lower_quarter_score": 0.4625,
+          "health": 0.30684285714285714,
+          "games": 140,
+          "steps": 304770
+        },
+        "incumbent": {
+          "objective": 0.4996428571428572,
+          "mean_win_rate": 0.43571428571428567,
+          "mean_score": 0.7071428571428572,
+          "worst_score": 0.5,
+          "lower_quarter_score": 0.5,
+          "health": 0.34358571428571427,
+          "games": 140,
+          "steps": 291289
+        },
+        "head_to_head": {
+          "n": 20,
+          "kills": 3,
+          "rate": 0.15,
+          "t_kill": 86.9,
+          "outcomes": {
+            "kill": 3,
+            "mutual": 11,
+            "timeout": 6
+          },
+          "own_health": 0.4153,
+          "opp_health": 0.041,
+          "wez_time": 3.87,
+          "wez_time_foe": 2.54,
+          "engaged": 1.0,
+          "first_wez": 83.9,
+          "longest_track": 3.83,
+          "min_range": 215,
+          "out_of_bounds": 0.0,
+          "wins": 3,
+          "losses": 0,
+          "draws": 17,
+          "score": 0.575
+        },
+        "rule": "objective +.015; mean win regression <=.01; lower-quarter score regression <=.05; H2H score >=.5"
+      },
+      "training_games": 924,
+      "training_steps": 1903358
+    },
+    {
+      "round": 1,
+      "challenger": "round_01",
+      "champion": "champion_initial",
+      "opponents": 8,
+      "admission": {
+        "promoted": false,
+        "candidate": {
+          "objective": 0.4678125,
+          "mean_win_rate": 0.53125,
+          "mean_score": 0.6125,
+          "worst_score": 0.0,
+          "lower_quarter_score": 0.0,
+          "health": 0.24767499999999998,
+          "games": 160,
+          "steps": 239355
+        },
+        "incumbent": {
+          "objective": 0.423125,
+          "mean_win_rate": 0.36250000000000004,
+          "mean_score": 0.6468750000000001,
+          "worst_score": 0.275,
+          "lower_quarter_score": 0.3875,
+          "health": 0.2104125,
+          "games": 160,
+          "steps": 328449
+        },
+        "head_to_head": {
+          "n": 20,
+          "kills": 17,
+          "rate": 0.85,
+          "t_kill": 82.8,
+          "outcomes": {
+            "died": 3,
+            "kill": 17
+          },
+          "own_health": 0.6,
+          "opp_health": 0.0362,
+          "wez_time": 4.27,
+          "wez_time_foe": 1.86,
+          "engaged": 1.0,
+          "first_wez": 58.4,
+          "longest_track": 3.66,
+          "min_range": 296,
+          "out_of_bounds": 0.0,
+          "wins": 17,
+          "losses": 3,
+          "draws": 0,
+          "score": 0.85
+        },
+        "rule": "objective +.015; mean win regression <=.01; lower-quarter score regression <=.05; H2H score >=.5"
+      },
+      "training_games": 1056,
+      "training_steps": 2106115
+    },
+    {
+      "round": 2,
+      "challenger": "round_02",
+      "champion": "round_02",
+      "opponents": 9,
+      "admission": {
+        "promoted": true,
+        "candidate": {
+          "objective": 0.6190277777777777,
+          "mean_win_rate": 0.6388888888888888,
+          "mean_score": 0.75,
+          "worst_score": 0.275,
+          "lower_quarter_score": 0.35833333333333334,
+          "health": 0.5743444444444443,
+          "games": 180,
+          "steps": 256611
+        },
+        "incumbent": {
+          "objective": 0.40611111111111103,
+          "mean_win_rate": 0.36666666666666664,
+          "mean_score": 0.6138888888888888,
+          "worst_score": 0.075,
+          "lower_quarter_score": 0.3,
+          "health": 0.17172222222222222,
+          "games": 180,
+          "steps": 366270
+        },
+        "head_to_head": {
+          "n": 20,
+          "kills": 20,
+          "rate": 1.0,
+          "t_kill": 51.0,
+          "outcomes": {
+            "kill": 20
+          },
+          "own_health": 1.0,
+          "opp_health": 0.0,
+          "wez_time": 4.0,
+          "wez_time_foe": 0.0,
+          "engaged": 1.0,
+          "first_wez": 47.1,
+          "longest_track": 3.95,
+          "min_range": 1100,
+          "out_of_bounds": 0.0,
+          "wins": 20,
+          "losses": 0,
+          "draws": 0,
+          "score": 1.0
+        },
+        "rule": "objective +.015; mean win regression <=.01; lower-quarter score regression <=.05; H2H score >=.5"
+      },
+      "training_games": 1188,
+      "training_steps": 2308474
+    },
+    {
+      "round": 3,
+      "challenger": "round_03",
+      "champion": "round_02",
+      "opponents": 10,
+      "admission": {
+        "promoted": false,
+        "candidate": {
+          "objective": 0.7625000000000001,
+          "mean_win_rate": 0.7699999999999999,
+          "mean_score": 0.8725000000000002,
+          "worst_score": 0.425,
+          "lower_quarter_score": 0.5833333333333334,
+          "health": 0.62494,
+          "games": 200,
+          "steps": 255188
+        },
+        "incumbent": {
+          "objective": 0.57425,
+          "mean_win_rate": 0.575,
+          "mean_score": 0.7150000000000001,
+          "worst_score": 0.3,
+          "lower_quarter_score": 0.3833333333333333,
+          "health": 0.4951,
+          "games": 200,
+          "steps": 292785
+        },
+        "head_to_head": {
+          "n": 20,
+          "kills": 2,
+          "rate": 0.1,
+          "t_kill": 74.3,
+          "outcomes": {
+            "died": 5,
+            "kill": 2,
+            "mutual": 13
+          },
+          "own_health": 0.005,
+          "opp_health": 0.0446,
+          "wez_time": 4.71,
+          "wez_time_foe": 4.93,
+          "engaged": 1.0,
+          "first_wez": 30.0,
+          "longest_track": 3.46,
+          "min_range": 48,
+          "out_of_bounds": 0.0,
+          "wins": 2,
+          "losses": 5,
+          "draws": 13,
+          "score": 0.425
+        },
+        "rule": "objective +.015; mean win regression <=.01; lower-quarter score regression <=.05; H2H score >=.5"
+      },
+      "training_games": 1380,
+      "training_steps": 2107309
+    }
+  ],
+  "last_recorded_progress": {
+    "stage": "training",
+    "round": 5,
+    "rounds": 6,
+    "champion": "round_02",
+    "opponent_count": 11
+  },
+  "followup_directory": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\league_20261006\\followup_pool",
+  "last_recorded_followup_progress": {
+    "stage": "waiting_for_development",
+    "controller_pid": 37932,
+    "checked_at": 1791254692.534573
+  }
+}

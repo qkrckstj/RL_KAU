@@ -1,0 +1,260 @@
+{
+  "format_version": 1,
+  "stage": "development_only",
+  "models": {
+    "cem_original": {
+      "id": "cem_original",
+      "kind": "submission",
+      "design": "models/cem_original",
+      "weights": "models/cem_original/policy_net.zip"
+    },
+    "round_00": {
+      "id": "round_00",
+      "kind": "submission",
+      "design": "models/round_00",
+      "weights": "models/round_00/policy_net.zip"
+    },
+    "round_01": {
+      "id": "round_01",
+      "kind": "submission",
+      "design": "models/round_01",
+      "weights": "models/round_01/policy_net.zip"
+    },
+    "round_02": {
+      "id": "round_02",
+      "kind": "submission",
+      "design": "models/round_02",
+      "weights": "models/round_02/policy_net.zip"
+    },
+    "round_03": {
+      "id": "round_03",
+      "kind": "submission",
+      "design": "models/round_03",
+      "weights": "models/round_03/policy_net.zip"
+    },
+    "round_04": {
+      "id": "round_04",
+      "kind": "submission",
+      "design": "models/round_04",
+      "weights": "models/round_04/policy_net.zip"
+    },
+    "round_05": {
+      "id": "round_05",
+      "kind": "submission",
+      "design": "models/round_05",
+      "weights": "models/round_05/policy_net.zip"
+    },
+    "ddqn_s1": {
+      "id": "ddqn_s1",
+      "kind": "submission",
+      "design": "models/ddqn_s1",
+      "weights": "models/ddqn_s1/policy_net.zip"
+    },
+    "ddqn_s0": {
+      "id": "ddqn_s0",
+      "kind": "submission",
+      "design": "models/ddqn_s0",
+      "weights": "models/ddqn_s0/policy_net.zip"
+    }
+  },
+  "opponents": [
+    {
+      "id": "cem_original",
+      "kind": "submission",
+      "design": "models/cem_original",
+      "weights": "models/cem_original/policy_net.zip"
+    },
+    {
+      "id": "ddqn_s1",
+      "kind": "submission",
+      "design": "models/ddqn_s1",
+      "weights": "models/ddqn_s1/policy_net.zip"
+    },
+    {
+      "id": "ace",
+      "kind": "bot",
+      "name": "ace"
+    },
+    {
+      "id": "pursuit",
+      "kind": "bot",
+      "name": "pursuit"
+    },
+    {
+      "id": "evader",
+      "kind": "bot",
+      "name": "evader"
+    },
+    {
+      "id": "fixed_left",
+      "kind": "fixed",
+      "action": 0
+    },
+    {
+      "id": "fixed_right",
+      "kind": "fixed",
+      "action": 6
+    },
+    {
+      "id": "round_00",
+      "kind": "submission",
+      "design": "models/round_00",
+      "weights": "models/round_00/policy_net.zip"
+    },
+    {
+      "id": "round_01",
+      "kind": "submission",
+      "design": "models/round_01",
+      "weights": "models/round_01/policy_net.zip"
+    },
+    {
+      "id": "round_02",
+      "kind": "submission",
+      "design": "models/round_02",
+      "weights": "models/round_02/policy_net.zip"
+    },
+    {
+      "id": "round_03",
+      "kind": "submission",
+      "design": "models/round_03",
+      "weights": "models/round_03/policy_net.zip"
+    },
+    {
+      "id": "round_04",
+      "kind": "submission",
+      "design": "models/round_04",
+      "weights": "models/round_04/policy_net.zip"
+    },
+    {
+      "id": "round_05",
+      "kind": "submission",
+      "design": "models/round_05",
+      "weights": "models/round_05/policy_net.zip"
+    }
+  ],
+  "restore_inputs": {
+    "runs/plan_a_20261005/double/ddqn/s1/policy.py": "models/ddqn_s1/policy.py",
+    "runs/plan_a_20261005/double/ddqn/s1/wrappers.py": "models/ddqn_s1/wrappers.py",
+    "runs/plan_a_20261005/double/ddqn/s1/utils.py": "models/ddqn_s1/utils.py",
+    "runs/plan_a_20261005/double/ddqn/s1/checkpoints/step_1024000/policy_net.zip": "models/ddqn_s1/policy_net.zip",
+    "runs/plan_a_20261005/double/ddqn/s0/policy.py": "models/ddqn_s0/policy.py",
+    "runs/plan_a_20261005/double/ddqn/s0/wrappers.py": "models/ddqn_s0/wrappers.py",
+    "runs/plan_a_20261005/double/ddqn/s0/utils.py": "models/ddqn_s0/utils.py",
+    "runs/plan_a_20261005/double/ddqn/s0/policy_net.zip": "models/ddqn_s0/policy_net.zip",
+    "experiments/plan_a/cem_policy/policy_net.json": "models/cem_original/policy_net.json"
+  },
+  "development_plan_sha256": "e14648288981415913114be1c38d3b4d21016e95b7f77c055fc6f61de608d1a4",
+  "development_champion": "round_05",
+  "files": {
+    ".gitignore": "10a6da5eaf658f5aa005a09965f654df78dbc1bcd983b68f86357b78f7f0289b",
+    "evidence/development_plan.json": "e14648288981415913114be1c38d3b4d21016e95b7f77c055fc6f61de608d1a4",
+    "evidence/history.json": "536e8adaf86698963bdd1571d00144dc39f343adaad86a2d5782801d01d2b792",
+    "evidence/round_00.json": "cc9d6724f5f98c95328ad5f221471be0516090135ce58605df222828dc2b1bdb",
+    "evidence/round_01.json": "3970e519fd6c893ea74721e6b4a4ad581e7a1e73c3d5affb2169417a60d9834f",
+    "evidence/round_02.json": "aaf3d334a4a8d34162c8bc514fb465d8f18b121bc6518f490d5f3f57253cc7bf",
+    "evidence/round_03.json": "998018770057474ecc7f745d77a7d79b27b9db82982ab5ae52250d65fa1a179a",
+    "evidence/round_04.json": "a139fb03b28d0fa0b6ecc79f867d2d1e58071f9eb21963784dc6a2ab2f33ca64",
+    "evidence/round_05.json": "afb50feff82dd2b5e987fd0aa80f1d057b6bf89de785858a7d9baddb2c1a64f6",
+    "evidence/runtime.json": "b38bdc36b4b99c1e000dd0d8b2906d1126b1486c0113e6130bcc0b1a6163cd4e",
+    "models/cem_original/policy.py": "8df8492520437ffafa2d8a1211dbaf96f539fbe5bef59e093c8d01b93ef82d18",
+    "models/cem_original/policy_net.json": "02e7522034d11668d1e5d15409c234d17c809e7faf9b76dc31add1f6bd5297c3",
+    "models/cem_original/policy_net.zip": "b33a20f5cfa1690d162f70e91dc6d8db46ba2abdddb39d05e0779d98fca8a09b",
+    "models/cem_original/selection.json": "9c8a00ac76d510752844ddddad45049c0545e8646c794be93254c555ecd209c9",
+    "models/cem_original/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "models/ddqn_s0/policy.py": "b50404baa95853a00b7b4f7e359e5e8eb2cbe5aca1b3d5d90814d978ad90d1cc",
+    "models/ddqn_s0/policy_net.zip": "a7d075694b582de9920fe6b7b7e3603cecc69de64cc0badef0b412871f587a2e",
+    "models/ddqn_s0/utils.py": "f6ee94395f9e2ab3c04088190ac6f9150a5fbe40c8b7c7df407ecff1a2455e8e",
+    "models/ddqn_s0/wrappers.py": "34669220dd12b11ff0633e041ef9cc8d9f7d6edb1003764fceffe1484aafebd3",
+    "models/ddqn_s1/policy.py": "b50404baa95853a00b7b4f7e359e5e8eb2cbe5aca1b3d5d90814d978ad90d1cc",
+    "models/ddqn_s1/policy_net.zip": "92fa9ba4c0fbf28352f38fab237e2c75dbab5cf19a2367c1ffa13ecf2d0faa85",
+    "models/ddqn_s1/utils.py": "f6ee94395f9e2ab3c04088190ac6f9150a5fbe40c8b7c7df407ecff1a2455e8e",
+    "models/ddqn_s1/wrappers.py": "34669220dd12b11ff0633e041ef9cc8d9f7d6edb1003764fceffe1484aafebd3",
+    "models/round_00/entrant.json": "aecec1345b60cbb19d27ec2dc56e40d702820d916439d4f22917b04b45d34bda",
+    "models/round_00/policy.py": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920",
+    "models/round_00/policy_net.json": "e04fce153a8cbadc0343ecdff0c1d5d95d5484c2056ee188302203b0c61dc759",
+    "models/round_00/policy_net.zip": "018518264baa094801f99249302af46a8cb4dffd7451970a7027ed72aa4a623a",
+    "models/round_00/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "models/round_01/entrant.json": "25662b25e7bd1ec22488c871b997a0a8a0d22f61d8a1e8ad06d0a64e1c8c23b8",
+    "models/round_01/policy.py": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920",
+    "models/round_01/policy_net.json": "485ba5e1a1a80e66a6ef1efa5a4427c05a4bed1ca17c4397930c3ba7c12f22aa",
+    "models/round_01/policy_net.zip": "4d605fa74477fee1f30bddec69e25922aea1766c135efac968be09c4226e8226",
+    "models/round_01/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "models/round_02/entrant.json": "65c6a1fc2dfd4ea970b815871363a942e4f8d7918af34b4af2ea4ebe443e8e63",
+    "models/round_02/policy.py": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920",
+    "models/round_02/policy_net.json": "d7de578b32094eb0eb82d0080ed51fab3b57d984d575e4161351cbb9a7cfa4d9",
+    "models/round_02/policy_net.zip": "bab98e5806b6739a388bf88d7e8d02ce76a3863a91573f26dc5e7f6b8d19bd72",
+    "models/round_02/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "models/round_03/entrant.json": "c0b932ef9a8ed1985e739511238ef513f1ee1c4c99edbb9a711de16d3359a43d",
+    "models/round_03/policy.py": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920",
+    "models/round_03/policy_net.json": "34b630f04b8d2e7f899f906b2585f86fb9d93db34cb46704c551f9678e6f7ac9",
+    "models/round_03/policy_net.zip": "2b5e07df43a22c35c33c0e84dd36fbf8a3fe7bcde9a983901acb981cd0e674f7",
+    "models/round_03/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "models/round_04/entrant.json": "de58704089c61c7f48b61541741803aa6ee143a4a33c940db1fd2e4b1bf82f3e",
+    "models/round_04/policy.py": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920",
+    "models/round_04/policy_net.json": "0706735cc70a68dddc5d892d36d53e333c3e68f6e0a00f5eab243a18c49e40c6",
+    "models/round_04/policy_net.zip": "57374b3399742806f264e7af76dc177ac773f1decc6ababe50aa68785ae74d5c",
+    "models/round_04/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "models/round_05/entrant.json": "1b6b3fd74729b03307bdb25c8645d669060b8187eb8bbb843915286669e52345",
+    "models/round_05/policy.py": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920",
+    "models/round_05/policy_net.json": "a928875b0e1d92f325fc58de9488fb21b947d559538d21ef7a136a0f85d5a987",
+    "models/round_05/policy_net.zip": "12e3e2eb8baaeb13d3f4c9b5d46d88a1214f2b6c9ae22babfc17c115567c716f",
+    "models/round_05/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "replay_tools/tools/league_duel.py": "6a8bd1fcedd5718ea314ca28ef0d60704cebe1acdfd9d209e80805855cc5665c",
+    "replay_tools/tools/league_package.py": "17b34036829c1b29d6f7d7d84a76fd44153f02e346d39e43c55b2d1edf6c4acc",
+    "replay_tools/tools/league_replay.py": "b5b651240fa593f71412d696aa5b2f769b0c5a3bffda0ac8cbd8d7757f406d65",
+    "replay_tools/tools/league_report.py": "4250061c7c45d2ed70b1f754ac4c3692147e612c05a0e6a1d0d3b4d25d6b94f5",
+    "replay_tools/tools/league_runner_probe.py": "83744d8980bc75680cb9f6d6add5ccd3b15fad0b8b542441124aa5617e7682b0",
+    "replay_tools/tools/league_validate.py": "b85766dc9db7df042f1def122a5cc6a690334aefca49ec7b5047f31e8d99a932",
+    "source_snapshot/aircombat_gym/__init__.py": "7a7d34804096c97d9edd29c334271a78380613c4add004c5864b1686f6b92bee",
+    "source_snapshot/aircombat_gym/core/__init__.py": "3388185b1d766cf03f8295dc3f0ccd2216518699d5b7a840136746ba1ac2916e",
+    "source_snapshot/aircombat_gym/core/aircraft.py": "d154ade534a67afe6dfefbbbd1c7b91c4547a3c175ed3a16b3a47315b57bc48c",
+    "source_snapshot/aircombat_gym/core/backends/__init__.py": "950fc433f31a37986cb0e98ca9ba735b5fd79819dc91110738cc93dfd243e449",
+    "source_snapshot/aircombat_gym/core/backends/base.py": "4f81d90411ea799ee905de1b17f55b695231ee4ee607be30cea6ed6679b2b5b3",
+    "source_snapshot/aircombat_gym/core/backends/jsbsim_f16.py": "6adeca0c79decaa5c1e6c1133a3df7d9a71ad17db99686ece7ae1b0460883537",
+    "source_snapshot/aircombat_gym/core/control/__init__.py": "e4fcf37f183a55a5094189038c8da574862799fbe19f161816498707fc18d916",
+    "source_snapshot/aircombat_gym/core/control/autopilot.py": "e894b37a95e440f30364cd714e14d844c65cfbbadbadf17f8d5b8f11c35f1068",
+    "source_snapshot/aircombat_gym/core/envelope.py": "8be7361782c21532eaf9a0826fb84481e1f3457b7010282b97c6b06fbb64d0e9",
+    "source_snapshot/aircombat_gym/core/tacview.py": "0039039ab99b1bc055a87081ace71db3b1ee6eac6fbe8c0372d80f4c9220bc76",
+    "source_snapshot/aircombat_gym/tools/__init__.py": "1e53eed17378808e9923747a76802bde02b6d26731338c2e64741fd582bbf730",
+    "source_snapshot/aircombat_gym/tools/auto_operation.py": "c1b81ac6fd6f863032cbc364175e688f161eb0c85b301b3cebf0500519bb20b3",
+    "source_snapshot/aircombat_gym/tools/manual_operation.py": "d81b3df0ff1596e081af539f664474cb64651fdfea7bbf7bdc8147ddef8b52af",
+    "source_snapshot/aircombat_gym/tools/render.py": "44cdc7a5b6133afc8e8689183d5a5798d3c0d71c99917483c95266bec84d2a3f",
+    "source_snapshot/aircombat_gym/wvr/__init__.py": "ee36aa27a15459ca87e7d349c13cb3646a2d5f5c2f4a4bfb4aa5a9a636c65c85",
+    "source_snapshot/aircombat_gym/wvr/actions.py": "2c05fde386971b3e1aacd773a3186f0847bbc801aebe394be00fd35d72a73f7c",
+    "source_snapshot/aircombat_gym/wvr/baselines.py": "5137356c7808d699689fa9a71596ca7ce415ca0be6265457953268f805e1db1b",
+    "source_snapshot/aircombat_gym/wvr/engagement.py": "478765a4fe4a0f1d68cc1583e1b2f3dc2869f4fcc9d3240b3328aa47742414b9",
+    "source_snapshot/aircombat_gym/wvr/envs/__init__.py": "7b4aa45227b35a0787e789f5b2230efc2358311298c45d0a1f81c28694fc016a",
+    "source_snapshot/aircombat_gym/wvr/envs/advantaged.py": "f54f5cfb833505f8321e6141b964978f269a4a64c62a61c41553bf80862ac50e",
+    "source_snapshot/aircombat_gym/wvr/envs/base.py": "878de26ba2e393af0f506828b364024bc8587db021fc12550fa90c336de8a0f1",
+    "source_snapshot/aircombat_gym/wvr/envs/circular.py": "e545b15e18515978d905091e83bb1476cd7ddb9c4e46fdcb6ed7ced1f448a2f7",
+    "source_snapshot/aircombat_gym/wvr/envs/evader.py": "545c944caefc5c64fe155c30a6319d6ae8a4d6ad1aa010ed4ef092c2e165998c",
+    "source_snapshot/aircombat_gym/wvr/envs/fair.py": "f7f5429c240eef866662876ac2d6cd11925b5d73c52032547e67fad49771082f",
+    "source_snapshot/aircombat_gym/wvr/obs.py": "ab08af221d27df2bcb7a233b540134c25fc2f891f035d6a6d3a0485711c1a7e4",
+    "source_snapshot/aircombat_gym/wvr/play.py": "04cd830eabee8c185df305a83310ac593335c31c8ce214dec5c0b39c0acf9576",
+    "source_snapshot/experiments/league/controller.py": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920",
+    "source_snapshot/experiments/plan_a/tactical.py": "32b13f6c75d9b43edf77c14ccda9beaf4bd39cf712e168f909c83c0b74142fdf",
+    "source_snapshot/tools/autolab_cem.py": "90b3e7df94d219de07b4657c1a05575455abe6d2e619dd90a9f3a14b20265fdf",
+    "source_snapshot/tools/grade.py": "75e9d0ab945e0510da5880604b7edff3b61f00a48205783fa30a605a132d90e2",
+    "source_snapshot/tools/league_matches.py": "5ea30dafcd739915e62b5cf68b9cc27036d01128f8cabeb6a488ab91be4a0889",
+    "source_snapshot/tools/league_train.py": "b9642cd9e3957c1ea6305a32efc440e15bc81ce5cbc5df137f84987ca4db0b13",
+    "source_snapshot/tools/policies.py": "a91e1f86a20760bf972c2676b3cf9134b203655a249968179acef9bb57d74bca"
+  },
+  "transfer_opponents": [
+    {
+      "id": "lead",
+      "kind": "bot",
+      "name": "lead"
+    },
+    {
+      "id": "circler",
+      "kind": "bot",
+      "name": "circler"
+    },
+    {
+      "id": "ddqn_s0",
+      "kind": "submission",
+      "design": "models/ddqn_s0",
+      "weights": "models/ddqn_s0/policy_net.zip"
+    }
+  ]
+}

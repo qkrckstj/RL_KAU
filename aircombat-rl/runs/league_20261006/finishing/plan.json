@@ -1,0 +1,11 @@
+{
+  "run": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\league_20261006",
+  "bundle": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle",
+  "waiting_for_pids": [
+    39804,
+    30864
+  ],
+  "source_sha256": "619004ae5a76a83a7eb2bc658ecc4aec62e3ba0ce9141e46a301ed21006575f9",
+  "plot_python": "C:\\Users\\qkrck\\anaconda3\\python.exe",
+  "scope": "Packaging and compatibility checks, not model selection or new performance evidence"
+}

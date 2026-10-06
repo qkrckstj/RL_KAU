@@ -1,0 +1,10 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.0 [GitHub build 1742/commit 01ea7816288dce9e9f6a1a6dc048014bc65d699e] Apr  9 2026 10:02:36
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+VAL observed_dqn s0 step=0 kills=2/2 outcomes={'kill': 2}
+VAL observed_dqn s0 step=1024 kills=0/2 outcomes={'died': 2}
+VAL observed_dqn s0 step=2048 kills=0/2 outcomes={'died': 2}

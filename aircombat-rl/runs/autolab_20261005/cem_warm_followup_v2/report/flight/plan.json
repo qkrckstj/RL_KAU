@@ -1,0 +1,6 @@
+{
+  "seed": 904000,
+  "purpose": "Prechosen development seed, no model selection",
+  "design": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\plan_a\\cem_policy",
+  "weights_sha256": "02e7522034d11668d1e5d15409c234d17c809e7faf9b76dc31add1f6bd5297c3"
+}

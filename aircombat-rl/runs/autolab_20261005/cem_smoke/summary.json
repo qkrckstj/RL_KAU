@@ -1,0 +1,145 @@
+{
+  "records": [
+    {
+      "status": "complete",
+      "seed": 800,
+      "best_generation": 0,
+      "best_validation": {
+        "n": 2,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 2
+        },
+        "own_health": 0.076,
+        "opp_health": 0.2905,
+        "wez_time": 3.1,
+        "wez_time_foe": 4.7,
+        "engaged": 1.0,
+        "first_wez": 40.5,
+        "longest_track": 3.1,
+        "min_range": 33,
+        "out_of_bounds": 0.0
+      },
+      "final_validation": {
+        "n": 2,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "timeout": 2
+        },
+        "own_health": 0.076,
+        "opp_health": 0.2905,
+        "wez_time": 3.1,
+        "wez_time_foe": 4.7,
+        "engaged": 1.0,
+        "first_wez": 40.5,
+        "longest_track": 3.1,
+        "min_range": 33,
+        "out_of_bounds": 0.0
+      },
+      "training_steps": 10676,
+      "train_episodes": 8,
+      "train_wins": 6,
+      "elapsed_seconds": 11.198243199964054
+    }
+  ],
+  "fixed_baseline": {
+    "band": 903000,
+    "summary": {
+      "n": 2,
+      "kills": 0,
+      "rate": 0.0,
+      "t_kill": null,
+      "outcomes": {
+        "died": 2
+      },
+      "own_health": 0.0,
+      "opp_health": 0.2905,
+      "wez_time": 3.1,
+      "wez_time_foe": 4.95,
+      "engaged": 1.0,
+      "first_wez": 40.5,
+      "longest_track": 3.1,
+      "min_range": 33,
+      "out_of_bounds": 0.0
+    },
+    "episodes": [
+      {
+        "seed": 903000,
+        "outcome": "died",
+        "won": false,
+        "t": 86.0,
+        "steps": 1721,
+        "truncated": false,
+        "own_health": 0.0,
+        "opp_health": 0.2905,
+        "wez_time": 3.1,
+        "wez_time_foe": 4.95,
+        "first_wez": 40.5,
+        "longest_track": 3.1,
+        "min_range": 32,
+        "out_of_bounds": false,
+        "seat": "red"
+      },
+      {
+        "seed": 903000,
+        "outcome": "died",
+        "won": false,
+        "t": 85.9,
+        "steps": 1719,
+        "truncated": false,
+        "own_health": 0.0,
+        "opp_health": 0.2905,
+        "wez_time": 3.1,
+        "wez_time_foe": 4.95,
+        "first_wez": 40.6,
+        "longest_track": 3.1,
+        "min_range": 34,
+        "out_of_bounds": false,
+        "seat": "blue"
+      }
+    ],
+    "per_seat": {
+      "red": {
+        "n": 1,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 1
+        },
+        "own_health": 0.0,
+        "opp_health": 0.2905,
+        "wez_time": 3.1,
+        "wez_time_foe": 4.95,
+        "engaged": 1.0,
+        "first_wez": 40.5,
+        "longest_track": 3.1,
+        "min_range": 32,
+        "out_of_bounds": 0.0
+      },
+      "blue": {
+        "n": 1,
+        "kills": 0,
+        "rate": 0.0,
+        "t_kill": null,
+        "outcomes": {
+          "died": 1
+        },
+        "own_health": 0.0,
+        "opp_health": 0.2905,
+        "wez_time": 3.1,
+        "wez_time_foe": 4.95,
+        "engaged": 1.0,
+        "first_wez": 40.6,
+        "longest_track": 3.1,
+        "min_range": 34,
+        "out_of_bounds": 0.0
+      }
+    }
+  },
+  "stage": "Development screening only; restricted controller family, not neural PPO"
+}

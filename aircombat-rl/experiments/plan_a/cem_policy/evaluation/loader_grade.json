@@ -1,0 +1,108 @@
+{
+  "band": 906000,
+  "n": 2,
+  "rows": [
+    {
+      "submission": "cem_policy",
+      "policy": "policy_net.zip",
+      "note": "CEM-trained 7-parameter opening/lead/speed controller",
+      "band": 906000,
+      "seats": [
+        "red",
+        "blue"
+      ],
+      "summary": {
+        "n": 2,
+        "kills": 2,
+        "rate": 1.0,
+        "t_kill": 57.2,
+        "outcomes": {
+          "kill": 2
+        },
+        "own_health": 0.3235,
+        "opp_health": 0.0,
+        "wez_time": 4.95,
+        "wez_time_foe": 3.0,
+        "engaged": 1.0,
+        "first_wez": 38.2,
+        "longest_track": 3.02,
+        "min_range": 48,
+        "out_of_bounds": 0.0
+      },
+      "per_seat": {
+        "red": {
+          "n": 1,
+          "kills": 1,
+          "rate": 1.0,
+          "t_kill": 57.5,
+          "outcomes": {
+            "kill": 1
+          },
+          "own_health": 0.3235,
+          "opp_health": 0.0,
+          "wez_time": 4.95,
+          "wez_time_foe": 3.0,
+          "engaged": 1.0,
+          "first_wez": 38.2,
+          "longest_track": 3.05,
+          "min_range": 50,
+          "out_of_bounds": 0.0
+        },
+        "blue": {
+          "n": 1,
+          "kills": 1,
+          "rate": 1.0,
+          "t_kill": 57.0,
+          "outcomes": {
+            "kill": 1
+          },
+          "own_health": 0.3235,
+          "opp_health": 0.0,
+          "wez_time": 4.95,
+          "wez_time_foe": 3.0,
+          "engaged": 1.0,
+          "first_wez": 38.3,
+          "longest_track": 3.0,
+          "min_range": 46,
+          "out_of_bounds": 0.0
+        }
+      },
+      "episodes": [
+        {
+          "seed": 906000,
+          "outcome": "kill",
+          "won": true,
+          "t": 57.5,
+          "steps": 1151,
+          "truncated": false,
+          "own_health": 0.3235,
+          "opp_health": 0.0,
+          "wez_time": 4.95,
+          "wez_time_foe": 3.0,
+          "first_wez": 38.2,
+          "longest_track": 3.05,
+          "min_range": 50,
+          "out_of_bounds": false,
+          "seat": "red"
+        },
+        {
+          "seed": 906000,
+          "outcome": "kill",
+          "won": true,
+          "t": 57.0,
+          "steps": 1141,
+          "truncated": false,
+          "own_health": 0.3235,
+          "opp_health": 0.0,
+          "wez_time": 4.95,
+          "wez_time_foe": 3.0,
+          "first_wez": 38.3,
+          "longest_track": 3.0,
+          "min_range": 46,
+          "out_of_bounds": false,
+          "seat": "blue"
+        }
+      ]
+    }
+  ]
+}

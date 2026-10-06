@@ -1,0 +1,114 @@
+{
+  "rounds": 1,
+  "roster": [
+    {
+      "id": "cem_original",
+      "kind": "cem",
+      "parameters": [
+        46.5795821161632,
+        324.6037751529909,
+        305.6533702700848,
+        2.418697871782606,
+        18.936747197224676,
+        0.48848060094490076,
+        3.5707727915270118
+      ]
+    },
+    {
+      "id": "ddqn_s1",
+      "kind": "submission",
+      "design": "runs/plan_a_20261005/double/ddqn/s1",
+      "weights": "runs/plan_a_20261005/double/ddqn/s1/checkpoints/step_1024000/policy_net.zip"
+    },
+    {
+      "id": "ace",
+      "kind": "bot",
+      "name": "ace"
+    },
+    {
+      "id": "pursuit",
+      "kind": "bot",
+      "name": "pursuit"
+    },
+    {
+      "id": "evader",
+      "kind": "bot",
+      "name": "evader"
+    },
+    {
+      "id": "fixed_left",
+      "kind": "fixed",
+      "action": 0
+    },
+    {
+      "id": "fixed_right",
+      "kind": "fixed",
+      "action": 6
+    }
+  ],
+  "search": {
+    "population": 6,
+    "elites": 2,
+    "generations": 1,
+    "screen_n": 2,
+    "confirmation_n": 2,
+    "development_n": 2,
+    "initial_std": 0.14,
+    "minimum_std": 0.035,
+    "workers": 3
+  },
+  "admission_n": 2,
+  "training_band": 100000000,
+  "development_band": 30001000,
+  "admission_band": 31000000,
+  "heldout_band": 40000000,
+  "heldout_opened": false,
+  "holdout_opponents": [
+    "lead",
+    "circler",
+    "ddqn_s0"
+  ],
+  "scope": "Official FairFight geometry, all archived round challengers, no opponent ID in observations",
+  "source_sha256": {
+    "tools/league_train.py": "4d22186daa1b313165bf956c5b70ffdaf1b33b8f08d007053fec580c58aaee64",
+    "tools/league_matches.py": "5ea30dafcd739915e62b5cf68b9cc27036d01128f8cabeb6a488ab91be4a0889",
+    "experiments/league/controller.py": "183e4be49fbba19a442e21f3cc54c17041eca1d67234d1f7dc37dfac78e12a9f",
+    "tools/autolab_cem.py": "90b3e7df94d219de07b4657c1a05575455abe6d2e619dd90a9f3a14b20265fdf",
+    "experiments/plan_a/tactical.py": "32b13f6c75d9b43edf77c14ccda9beaf4bd39cf712e168f909c83c0b74142fdf",
+    "tools/grade.py": "75e9d0ab945e0510da5880604b7edff3b61f00a48205783fa30a605a132d90e2",
+    "tools/policies.py": "a91e1f86a20760bf972c2676b3cf9134b203655a249968179acef9bb57d74bca",
+    "aircombat_gym/__init__.py": "7a7d34804096c97d9edd29c334271a78380613c4add004c5864b1686f6b92bee",
+    "aircombat_gym/core/__init__.py": "3388185b1d766cf03f8295dc3f0ccd2216518699d5b7a840136746ba1ac2916e",
+    "aircombat_gym/core/aircraft.py": "d154ade534a67afe6dfefbbbd1c7b91c4547a3c175ed3a16b3a47315b57bc48c",
+    "aircombat_gym/core/backends/__init__.py": "950fc433f31a37986cb0e98ca9ba735b5fd79819dc91110738cc93dfd243e449",
+    "aircombat_gym/core/backends/base.py": "4f81d90411ea799ee905de1b17f55b695231ee4ee607be30cea6ed6679b2b5b3",
+    "aircombat_gym/core/backends/jsbsim_f16.py": "6adeca0c79decaa5c1e6c1133a3df7d9a71ad17db99686ece7ae1b0460883537",
+    "aircombat_gym/core/control/__init__.py": "e4fcf37f183a55a5094189038c8da574862799fbe19f161816498707fc18d916",
+    "aircombat_gym/core/control/autopilot.py": "e894b37a95e440f30364cd714e14d844c65cfbbadbadf17f8d5b8f11c35f1068",
+    "aircombat_gym/core/envelope.py": "8be7361782c21532eaf9a0826fb84481e1f3457b7010282b97c6b06fbb64d0e9",
+    "aircombat_gym/core/tacview.py": "0039039ab99b1bc055a87081ace71db3b1ee6eac6fbe8c0372d80f4c9220bc76",
+    "aircombat_gym/tools/__init__.py": "1e53eed17378808e9923747a76802bde02b6d26731338c2e64741fd582bbf730",
+    "aircombat_gym/tools/auto_operation.py": "c1b81ac6fd6f863032cbc364175e688f161eb0c85b301b3cebf0500519bb20b3",
+    "aircombat_gym/tools/manual_operation.py": "d81b3df0ff1596e081af539f664474cb64651fdfea7bbf7bdc8147ddef8b52af",
+    "aircombat_gym/tools/render.py": "44cdc7a5b6133afc8e8689183d5a5798d3c0d71c99917483c95266bec84d2a3f",
+    "aircombat_gym/wvr/__init__.py": "ee36aa27a15459ca87e7d349c13cb3646a2d5f5c2f4a4bfb4aa5a9a636c65c85",
+    "aircombat_gym/wvr/actions.py": "2c05fde386971b3e1aacd773a3186f0847bbc801aebe394be00fd35d72a73f7c",
+    "aircombat_gym/wvr/baselines.py": "5137356c7808d699689fa9a71596ca7ce415ca0be6265457953268f805e1db1b",
+    "aircombat_gym/wvr/engagement.py": "478765a4fe4a0f1d68cc1583e1b2f3dc2869f4fcc9d3240b3328aa47742414b9",
+    "aircombat_gym/wvr/envs/__init__.py": "7b4aa45227b35a0787e789f5b2230efc2358311298c45d0a1f81c28694fc016a",
+    "aircombat_gym/wvr/envs/advantaged.py": "f54f5cfb833505f8321e6141b964978f269a4a64c62a61c41553bf80862ac50e",
+    "aircombat_gym/wvr/envs/base.py": "878de26ba2e393af0f506828b364024bc8587db021fc12550fa90c336de8a0f1",
+    "aircombat_gym/wvr/envs/circular.py": "e545b15e18515978d905091e83bb1476cd7ddb9c4e46fdcb6ed7ced1f448a2f7",
+    "aircombat_gym/wvr/envs/evader.py": "545c944caefc5c64fe155c30a6319d6ae8a4d6ad1aa010ed4ef092c2e165998c",
+    "aircombat_gym/wvr/envs/fair.py": "f7f5429c240eef866662876ac2d6cd11925b5d73c52032547e67fad49771082f",
+    "aircombat_gym/wvr/obs.py": "ab08af221d27df2bcb7a233b540134c25fc2f891f035d6a6d3a0485711c1a7e4",
+    "aircombat_gym/wvr/play.py": "04cd830eabee8c185df305a83310ac593335c31c8ce214dec5c0b39c0acf9576"
+  },
+  "input_sha256": {
+    "experiments/plan_a/cem_policy/policy_net.json": "02e7522034d11668d1e5d15409c234d17c809e7faf9b76dc31add1f6bd5297c3",
+    "runs/plan_a_20261005/double/ddqn/s1/checkpoints/step_1024000/policy_net.zip": "92fa9ba4c0fbf28352f38fab237e2c75dbab5cf19a2367c1ffa13ecf2d0faa85",
+    "runs/plan_a_20261005/double/ddqn/s1/policy.py": "b50404baa95853a00b7b4f7e359e5e8eb2cbe5aca1b3d5d90814d978ad90d1cc",
+    "runs/plan_a_20261005/double/ddqn/s1/wrappers.py": "34669220dd12b11ff0633e041ef9cc8d9f7d6edb1003764fceffe1484aafebd3",
+    "runs/plan_a_20261005/double/ddqn/s1/utils.py": "f6ee94395f9e2ab3c04088190ac6f9150a5fbe40c8b7c7df407ecff1a2455e8e"
+  }
+}

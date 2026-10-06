@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\qkrck\Desktop\강화학습\RL_KAU\aircombat-rl\tools\autolab_cem_warm.py", line 131, in <module>
+    worker(args.out.resolve(),args.worker)
+  File "C:\Users\qkrck\Desktop\강화학습\RL_KAU\aircombat-rl\tools\autolab_cem_warm.py", line 23, in worker
+    if sha(ROOT/p["parent"] / "policy_net.json")!=p["parent_sha256"]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qkrck\Desktop\강화학습\RL_KAU\aircombat-rl\tools\autolab_cem.py", line 38, in sha
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qkrck\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qkrck\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\autolab_20261005\\cem_warm_pilot\\policy_net.json'

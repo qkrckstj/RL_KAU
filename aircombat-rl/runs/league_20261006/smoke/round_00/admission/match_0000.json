@@ -1,0 +1,104 @@
+{
+  "job": {
+    "own": {
+      "id": "round_00",
+      "kind": "reactive",
+      "parameters": [
+        46.5795821161632,
+        324.6037751529909,
+        305.6533702700848,
+        2.418697871782606,
+        18.936747197224676,
+        0.48848060094490076,
+        3.5707727915270118,
+        -1.0,
+        0.0,
+        0.0,
+        305.6533702700848,
+        0.0,
+        60.0,
+        90.0,
+        305.6533702700848
+      ]
+    },
+    "foe": {
+      "id": "cem_original",
+      "kind": "cem",
+      "parameters": [
+        46.5795821161632,
+        324.6037751529909,
+        305.6533702700848,
+        2.418697871782606,
+        18.936747197224676,
+        0.48848060094490076,
+        3.5707727915270118
+      ]
+    },
+    "band": 31000000,
+    "n": 2
+  },
+  "result": {
+    "own": "round_00",
+    "foe": "cem_original",
+    "band": 31000000,
+    "summary": {
+      "n": 2,
+      "kills": 0,
+      "rate": 0.0,
+      "t_kill": null,
+      "outcomes": {
+        "timeout": 2
+      },
+      "own_health": 1.0,
+      "opp_health": 1.0,
+      "wez_time": 0.0,
+      "wez_time_foe": 0.0,
+      "engaged": 0.0,
+      "first_wez": null,
+      "longest_track": 0.0,
+      "min_range": 503,
+      "out_of_bounds": 0.0,
+      "wins": 0,
+      "losses": 0,
+      "draws": 2,
+      "score": 0.5
+    },
+    "episodes": [
+      {
+        "seed": 31000000,
+        "outcome": "timeout",
+        "won": false,
+        "t": 120.0,
+        "steps": 2401,
+        "truncated": true,
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 503,
+        "out_of_bounds": false,
+        "seat": "red"
+      },
+      {
+        "seed": 31000000,
+        "outcome": "timeout",
+        "won": false,
+        "t": 120.0,
+        "steps": 2401,
+        "truncated": true,
+        "own_health": 1.0,
+        "opp_health": 1.0,
+        "wez_time": 0.0,
+        "wez_time_foe": 0.0,
+        "first_wez": null,
+        "longest_track": 0.0,
+        "min_range": 503,
+        "out_of_bounds": false,
+        "seat": "blue"
+      }
+    ],
+    "elapsed_seconds": 1.9412268000887707
+  }
+}

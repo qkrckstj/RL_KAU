@@ -1,0 +1,21 @@
+{
+  "parameter_names": [
+    "opening_seconds",
+    "opening_speed_kt",
+    "tracking_speed_kt",
+    "lead_seconds",
+    "aim_bias_deg",
+    "yaw_brake_seconds",
+    "deadband_deg"
+  ],
+  "parameters": [
+    46.5795821161632,
+    324.6037751529909,
+    305.6533702700848,
+    2.418697871782606,
+    18.936747197224676,
+    0.48848060094490076,
+    3.5707727915270118
+  ],
+  "format": "JSON controller parameters; use --policy policy_net.json"
+}

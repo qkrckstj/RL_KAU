@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-05T09:49:40.656322+00:00",
+  "exploratory": true,
+  "source": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\plan_a_20261005\\double\\ddqn\\s1",
+  "checkpoint": 1024000,
+  "additional_steps": 128,
+  "target_steps": 1024128,
+  "environment_seed": 10002,
+  "val_band": 900000,
+  "val_n": 2,
+  "val_every": 128,
+  "test_band": 900000,
+  "test_n": 2,
+  "selection": "Validation wins, mean kill time, earlier checkpoint; starting policy remains eligible",
+  "limits": "One previously inspected seed; not independent confirmation. Fresh simulator episode, restored learner/replay/CPU RNG.",
+  "source_hashes": {
+    "policy_net.zip": "92fa9ba4c0fbf28352f38fab237e2c75dbab5cf19a2367c1ffa13ecf2d0faa85",
+    "replay_buffer.pkl": "4ae91399989c6f8a5583ff978af18ce51af779fc69b2210a9021c4e124a85c1a",
+    "rng_state.pkl": "4df8b4f382638d6c14a6fb26914d75c3966ec41f621f46df14affa97f9fe6dfa",
+    "resume.json": "c552888a37db6b61521b87944a67fea239b68978a577261a2fa5ce861a2b8f38"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "steps": 131072,
+  "best_step": 65536,
+  "best_validation_wins": 8,
+  "final_validation": {
+    "n": 20,
+    "kills": 7,
+    "rate": 0.35,
+    "t_kill": 69.7,
+    "outcomes": {
+      "died": 13,
+      "kill": 7
+    },
+    "own_health": 0.091,
+    "opp_health": 0.1715,
+    "wez_time": 4.17,
+    "wez_time_foe": 4.43,
+    "engaged": 1.0,
+    "first_wez": 40.4,
+    "longest_track": 2.93,
+    "min_range": 29,
+    "out_of_bounds": 0.0
+  },
+  "train_wins": 28,
+  "train_episodes": 79
+}

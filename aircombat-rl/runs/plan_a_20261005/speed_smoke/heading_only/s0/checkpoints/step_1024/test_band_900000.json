@@ -1,0 +1,104 @@
+{
+  "submission": "s0",
+  "policy": "checkpoints/step_1024/policy_net.zip",
+  "policy_abs": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\plan_a_20261005\\speed_smoke\\heading_only\\s0\\checkpoints\\step_1024\\policy_net.zip",
+  "note": "observed_dqn 31->[64,64]->3",
+  "band": 900000,
+  "seats": [
+    "red",
+    "blue"
+  ],
+  "summary": {
+    "n": 2,
+    "kills": 0,
+    "rate": 0.0,
+    "t_kill": null,
+    "outcomes": {
+      "died": 2
+    },
+    "own_health": 0.0,
+    "opp_health": 1.0,
+    "wez_time": 0.4,
+    "wez_time_foe": 4.95,
+    "engaged": 0.5,
+    "first_wez": 28.4,
+    "longest_track": 0.4,
+    "min_range": 288,
+    "out_of_bounds": 0.0
+  },
+  "per_seat": {
+    "red": {
+      "n": 1,
+      "kills": 0,
+      "rate": 0.0,
+      "t_kill": null,
+      "outcomes": {
+        "died": 1
+      },
+      "own_health": 0.0,
+      "opp_health": 1.0,
+      "wez_time": 0.8,
+      "wez_time_foe": 4.95,
+      "engaged": 1.0,
+      "first_wez": 28.4,
+      "longest_track": 0.8,
+      "min_range": 299,
+      "out_of_bounds": 0.0
+    },
+    "blue": {
+      "n": 1,
+      "kills": 0,
+      "rate": 0.0,
+      "t_kill": null,
+      "outcomes": {
+        "died": 1
+      },
+      "own_health": 0.0,
+      "opp_health": 1.0,
+      "wez_time": 0.0,
+      "wez_time_foe": 4.95,
+      "engaged": 0.0,
+      "first_wez": null,
+      "longest_track": 0.0,
+      "min_range": 278,
+      "out_of_bounds": 0.0
+    }
+  },
+  "episodes": [
+    {
+      "seed": 900000,
+      "outcome": "died",
+      "won": false,
+      "t": 72.3,
+      "steps": 1447,
+      "truncated": false,
+      "own_health": 0.0,
+      "opp_health": 1.0,
+      "wez_time": 0.8,
+      "wez_time_foe": 4.95,
+      "first_wez": 28.4,
+      "longest_track": 0.8,
+      "min_range": 299,
+      "out_of_bounds": false,
+      "seat": "red"
+    },
+    {
+      "seed": 900000,
+      "outcome": "died",
+      "won": false,
+      "t": 73.8,
+      "steps": 1477,
+      "truncated": false,
+      "own_health": 0.0,
+      "opp_health": 1.0,
+      "wez_time": 0.0,
+      "wez_time_foe": 4.95,
+      "first_wez": null,
+      "longest_track": 0.0,
+      "min_range": 278,
+      "out_of_bounds": false,
+      "seat": "blue"
+    }
+  ],
+  "weights_sha256": "48edfb4001897c3308ea3ab3cfbe6e9249aa05c76e981c4136cda9816dd02ba2"
+}

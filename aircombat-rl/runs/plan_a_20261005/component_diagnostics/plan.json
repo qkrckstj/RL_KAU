@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-05T12:34:52.329137+00:00",
+  "kinds": [
+    "constant_left_decelerate",
+    "constant_right_decelerate",
+    "bad_heading_good_speed",
+    "good_heading_bad_speed"
+  ],
+  "band": 900000,
+  "n": 20,
+  "purpose": "Diagnose whether near-constant turning explains apparent learned performance; swap one action channel at a time"
+}

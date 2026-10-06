@@ -1,0 +1,240 @@
+{
+  "request": {
+    "spec": {
+      "id": "s1101_g2_c0",
+      "kind": "reactive",
+      "parameters": [
+        46.5795821161632,
+        324.6037751529909,
+        305.6533702700848,
+        2.418697871782606,
+        18.93674719722469,
+        0.48848060094490076,
+        3.5707727915270118,
+        -1.0,
+        0.0,
+        0.0,
+        305.6533702700848,
+        0.0,
+        60.0,
+        90.0,
+        305.6533702700848,
+        120.0,
+        0.0
+      ]
+    },
+    "opponents": [
+      {
+        "id": "cem_original",
+        "kind": "cem",
+        "parameters": [
+          46.5795821161632,
+          324.6037751529909,
+          305.6533702700848,
+          2.418697871782606,
+          18.936747197224676,
+          0.48848060094490076,
+          3.5707727915270118
+        ]
+      },
+      {
+        "id": "ddqn_s1",
+        "kind": "submission",
+        "design": "runs/plan_a_20261005/double/ddqn/s1",
+        "weights": "runs/plan_a_20261005/double/ddqn/s1/checkpoints/step_1024000/policy_net.zip"
+      },
+      {
+        "id": "ace",
+        "kind": "bot",
+        "name": "ace"
+      },
+      {
+        "id": "pursuit",
+        "kind": "bot",
+        "name": "pursuit"
+      },
+      {
+        "id": "evader",
+        "kind": "bot",
+        "name": "evader"
+      },
+      {
+        "id": "fixed_left",
+        "kind": "fixed",
+        "action": 0
+      },
+      {
+        "id": "fixed_right",
+        "kind": "fixed",
+        "action": 6
+      },
+      {
+        "id": "round_00",
+        "kind": "reactive",
+        "parameters": [
+          49.054643429137045,
+          344.9320165839133,
+          300.0,
+          1.6189913657693618,
+          0.6358662057947555,
+          0.5462355091182627,
+          2.216714533307004,
+          -0.917163597878225,
+          0.0,
+          707.5735938951951,
+          345.41311022978886,
+          316.31072988578927,
+          60.368798937664934,
+          133.49953714021927,
+          300.0,
+          101.85583422915799,
+          5633.5384761216865
+        ]
+      }
+    ],
+    "band": 100010220,
+    "n": 6,
+    "weights": [
+      0.16964146569525074,
+      0.12094079947013675,
+      0.07224013324502279,
+      0.08847693536447578,
+      0.16964146569525074,
+      0.13717760158958975,
+      0.07224013324502279,
+      0.16964146569525074
+    ]
+  },
+  "result": {
+    "own": "s1101_g2_c0",
+    "foe": "pursuit",
+    "band": 100010220,
+    "summary": {
+      "n": 6,
+      "kills": 6,
+      "rate": 1.0,
+      "t_kill": 58.5,
+      "outcomes": {
+        "kill": 6
+      },
+      "own_health": 0.2547,
+      "opp_health": 0.0,
+      "wez_time": 4.83,
+      "wez_time_foe": 3.21,
+      "engaged": 1.0,
+      "first_wez": 40.2,
+      "longest_track": 3.64,
+      "min_range": 94,
+      "out_of_bounds": 0.0,
+      "wins": 6,
+      "losses": 0,
+      "draws": 0,
+      "score": 1.0
+    },
+    "episodes": [
+      {
+        "seed": 100010220,
+        "outcome": "kill",
+        "won": true,
+        "t": 58.8,
+        "steps": 1176,
+        "truncated": false,
+        "own_health": 0.2575,
+        "opp_health": 0.0,
+        "wez_time": 4.65,
+        "wez_time_foe": 3.2,
+        "first_wez": 40.8,
+        "longest_track": 3.95,
+        "min_range": 128,
+        "out_of_bounds": false,
+        "seat": "red"
+      },
+      {
+        "seed": 100010221,
+        "outcome": "kill",
+        "won": true,
+        "t": 57.4,
+        "steps": 1148,
+        "truncated": false,
+        "own_health": 0.241,
+        "opp_health": 0.0,
+        "wez_time": 4.95,
+        "wez_time_foe": 3.25,
+        "first_wez": 39.3,
+        "longest_track": 3.7,
+        "min_range": 92,
+        "out_of_bounds": false,
+        "seat": "red"
+      },
+      {
+        "seed": 100010222,
+        "outcome": "kill",
+        "won": true,
+        "t": 58.6,
+        "steps": 1172,
+        "truncated": false,
+        "own_health": 0.2575,
+        "opp_health": 0.0,
+        "wez_time": 4.95,
+        "wez_time_foe": 3.2,
+        "first_wez": 39.9,
+        "longest_track": 3.1,
+        "min_range": 44,
+        "out_of_bounds": false,
+        "seat": "red"
+      },
+      {
+        "seed": 100010220,
+        "outcome": "kill",
+        "won": true,
+        "t": 58.7,
+        "steps": 1174,
+        "truncated": false,
+        "own_health": 0.2575,
+        "opp_health": 0.0,
+        "wez_time": 4.65,
+        "wez_time_foe": 3.2,
+        "first_wez": 40.7,
+        "longest_track": 3.95,
+        "min_range": 130,
+        "out_of_bounds": false,
+        "seat": "blue"
+      },
+      {
+        "seed": 100010221,
+        "outcome": "kill",
+        "won": true,
+        "t": 58.6,
+        "steps": 1172,
+        "truncated": false,
+        "own_health": 0.2575,
+        "opp_health": 0.0,
+        "wez_time": 4.8,
+        "wez_time_foe": 3.2,
+        "first_wez": 40.5,
+        "longest_track": 3.95,
+        "min_range": 119,
+        "out_of_bounds": false,
+        "seat": "blue"
+      },
+      {
+        "seed": 100010222,
+        "outcome": "kill",
+        "won": true,
+        "t": 58.9,
+        "steps": 1178,
+        "truncated": false,
+        "own_health": 0.2575,
+        "opp_health": 0.0,
+        "wez_time": 4.95,
+        "wez_time_foe": 3.2,
+        "first_wez": 40.3,
+        "longest_track": 3.2,
+        "min_range": 50,
+        "out_of_bounds": false,
+        "seat": "blue"
+      }
+    ],
+    "elapsed_seconds": 6.863954600063153
+  }
+}

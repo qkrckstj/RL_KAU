@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-05T14:28:36.312312+00:00",
+  "hypothesis": "A policy-gradient update with a trusted initial actor may retain useful behavior better than greedy Q rankings",
+  "seeds": [
+    700,
+    701,
+    702
+  ],
+  "steps": 131072,
+  "val_every": 32768,
+  "val_band": 902000,
+  "val_n": 20,
+  "learning_rate": 0.0001,
+  "n_steps": 2048,
+  "batch_size": 256,
+  "n_epochs": 5,
+  "gae_lambda": 1.0,
+  "ent_coef": 0.0,
+  "target_kl": 0.01,
+  "teacher": "runs/plan_a_20261005/double/ddqn/s1/checkpoints/step_1024000",
+  "teacher_sha256": "92fa9ba4c0fbf28352f38fab237e2c75dbab5cf19a2367c1ffa13ecf2d0faa85",
+  "source_sha256": {
+    "tools/autolab_ppo.py": "1221c17fd54086ba98dd70eb8355a313684209e9c882d8b97b447a5487038c01",
+    "experiments/plan_a/core.py": "937f367d7ef918dbe640d5e37e58dac8c2b1b31324747ce9852e2b660ba55578",
+    "tools/plan_a.py": "547bb4b1d2a58119034ee4a86b32e04b573955bc35b3e4c48e32e1da924e3d28"
+  },
+  "heldout_test": "Not opened during screening",
+  "scope": "Independent fine-tuning RNG seeds share one pretrained teacher; not independent teacher pretraining"
+}

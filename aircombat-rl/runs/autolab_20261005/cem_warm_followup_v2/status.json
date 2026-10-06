@@ -1,0 +1,32 @@
+{
+  "stage": "completed_success",
+  "heldout_opened": true,
+  "band": 2000000,
+  "verdict": {
+    "passed": true,
+    "selected_rates": [
+      0.98,
+      1.0,
+      1.0
+    ],
+    "selected_mean": 0.9933333333333333,
+    "final_rates": [
+      0.97,
+      1.0,
+      1.0
+    ],
+    "final_mean": 0.9899999999999999,
+    "baseline": 0.345,
+    "advantage": 0.6483333333333333,
+    "paired_ic_bootstrap_95_ci": [
+      0.5633333333333332,
+      0.7316666666666667
+    ],
+    "improved_seeds": 3,
+    "retention": 0.9966442953020134,
+    "independent_training_runs": 3,
+    "shared_ic_seeds": 100,
+    "matches_per_policy": 200,
+    "caveat": "Bootstrap quantifies IC variation conditional on these three training runs, not all possible training runs"
+  }
+}

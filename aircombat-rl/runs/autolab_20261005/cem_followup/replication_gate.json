@@ -1,0 +1,9 @@
+{
+  "passed": false,
+  "best_mean": 0.5666666666666667,
+  "final_mean": 0.5166666666666667,
+  "baseline": 0.425,
+  "advantage": 0.14166666666666666,
+  "retention": 0.911764705882353,
+  "improved_seeds": 2
+}
