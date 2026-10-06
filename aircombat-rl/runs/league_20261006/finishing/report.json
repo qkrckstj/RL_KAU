@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\Users\\qkrck\\anaconda3\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "tools.league_final_report",
+    "--run",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\league_20261006",
+    "--out",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\results",
+    "--plot"
+  ],
+  "returncode": 0
+}

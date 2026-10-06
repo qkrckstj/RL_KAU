@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "stage": "development_only",
+  "stage": "evaluation_passed",
   "models": {
     "cem_original": {
       "id": "cem_original",
@@ -55,6 +55,30 @@
       "kind": "submission",
       "design": "models/ddqn_s0",
       "weights": "models/ddqn_s0/policy_net.zip"
+    },
+    "final": {
+      "id": "refine_2200",
+      "kind": "submission",
+      "design": "models/final",
+      "weights": "models/final/policy_net.zip"
+    },
+    "refine_2200": {
+      "id": "refine_2200",
+      "kind": "submission",
+      "design": "models/refine_2200",
+      "weights": "models/refine_2200/policy_net.zip"
+    },
+    "refine_2201": {
+      "id": "refine_2201",
+      "kind": "submission",
+      "design": "models/refine_2201",
+      "weights": "models/refine_2201/policy_net.zip"
+    },
+    "refine_2202": {
+      "id": "refine_2202",
+      "kind": "submission",
+      "design": "models/refine_2202",
+      "weights": "models/refine_2202/policy_net.zip"
     }
   },
   "opponents": [
@@ -148,6 +172,15 @@
   "files": {
     ".gitignore": "10a6da5eaf658f5aa005a09965f654df78dbc1bcd983b68f86357b78f7f0289b",
     "evidence/development_plan.json": "e14648288981415913114be1c38d3b4d21016e95b7f77c055fc6f61de608d1a4",
+    "evidence/final/completion.json": "5472a26b13fca95341d47d1d5f5081089fc0115d407174078fd1fefa122a1d08",
+    "evidence/final/episodes.json.gz": "a16c3104fb7b288604f9164aba6b927a792d6c220c150d341ca54449a4d18099",
+    "evidence/final/frozen_selection.json": "889b3b79299a26c350af4ad1ecfb18a2280a270b23e977d1f4faea56287fd46a",
+    "evidence/final/league_validate.snapshot.py": "b85766dc9db7df042f1def122a5cc6a690334aefca49ec7b5047f31e8d99a932",
+    "evidence/final/plan.json": "a1db8c383f9921028aa6545a4fe1c5b453f5fab11af904060fdd97e39f273903",
+    "evidence/final/pool_selection.json": "1e3b5758e1a08970615580ad807abd2a6be90c510a3bb6c3de19c59109149717",
+    "evidence/final/refinement_crossplay.json": "0ac952b201c04f3255e93f14a955600e87a62eabb015a55f2172972aaecb67f4",
+    "evidence/final/screen_gate.json": "b4e9c2f19e73fa30d6193ab326571241f268ca18d389762e2672b25680b4f0ab",
+    "evidence/final/verdict.json": "deaf2f2b798625b482b42d83976db1e82926cd7d6aa3f3ef616087ceb407bb83",
     "evidence/history.json": "536e8adaf86698963bdd1571d00144dc39f343adaad86a2d5782801d01d2b792",
     "evidence/round_00.json": "cc9d6724f5f98c95328ad5f221471be0516090135ce58605df222828dc2b1bdb",
     "evidence/round_01.json": "3970e519fd6c893ea74721e6b4a4ad581e7a1e73c3d5affb2169417a60d9834f",
@@ -169,6 +202,26 @@
     "models/ddqn_s1/policy_net.zip": "92fa9ba4c0fbf28352f38fab237e2c75dbab5cf19a2367c1ffa13ecf2d0faa85",
     "models/ddqn_s1/utils.py": "f6ee94395f9e2ab3c04088190ac6f9150a5fbe40c8b7c7df407ecff1a2455e8e",
     "models/ddqn_s1/wrappers.py": "34669220dd12b11ff0633e041ef9cc8d9f7d6edb1003764fceffe1484aafebd3",
+    "models/final/entrant.json": "89e4bf725df9908afc46b1bba730031ee94179b2e6bf99621ad2279ce595d444",
+    "models/final/policy.py": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920",
+    "models/final/policy_net.json": "c44f12467e9ef5eb456ab57d59eba7d2d6f37bb01c34fdb05ae52ac7cee34b87",
+    "models/final/policy_net.zip": "7936171ff81ac669036856e538afc5fd5f1549982a60888ad9ebde01f4e6c0bf",
+    "models/final/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "models/refine_2200/entrant.json": "89e4bf725df9908afc46b1bba730031ee94179b2e6bf99621ad2279ce595d444",
+    "models/refine_2200/policy.py": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920",
+    "models/refine_2200/policy_net.json": "c44f12467e9ef5eb456ab57d59eba7d2d6f37bb01c34fdb05ae52ac7cee34b87",
+    "models/refine_2200/policy_net.zip": "7936171ff81ac669036856e538afc5fd5f1549982a60888ad9ebde01f4e6c0bf",
+    "models/refine_2200/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "models/refine_2201/entrant.json": "8a2bce01bf9b1ee46190c04f75851cce6b7f708353d4660db20a25dd804a4a13",
+    "models/refine_2201/policy.py": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920",
+    "models/refine_2201/policy_net.json": "e8b4b9fa1931d7276dc62a7093dca14f9d950cf88dbcf436d7fab98308a8cf6c",
+    "models/refine_2201/policy_net.zip": "c9eaced4ad4d44098baec5ff8a659df7cf6881db1912e4967090576fd995cb26",
+    "models/refine_2201/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "models/refine_2202/entrant.json": "1b88434b6fe723c310e7f546fb9430c971ebc52c7dbc2b8c72643b91744079f2",
+    "models/refine_2202/policy.py": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920",
+    "models/refine_2202/policy_net.json": "a928875b0e1d92f325fc58de9488fb21b947d559538d21ef7a136a0f85d5a987",
+    "models/refine_2202/policy_net.zip": "e80d07b65d8d9bc163609d7ef577caa11a70b57b4a30f11ca0db70bd6e923157",
+    "models/refine_2202/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
     "models/round_00/entrant.json": "aecec1345b60cbb19d27ec2dc56e40d702820d916439d4f22917b04b45d34bda",
     "models/round_00/policy.py": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920",
     "models/round_00/policy_net.json": "e04fce153a8cbadc0343ecdff0c1d5d95d5484c2056ee188302203b0c61dc759",
@@ -256,5 +309,7 @@
       "design": "models/ddqn_s0",
       "weights": "models/ddqn_s0/policy_net.zip"
     }
-  ]
+  ],
+  "final_choice": "refine_2200",
+  "scope": "Three independent refinement RNG streams share one learned league parent and one frozen opponent archive. CI conditions on these policies/opponents and resamples IC clusters across all opponents and both seats. Excluded local opponents are not real student submissions; no universal-win claim."
 }

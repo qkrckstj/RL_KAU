@@ -1,0 +1,1082 @@
+{
+  "scope": "Completed league batch results, policy artifacts, verified evaluation evidence, and new-agent handoff. Changed files since the first upload; this manifest does not hash itself.",
+  "base_commit": "00daed58ec0f476ea07f82192d7316fbcafa2a41",
+  "created_at": "2026-10-06T13:20:12.602373+09:00",
+  "included": [
+    {
+      "path": "AGENTS.md",
+      "git_blob": "813ef48ef66d6b7e1a33370b02955ef66f11d6d4",
+      "bytes": 1730,
+      "sha256": "2cdb83b48ec76623c46f717c3e22386761f9394bc1a2c3af88a351ab8c2abcfb"
+    },
+    {
+      "path": "AUTOLAB.md",
+      "git_blob": "c5931f29d7a6703e363e9647f76a4be65947e762",
+      "bytes": 11540,
+      "sha256": "1af824f4521e5a4ede5da4b14a8f6542496d29215b792bc7afc5eb763b8a9988"
+    },
+    {
+      "path": "HANDOFF.md",
+      "git_blob": "df12e4274fdd1a9de5b08b3ea7d1fb31287b9445",
+      "bytes": 4043,
+      "sha256": "744eab9f64818fd94967a1b7bd581092f079fffddc7c28dea6efe7214d50c905"
+    },
+    {
+      "path": "README.md",
+      "git_blob": "da569bffe024960f250c6b9f72f2b06c5731fd0c",
+      "bytes": 7880,
+      "sha256": "35fd5f05e0b60991d39ba360c0fdd1225b414431ad6b12c270fae0f8039c451f"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "git_blob": "ea105933ab22186b8062a06aa6093ef42de845b0",
+      "bytes": 10130,
+      "sha256": "d85df3e0284dfed5ed8e63ab81296f5e1b47d24430da553e72091067f825c2aa"
+    },
+    {
+      "path": "START_HERE.md",
+      "git_blob": "bf0032d4e5df34792c2e3a5c7e0d72ca54872859",
+      "bytes": 8494,
+      "sha256": "75f0652450dfa02c641ea5f1d5b8d6d9995c3e6fb078b72d4ace4a6e551248c5"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/README.md",
+      "git_blob": "4bc0a90f00a916f85fce494d969299662e8b2727",
+      "bytes": 6998,
+      "sha256": "643a773d3f41db71cc17309382c1ac4fb60697126be635799647a8f00bdb7e14"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/README.md",
+      "git_blob": "ecceb534defbecbb9510fd0078802f0409b56e05",
+      "bytes": 3431,
+      "sha256": "4879b7af21294ac7880af172ca2495c3fea8b934aa8e9dfc7dc3016a016beabe"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/evidence/final/completion.json",
+      "git_blob": "fb692fa6a637d69e88ccfb183db45117676a498a",
+      "bytes": 5903,
+      "sha256": "5472a26b13fca95341d47d1d5f5081089fc0115d407174078fd1fefa122a1d08"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/evidence/final/episodes.json.gz",
+      "git_blob": "f6ff3341026aee20b261ac6a4c32f8146ef14885",
+      "bytes": 79529,
+      "sha256": "a16c3104fb7b288604f9164aba6b927a792d6c220c150d341ca54449a4d18099"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/evidence/final/frozen_selection.json",
+      "git_blob": "a9d93ade741f5810ad5371d17edf21a4292c4b02",
+      "bytes": 10619,
+      "sha256": "889b3b79299a26c350af4ad1ecfb18a2280a270b23e977d1f4faea56287fd46a"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/evidence/final/league_validate.snapshot.py",
+      "git_blob": "595b7f552d66f292e1b1e811c62479e61bce7274",
+      "bytes": 15228,
+      "sha256": "b85766dc9db7df042f1def122a5cc6a690334aefca49ec7b5047f31e8d99a932"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/evidence/final/plan.json",
+      "git_blob": "0b9b93c271200334b685e1f5f0ae9bd96e971a7e",
+      "bytes": 932,
+      "sha256": "a1db8c383f9921028aa6545a4fe1c5b453f5fab11af904060fdd97e39f273903"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/evidence/final/pool_selection.json",
+      "git_blob": "7c6b77b792d7715bbae9cabe6fa2c7b57c5d5308",
+      "bytes": 10646,
+      "sha256": "1e3b5758e1a08970615580ad807abd2a6be90c510a3bb6c3de19c59109149717"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/evidence/final/refinement_crossplay.json",
+      "git_blob": "c1bdf466d287667755394132681dc124f40f0c81",
+      "bytes": 104872,
+      "sha256": "0ac952b201c04f3255e93f14a955600e87a62eabb015a55f2172972aaecb67f4"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/evidence/final/screen_gate.json",
+      "git_blob": "acef2d9f96bd1e3ee318c59b3374d6b2edfe13cf",
+      "bytes": 1114,
+      "sha256": "b4e9c2f19e73fa30d6193ab326571241f268ca18d389762e2672b25680b4f0ab"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/evidence/final/verdict.json",
+      "git_blob": "cea6112b6c7cb319d38b7b41cb4a4c77a1fc8ca4",
+      "bytes": 4901,
+      "sha256": "deaf2f2b798625b482b42d83976db1e82926cd7d6aa3f3ef616087ceb407bb83"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/manifest.json",
+      "git_blob": "b1ef5ad8e170300f63411408055d8ca78a90a32a",
+      "bytes": 19047,
+      "sha256": "03c66ff8bb3a28fd8eaf70525d146379c3704400f6aa9b070fa7f884b1c3c43b"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/final/entrant.json",
+      "git_blob": "53b1784d3ba08d3ad44e9c1dfbd1c15473e15f60",
+      "bytes": 477,
+      "sha256": "89e4bf725df9908afc46b1bba730031ee94179b2e6bf99621ad2279ce595d444"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/final/policy.py",
+      "git_blob": "f9926a058e448fe3bbd13dffa5d7bd9e1bf08baf",
+      "bytes": 3560,
+      "sha256": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/final/policy_net.json",
+      "git_blob": "e30e53f0a3113d085954227f48914bc9ac9bd435",
+      "bytes": 890,
+      "sha256": "c44f12467e9ef5eb456ab57d59eba7d2d6f37bb01c34fdb05ae52ac7cee34b87"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/final/policy_net.zip",
+      "git_blob": "660d2e06f0361d78f3e936727a4073986bb4c045",
+      "bytes": 521,
+      "sha256": "7936171ff81ac669036856e538afc5fd5f1549982a60888ad9ebde01f4e6c0bf"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/final/wrappers.py",
+      "git_blob": "981e668ce52bde93160f96922309491ff31a2479",
+      "bytes": 55,
+      "sha256": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2200/entrant.json",
+      "git_blob": "53b1784d3ba08d3ad44e9c1dfbd1c15473e15f60",
+      "bytes": 477,
+      "sha256": "89e4bf725df9908afc46b1bba730031ee94179b2e6bf99621ad2279ce595d444"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2200/policy.py",
+      "git_blob": "f9926a058e448fe3bbd13dffa5d7bd9e1bf08baf",
+      "bytes": 3560,
+      "sha256": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2200/policy_net.json",
+      "git_blob": "e30e53f0a3113d085954227f48914bc9ac9bd435",
+      "bytes": 890,
+      "sha256": "c44f12467e9ef5eb456ab57d59eba7d2d6f37bb01c34fdb05ae52ac7cee34b87"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2200/policy_net.zip",
+      "git_blob": "660d2e06f0361d78f3e936727a4073986bb4c045",
+      "bytes": 521,
+      "sha256": "7936171ff81ac669036856e538afc5fd5f1549982a60888ad9ebde01f4e6c0bf"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2200/wrappers.py",
+      "git_blob": "981e668ce52bde93160f96922309491ff31a2479",
+      "bytes": 55,
+      "sha256": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2201/entrant.json",
+      "git_blob": "f85abb08856c95456614b9ca2f6ea190bb5e9cb3",
+      "bytes": 488,
+      "sha256": "8a2bce01bf9b1ee46190c04f75851cce6b7f708353d4660db20a25dd804a4a13"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2201/policy.py",
+      "git_blob": "f9926a058e448fe3bbd13dffa5d7bd9e1bf08baf",
+      "bytes": 3560,
+      "sha256": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2201/policy_net.json",
+      "git_blob": "963e4d55b56852720560957540387c9672347ba4",
+      "bytes": 901,
+      "sha256": "e8b4b9fa1931d7276dc62a7093dca14f9d950cf88dbcf436d7fab98308a8cf6c"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2201/policy_net.zip",
+      "git_blob": "707da7247f6535187eb2b90522779392a26688b5",
+      "bytes": 527,
+      "sha256": "c9eaced4ad4d44098baec5ff8a659df7cf6881db1912e4967090576fd995cb26"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2201/wrappers.py",
+      "git_blob": "981e668ce52bde93160f96922309491ff31a2479",
+      "bytes": 55,
+      "sha256": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2202/entrant.json",
+      "git_blob": "30c728fc02c8c9f38c7f14a11b66f1689ffd2ea8",
+      "bytes": 476,
+      "sha256": "1b88434b6fe723c310e7f546fb9430c971ebc52c7dbc2b8c72643b91744079f2"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2202/policy.py",
+      "git_blob": "f9926a058e448fe3bbd13dffa5d7bd9e1bf08baf",
+      "bytes": 3560,
+      "sha256": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2202/policy_net.json",
+      "git_blob": "b80467c5ffc506aa87428ecbffd9770dccd295fc",
+      "bytes": 889,
+      "sha256": "a928875b0e1d92f325fc58de9488fb21b947d559538d21ef7a136a0f85d5a987"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2202/policy_net.zip",
+      "git_blob": "8147bee75cb8f45c44c1707cc0d385f8612fe45a",
+      "bytes": 519,
+      "sha256": "e80d07b65d8d9bc163609d7ef577caa11a70b57b4a30f11ca0db70bd6e923157"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/bundle/models/refine_2202/wrappers.py",
+      "git_blob": "981e668ce52bde93160f96922309491ff31a2479",
+      "bytes": 55,
+      "sha256": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/result.md",
+      "git_blob": "40d8d1078f0dd941a40df9c29295b7b771eccdeb",
+      "bytes": 6543,
+      "sha256": "c0fa973a21be7b6e041faead04d8973924492f08fb72d8d3cadccf4f41a3f853"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/results/final_comparison.png",
+      "git_blob": "00ba6af52995102184ffd5cc8be99e7d83474405",
+      "bytes": 134188,
+      "sha256": "9c58d82da6400dd56e6b1bc4a452b9c31f0412f2917b5d00b99ac8c0ef4ed43a"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/results/final_summary.json",
+      "git_blob": "406b03bad56c4d81fd6baa13174b8e49a5fb3a48",
+      "bytes": 23489,
+      "sha256": "b82ca0b5ad1bb9b7a7ea1d3cf49e4bf5087c245356c1194b403983e2d91674f2"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/results/loader_check.json",
+      "git_blob": "46093b6f0d6ffc2721f6a325775b8ab297e14c5d",
+      "bytes": 1167,
+      "sha256": "ea258693dc040e48926390c0c97446aed50ad2336101baff40d0d54f9a952f14"
+    },
+    {
+      "path": "aircombat-rl/experiments/league/results/summary.json",
+      "git_blob": "fdd0ad33cf68f6464c2bc69f048dab1668caa58e",
+      "bytes": 28635,
+      "sha256": "9a555f804ce239ffdda0dd9be6abb981b43dd360837acc3f6a79dbc0b07696e5"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/baseline.stderr.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/baseline.stdout.log",
+      "git_blob": "ea468555cd8b1c7753ae4cbbba5cacb190d9d7a3",
+      "bytes": 597,
+      "sha256": "9b8661b6e9600957209c607c3269ab67bd35af163a46c3d99b30699fc69d1009"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing.stderr.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing.stdout.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/completion.json",
+      "git_blob": "9c0f6a4aa3d32495cfabcb8a298340930caa75da",
+      "bytes": 252,
+      "sha256": "8f613d9db34e2228168eba20db22efade97766a53f494d842d0c981f31e0585d"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/duel/plan.json",
+      "git_blob": "7bfada0866c5cc286b833b4d882d1d9fab46c371",
+      "bytes": 2081,
+      "sha256": "ecacf1fde7db2e9ab13d8ed29e3471aa9c9c0b24e64a84b57db241ce8f748a3f"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/duel/result.json",
+      "git_blob": "52c9de081a72a73c098f021fc8b27e8881e50c91",
+      "bytes": 1339,
+      "sha256": "93631efbbe584c2a0ab97021d29fdd47d29847e3dc1305446b1e2821c3c51292"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/duel_check.json",
+      "git_blob": "32d99be3cafbee1988c3f6b35643cc9c02a44a33",
+      "bytes": 632,
+      "sha256": "c5d98dd309562506b7c64e497eb0f4c9a9265c66eb890768194bdefcf287c353"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/duel_check.log",
+      "git_blob": "d5d5d446d066d5cbd1bbc27605203db36563a8ca",
+      "bytes": 456,
+      "sha256": "189618edcdd6886ed0846d61b73e71585b2b410a73c8ab1dbfefbf6a8a342c90"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/loader_check.json",
+      "git_blob": "6a3a01894f1d31c3a8bb353b5197bd21636ffbb0",
+      "bytes": 452,
+      "sha256": "0ec0e5fc799f8a7ae4aa77a010cd0ad39e32b5659d328cd3e881dabc34cdaf29"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/loader_check.log",
+      "git_blob": "64ef780b580629f1f8a596693145eb6e16dfcb69",
+      "bytes": 279,
+      "sha256": "1b2b2bbb10869e005564a6dc0bdd5659255ced54207ca11cc2f33c265c4ea3a8"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/package.json",
+      "git_blob": "a2a1f7290ce64cfd8add18190e80063c1f0a7465",
+      "bytes": 568,
+      "sha256": "0ae986dbea9a113c877adfd5d44cf8688612ac2c384bd99f6319fc8f47d3a253"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/package.log",
+      "git_blob": "cbd53b23c162d85b8be5d2c26e82d0581b2309c2",
+      "bytes": 222,
+      "sha256": "cc15d777d029cec6a8c04ddc11666e7f37c5f614dfc0e2856096d52e6d1b78c4"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/progress.json",
+      "git_blob": "3dcb467030d2b1309702f12bc0de64e4e95c044f",
+      "bytes": 36,
+      "sha256": "c9033511412eb1e700598dca0d3bcd566eec78a5c8ab03475b01d8274580358c"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/replay/completion.json",
+      "git_blob": "42128365632bde75051ced9fd8038c5c5d6c2d89",
+      "bytes": 28,
+      "sha256": "d266607a05988cefd4cac1978334036fc1d10a2826ed394fbacd6e98179564f2"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/replay/matches/match_0000.json",
+      "git_blob": "f035614a0212706a66ed27db2dbc453670e899f9",
+      "bytes": 1969,
+      "sha256": "279448484b73903b7ebbb1aa84a8f371adf650ef9f8c71fd3f3bfbe38e375f5d"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/replay/matches/progress.json",
+      "git_blob": "25abf35213e5cedb4aaad7f8af31fb4944883429",
+      "bytes": 32,
+      "sha256": "8e9217ad4b60ca4870f6d69888c86336f488f4d9ec6e2ecc81697e4e9ad50970"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/replay/plan.json",
+      "git_blob": "cd6f72e7394a0fd8d79bea263dc123105e1c8d8f",
+      "bytes": 274,
+      "sha256": "1487306fbfa06786fc82dbe6b851bbe40e4e13d1eb4ad6781474bf3dcc0f33f7"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/replay/results.json",
+      "git_blob": "7941630e6f1de9e4315df2b7b14e756e78216e70",
+      "bytes": 1474,
+      "sha256": "f1fe21fd13590d455d2ff2624c8ef2772ba3bf25cbf4cb93b0b02d97ca9a35c5"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/replay_check.json",
+      "git_blob": "b847906c835c5560dce98ee5f421bf637af13615",
+      "bytes": 509,
+      "sha256": "c22a2583ace6455daee2621f01a12674758f159506ad6f17cc82dfb8e164d14c"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/replay_check.log",
+      "git_blob": "f64ffc6bbfbaeb17642902b1b73a464deddb783c",
+      "bytes": 219,
+      "sha256": "0a1f44b3838494c9c5f47e482b3c2f39806ece09992e144d35b7579ff2c2637b"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/report.json",
+      "git_blob": "aeba91de18fa2249f10dee973f929d4cda634d18",
+      "bytes": 397,
+      "sha256": "04a438ada9234172e823a86c868eaaa097cd080d5bfea1af34a27dd7ec9eee28"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/finishing/report.log",
+      "git_blob": "582d30b86f0f5f7bcef1bcdf42321569117a63f3",
+      "bytes": 415,
+      "sha256": "4cde32ce314095cffe66a610b083fe1f3104f731496d52ed7a067c51d5ded232"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup.stderr.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup.stdout.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool.stderr.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool.stdout.log",
+      "git_blob": "6f31dc854e3cf9f606ba0163843ac39252a35a36",
+      "bytes": 4179,
+      "sha256": "1fb3721b09abe8e93f34ba5de1091080b1977e2d471503a2fa81c958c074c0a0"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/completion.json",
+      "git_blob": "fb692fa6a637d69e88ccfb183db45117676a498a",
+      "bytes": 5903,
+      "sha256": "5472a26b13fca95341d47d1d5f5081089fc0115d407174078fd1fefa122a1d08"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0000.json",
+      "git_blob": "39655f4d6ec1d69e73c4799c92907ec4f090b0c6",
+      "bytes": 35609,
+      "sha256": "aee802099afa9fecaa04b80970cf354b4716b7b084b726546c656ee943068d26"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0001.json",
+      "git_blob": "ccd3203f679b8f4732ac6f7e3c1b2862e173a197",
+      "bytes": 35697,
+      "sha256": "e4ef6a916b229d0d64c4a2736378f27f321dcdda1d47d77ab172e2aaa0b00082"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0002.json",
+      "git_blob": "bfaa542dc52ffe3b0fa6713fa3a21f849ca73140",
+      "bytes": 35269,
+      "sha256": "e1d9f7b31b2571ddcf38efb92a37810c1569c6663cf4a2dfdbca72fd1ff46a56"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0003.json",
+      "git_blob": "527679aa036c10b4810e34499faf1e027661b523",
+      "bytes": 35346,
+      "sha256": "e8e3616ba82254c7df0cf8511806a680a7268e5a93d59f3a683661b11ff15041"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0004.json",
+      "git_blob": "fb0357860e8e309c08d5ad733b2e69fbf0114ee8",
+      "bytes": 35416,
+      "sha256": "112cbd9d4073160da29231345dc7f0a6407dad66eedea4a541aafdd6f48c4dd8"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0005.json",
+      "git_blob": "64be841d706afe5cae86349d23de870abf5a23a7",
+      "bytes": 35539,
+      "sha256": "ac819822371e77b0ed002404086a76e312a51f25e2b00ff7c7f70b7577f1bcab"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0006.json",
+      "git_blob": "14adfa42ed413548a56b05acd973e96bf6105678",
+      "bytes": 35400,
+      "sha256": "5d0dc78c5c36f99e48a43281a9c63d7aa7c072148d53892781442d4d299c36f9"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0007.json",
+      "git_blob": "bc01468fe020175cf48f62814c725cd82e181d98",
+      "bytes": 35950,
+      "sha256": "8b9bc9c7571cf8f0517d88d141e740276b6f6e21e66fb60bd57a6b030643ecc0"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0008.json",
+      "git_blob": "eaf102b565abcbd0cbbe8820debb3cf3ec8a665e",
+      "bytes": 35799,
+      "sha256": "6da9eade0cf14664fb56e5ea3a023135d835ab8aa578c320cb644b1e52def826"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0009.json",
+      "git_blob": "830d6f71e2e301f44b3abbde3add9573c90413bb",
+      "bytes": 35515,
+      "sha256": "375d71f0c9727ad4aea4de94992abceb3e16c341624d9bc231dd1e10df5f12a3"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0010.json",
+      "git_blob": "e35c6274a99ecfa7eaf8e1ab16323b58c78a091a",
+      "bytes": 35444,
+      "sha256": "346d43bb607c47cbd504b8ab2844202467f78ef5ebb7999795d82ed2ffe52ba5"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0011.json",
+      "git_blob": "d55f5533cc8c884a93c3e038cd56651fba783128",
+      "bytes": 35473,
+      "sha256": "0ea860897274215ff4a8576a586fa71d8b502f132f00754f2d5e231425c856dc"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0012.json",
+      "git_blob": "6398961e26ad091fd28303b7d805bb53409039b1",
+      "bytes": 35482,
+      "sha256": "2f25e9a611c7d02f639401389c11b243089e252c044d22ebab1acad9bd9cacd8"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0013.json",
+      "git_blob": "97b810fa872fced9069093e0293e3af6ed15584d",
+      "bytes": 35390,
+      "sha256": "b9dc985ed41a25e149e6c371804387f62ce8e6133e32ce343878eeba18916130"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0014.json",
+      "git_blob": "ce2621bab8067a36310536164d2cbf53f72ae610",
+      "bytes": 35388,
+      "sha256": "d7cf151c64a69d78dca537edf61f2738f2e9bf95d300c674e8a1ef9fce04a7d0"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0015.json",
+      "git_blob": "0a3ce780edd149335daebc87c141ff0f23c47d05",
+      "bytes": 35583,
+      "sha256": "d47fa78e82dbbff09ece758d59daaa9bbf9587148a5b4d883dfdeb1f9c1f8008"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0016.json",
+      "git_blob": "c4ece687eb9a1eff04c8817863b647991a381f11",
+      "bytes": 35550,
+      "sha256": "b7b25ce86dbfea66ba0e275c7741be0ee61237d95e93c740d5d13823a0df2a6a"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0017.json",
+      "git_blob": "a6fba51ce34b72105f438419f9422c0e2fa4d460",
+      "bytes": 35487,
+      "sha256": "b9ccdef6aa45311e839489319a46a5e4bab885c4c458cfe66a4a475ca1737a28"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0018.json",
+      "git_blob": "3e21edd313113364c208b1b547ef94b131025bbc",
+      "bytes": 35449,
+      "sha256": "6911a2151985f81f860dfa14a0ee61439b835cc0eae26a68034b720d7c7403b5"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0019.json",
+      "git_blob": "6cda12b574b39c2ed08b324eeca67fb1ca18383e",
+      "bytes": 35481,
+      "sha256": "54ce5863ef0c92653850c3620034112579ea6cb5a29221d190436989ff03e0b8"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0020.json",
+      "git_blob": "971fc2c395ff053bf4ff0727ce3d7ffe032ab23b",
+      "bytes": 35641,
+      "sha256": "170b8e67a3aa418ae91703306c6d50835b74a059a341e1b8bf19ac8277099ffa"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0021.json",
+      "git_blob": "48a32442386a73b0edaec22997509a60109f948a",
+      "bytes": 35347,
+      "sha256": "dca4440d1a7aadf52a2a425da3e425ebd416a1bb167b122299bd881afbecba77"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0022.json",
+      "git_blob": "974c6a8ec7b3c151fd22cf364d6ff71d87934733",
+      "bytes": 35355,
+      "sha256": "2abe1133d391ba0a5a14f327390b014979e569d00236645ab22bf53ac3e5f011"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0023.json",
+      "git_blob": "32a8bcafddbb2b2fd346593c2cd927a7649729af",
+      "bytes": 35781,
+      "sha256": "d828272c8374676120e392b142c2b7e708b285715e3eff0e913e45df41da5ef0"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0024.json",
+      "git_blob": "59c0a4342178b982274d807b50b551f7e1be4749",
+      "bytes": 35766,
+      "sha256": "2daff40d1af590cba515b6d5691ed18f428f36da14bf6936aa07dc3e902a6dc2"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0025.json",
+      "git_blob": "4f187e2503f03a07f361b6091443b56ed1e40f30",
+      "bytes": 36170,
+      "sha256": "9cc937ec9cdbe02e57cdb480f3d162a82b88988d8bda06195ff68abd72cd4628"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0026.json",
+      "git_blob": "27b740151634679693c0241f84a843cafe396b73",
+      "bytes": 36012,
+      "sha256": "a4bfd83fc5575bb4e4d3da7f4b5045c5ff98d8d95040c5cefc609533a5922240"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0027.json",
+      "git_blob": "d271100a3fec27cb8192d62f25c1f5d32be7d5a6",
+      "bytes": 36072,
+      "sha256": "29bded03534e2a577fa0d7e647a46d30326c5b13cbf2babe0e1476b4b9106e54"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0028.json",
+      "git_blob": "0fd66735dd925251e25c9ddb6589c67079787c57",
+      "bytes": 36149,
+      "sha256": "dcf8b6a97c07de3af9df4c4e81443e0e976dc37391a7654964d39559560225b8"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0029.json",
+      "git_blob": "35dbf601f403d5312d129f706125518e38eace67",
+      "bytes": 35465,
+      "sha256": "62f7257c9f114ad4b5c6b1af69a4bb4af4a37fe8fa198d0a9a8d956b4f559e16"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0030.json",
+      "git_blob": "f57983e0ad7bef05b44c77252bbaaf19a8c75c15",
+      "bytes": 35854,
+      "sha256": "ef9700baf5dd343cce033e53a6ea664031b6e9703947f0344666e9599bfe8f72"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0031.json",
+      "git_blob": "5314ce54b3b46246afc9bbb137db505c6ca78dc2",
+      "bytes": 35640,
+      "sha256": "1c9e05936f31aa0d18bcc7fc96921811caf04db6a6dc12f05fcd49c2df260634"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0032.json",
+      "git_blob": "f79b1870555c2bda712e2f415d918dcbe08d6657",
+      "bytes": 35483,
+      "sha256": "f4e0dac603d0fda2a4d0233ea99e6691abe4197a822d04405d5afc53a0a4df8a"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0033.json",
+      "git_blob": "dd47cb32e9997478ae757993979d1517812a43a9",
+      "bytes": 35412,
+      "sha256": "e9b0cc9b94186f6057eb44347bce699f35e5012f2657728f2d96fa5587f52a31"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0034.json",
+      "git_blob": "abea03911438ce7e60b9811dec9fd5799e786f95",
+      "bytes": 35534,
+      "sha256": "517ab951918c18d2e021c1062195bea80fac82881949f6175fbea1113592308d"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0035.json",
+      "git_blob": "cb098e17508a744bc2180e38a8f531fa3f06ab04",
+      "bytes": 35525,
+      "sha256": "70d40d4aabbe1846190f4018589b2b2660c53fe160bf5c5e6cf8d2c35d7075e5"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0036.json",
+      "git_blob": "266cfb4b846f375caabb7136e0d19632a97a8ba4",
+      "bytes": 35651,
+      "sha256": "e95d3ca206c043115c0b7d2f1c2cdbc3160c8a33796d3ecb3320bb7335d0c2f7"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0037.json",
+      "git_blob": "477e37bdaf7ab1a7a7a688c023daf114c43ba1f7",
+      "bytes": 35279,
+      "sha256": "8b4219949fa37020605c389d7bbb9d746d9d38a9df075cd7c524851952aec411"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0038.json",
+      "git_blob": "0b38d0ee7ddf4fce91c7a35bfa2f05b22c157556",
+      "bytes": 35400,
+      "sha256": "edcc275e74093c2a55ba5dee7d1fbe8b2ea949e03807c7629e9e0f4eb0568638"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0039.json",
+      "git_blob": "37e12013ee818543da454fdb2022a73e99a70655",
+      "bytes": 35752,
+      "sha256": "fa98433bce10ba1a5a6e65cf9177d05d31704442ab35bc3053ee15ef3d709662"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0040.json",
+      "git_blob": "c70e78727e64f63222d62ad56801e8a12970ee4b",
+      "bytes": 35749,
+      "sha256": "2b5539cb70b3e39eeb85fd97e0efe12489623161c7041695611355843b0b93d7"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0041.json",
+      "git_blob": "eeb5b798d4aa063c1b4586fff7f76b4a8b13e140",
+      "bytes": 36231,
+      "sha256": "40a1812d03286b00fe25cef89b728084811f0c3022147317fbe4c6c81b5bd000"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0042.json",
+      "git_blob": "02482552462b9db660a661c049c504d7df195ff8",
+      "bytes": 36077,
+      "sha256": "18ec7126ef7c76f61c15a5c78b73cee8290524780d35b8ceaac96341f08b73f3"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0043.json",
+      "git_blob": "a1ed2d521a14271f3859ed05858c184c95e2eb25",
+      "bytes": 36056,
+      "sha256": "9cad77d13769c90e73a96526f24b30ccb5109f302b597dc559c0dffdd4e6e0af"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0044.json",
+      "git_blob": "4cae6be662bf2d36e8fc7c76b6afee156182041d",
+      "bytes": 36248,
+      "sha256": "87fe8775ef113526685c955a27d850b194b053392fbae37a87daca6ac8596a95"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0045.json",
+      "git_blob": "626ebd95d0e2a40f58a7faf239cca4ffeb155954",
+      "bytes": 35489,
+      "sha256": "289561a6d137236020c9ab789798294a10ca34c6019729c6b017554250840052"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0046.json",
+      "git_blob": "5c182f0ae1cb97137d58b513a0b8d4dceb92ee9b",
+      "bytes": 35388,
+      "sha256": "2ac44458847bae4fcc4e685f04687167063871e2b0b203c05ebb055748be440b"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0047.json",
+      "git_blob": "dbf5b2ee9428c382cadea0d591af35d62284a636",
+      "bytes": 35673,
+      "sha256": "16b252cc35b419fa99c8afca36fdec0a50cff0f8a8fc48dd8b0b945e9c8477ce"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0048.json",
+      "git_blob": "f49d1d7c3242a7a38648fadec1bce211b49b1944",
+      "bytes": 35489,
+      "sha256": "7be506afa0de0473605ed22a10c18b30b7633d661f7ca52a506248819d0b3c7b"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0049.json",
+      "git_blob": "2316c45bdba0fcf87a3d7d8fbf7e51333aed4834",
+      "bytes": 35402,
+      "sha256": "ecc722d585c7763f4963737a707ee98a57d86353927501e53481c7dcd39ed62d"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0050.json",
+      "git_blob": "80f7c07d6afc7aec1efef37c79e6b5c997240a7b",
+      "bytes": 35497,
+      "sha256": "c741e7285171bc4cf1b5667961a8f9ed844e2145c4d5066ed5ed2d85c7259801"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0051.json",
+      "git_blob": "6b9c08b530d9e50e8396e3c3d890f2c8cdfdbc19",
+      "bytes": 35479,
+      "sha256": "2d7393e2422402ded87cf6faecdcb11c25186261162f29f33ae1534e9c2cfa22"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0052.json",
+      "git_blob": "f8721d0386939863966c7637df0defabcbf5f420",
+      "bytes": 35640,
+      "sha256": "2d0f3845cc23cf491a206d7a3a765256e1c3549532646f44fe65615b2b5fd30d"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0053.json",
+      "git_blob": "b91e163d23733729cec92b366c0dc7f296179eb7",
+      "bytes": 35274,
+      "sha256": "58a045ca45eede5b1ee694331ef028ed029b8d6a3ccbc85e90a5fe2e45777507"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0054.json",
+      "git_blob": "f0a4ec6157cffeadf3a5cdac7411e48430dbe55b",
+      "bytes": 35398,
+      "sha256": "7d1f3a74b977367dcfb72f606d2dd04453cc74ea3d0b404076fbdc902b3458d5"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0055.json",
+      "git_blob": "2e581932b73f2cc9aea8f1bab89509da16e1a381",
+      "bytes": 35748,
+      "sha256": "87774fc4f3fff1bc3f88cb29dfbeee97e114e55e34715522d495cd552d50b067"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0056.json",
+      "git_blob": "7a3edf5d2ac2be8f1edb54eee34d5fdc0de49da1",
+      "bytes": 35725,
+      "sha256": "8cade5ba8b9830e2ec353627f30420f6693abec9bef2ae5c103098aa11ce8336"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0057.json",
+      "git_blob": "145375741e890f782d079ac5bea21e34232347f8",
+      "bytes": 36238,
+      "sha256": "b22a69eb5d046a0e76279a771c5b631a127c1acfd87eda94e46028e34a904467"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0058.json",
+      "git_blob": "344d0ec6d40b66973684d1290710ccb6629aff4e",
+      "bytes": 36200,
+      "sha256": "fd99d25fa504090a9bd056fbfc695f06b974c50470398875919f100e99519936"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0059.json",
+      "git_blob": "b73a06110afc629dc6fb663a8c7f71e5c7583e90",
+      "bytes": 36056,
+      "sha256": "b24e14d87b5d27e7eeecbd6c34629530aeed1c8a7047524721a27f9d4aa55ffd"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0060.json",
+      "git_blob": "9b0ef75c94325f9eb759b8baa1908bb239f71b3c",
+      "bytes": 36359,
+      "sha256": "2c4afbec6989c557d858bfb669107a1696e7ff8542b42778073c2c86034d4edc"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0061.json",
+      "git_blob": "fccee22fe40e505a145a3a7199b67286809c8df2",
+      "bytes": 35492,
+      "sha256": "43271e6940441520345d4c051093ba75dea8f35daf3c86a3c37bc5654ed850ce"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0062.json",
+      "git_blob": "d6bf41c1c29e8f26d288d81a0c14ca7f48839d87",
+      "bytes": 35418,
+      "sha256": "c339b2e826c4b131c16ec5796b7a976cfa2756aaed0a7467f361907fccf4e094"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0063.json",
+      "git_blob": "77ef9d1ccfe8b1f396260bd2c8a4fd7b4f6717f1",
+      "bytes": 35588,
+      "sha256": "d7a12a9575846695772ba9ac8167a37a048cc0d0d7816e1fdc2658c407978b62"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/progress.json",
+      "git_blob": "ff1ad67de8431b1c087ed2b93d0ec49853eff3ec",
+      "bytes": 34,
+      "sha256": "e2d592fb2b9c348610ce1bdbda6d7ab413657fe9491169a96436d03fee725deb"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/progress.json",
+      "git_blob": "3b38d98c4002f1241c5efb621e8c906ba0985eab",
+      "bytes": 36,
+      "sha256": "d9687b67c5c2ed4a37b73a046e0b3589bf38ec750152ce1544d9103e30c4de79"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/refinement_crossplay.json",
+      "git_blob": "c1bdf466d287667755394132681dc124f40f0c81",
+      "bytes": 104872,
+      "sha256": "0ac952b201c04f3255e93f14a955600e87a62eabb015a55f2172972aaecb67f4"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/refinement_crossplay/match_0000.json",
+      "git_blob": "335018c5556678c1fe4fd8f79605fa49ce800721",
+      "bytes": 36155,
+      "sha256": "a159dd91cdc748a7d4aa61e3f6519719f5caf5183bd6ca7eccfdcb0de96375d7"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/refinement_crossplay/match_0001.json",
+      "git_blob": "1e01c8c71f3cb8291a33869d6cb5aa2dfbeb6e21",
+      "bytes": 36155,
+      "sha256": "9b8241e31ef165a46adf6c84acf8544fefe1f237cffd59956b65f3eef22caf8f"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/refinement_crossplay/match_0002.json",
+      "git_blob": "8bbedc1aac5bedd7f0e02f7cf40452ed4ecffb47",
+      "bytes": 36254,
+      "sha256": "f50909ca90673193fed8a08371d3fa171596d954b97ecd76122483acdeedcf7c"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/refinement_crossplay/progress.json",
+      "git_blob": "75dd0f186eedb0512f7a3e20cd7e85d03b8d852a",
+      "bytes": 32,
+      "sha256": "7a09043c357f097da68a32af4458705502d14ee87486d948653934e1c40b15d7"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/verdict.json",
+      "git_blob": "cea6112b6c7cb319d38b7b41cb4a4c77a1fc8ca4",
+      "bytes": 4901,
+      "sha256": "deaf2f2b798625b482b42d83976db1e82926cd7d6aa3f3ef616087ceb407bb83"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/main.stderr.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/main.stdout.log",
+      "git_blob": "80cf00e0f7ef540235304ea4df87dbb2d4a217ae",
+      "bytes": 7164,
+      "sha256": "7780cbbbc31acd33419712002e9952d43d477fdfc46eb9d1c8f85969b4916825"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_confirm.stderr.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_confirm.stdout.log",
+      "git_blob": "4fd6cec4f8adb47b2f54ccb6fe487f94c30ad107",
+      "bytes": 398,
+      "sha256": "0ddc71db5218b465c8ce104cb5cc31453e20feebd3407ca7a7aea0b3200a4bf9"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_confirm/completion.json",
+      "git_blob": "71b3cf328b0fc2719f9d27800c20796eef87c271",
+      "bytes": 1263,
+      "sha256": "960ee81f9ffc1416b599a9db645e3f430a4e5a5f180264b29a1e1d6d980e9884"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_confirm/matches/match_0000.json",
+      "git_blob": "4fc1308bc88a10213773712f05d200f4eb1e83fe",
+      "bytes": 35641,
+      "sha256": "263ef5279b3ffc211c8b0b9a4b578ad51f7a504add77eed39b757f4f8e74da75"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_confirm/matches/match_0001.json",
+      "git_blob": "fc9c53853054bdf2d939e21a05e13446e59164c0",
+      "bytes": 35481,
+      "sha256": "070ec2f6f846ade110ac7844ad0e8c85d3f6451520fd16bac2297a71060baef0"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_confirm/matches/progress.json",
+      "git_blob": "aa5c64cb71b9013807523eec1621eccfc76b75e5",
+      "bytes": 32,
+      "sha256": "7b6c9021a786f1db8986054dd0d4b3cd1b44bbe051da02f0b3beb05af1d630ec"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_confirm/plan.json",
+      "git_blob": "2aab0d00ccb939c5c1a56ea18a59edb713946fd4",
+      "bytes": 1293,
+      "sha256": "e0f2331b0b81be2526308727e202654643ace9235bae76cc61e3b05a310b5012"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_confirm/progress.json",
+      "git_blob": "f68766bd5855d710f52bc4e406c29e6cd516c5b0",
+      "bytes": 27,
+      "sha256": "5e5d1c916698681c5193aecb2d6ff00621591ad76af910c6489845e2ef1370b4"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_confirm/results.json",
+      "git_blob": "32c02e651c8e5fec5e67f183869a77d5b449ea42",
+      "bytes": 69865,
+      "sha256": "79da428fff1727cbffa86c3d2a86f48f8fa8c952c09555266c915ef44903f8c8"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe.stderr.log",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe.stdout.log",
+      "git_blob": "71c729416848354258a9f57771ac6111f950ee2d",
+      "bytes": 796,
+      "sha256": "006b68f0bf46aea3c1fa97b9e76df3b2a9ea44d6bcdb652dc3b8d62787119042"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/completion.json",
+      "git_blob": "68f94e7f025b4f7feba95cc692bbc050847104dc",
+      "bytes": 1385,
+      "sha256": "5038537488558d50ade991648bfb484e3df14a6781ef02b554bb922dd1ea5271"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/matches/match_0000.json",
+      "git_blob": "66e638d8aa90786757fb7cf07df7f1cae2136e5d",
+      "bytes": 6504,
+      "sha256": "414f253473de02247baaf360456d5f13797258724a13b2118416f8dcccf8acd5"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/matches/match_0001.json",
+      "git_blob": "863527c507da9d7d4521d407408b4cac09f0f823",
+      "bytes": 6296,
+      "sha256": "dc40b29f754193bfd6ef8024515f8b410b5e5c07bb4e3f0f0443f67e40f1cc46"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/matches/match_0002.json",
+      "git_blob": "4febf2f5ec6aeb30e8178dfc54524d83b7d12e73",
+      "bytes": 6296,
+      "sha256": "afc19d4e343b83cf0ada996afd51a983eb8300b5b8437a8a1713b8229fa1fccf"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/matches/match_0003.json",
+      "git_blob": "a2028d60dac9fcc53cd518b99dea7339814bde20",
+      "bytes": 6296,
+      "sha256": "eabf6a17e7a43ac22fddbc86fe0fffb1de7ce11349372e0e221369e2c22b8cf7"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/matches/match_0004.json",
+      "git_blob": "0531480255547b374235734b17e86942be5364b8",
+      "bytes": 6309,
+      "sha256": "58206fe22418695ad6bf9c362e6f3ddac1360f8fbf6cc41445fe3320c748ec5c"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/matches/match_0005.json",
+      "git_blob": "27d8776b78f33be0d3005edb1467e9e69c356123",
+      "bytes": 6341,
+      "sha256": "afbb0aa93e5fd2dd477911780da2e96707695228296792a3b4080bb93024ad10"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/matches/match_0006.json",
+      "git_blob": "e34fcdda961e3f7c92a8e0c7d3a092e57cc63a7b",
+      "bytes": 6341,
+      "sha256": "ecf77d194e0d5c4e48b9637d4dea95b4bbf23bfe7c49e08b34f606b96ccd020f"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/matches/match_0007.json",
+      "git_blob": "61b3d388f39cd6f82709a21a6f18a5a9c4250700",
+      "bytes": 6341,
+      "sha256": "434cf0c37d39d22175fb737b845805999a405bd2b2db4a3c5b595d9be16b9f63"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/matches/match_0008.json",
+      "git_blob": "c3a74362403d9c3a845606c1a07d3185deec4d60",
+      "bytes": 6341,
+      "sha256": "5b45c61e717579d687bd17d25bc8aca90173079bf9be364118516735e95f3bec"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/matches/progress.json",
+      "git_blob": "b8247b60604df49885de488583de685fa9293e5f",
+      "bytes": 32,
+      "sha256": "4750dcd597d4d66d0ed2b9948d73f10bbafc1aec5adc2da7007acf72533b5a68"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/progress.json",
+      "git_blob": "f68766bd5855d710f52bc4e406c29e6cd516c5b0",
+      "bytes": 27,
+      "sha256": "5e5d1c916698681c5193aecb2d6ff00621591ad76af910c6489845e2ef1370b4"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/results.json",
+      "git_blob": "c7918888fa4df6165ddefe69bc4eb6c213bd3119",
+      "bytes": 52145,
+      "sha256": "3f04bf49d70525de059272f82c8c3cc380f34860a94e3f8202ac1d7044c94078"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/selected_parent.json",
+      "git_blob": "53b1784d3ba08d3ad44e9c1dfbd1c15473e15f60",
+      "bytes": 477,
+      "sha256": "89e4bf725df9908afc46b1bba730031ee94179b2e6bf99621ad2279ce595d444"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/runner_probe/traces.json",
+      "git_blob": "273eb081e939b31b8f39b43be77c35335ca2914c",
+      "bytes": 765326,
+      "sha256": "293b4d8868a3732761207a88868a9534cf173fc8d98b908aead9794f66327ec7"
+    },
+    {
+      "path": "aircombat-rl/tools/league_audit.py",
+      "git_blob": "ae8817f3623a9f5bd24c76c98e925bb8e28de222",
+      "bytes": 5616,
+      "sha256": "4d599550123a62c85efa1d43d0e8192ce464f7c28617d77c01b71adcdf703aae"
+    },
+    {
+      "path": "aircombat-rl/tools/league_final_report.py",
+      "git_blob": "73802a70c1008116524b9e4f91a646b609649a59",
+      "bytes": 12659,
+      "sha256": "1cacdc77c6d5f3272bba7fb02b1d714755effb2db3872b36bc27897da5004dca"
+    },
+    {
+      "path": "aircombat-rl/tools/league_runner_confirm.py",
+      "git_blob": "4c97f9cfcc6207b272db4758a0e418be0b4c6739",
+      "bytes": 2775,
+      "sha256": "d55f1e58b842b0948aa455fb3630ff6f32536d1208ea1d95bdafc16ed3ca54f9"
+    },
+    {
+      "path": "docs/LEAGUE_STATE.json",
+      "git_blob": "906ae9811085eef321aed62a088f49714095672e",
+      "bytes": 3677,
+      "sha256": "3cc7b3c33bb7735b877b846e41acafdd1420878b2aa04db5401eaff55aaea0a9"
+    },
+    {
+      "path": "docs/PROGRESS_20261006.md",
+      "git_blob": "a4064e6511bad3cb413b1c20506d6a520785b1a4",
+      "bytes": 6950,
+      "sha256": "9d395eb8039de74ce6abaeacddf5a9111b053db25885812165d100b6a94bc9bf"
+    },
+    {
+      "path": "docs/history/HANDOFF_before_final_league_20261006.md",
+      "git_blob": "67018ba716544f0312e6bb81aa74f73d2a4314f5",
+      "bytes": 29428,
+      "sha256": "f3c972bcb06cbfe8e765a2e0a343e5118c2277e32f89d9bda987312420051b1b"
+    },
+    {
+      "path": "docs/verification/league_final_audit.json",
+      "git_blob": "99a4cdb3426250f3605bd81796c35c2b94b08c3a",
+      "bytes": 2494,
+      "sha256": "53cf4beda5cc5f495cb226e034cb0e88d671de34e65c89dbb1b8400d2f4d5dc7"
+    }
+  ],
+  "files": 178,
+  "bytes": 4137332,
+  "unique_python_sources_parsed": 6,
+  "possible_credential_matches": 0,
+  "audit": "docs/verification/league_final_audit.json",
+  "visually_reviewed_plot": "aircombat-rl/experiments/league/results/final_comparison.png",
+  "followup_status": "Conditionally selected pursuit learning remains next; no new training is running at this publication checkpoint."
+}

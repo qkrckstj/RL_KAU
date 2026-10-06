@@ -1,0 +1,27 @@
+{
+  "entrants": [
+    {
+      "id": "policy_a",
+      "kind": "submission",
+      "design": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle\\models\\final",
+      "weights": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle\\models\\final\\policy_net.zip"
+    },
+    {
+      "id": "policy_b",
+      "kind": "submission",
+      "design": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle\\models\\cem_original",
+      "weights": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle\\models\\cem_original\\policy_net.zip"
+    }
+  ],
+  "band": 33020000,
+  "n": 2,
+  "files_sha256": {
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle\\models\\final\\policy_net.zip": "7936171ff81ac669036856e538afc5fd5f1549982a60888ad9ebde01f4e6c0bf",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle\\models\\final\\policy.py": "c6063fea7077e92b9102dc4ccf7f4f39a7ece3db5d9f7eeb04663f0e77a7e920",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle\\models\\final\\wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle\\models\\cem_original\\policy_net.zip": "b33a20f5cfa1690d162f70e91dc6d8db46ba2abdddb39d05e0779d98fca8a09b",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle\\models\\cem_original\\policy.py": "8df8492520437ffafa2d8a1211dbaf96f539fbe5bef59e093c8d01b93ef82d18",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle\\models\\cem_original\\wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e"
+  },
+  "scope": "Official physics and verdict, paired seats; this is a development match, not a sealed tournament test"
+}

@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "scope": "Completed first league batch and portable artifacts; not a universal tournament claim or completion of all follow-up work.",
+  "rounds": 6,
+  "promotions": 3,
+  "independent_refinements_of_one_parent": 3,
+  "final_matchups": 64,
+  "final_games": 5120,
+  "shared_initial_conditions": 40,
+  "seats": 2,
+  "opponents": 16,
+  "refinement_peer_games": 240,
+  "recomputed_verdict_matches_saved": true,
+  "choice_matches_pretest_claim": true,
+  "excluded_opponents_absent_from_training": true,
+  "frozen_source_and_input_hashes_verified": true,
+  "original_cem_preserved": true,
+  "portable_bundle_files_verified": 121,
+  "bundle_manifest_sha256": "03c66ff8bb3a28fd8eaf70525d146379c3704400f6aa9b070fa7f884b1c3c43b",
+  "raw_results_identical_in_bundle": true,
+  "actual_loader_and_duel_and_replay_checks_passed": true,
+  "current_state_references_exist": true,
+  "runner_confirmation": {
+    "status": "complete",
+    "conditional_training_warranted": true,
+    "parent": {
+      "n": 80,
+      "kills": 0,
+      "rate": 0.0,
+      "t_kill": null,
+      "outcomes": {
+        "timeout": 80
+      },
+      "own_health": 1.0,
+      "opp_health": 1.0,
+      "wez_time": 0.0,
+      "wez_time_foe": 0.0,
+      "engaged": 0.0,
+      "first_wez": null,
+      "longest_track": 0.0,
+      "min_range": 7473,
+      "out_of_bounds": 0.0,
+      "wins": 0,
+      "losses": 0,
+      "draws": 80,
+      "score": 0.5
+    },
+    "probe": {
+      "n": 80,
+      "kills": 10,
+      "rate": 0.125,
+      "t_kill": 114.2,
+      "outcomes": {
+        "kill": 10,
+        "timeout": 70
+      },
+      "own_health": 1.0,
+      "opp_health": 0.8406,
+      "wez_time": 0.75,
+      "wez_time_foe": 0.0,
+      "engaged": 0.25,
+      "first_wez": 112.0,
+      "longest_track": 0.67,
+      "min_range": 2443,
+      "out_of_bounds": 0.0,
+      "wins": 10,
+      "losses": 0,
+      "draws": 70,
+      "score": 0.5625
+    },
+    "paired_ic_win_gain_95_ci": [
+      0.0375,
+      0.2125
+    ],
+    "scope": "Fresh open development confirmation of one selected manual probe. Not a new final test or a trained model.",
+    "next": "Investigate a conditionally selected pursuit expert against the full archive with a fresh future test."
+  },
+  "overall_goal_complete": false,
+  "remaining": "Train and evaluate a conditionally selected pursuit response against the archived population on new development/final conditions."
+}

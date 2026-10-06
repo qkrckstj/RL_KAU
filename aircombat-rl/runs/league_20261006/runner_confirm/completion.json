@@ -1,0 +1,55 @@
+{
+  "status": "complete",
+  "conditional_training_warranted": true,
+  "parent": {
+    "n": 80,
+    "kills": 0,
+    "rate": 0.0,
+    "t_kill": null,
+    "outcomes": {
+      "timeout": 80
+    },
+    "own_health": 1.0,
+    "opp_health": 1.0,
+    "wez_time": 0.0,
+    "wez_time_foe": 0.0,
+    "engaged": 0.0,
+    "first_wez": null,
+    "longest_track": 0.0,
+    "min_range": 7473,
+    "out_of_bounds": 0.0,
+    "wins": 0,
+    "losses": 0,
+    "draws": 80,
+    "score": 0.5
+  },
+  "probe": {
+    "n": 80,
+    "kills": 10,
+    "rate": 0.125,
+    "t_kill": 114.2,
+    "outcomes": {
+      "kill": 10,
+      "timeout": 70
+    },
+    "own_health": 1.0,
+    "opp_health": 0.8406,
+    "wez_time": 0.75,
+    "wez_time_foe": 0.0,
+    "engaged": 0.25,
+    "first_wez": 112.0,
+    "longest_track": 0.67,
+    "min_range": 2443,
+    "out_of_bounds": 0.0,
+    "wins": 10,
+    "losses": 0,
+    "draws": 70,
+    "score": 0.5625
+  },
+  "paired_ic_win_gain_95_ci": [
+    0.0375,
+    0.2125
+  ],
+  "scope": "Fresh open development confirmation of one selected manual probe. Not a new final test or a trained model.",
+  "next": "Investigate a conditionally selected pursuit expert against the full archive with a fresh future test."
+}

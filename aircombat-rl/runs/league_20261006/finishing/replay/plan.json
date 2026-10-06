@@ -1,0 +1,9 @@
+{
+  "model": "final",
+  "band": 33010000,
+  "n": 2,
+  "transfer": false,
+  "smoke": true,
+  "purpose": "Open replay/development evaluation, not a new sealed final test",
+  "bundle_manifest_sha256": "03c66ff8bb3a28fd8eaf70525d146379c3704400f6aa9b070fa7f884b1c3c43b"
+}

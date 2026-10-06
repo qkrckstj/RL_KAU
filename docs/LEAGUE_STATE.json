@@ -1,0 +1,68 @@
+{
+  "updated_at": "2026-10-06T13:15:08.102536+09:00",
+  "objective": "Improve a policy against diverse archived/local policies under unchanged official FairFight rules; preserve prior models and evaluate on disjoint conditions.",
+  "overall_objective_status": "active",
+  "completed_batch": "league_20261006",
+  "batch_status": "training_evaluation_and_loader_checks_complete",
+  "evaluation_status": "evaluation_passed",
+  "method": "CEM episodic search of 17 reactive-controller parameters, not neural DQN/PPO",
+  "selected_policy": "refine_2200",
+  "selected_before_final_test": true,
+  "policy_folder": "aircombat-rl/experiments/league/bundle/models/final",
+  "final_comparison": {
+    "opponents": 16,
+    "shared_initial_conditions": 40,
+    "seats": 2,
+    "games_per_policy": 1280,
+    "original_wins": 340,
+    "selected_wins": 993,
+    "original_win_rate": 0.265625,
+    "selected_win_rate": 0.77578125,
+    "selected_vs_original": {
+      "wins": 80,
+      "draws": 0,
+      "losses": 0
+    }
+  },
+  "evidence": {
+    "report": "aircombat-rl/experiments/league/result.md",
+    "evaluation": "aircombat-rl/runs/league_20261006/followup_pool/completion.json",
+    "frozen_choice": "aircombat-rl/runs/league_20261006/followup_pool/frozen_selection.json",
+    "portable_bundle": "aircombat-rl/experiments/league/bundle/manifest.json",
+    "actual_loader_check": "aircombat-rl/experiments/league/results/loader_check.json",
+    "duel_check": "aircombat-rl/runs/league_20261006/finishing/duel/result.json",
+    "replay_check": "aircombat-rl/runs/league_20261006/finishing/replay/completion.json",
+    "runner_confirmation": "aircombat-rl/runs/league_20261006/runner_confirm/completion.json"
+  },
+  "last_completed_controllers": [
+    "league_validate",
+    "league_runner_probe",
+    "league_finish",
+    "league_runner_confirm"
+  ],
+  "runtime_note": "Re-check actual local processes before launching anything. PIDs and absolute paths in old logs are historical and not portable.",
+  "remaining_work": [
+    "Confirmed manual pursuit probe: 10/80 Evader wins versus frozen policy 0/80. Develop and train an observation-conditioned response while preserving the final model.",
+    "Compare any new policy against the full archived opponent population, including the learned refinements; retain failed challengers too.",
+    "Freeze development selection before opening a fresh future final IC band. Do not call previously observed local opponents unseen again.",
+    "Record failures as well as improvements, audit compatibility and performance, then update the report and repository."
+  ],
+  "next_candidate_code": "aircombat-rl/experiments/league/adaptive.py exists as a tested software prototype only; it has not been trained or flight-validated as a combined policy.",
+  "consumed_final_bands": [
+    2000000,
+    40000000
+  ],
+  "runner_confirmation_band": {
+    "band": 33030000,
+    "scope": "Open development, consumed"
+  },
+  "limits": [
+    "No real student submissions evaluated",
+    "Same learned parent shared across the three refinements",
+    "Official starting distribution only; no exhaustive continuous-state coverage",
+    "Evader and Circler remain all-draw matchups for the chosen model in this final test",
+    "Some historical neural replay buffers are local-only; this does not prevent CEM inference/search"
+  ],
+  "source_of_current_state": "This record supersedes historical running/completed wording in archived handoff notes.",
+  "publication": "Files in the remote commit containing this record are the published snapshot; local live processes require separate inspection."
+}

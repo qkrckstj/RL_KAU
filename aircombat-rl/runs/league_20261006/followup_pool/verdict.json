@@ -1,0 +1,176 @@
+{
+  "passed": true,
+  "original": {
+    "objective": 0.266640625,
+    "mean_win_rate": 0.265625,
+    "mean_score": 0.469921875,
+    "worst_score": 0.0,
+    "lower_quarter_score": 0.0,
+    "health": -0.15901875000000001,
+    "games": 1280,
+    "steps": 2241640
+  },
+  "original_transfer": {
+    "objective": 0.426875,
+    "mean_win_rate": 0.33749999999999997,
+    "mean_score": 0.6625,
+    "worst_score": 0.5,
+    "lower_quarter_score": 0.5,
+    "health": 0.045766666666666664,
+    "games": 240,
+    "steps": 480321
+  },
+  "records": [
+    {
+      "id": "refine_2200",
+      "metrics": {
+        "objective": 0.7666015625,
+        "mean_win_rate": 0.7757812500000001,
+        "mean_score": 0.8699218750000001,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5890625,
+        "health": 0.5469625,
+        "games": 1280,
+        "steps": 1651123
+      },
+      "transfer": {
+        "objective": 0.5862499999999999,
+        "mean_win_rate": 0.5499999999999999,
+        "mean_score": 0.7687499999999999,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5,
+        "health": 0.5361,
+        "games": 240,
+        "steps": 357674
+      },
+      "against_original": {
+        "n": 80,
+        "kills": 80,
+        "rate": 1.0,
+        "t_kill": 54.7,
+        "outcomes": {
+          "kill": 80
+        },
+        "own_health": 1.0,
+        "opp_health": 0.0,
+        "wez_time": 4.23,
+        "wez_time_foe": 0.0,
+        "engaged": 1.0,
+        "first_wez": 47.8,
+        "longest_track": 3.79,
+        "min_range": 946,
+        "out_of_bounds": 0.0,
+        "wins": 80,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      }
+    },
+    {
+      "id": "refine_2201",
+      "metrics": {
+        "objective": 0.8062890625000001,
+        "mean_win_rate": 0.8179687499999999,
+        "mean_score": 0.887890625,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.646875,
+        "health": 0.5784750000000001,
+        "games": 1280,
+        "steps": 1513734
+      },
+      "transfer": {
+        "objective": 0.8208333333333334,
+        "mean_win_rate": 0.8125,
+        "mean_score": 0.8916666666666666,
+        "worst_score": 0.7625,
+        "lower_quarter_score": 0.7625,
+        "health": 0.6405000000000001,
+        "games": 240,
+        "steps": 265533
+      },
+      "against_original": {
+        "n": 80,
+        "kills": 80,
+        "rate": 1.0,
+        "t_kill": 46.8,
+        "outcomes": {
+          "kill": 80
+        },
+        "own_health": 1.0,
+        "opp_health": 0.0,
+        "wez_time": 4.0,
+        "wez_time_foe": 0.0,
+        "engaged": 1.0,
+        "first_wez": 42.9,
+        "longest_track": 3.95,
+        "min_range": 840,
+        "out_of_bounds": 0.0,
+        "wins": 80,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      }
+    },
+    {
+      "id": "refine_2202",
+      "metrics": {
+        "objective": 0.7621093750000001,
+        "mean_win_rate": 0.7749999999999999,
+        "mean_score": 0.86171875,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5734375,
+        "health": 0.5505625000000001,
+        "games": 1280,
+        "steps": 1603344
+      },
+      "transfer": {
+        "objective": 0.8444791666666667,
+        "mean_win_rate": 0.8250000000000001,
+        "mean_score": 0.9083333333333333,
+        "worst_score": 0.84375,
+        "lower_quarter_score": 0.84375,
+        "health": 0.6577666666666666,
+        "games": 240,
+        "steps": 266876
+      },
+      "against_original": {
+        "n": 80,
+        "kills": 80,
+        "rate": 1.0,
+        "t_kill": 47.6,
+        "outcomes": {
+          "kill": 80
+        },
+        "own_health": 1.0,
+        "opp_health": 0.0,
+        "wez_time": 4.0,
+        "wez_time_foe": 0.0,
+        "engaged": 1.0,
+        "first_wez": 43.7,
+        "longest_track": 3.95,
+        "min_range": 925,
+        "out_of_bounds": 0.0,
+        "wins": 80,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      }
+    }
+  ],
+  "selected_mean_win_rate": 0.7895833333333333,
+  "selected_mean_score": 0.8731770833333333,
+  "mean_transfer_score": 0.8562499999999998,
+  "head_to_head_score": 1.0,
+  "head_to_head_win_rate": 1.0,
+  "worst_opponent_score": 0.5,
+  "mean_win_gain": 0.5239583333333333,
+  "paired_ic_bootstrap_95_ci": [
+    0.5026041666666666,
+    0.54453125
+  ],
+  "improved_repeats": 3,
+  "shared_ic_seeds": 40,
+  "opponents": 16,
+  "matches_per_policy": 1280,
+  "scope": "Three independent refinement RNG streams share one learned league parent and one frozen opponent archive. CI conditions on these policies/opponents and resamples IC clusters across all opponents and both seats. Excluded local opponents are not real student submissions; no universal-win claim."
+}

@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "bundle_manifest_sha256": "03c66ff8bb3a28fd8eaf70525d146379c3704400f6aa9b070fa7f884b1c3c43b",
+  "original_policy_preserved": true,
+  "original_weights_preserved": true,
+  "official_and_search_episodes_identical": true,
+  "band": 32000500,
+  "n": 2,
+  "episodes": [
+    {
+      "seed": 32000500,
+      "outcome": "kill",
+      "won": true,
+      "t": 41.9,
+      "steps": 839,
+      "truncated": false,
+      "own_health": 0.2905,
+      "opp_health": 0.0,
+      "wez_time": 4.95,
+      "wez_time_foe": 3.1,
+      "first_wez": 24.2,
+      "longest_track": 3.35,
+      "min_range": 90,
+      "out_of_bounds": false,
+      "seat": "red"
+    },
+    {
+      "seed": 32000500,
+      "outcome": "kill",
+      "won": true,
+      "t": 42.0,
+      "steps": 841,
+      "truncated": false,
+      "own_health": 0.307,
+      "opp_health": 0.0,
+      "wez_time": 4.95,
+      "wez_time_foe": 3.05,
+      "first_wez": 24.2,
+      "longest_track": 3.3,
+      "min_range": 94,
+      "out_of_bounds": false,
+      "seat": "blue"
+    }
+  ],
+  "scope": "Loader/physics compatibility check, not performance estimation"
+}

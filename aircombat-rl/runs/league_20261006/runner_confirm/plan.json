@@ -1,0 +1,58 @@
+{
+  "parent": {
+    "id": "refine_2200",
+    "kind": "reactive",
+    "parameters": [
+      0.0,
+      333.084677145468,
+      325.8867572400507,
+      3.515351603786926,
+      -5.006961204788112,
+      0.4779232792843636,
+      3.8915620667485746,
+      -0.14925445697884832,
+      1578.6403144613018,
+      7832.976317212762,
+      604.105238698359,
+      3.8743231728056506,
+      35.02624439249268,
+      128.5075794112313,
+      309.65068212464746,
+      152.72036821855625,
+      5358.7614671072115
+    ]
+  },
+  "probe": {
+    "id": "pursuit_650_lead6",
+    "kind": "reactive",
+    "parameters": [
+      0.0,
+      650.0,
+      650.0,
+      6.0,
+      0.0,
+      0.3,
+      3.0,
+      -1.0,
+      0.0,
+      0.0,
+      650.0,
+      0.0,
+      60.0,
+      90.0,
+      650.0,
+      120.0,
+      0.0
+    ]
+  },
+  "foe": {
+    "id": "evader",
+    "kind": "bot",
+    "name": "evader"
+  },
+  "band": 33030000,
+  "n": 80,
+  "source_sha256": "d55f1e58b842b0948aa455fb3630ff6f32536d1208ea1d95bdafc16ed3ca54f9",
+  "gate": "At least 4/80 probe wins, no probe losses, and paired-IC 95% win-gain interval lower bound > 0",
+  "scope": "Fresh open development confirmation of one selected manual probe. Not a new final test or a trained model."
+}

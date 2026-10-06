@@ -1,7 +1,10 @@
 # 리그 정책과 재실행 자료
 
-현재 묶음은 **개발 단계 자료**다. `manifest.json`의 `stage`를 확인한다.
-최종 평가 전에는 이 묶음을 대회 성능이 확정된 결과로 해석하지 않는다.
+현재 묶음은 **최종 평가를 통과한 첫 리그 묶음**이다. `manifest.json`의 `stage`는 `evaluation_passed`다.
+실제 참가자 정책 전반을 이긴다는 뜻은 아니다. [결과 보고서](../result.md)의 범위와 취약 상대를 함께 읽는다.
+
+- `models/final`: 시험 전에 개발 기준으로 선택한 `refine_2200`. 공식 채점기와 같은 경기 결과를 확인했다.
+- `models/refine_2200`, `refine_2201`, `refine_2202`: 같은 부모에서 출발한 추가 학습3회의 선택 정책.
 
 - `models/cem_original`: 기존 Ace 상대 CEM 정책, 원본 코드와 계수를 복사해 보존했다.
 - `models/round_00`부터 `round_05`: 6라운드에서 선택한 모든 후보. 채택되지 않은 후보도 포함한다.
@@ -18,16 +21,16 @@ CEM 후보의 ZIP은 17개 제어 계수이며 신경망 가중치가 아니다.
 
 ```powershell
 # 공식 Ace 상대 시청
-python -m tools.watch templates/project_04_fair --design experiments/league/bundle/models/round_05 --seed 32000500
+python -m tools.watch templates/project_04_fair --design experiments/league/bundle/models/final --seed 32000500
 
 # 같은 상대 목록으로 새로운 개발 대결 실행. 출력 폴더는 아직 없는 경로를 지정한다.
-python -m tools.league_replay --bundle experiments/league/bundle --model round_05 --out runs/my_league_replay --band 33010000 --n 40
+python -m tools.league_replay --bundle experiments/league/bundle --model final --out runs/my_league_replay --band 33010000 --n 40
 
 # 다른 컴퓨터에서 과거 runs/ 입력이 없을 때만 복원한다. 다른 내용의 기존 파일은 덮어쓰지 않는다.
 python -m tools.league_replay --bundle experiments/league/bundle --restore-inputs
 
 # 다른 사람이 제공한 정책 폴더와 직접 대결
-python -m tools.league_duel --a experiments/league/bundle/models/round_05 --b path/to/other_policy --out runs/duel_with_other --band 33020000 --n 40
+python -m tools.league_duel --a experiments/league/bundle/models/final --b path/to/other_policy --out runs/duel_with_other --band 33020000 --n 40
 ```
 
 다른 컴퓨터에서는 현재 프로젝트의 코드와 이 묶음을 함께 복사한다. 원본 상위 저장소만 새로 클론한 상태라면
@@ -36,4 +39,4 @@ python -m tools.league_duel --a experiments/league/bundle/models/round_05 --b pa
 Python 3.12를 사용했으며 정확한 실행 버전은 `evidence/runtime.json`에 있다. 모든 대결은 CPU로 실행했다.
 
 `--transfer`는 학습에서 제외한 로컬 상대도 평가한다. 이를 실행해 결과를 보고 다음 모델을 바꾸면 그 평가는 더 이상 손대지 않은 최종 시험이 아니다.
-기존 시험 band 40000000은 자동 최종 검증용으로 예약돼 있으므로 수동 개발 평가에 쓰지 않는다.
+기존 시험 band 40000000은 최종 평가에 이미 사용했다. 향후 후속 모델의 미사용 최종 시험으로 다시 쓰지 않는다.

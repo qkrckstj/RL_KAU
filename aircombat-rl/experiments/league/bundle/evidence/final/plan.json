@@ -1,0 +1,27 @@
+{
+  "main": "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\league_20261006\\main",
+  "screen_band": 32000000,
+  "screen_n": 40,
+  "all_candidates": true,
+  "pool_screen_n": 12,
+  "confirmation_band": 32000500,
+  "replication_seeds": [
+    2200,
+    2201,
+    2202
+  ],
+  "replication_training_band": 120000000,
+  "replication_development_band": 32001000,
+  "replication_development_n": 20,
+  "test_band": 40000000,
+  "test_n": 80,
+  "transfer_opponents": [
+    "lead",
+    "circler",
+    "ddqn_s0"
+  ],
+  "source_sha256": "b85766dc9db7df042f1def122a5cc6a690334aefca49ec7b5047f31e8d99a932",
+  "selection": "Highest development objective, then win rate, then health, then smaller seed; never by final test",
+  "exclusions": "No access to actual competitors; hold-out is only the named local policies",
+  "heldout_opponent_scope": "Full archived training pool plus excluded opponents"
+}

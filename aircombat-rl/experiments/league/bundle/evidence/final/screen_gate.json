@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "candidate": {
+    "objective": 0.7534495192307692,
+    "mean_win_rate": 0.7557692307692307,
+    "mean_score": 0.8586538461538461,
+    "worst_score": 0.5,
+    "lower_quarter_score": 0.603125,
+    "health": 0.5305538461538462,
+    "games": 520,
+    "steps": 671330
+  },
+  "original": {
+    "objective": 0.24557692307692308,
+    "mean_win_rate": 0.24615384615384617,
+    "mean_score": 0.4278846153846155,
+    "worst_score": 0.0,
+    "lower_quarter_score": 0.0,
+    "health": -0.2168692307692308,
+    "games": 520,
+    "steps": 879297
+  },
+  "head_to_head": {
+    "n": 40,
+    "kills": 40,
+    "rate": 1.0,
+    "t_kill": 47.3,
+    "outcomes": {
+      "kill": 40
+    },
+    "own_health": 1.0,
+    "opp_health": 0.0,
+    "wez_time": 4.0,
+    "wez_time_foe": 0.0,
+    "engaged": 1.0,
+    "first_wez": 43.3,
+    "longest_track": 3.95,
+    "min_range": 887,
+    "out_of_bounds": 0.0,
+    "wins": 40,
+    "losses": 0,
+    "draws": 0,
+    "score": 1.0
+  },
+  "rule": "mean win +.08, mean score +.03, worst score >=.35, head score >=.55 and head wins >=.2"
+}

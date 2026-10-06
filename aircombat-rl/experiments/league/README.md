@@ -4,6 +4,10 @@
 기존 `experiments/plan_a/cem_policy`는 보존한다. 현재 학습 방식은 신경망이 아닌,
 공개 관측으로 반응하는 17개 제어 파라미터의 CEM 탐색이다.
 
+**첫 리그 묶음의 최종 평가 완료:** 동일16상대·각1,280경기에서 사전 선택 정책77.6%, 기존26.6%, 직접 대결80전 전승.
+[상대별 결과·한계](result.md), [새 세션 시작 안내](../../../START_HERE.md), [현재 상태](../../../docs/LEAGUE_STATE.json)를 따른다.
+아래 절차는 실행한 프로토콜이며, 완료한 실행을 새로 시작하라는 뜻은 아니다.
+
 ## 반복 절차
 
 1. 기존 CEM, DDQN, Ace, Pursuit, Evader, 좌/우 고정 선회 정책으로 시작한다.
@@ -51,7 +55,7 @@ python -m tools.league_train --out runs/league_20261006/main --rounds 6
 
 ![초기 정책별 승률과 무승부율](results/baseline_crossplay.png)
 
-## 현재 자동 실행
+## 이번 묶음의 실행 경과
 
 본 학습 `runs/league_20261006/main`은 6라운드로 시작했다.
 6라운드를 완료했고 챔피언은 3번 교체됐다. 전체 후보 재선발로 선택한 부모는 `round_05`다.
@@ -65,7 +69,7 @@ python -m tools.league_train --out runs/league_20261006/main --rounds 6
 이 세 반복은 하나의 학습 부모와 상대 목록을 공유하며, 독립적인 최초 발견 3회가 아니다.
 관문에 실패하면 시험을 열지 않고 `analysis_required`로 기록한다. 이 상태는 전체 목표의 완료가 아니다.
 
-현재 발견한 [counter_v1](counter_v1/README.md)은 기존 CEM에게 17승 3패였지만,
+초기 후보 [counter_v1](counter_v1/README.md)은 기존 CEM에게 17승 3패였지만,
 Ace와 Pursuit에는 각각 20전 전패여서 챔피언으로 교체하지 않았다. 다음 모델의 훈련 상대에는 추가했다.
 
 본 학습 후속 단계의 기본 명령은 아래와 같다. `--pid`에는 현재 살아 있는 본 학습 실행기 PID를 전달한다.

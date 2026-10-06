@@ -43,11 +43,12 @@ def run(root, out, plot=False):
                                 ('excluded', [f for f in foes if f in transfer])]}
     peers = read(followup/'refinement_crossplay.json')
     runner = read(root/'runner_probe/completion.json') if (root/'runner_probe/completion.json').exists() else None
+    runner_confirm = read(root/'runner_confirm/completion.json') if (root/'runner_confirm/completion.json').exists() else None
     result = dict(status=done['status'], chosen=chosen, models=models, verdict=done['verdict'],
         opponent_order=foes, per_opponent=[dict(foe=f, excluded=f in transfer,
             original=totals([by['cem_original', f]]), selected=totals([by[chosen, f]])) for f in foes],
         refinement_crossplay=[{k:r[k] for k in ('own','foe','summary')} for r in peers],
-        runner_diagnostic=runner,
+        runner_diagnostic=runner, runner_confirmation=runner_confirm,
         scope='Frozen development choice; same 40 ICs in both seats against 16 fixed local opponents. '
               'Three refinements share one learned parent. No real student submissions tested.')
     out.mkdir(parents=True, exist_ok=True)
@@ -102,6 +103,13 @@ def run(root, out, plot=False):
                   '이 유한한 실험으로 격추 가능/불가능을 일반적으로 증명할 수는 없다.', '']
     else:
         lines += ['추가 진단은 아직 완료되지 않았다. 결과가 나올 때 이 보고서를 갱신한다.', '']
+    if runner_confirm:
+        lo_runner,hi_runner=runner_confirm['paired_ic_win_gain_95_ci']
+        lines += [f"선택된 수동 추격 설정을 새로운 개발 조건40개×양 좌석에서 재확인했다. 기존 정책은 "
+                  f"{wdl(runner_confirm['parent'])}, 추격 설정은 {wdl(runner_confirm['probe'])}였다. "
+                  f"초기조건 단위 승률 차이95% 구간은 [{100*lo_runner:+.1f}, {100*hi_runner:+.1f}]%p다.",
+                  '이는 도주형 상대에 대한 개선 가능성을 확인한 결과다. 다른 상대에 대한 성능을 확인한 새 학습 정책이 아니므로 '
+                  '기존 최종 모델을 교체하지 않았다. 다음 작업은 관측에 따라 추격을 선택하는 정책을 전체 상대 집합에서 학습·비교하는 것이다.', '']
     lines += ['## 해석과 다음 사용', '',
               '- 공식 FairFight 초기조건·JSBSim 물리·20Hz·무장·9행동·승패 판정을 유지했다. 대결 상대를 바꿔 평가했다.',
               '- 무승부 0.5는 개발 목적함수의 규칙이다. 공식 대회의 무승부 배점이라고 가정하지 않았다. '
@@ -118,7 +126,8 @@ def run(root, out, plot=False):
               'python -m tools.league_duel --a experiments/league/bundle/models/final --b path/to/other_policy --out runs/next_opponent --band 33020000 --n 40',
               '```', '',
               '원시 평가·설정·선택 기록은 `runs/league_20261006/followup_pool/`, 이동용 근거는 '
-              '`bundle/evidence/final/`에 보존한다. 이번 새 결과는 로컬 저장이며 GitHub에 새로 push한 상태는 아니다.', '']
+              '`bundle/evidence/final/`에 보존한다. GitHub 보관 범위와 다음 작업은 저장소 루트의 '
+              '`START_HERE.md`, `docs/LEAGUE_STATE.json`을 따른다.', '']
     (out.parent/'result.md').write_text('\n'.join(lines),encoding='utf-8')
     if plot:
         import matplotlib
@@ -143,7 +152,8 @@ def run(root, out, plot=False):
             ax.grid(axis='x',alpha=.15)
             ax.set_axisbelow(True)
         axes[0].invert_yaxis()
-        axes[0].legend(loc='lower right',fontsize=9)
+        handles,legend_labels=axes[0].get_legend_handles_labels()
+        fig.legend(handles,legend_labels,loc='outside lower center',ncol=2,frameon=False,fontsize=10)
         fig.suptitle('Final evaluation | Same 40 initial conditions x both seats per opponent\n'
                      '* Excluded from league training; local opponents, not student submissions',fontsize=13)
         fig.savefig(out/'final_comparison.png',dpi=170)

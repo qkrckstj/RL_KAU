@@ -1,0 +1,73 @@
+{
+  "status": "complete",
+  "parent": {
+    "n": 12,
+    "kills": 0,
+    "rate": 0.0,
+    "t_kill": null,
+    "outcomes": {
+      "timeout": 12
+    },
+    "own_health": 1.0,
+    "opp_health": 1.0,
+    "wez_time": 0.0,
+    "wez_time_foe": 0.0,
+    "engaged": 0.0,
+    "first_wez": null,
+    "longest_track": 0.0,
+    "min_range": 7523,
+    "out_of_bounds": 0.0,
+    "wins": 0,
+    "losses": 0,
+    "draws": 12,
+    "score": 0.5
+  },
+  "best": {
+    "id": "pursuit_650_lead6",
+    "kind": "reactive",
+    "parameters": [
+      0.0,
+      650.0,
+      650.0,
+      6.0,
+      0.0,
+      0.3,
+      3.0,
+      -1.0,
+      0.0,
+      0.0,
+      650.0,
+      0.0,
+      60.0,
+      90.0,
+      650.0,
+      120.0,
+      0.0
+    ]
+  },
+  "best_summary": {
+    "n": 12,
+    "kills": 1,
+    "rate": 0.0833,
+    "t_kill": 118.9,
+    "outcomes": {
+      "kill": 1,
+      "timeout": 11
+    },
+    "own_health": 1.0,
+    "opp_health": 0.9167,
+    "wez_time": 0.41,
+    "wez_time_foe": 0.0,
+    "engaged": 0.083,
+    "first_wez": 112.0,
+    "longest_track": 0.26,
+    "min_range": 2965,
+    "out_of_bounds": 0.0,
+    "wins": 1,
+    "losses": 0,
+    "draws": 11,
+    "score": 0.5416666666666666
+  },
+  "observed_improvement": true,
+  "next": "Train and verify a conditional pursuit response, with a new future final test band"
+}

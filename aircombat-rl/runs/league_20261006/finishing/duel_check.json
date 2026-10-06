@@ -1,0 +1,20 @@
+{
+  "command": [
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\aircombat-rl\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "tools.league_duel",
+    "--a",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle\\models\\final",
+    "--b",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle\\models\\cem_original",
+    "--out",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\league_20261006\\finishing\\duel",
+    "--band",
+    "33020000",
+    "--n",
+    "2"
+  ],
+  "returncode": 0
+}

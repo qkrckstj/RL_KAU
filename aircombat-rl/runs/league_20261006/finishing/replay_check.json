@@ -1,0 +1,19 @@
+{
+  "command": [
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\aircombat-rl\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "tools.league_replay",
+    "--bundle",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle",
+    "--out",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs\\league_20261006\\finishing\\replay",
+    "--band",
+    "33010000",
+    "--n",
+    "2",
+    "--smoke"
+  ],
+  "returncode": 0
+}

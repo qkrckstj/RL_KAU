@@ -1,0 +1,41 @@
+{
+  "parameter_names": [
+    "opening_seconds",
+    "opening_speed",
+    "tracking_speed",
+    "lead_seconds",
+    "aim_bias",
+    "yaw_brake",
+    "deadband",
+    "opening_direction",
+    "opening_stop_range",
+    "far_range",
+    "far_speed",
+    "defense_range",
+    "defense_angle",
+    "defense_offset",
+    "defense_speed",
+    "escape_angle",
+    "escape_range"
+  ],
+  "parameters": [
+    0.0,
+    333.084677145468,
+    325.8867572400507,
+    3.515351603786926,
+    -5.006961204788112,
+    0.4779232792843636,
+    3.8915620667485746,
+    -0.14925445697884832,
+    1578.6403144613018,
+    7832.976317212762,
+    604.105238698359,
+    3.8743231728056506,
+    35.02624439249268,
+    128.5075794112313,
+    309.65068212464746,
+    152.72036821855625,
+    5358.7614671072115
+  ],
+  "format": "Reactive controller coefficients, not neural weights"
+}

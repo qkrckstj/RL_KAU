@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\aircombat-rl\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "tools.league_bundle_check",
+    "--bundle",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\bundle",
+    "--out",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments\\league\\results\\loader_check.json"
+  ],
+  "returncode": 0
+}
