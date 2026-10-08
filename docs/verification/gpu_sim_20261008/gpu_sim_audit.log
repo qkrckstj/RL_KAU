@@ -1,0 +1,16 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+FLIGHT 0.05 max position 0.01136971331976321
+FLIGHT 1.0 max position 0.2525494934837934
+FLIGHT 10.0 max position 7.16665466299314
+FLIGHT 60.0 max position 79.40555921174422
+FLIGHT 120.0 max position 264.891138201148
+BENCH {"environments": 64, "aircraft": 128, "decision_steps": 256, "env_steps": 16384, "physics_frames": 196608, "seconds": [0.46584237400020356, 0.46566758599874447, 0.46753618600268965], "median_seconds": 0.46584237400020356, "setup_seconds": 0.16854785200121114, "env_steps_per_second": 35170.69488400134, "vs_serial_cpu": 7.7976087593620464}
+BENCH {"environments": 256, "aircraft": 512, "decision_steps": 256, "env_steps": 65536, "physics_frames": 786432, "seconds": [0.5440616080013569, 0.5548641059976944, 0.5496123650009395], "median_seconds": 0.5496123650009395, "setup_seconds": 0.13818218500091461, "env_steps_per_second": 119240.40318832343, "vs_serial_cpu": 26.43649821073286}
+BENCH {"environments": 1024, "aircraft": 2048, "decision_steps": 256, "env_steps": 262144, "physics_frames": 3145728, "seconds": [0.5153837290017691, 0.5095093469972198, 0.5089186969998991], "median_seconds": 0.5095093469972198, "setup_seconds": 0.13781655599814258, "env_steps_per_second": 514502.8281521014, "vs_serial_cpu": 114.06916390896573}
+BENCH {"environments": 4096, "aircraft": 8192, "decision_steps": 256, "env_steps": 1048576, "physics_frames": 12582912, "seconds": [0.524591858000349, 0.5243876540007477, 0.5252105879990268], "median_seconds": 0.524591858000349, "setup_seconds": 0.14096188499752316, "env_steps_per_second": 1998841.545114683, "vs_serial_cpu": 443.1582711734523}

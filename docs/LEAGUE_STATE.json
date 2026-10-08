@@ -5788,5 +5788,105 @@
       0.0729166666666666
     ]
   },
-  "publication_request": "User explicitly requested pause and upload current work plus three-model recommendation on2026-10-08"
+  "publication_request": "User explicitly requested pause and upload current work plus three-model recommendation on2026-10-08",
+  "runtime_audit": {
+    "date": "2026-10-08",
+    "status": "complete_local_only",
+    "report": "docs/CUDA_RUNTIME_AUDIT_20261008.md",
+    "environment": "aircombat-rl/.venv; Linux; RTX 5080; torch 2.14.1+cu130",
+    "cuda_actual_learning_verified": true,
+    "default_device_recommendation": "CPU for current small DQN/PPO; CEM uses CPU simulation",
+    "opt_in_ppo_helper": "aircombat-rl/tools/ppo_cpu_rollouts.py",
+    "limits": "Throughput only, no new policy selection or final test. Two-env CUDA comparison rejected equal-work validation because of KL early stopping. Default workers remain three.",
+    "tests": "126 passed; pip check passed",
+    "evidence": "docs/verification/runtime_20261008"
+  },
+  "gpu_simulation": {
+    "date": "2026-10-08",
+    "status": "experimental_fidelity_failed_local_only",
+    "report": "docs/GPU_SIMULATION_20261008.md",
+    "entrypoint": "aircombat-rl/experiments/gpu_sim/train.py",
+    "physics_dependency_commit": "1462017f6a5c724f9780c5d65b0c9552538ef426",
+    "official_jsbsim_unchanged": true,
+    "drop_in_fidelity_passed": false,
+    "maximum_120s_position_error_m": {
+      "float32": 257.93084066,
+      "float64": 264.89114
+    },
+    "measured_peak_simulation_env_steps_per_second": 1998841.545114683,
+    "simulation_measurement": "4096 parallel games; hold actions; warmup excluded; serial CPU reference; not learning or equal-fidelity speedup",
+    "ppo_smoke": {
+      "environments": 1024,
+      "samples": 2621440,
+      "seconds": 10.89697166,
+      "optimizer_steps": 1280,
+      "invalid_episodes": 0,
+      "original_jsbsim_loader_wins": 0,
+      "original_jsbsim_loader_losses": 2
+    },
+    "policy_selected": false,
+    "final_test_opened": false,
+    "consumed_development_seeds": [
+      33030000,
+      33030001,
+      33030002
+    ],
+    "tests": "136 passed; pip check passed",
+    "evidence": "docs/verification/gpu_sim_20261008",
+    "remaining_limit": "Reduce coordinate/trim trajectory differences before considering official-backend replacement. DQN and CEM are now available as separate experimental trainers; see gpu_trainers. All native trainers use separate configurations."
+  },
+  "gpu_trainers": {
+    "date": "2026-10-08",
+    "status": "dqn_cem_implemented_and_execution_verified_local_only",
+    "report": "docs/GPU_DQN_CEM_20261008.md",
+    "algorithms": [
+      "PPO",
+      "DQN",
+      "CEM"
+    ],
+    "simulator_fidelity_status": "failed_existing_gate_unchanged",
+    "official_jsbsim_unchanged": true,
+    "policy_promoted": false,
+    "final_test_opened": false,
+    "dqn": {
+      "samples": 4194304,
+      "seconds": 16.72001456599901,
+      "optimizer_steps": 1017,
+      "invalid_episodes": 0,
+      "entrypoint": "python -m experiments.gpu_sim.dqn"
+    },
+    "cem": {
+      "games": 3072,
+      "seconds": 18.021877072998905,
+      "distribution_updates": 3,
+      "invalid_games": 0,
+      "parent": "existing frozen final reactive policy",
+      "entrypoint": "python -m experiments.gpu_sim.cem"
+    },
+    "jsbsim_loader_check": {
+      "band": 33030000,
+      "scope": "Consumed open development, both seats versus Ace and original CEM",
+      "dqn": {
+        "wins": 0,
+        "losses": 2,
+        "draws": 2
+      },
+      "cem": {
+        "wins": 4,
+        "losses": 0,
+        "draws": 0
+      }
+    },
+    "tests": "145 passed; pip check passed",
+    "evidence": "docs/verification/gpu_dqn_cem_20261008",
+    "limits": "Experimental physics unchanged. DQN smoke is not a strong policy. CEM started from strong parent; no demonstrated win-rate improvement. Native trainer resume is not implemented."
+  },
+  "gpu_upload_preparation": {
+    "status": "prepared_for_user_requested_branch_publication",
+    "target_repository": "qkrckstj/RL_KAU",
+    "target_branch": "feat/gpu-training-upload-20261008",
+    "preserved_remote_base": "f63cc95abb593f93c9bb5e1b66b3093fc1d73618",
+    "local_gpu_source_commit": "3352588cfbc1249f2803546d294b0e423ec85f67",
+    "scope": "Publish completed GPU work only. Existing paused research state and model selection preserved; no new training or evaluation experiment."
+  }
 }

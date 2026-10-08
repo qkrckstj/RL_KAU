@@ -1,0 +1,9 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+  "torch": "2.14.1+cu130",
+  "cuda_build": "13.0",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "nvidia_smi": "NVIDIA GeForce RTX 5080, 580.159.03, 16303 MiB"
+}

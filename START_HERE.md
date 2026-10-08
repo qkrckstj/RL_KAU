@@ -544,3 +544,37 @@ Windows의 병렬 실행은 실제 Python 스크립트의 `if __name__ == '__mai
 > START_HERE.md와 docs/LEAGUE_STATE.json을 읽고 실제 파일·실행 상태를 확인해.
 > 완료한 실험은 보존하고 현재 남은 작업부터 이어가. 새 실험은 기존 모든 정책과 비교하고,
 > 개발 선발과 최종 시험을 분리해. 결과와 재실행 자료를 기록하고 업로드 상태도 구분해서 보고해.
+
+
+## Linux CUDA runtime audit (2026-10-08)
+
+CUDA learning was verified on the local RTX 5080 with the project-local
+`aircombat-rl/.venv` (PyTorch 2.14.1+cu130). Small DQN/PPO models still run
+faster on CPU. See the [runtime audit](docs/CUDA_RUNTIME_AUDIT_20261008.md)
+for measurements, the optional PPO CPU-collection helper, CEM worker results,
+and reproducible commands. Historical Windows failures and frozen experiment
+settings remain historical records. No new policy was selected by this audit.
+
+
+## Experimental GPU batched simulation (2026-10-08)
+
+A separate optional CUDA backend now batches flight physics, combat and PPO on
+the GPU. It reached about 2.0 million environment steps/s at 4,096 parallel games
+in the controlled hold-action throughput audit. This is not an equivalent-model
+or equal-quality learning speedup: the 120-second float32 trajectory comparison
+failed with maximum position error about 258 m. Official evaluation still uses
+unchanged JSBSim; existing DQN and CEM training entrypoints are unchanged.
+
+See the [implementation and measured limits](docs/GPU_SIMULATION_20261008.md) and
+[installation and commands](aircombat-rl/experiments/gpu_sim/README.md). The new
+PPO checkpoint is an execution demonstration, not a selected champion.
+
+
+## GPU DQN and CEM extension (2026-10-08)
+
+The optional GPU simulation now also has DQN replay learning and CEM population
+search entrypoints. Existing PPO and archived trainers remain unchanged. Both
+new policy formats execute in original JSBSim. The original GPU physics fidelity
+gate is still failed; these are experimental training paths.
+See [DQN/CEM results and limitations](docs/GPU_DQN_CEM_20261008.md) and
+[commands](aircombat-rl/experiments/gpu_sim/README.md#gpu-dqn-and-cem).

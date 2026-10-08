@@ -1,0 +1,11 @@
+{
+  "vector_steps": 4096,
+  "samples": 4194304,
+  "seconds": 16.72001456599901,
+  "optimizer_steps": 1017,
+  "target_copies": 10,
+  "epsilon": 0.050000000000000044,
+  "replay_size": 262144,
+  "episodes": 3577,
+  "wins": 6
+}

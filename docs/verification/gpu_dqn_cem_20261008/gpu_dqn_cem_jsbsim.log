@@ -1,0 +1,11 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+dqn ace {"n": 2, "kills": 0, "rate": 0.0, "t_kill": null, "outcomes": {"died": 2}, "own_health": 0.0, "opp_health": 1.0, "wez_time": 0.0, "wez_time_foe": 4.0, "engaged": 0.0, "first_wez": null, "longest_track": 0.0, "min_range": 1214, "out_of_bounds": 0.0, "wins": 0, "losses": 2, "draws": 0, "score": 0.0}
+dqn original_cem {"n": 2, "kills": 0, "rate": 0.0, "t_kill": null, "outcomes": {"timeout": 2}, "own_health": 1.0, "opp_health": 1.0, "wez_time": 0.0, "wez_time_foe": 0.0, "engaged": 0.0, "first_wez": null, "longest_track": 0.0, "min_range": 5552, "out_of_bounds": 0.0, "wins": 0, "losses": 0, "draws": 2, "score": 0.5}
+cem ace {"n": 2, "kills": 2, "rate": 1.0, "t_kill": 39.5, "outcomes": {"kill": 2}, "own_health": 0.538, "opp_health": 0.0, "wez_time": 4.78, "wez_time_foe": 2.35, "engaged": 1.0, "first_wez": 22.0, "longest_track": 3.92, "min_range": 174, "out_of_bounds": 0.0, "wins": 2, "losses": 0, "draws": 0, "score": 1.0}
+cem original_cem {"n": 2, "kills": 2, "rate": 1.0, "t_kill": 57.6, "outcomes": {"kill": 2}, "own_health": 1.0, "opp_health": 0.0, "wez_time": 5.9, "wez_time_foe": 0.0, "engaged": 1.0, "first_wez": 39.2, "longest_track": 3.58, "min_range": 327, "out_of_bounds": 0.0, "wins": 2, "losses": 0, "draws": 0, "score": 1.0}

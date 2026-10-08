@@ -1,0 +1,43 @@
+{
+  "parameter_names": [
+    "opening_seconds",
+    "opening_speed",
+    "tracking_speed",
+    "lead_seconds",
+    "aim_bias",
+    "yaw_brake",
+    "deadband",
+    "opening_direction",
+    "opening_stop_range",
+    "far_range",
+    "far_speed",
+    "defense_range",
+    "defense_angle",
+    "defense_offset",
+    "defense_speed",
+    "escape_angle",
+    "escape_range"
+  ],
+  "parameters": [
+    0.0,
+    314.9873046875,
+    300.0,
+    5.222067832946777,
+    -6.843254089355469,
+    0.7553704380989075,
+    5.556400299072266,
+    -0.24109673500061035,
+    597.6953125,
+    5668.84619140625,
+    618.7350463867188,
+    531.2534790039062,
+    29.894668579101562,
+    119.80325317382812,
+    345.14105224609375,
+    179.6487579345703,
+    6362.10595703125
+  ],
+  "format": "Reactive controller coefficients, not neural weights",
+  "experimental": true,
+  "selection": "Training-only CEM incumbent; not a promoted champion"
+}

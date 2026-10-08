@@ -1,0 +1,19 @@
+{
+  "base_commit": "4364d362d729c361a7aef3db948e79878c399b27",
+  "unchanged_preexisting_application_files": 9206,
+  "validation": "git diff --exit-code 4364d36 -- aircombat-rl; new files excluded",
+  "all_preserved_source_snapshots_verified": true,
+  "physics_commit": "1462017f6a5c724f9780c5d65b0c9552538ef426",
+  "physics_url": "https://github.com/juyoung020/jsbsim-f16-cuda",
+  "physics_license": "GPL-3.0-or-later",
+  "artifact_sha256": "c4613b2e66b08ef1819e8e317b0c4e13d3d52bd225953ae6fc774530161d0cdf",
+  "new_source_sha256": {
+    "geometry.py": "b373a7dc4de0a921bc7f697ab31beb166abf80e954a2f26010fa70a581d80bc3",
+    "__init__.py": "3f47049a3d91880047614f4305b1b63b4457101d6a8824915c1ddfe6ec161b02",
+    "control.py": "ce9e6fd5ca516820bec5cd6bc6213c57320c38c5da4567ad93b0e844e9b8813a",
+    "policy.py": "3e3edfbc92027b9ab4e4ac5196a73f7051802a990e0a8ac6d69e505db056e2a3",
+    "train.py": "15b2e51a4ad66f29903392c3913624776401d906e65ba4222be0bfc8d2ea9671",
+    "audit.py": "ba359cf98f3e885a5af7780d10099ba000047c02753357ae289004bb55a21618",
+    "env.py": "29fb73c887114ab5a5246471e9f0910df232bddc7fd63ff159fec3fa8a53defa"
+  }
+}

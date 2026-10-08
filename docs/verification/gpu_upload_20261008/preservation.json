@@ -1,0 +1,15 @@
+{
+  "remote_base": "f63cc95abb593f93c9bb5e1b66b3093fc1d73618",
+  "gpu_source_commit": "3352588",
+  "target_branch": "feat/gpu-training-upload-20261008",
+  "modified_or_deleted_existing_application_files": [],
+  "all_existing_remote_state_values_preserved": true,
+  "complete_remote_start_and_reproduce_docs_retained": true,
+  "gpu_evidence_manifest_hashes_verified": true,
+  "integration_tests": {
+    "passed": 343,
+    "skipped": 1,
+    "failed": 3
+  },
+  "all_three_failures_reproduced_on_unchanged_remote_base": true
+}

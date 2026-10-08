@@ -1,0 +1,340 @@
+{
+  "metrics": {
+    "iteration": 40,
+    "steps": 2621440,
+    "seconds": 10.896971660000418,
+    "optimizer_steps": 1280,
+    "episodes": 1068,
+    "wins": 1,
+    "setup_seconds": 0.8784022799991362,
+    "steps_per_second": 240565.91884353856,
+    "invalid_episodes": 0,
+    "weights_changed": true,
+    "initial_weights_sha256": "7f6187155a066a7b63a323824b9787280e227b2014ae035a29f0f92da8484a62",
+    "final_weights_sha256": "2b4ff4135ceb92cba82aad1a7fe4228edeb57c4322975d8ebe4830d69b4771a6",
+    "all_parameters_cuda": true,
+    "peak_gpu_bytes": 162632704
+  },
+  "history": [
+    {
+      "iteration": 1,
+      "steps": 65536,
+      "seconds": 0.36160091000056127,
+      "optimizer_steps": 32,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 2,
+      "steps": 131072,
+      "seconds": 0.6321525820021634,
+      "optimizer_steps": 64,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 3,
+      "steps": 196608,
+      "seconds": 0.9333558440011984,
+      "optimizer_steps": 96,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 4,
+      "steps": 262144,
+      "seconds": 1.201759198000218,
+      "optimizer_steps": 128,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 5,
+      "steps": 327680,
+      "seconds": 1.4708545520006737,
+      "optimizer_steps": 160,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 6,
+      "steps": 393216,
+      "seconds": 1.7391912610000873,
+      "optimizer_steps": 192,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 7,
+      "steps": 458752,
+      "seconds": 2.0078967720000946,
+      "optimizer_steps": 224,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 8,
+      "steps": 524288,
+      "seconds": 2.276828818001377,
+      "optimizer_steps": 256,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 9,
+      "steps": 589824,
+      "seconds": 2.5462921030011785,
+      "optimizer_steps": 288,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 10,
+      "steps": 655360,
+      "seconds": 2.814639160002116,
+      "optimizer_steps": 320,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 11,
+      "steps": 720896,
+      "seconds": 3.0840723870023794,
+      "optimizer_steps": 352,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 12,
+      "steps": 786432,
+      "seconds": 3.353192926002521,
+      "optimizer_steps": 384,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 13,
+      "steps": 851968,
+      "seconds": 3.6223335430004227,
+      "optimizer_steps": 416,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 14,
+      "steps": 917504,
+      "seconds": 3.8889889090023644,
+      "optimizer_steps": 448,
+      "episodes": 0,
+      "wins": 0
+    },
+    {
+      "iteration": 15,
+      "steps": 983040,
+      "seconds": 4.155511084001773,
+      "optimizer_steps": 480,
+      "episodes": 1,
+      "wins": 0
+    },
+    {
+      "iteration": 16,
+      "steps": 1048576,
+      "seconds": 4.422728425000969,
+      "optimizer_steps": 512,
+      "episodes": 8,
+      "wins": 0
+    },
+    {
+      "iteration": 17,
+      "steps": 1114112,
+      "seconds": 4.6892229080003744,
+      "optimizer_steps": 544,
+      "episodes": 15,
+      "wins": 0
+    },
+    {
+      "iteration": 18,
+      "steps": 1179648,
+      "seconds": 4.954450350000116,
+      "optimizer_steps": 576,
+      "episodes": 18,
+      "wins": 0
+    },
+    {
+      "iteration": 19,
+      "steps": 1245184,
+      "seconds": 5.220189982999727,
+      "optimizer_steps": 608,
+      "episodes": 18,
+      "wins": 0
+    },
+    {
+      "iteration": 20,
+      "steps": 1310720,
+      "seconds": 5.486878068000806,
+      "optimizer_steps": 640,
+      "episodes": 32,
+      "wins": 1
+    },
+    {
+      "iteration": 21,
+      "steps": 1376256,
+      "seconds": 5.754855417002545,
+      "optimizer_steps": 672,
+      "episodes": 95,
+      "wins": 1
+    },
+    {
+      "iteration": 22,
+      "steps": 1441792,
+      "seconds": 6.019633292002254,
+      "optimizer_steps": 704,
+      "episodes": 124,
+      "wins": 1
+    },
+    {
+      "iteration": 23,
+      "steps": 1507328,
+      "seconds": 6.28428769400125,
+      "optimizer_steps": 736,
+      "episodes": 148,
+      "wins": 1
+    },
+    {
+      "iteration": 24,
+      "steps": 1572864,
+      "seconds": 6.550456913002563,
+      "optimizer_steps": 768,
+      "episodes": 156,
+      "wins": 1
+    },
+    {
+      "iteration": 25,
+      "steps": 1638400,
+      "seconds": 6.8154948570008855,
+      "optimizer_steps": 800,
+      "episodes": 163,
+      "wins": 1
+    },
+    {
+      "iteration": 26,
+      "steps": 1703936,
+      "seconds": 7.080940965999616,
+      "optimizer_steps": 832,
+      "episodes": 186,
+      "wins": 1
+    },
+    {
+      "iteration": 27,
+      "steps": 1769472,
+      "seconds": 7.352033906001452,
+      "optimizer_steps": 864,
+      "episodes": 228,
+      "wins": 1
+    },
+    {
+      "iteration": 28,
+      "steps": 1835008,
+      "seconds": 7.624050181002531,
+      "optimizer_steps": 896,
+      "episodes": 311,
+      "wins": 1
+    },
+    {
+      "iteration": 29,
+      "steps": 1900544,
+      "seconds": 7.8896314240009815,
+      "optimizer_steps": 928,
+      "episodes": 575,
+      "wins": 1
+    },
+    {
+      "iteration": 30,
+      "steps": 1966080,
+      "seconds": 8.155344452999998,
+      "optimizer_steps": 960,
+      "episodes": 794,
+      "wins": 1
+    },
+    {
+      "iteration": 31,
+      "steps": 2031616,
+      "seconds": 8.420508691000578,
+      "optimizer_steps": 992,
+      "episodes": 829,
+      "wins": 1
+    },
+    {
+      "iteration": 32,
+      "steps": 2097152,
+      "seconds": 8.690503366000485,
+      "optimizer_steps": 1024,
+      "episodes": 840,
+      "wins": 1
+    },
+    {
+      "iteration": 33,
+      "steps": 2162688,
+      "seconds": 8.961776994001411,
+      "optimizer_steps": 1056,
+      "episodes": 853,
+      "wins": 1
+    },
+    {
+      "iteration": 34,
+      "steps": 2228224,
+      "seconds": 9.235683789000177,
+      "optimizer_steps": 1088,
+      "episodes": 891,
+      "wins": 1
+    },
+    {
+      "iteration": 35,
+      "steps": 2293760,
+      "seconds": 9.510711831000663,
+      "optimizer_steps": 1120,
+      "episodes": 939,
+      "wins": 1
+    },
+    {
+      "iteration": 36,
+      "steps": 2359296,
+      "seconds": 9.785869256000296,
+      "optimizer_steps": 1152,
+      "episodes": 974,
+      "wins": 1
+    },
+    {
+      "iteration": 37,
+      "steps": 2424832,
+      "seconds": 10.058455899001274,
+      "optimizer_steps": 1184,
+      "episodes": 1004,
+      "wins": 1
+    },
+    {
+      "iteration": 38,
+      "steps": 2490368,
+      "seconds": 10.326493083000969,
+      "optimizer_steps": 1216,
+      "episodes": 1052,
+      "wins": 1
+    },
+    {
+      "iteration": 39,
+      "steps": 2555904,
+      "seconds": 10.627108736000082,
+      "optimizer_steps": 1248,
+      "episodes": 1054,
+      "wins": 1
+    },
+    {
+      "iteration": 40,
+      "steps": 2621440,
+      "seconds": 10.896971660000418,
+      "optimizer_steps": 1280,
+      "episodes": 1068,
+      "wins": 1
+    }
+  ]
+}

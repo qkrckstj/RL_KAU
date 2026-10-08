@@ -1,0 +1,146 @@
+........................................................................ [ 20%]
+........................................................................ [ 41%]
+..................................................s.......F.F.........F. [ 62%]
+........................................................................ [ 82%]
+...........................................................              [100%]
+=================================== FAILURES ===================================
+_____ test_real_checkpoint_export_relocates_preserves_weights_and_replays ______
+
+tmp_path = PosixPath('/tmp/pytest-of-hoseon/pytest-26/test_real_checkpoint_export_re0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x71c728249f10>
+
+    def test_real_checkpoint_export_relocates_preserves_weights_and_replays(tmp_path,monkeypatch):
+        original_root=mode.io.ROOT
+        ck=original_root/'runs/league_residual_continuation_20261007/s3300/checkpoints/step_6291456/checkpoint.json'
+>       source=json.loads(ck.read_text(encoding='utf-8'))['entrant']
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_league_residual_action_mode.py:49: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.12/pathlib.py:1029: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/home/hoseon/Desktop/박찬서/RL_KAU_GPU/aircombat-rl/runs/league_residual_continuation_20261007/s3300/checkpoints/step_6291456/checkpoint.json')
+mode = 'r', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/home/hoseon/Desktop/박찬서/RL_KAU_GPU/aircombat-rl/runs/league_residual_continuation_20261007/s3300/checkpoints/step_6291456/checkpoint.json'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+______ test_analysis_of_identical_archived_records_cannot_claim_mode_gain ______
+
+    def test_analysis_of_identical_archived_records_cannot_claim_mode_gain():
+        root=mode.io.ROOT/'runs/league_residual_continuation_20261007'
+>       original=json.loads((root/'plan.json').read_text(encoding='utf-8'))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_league_residual_action_mode.py:109: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/usr/lib/python3.12/pathlib.py:1029: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/home/hoseon/Desktop/박찬서/RL_KAU_GPU/aircombat-rl/runs/league_residual_continuation_20261007/plan.json')
+mode = 'r', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/home/hoseon/Desktop/박찬서/RL_KAU_GPU/aircombat-rl/runs/league_residual_continuation_20261007/plan.json'
+
+/usr/lib/python3.12/pathlib.py:1015: FileNotFoundError
+_____ test_initial_greedy_identity_distribution_consistency_and_save_load ______
+
+tmp_path = PosixPath('/tmp/pytest-of-hoseon/pytest-26/test_initial_greedy_identity_d0')
+
+    def test_initial_greedy_identity_distribution_consistency_and_save_load(tmp_path):
+        policy = model(); x = observations()
+        with torch.no_grad():
+            actions, values, log_prob = policy(x, deterministic=True)
+            check_values, check_log_prob, entropy = policy.evaluate_actions(x, actions)
+            probabilities = policy.get_distribution(x).distribution.probs.clone()
+        assert torch.equal(actions, x[:, -9:].argmax(dim=1))
+        torch.testing.assert_close(values, check_values)
+        torch.testing.assert_close(log_prob, check_log_prob)
+        assert torch.isfinite(entropy).all() and (probabilities > 0).all()
+        assert (probabilities.max(dim=1).values > .98).all()
+        path = tmp_path/'policy.pt'; policy.save(path)
+        restored = ResidualPriorPolicy.load(path)
+>       torch.testing.assert_close(restored.get_distribution(x).distribution.probs, probabilities)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_league_residual_policy.py:56: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+experiments/league/residual_ppo_policy.py:52: in get_distribution
+    latent_pi = self.mlp_extractor.forward_actor(self.extract_features(obs))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/stable_baselines3/common/torch_layers.py:258: in forward_actor
+    return self.policy_net(features)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/torch/nn/modules/module.py:1783: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/torch/nn/modules/module.py:1794: in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/torch/nn/modules/container.py:259: in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/torch/nn/modules/module.py:1783: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/torch/nn/modules/module.py:1794: in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = Linear(in_features=40, out_features=64, bias=True)
+input = tensor([[ 0.3046, -0.9124, -0.9599,  ...,  0.0000,  0.0000,  0.0000],
+        [-0.1709, -0.8134,  0.1760,  ...,  0.000...5505, -0.8080,  ...,  0.0000,  1.0000,  0.0000],
+        [-0.8791, -0.9036, -0.7847,  ...,  0.0000,  0.0000,  1.0000]])
+
+    def forward(self, input: Tensor) -> Tensor:
+        """
+        Runs the forward pass.
+        """
+>       return F.linear(input, self.weight, self.bias)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       RuntimeError: Expected all tensors to be on the same device, but got mat1 is on cpu, different from other tensors on cuda:0 (when checking argument in method wrapper_CUDA_addmm)
+
+.venv/lib/python3.12/site-packages/torch/nn/modules/linear.py:134: RuntimeError
+=============================== warnings summary ===============================
+tests/test_league.py::test_real_parallel_batch_resumes_without_changing_results
+tests/test_league.py::test_real_parallel_batch_resumes_without_changing_results
+  /usr/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=32864) is multi-threaded, use of fork() may lead to deadlocks in the child.
+    self.pid = os.fork()
+
+tests/test_ppo_cpu_rollouts.py::test_callback_checkpoint_does_not_capture_temporary_methods
+tests/test_ppo_cpu_rollouts.py::test_cpu_collection_gpu_updates_and_failure_restoration
+  /home/hoseon/Desktop/박찬서/RL_KAU_GPU/aircombat-rl/.venv/lib/python3.12/site-packages/stable_baselines3/common/on_policy_algorithm.py:150: UserWarning: You are trying to run PPO on the GPU, but it is primarily intended to run on the CPU when not using a CNN policy (you are using ActorCriticPolicy which should be a MlpPolicy). See https://github.com/DLR-RM/stable-baselines3/issues/1245 for more info. You can pass `device='cpu'` or `export CUDA_VISIBLE_DEVICES=` to force using the CPU.Note: The model will train, but the GPU utilization will be poor and the training might take longer than on CPU.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_league_residual_action_mode.py::test_real_checkpoint_export_relocates_preserves_weights_and_replays
+FAILED tests/test_league_residual_action_mode.py::test_analysis_of_identical_archived_records_cannot_claim_mode_gain
+FAILED tests/test_league_residual_policy.py::test_initial_greedy_identity_distribution_consistency_and_save_load
+3 failed, 343 passed, 1 skipped, 4 warnings in 37.01s

@@ -203,3 +203,37 @@ Smart App Control을 포함한 Windows 보안 설정은 변경하지 않았다.
 
 복원과 완료 단계의 경기 재현 명령은 묶음의 `README.md`를 따른다. `tools.league_assessment_replay`는 과거 컴퓨터의 PID를 쓰지 않고 완료된 단계만 새 출력으로 재실행하며, 결과가 원본과 다른 경우 보고한다. 재현은 독립 시험이 아니다. 이 묶음의 새 후보들은 선발 기준을 통과하지 못했고 최종·미학습 시험은 열지 않았다. 그 뒤의 분리 조합 정책과 실행 결과는 포함하지 않는다. GitHub에는 올리지 않았다.
 
+
+
+## Verified Linux CUDA runtime (2026-10-08)
+
+CUDA learning was verified on the local RTX 5080 with the project-local
+`aircombat-rl/.venv` (PyTorch 2.14.1+cu130). Small DQN/PPO models still run
+faster on CPU. See the [runtime audit](docs/CUDA_RUNTIME_AUDIT_20261008.md)
+for measurements, the optional PPO CPU-collection helper, CEM worker results,
+and reproducible commands. Historical Windows failures and frozen experiment
+settings remain historical records. No new policy was selected by this audit.
+
+
+## Experimental GPU batched simulation (2026-10-08)
+
+A separate optional CUDA backend now batches flight physics, combat and PPO on
+the GPU. It reached about 2.0 million environment steps/s at 4,096 parallel games
+in the controlled hold-action throughput audit. This is not an equivalent-model
+or equal-quality learning speedup: the 120-second float32 trajectory comparison
+failed with maximum position error about 258 m. Official evaluation still uses
+unchanged JSBSim; existing DQN and CEM training entrypoints are unchanged.
+
+See the [implementation and measured limits](docs/GPU_SIMULATION_20261008.md) and
+[installation and commands](aircombat-rl/experiments/gpu_sim/README.md). The new
+PPO checkpoint is an execution demonstration, not a selected champion.
+
+
+## GPU DQN and CEM extension (2026-10-08)
+
+The optional GPU simulation now also has DQN replay learning and CEM population
+search entrypoints. Existing PPO and archived trainers remain unchanged. Both
+new policy formats execute in original JSBSim. The original GPU physics fidelity
+gate is still failed; these are experimental training paths.
+See [DQN/CEM results and limitations](docs/GPU_DQN_CEM_20261008.md) and
+[commands](aircombat-rl/experiments/gpu_sim/README.md#gpu-dqn-and-cem).

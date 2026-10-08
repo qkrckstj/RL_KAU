@@ -1,0 +1,3 @@
+{"generation": 1, "games": 1024, "effective_steps": 1751007, "dispatched_steps": 2458624, "seconds": 6.006763301000319, "best_objective": 1.0006658750018105, "best_game_score": 1.0, "incumbent_objective": 1.0006658750018105}
+{"generation": 2, "games": 2048, "effective_steps": 3295093, "dispatched_steps": 4917248, "seconds": 12.012076588001946, "best_objective": 1.0007277500014753, "best_game_score": 1.0, "incumbent_objective": 1.0006658750018105}
+{"generation": 3, "games": 3072, "effective_steps": 4718109, "dispatched_steps": 7375872, "seconds": 18.021877072998905, "best_objective": 1.0007277500014753, "best_game_score": 1.0, "incumbent_objective": 1.0007277500014753}
