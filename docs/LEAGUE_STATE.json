@@ -5882,7 +5882,7 @@
     "limits": "Experimental physics unchanged. DQN smoke is not a strong policy. CEM started from strong parent; no demonstrated win-rate improvement. Native trainer resume is not implemented."
   },
   "gpu_upload_preparation": {
-    "status": "prepared_for_user_requested_branch_publication",
+    "status": "published_on_separate_branch_draft_pr_2_unmerged",
     "target_repository": "qkrckstj/RL_KAU",
     "target_branch": "feat/gpu-training-upload-20261008",
     "preserved_remote_base": "f63cc95abb593f93c9bb5e1b66b3093fc1d73618",

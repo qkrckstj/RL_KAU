@@ -8,6 +8,10 @@
       "bytes": 2098,
       "sha256": "775b5474f4d41fc14a14435f4d06171fec9dd4307680f226506247a74b3836e9"
     },
+    "publication.json": {
+      "bytes": 481,
+      "sha256": "fe83ae2b1278daef968d40ece580b8ccbce6aedc171cf58fe7045107b3fb421b"
+    },
     "preservation.json": {
       "bytes": 523,
       "sha256": "1a4f2b3d08ed13c2755461a03fd22e1b26ffb1783e83f0c27c01f398cb30e6de"

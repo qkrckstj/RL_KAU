@@ -1,0 +1,12 @@
+{
+  "verified_at": "2026-10-08T10:01:43.831406+00:00",
+  "repository": "qkrckstj/RL_KAU",
+  "branch": "feat/gpu-training-upload-20261008",
+  "verified_gpu_code_commit": "bf6e84dd2c1e7dcb62fed47feda28be6f24483ab",
+  "main_unchanged_at": "f63cc95abb593f93c9bb5e1b66b3093fc1d73618",
+  "pr": "https://github.com/qkrckstj/RL_KAU/pull/2",
+  "draft": true,
+  "merged": false,
+  "issue": "https://github.com/qkrckstj/RL_KAU/issues/1",
+  "models_and_evidence_in_committed_archives": true
+}

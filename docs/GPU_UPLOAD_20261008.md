@@ -1,4 +1,7 @@
-# GPU publication preparation against the latest remote history
+# GPU publication preserving the latest remote history
+
+**Published:** [Draft PR #2](https://github.com/qkrckstj/RL_KAU/pull/2) and [the GPU branch](https://github.com/qkrckstj/RL_KAU/tree/feat/gpu-training-upload-20261008).
+The remote branch commit was verified; `main` remains at `f63cc95`. No merge.
 
 The user explicitly requested publishing the completed GPU work to
 `qkrckstj/RL_KAU` while preserving existing work. The upload branch is
@@ -52,5 +55,6 @@ At preparation time, HTTPS/`gh` authentication was invalid. SSH authenticated as
 was verified. Publication is prepared as a new branch and draft PR only.
 
 The prepared PR body and preservation checks are retained under
-`docs/verification/gpu_upload_20261008/`. This document records preparation;
-remote publication is only confirmed by checking the actual remote commit.
+`docs/verification/gpu_upload_20261008/`. Remote publication was confirmed by matching the uploaded branch commit
+`bf6e84dd2c1e7dcb62fed47feda28be6f24483ab`; later documentation-only commits
+record this confirmation. PR #2 remains draft and unmerged.
