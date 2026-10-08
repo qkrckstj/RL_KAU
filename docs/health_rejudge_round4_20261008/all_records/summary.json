@@ -1,0 +1,1152 @@
+{
+  "rule": "user_terminal_health_round4_v2",
+  "rule_authority": "User correction; not asserted to be verified upstream tournament rules",
+  "rule_text": "At existing terminal boundary: round both health values to four decimals, > win, < loss, equal draw.",
+  "scanned_json_files": 103231,
+  "inventory_totals": {
+    "records": 2356488,
+    "old_win": 1426160,
+    "win": 1563793,
+    "win_to_win": 1426160,
+    "old_draw": 499526,
+    "draw_to_win": 137633,
+    "files_with_records": 92740,
+    "loss": 542802,
+    "draw_to_loss": 112000,
+    "old_loss": 430802,
+    "loss_to_loss": 430802,
+    "draw": 249893,
+    "draw_to_draw": 249893
+  },
+  "errors": [],
+  "panels": {
+    "league_compact_inactive_assess_20261008": {
+      "policies": {
+        "compact_s7800_t1310720_a4900": {
+          "records": 192,
+          "old_draw": 67,
+          "draw": 50,
+          "draw_to_draw": 50,
+          "loss": 12,
+          "draw_to_loss": 4,
+          "old_win": 117,
+          "win": 130,
+          "win_to_win": 117,
+          "draw_to_win": 13,
+          "old_loss": 8,
+          "loss_to_loss": 8,
+          "win_rate": 0.6770833333333334
+        },
+        "compact_s7800_t1310720_a4901": {
+          "records": 192,
+          "old_loss": 11,
+          "loss": 18,
+          "loss_to_loss": 11,
+          "old_draw": 72,
+          "draw": 53,
+          "draw_to_draw": 53,
+          "draw_to_loss": 7,
+          "old_win": 109,
+          "win": 121,
+          "win_to_win": 109,
+          "draw_to_win": 12,
+          "win_rate": 0.6302083333333334
+        },
+        "control_s7400_t2621440_a4900": {
+          "records": 192,
+          "old_draw": 62,
+          "loss": 17,
+          "draw_to_loss": 9,
+          "draw": 45,
+          "draw_to_draw": 45,
+          "old_win": 122,
+          "win": 130,
+          "win_to_win": 122,
+          "draw_to_win": 8,
+          "old_loss": 8,
+          "loss_to_loss": 8,
+          "win_rate": 0.6770833333333334
+        },
+        "control_s7400_t2621440_a4901": {
+          "records": 192,
+          "old_win": 121,
+          "win": 132,
+          "win_to_win": 121,
+          "old_draw": 56,
+          "draw": 38,
+          "draw_to_draw": 38,
+          "loss": 22,
+          "draw_to_loss": 7,
+          "old_loss": 15,
+          "loss_to_loss": 15,
+          "draw_to_win": 11,
+          "win_rate": 0.6875
+        },
+        "extend_cem_s6800_g3_c9": {
+          "records": 192,
+          "old_draw": 61,
+          "draw": 37,
+          "draw_to_draw": 37,
+          "old_loss": 13,
+          "loss": 29,
+          "loss_to_loss": 13,
+          "draw_to_loss": 16,
+          "win": 126,
+          "draw_to_win": 8,
+          "old_win": 118,
+          "win_to_win": 118,
+          "win_rate": 0.65625
+        }
+      },
+      "identity_conflicts": [],
+      "sources": [
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0000.json",
+          "sha256": "3079b633853f76bfa42ba17a938c51382654ee5c3c8d26991f13596ad5307926"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0001.json",
+          "sha256": "570d415741a00e68703ed36a343a649454fb46dff8cdef9372526da8eb4fa234"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0002.json",
+          "sha256": "b1a8e73c0524eb0ec018055cdd246fc1e9f4523c48a81a5d05645ca2982d2864"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0003.json",
+          "sha256": "c702ea6679dbf4aa9e542a02b880b62e2ff585af8fda69e1a8ed2d23e4a5971a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0004.json",
+          "sha256": "7c71be9e004089f2b919f89095fc48d70bb21fd56883538744f5abfd1c9773c5"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0005.json",
+          "sha256": "01ad31227909550a3c2d15a4ba8f59ef520b973ce2489f60da8eb135fe9aa5b8"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0006.json",
+          "sha256": "84e8ac2bb8cd9f41dcddd08540f995022f028f375bdf6a2fe456418c2bde6fc7"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0007.json",
+          "sha256": "ac96e66b35195024819b96cdb9961d0594588fa26883578559d6daa6136acbea"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0008.json",
+          "sha256": "025c0fff64b5f59b0a523096d46b624c25e52479bbfce2c65c602c06fad06903"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0009.json",
+          "sha256": "95ac4c954114168f79f2e0aa80b2f600a889749f108b3da3915230a30b68d8d2"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0010.json",
+          "sha256": "0086236c38833e10159bdc0d74b921d2cc7600e924d88c64391b5310523ec3be"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0011.json",
+          "sha256": "83316714ce1c97448b3bb3d03e936e212886a7022a8e9be74ab93781c6c897a4"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0012.json",
+          "sha256": "1c701429bfe1054363593c9fb667c4b7814e6d90ac4837ca96d602ea4fd9175f"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0013.json",
+          "sha256": "9e3b485dc1c2b33c365aa4cabc61413a2868f4683a1125434d3056d4584aa01b"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0014.json",
+          "sha256": "7025a8476ebdcffbbfda87e616b2f9a328ce29f2164b2af4a261334e0d6cefd2"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0015.json",
+          "sha256": "d8b5cfe394ecd87fa5f3c697ed6a2829556da9a09291b0c89f4c75629198129c"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0016.json",
+          "sha256": "758fa84b221b339490de56a6d0937c210288c4f7f7b4f7661da64653fcc04c3a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0017.json",
+          "sha256": "30b1c29393de7d0aa4caa901ec45fc343034807f83a3bdec648d9a9bc3198e51"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0018.json",
+          "sha256": "6d9af5a5d4a2ca390a9c242b6317a1ef9e4a1ac2a126a08f391a643e3011e54c"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0019.json",
+          "sha256": "20dee29a5bf4814091c42926b696cf25d117117a7bc5578aaa098b128e74a0ca"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0020.json",
+          "sha256": "71ab737fc364498772d4537dfa8ec590f59cf1034eb2a0f8544cb21d8741784d"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0021.json",
+          "sha256": "a24d882414e51b34b69ffeec4d4c237c70a60414bf75ab7b21e2cd07cb71ae35"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0022.json",
+          "sha256": "a6e8717e0fedcaf5f1bdd804f816dff580e5f6a4e23300577536c6fe1f2ebe65"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0023.json",
+          "sha256": "27aacc0bce1135dae89528c400291f445003fa6aa3c74de17618affe45168ef1"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0024.json",
+          "sha256": "973dd4930e8693fe977ad7c8cfa34352c3522393c626092d87599030c51df612"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0025.json",
+          "sha256": "cdcd6cffb4cf3fa15005dd8e7a7800d2ce1aab9130f56491a5b4207a5462f4e6"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0026.json",
+          "sha256": "2ffe3abeba952a2e36663573a360b646e2986a5d3790cf7483593a047abda156"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0027.json",
+          "sha256": "c523932e91e84eddae7a6c840f335e3382386398e39e4258ccae80ada68bcead"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0028.json",
+          "sha256": "815dfa751bd8a7fbc04351a01a40e7607bcb057af057360c6ebefa55c09c6947"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0029.json",
+          "sha256": "2a9be325d01bbabdd70ca480ab429fbc544fe3030350f6d171e251af8073ce91"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0030.json",
+          "sha256": "a6903563f2a52dbc0fec4196fd985e4c58230d066215ef04bb71a3eea65240f1"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0031.json",
+          "sha256": "4462245715469900af98737456a8910e329e728ee3a624c50978b2f93cd24ee6"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0032.json",
+          "sha256": "2eb8656d5e560df1c7d1fd142385594804e192dda744286e553ee0aefe33fb95"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0033.json",
+          "sha256": "bd640edaab0e67c14f4c0fcac9d3c9d1d8bbc1e6e66930ddc0bea04503ba983f"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0034.json",
+          "sha256": "60856ca83641febfb50725276c4ddb0981c28f3a5ed143007d4ea45b168779e2"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0035.json",
+          "sha256": "e875cba05a460a60c580fe088034a78d6c6636f767a86d6a98e9676165d83ffd"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0036.json",
+          "sha256": "37f75f28eda7204fd764efff045a1756dbb96deaf1061e66ca30ec0616d546b9"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0037.json",
+          "sha256": "8269714145c668323650d220b513691759c87617e052261c2bf5642f3930c75b"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0038.json",
+          "sha256": "d1c771c8c78478498f66c2edfa076a737684d954c33c1481a91ce759bc513f0a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0039.json",
+          "sha256": "e632eccab5459784880a92a52c1871bb90f2e2428135b0475d949138f53b9e20"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0040.json",
+          "sha256": "c328144c395d322491e20c9bda5f45f0fa070acc31b1a10d19d938bd44d93bed"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0041.json",
+          "sha256": "4bb122fe2e047b55070cd57721b207267e492029581b906a6e3798a9d530aa67"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0042.json",
+          "sha256": "299469a7a297db30eb7396fe6622c99707eea38cae80238acf18d5a6fbe38193"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0043.json",
+          "sha256": "0166dc26d0869e4361cb610d4f9ca2f8c12f44dcaf467e961549a6537b31723b"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0044.json",
+          "sha256": "d5b436d6cc95c6f9881a62aa75692b5d70c4f70b61ceb8b48ff0263772c3f4b1"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0045.json",
+          "sha256": "185c16724a7f93c6fe7023c6cd7afd99080b61f80a8a37633028bcf2aefce38a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0046.json",
+          "sha256": "cd4244f0f55c989cca525ac4b42a59792623cb0767d8264052de426903b02a90"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0047.json",
+          "sha256": "fe3d3a6e58749eb7125127981670987b2bfddf535b1c305182b3d1af8c75b864"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0048.json",
+          "sha256": "7759bc7df3be6ee21fd99434df5cd8033771b9a0ca4228dfb13e3f06db7133d7"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0049.json",
+          "sha256": "eebaf877285889f03a820576aad9117dbc3fbd6b8bc385c04075c2a705ff34d1"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0050.json",
+          "sha256": "99ee80a88a7eae9c08346d2dc28a8552f2bff015252501dc48e3ffd02c3da481"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0051.json",
+          "sha256": "395aace79e1ac3c9ae76881d5fca361bb16bc77dacb31955d1f6e3da7db56a62"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0052.json",
+          "sha256": "60a1ebfdfc179375e6e1c886fa62dd2ad68d4ede5f081964320a4172c69473ea"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0053.json",
+          "sha256": "53850d1da3b73a8917495cf037789f3cc013ef34738f469a7fe929dff49e7f15"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0054.json",
+          "sha256": "caaf351b3b5fd1a1558de77da1ca9313128bf36225a4e4ff166980128794c220"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0055.json",
+          "sha256": "9a2d29026720e86b5fece375cbd37b90ac8528fcebc1d28eb87b5770797f35e6"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0056.json",
+          "sha256": "99162965a27714a61a90ba1d3307fb0cc177de61b9834f444f76a5042be08d1c"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0057.json",
+          "sha256": "b806134857f26ab13e0f0280dc4ac4a0c0a72ce6e77feec30e7817ef686f5c9d"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0058.json",
+          "sha256": "5708c232336c30a807ca6372ea3dfa89ab11368cb019a71785356117ce7cdadd"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0059.json",
+          "sha256": "100741ffebfd82994f070b6ba30b1713c1b29d221e975f80c7fbb0b8205d56cd"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0060.json",
+          "sha256": "939c0006dad1540396dd8d69dda93bf5eea289fe5dc31ae04ba3b1a3bf89e117"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0061.json",
+          "sha256": "e6aadfabc2541f08b9a4c9ee6c32d1764ad7f8b64ec77d29df81fa049ce902f5"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0062.json",
+          "sha256": "2c4a91fe89ca348929310fa43d0ba9c295213bcb6baf0124c5e19bab7494de01"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0063.json",
+          "sha256": "10e60e211ff58f8a8d96748592f99e1784905c6872bdf68cdaab05674caba3ee"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0064.json",
+          "sha256": "28f4b557fc2df51ff37b855a41cb0a5ca5d1f9dbcbd5368921698f2ebaa0d77d"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0065.json",
+          "sha256": "2923259c0e4bcc09975c69a95d07b6cc2c24cdbeda38d892715f03bef9c2dbc0"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0066.json",
+          "sha256": "17af3a63a36498b9c1561c6dcb01dc2023ddaa2f285ff199aaf66ef0f73c1cb5"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0067.json",
+          "sha256": "c0b4930e0080a6c9f9079531b7ae0acea41593273aa5e28aa05d1c8eec09c10a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0068.json",
+          "sha256": "783694699a5ced78a6551afce086380b6aa06aa4887a558d098a1c1db4e4c501"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0069.json",
+          "sha256": "c570021c2c5f28010aff695b8d405568f60c88c3065fc678bbbaa23bb8778c82"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0070.json",
+          "sha256": "f0344ec3fc1ba302a01ff398bcadbc4d8bf54540b105377715d6761ed9aa3fee"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0071.json",
+          "sha256": "f600d5df62ad9b63b767899d03a67c110f22a3405de1966cdc062bf9eea766c7"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0072.json",
+          "sha256": "edd0e80a5f5aa2370acf2a68b7569752df3efb8857083896af67a9cf50444c8f"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0073.json",
+          "sha256": "e3ac62520df3d3a591a2208c6b3ce00d0c58209d67c37d503fffa632a24091bc"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0074.json",
+          "sha256": "43b5f134283ef6a8f8dc5bc845a9b9e26aafd06a88f27112f962bc6d46488fc4"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0075.json",
+          "sha256": "2400d5174762f0142fe0d2569f0ea9a047bcc68c302805d0334053055234a32f"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0076.json",
+          "sha256": "a40c1ab84b364360ddef3c79a7502ac05b30e43b87fcdad51692fe89c39f876f"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0077.json",
+          "sha256": "ea23cfba685889340d269b9cd05f98e6cc1c9b9bf1a328c2f421d9da25b7c7c0"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0078.json",
+          "sha256": "eefb4c678b1d0dea17479d4607b342636c7db8d74d615ad7efe11384183ea0b1"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0079.json",
+          "sha256": "a573e1f6f1b56252dca8aba3b2599ff07535541b08705d8de14a28f73f11f65a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0080.json",
+          "sha256": "d5e243f71f2d4ccaa3e7098bf53fc508d54f1350241c4a260f1716676058bf3b"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0081.json",
+          "sha256": "d5414c966440f966f7e4f225b2c38662a03bcb6eb9318582eb910f65e9822e07"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0082.json",
+          "sha256": "c832f6da6ee1a898b0a52297a6e31c7f78aada0b2e9069253d1d68717b5b675c"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0083.json",
+          "sha256": "a6fc64b7ee34c2890f83bf0c235af185501b4182abab16121f010c0a6fb182e2"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0084.json",
+          "sha256": "9398f01f3d08295ec28f7f3c4edb14bce325854d53864b51b28ff3f26500f7cd"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0085.json",
+          "sha256": "2bb03b4ef3a8f80a381f553df63819d1d37eb45c5715671a039e90c44dd63800"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0086.json",
+          "sha256": "db25742cf92adfc0a1f0dde1936f3438ffe5e61b50156250a9a353677b1dafaf"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0087.json",
+          "sha256": "2f5079cf975968e6c1f5d6f31d642492c32128c315576f8f37e5f0b11cae500a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0088.json",
+          "sha256": "eae7d787f3f782bfe41fec86603021bdf6f5a6be1ff8a9302325a7d940b3d03b"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0089.json",
+          "sha256": "fb225aec03b6c0712a848f55aa9cb91ff8b45e7b7afacf9abac2118807799936"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0090.json",
+          "sha256": "575af6294dcf4fa1040ccb087cbe1e42bce5e18ce0b976877cc5266fe4e6edee"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0091.json",
+          "sha256": "35ef1d0f296f56922309e00a828e53866bef8a48a64ba2899f356a045d24094e"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0092.json",
+          "sha256": "693a3554391077b70a4ca800aff475e768c0148b719077256a17d707e82ab3c2"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0093.json",
+          "sha256": "39127c0a2e8d2f4c8a9e93f734fecc2eee886d17a3f003832691300860016647"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0094.json",
+          "sha256": "04162c29c1bac6a64f9f02e1dd3f90069c863bd72f425f59d1502420b469004a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0095.json",
+          "sha256": "4b91d10ed776d705ed1f426f4d1ab051f3bfbdb2a8a439821d222bd6bb307c11"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0096.json",
+          "sha256": "7e37d164c58a1d5757c45fc6ad708411b89f8680d839272bfe95ce8bcacfdcd5"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0097.json",
+          "sha256": "2e57ff3c77ff10e0af7763f5c1cb3e221858a0dcf04e6ffd8973a7614908a7e1"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0098.json",
+          "sha256": "d02bb4aa77f689e21135c75aed758229f4cdaaa26caf5ce101d6c01402b341b0"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0099.json",
+          "sha256": "6bc1dab5138680286dcf3ebcd126622fa8b4f79735f93d45f1c8477f64608019"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0100.json",
+          "sha256": "38e12a4ab55e60225f3500ad1faa296cfeb483b97acb01c4fab79cf39a3887c0"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0101.json",
+          "sha256": "eb650a8315472b385472e04327fba2ae5a1a1f89f4ad5cfc5904c7a99d414cc2"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0102.json",
+          "sha256": "299c534c77687c2f4842c7e1504bd88bbfb587eb1155bcb574339e76ccc2aa9d"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0103.json",
+          "sha256": "ad8a3bceacf2ec9e5b797b044a03a0162f600a5fc68035ccd9fd3c7d20a2a251"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0104.json",
+          "sha256": "2074f437b07ba0f141f4f86c7fdd6f5430f6509418e413c5aad7ca2e2ee99911"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0105.json",
+          "sha256": "36b242c47e581c62e72084a46b105092b266d609b2b248a25202385cf8b3a24b"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0106.json",
+          "sha256": "706517907a5cd00b90af6fa75fe0ebb3495f672766e96939109d07045e56470a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0107.json",
+          "sha256": "7579dadfe7b1c0511635ec44186de303357210be65681863dc376549c8f1354f"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0108.json",
+          "sha256": "f37271392d1ff6e801288ed92874220431b69d11d0f09ffea1246d22de1b173d"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0109.json",
+          "sha256": "da70663f19f3998fe4cf8c055affa7ab29ecb01a968d0a80edd74b5fcbbe321e"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0110.json",
+          "sha256": "e277c064a503f886f0fc328e3be95ba8e2059e318ea1d763f12f2a35ffb375ab"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0111.json",
+          "sha256": "b9162accf3a97112f9facdb45fa6610b3398556503e5f0520e105fa01a5b2021"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0112.json",
+          "sha256": "d01f38c75f8f1419de98039f3d8d9d2bc5bc048ca14afe3101ad986ed72891d3"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0113.json",
+          "sha256": "b68851ffc2771efc66fdcd530ee9751ec0b8bf2ae1f86f8b0d3a63e953406a03"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0114.json",
+          "sha256": "39806f567dc59f19c64be9efe344bb5a87362d05a7717dcfc62ba039abebd0b4"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0115.json",
+          "sha256": "e99fe74ea7eb94b05545ff95b141fc1e08eb9f6fe226f232b9cf471e5a197530"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0116.json",
+          "sha256": "c6798c84d748d8fa5580b708f58c008ac76b0207a0b8ec5aee9737953e0bf307"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0117.json",
+          "sha256": "cb83cea27f909e8ca89c9be19946ebbcd8ad3557c3bbe8c67db0834c8eb7c64d"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0118.json",
+          "sha256": "f910af9b1e0ceef3e39682ba26f740461a352fb2893d1d20e17ad83db339ff76"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_inactive_assess_20261008/matches/match_0119.json",
+          "sha256": "b19a43b78a67cdf61243ae11ac48889150c2e3f787b67286fe69f880e3c6df3e"
+        }
+      ]
+    },
+    "league_compact_rotated_assess_20261008": {
+      "policies": {
+        "rotated_s7801_t1310720_a4900": {
+          "records": 192,
+          "old_loss": 21,
+          "loss": 29,
+          "loss_to_loss": 21,
+          "old_draw": 69,
+          "draw": 35,
+          "draw_to_draw": 35,
+          "old_win": 102,
+          "win": 128,
+          "win_to_win": 102,
+          "draw_to_win": 26,
+          "draw_to_loss": 8,
+          "win_rate": 0.6666666666666666
+        },
+        "rotated_s7801_t1310720_a4901": {
+          "records": 192,
+          "old_loss": 23,
+          "loss": 26,
+          "loss_to_loss": 23,
+          "old_draw": 56,
+          "draw_to_loss": 3,
+          "win": 135,
+          "draw_to_win": 22,
+          "draw": 31,
+          "draw_to_draw": 31,
+          "old_win": 113,
+          "win_to_win": 113,
+          "win_rate": 0.703125
+        },
+        "control_s7400_t2621440_a4900": {
+          "records": 192,
+          "old_loss": 26,
+          "loss": 30,
+          "loss_to_loss": 26,
+          "old_draw": 56,
+          "draw": 34,
+          "draw_to_draw": 34,
+          "old_win": 110,
+          "win": 128,
+          "win_to_win": 110,
+          "draw_to_loss": 4,
+          "draw_to_win": 18,
+          "win_rate": 0.6666666666666666
+        },
+        "control_s7400_t2621440_a4901": {
+          "records": 192,
+          "old_loss": 25,
+          "loss": 31,
+          "loss_to_loss": 25,
+          "old_draw": 66,
+          "draw": 41,
+          "draw_to_draw": 41,
+          "win": 120,
+          "draw_to_win": 19,
+          "draw_to_loss": 6,
+          "old_win": 101,
+          "win_to_win": 101,
+          "win_rate": 0.625
+        },
+        "extend_cem_s6800_g3_c9": {
+          "records": 192,
+          "old_win": 129,
+          "win": 135,
+          "win_to_win": 129,
+          "old_draw": 42,
+          "draw": 32,
+          "draw_to_draw": 32,
+          "old_loss": 21,
+          "loss": 25,
+          "loss_to_loss": 21,
+          "draw_to_loss": 4,
+          "draw_to_win": 6,
+          "win_rate": 0.703125
+        }
+      },
+      "identity_conflicts": [],
+      "sources": [
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0000.json",
+          "sha256": "84d02b9c260f5632cbcd6bacfaf4303dbcf0d72acb3c2cffa129352771654350"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0001.json",
+          "sha256": "0396637a8447736963c272b412272e64095557dd0438b0d39b3566c4e38ae4b6"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0002.json",
+          "sha256": "dbdc980dc53f647654a5fe202c27e2aee6ab4720bfd9b9dcac53f1a87075e49f"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0003.json",
+          "sha256": "1669ba57dfc0ea3406bc44a7d0f0d0bdbe4f9d9583ef781b4e463f8908977745"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0004.json",
+          "sha256": "8d1e654f6ff2985d3f4066cc464b0510e96e21adcb3abce262215a0f971320ce"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0005.json",
+          "sha256": "673166058d2d6d3b0d26cfda415c41e7ef16cb3df02d6b46ff939905fbc3f517"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0006.json",
+          "sha256": "30ad8a3cd2a066062607b22262db063721158d7f0e9d1a9d9b297d8e1d849948"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0007.json",
+          "sha256": "f2ff65eb9878ec95b2b908e2f3a3beb3d6f221a8d28af1e31b490c67d004dd4e"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0008.json",
+          "sha256": "b24ef37c3afff0197e230bea895bd4bc0143201b3a527934333e2a8496186c77"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0009.json",
+          "sha256": "aed54d362f17215fa573685b0799acdc8c80b8cac0b91b0e0116212a9878c78a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0010.json",
+          "sha256": "60905b594c3aa5a3c77a8728da717c8073c635f47830eb619dc16e6630f4a6fd"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0011.json",
+          "sha256": "c03e32a93bdb3be131380da2ae27eceb873fc31341eb00466be6ab9f51fda067"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0012.json",
+          "sha256": "cf83635b14a99c44ba0ee30245d271d6cdc2b193946188c338eeb1063880e0b8"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0013.json",
+          "sha256": "15d3f8f78da91e99103c5aa26259d85e6b9526bb00181bf0c8331e5fe38f0a2e"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0014.json",
+          "sha256": "ca3fb1958546df973c43389e13d21bea7aa3d1ba00657aa0ce038f5319516e3f"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0015.json",
+          "sha256": "4d9148d14df79d81c2722447883387e2a2c9f83478d4a0055bb36e76314eba40"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0016.json",
+          "sha256": "b92c814b5cc4531064083e99d8e3dda1868250f5ca86700342537a062f866ab2"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0017.json",
+          "sha256": "393f4d5dcbe9a027bce1ce7d25300d19ed9b1464e777357fb65dd7b8ad3c62a8"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0018.json",
+          "sha256": "2ff0587f007b2f962688b350b7b3d51f9c6867f061452128050c17b0ac52332b"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0019.json",
+          "sha256": "4b6c54262319c1cfe2d9d9d92090efe8ce1876ce785fd77bf583d2bdc5561cf6"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0020.json",
+          "sha256": "46b4ed375aebae898684654ca3c9e2adaa74928e3b13a4d70be5755b329f0b7e"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0021.json",
+          "sha256": "4b7f685ffdf12130581fead3c46c6c3119aeca93d003f8e093c1a16e9bc8e040"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0022.json",
+          "sha256": "67a6119c9e09fd984a689907897a81ec8c7fa68367269f5aa06c3fa0c413e783"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0023.json",
+          "sha256": "19a4cf4f2ca158a360ec9d6ad9219ba4339cf263d0c0d822217143a294a682b3"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0024.json",
+          "sha256": "daf5a77e9c143b7eef8e90bf5047c28d8c1a73998ba254ee91c8fd3985d31997"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0025.json",
+          "sha256": "9ac9fed32684b7a6cf9505e639befb5e82d6e6ab8b48f40b7b048d0d659f23cb"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0026.json",
+          "sha256": "3a93ce328b4329cb61a06609a835996b23cde2da8db73c8f6161e886b94c9569"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0027.json",
+          "sha256": "9efb498a0bbed3c11d20bd53df24c21c8278f6900406b4fa5531326b04a86d94"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0028.json",
+          "sha256": "18c5bf7c7a3602ed88e51064d91a0bdd44966f796eee1b75fe166aa1ebc2092c"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0029.json",
+          "sha256": "2569a5105782ab6234f8a1eae0603bb14d4e53cac58852f21030769a2503cd35"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0030.json",
+          "sha256": "453377fcc3da44c6ee53d58d41027fdcae9c3285ae1c0dd9ba6f546a9f944760"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0031.json",
+          "sha256": "9934322e4a1163ee8b418c2a417cd51631ee568dff55fad1a010f76f9f02aabd"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0032.json",
+          "sha256": "371c979f3927f6047b4a0bd7adcbdf9694ebd3337e82f599aa3bc3e5d7703ff0"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0033.json",
+          "sha256": "64be50e5a59c24a70722fb74394f608503b0626afbcb14915b9c4c795d93f4e4"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0034.json",
+          "sha256": "1b206126170c640fe0c85c8b706ca5037bf84e0f11c04e413310a8186b3f3d39"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0035.json",
+          "sha256": "697edbca36d4e277c66bc0d099bdb927796020930b696fb28490f954b37fcb62"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0036.json",
+          "sha256": "75e937623e8396d702aaec556860ae920d1596cd3ce18048b2716d6830e14b09"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0037.json",
+          "sha256": "e2923d47de6fa2575ac3a1e740d7c3e1b4d083781aa2ee58de57e5875c9e215d"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0038.json",
+          "sha256": "301ad4683f9b7179273279ff4be01c9f2bcca90f8b7da2d2343d3e0256787851"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0039.json",
+          "sha256": "07737ebb5c1d219b8172348f9748b57d0aaa6ad94a6ca23103e33a334fa3b322"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0040.json",
+          "sha256": "08df60ba836180fc4be97227a7a6b0501f3231adc5bd94cd1847c0af31d37d13"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0041.json",
+          "sha256": "1b61321f0324f1921492f461a7599e109a8f418ab3110b1812e041f5f47d2cd8"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0042.json",
+          "sha256": "69817ea3d3773fa2d12bbdb7d9164090f211706113b9c3ecd29429246eaab578"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0043.json",
+          "sha256": "d39e206243f48128ed7cf2d27f27a5c0ada91b61f887bb97bf64e62877acfe42"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0044.json",
+          "sha256": "d5bfec935d17e49d3d2dc4b7c2e3f9870c29f3847116db5c38d78cc9b6801912"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0045.json",
+          "sha256": "5a3ff313819ce06bec6218d42ce8921927b35e9368dc636ab621a0dd9c8a415c"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0046.json",
+          "sha256": "c0149b4b0c09d5ec01887efa836043a5918d452b86f3214a8b38323a1b94c8b3"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0047.json",
+          "sha256": "5abe90c5f0dc17f6deb1948078a3837ad00e076556a9863723c61cf83f1f1450"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0048.json",
+          "sha256": "a59d730c64b1a7789d8591a5b4fb392ca46d59eefeb514da594a72135a9e9553"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0049.json",
+          "sha256": "59377380db762576353636a2db1c3b0565ff025328565135d700fbfc13473980"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0050.json",
+          "sha256": "1afa6f49a459950f523d565a87413d9ae436851ac157d11e7e370992439651d0"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0051.json",
+          "sha256": "a914e05073c5b4eb683ab331cfcad8672ea0df78ce288508a632fcb0c4f300f1"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0052.json",
+          "sha256": "9b4499ea60d3b834815a0ab4b704684ce3ca10780afb3dc6dad928e9edaac627"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0053.json",
+          "sha256": "79445a1c4575e9377bb08d8787c11a083a862edf6bda489b07e3ed98ac54f053"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0054.json",
+          "sha256": "0a79b14fd2dd3e509f28f7f2b9f65c0e4bb20247dd29715c9b2bfc91ab2cfacb"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0055.json",
+          "sha256": "212ece8118282581d2371b9ab64a4c93368ba62ec7b3ec9cfc6f4e35d4c6ca28"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0056.json",
+          "sha256": "c4fe841c3d662bd46a079c47dfd5d33c917a94e62d7927c6f07b55e7791f5691"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0057.json",
+          "sha256": "bde5b4c7c3e59f6c5d5c2ec080015a54f84768104a738e6e5fbe0e64e3aca938"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0058.json",
+          "sha256": "e0bb1b8a011d3c17c7a7a810a9628629769ea575e7f01c4f8504409c6823c54c"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0059.json",
+          "sha256": "65c7bfe02995d5f916920ef8885c3195f3b1d50328a2f70cf0063ed55604a8bb"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0060.json",
+          "sha256": "c5eb0f83092fd0f61c58d793d6c914028a9e5a4386751a6e15da7c52d1cf0eb9"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0061.json",
+          "sha256": "7e815e358e6785112fe737c61d95d4a8cf2b84960b73ecf67e8bc77692ff2515"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0062.json",
+          "sha256": "a8b65c6a777dba657faceb6a1f033ed8159f28e6d26f98d8552377d9d8a79e21"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0063.json",
+          "sha256": "61d756b0d2a09d2dd7c157e9d8c7b1bb817b0082b32cdebef77c62e74c6fa628"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0064.json",
+          "sha256": "7c6c80930a8440b91dddcdf89e8d70b749e59c254bbe1d3d77d9078a402c8b80"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0065.json",
+          "sha256": "93f3aed0c2855f8205986eeaa93614566e7534904a407809489046b90ce0cd72"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0066.json",
+          "sha256": "967877923843f4aaa0cd7ed17a84e368964377db1b03c6bffe93371f2f3c57fe"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0067.json",
+          "sha256": "e7cb07adfeb8f40854d928655e0624240b0ff8a1e80365c9449283e1f919c62a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0068.json",
+          "sha256": "7305b97b0ed3b26a38727fb5814efc2d8b79190408f8e5d03db748dd8237c232"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0069.json",
+          "sha256": "c208dc780a04c4cf7bbf62c37acb83fc99c7a804823e4cf9df6a5e7fc09eb3bb"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0070.json",
+          "sha256": "aa944d5df207e07feac845fbe5d227314b200033c67bd5556cc6a9b67182216a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0071.json",
+          "sha256": "76452cf91339e3664687d885ab1f9229105d807ee07bb839181e11f16451f711"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0072.json",
+          "sha256": "af981c854e228cd0df574424141eb731e64040190d5198cccb6c0c86176eec35"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0073.json",
+          "sha256": "df422a0482a0b5200575a255c9a140f64a9683d1a39f3c8d25f81c9c75e25608"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0074.json",
+          "sha256": "936802dfb22449ba665dfc1ebb08709be446b7e909378762d5a95b6a57141bd3"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0075.json",
+          "sha256": "6fedd5b5ebbf2e3b60bf8f1c431239cd7cd2bd503a4c70640f612f64419116bd"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0076.json",
+          "sha256": "a15248807117fee5a617bef7d58d6fbe6fba0fa4b4020b4be7260aeabd9093fe"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0077.json",
+          "sha256": "576547f6f3627083346f9d7f48f56993f7eb6c9ca3fa1c775dc29082323ac8e8"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0078.json",
+          "sha256": "48d831b1bd5351a0931602a0d2872549005eac9c1f4d45ae3fbf00c5045b9f4e"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0079.json",
+          "sha256": "57e6b1357a41c0b40df574f656955692d9be5051d9f4ba5f515e00c6d0d4a772"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0080.json",
+          "sha256": "1c92da98f85f55d6af46d262aa55d28d4fbbbc06a80e2ed285abef6acc28952b"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0081.json",
+          "sha256": "929b743cd524b5521bd292274cdd26d374fa356282ec15289690e08576ee2480"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0082.json",
+          "sha256": "2d634ed899366c4f7dff99cfed64c461fdbf2853561142cb46d2ff72a36e3df9"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0083.json",
+          "sha256": "77744550d72f46a30834130c5c669dbd53a7278130f6908ca8e08bce00ef6759"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0084.json",
+          "sha256": "fd5417c8f50d35a384987185bcd643eb8c5c62127f95e04916d0a8e4af157904"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0085.json",
+          "sha256": "f58e8ab0ea6e038ec4058d52b5c3b433c5ca6e7b964c5015f80f05d63017bb3f"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0086.json",
+          "sha256": "84fbaf16d5ae5c60e882d68e8ad683e7125a2aecacc85a5840ba7b86d353aef7"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0087.json",
+          "sha256": "c69ea50ac227769c998337844e5d3a4f44e03b590fe8b6e08ec0dab5f52766c4"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0088.json",
+          "sha256": "dba4961319c2a1040de8f620e8ca5ae5528493f9f954309ed1480027da482d6f"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0089.json",
+          "sha256": "a27e3d9d05659ced3a923f398888228f37f73f2b44cfdf93e51d3c2fd9abfb82"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0090.json",
+          "sha256": "ad103e87b6659b694beeb8d99f651c52052572a106aec65d36482ea1e77e0809"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0091.json",
+          "sha256": "0d70845c547ab2176fd29d255ac981a289c275d542560193efad74c7a8dba0f5"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0092.json",
+          "sha256": "bef6f95f69ca5954d921aa6925b5157a9daaf21d25bf9e304ebc69746aa36a86"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0093.json",
+          "sha256": "0b6d561afcb7df8d6005345c2073f231cba313df7743f717070a09b8e144adb7"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0094.json",
+          "sha256": "33e4af06ef371d384243bf25f1f18ba5354a5d43840381ef4011dceec577443a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0095.json",
+          "sha256": "b37d8bf0c9e5bda9846a08de6770865beeae4f89c6fa6702bdc1d9dff50b757e"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0096.json",
+          "sha256": "a024ab8992cec06e5601116418af54bfd87645ba0c5159f0315187cc017071a1"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0097.json",
+          "sha256": "ef75208207053897506cefb18fa0b1d4a1a5c05daeac24127f713dc0d7f61134"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0098.json",
+          "sha256": "6a2a2d0f27098dbab1535a1a5f39ac8f4e68f1fa655dba5d90eb26ae476ad99b"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0099.json",
+          "sha256": "5ca44aba2a393d085d3e7c947a54567b625f5935561e70cf36e24a551f09f20d"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0100.json",
+          "sha256": "9c32ddb2e419c66a836442211b531ffff90e0d527ac5a4146c955ecbc2ffeef7"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0101.json",
+          "sha256": "4620a07cb7a074898b1a0205f6ad457c8b240356cea260f0816a2b77ee8fc56c"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0102.json",
+          "sha256": "1a4bcc04fe126bd7ae1161ddb8a27911cc9aacef55d6d32d845422df65119dcd"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0103.json",
+          "sha256": "5de37aaf6ccd199747fa52f82a62c3a7de8691631ff28f5e08d9d210db353357"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0104.json",
+          "sha256": "80185eb9028b01772502dee713127f3cb56f6a85a0ebaca83bba1a6e36d51505"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0105.json",
+          "sha256": "8367f8a474f1111e23703e2fabf49601a67e7d2011ed44b163340793bdb1187a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0106.json",
+          "sha256": "2690482cae3f12de805fc25159809cc6bd8df279a96f639823354be654b823d9"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0107.json",
+          "sha256": "a725c3a4ad750596ffe8a204a99d17541360697ba816e6ac380b658839e486cd"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0108.json",
+          "sha256": "9785e83fb68dc96cfddcccb0e3ac145e042c3ba74c219f0e9972fac344af1808"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0109.json",
+          "sha256": "8c9283032064c60cca2d55b3c7be74e88bf4105b0e0e531879748b614cb69a20"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0110.json",
+          "sha256": "ec73f183905d433197398f225301a1333df8b7c3a3d108030620c072263bf6ca"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0111.json",
+          "sha256": "8958e56001b23f37e5f3fdca96e5b449e7dad33278a13375bbeb49eb9e5eddae"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0112.json",
+          "sha256": "38163f99aa5bc6bdf4218b2e84c4aa854e145ff29c4aa0b9dd1254280cd1a57c"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0113.json",
+          "sha256": "db2b67df7797ad4a76c5460f7cd0971bb8170fc0209a405e79c53d220d483522"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0114.json",
+          "sha256": "c069f4ea7110ea7eb172db6aab9624d3607830614e0c7991a00cacfb5e800274"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0115.json",
+          "sha256": "68148be478b50120937911793e25c3e220712194fdfcdc50414206a37a697bea"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0116.json",
+          "sha256": "4cc595681ff5f1bee769cf5045b60f3b85eb09f28a03572984c7cd080eeb0b98"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0117.json",
+          "sha256": "1209c8261bd545d83029dcc44596d36c9f8d14e3fc6c9ae9a5c084402064bf0a"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0118.json",
+          "sha256": "882b43c89ad9c8172646bf0b145211e4611b2c97080461d2321eda860b7debee"
+        },
+        {
+          "path": "aircombat-rl/runs/league_compact_rotated_assess_20261008/matches/match_0119.json",
+          "sha256": "d2819dc0527ed273ec69cc3d6bb54094b0e6f95edd93afe40c8f7a591c6d7917"
+        }
+      ]
+    }
+  },
+  "scope": "All readable local runs JSON except source/replay snapshots. Inventory may include repeated training/development/test/smoke records: NEVER interpret its totals as pooled win rate or independent games. Only panels use canonical match identities.",
+  "limitation": "Equal rounded values are draws by user instruction. These are historical rescores, not new independent tests. Non-JSON/missing/outside-runs records are not covered.",
+  "training_started": false,
+  "historical_files_modified": false
+}

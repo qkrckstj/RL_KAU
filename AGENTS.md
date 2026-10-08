@@ -1,3 +1,5 @@
+> **2026-10-08 승패 기준 정정:** 최신 계획은 [종료 체력 기준 자동 학습 계획](docs/ADAPTIVE_TRAINING_PLAN_HEALTH_V1.md)을 따른다. 사용자가 종료 시 체력 우열로 승패를 정정했다. 양쪽 체력은 소수점 네 자리로 반올림하고 같으면 무승부로 처리한다. 구코드의 시간 초과/2% 생존 무승부 판정을 공식 과제 규칙으로 단정하지 않는다. 구판정 승률·모델 추천은 역사적 결과이며 재판정 전에는 새 기준 선택에 쓰지 않는다. 원본 물리와 동결 기록은 보존하고 새 판정 버전을 별도로 구현한다. 이번 작업은 재집계·필요한 재생·계획 작성이며 본 학습은 아직 재개하지 않았다. GitHub 업로드는 별도 요청 때만 한다.
+
 # Project context for a new agent
 
 **User paused all autonomous training/evaluation on2026-10-08. Do not resume it until explicitly requested.** Read `docs/MODEL_CHOICE_AND_PAUSE_20261008.md`. The user authorized publication of current work and that recommendation; this does not restore permission for automatic future GitHub uploads.

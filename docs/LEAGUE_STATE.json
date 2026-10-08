@@ -1,16 +1,15 @@
 {
-  "updated_at": "2026-10-08T09:20:03.285263+00:00",
-  "objective": "Improve a policy against diverse archived/local policies under unchanged official FairFight rules; preserve prior models and evaluate on disjoint conditions.",
-  "overall_objective_status": "paused_by_user",
+  "updated_at": "2026-10-08T11:12:12.681815+00:00",
+  "objective": "Improve diverse-opponent win rate under user_terminal_health_v1, preserving original FairFight physical dynamics and archived legacy outcomes.",
+  "overall_objective_status": "training_paused_rejudgment_and_adaptive_plan_complete",
   "completed_batch": "league_compact_rotated_assess_20261008",
   "batch_status": "960games_exit0_raw_verified",
-  "evaluation_status": "small_positive_gain_but_action_rng_ci_crosses_zero_no_promotion",
+  "evaluation_status": "legacy_verdict_results_not_valid_as_new_rule_ranking_until_rejudged",
   "method": "Assess development-retained extra-budget PPO7601 versus source7400,pureteacher and CEM; source aliases deduplicated.",
   "current_experiment": {
-    "name": "paused",
-    "status_at_last_check": "no_live_training_or_assessment",
-    "last_completed": "league_compact_policy_drift_20261008",
-    "last_result": "32 consumed games exactly reproduced;2361 public states analyzed"
+    "name": "health_rule_rejudgment_round4_20261008",
+    "status_at_last_check": "completed_no_training_started",
+    "summary": "103231 JSON files inspected;92740 files/2356488 possibly duplicated records rejudged;0 read/health errors;latest112M/113M canonical panels summarized"
   },
   "selected_policy": "intercept_s2500_g3_c6",
   "selected_before_final_test": true,
@@ -5626,7 +5625,7 @@
     "completed_experiment": false
   },
   "compact_roster_report": "docs/COMPACT_LEAGUE_20261008.md",
-  "next_action": "Do not start/resume training,assessment or automation until explicit user request. Read docs/MODEL_CHOICE_AND_PAUSE_20261008.md. Baseline7400 remains reference;rotated7801 retained as research candidate;compact7800 archive/comparison only. Current explicit authorization covers this GitHub publication only.",
+  "next_action": "Implement versioned rounded-health adjudication across environment, rewards, evaluation and selection before any resumed training; then choose the new-rule starting model under the adaptive plan.",
   "completed_compact_training": {
     "name": "compact48_opponent_ppo",
     "run_folder": "aircombat-rl/runs/league_compact_ppo_train_20261008",
@@ -5788,5 +5787,20 @@
       0.0729166666666666
     ]
   },
-  "publication_request": "User explicitly requested pause and upload current work plus three-model recommendation on2026-10-08"
+  "publication_request": "User explicitly requested pause and upload current work plus three-model recommendation on2026-10-08",
+  "health_rule_migration": {
+    "rule": "user_terminal_health_round4_v2",
+    "authority": "user correction, not externally verified official tournament scoring",
+    "plan": "docs/ADAPTIVE_TRAINING_PLAN_HEALTH_V1.md",
+    "historical_outcomes_preserved": true,
+    "past_recommendations": "provisional_pending_health_rejudgment",
+    "runtime_rule_implemented": false,
+    "github_upload_automatic": false,
+    "rounded_equal_health": "draw, explicitly requested by user",
+    "exact_tie_replay": "stopped; no longer required",
+    "latest_rejudged_panels": "docs/health_rejudge_round4_20261008/latest_panels.json",
+    "provisional_interpretation": "compact7800 below7400 on112M; rotated7801 above7400 on113M; CEM6800 highest of these113M entries. No global promotion or new-rule CI yet.",
+    "report": "docs/health_rejudge_round4_20261008/REPORT.md"
+  },
+  "selection_status": "legacy selected_policy is historical, not a promotion under user_terminal_health_round4_v2"
 }

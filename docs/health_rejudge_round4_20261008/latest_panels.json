@@ -1,0 +1,139 @@
+{
+  "rule": "user_terminal_health_round4_v2",
+  "rows": [
+    {
+      "panel": "league_compact_inactive_assess_20261008",
+      "role": "candidate",
+      "policy_ids": [
+        "compact_s7800_t1310720_a4900",
+        "compact_s7800_t1310720_a4901"
+      ],
+      "records": 384,
+      "old_draw": 139,
+      "draw": 103,
+      "draw_to_draw": 103,
+      "loss": 30,
+      "draw_to_loss": 11,
+      "old_win": 226,
+      "win": 251,
+      "win_to_win": 226,
+      "draw_to_win": 25,
+      "old_loss": 19,
+      "loss_to_loss": 19,
+      "old_win_rate": 0.5885416666666666,
+      "win_rate": 0.6536458333333334
+    },
+    {
+      "panel": "league_compact_inactive_assess_20261008",
+      "role": "repeat",
+      "policy_ids": [
+        "control_s7400_t2621440_a4900",
+        "control_s7400_t2621440_a4901"
+      ],
+      "records": 384,
+      "old_draw": 118,
+      "loss": 39,
+      "draw_to_loss": 16,
+      "draw": 83,
+      "draw_to_draw": 83,
+      "old_win": 243,
+      "win": 262,
+      "win_to_win": 243,
+      "draw_to_win": 19,
+      "old_loss": 23,
+      "loss_to_loss": 23,
+      "old_win_rate": 0.6328125,
+      "win_rate": 0.6822916666666666
+    },
+    {
+      "panel": "league_compact_inactive_assess_20261008",
+      "role": "cem",
+      "policy_ids": [
+        "extend_cem_s6800_g3_c9"
+      ],
+      "records": 192,
+      "old_draw": 61,
+      "draw": 37,
+      "draw_to_draw": 37,
+      "old_loss": 13,
+      "loss": 29,
+      "loss_to_loss": 13,
+      "draw_to_loss": 16,
+      "win": 126,
+      "draw_to_win": 8,
+      "old_win": 118,
+      "win_to_win": 118,
+      "old_win_rate": 0.6145833333333334,
+      "win_rate": 0.65625
+    },
+    {
+      "panel": "league_compact_rotated_assess_20261008",
+      "role": "candidate",
+      "policy_ids": [
+        "rotated_s7801_t1310720_a4900",
+        "rotated_s7801_t1310720_a4901"
+      ],
+      "records": 384,
+      "old_loss": 44,
+      "loss": 55,
+      "loss_to_loss": 44,
+      "old_draw": 125,
+      "draw": 66,
+      "draw_to_draw": 66,
+      "old_win": 215,
+      "win": 263,
+      "win_to_win": 215,
+      "draw_to_win": 48,
+      "draw_to_loss": 11,
+      "old_win_rate": 0.5598958333333334,
+      "win_rate": 0.6848958333333334
+    },
+    {
+      "panel": "league_compact_rotated_assess_20261008",
+      "role": "repeat",
+      "policy_ids": [
+        "control_s7400_t2621440_a4900",
+        "control_s7400_t2621440_a4901"
+      ],
+      "records": 384,
+      "old_loss": 51,
+      "loss": 61,
+      "loss_to_loss": 51,
+      "old_draw": 122,
+      "draw": 75,
+      "draw_to_draw": 75,
+      "old_win": 211,
+      "win": 248,
+      "win_to_win": 211,
+      "draw_to_loss": 10,
+      "draw_to_win": 37,
+      "old_win_rate": 0.5494791666666666,
+      "win_rate": 0.6458333333333334
+    },
+    {
+      "panel": "league_compact_rotated_assess_20261008",
+      "role": "cem",
+      "policy_ids": [
+        "extend_cem_s6800_g3_c9"
+      ],
+      "records": 192,
+      "old_win": 129,
+      "win": 135,
+      "win_to_win": 129,
+      "old_draw": 42,
+      "draw": 32,
+      "draw_to_draw": 32,
+      "old_loss": 21,
+      "loss": 25,
+      "loss_to_loss": 21,
+      "draw_to_loss": 4,
+      "draw_to_win": 6,
+      "old_win_rate": 0.671875,
+      "win_rate": 0.703125
+    }
+  ],
+  "all_latest_panel_identities_unique": true,
+  "tests_passed": 6,
+  "training_started": false,
+  "tie_replay_required": false
+}

@@ -1,0 +1,7 @@
+{
+  "rule": "user_terminal_health_round4_v2",
+  "tests": "4 unittest methods passed: user examples, inverse seats, rounded ties, invalid health, episode extraction",
+  "rejudge_script_sha256": "6a570ed4e714785811d600a37b8704ab319a2a3893d0969b0d2202dadb95855e",
+  "new_training_started": false,
+  "publication": "Verification is independent of publication; consult Git history for the published revision."
+}
