@@ -1,0 +1,124 @@
+{
+  "source": "runs/league_extend_parameter_train_20261007",
+  "opponents": [
+    {
+      "id": "switching_periodic_fast",
+      "kind": "submission",
+      "design": "experiments/league/switching_audit_20261008/periodic_fast",
+      "weights": "experiments/league/switching_audit_20261008/periodic_fast/policy_net.zip"
+    },
+    {
+      "id": "switching_periodic_slow",
+      "kind": "submission",
+      "design": "experiments/league/switching_audit_20261008/periodic_slow",
+      "weights": "experiments/league/switching_audit_20261008/periodic_slow/policy_net.zip"
+    },
+    {
+      "id": "switching_range_close",
+      "kind": "submission",
+      "design": "experiments/league/switching_audit_20261008/range_close",
+      "weights": "experiments/league/switching_audit_20261008/range_close/policy_net.zip"
+    },
+    {
+      "id": "switching_range_wide",
+      "kind": "submission",
+      "design": "experiments/league/switching_audit_20261008/range_wide",
+      "weights": "experiments/league/switching_audit_20261008/range_wide/policy_net.zip"
+    },
+    {
+      "id": "switching_turn_sensitive",
+      "kind": "submission",
+      "design": "experiments/league/switching_audit_20261008/turn_sensitive",
+      "weights": "experiments/league/switching_audit_20261008/turn_sensitive/policy_net.zip"
+    },
+    {
+      "id": "switching_turn_strong",
+      "kind": "submission",
+      "design": "experiments/league/switching_audit_20261008/turn_strong",
+      "weights": "experiments/league/switching_audit_20261008/turn_strong/policy_net.zip"
+    },
+    {
+      "id": "switching_threat_close",
+      "kind": "submission",
+      "design": "experiments/league/switching_audit_20261008/threat_close",
+      "weights": "experiments/league/switching_audit_20261008/threat_close/policy_net.zip"
+    },
+    {
+      "id": "switching_threat_wide",
+      "kind": "submission",
+      "design": "experiments/league/switching_audit_20261008/threat_wide",
+      "weights": "experiments/league/switching_audit_20261008/threat_wide/policy_net.zip"
+    }
+  ],
+  "experts": [
+    {
+      "id": "extend_parameter_baseline",
+      "kind": "submission",
+      "design": "runs/league_extend_parameter_train_20261007/baseline",
+      "weights": "runs/league_extend_parameter_train_20261007/baseline/policy_net.zip"
+    },
+    {
+      "id": "extend_cem_s6800_g3_c9",
+      "kind": "submission",
+      "design": "runs/league_extend_parameter_train_20261007/s6800/g03/c09/policy",
+      "weights": "runs/league_extend_parameter_train_20261007/s6800/g03/c09/policy/policy_net.zip"
+    },
+    {
+      "id": "extend_cem_s6801_g1_c9",
+      "kind": "submission",
+      "design": "runs/league_extend_parameter_train_20261007/s6801/g01/c09/policy",
+      "weights": "runs/league_extend_parameter_train_20261007/s6801/g01/c09/policy/policy_net.zip"
+    }
+  ],
+  "outcomes_observed": false,
+  "synthetic_bundling_reset_checks": 19200,
+  "source_sha256": {
+    "experiments/league/extend_parameter_policy.py": "99f12340c1e39beca759d537b1173e2003d407b67685e4223be644134298f821",
+    "experiments/league/switching_audit_policy.py": "b4d06c46090a8d3888801d990858a77cb602fdfbc0c0719a2962adc5ac02c75f",
+    "tools/league_switching_audit_panel.py": "86efa03f4a7c39fae0b7f3fffa084f8c5fe024918f424e5e0f5908f8969681bf"
+  },
+  "input_sha256": {
+    "experiments/league/switching_audit_20261008/periodic_fast/entrant.json": "0b1f3ba2f51db44062a4e1a72a98982a33b7c806fa6853effa1d5f4fd596a08d",
+    "experiments/league/switching_audit_20261008/periodic_fast/parameters.json": "75537402f1ced70e61abc9ae2913fa50710bd0c1fdc3f9bc310b169887581528",
+    "experiments/league/switching_audit_20261008/periodic_fast/policy.py": "61fb7eb182e25bd762a667baef33c20bdcfc4066577b4c8d6ce0ed8e62af44af",
+    "experiments/league/switching_audit_20261008/periodic_fast/policy_net.zip": "6abe85f7f82eef36e1124ad407398cc7bc12cfc59ef78684b78bdb717d73fb12",
+    "experiments/league/switching_audit_20261008/periodic_fast/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/switching_audit_20261008/periodic_slow/entrant.json": "0b8ee833e7e8313c6b8eebe186cdae6517512862ae1471c6a3f104ee8019047c",
+    "experiments/league/switching_audit_20261008/periodic_slow/parameters.json": "55b2655a7074e69eb7da96171d593ea58f153e3023c38ae4b3dd1e7001a7ec66",
+    "experiments/league/switching_audit_20261008/periodic_slow/policy.py": "61fb7eb182e25bd762a667baef33c20bdcfc4066577b4c8d6ce0ed8e62af44af",
+    "experiments/league/switching_audit_20261008/periodic_slow/policy_net.zip": "1a815c9d842ef8c4150170179d71d64748877161907ff39f70dddaa5386e94bc",
+    "experiments/league/switching_audit_20261008/periodic_slow/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/switching_audit_20261008/range_close/entrant.json": "c9c8f658dbfadb184b80682c7844dc5fef4aca10e411c2c8bea6fe15f2d4d0a4",
+    "experiments/league/switching_audit_20261008/range_close/parameters.json": "942d31c5052fa0ae9448174d7c822f58fcb9c043c448665b9ebcd974221a2041",
+    "experiments/league/switching_audit_20261008/range_close/policy.py": "61fb7eb182e25bd762a667baef33c20bdcfc4066577b4c8d6ce0ed8e62af44af",
+    "experiments/league/switching_audit_20261008/range_close/policy_net.zip": "c1103dcc97836d1090b38e49494d524e973857e94bc51880bdd473e3cf5fa58f",
+    "experiments/league/switching_audit_20261008/range_close/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/switching_audit_20261008/range_wide/entrant.json": "f4ecd8815b7b9ef06449860cbe5f0ebea6ded0ee5bfd8629deacfd841348be9d",
+    "experiments/league/switching_audit_20261008/range_wide/parameters.json": "7d7e335ea0c6086e1539082b68302cdadb810634e10f7595fad4d967ca3eb9a4",
+    "experiments/league/switching_audit_20261008/range_wide/policy.py": "61fb7eb182e25bd762a667baef33c20bdcfc4066577b4c8d6ce0ed8e62af44af",
+    "experiments/league/switching_audit_20261008/range_wide/policy_net.zip": "036ba4ef3ca64cd1d6c7d1ef72a90dab0b5172708bbd23d788f210c42d86776f",
+    "experiments/league/switching_audit_20261008/range_wide/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/switching_audit_20261008/threat_close/entrant.json": "7e73833ed202e10f126468bc5034df68437b9af9079943251947a8716d8d8fde",
+    "experiments/league/switching_audit_20261008/threat_close/parameters.json": "1173ef7ddca1ece0314f99828fc7aebfc8b713399cb8f4077446d5fdd4a5a310",
+    "experiments/league/switching_audit_20261008/threat_close/policy.py": "61fb7eb182e25bd762a667baef33c20bdcfc4066577b4c8d6ce0ed8e62af44af",
+    "experiments/league/switching_audit_20261008/threat_close/policy_net.zip": "8d032e533aa2ae2f88b28ab7e22e2defc0680ce9fae455f2a2f978503ae18278",
+    "experiments/league/switching_audit_20261008/threat_close/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/switching_audit_20261008/threat_wide/entrant.json": "3f15574cc012aaa1dc4421b663db32f58d728162cf8268c5868afaa64a85cae6",
+    "experiments/league/switching_audit_20261008/threat_wide/parameters.json": "24a80d4edbe69f6d5f4d13a23fa6220a51e1cef318622954b61682705ba1df87",
+    "experiments/league/switching_audit_20261008/threat_wide/policy.py": "61fb7eb182e25bd762a667baef33c20bdcfc4066577b4c8d6ce0ed8e62af44af",
+    "experiments/league/switching_audit_20261008/threat_wide/policy_net.zip": "326076336fe565848f488b594cd7a98e3fba5ee5e1ee4142b6cda81e8fe24ba3",
+    "experiments/league/switching_audit_20261008/threat_wide/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/switching_audit_20261008/turn_sensitive/entrant.json": "d0ebad12ffa47a76a136e52aff87ec4ae2646bec709dcde163b7e70ee0bcdb03",
+    "experiments/league/switching_audit_20261008/turn_sensitive/parameters.json": "3eba7d7bcc999013e1b4637242729c821ad9a64073208ab3c26f9705d8c35596",
+    "experiments/league/switching_audit_20261008/turn_sensitive/policy.py": "61fb7eb182e25bd762a667baef33c20bdcfc4066577b4c8d6ce0ed8e62af44af",
+    "experiments/league/switching_audit_20261008/turn_sensitive/policy_net.zip": "ed2fc35d16f1ce753a92bd3a8907ae1cc8174d3c5a618718972a3a1a64f392fd",
+    "experiments/league/switching_audit_20261008/turn_sensitive/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/switching_audit_20261008/turn_strong/entrant.json": "1e7e89c83124e6b971771140c794c1876e4d781a92c83cb6351b1889a6748fa7",
+    "experiments/league/switching_audit_20261008/turn_strong/parameters.json": "4ac439a73368c3e039a6291be6befc0350b43b7b3e7cb1b36ffad921835ab579",
+    "experiments/league/switching_audit_20261008/turn_strong/policy.py": "61fb7eb182e25bd762a667baef33c20bdcfc4066577b4c8d6ce0ed8e62af44af",
+    "experiments/league/switching_audit_20261008/turn_strong/policy_net.zip": "9037be38ae285d32c95b513c5e37a66ca5ecd5f6a45336c10ff6f9d42004ae10",
+    "experiments/league/switching_audit_20261008/turn_strong/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "runs/league_extend_parameter_train_20261007/raw_parameter_analysis.json": "3e403755be3b0c3d67f3ef4bbb25f83eab2a8b712a08dd94ac61d90b1446b968"
+  },
+  "scope": "Eight untrained switching rules over three previously exposed frozen controllers. New compositions/rules,not independent architectures or wholly unseen expert components. Public observations and time only; all expert states warmed on actual prefix. No match outcomes observed at freeze; no opponent selection/tuning from candidate performance. Future use for learning consumes this panel."
+}

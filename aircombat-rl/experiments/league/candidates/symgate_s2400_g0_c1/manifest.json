@@ -1,0 +1,21 @@
+{
+  "policy": "symgate_s2400_g0_c1",
+  "stage": "final_criterion_failed_evader_uncertainty",
+  "champion_promoted": false,
+  "source_design": "runs/league_symmetric_20261006/s2400/g0/models/c1",
+  "files": {
+    "__pycache__/policy.cpython-312.pyc": "28877ae33b54abb03715eaa54338f95e6393c0677199dc7c9b0f50a07dfb26f5",
+    "evidence/final_candidate_000.json": "b68cf07b02ab80883345569cb0fb4c6c078207ed6fe928f4e6a72fa72cc158a2",
+    "evidence/final_candidate_001.json": "0db5a6fc1ea9f444399d47bc5afcee7824a562b11c93b0b9fbd5a5cd0db13ba0",
+    "evidence/final_completion.json": "eb08ed71e3bc3a260ffb4b461313c352b3255b466af92277982906266bbde751",
+    "evidence/frozen_selection.json": "1dbebbc0c7d336e456419469760211bdd6407106e301a3bd14d4f50c96874444",
+    "evidence/packaging_check.json": "0c284095367f0811a5171297e889ca7b3f0ff7f895ea755a16d496934d1f6251",
+    "evidence/plan.json": "bb6f26ce4d201b9f1df404025744f2691a18084fbf54f11fcf7f70a66f02b47e",
+    "evidence/search_comparison.json": "49f97960209e330757f7f079147a669523bd64c18eaa11f707d985b5d6f6036e",
+    "policy.py": "47fb4a1a449afb2e48bcba33963287cb0513337f1335f3934365ecbb0e5ba253",
+    "policy_net.json": "29484f6566f7c82212ba30978ac92f0765ad33084e4dbaa1057ca1f8cb33ca90",
+    "policy_net.zip": "9987331a3d1ed23fbbdcf8864ebe36ebe96cbc238d33107927df8544d9d7bbf5",
+    "README.md": "fa2ba798b0580afac58817237af22f42f853f092f5ae774ad44b75d88dcfc00a",
+    "wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e"
+  }
+}

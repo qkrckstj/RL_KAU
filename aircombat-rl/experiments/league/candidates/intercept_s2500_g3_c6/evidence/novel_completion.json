@@ -1,0 +1,463 @@
+{
+  "status": "audit_complete",
+  "selected": {
+    "id": "intercept_s2500_g3_c6",
+    "kind": "submission",
+    "design": "runs/league_interception_train_20261006/s2500/g3/models/c6",
+    "weights": "runs/league_interception_train_20261006/s2500/g3/models/c6/policy_net.zip"
+  },
+  "selected_before_test": true,
+  "model_selection_performed": false,
+  "metrics": [
+    {
+      "objective": 0.339609375,
+      "mean_win_rate": 0.3734375,
+      "mean_score": 0.47968750000000004,
+      "worst_score": 0.0,
+      "lower_quarter_score": 0.00625,
+      "health": -0.08150000000000002,
+      "games": 640,
+      "steps": 955972
+    },
+    {
+      "objective": 0.6939062500000001,
+      "mean_win_rate": 0.7062499999999999,
+      "mean_score": 0.7875,
+      "worst_score": 0.38125,
+      "lower_quarter_score": 0.515625,
+      "health": 0.5190874999999999,
+      "games": 640,
+      "steps": 768786
+    },
+    {
+      "objective": 0.6939062500000001,
+      "mean_win_rate": 0.7062499999999999,
+      "mean_score": 0.7875,
+      "worst_score": 0.38125,
+      "lower_quarter_score": 0.515625,
+      "health": 0.5190874999999999,
+      "games": 640,
+      "steps": 768786
+    }
+  ],
+  "gain_vs_parent": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "shared_initial_conditions": 40,
+    "scope": "IC-cluster bootstrap, both seats and all fixed opponents kept together; conditional on learned policies"
+  },
+  "gain_vs_original": {
+    "mean": 0.3328125,
+    "ci95": [
+      0.2859375,
+      0.3796875
+    ],
+    "shared_initial_conditions": 40,
+    "scope": "IC-cluster bootstrap, both seats and all fixed opponents kept together; conditional on learned policies"
+  },
+  "per_opponent": {
+    "novel_opening_left": {
+      "parent": {
+        "n": 80,
+        "kills": 13,
+        "rate": 0.1625,
+        "t_kill": 63.3,
+        "outcomes": {
+          "died": 32,
+          "kill": 13,
+          "mutual": 35
+        },
+        "own_health": 0.0194,
+        "opp_health": 0.0407,
+        "wez_time": 4.56,
+        "wez_time_foe": 4.79,
+        "engaged": 1.0,
+        "first_wez": 37.8,
+        "longest_track": 3.64,
+        "min_range": 28,
+        "out_of_bounds": 0.0,
+        "wins": 13,
+        "losses": 32,
+        "draws": 35,
+        "score": 0.38125
+      },
+      "chosen": {
+        "n": 80,
+        "kills": 13,
+        "rate": 0.1625,
+        "t_kill": 63.3,
+        "outcomes": {
+          "died": 32,
+          "kill": 13,
+          "mutual": 35
+        },
+        "own_health": 0.0194,
+        "opp_health": 0.0407,
+        "wez_time": 4.56,
+        "wez_time_foe": 4.79,
+        "engaged": 1.0,
+        "first_wez": 37.8,
+        "longest_track": 3.64,
+        "min_range": 28,
+        "out_of_bounds": 0.0,
+        "wins": 13,
+        "losses": 32,
+        "draws": 35,
+        "score": 0.38125
+      },
+      "win_gain": 0.0
+    },
+    "novel_opening_right": {
+      "parent": {
+        "n": 80,
+        "kills": 51,
+        "rate": 0.6375,
+        "t_kill": 35.7,
+        "outcomes": {
+          "died": 26,
+          "kill": 51,
+          "mutual": 1,
+          "timeout": 2
+        },
+        "own_health": 0.5628,
+        "opp_health": 0.1541,
+        "wez_time": 3.63,
+        "wez_time_foe": 1.84,
+        "engaged": 1.0,
+        "first_wez": 29.3,
+        "longest_track": 3.42,
+        "min_range": 295,
+        "out_of_bounds": 0.0,
+        "wins": 51,
+        "losses": 26,
+        "draws": 3,
+        "score": 0.65625
+      },
+      "chosen": {
+        "n": 80,
+        "kills": 51,
+        "rate": 0.6375,
+        "t_kill": 35.7,
+        "outcomes": {
+          "died": 26,
+          "kill": 51,
+          "mutual": 1,
+          "timeout": 2
+        },
+        "own_health": 0.5628,
+        "opp_health": 0.1541,
+        "wez_time": 3.63,
+        "wez_time_foe": 1.84,
+        "engaged": 1.0,
+        "first_wez": 29.3,
+        "longest_track": 3.42,
+        "min_range": 295,
+        "out_of_bounds": 0.0,
+        "wins": 51,
+        "losses": 26,
+        "draws": 3,
+        "score": 0.65625
+      },
+      "win_gain": 0.0
+    },
+    "novel_lag_fast": {
+      "parent": {
+        "n": 80,
+        "kills": 45,
+        "rate": 0.5625,
+        "t_kill": 45.5,
+        "outcomes": {
+          "died": 21,
+          "kill": 45,
+          "timeout": 14
+        },
+        "own_health": 0.2763,
+        "opp_health": 0.1698,
+        "wez_time": 4.16,
+        "wez_time_foe": 3.91,
+        "engaged": 0.988,
+        "first_wez": 23.7,
+        "longest_track": 2.72,
+        "min_range": 94,
+        "out_of_bounds": 0.0,
+        "wins": 45,
+        "losses": 21,
+        "draws": 14,
+        "score": 0.65
+      },
+      "chosen": {
+        "n": 80,
+        "kills": 45,
+        "rate": 0.5625,
+        "t_kill": 45.5,
+        "outcomes": {
+          "died": 21,
+          "kill": 45,
+          "timeout": 14
+        },
+        "own_health": 0.2763,
+        "opp_health": 0.1698,
+        "wez_time": 4.16,
+        "wez_time_foe": 3.91,
+        "engaged": 0.988,
+        "first_wez": 23.7,
+        "longest_track": 2.72,
+        "min_range": 94,
+        "out_of_bounds": 0.0,
+        "wins": 45,
+        "losses": 21,
+        "draws": 14,
+        "score": 0.65
+      },
+      "win_gain": 0.0
+    },
+    "novel_lead_moderate": {
+      "parent": {
+        "n": 80,
+        "kills": 80,
+        "rate": 1.0,
+        "t_kill": 41.3,
+        "outcomes": {
+          "kill": 80
+        },
+        "own_health": 0.7688,
+        "opp_health": 0.0,
+        "wez_time": 4.95,
+        "wez_time_foe": 1.65,
+        "engaged": 1.0,
+        "first_wez": 25.1,
+        "longest_track": 3.41,
+        "min_range": 129,
+        "out_of_bounds": 0.0,
+        "wins": 80,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      },
+      "chosen": {
+        "n": 80,
+        "kills": 80,
+        "rate": 1.0,
+        "t_kill": 41.3,
+        "outcomes": {
+          "kill": 80
+        },
+        "own_health": 0.7688,
+        "opp_health": 0.0,
+        "wez_time": 4.95,
+        "wez_time_foe": 1.65,
+        "engaged": 1.0,
+        "first_wez": 25.1,
+        "longest_track": 3.41,
+        "min_range": 129,
+        "out_of_bounds": 0.0,
+        "wins": 80,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      },
+      "win_gain": 0.0
+    },
+    "novel_offset_left": {
+      "parent": {
+        "n": 80,
+        "kills": 76,
+        "rate": 0.95,
+        "t_kill": 69.3,
+        "outcomes": {
+          "kill": 76,
+          "timeout": 4
+        },
+        "own_health": 0.8121,
+        "opp_health": 0.0141,
+        "wez_time": 4.85,
+        "wez_time_foe": 1.64,
+        "engaged": 1.0,
+        "first_wez": 24.5,
+        "longest_track": 3.18,
+        "min_range": 182,
+        "out_of_bounds": 0.0,
+        "wins": 76,
+        "losses": 0,
+        "draws": 4,
+        "score": 0.975
+      },
+      "chosen": {
+        "n": 80,
+        "kills": 76,
+        "rate": 0.95,
+        "t_kill": 69.3,
+        "outcomes": {
+          "kill": 76,
+          "timeout": 4
+        },
+        "own_health": 0.8121,
+        "opp_health": 0.0141,
+        "wez_time": 4.85,
+        "wez_time_foe": 1.64,
+        "engaged": 1.0,
+        "first_wez": 24.5,
+        "longest_track": 3.18,
+        "min_range": 182,
+        "out_of_bounds": 0.0,
+        "wins": 76,
+        "losses": 0,
+        "draws": 4,
+        "score": 0.975
+      },
+      "win_gain": 0.0
+    },
+    "novel_offset_right": {
+      "parent": {
+        "n": 80,
+        "kills": 80,
+        "rate": 1.0,
+        "t_kill": 30.3,
+        "outcomes": {
+          "kill": 80
+        },
+        "own_health": 1.0,
+        "opp_health": 0.0,
+        "wez_time": 4.25,
+        "wez_time_foe": 0.02,
+        "engaged": 1.0,
+        "first_wez": 25.0,
+        "longest_track": 3.9,
+        "min_range": 379,
+        "out_of_bounds": 0.0,
+        "wins": 80,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      },
+      "chosen": {
+        "n": 80,
+        "kills": 80,
+        "rate": 1.0,
+        "t_kill": 30.3,
+        "outcomes": {
+          "kill": 80
+        },
+        "own_health": 1.0,
+        "opp_health": 0.0,
+        "wez_time": 4.25,
+        "wez_time_foe": 0.02,
+        "engaged": 1.0,
+        "first_wez": 25.0,
+        "longest_track": 3.9,
+        "min_range": 379,
+        "out_of_bounds": 0.0,
+        "wins": 80,
+        "losses": 0,
+        "draws": 0,
+        "score": 1.0
+      },
+      "win_gain": 0.0
+    },
+    "novel_defensive_left": {
+      "parent": {
+        "n": 80,
+        "kills": 71,
+        "rate": 0.8875,
+        "t_kill": 45.7,
+        "outcomes": {
+          "died": 5,
+          "kill": 71,
+          "mutual": 4
+        },
+        "own_health": 0.3758,
+        "opp_health": 0.0285,
+        "wez_time": 4.79,
+        "wez_time_foe": 2.73,
+        "engaged": 0.988,
+        "first_wez": 25.3,
+        "longest_track": 3.3,
+        "min_range": 105,
+        "out_of_bounds": 0.0,
+        "wins": 71,
+        "losses": 5,
+        "draws": 4,
+        "score": 0.9125
+      },
+      "chosen": {
+        "n": 80,
+        "kills": 71,
+        "rate": 0.8875,
+        "t_kill": 45.7,
+        "outcomes": {
+          "died": 5,
+          "kill": 71,
+          "mutual": 4
+        },
+        "own_health": 0.3758,
+        "opp_health": 0.0285,
+        "wez_time": 4.79,
+        "wez_time_foe": 2.73,
+        "engaged": 0.988,
+        "first_wez": 25.3,
+        "longest_track": 3.3,
+        "min_range": 105,
+        "out_of_bounds": 0.0,
+        "wins": 71,
+        "losses": 5,
+        "draws": 4,
+        "score": 0.9125
+      },
+      "win_gain": 0.0
+    },
+    "novel_defensive_right": {
+      "parent": {
+        "n": 80,
+        "kills": 36,
+        "rate": 0.45,
+        "t_kill": 75.1,
+        "outcomes": {
+          "kill": 36,
+          "timeout": 44
+        },
+        "own_health": 1.0,
+        "opp_health": 0.2553,
+        "wez_time": 3.76,
+        "wez_time_foe": 0.0,
+        "engaged": 0.963,
+        "first_wez": 40.7,
+        "longest_track": 2.75,
+        "min_range": 865,
+        "out_of_bounds": 0.0,
+        "wins": 36,
+        "losses": 0,
+        "draws": 44,
+        "score": 0.725
+      },
+      "chosen": {
+        "n": 80,
+        "kills": 36,
+        "rate": 0.45,
+        "t_kill": 75.1,
+        "outcomes": {
+          "kill": 36,
+          "timeout": 44
+        },
+        "own_health": 1.0,
+        "opp_health": 0.2553,
+        "wez_time": 3.76,
+        "wez_time_foe": 0.0,
+        "engaged": 0.963,
+        "first_wez": 40.7,
+        "longest_track": 2.75,
+        "min_range": 865,
+        "out_of_bounds": 0.0,
+        "wins": 36,
+        "losses": 0,
+        "draws": 44,
+        "score": 0.725
+      },
+      "win_gain": 0.0
+    }
+  },
+  "scope": "New parameter variants in an existing controller family, not independent human submissions or exhaustive tactics.",
+  "next": "Review all raw outcomes; audit completion alone does not establish improvement."
+}

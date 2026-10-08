@@ -1,0 +1,26 @@
+{
+  "experts": [
+    {
+      "chase_bonus": 0.0,
+      "cooldown_seconds": 8.652957221715717,
+      "cruise_speed": 542.2950222940169,
+      "escape_angle": 30.16087999800733,
+      "escape_seconds": 9.425711225887339,
+      "lead_seconds": 3.2285112181231868,
+      "trigger_range": 1482.50912004749
+    },
+    {
+      "chase_bonus": 14.980432444467809,
+      "cooldown_seconds": 7.246492138983214,
+      "cruise_speed": 508.3342851556025,
+      "escape_angle": 37.023562748213806,
+      "escape_seconds": 13.399112095780294,
+      "lead_seconds": 3.394874618302454,
+      "trigger_range": 1496.4727986463436
+    }
+  ],
+  "mode": "periodic",
+  "threshold": 12.0,
+  "dwell": 1.0,
+  "offset": 6.0
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "missing-file detection",
+    "split-archive restoration including Unicode path",
+    "hash verification",
+    "idempotent restoration",
+    "existing-different-file protection",
+    "corrupt-part rejection"
+  ],
+  "training_started": false
+}

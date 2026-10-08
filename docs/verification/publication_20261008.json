@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "manifest_sha256": "a1976b745f0b2a01aa77832d9ff3938a55dfa88c77ffc3b7ed382f3f67e2eab5",
+  "manifest_files": 112450,
+  "unique_archive_blobs_verified": 88251,
+  "restored_checkpoint_files": 64,
+  "runtime": {
+    "models": [
+      {
+        "checkpoint": "aircombat-rl/runs/league_rate_ppo_train_20261008/control/s7400/checkpoints/step_2621440/",
+        "states": 128,
+        "max_relative_logit_error": 1.9073486328125e-06,
+        "optimizer_loaded": true
+      },
+      {
+        "checkpoint": "aircombat-rl/runs/league_compact_ppo_train_20261008/compact/s7800/checkpoints/step_1310720/",
+        "states": 128,
+        "max_relative_logit_error": 1.9073486328125e-06,
+        "optimizer_loaded": true
+      },
+      {
+        "checkpoint": "aircombat-rl/runs/league_compact_rotated_train_20261008/rotated/s7801/checkpoints/step_1310720/",
+        "states": 128,
+        "max_relative_logit_error": 1.9073486328125e-06,
+        "optimizer_loaded": true
+      }
+    ],
+    "relocated_source": true,
+    "simulations": 0,
+    "training_steps": 0
+  },
+  "scope": "All archive blobs/parts and native manifest files hash-verified; three checkpoints and captured state sample restored in a separate staged checkout. This does not claim all raw files were materialized there or any new flight/training was run."
+}

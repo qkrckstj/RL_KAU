@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-06T18:31:42.369935+09:00",
+  "frozen_plans": [
+    {
+      "path": "runs/league_20261006/main/plan.json",
+      "source_files": 33,
+      "input_files": 5,
+      "status": "passed"
+    },
+    {
+      "path": "runs/league_adaptive_20261006/plan.json",
+      "source_files": 36,
+      "input_files": 13,
+      "status": "passed"
+    },
+    {
+      "path": "runs/league_symmetric_20261006/plan.json",
+      "source_files": 40,
+      "input_files": 24,
+      "status": "passed"
+    },
+    {
+      "path": "runs/league_interception_probe_20261006/plan.json",
+      "source_files": 43,
+      "input_files": 40,
+      "status": "passed"
+    }
+  ],
+  "bundles": [
+    {
+      "folder": "experiments/league/bundle",
+      "files": 121,
+      "status": "passed"
+    },
+    {
+      "folder": "experiments/league/candidates/symgate_s2400_g0_c1",
+      "files": 10,
+      "status": "passed"
+    }
+  ],
+  "official_source_and_original_cem_diff_vs_head": "",
+  "scope": "Preservation integrity only. This does not prove flight behavior, performance, external package identity or overall goal completion.",
+  "overall_goal_complete": false
+}

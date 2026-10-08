@@ -1,0 +1,6 @@
+{
+  "id": "episode_mix_teacher_only",
+  "kind": "submission",
+  "design": "experiments/league/episode_mixture_20261008/teacher_only",
+  "weights": "experiments/league/episode_mixture_20261008/teacher_only/policy_net.zip"
+}

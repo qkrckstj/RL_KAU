@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-10-06T14:33:28.754795+00:00",
+  "purpose": "Post-selection audit against eight untrained temporal opponents",
+  "training_plan": "runs/league_conditions_20261006/plan.json",
+  "band": 52000000,
+  "n": 80,
+  "workers": 16,
+  "opponents": [
+    {
+      "id": "temporal_weave_left",
+      "kind": "submission",
+      "design": "experiments/league/unseen_temporal_20261006/temporal_weave_left",
+      "weights": "experiments/league/unseen_temporal_20261006/temporal_weave_left/policy_net.zip"
+    },
+    {
+      "id": "temporal_weave_right",
+      "kind": "submission",
+      "design": "experiments/league/unseen_temporal_20261006/temporal_weave_right",
+      "weights": "experiments/league/unseen_temporal_20261006/temporal_weave_right/policy_net.zip"
+    },
+    {
+      "id": "temporal_extend_left",
+      "kind": "submission",
+      "design": "experiments/league/unseen_temporal_20261006/temporal_extend_left",
+      "weights": "experiments/league/unseen_temporal_20261006/temporal_extend_left/policy_net.zip"
+    },
+    {
+      "id": "temporal_extend_right",
+      "kind": "submission",
+      "design": "experiments/league/unseen_temporal_20261006/temporal_extend_right",
+      "weights": "experiments/league/unseen_temporal_20261006/temporal_extend_right/policy_net.zip"
+    },
+    {
+      "id": "temporal_delayed_left",
+      "kind": "submission",
+      "design": "experiments/league/unseen_temporal_20261006/temporal_delayed_left",
+      "weights": "experiments/league/unseen_temporal_20261006/temporal_delayed_left/policy_net.zip"
+    },
+    {
+      "id": "temporal_delayed_right",
+      "kind": "submission",
+      "design": "experiments/league/unseen_temporal_20261006/temporal_delayed_right",
+      "weights": "experiments/league/unseen_temporal_20261006/temporal_delayed_right/policy_net.zip"
+    },
+    {
+      "id": "temporal_pulsed_left",
+      "kind": "submission",
+      "design": "experiments/league/unseen_temporal_20261006/temporal_pulsed_left",
+      "weights": "experiments/league/unseen_temporal_20261006/temporal_pulsed_left/policy_net.zip"
+    },
+    {
+      "id": "temporal_pulsed_right",
+      "kind": "submission",
+      "design": "experiments/league/unseen_temporal_20261006/temporal_pulsed_right",
+      "weights": "experiments/league/unseen_temporal_20261006/temporal_pulsed_right/policy_net.zip"
+    }
+  ],
+  "source_sha256": {
+    "experiments/league/temporal_opponents.py": "6934d1e2e16b418e07ec5572f4bba60b72da5f8bfbe0388defdb33edfa1d323e",
+    "tools/league_temporal_panel.py": "c0ef5ddfa2d85ba46ea8c84194d9061484cf159a61827c6a70b5bbfbed508f8d"
+  },
+  "input_sha256": {
+    "runs/league_conditions_20261006/plan.json": "f4997c0428fd16d6285140f7c326db72e006d5166ab7249f787790cd42ce016a",
+    "experiments/league/unseen_temporal_20261006/temporal_weave_left/policy.py": "6934d1e2e16b418e07ec5572f4bba60b72da5f8bfbe0388defdb33edfa1d323e",
+    "experiments/league/unseen_temporal_20261006/temporal_weave_left/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/unseen_temporal_20261006/temporal_weave_left/policy_net.json": "329c662e89d066374d1ceedaae4a6cfce31dea6bde7b8893cd305e5fd088027b",
+    "experiments/league/unseen_temporal_20261006/temporal_weave_left/policy_net.zip": "d35dd00cda001b7ef044a0997625353f52c2f8c99e05abd14b199fa429ffbc1e",
+    "experiments/league/unseen_temporal_20261006/temporal_weave_left/entrant.json": "43e8644eb2f2fe0f76b7ab9c08781c44274b5319d106136b672787dce4dc9134",
+    "experiments/league/unseen_temporal_20261006/temporal_weave_left/artifact_sha256.json": "24aaf933e32cc46b48639525b5e276a0da2808d357e75baf3e2861a107183881",
+    "experiments/league/unseen_temporal_20261006/temporal_weave_right/policy.py": "6934d1e2e16b418e07ec5572f4bba60b72da5f8bfbe0388defdb33edfa1d323e",
+    "experiments/league/unseen_temporal_20261006/temporal_weave_right/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/unseen_temporal_20261006/temporal_weave_right/policy_net.json": "060a6f3ee722d7930d81d7b8aa8525bc34caa82cd9e43d0858766fab98c9c36d",
+    "experiments/league/unseen_temporal_20261006/temporal_weave_right/policy_net.zip": "9ba612e13978fc779100e42d31e6b1c4eb1d182eb35f7cb6958a431e1363ca0c",
+    "experiments/league/unseen_temporal_20261006/temporal_weave_right/entrant.json": "db2775180d764d6e2a0f0cf42aede5925e42078f100092280096eb34ce30c195",
+    "experiments/league/unseen_temporal_20261006/temporal_weave_right/artifact_sha256.json": "4e65a7a825109d4bc423a275b58c0bba9edb3c80a5e05fdad89b4efafe7192cf",
+    "experiments/league/unseen_temporal_20261006/temporal_extend_left/policy.py": "6934d1e2e16b418e07ec5572f4bba60b72da5f8bfbe0388defdb33edfa1d323e",
+    "experiments/league/unseen_temporal_20261006/temporal_extend_left/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/unseen_temporal_20261006/temporal_extend_left/policy_net.json": "522359dc9f0780c095c2b0f8639533270228fd31c5a7450de786d05e95539605",
+    "experiments/league/unseen_temporal_20261006/temporal_extend_left/policy_net.zip": "9709f1a37783ee4004abd11be9e215eb0432782b89c06443709d0032beaba084",
+    "experiments/league/unseen_temporal_20261006/temporal_extend_left/entrant.json": "8ef902e528eda0a6c9bd4e31baf6301c882a452ec5d4f82b946dd91bc44015d6",
+    "experiments/league/unseen_temporal_20261006/temporal_extend_left/artifact_sha256.json": "6f69016103b3cf400927809f2bdbb37e35f26d919759a7b10f04c286321ab2fe",
+    "experiments/league/unseen_temporal_20261006/temporal_extend_right/policy.py": "6934d1e2e16b418e07ec5572f4bba60b72da5f8bfbe0388defdb33edfa1d323e",
+    "experiments/league/unseen_temporal_20261006/temporal_extend_right/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/unseen_temporal_20261006/temporal_extend_right/policy_net.json": "aac9bac1c75c7076f342567450dbf27effe3e37f71fa4fdceb888ac7c4784c37",
+    "experiments/league/unseen_temporal_20261006/temporal_extend_right/policy_net.zip": "0a6c4ab5e9acf783193edbffff7619659a8209d78adf9b56727f719a75a28a5d",
+    "experiments/league/unseen_temporal_20261006/temporal_extend_right/entrant.json": "0e5a21fba6120b0e561798453a689d9612b1bd8664ee86298cfabd0f25fac358",
+    "experiments/league/unseen_temporal_20261006/temporal_extend_right/artifact_sha256.json": "91c269f908ad21505531ea92113fa5a15f5e8256109b505b9803fe91fade00c5",
+    "experiments/league/unseen_temporal_20261006/temporal_delayed_left/policy.py": "6934d1e2e16b418e07ec5572f4bba60b72da5f8bfbe0388defdb33edfa1d323e",
+    "experiments/league/unseen_temporal_20261006/temporal_delayed_left/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/unseen_temporal_20261006/temporal_delayed_left/policy_net.json": "8d0b0ef61fa12abf5ae018019a4ccf5d0cad8011667b4d5cc673cfc1532c8134",
+    "experiments/league/unseen_temporal_20261006/temporal_delayed_left/policy_net.zip": "c989c0f73a5209d382bef29ffd4b7b3f3bae31b250a9971df0dfe8dd6f4b1441",
+    "experiments/league/unseen_temporal_20261006/temporal_delayed_left/entrant.json": "38c7bf15bb1d932e6ef488f9e1d161631a88ae4ad119eb295aa87dd8c7fe3422",
+    "experiments/league/unseen_temporal_20261006/temporal_delayed_left/artifact_sha256.json": "cc116a1532e644df29a76cbf4179b0adc5ccd2e94853d4a4a66c784f6e273a74",
+    "experiments/league/unseen_temporal_20261006/temporal_delayed_right/policy.py": "6934d1e2e16b418e07ec5572f4bba60b72da5f8bfbe0388defdb33edfa1d323e",
+    "experiments/league/unseen_temporal_20261006/temporal_delayed_right/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/unseen_temporal_20261006/temporal_delayed_right/policy_net.json": "6a0aaba356d78ac18ebdb0420edca4e574278687a8cb799fc05de4ae9dc2cfb7",
+    "experiments/league/unseen_temporal_20261006/temporal_delayed_right/policy_net.zip": "831764689e41795b5c18163ed1aeeb5eac0f805387b0b718c3c26b4c8657d038",
+    "experiments/league/unseen_temporal_20261006/temporal_delayed_right/entrant.json": "a3e20bd2357c539302b42fcbdbfd0449d86b484013fe928cfbb2d2bf024e4017",
+    "experiments/league/unseen_temporal_20261006/temporal_delayed_right/artifact_sha256.json": "b668611f85c95ad2d87ac6c2656bb5897c895050882f8d2de07614ba014f8b89",
+    "experiments/league/unseen_temporal_20261006/temporal_pulsed_left/policy.py": "6934d1e2e16b418e07ec5572f4bba60b72da5f8bfbe0388defdb33edfa1d323e",
+    "experiments/league/unseen_temporal_20261006/temporal_pulsed_left/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/unseen_temporal_20261006/temporal_pulsed_left/policy_net.json": "3e4e1824ba541982ea046f31bf4cdfb7018b3505575f72121ab91e1ad17aa7bf",
+    "experiments/league/unseen_temporal_20261006/temporal_pulsed_left/policy_net.zip": "b833d140d011f191cd45c2a9a127305c2285e5300e5fd6de89ef9da96c9040ba",
+    "experiments/league/unseen_temporal_20261006/temporal_pulsed_left/entrant.json": "9198d33194e711adf150cbad111936691973bddf7cf601260f1f392725486643",
+    "experiments/league/unseen_temporal_20261006/temporal_pulsed_left/artifact_sha256.json": "460b64e8ff903b03badab8f0745c3ffd7c39b1f1758e8f91a1346a0910aa9fa7",
+    "experiments/league/unseen_temporal_20261006/temporal_pulsed_right/policy.py": "6934d1e2e16b418e07ec5572f4bba60b72da5f8bfbe0388defdb33edfa1d323e",
+    "experiments/league/unseen_temporal_20261006/temporal_pulsed_right/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/unseen_temporal_20261006/temporal_pulsed_right/policy_net.json": "f222a062d37c1b96d94cf37c9ab2835981b9ef0eea3b0b2446816fffe35d657e",
+    "experiments/league/unseen_temporal_20261006/temporal_pulsed_right/policy_net.zip": "c311e9e3fc6d4abcfb5783baa423e825f50490da557089ddb7eacd4abad97e8a",
+    "experiments/league/unseen_temporal_20261006/temporal_pulsed_right/entrant.json": "b6b6e57cc2ce0da77936d1b730d42ceb46e245605a7f327a280448c27d734e87",
+    "experiments/league/unseen_temporal_20261006/temporal_pulsed_right/artifact_sha256.json": "bbb68626e89eb393ddc36067f8eded842132720b6ac0c5a387bce8b9039dca61"
+  },
+  "outcomes_observed_at_freeze": false,
+  "limits": "Eight scripted temporal opponents, not expert pilots, real student policies, exhaustive situations, or eight independent architectures. No candidate or opponent selection from audit outcomes. Once evaluated these opponents cannot be called unseen in later training.",
+  "intended_comparison": "Original CEM, current validated anchor, and one policy selected before final testing. Run only if that selected policy passes the preceding final evaluation. Report paired IC uncertainty and every opponent; audit completion is not a performance pass."
+}

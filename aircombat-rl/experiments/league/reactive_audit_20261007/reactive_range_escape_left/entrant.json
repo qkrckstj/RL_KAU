@@ -1,0 +1,6 @@
+{
+  "id": "reactive_range_escape_left",
+  "kind": "submission",
+  "design": "experiments/league/reactive_audit_20261007/reactive_range_escape_left",
+  "weights": "experiments/league/reactive_audit_20261007/reactive_range_escape_left/policy_net.zip"
+}

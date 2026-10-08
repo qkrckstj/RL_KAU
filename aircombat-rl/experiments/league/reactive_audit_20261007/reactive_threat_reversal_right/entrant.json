@@ -1,0 +1,6 @@
+{
+  "id": "reactive_threat_reversal_right",
+  "kind": "submission",
+  "design": "experiments/league/reactive_audit_20261007/reactive_threat_reversal_right",
+  "weights": "experiments/league/reactive_audit_20261007/reactive_threat_reversal_right/policy_net.zip"
+}

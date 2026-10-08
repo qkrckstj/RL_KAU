@@ -1,0 +1,6 @@
+{
+  "id": "intercept_s2500_g3_c6",
+  "kind": "submission",
+  "design": "experiments/league/candidates/intercept_s2500_g3_c6",
+  "weights": "experiments/league/candidates/intercept_s2500_g3_c6/policy_net.zip"
+}

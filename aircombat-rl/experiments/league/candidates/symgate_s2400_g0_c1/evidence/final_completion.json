@@ -1,0 +1,220 @@
+{
+  "status": "evaluation_failed",
+  "final_opened": true,
+  "selected": {
+    "id": "symgate_s2400_g0_c1",
+    "kind": "submission",
+    "design": "runs/league_symmetric_20261006/s2400/g0/models/c1",
+    "weights": "runs/league_symmetric_20261006/s2400/g0/models/c1/policy_net.zip"
+  },
+  "selected_before_test": true,
+  "chosen_index": 0,
+  "comparisons": [
+    {
+      "candidate": {
+        "objective": 0.7450625000000002,
+        "mean_win_rate": 0.76875,
+        "mean_score": 0.8425,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5125,
+        "health": 0.47048,
+        "games": 1600,
+        "steps": 1987236
+      },
+      "parent": {
+        "objective": 0.7041875000000001,
+        "mean_win_rate": 0.71625,
+        "mean_score": 0.8162500000000001,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5025000000000001,
+        "health": 0.48556000000000005,
+        "games": 1600,
+        "steps": 2074462
+      },
+      "win_gain": 0.05249999999999999,
+      "objective_gain": 0.040875000000000106,
+      "lower_quarter_gain": 0.009999999999999898,
+      "per_opponent_win_gain": {
+        "cem_original": 0.0,
+        "ddqn_s1": 0.0,
+        "ace": 0.0,
+        "pursuit": 0.0,
+        "evader": 0.05,
+        "fixed_left": 0.0,
+        "fixed_right": 0.0,
+        "round_00": 0.0,
+        "round_01": 0.0,
+        "round_02": 0.0,
+        "round_03": 0.0,
+        "round_04": 0.0,
+        "round_05": 0.0,
+        "lead": 0.0,
+        "circler": 1.0,
+        "ddqn_s0": 0.0,
+        "refine_2200": 0.0,
+        "refine_2201": 0.0,
+        "pursuit_650_lead6": 0.0,
+        "gate_s2302_g1_c9": 0.0
+      },
+      "worst_opponent_win_gain": 0.0,
+      "evader_loss_increase": 0,
+      "paired_gain": {
+        "mean": 0.052500000000000005,
+        "ci95": [
+          0.05,
+          0.055625
+        ],
+        "shared_initial_conditions": 40,
+        "scope": "IC-cluster bootstrap, both seats and all fixed opponents kept together; conditional on learned policies"
+      },
+      "evader_paired_gain": {
+        "mean": 0.05,
+        "ci95": [
+          0.0,
+          0.1125
+        ],
+        "shared_initial_conditions": 40,
+        "scope": "IC-cluster bootstrap, both seats and all fixed opponents kept together; conditional on learned policies"
+      },
+      "passed": false
+    },
+    {
+      "candidate": {
+        "objective": 0.7450625000000002,
+        "mean_win_rate": 0.76875,
+        "mean_score": 0.8425,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5125,
+        "health": 0.47048,
+        "games": 1600,
+        "steps": 1987236
+      },
+      "parent": {
+        "objective": 0.7041875000000001,
+        "mean_win_rate": 0.71625,
+        "mean_score": 0.8162500000000001,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5025000000000001,
+        "health": 0.48556000000000005,
+        "games": 1600,
+        "steps": 2074462
+      },
+      "win_gain": 0.05249999999999999,
+      "objective_gain": 0.040875000000000106,
+      "lower_quarter_gain": 0.009999999999999898,
+      "per_opponent_win_gain": {
+        "cem_original": 0.0,
+        "ddqn_s1": 0.0,
+        "ace": 0.0,
+        "pursuit": 0.0,
+        "evader": 0.05,
+        "fixed_left": 0.0,
+        "fixed_right": 0.0,
+        "round_00": 0.0,
+        "round_01": 0.0,
+        "round_02": 0.0,
+        "round_03": 0.0,
+        "round_04": 0.0,
+        "round_05": 0.0,
+        "lead": 0.0,
+        "circler": 1.0,
+        "ddqn_s0": 0.0,
+        "refine_2200": 0.0,
+        "refine_2201": 0.0,
+        "pursuit_650_lead6": 0.0,
+        "gate_s2302_g1_c9": 0.0
+      },
+      "worst_opponent_win_gain": 0.0,
+      "evader_loss_increase": 0,
+      "paired_gain": {
+        "mean": 0.052500000000000005,
+        "ci95": [
+          0.05,
+          0.055625
+        ],
+        "shared_initial_conditions": 40,
+        "scope": "IC-cluster bootstrap, both seats and all fixed opponents kept together; conditional on learned policies"
+      },
+      "evader_paired_gain": {
+        "mean": 0.05,
+        "ci95": [
+          0.0,
+          0.1125
+        ],
+        "shared_initial_conditions": 40,
+        "scope": "IC-cluster bootstrap, both seats and all fixed opponents kept together; conditional on learned policies"
+      },
+      "passed": false
+    },
+    {
+      "candidate": {
+        "objective": 0.7450625000000002,
+        "mean_win_rate": 0.76875,
+        "mean_score": 0.8425,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5125,
+        "health": 0.47048,
+        "games": 1600,
+        "steps": 1987236
+      },
+      "parent": {
+        "objective": 0.7041875000000001,
+        "mean_win_rate": 0.71625,
+        "mean_score": 0.8162500000000001,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5025000000000001,
+        "health": 0.48556000000000005,
+        "games": 1600,
+        "steps": 2074462
+      },
+      "win_gain": 0.05249999999999999,
+      "objective_gain": 0.040875000000000106,
+      "lower_quarter_gain": 0.009999999999999898,
+      "per_opponent_win_gain": {
+        "cem_original": 0.0,
+        "ddqn_s1": 0.0,
+        "ace": 0.0,
+        "pursuit": 0.0,
+        "evader": 0.05,
+        "fixed_left": 0.0,
+        "fixed_right": 0.0,
+        "round_00": 0.0,
+        "round_01": 0.0,
+        "round_02": 0.0,
+        "round_03": 0.0,
+        "round_04": 0.0,
+        "round_05": 0.0,
+        "lead": 0.0,
+        "circler": 1.0,
+        "ddqn_s0": 0.0,
+        "refine_2200": 0.0,
+        "refine_2201": 0.0,
+        "pursuit_650_lead6": 0.0,
+        "gate_s2302_g1_c9": 0.0
+      },
+      "worst_opponent_win_gain": 0.0,
+      "evader_loss_increase": 0,
+      "paired_gain": {
+        "mean": 0.052500000000000005,
+        "ci95": [
+          0.05,
+          0.055625
+        ],
+        "shared_initial_conditions": 40,
+        "scope": "IC-cluster bootstrap, both seats and all fixed opponents kept together; conditional on learned policies"
+      },
+      "evader_paired_gain": {
+        "mean": 0.05,
+        "ci95": [
+          0.0,
+          0.1125
+        ],
+        "shared_initial_conditions": 40,
+        "scope": "IC-cluster bootstrap, both seats and all fixed opponents kept together; conditional on learned policies"
+      },
+      "passed": false
+    }
+  ],
+  "parent_preserved": true,
+  "next": "Audit real-loader compatibility, routing, all artifacts and replication results before promotion/publication."
+}

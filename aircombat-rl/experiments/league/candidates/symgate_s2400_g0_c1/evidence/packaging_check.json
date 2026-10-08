@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "source_sha256_verified": true,
+  "copied_policy_bytes_identical": true,
+  "official_loader_action_comparisons": 160,
+  "episodes": 4,
+  "scope": "Packaging and loader equivalence on synthetic observation sequences, not flight performance"
+}

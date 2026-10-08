@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "actions_checked": 183,
+  "model_bytes_identical": true,
+  "scope": "Official loader and synthetic observations over both strategy branches; actual six-flight export equality verified before original training."
+}

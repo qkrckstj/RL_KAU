@@ -1,0 +1,6 @@
+{
+  "id": "temporal_extend_left",
+  "kind": "submission",
+  "design": "experiments/league/unseen_temporal_repair_20261007/temporal_extend_left",
+  "weights": "experiments/league/unseen_temporal_repair_20261007/temporal_extend_left/policy_net.zip"
+}

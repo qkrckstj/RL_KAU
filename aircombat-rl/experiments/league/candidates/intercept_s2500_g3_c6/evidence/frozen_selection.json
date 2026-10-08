@@ -1,0 +1,339 @@
+{
+  "chosen": {
+    "id": "intercept_s2500_g3_c6",
+    "kind": "submission",
+    "design": "runs/league_interception_train_20261006/s2500/g3/models/c6",
+    "weights": "runs/league_interception_train_20261006/s2500/g3/models/c6/policy_net.zip"
+  },
+  "chosen_index": 0,
+  "challengers": [
+    {
+      "id": "intercept_s2500_g3_c6",
+      "kind": "submission",
+      "design": "runs/league_interception_train_20261006/s2500/g3/models/c6",
+      "weights": "runs/league_interception_train_20261006/s2500/g3/models/c6/policy_net.zip"
+    },
+    {
+      "id": "intercept_s2501_g3_c5",
+      "kind": "submission",
+      "design": "runs/league_interception_train_20261006/s2501/g3/models/c5",
+      "weights": "runs/league_interception_train_20261006/s2501/g3/models/c5/policy_net.zip"
+    },
+    {
+      "id": "intercept_s2502_g1_c4",
+      "kind": "submission",
+      "design": "runs/league_interception_train_20261006/s2502/g1/models/c4",
+      "weights": "runs/league_interception_train_20261006/s2502/g1/models/c4/policy_net.zip"
+    }
+  ],
+  "comparisons": [
+    {
+      "candidate": {
+        "objective": 0.747157738095238,
+        "mean_win_rate": 0.7535714285714287,
+        "mean_score": 0.8476190476190476,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5854166666666667,
+        "health": 0.5083047619047619,
+        "games": 840,
+        "steps": 1072150
+      },
+      "parent": {
+        "objective": 0.688095238095238,
+        "mean_win_rate": 0.686904761904762,
+        "mean_score": 0.8142857142857144,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.525,
+        "health": 0.4753238095238095,
+        "games": 840,
+        "steps": 1106680
+      },
+      "win_gain": 0.06666666666666665,
+      "objective_gain": 0.05906250000000002,
+      "lower_quarter_gain": 0.060416666666666674,
+      "per_opponent_win_gain": {
+        "cem_original": 0.0,
+        "ddqn_s1": 0.0,
+        "ace": 0.0,
+        "pursuit": 0.0,
+        "evader": 0.4,
+        "fixed_left": 0.0,
+        "fixed_right": 0.0,
+        "round_00": 0.0,
+        "round_01": 0.0,
+        "round_02": 0.0,
+        "round_03": 0.0,
+        "round_04": 0.0,
+        "round_05": 0.0,
+        "lead": 0.0,
+        "circler": 1.0,
+        "ddqn_s0": 0.0,
+        "refine_2200": 0.0,
+        "refine_2201": 0.0,
+        "pursuit_650_lead6": 0.0,
+        "gate_s2302_g1_c9": 0.0,
+        "symgate_s2400_g0_c1": 0.0
+      },
+      "worst_opponent_win_gain": 0.0,
+      "evader_loss_increase": 0
+    },
+    {
+      "candidate": {
+        "objective": 0.7459523809523808,
+        "mean_win_rate": 0.7523809523809525,
+        "mean_score": 0.8470238095238096,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5833333333333334,
+        "health": 0.5054428571428571,
+        "games": 840,
+        "steps": 1071367
+      },
+      "parent": {
+        "objective": 0.688095238095238,
+        "mean_win_rate": 0.686904761904762,
+        "mean_score": 0.8142857142857144,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.525,
+        "health": 0.4753238095238095,
+        "games": 840,
+        "steps": 1106680
+      },
+      "win_gain": 0.06547619047619047,
+      "objective_gain": 0.05785714285714283,
+      "lower_quarter_gain": 0.05833333333333335,
+      "per_opponent_win_gain": {
+        "cem_original": 0.0,
+        "ddqn_s1": 0.0,
+        "ace": 0.0,
+        "pursuit": 0.0,
+        "evader": 0.375,
+        "fixed_left": 0.0,
+        "fixed_right": 0.0,
+        "round_00": 0.0,
+        "round_01": 0.0,
+        "round_02": 0.0,
+        "round_03": 0.0,
+        "round_04": 0.0,
+        "round_05": 0.0,
+        "lead": 0.0,
+        "circler": 1.0,
+        "ddqn_s0": 0.0,
+        "refine_2200": 0.0,
+        "refine_2201": 0.0,
+        "pursuit_650_lead6": 0.0,
+        "gate_s2302_g1_c9": 0.0,
+        "symgate_s2400_g0_c1": 0.0
+      },
+      "worst_opponent_win_gain": 0.0,
+      "evader_loss_increase": 0
+    },
+    {
+      "candidate": {
+        "objective": 0.7338988095238094,
+        "mean_win_rate": 0.7404761904761906,
+        "mean_score": 0.8410714285714287,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5625,
+        "health": 0.4700857142857142,
+        "games": 840,
+        "steps": 1075752
+      },
+      "parent": {
+        "objective": 0.688095238095238,
+        "mean_win_rate": 0.686904761904762,
+        "mean_score": 0.8142857142857144,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.525,
+        "health": 0.4753238095238095,
+        "games": 840,
+        "steps": 1106680
+      },
+      "win_gain": 0.0535714285714286,
+      "objective_gain": 0.04580357142857139,
+      "lower_quarter_gain": 0.03749999999999998,
+      "per_opponent_win_gain": {
+        "cem_original": 0.0,
+        "ddqn_s1": 0.0,
+        "ace": 0.0,
+        "pursuit": 0.0,
+        "evader": 0.125,
+        "fixed_left": 0.0,
+        "fixed_right": 0.0,
+        "round_00": 0.0,
+        "round_01": 0.0,
+        "round_02": 0.0,
+        "round_03": 0.0,
+        "round_04": 0.0,
+        "round_05": 0.0,
+        "lead": 0.0,
+        "circler": 1.0,
+        "ddqn_s0": 0.0,
+        "refine_2200": 0.0,
+        "refine_2201": 0.0,
+        "pursuit_650_lead6": 0.0,
+        "gate_s2302_g1_c9": 0.0,
+        "symgate_s2400_g0_c1": 0.0
+      },
+      "worst_opponent_win_gain": 0.0,
+      "evader_loss_increase": 0
+    }
+  ],
+  "reference_comparisons": [
+    {
+      "candidate": {
+        "objective": 0.747157738095238,
+        "mean_win_rate": 0.7535714285714287,
+        "mean_score": 0.8476190476190476,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5854166666666667,
+        "health": 0.5083047619047619,
+        "games": 840,
+        "steps": 1072150
+      },
+      "parent": {
+        "objective": 0.7302827380952381,
+        "mean_win_rate": 0.7369047619047621,
+        "mean_score": 0.8392857142857143,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.55625,
+        "health": 0.45887619047619044,
+        "games": 840,
+        "steps": 1062641
+      },
+      "win_gain": 0.016666666666666607,
+      "objective_gain": 0.016874999999999862,
+      "lower_quarter_gain": 0.029166666666666674,
+      "per_opponent_win_gain": {
+        "cem_original": 0.0,
+        "ddqn_s1": 0.0,
+        "ace": 0.0,
+        "pursuit": 0.0,
+        "evader": 0.35000000000000003,
+        "fixed_left": 0.0,
+        "fixed_right": 0.0,
+        "round_00": 0.0,
+        "round_01": 0.0,
+        "round_02": 0.0,
+        "round_03": 0.0,
+        "round_04": 0.0,
+        "round_05": 0.0,
+        "lead": 0.0,
+        "circler": 0.0,
+        "ddqn_s0": 0.0,
+        "refine_2200": 0.0,
+        "refine_2201": 0.0,
+        "pursuit_650_lead6": 0.0,
+        "gate_s2302_g1_c9": 0.0,
+        "symgate_s2400_g0_c1": 0.0
+      },
+      "worst_opponent_win_gain": 0.0,
+      "evader_loss_increase": 0
+    },
+    {
+      "candidate": {
+        "objective": 0.7459523809523808,
+        "mean_win_rate": 0.7523809523809525,
+        "mean_score": 0.8470238095238096,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5833333333333334,
+        "health": 0.5054428571428571,
+        "games": 840,
+        "steps": 1071367
+      },
+      "parent": {
+        "objective": 0.7302827380952381,
+        "mean_win_rate": 0.7369047619047621,
+        "mean_score": 0.8392857142857143,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.55625,
+        "health": 0.45887619047619044,
+        "games": 840,
+        "steps": 1062641
+      },
+      "win_gain": 0.015476190476190421,
+      "objective_gain": 0.015669642857142674,
+      "lower_quarter_gain": 0.027083333333333348,
+      "per_opponent_win_gain": {
+        "cem_original": 0.0,
+        "ddqn_s1": 0.0,
+        "ace": 0.0,
+        "pursuit": 0.0,
+        "evader": 0.325,
+        "fixed_left": 0.0,
+        "fixed_right": 0.0,
+        "round_00": 0.0,
+        "round_01": 0.0,
+        "round_02": 0.0,
+        "round_03": 0.0,
+        "round_04": 0.0,
+        "round_05": 0.0,
+        "lead": 0.0,
+        "circler": 0.0,
+        "ddqn_s0": 0.0,
+        "refine_2200": 0.0,
+        "refine_2201": 0.0,
+        "pursuit_650_lead6": 0.0,
+        "gate_s2302_g1_c9": 0.0,
+        "symgate_s2400_g0_c1": 0.0
+      },
+      "worst_opponent_win_gain": 0.0,
+      "evader_loss_increase": 0
+    },
+    {
+      "candidate": {
+        "objective": 0.7338988095238094,
+        "mean_win_rate": 0.7404761904761906,
+        "mean_score": 0.8410714285714287,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.5625,
+        "health": 0.4700857142857142,
+        "games": 840,
+        "steps": 1075752
+      },
+      "parent": {
+        "objective": 0.7302827380952381,
+        "mean_win_rate": 0.7369047619047621,
+        "mean_score": 0.8392857142857143,
+        "worst_score": 0.5,
+        "lower_quarter_score": 0.55625,
+        "health": 0.45887619047619044,
+        "games": 840,
+        "steps": 1062641
+      },
+      "win_gain": 0.0035714285714285587,
+      "objective_gain": 0.0036160714285712325,
+      "lower_quarter_gain": 0.006249999999999978,
+      "per_opponent_win_gain": {
+        "cem_original": 0.0,
+        "ddqn_s1": 0.0,
+        "ace": 0.0,
+        "pursuit": 0.0,
+        "evader": 0.075,
+        "fixed_left": 0.0,
+        "fixed_right": 0.0,
+        "round_00": 0.0,
+        "round_01": 0.0,
+        "round_02": 0.0,
+        "round_03": 0.0,
+        "round_04": 0.0,
+        "round_05": 0.0,
+        "lead": 0.0,
+        "circler": 0.0,
+        "ddqn_s0": 0.0,
+        "refine_2200": 0.0,
+        "refine_2201": 0.0,
+        "pursuit_650_lead6": 0.0,
+        "gate_s2302_g1_c9": 0.0,
+        "symgate_s2400_g0_c1": 0.0
+      },
+      "worst_opponent_win_gain": 0.0,
+      "evader_loss_increase": 0
+    }
+  ],
+  "eligible": [
+    0,
+    1,
+    2
+  ],
+  "plan_sha256": "0aae80205d02bf7c487798174d9d3776840c43802b58baf6d4781c1518650afc"
+}

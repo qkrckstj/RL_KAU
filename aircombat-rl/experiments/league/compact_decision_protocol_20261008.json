@@ -1,0 +1,7 @@
+{
+  "training_run": "runs/league_compact_ppo_train_20261008",
+  "minimum_combined_gain": 0.005,
+  "extension_screen": "Combined uniform/code-group win gain at least0.005, no mean-win/lower-quarter/worst-score regression versus restored7400; report both pilots and all matchup changes.",
+  "next_action": "If at least one pilot passes, compare retained candidate(s) with source on a small preregistered off-roster panel with fresh conditions before extending. If neither passes, do not automatically increase budget; inspect matchup changes and decide rotation or another strategy. Preserve all checkpoints.",
+  "scope": "Frozen before first compact checkpoint.111M is consumed development. No universal improvement, heldout evidence or promotion claim. Do not run full205 evaluation by default. No GitHub upload."
+}

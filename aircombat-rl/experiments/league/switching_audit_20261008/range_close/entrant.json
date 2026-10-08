@@ -1,0 +1,6 @@
+{
+  "id": "switching_range_close",
+  "kind": "submission",
+  "design": "experiments/league/switching_audit_20261008/range_close",
+  "weights": "experiments/league/switching_audit_20261008/range_close/policy_net.zip"
+}

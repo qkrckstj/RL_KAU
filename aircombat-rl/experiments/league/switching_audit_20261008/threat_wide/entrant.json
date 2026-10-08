@@ -1,0 +1,6 @@
+{
+  "id": "switching_threat_wide",
+  "kind": "submission",
+  "design": "experiments/league/switching_audit_20261008/threat_wide",
+  "weights": "experiments/league/switching_audit_20261008/threat_wide/policy_net.zip"
+}

@@ -1,0 +1,220 @@
+{
+  "backend": "tools.league_split_pool.SplitPool",
+  "workers": 16,
+  "neural_workers": 2,
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "approved_signatures": [
+    "16a6bdd600495bd245094c0c336ad6202eb934ccce888842f8d7fbf40f78fc4e",
+    "26257f61e6ee6dd0dd4d9b732923e8a8e25e230b53d8af5ab2f2d68dfae760a3",
+    "385842a447cbdcbc5162e2ef6a6384c2fcfa9191f8db283f3a2cb4bd8a024170",
+    "4848c6c6c72eca1bbc5dc03fa2a45e40a3d4c026308ce1f4f9547e91f9a2bcd7",
+    "685c96f2a352cd7fb4eb83d64971cce353ead33ebb59435a88211eb5804646ea",
+    "80b15f93ac1af3f073c240768c19d97ef97fe8cc32ca80c205e78e1a8bafb0ff",
+    "946b1ef594311f2030b2ef3eabc369388602acd25bcedfabb59b4234d33d0cbc",
+    "af535853df930b68ae91eb39cf0df8b64da898ddcc0aea3cc1811ab88739b582",
+    "be35d0c784a85dc0960f4933183645d53a896ad995f5ee8b04f68ebae343ca3f",
+    "c3aafada75afbacf36f50aa67b40d9b3e472fb75e250ecacd1b122cdea25a61d",
+    "c67ee3294c0cb30e60417f47a6acf8ed352e2440cb401a5ed7ed20ec47d6abea",
+    "fe8e02c8b1501225b5be352e10f8e29098095de6962e253e8706272bf88bb58d"
+  ],
+  "pure_warmup": [
+    {
+      "id": "league_separated_probe_20261007_parent_0",
+      "kind": "submission",
+      "design": "runs/league_separated_probe_20261007/models/parent_0",
+      "weights": "runs/league_separated_probe_20261007/models/parent_0/policy_net.zip"
+    },
+    {
+      "id": "cem_original",
+      "kind": "cem",
+      "parameters": [
+        46.5795821161632,
+        324.6037751529909,
+        305.6533702700848,
+        2.418697871782606,
+        18.936747197224676,
+        0.48848060094490076,
+        3.5707727915270118
+      ]
+    },
+    {
+      "id": "ace",
+      "kind": "bot",
+      "name": "ace"
+    },
+    {
+      "id": "fixed_left",
+      "kind": "fixed",
+      "action": 0
+    },
+    {
+      "id": "round_00",
+      "kind": "reactive",
+      "parameters": [
+        49.054643429137045,
+        344.9320165839133,
+        300.0,
+        1.6189913657693618,
+        0.6358662057947555,
+        0.5462355091182627,
+        2.216714533307004,
+        -0.917163597878225,
+        0.0,
+        707.5735938951951,
+        345.41311022978886,
+        316.31072988578927,
+        60.368798937664934,
+        133.49953714021927,
+        300.0,
+        101.85583422915799,
+        5633.5384761216865
+      ]
+    },
+    {
+      "id": "gate_s2302_g1_c9",
+      "kind": "submission",
+      "design": "runs/league_adaptive_20261006/s2302/g1/models/c9",
+      "weights": "runs/league_adaptive_20261006/s2302/g1/models/c9/policy_net.zip"
+    },
+    {
+      "id": "symgate_s2400_g0_c1",
+      "kind": "submission",
+      "design": "runs/league_symmetric_20261006/s2400/g0/models/c1",
+      "weights": "runs/league_symmetric_20261006/s2400/g0/models/c1/policy_net.zip"
+    },
+    {
+      "id": "intercept_s2500_g3_c6",
+      "kind": "submission",
+      "design": "runs/league_interception_train_20261006/s2500/g3/models/c6",
+      "weights": "runs/league_interception_train_20261006/s2500/g3/models/c6/policy_net.zip"
+    },
+    {
+      "id": "temporal_weave_left",
+      "kind": "submission",
+      "design": "experiments/league/unseen_temporal_repair_20261007/temporal_weave_left",
+      "weights": "experiments/league/unseen_temporal_repair_20261007/temporal_weave_left/policy_net.zip"
+    },
+    {
+      "id": "league_contextual_speed_pilot_20261007_c0",
+      "kind": "submission",
+      "design": "runs/league_contextual_speed_pilot_20261007/models/c0",
+      "weights": "runs/league_contextual_speed_pilot_20261007/models/c0/policy_net.zip"
+    },
+    {
+      "id": "league_pursuit_context_train_20261007_346fd4060999",
+      "kind": "submission",
+      "design": "runs/league_pursuit_context_train_20261007/models/346fd40609992eaf4b94",
+      "weights": "runs/league_pursuit_context_train_20261007/models/346fd40609992eaf4b94/policy_net.zip"
+    },
+    {
+      "id": "league_sampled_ppo_recovery_20261007_s4600_t2097152",
+      "kind": "submission",
+      "design": "runs/league_sampled_ppo_recovery_20261007/s4600/checkpoints/step_2097152/submission",
+      "weights": "runs/league_sampled_ppo_recovery_20261007/s4600/checkpoints/step_2097152/submission/policy_net.zip"
+    },
+    {
+      "id": "league_sampled_ppo_recovery_20261007_s4600_t2097152_a4900",
+      "kind": "submission",
+      "design": "runs/league_sampled_ppo_recovery_20261007/s4600/checkpoints/step_2097152/sampled_4900",
+      "weights": "runs/league_sampled_ppo_recovery_20261007/s4600/checkpoints/step_2097152/sampled_4900/policy_net.zip"
+    },
+    {
+      "id": "league_sampled_ppo_recovery_20261007_s4600_t2097152_a4901",
+      "kind": "submission",
+      "design": "runs/league_sampled_ppo_recovery_20261007/s4600/checkpoints/step_2097152/sampled_4901",
+      "weights": "runs/league_sampled_ppo_recovery_20261007/s4600/checkpoints/step_2097152/sampled_4901/policy_net.zip"
+    },
+    {
+      "id": "prior6_s6700_t1310720_a4900",
+      "kind": "submission",
+      "design": "runs/league_extend_entropy_train_20261007/prior6/s6700/checkpoints/step_1310720/sampled_4900",
+      "weights": "runs/league_extend_entropy_train_20261007/prior6/s6700/checkpoints/step_1310720/sampled_4900/policy_net.zip"
+    },
+    {
+      "id": "reactive_lead_lag_left",
+      "kind": "submission",
+      "design": "experiments/league/reactive_audit_20261007/reactive_lead_lag_left",
+      "weights": "experiments/league/reactive_audit_20261007/reactive_lead_lag_left/policy_net.zip"
+    },
+    {
+      "id": "extend_cem_s6800_g3_c9",
+      "kind": "submission",
+      "design": "runs/league_extend_parameter_train_20261007/s6800/g03/c09/policy",
+      "weights": "runs/league_extend_parameter_train_20261007/s6800/g03/c09/policy/policy_net.zip"
+    }
+  ],
+  "neural_warmup": [
+    {
+      "id": "league_separated_probe_20261007_parent_0",
+      "kind": "submission",
+      "design": "runs/league_separated_probe_20261007/models/parent_0",
+      "weights": "runs/league_separated_probe_20261007/models/parent_0/policy_net.zip"
+    },
+    {
+      "id": "ddqn_s1",
+      "kind": "submission",
+      "design": "runs/plan_a_20261005/double/ddqn/s1",
+      "weights": "runs/plan_a_20261005/double/ddqn/s1/checkpoints/step_1024000/policy_net.zip"
+    },
+    {
+      "id": "ddqn_s0",
+      "kind": "submission",
+      "design": "runs/plan_a_20261005/double/ddqn/s0",
+      "weights": "runs/plan_a_20261005/double/ddqn/s0/policy_net.zip"
+    },
+    {
+      "id": "league_contextual_speed_pilot_20261007_c0",
+      "kind": "submission",
+      "design": "runs/league_contextual_speed_pilot_20261007/models/c0",
+      "weights": "runs/league_contextual_speed_pilot_20261007/models/c0/policy_net.zip"
+    },
+    {
+      "id": "league_pursuit_context_train_20261007_346fd4060999",
+      "kind": "submission",
+      "design": "runs/league_pursuit_context_train_20261007/models/346fd40609992eaf4b94",
+      "weights": "runs/league_pursuit_context_train_20261007/models/346fd40609992eaf4b94/policy_net.zip"
+    },
+    {
+      "id": "league_sampled_ppo_recovery_20261007_s4600_t2097152",
+      "kind": "submission",
+      "design": "runs/league_sampled_ppo_recovery_20261007/s4600/checkpoints/step_2097152/submission",
+      "weights": "runs/league_sampled_ppo_recovery_20261007/s4600/checkpoints/step_2097152/submission/policy_net.zip"
+    },
+    {
+      "id": "league_sampled_ppo_recovery_20261007_s4600_t2097152_a4900",
+      "kind": "submission",
+      "design": "runs/league_sampled_ppo_recovery_20261007/s4600/checkpoints/step_2097152/sampled_4900",
+      "weights": "runs/league_sampled_ppo_recovery_20261007/s4600/checkpoints/step_2097152/sampled_4900/policy_net.zip"
+    },
+    {
+      "id": "prior6_s6700_t1310720_a4900",
+      "kind": "submission",
+      "design": "runs/league_extend_entropy_train_20261007/prior6/s6700/checkpoints/step_1310720/sampled_4900",
+      "weights": "runs/league_extend_entropy_train_20261007/prior6/s6700/checkpoints/step_1310720/sampled_4900/policy_net.zip"
+    },
+    {
+      "id": "reactive_lead_lag_left",
+      "kind": "submission",
+      "design": "experiments/league/reactive_audit_20261007/reactive_lead_lag_left",
+      "weights": "experiments/league/reactive_audit_20261007/reactive_lead_lag_left/policy_net.zip"
+    },
+    {
+      "id": "extend_cem_s6800_g3_c9",
+      "kind": "submission",
+      "design": "runs/league_extend_parameter_train_20261007/s6800/g03/c09/policy",
+      "weights": "runs/league_extend_parameter_train_20261007/s6800/g03/c09/policy/policy_net.zip"
+    }
+  ],
+  "benchmark": "runs/league_split_benchmark_20261007",
+  "benchmark_plan_sha256": "d5ef2bec938d0c539c4f9fa86ce1af2ec98415eebf4b9f5c5cb9c9c59f9563ee",
+  "benchmark_completion_sha256": "d4f6f3e0f8c1c1183c65e1ccb6e8a2c9ad2817b15362cb516c9a4bf0071f0b27",
+  "requirement": "Set thread environment before Python imports. Check current system commit/physical headroom before start. New experiments freeze this profile and all source/input hashes. Unknown or neural code routes to normal workers. Do not retrofit frozen experiments.",
+  "scope": "Future comparisons only. Prior16-worker benchmark retained; three additional pure families execution-qualified on180games. New-family throughput multiplier not measured. Frozen prior profiles untouched; current PPO training remains8physical/32virtual. Unknown policy code must stay ordinary.",
+  "qualification": "runs/league_extend_numpy_qualification_20261007",
+  "qualification_plan_sha256": "1dbba1602c8d948f99a54122f94f5351f14e69fdff7ac91286732be72f78b251",
+  "qualification_completion_sha256": "26e8f808843d9fdb8ab50c4bdf13074bae5f684c4c307db0ed2c7525e96abc86"
+}

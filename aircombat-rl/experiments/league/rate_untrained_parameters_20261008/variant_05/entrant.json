@@ -1,0 +1,6 @@
+{
+  "id": "untrained_parameter_05",
+  "kind": "submission",
+  "design": "experiments/league/rate_untrained_parameters_20261008/variant_05",
+  "weights": "experiments/league/rate_untrained_parameters_20261008/variant_05/policy_net.zip"
+}

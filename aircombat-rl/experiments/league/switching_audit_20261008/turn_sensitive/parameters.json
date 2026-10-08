@@ -1,0 +1,26 @@
+{
+  "experts": [
+    {
+      "chase_bonus": 0.0,
+      "cooldown_seconds": 8.652957221715717,
+      "cruise_speed": 542.2950222940169,
+      "escape_angle": 30.16087999800733,
+      "escape_seconds": 9.425711225887339,
+      "lead_seconds": 3.2285112181231868,
+      "trigger_range": 1482.50912004749
+    },
+    {
+      "chase_bonus": 0.0,
+      "cooldown_seconds": 8.0,
+      "cruise_speed": 600.0,
+      "escape_angle": 20.0,
+      "escape_seconds": 8.0,
+      "lead_seconds": 3.0,
+      "trigger_range": 1300.0
+    }
+  ],
+  "mode": "turn",
+  "threshold": 0.12,
+  "dwell": 0.5,
+  "offset": 0.0
+}

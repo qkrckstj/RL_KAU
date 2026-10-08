@@ -1,0 +1,6 @@
+{
+  "id": "switching_turn_sensitive",
+  "kind": "submission",
+  "design": "experiments/league/switching_audit_20261008/turn_sensitive",
+  "weights": "experiments/league/switching_audit_20261008/turn_sensitive/policy_net.zip"
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "inference_only_development_candidate",
+  "identity": "league_residual_continuation_20261007_s3300_t2097152",
+  "original_submission": {
+    "id": "league_residual_continuation_20261007_s3300_t2097152",
+    "kind": "submission",
+    "design": "runs/league_residual_continuation_20261007/s3300/checkpoints/step_2097152/submission",
+    "weights": "runs/league_residual_continuation_20261007/s3300/checkpoints/step_2097152/submission/policy_net.zip"
+  },
+  "checkpoint": "runs/league_residual_continuation_20261007/s3300/checkpoints/step_2097152",
+  "learner_sha256": "4466465d29379391cc7635e02f1ae5e23ad8d926ac147d192ba8d256276431c7",
+  "files": {
+    "policy.py": "474614dc8ae8ea6af48815674b21c101344a29b7fb630ac35926e0c500ca96d2",
+    "policy_net.json": "8691bd80415a663e1f8bedf72ace8ccdb69509656977015650aac47d3977acaa",
+    "policy_net.zip": "1f7c606541cdc33276a9df4a405a97450e6923615c039334b741aa3f7e37f9d6",
+    "README.md": "baa503048288effc779bddc0c974b3b89c43c00c7bd6aae6720169f060d1a0a5",
+    "synthetic_cases.json": "8b220b5af05899a788cd64186fe26e4c380c8f1c1188d484722dffd445813509",
+    "verify.py": "3dcfe73c7a743cb19c6152fad001bdc20cbf47f25d634c053864cf95afcf390d",
+    "wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e"
+  },
+  "case_source": "runs/residual_policy_prototype_20261007/zero_identity_cases.json",
+  "case_source_sha256": "1f6acdc9885d692f7711ba6ce0b59b8f2ebb82df25271c2340bf8bf1d491f4ce",
+  "tool_sha256": "77a1bb617a5b88d201082f8e9575c17088ccc6a0788bcd7812a0165090bf9b6f",
+  "scope": "Portable NumPy policy only; no model promotion, learning, flights or GitHub publication."
+}

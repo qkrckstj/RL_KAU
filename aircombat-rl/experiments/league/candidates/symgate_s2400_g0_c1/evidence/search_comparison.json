@@ -1,0 +1,58 @@
+{
+  "searches": [
+    {
+      "seed": 2400,
+      "selected": "symgate_s2400_g0_c1",
+      "selected_generation": 0,
+      "development_win_rate": 0.7825000000000001,
+      "development_games": 400,
+      "gate": [
+        0.5,
+        1.0,
+        -8.0,
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "generations": 3,
+      "status": "complete"
+    },
+    {
+      "seed": 2401,
+      "selected": "symgate_s2401_g0_c1",
+      "selected_generation": 0,
+      "development_win_rate": 0.7825000000000001,
+      "development_games": 400,
+      "gate": [
+        0.5,
+        1.0,
+        -8.0,
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "generations": 3,
+      "status": "complete"
+    },
+    {
+      "seed": 2402,
+      "selected": "symgate_s2402_g0_c1",
+      "selected_generation": 0,
+      "development_win_rate": 0.7825000000000001,
+      "development_games": 400,
+      "gate": [
+        0.5,
+        1.0,
+        -8.0,
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "generations": 3,
+      "status": "complete"
+    }
+  ],
+  "identical_selected_gates": true,
+  "engineered_initial_unchanged": true,
+  "interpretation": "Three search RNGs retained the identical engineered initial gate. Shared development panel; not three independent performance samples. Duplicate elite caveat prevents interpreting plateau as search convergence. Fresh selection still running."
+}

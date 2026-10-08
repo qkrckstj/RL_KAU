@@ -1,0 +1,6 @@
+{
+  "id": "temporal_pulsed_left",
+  "kind": "submission",
+  "design": "experiments/league/unseen_temporal_repair_20261007/temporal_pulsed_left",
+  "weights": "experiments/league/unseen_temporal_repair_20261007/temporal_pulsed_left/policy_net.zip"
+}

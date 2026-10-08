@@ -1,0 +1,6 @@
+{
+  "id": "switching_periodic_fast",
+  "kind": "submission",
+  "design": "experiments/league/switching_audit_20261008/periodic_fast",
+  "weights": "experiments/league/switching_audit_20261008/periodic_fast/policy_net.zip"
+}

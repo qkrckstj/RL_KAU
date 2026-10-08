@@ -1,0 +1,6 @@
+{
+  "id": "temporal_weave_right",
+  "kind": "submission",
+  "design": "experiments/league/unseen_temporal_20261006/temporal_weave_right",
+  "weights": "experiments/league/unseen_temporal_20261006/temporal_weave_right/policy_net.zip"
+}

@@ -1,0 +1,103 @@
+{
+  "opponents": [
+    {
+      "id": "reactive_lead_lag_left",
+      "kind": "submission",
+      "design": "experiments/league/reactive_audit_20261007/reactive_lead_lag_left",
+      "weights": "experiments/league/reactive_audit_20261007/reactive_lead_lag_left/policy_net.zip"
+    },
+    {
+      "id": "reactive_lead_lag_right",
+      "kind": "submission",
+      "design": "experiments/league/reactive_audit_20261007/reactive_lead_lag_right",
+      "weights": "experiments/league/reactive_audit_20261007/reactive_lead_lag_right/policy_net.zip"
+    },
+    {
+      "id": "reactive_range_escape_left",
+      "kind": "submission",
+      "design": "experiments/league/reactive_audit_20261007/reactive_range_escape_left",
+      "weights": "experiments/league/reactive_audit_20261007/reactive_range_escape_left/policy_net.zip"
+    },
+    {
+      "id": "reactive_range_escape_right",
+      "kind": "submission",
+      "design": "experiments/league/reactive_audit_20261007/reactive_range_escape_right",
+      "weights": "experiments/league/reactive_audit_20261007/reactive_range_escape_right/policy_net.zip"
+    },
+    {
+      "id": "reactive_brake_pursuit_left",
+      "kind": "submission",
+      "design": "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_left",
+      "weights": "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_left/policy_net.zip"
+    },
+    {
+      "id": "reactive_brake_pursuit_right",
+      "kind": "submission",
+      "design": "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_right",
+      "weights": "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_right/policy_net.zip"
+    },
+    {
+      "id": "reactive_threat_reversal_left",
+      "kind": "submission",
+      "design": "experiments/league/reactive_audit_20261007/reactive_threat_reversal_left",
+      "weights": "experiments/league/reactive_audit_20261007/reactive_threat_reversal_left/policy_net.zip"
+    },
+    {
+      "id": "reactive_threat_reversal_right",
+      "kind": "submission",
+      "design": "experiments/league/reactive_audit_20261007/reactive_threat_reversal_right",
+      "weights": "experiments/league/reactive_audit_20261007/reactive_threat_reversal_right/policy_net.zip"
+    }
+  ],
+  "training_source": "runs/league_extend_entropy_train_20261007",
+  "outcomes_observed": false,
+  "synthetic_legal_reset_checks": 4000,
+  "source_sha256": {
+    "experiments/league/reactive_audit_policy.py": "0dd8b299f6f28df13f27e0a96a2dcae1d7bbcda6618dff90421dafe119576775",
+    "tools/league_reactive_audit_panel.py": "9f320b7996cbb0f44c830c98e9b3869a6991d3f8775d6acd35b35513e5c85bc9"
+  },
+  "input_sha256": {
+    "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_left/entrant.json": "c6928ac5a9b78d4a0a59667d3517ed4670e96df46dcb9bba90ab95380e89fe26",
+    "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_left/parameters.json": "06eb484c884d1a190a85adbf973115a23b7ab6807f8615912339df4789700425",
+    "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_left/policy.py": "0dd8b299f6f28df13f27e0a96a2dcae1d7bbcda6618dff90421dafe119576775",
+    "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_left/policy_net.zip": "cf9a88c7eaf644243adbeb933833028ea9735b927c5783d0dc521b281e8a87c2",
+    "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_left/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_right/entrant.json": "3ea89439d89f77397a41156cc8f5b3f0df4b39037986c2d3a10249a24dc06efa",
+    "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_right/parameters.json": "ac7b5bbb5f9d219ef079b95e32bfcb9dd301042fe90c2f56c9712c8bf23b69f6",
+    "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_right/policy.py": "0dd8b299f6f28df13f27e0a96a2dcae1d7bbcda6618dff90421dafe119576775",
+    "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_right/policy_net.zip": "51324bec4eed0e2fb37a49ae83897710b6547151507751977dedad6a1b878af9",
+    "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_right/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/reactive_audit_20261007/reactive_lead_lag_left/entrant.json": "3c0168e891ca4b91671568b2632686ca3f535db44322c76b8027a8decad1185f",
+    "experiments/league/reactive_audit_20261007/reactive_lead_lag_left/parameters.json": "64c00ee2b30212b4129eaf50f8e70c84a041c20acd5a21c0ca63635e6ba064f8",
+    "experiments/league/reactive_audit_20261007/reactive_lead_lag_left/policy.py": "0dd8b299f6f28df13f27e0a96a2dcae1d7bbcda6618dff90421dafe119576775",
+    "experiments/league/reactive_audit_20261007/reactive_lead_lag_left/policy_net.zip": "b14ba418ccea99781487ec66b1f1518c1105e64284ab774426554298e8bad9e3",
+    "experiments/league/reactive_audit_20261007/reactive_lead_lag_left/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/reactive_audit_20261007/reactive_lead_lag_right/entrant.json": "5123564d4239acaa2587ebbaa6782a4eb561923273e03ded78f74eb439490b92",
+    "experiments/league/reactive_audit_20261007/reactive_lead_lag_right/parameters.json": "d2af00eade527604d9cb76da29d06ffceb44a88709f9b476fc4424831f63ab2d",
+    "experiments/league/reactive_audit_20261007/reactive_lead_lag_right/policy.py": "0dd8b299f6f28df13f27e0a96a2dcae1d7bbcda6618dff90421dafe119576775",
+    "experiments/league/reactive_audit_20261007/reactive_lead_lag_right/policy_net.zip": "a674a41baa7af8e5af3f07284402a7b92fbcbbd71dbd0ebe78c7031ad161aaa2",
+    "experiments/league/reactive_audit_20261007/reactive_lead_lag_right/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/reactive_audit_20261007/reactive_range_escape_left/entrant.json": "a2d1398a7051dedcbb478f5c3300097b964edbd5a0d62bdf37746fef72a4edd5",
+    "experiments/league/reactive_audit_20261007/reactive_range_escape_left/parameters.json": "76d2b82be84b687c1df34e448d8867c97f0a395a1598ef28b5955cc7b7adfb6a",
+    "experiments/league/reactive_audit_20261007/reactive_range_escape_left/policy.py": "0dd8b299f6f28df13f27e0a96a2dcae1d7bbcda6618dff90421dafe119576775",
+    "experiments/league/reactive_audit_20261007/reactive_range_escape_left/policy_net.zip": "7018b0caefec3fc0b8f1533bd2c5666ffdf238bb94a90c571851c4e019b8dea0",
+    "experiments/league/reactive_audit_20261007/reactive_range_escape_left/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/reactive_audit_20261007/reactive_range_escape_right/entrant.json": "0ee2d25356ae6ac3ee8b4ad35ff16837f93f2e2b841335bb52015817e6ce1fea",
+    "experiments/league/reactive_audit_20261007/reactive_range_escape_right/parameters.json": "025069f44d9710334119e5522c78b7b377c0cb004f3ed1950e1ac99d2487e2f4",
+    "experiments/league/reactive_audit_20261007/reactive_range_escape_right/policy.py": "0dd8b299f6f28df13f27e0a96a2dcae1d7bbcda6618dff90421dafe119576775",
+    "experiments/league/reactive_audit_20261007/reactive_range_escape_right/policy_net.zip": "99e09ee89fb317e9509edc3371acf1283d19d150ca34cac3e7df3eb8491aaffa",
+    "experiments/league/reactive_audit_20261007/reactive_range_escape_right/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/reactive_audit_20261007/reactive_threat_reversal_left/entrant.json": "51c33c4d0fcbea0abd4fdd5ad2c411c3d8c1df43b6a6b32dbecba53b32ee54b1",
+    "experiments/league/reactive_audit_20261007/reactive_threat_reversal_left/parameters.json": "55ac5603f4c47e83ed1564ce146a5d654bcace863c19b4e004d67837450846e5",
+    "experiments/league/reactive_audit_20261007/reactive_threat_reversal_left/policy.py": "0dd8b299f6f28df13f27e0a96a2dcae1d7bbcda6618dff90421dafe119576775",
+    "experiments/league/reactive_audit_20261007/reactive_threat_reversal_left/policy_net.zip": "76602438a48b0599410a22a989f7410a422dde23cdfa680ed8842088f7ca7f61",
+    "experiments/league/reactive_audit_20261007/reactive_threat_reversal_left/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/reactive_audit_20261007/reactive_threat_reversal_right/entrant.json": "6dfd031af0cd5e165fbc8e6a48761878382b70a6dce05c27f68ee5860dd82001",
+    "experiments/league/reactive_audit_20261007/reactive_threat_reversal_right/parameters.json": "284b91bced3916e02f90226b044bbda185ed8ed86ccc315676f5bbd0db78acb0",
+    "experiments/league/reactive_audit_20261007/reactive_threat_reversal_right/policy.py": "0dd8b299f6f28df13f27e0a96a2dcae1d7bbcda6618dff90421dafe119576775",
+    "experiments/league/reactive_audit_20261007/reactive_threat_reversal_right/policy_net.zip": "0be9bf30ec95b77c68b1025a27bef88920149ba4eaa749e5e52befd4e788d7da",
+    "experiments/league/reactive_audit_20261007/reactive_threat_reversal_right/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "runs/league_extend_entropy_train_20261007/plan.json": "53c866e9a1d8e715c6695eef8e1e4ecef5bdd918f4fee3e6383e81df8d223c00"
+  },
+  "scope": "Eight newly written untrained scripted variants, four related public-state heuristics. Not eight independent architectures, expert doctrine, actual student submissions or exhaustive opponents. No outcome-based selection. Once used for follow-up learning they cease to be heldout."
+}

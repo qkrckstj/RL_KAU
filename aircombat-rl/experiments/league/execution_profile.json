@@ -1,0 +1,120 @@
+{
+  "backend": "tools.league_split_pool.SplitPool",
+  "workers": 16,
+  "neural_workers": 2,
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "approved_signatures": [
+    "4848c6c6c72eca1bbc5dc03fa2a45e40a3d4c026308ce1f4f9547e91f9a2bcd7",
+    "80b15f93ac1af3f073c240768c19d97ef97fe8cc32ca80c205e78e1a8bafb0ff",
+    "af535853df930b68ae91eb39cf0df8b64da898ddcc0aea3cc1811ab88739b582",
+    "c67ee3294c0cb30e60417f47a6acf8ed352e2440cb401a5ed7ed20ec47d6abea",
+    "fe8e02c8b1501225b5be352e10f8e29098095de6962e253e8706272bf88bb58d"
+  ],
+  "pure_warmup": [
+    {
+      "id": "league_separated_probe_20261007_parent_0",
+      "kind": "submission",
+      "design": "runs/league_separated_probe_20261007/models/parent_0",
+      "weights": "runs/league_separated_probe_20261007/models/parent_0/policy_net.zip"
+    },
+    {
+      "id": "cem_original",
+      "kind": "cem",
+      "parameters": [
+        46.5795821161632,
+        324.6037751529909,
+        305.6533702700848,
+        2.418697871782606,
+        18.936747197224676,
+        0.48848060094490076,
+        3.5707727915270118
+      ]
+    },
+    {
+      "id": "ace",
+      "kind": "bot",
+      "name": "ace"
+    },
+    {
+      "id": "fixed_left",
+      "kind": "fixed",
+      "action": 0
+    },
+    {
+      "id": "round_00",
+      "kind": "reactive",
+      "parameters": [
+        49.054643429137045,
+        344.9320165839133,
+        300.0,
+        1.6189913657693618,
+        0.6358662057947555,
+        0.5462355091182627,
+        2.216714533307004,
+        -0.917163597878225,
+        0.0,
+        707.5735938951951,
+        345.41311022978886,
+        316.31072988578927,
+        60.368798937664934,
+        133.49953714021927,
+        300.0,
+        101.85583422915799,
+        5633.5384761216865
+      ]
+    },
+    {
+      "id": "gate_s2302_g1_c9",
+      "kind": "submission",
+      "design": "runs/league_adaptive_20261006/s2302/g1/models/c9",
+      "weights": "runs/league_adaptive_20261006/s2302/g1/models/c9/policy_net.zip"
+    },
+    {
+      "id": "symgate_s2400_g0_c1",
+      "kind": "submission",
+      "design": "runs/league_symmetric_20261006/s2400/g0/models/c1",
+      "weights": "runs/league_symmetric_20261006/s2400/g0/models/c1/policy_net.zip"
+    },
+    {
+      "id": "intercept_s2500_g3_c6",
+      "kind": "submission",
+      "design": "runs/league_interception_train_20261006/s2500/g3/models/c6",
+      "weights": "runs/league_interception_train_20261006/s2500/g3/models/c6/policy_net.zip"
+    },
+    {
+      "id": "temporal_weave_left",
+      "kind": "submission",
+      "design": "experiments/league/unseen_temporal_repair_20261007/temporal_weave_left",
+      "weights": "experiments/league/unseen_temporal_repair_20261007/temporal_weave_left/policy_net.zip"
+    }
+  ],
+  "neural_warmup": [
+    {
+      "id": "league_separated_probe_20261007_parent_0",
+      "kind": "submission",
+      "design": "runs/league_separated_probe_20261007/models/parent_0",
+      "weights": "runs/league_separated_probe_20261007/models/parent_0/policy_net.zip"
+    },
+    {
+      "id": "ddqn_s1",
+      "kind": "submission",
+      "design": "runs/plan_a_20261005/double/ddqn/s1",
+      "weights": "runs/plan_a_20261005/double/ddqn/s1/checkpoints/step_1024000/policy_net.zip"
+    },
+    {
+      "id": "ddqn_s0",
+      "kind": "submission",
+      "design": "runs/plan_a_20261005/double/ddqn/s0",
+      "weights": "runs/plan_a_20261005/double/ddqn/s0/policy_net.zip"
+    }
+  ],
+  "benchmark": "runs/league_split_benchmark_20261007",
+  "benchmark_plan_sha256": "d5ef2bec938d0c539c4f9fa86ce1af2ec98415eebf4b9f5c5cb9c9c59f9563ee",
+  "benchmark_completion_sha256": "d4f6f3e0f8c1c1183c65e1ccb6e8a2c9ad2817b15362cb516c9a4bf0071f0b27",
+  "requirement": "Set thread environment before Python imports. Check current system commit/physical headroom before start. New experiments freeze this profile and all source/input hashes. Unknown or neural code routes to normal workers. Do not retrofit frozen experiments.",
+  "scope": "Measured on 216 official games repeated in two orders per configuration; full training acceleration not yet measured."
+}

@@ -1,0 +1,6 @@
+{
+  "id": "episode_mix_cem_only",
+  "kind": "submission",
+  "design": "experiments/league/episode_mixture_20261008/cem_only",
+  "weights": "experiments/league/episode_mixture_20261008/cem_only/policy_net.zip"
+}

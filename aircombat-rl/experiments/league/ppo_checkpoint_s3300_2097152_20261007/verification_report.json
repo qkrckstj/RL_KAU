@@ -1,0 +1,17 @@
+{
+  "status": "relocated_policy_verified",
+  "synthetic_actions": 786,
+  "blocked_import_roots": [
+    "tools",
+    "experiments"
+  ],
+  "denied_original_roots": [
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\runs",
+    "C:\\Users\\qkrck\\Desktop\\강화학습\\RL_KAU\\aircombat-rl\\experiments"
+  ],
+  "torch_imported": false,
+  "scope": "Synthetic relocation/inference check, not flight or performance evaluation.",
+  "exit_code": 0,
+  "original_source_and_weights_hashes_verified": true,
+  "changed_actions_from_zero_residual": 0
+}

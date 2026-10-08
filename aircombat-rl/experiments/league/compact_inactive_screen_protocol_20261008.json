@@ -1,0 +1,280 @@
+{
+  "training_run": "runs/league_compact_ppo_train_20261008",
+  "prepared_at": "2026-10-08T08:37:25.517150+00:00",
+  "opponents": [
+    {
+      "id": "control_s7600_t1310720_a4900",
+      "kind": "submission",
+      "design": "runs/league_rate_budget_train_20261008/control/s7600/checkpoints/step_1310720/sampled_4900",
+      "weights": "runs/league_rate_budget_train_20261008/control/s7600/checkpoints/step_1310720/sampled_4900/policy_net.zip"
+    },
+    {
+      "id": "temporal_delayed_right",
+      "kind": "submission",
+      "design": "experiments/league/unseen_temporal_repair_20261007/temporal_delayed_right",
+      "weights": "experiments/league/unseen_temporal_repair_20261007/temporal_delayed_right/policy_net.zip"
+    },
+    {
+      "id": "switching_range_wide",
+      "kind": "submission",
+      "design": "experiments/league/switching_audit_20261008/range_wide",
+      "weights": "experiments/league/switching_audit_20261008/range_wide/policy_net.zip"
+    },
+    {
+      "id": "untrained_parameter_04",
+      "kind": "submission",
+      "design": "experiments/league/rate_untrained_parameters_20261008/variant_04",
+      "weights": "experiments/league/rate_untrained_parameters_20261008/variant_04/policy_net.zip"
+    },
+    {
+      "id": "reactive_range_escape_right",
+      "kind": "submission",
+      "design": "experiments/league/reactive_audit_20261007/reactive_range_escape_right",
+      "weights": "experiments/league/reactive_audit_20261007/reactive_range_escape_right/policy_net.zip"
+    },
+    {
+      "id": "novel_lag_fast",
+      "kind": "reactive",
+      "parameters": [
+        0.0,
+        333.084677145468,
+        550.0,
+        -1.5,
+        0.0,
+        0.4779232792843636,
+        3.8915620667485746,
+        -0.14925445697884832,
+        1578.6403144613018,
+        7832.976317212762,
+        550.0,
+        3.8743231728056506,
+        35.02624439249268,
+        128.5075794112313,
+        309.65068212464746,
+        152.72036821855625,
+        5358.7614671072115
+      ]
+    },
+    {
+      "id": "league_residual_continuation_20261007_s3300_t6291456",
+      "kind": "submission",
+      "design": "runs/league_residual_continuation_20261007/s3300/checkpoints/step_6291456/submission",
+      "weights": "runs/league_residual_continuation_20261007/s3300/checkpoints/step_6291456/submission/policy_net.zip"
+    },
+    {
+      "id": "sampled_s3301_t6291456_a4901",
+      "kind": "submission",
+      "design": "runs/league_residual_sampled_development_20261007/models/sampled_s3301_t6291456_a4901",
+      "weights": "runs/league_residual_sampled_development_20261007/models/sampled_s3301_t6291456_a4901/policy_net.zip"
+    },
+    {
+      "id": "intercept_s2501_g3_c5",
+      "kind": "submission",
+      "design": "runs/league_interception_train_20261006/s2501/g3/models/c5",
+      "weights": "runs/league_interception_train_20261006/s2501/g3/models/c5/policy_net.zip"
+    },
+    {
+      "id": "league_contextual_speed_pilot_20261007_c2",
+      "kind": "submission",
+      "design": "runs/league_contextual_speed_pilot_20261007/models/c2",
+      "weights": "runs/league_contextual_speed_pilot_20261007/models/c2/policy_net.zip"
+    },
+    {
+      "id": "league_pursuit_context_train_20261007_83aa84b4efaf",
+      "kind": "submission",
+      "design": "runs/league_pursuit_context_train_20261007/models/83aa84b4efaf533e999d",
+      "weights": "runs/league_pursuit_context_train_20261007/models/83aa84b4efaf533e999d/policy_net.zip"
+    },
+    {
+      "id": "league_separated_probe_20261007_parent_1",
+      "kind": "submission",
+      "design": "runs/league_separated_probe_20261007/models/parent_1",
+      "weights": "runs/league_separated_probe_20261007/models/parent_1/policy_net.zip"
+    },
+    {
+      "id": "portfolio_s6401_g2_c2_a1",
+      "kind": "submission",
+      "design": "runs/league_portfolio_train_20261007/s6401/g02/c02/action_1",
+      "weights": "runs/league_portfolio_train_20261007/s6401/g02/c02/action_1/policy_net.zip"
+    },
+    {
+      "id": "hold5_s6500_t262144_a4900",
+      "kind": "submission",
+      "design": "runs/league_hold_train_20261007/hold5/s6500/checkpoints/step_262144/sampled_4900",
+      "weights": "runs/league_hold_train_20261007/hold5/s6500/checkpoints/step_262144/sampled_4900/policy_net.zip"
+    },
+    {
+      "id": "control_s7600_t2621440_a4901",
+      "kind": "submission",
+      "design": "runs/league_rate_budget_train_20261008/control/s7600/checkpoints/step_2621440/sampled_4901",
+      "weights": "runs/league_rate_budget_train_20261008/control/s7600/checkpoints/step_2621440/sampled_4901/policy_net.zip"
+    },
+    {
+      "id": "switching_turn_strong",
+      "kind": "submission",
+      "design": "experiments/league/switching_audit_20261008/turn_strong",
+      "weights": "experiments/league/switching_audit_20261008/turn_strong/policy_net.zip"
+    },
+    {
+      "id": "temporal_pulsed_right",
+      "kind": "submission",
+      "design": "experiments/league/unseen_temporal_repair_20261007/temporal_pulsed_right",
+      "weights": "experiments/league/unseen_temporal_repair_20261007/temporal_pulsed_right/policy_net.zip"
+    },
+    {
+      "id": "untrained_parameter_02",
+      "kind": "submission",
+      "design": "experiments/league/rate_untrained_parameters_20261008/variant_02",
+      "weights": "experiments/league/rate_untrained_parameters_20261008/variant_02/policy_net.zip"
+    },
+    {
+      "id": "reactive_lead_lag_right",
+      "kind": "submission",
+      "design": "experiments/league/reactive_audit_20261007/reactive_lead_lag_right",
+      "weights": "experiments/league/reactive_audit_20261007/reactive_lead_lag_right/policy_net.zip"
+    },
+    {
+      "id": "novel_offset_right",
+      "kind": "reactive",
+      "parameters": [
+        0.0,
+        333.084677145468,
+        500.0,
+        3.515351603786926,
+        25.0,
+        0.4779232792843636,
+        3.8915620667485746,
+        -0.14925445697884832,
+        1578.6403144613018,
+        7832.976317212762,
+        500.0,
+        3.8743231728056506,
+        35.02624439249268,
+        128.5075794112313,
+        309.65068212464746,
+        152.72036821855625,
+        5358.7614671072115
+      ]
+    },
+    {
+      "id": "league_residual_continuation_20261007_s3301_t4194304",
+      "kind": "submission",
+      "design": "runs/league_residual_continuation_20261007/s3301/checkpoints/step_4194304/submission",
+      "weights": "runs/league_residual_continuation_20261007/s3301/checkpoints/step_4194304/submission/policy_net.zip"
+    },
+    {
+      "id": "control_s6100_t1048576_a4900",
+      "kind": "submission",
+      "design": "runs/league_history_budget_extend_20261007/control/s6100/checkpoints/step_1048576/sampled_4900",
+      "weights": "runs/league_history_budget_extend_20261007/control/s6100/checkpoints/step_1048576/sampled_4900/policy_net.zip"
+    },
+    {
+      "id": "intercept_s2502_g1_c4",
+      "kind": "submission",
+      "design": "runs/league_interception_train_20261006/s2502/g1/models/c4",
+      "weights": "runs/league_interception_train_20261006/s2502/g1/models/c4/policy_net.zip"
+    },
+    {
+      "id": "league_contextual_speed_pilot_20261007_c3",
+      "kind": "submission",
+      "design": "runs/league_contextual_speed_pilot_20261007/models/c3",
+      "weights": "runs/league_contextual_speed_pilot_20261007/models/c3/policy_net.zip"
+    }
+  ],
+  "excluded_active_and_rng_alias_ids": [
+    "ace",
+    "cem_original",
+    "circler",
+    "control_s7400_t2621440_a4900",
+    "control_s7400_t2621440_a4901",
+    "control_s7601_t1310720_a4900",
+    "control_s7601_t1310720_a4901",
+    "control_s7601_t2621440_a4900",
+    "control_s7601_t2621440_a4901",
+    "ddqn_s0",
+    "ddqn_s1",
+    "episode_mix_sampled_4900",
+    "episode_mix_sampled_4901",
+    "evader",
+    "extend_cem_s6800_g3_c9",
+    "fixed_left",
+    "fixed_right",
+    "gate_s2302_g1_c9",
+    "history_s6000_t1048576_a4900",
+    "history_s6000_t1048576_a4901",
+    "hold5_s6500_t262144_a4901",
+    "hold5_s6501_t262144_a4900",
+    "intercept_s2500_g3_c6",
+    "lead",
+    "league_contextual_speed_pilot_20261007_c0",
+    "league_contextual_speed_pilot_20261007_c1",
+    "league_maneuver_parallel_20261006_545956914cb9",
+    "league_pursuit_context_train_20261007_346fd4060999",
+    "league_pursuit_context_train_20261007_5a5ecfbeabd6",
+    "league_residual_continuation_20261007_s3300_t4194304",
+    "league_residual_continuation_20261007_s3301_t2097152",
+    "league_temporal_repair_20261007_2ca01b55b31e",
+    "league_temporal_repair_20261007_6607864eceb4",
+    "novel_offset_left",
+    "novel_opening_right",
+    "portfolio_s6400_g0_c2_a1",
+    "portfolio_s6401_g2_c2_a0",
+    "pursuit",
+    "reactive_brake_pursuit_left",
+    "reactive_brake_pursuit_right",
+    "risk_break_cem_s7200_g1_c9",
+    "sampled_s3300_t2097152_a4900",
+    "sampled_s3300_t2097152_a4901",
+    "sampled_s3301_t2097152_a4900",
+    "sampled_s3301_t2097152_a4901",
+    "switching_periodic_fast",
+    "switching_periodic_slow",
+    "switching_range_close",
+    "symgate_s2400_g0_c1",
+    "temporal_delayed_left",
+    "temporal_extend_left",
+    "temporal_extend_right",
+    "untrained_parameter_01",
+    "untrained_parameter_03"
+  ],
+  "eligible_count": 151,
+  "groups": {
+    "control_s7600_t1310720_a4900": "submission:13aabedbd4f69f3e46c68827c09d1aa5a911e75a7f6f4e244a93c158b5759d1b",
+    "temporal_delayed_right": "submission:2f568a7824a946af0cf319710eb3cfc44896fe35cda8f8c7ccfe4ba14a76a160",
+    "switching_range_wide": "submission:ea90ba150700f1054e959527311d279a3bf760c62643705ca0b3fd4f760ee21f",
+    "untrained_parameter_04": "submission:5934b85e310cb9c124dabc8d4138cd65700a90d37f103cf2515453612d12d281",
+    "reactive_range_escape_right": "submission:ac8632d1a65c09c150e85acc034e54428cd6996104282579325db594ccae966c",
+    "novel_lag_fast": "reactive",
+    "league_residual_continuation_20261007_s3300_t6291456": "submission:008a4a085b5a17b2ee1231cd2e7648c7fe4f2948c526fb47bc68d47970c74628",
+    "sampled_s3301_t6291456_a4901": "submission:e15365ddecbca861d758d19cdaade08070a450951c2d3a3499a3e61fe7513b40",
+    "intercept_s2501_g3_c5": "submission:1fb6aff168e99c3358b51208de103e5ebb6046f4b7d0457b180a616d320c8e13",
+    "league_contextual_speed_pilot_20261007_c2": "submission:c5de6ac0bea42444a9d117cbe1deb05b64ca7013ef9724ee038ec513df352a2d",
+    "league_pursuit_context_train_20261007_83aa84b4efaf": "submission:070bed51b32ed74e9028d159904b574f57273200ec0ecf87fc7c92dbed08c74b",
+    "league_separated_probe_20261007_parent_1": "submission:9c68e24187a10f3bb8fb3a552bc5a0ec425129a5f48410a951556b9f8b8d6bd9",
+    "portfolio_s6401_g2_c2_a1": "submission:c0accb30eda425eaefbad31b0d169a7806142f5e91a60fadf40ebe30558a3dda",
+    "hold5_s6500_t262144_a4900": "submission:cd4aa61ce22b70186fe9a75eae917a6ca62b783a7b2b840decee187326f67a14",
+    "control_s7600_t2621440_a4901": "submission:13aabedbd4f69f3e46c68827c09d1aa5a911e75a7f6f4e244a93c158b5759d1b",
+    "switching_turn_strong": "submission:ea90ba150700f1054e959527311d279a3bf760c62643705ca0b3fd4f760ee21f",
+    "temporal_pulsed_right": "submission:2f568a7824a946af0cf319710eb3cfc44896fe35cda8f8c7ccfe4ba14a76a160",
+    "untrained_parameter_02": "submission:5934b85e310cb9c124dabc8d4138cd65700a90d37f103cf2515453612d12d281",
+    "reactive_lead_lag_right": "submission:ac8632d1a65c09c150e85acc034e54428cd6996104282579325db594ccae966c",
+    "novel_offset_right": "reactive",
+    "league_residual_continuation_20261007_s3301_t4194304": "submission:008a4a085b5a17b2ee1231cd2e7648c7fe4f2948c526fb47bc68d47970c74628",
+    "control_s6100_t1048576_a4900": "submission:e15365ddecbca861d758d19cdaade08070a450951c2d3a3499a3e61fe7513b40",
+    "intercept_s2502_g1_c4": "submission:1fb6aff168e99c3358b51208de103e5ebb6046f4b7d0457b180a616d320c8e13",
+    "league_contextual_speed_pilot_20261007_c3": "submission:c5de6ac0bea42444a9d117cbe1deb05b64ca7013ef9724ee038ec513df352a2d"
+  },
+  "band": 112000000,
+  "n": 8,
+  "maximum_games": 1344,
+  "selection_rule": "24 inactive archive representatives; exclude active IDs and their verified fixed-RNG aliases. Fill least represented code groups first, then weakest consumed109M/110M baseline estimates, cap4/group.",
+  "nomination_rule": "After both pilots finish, evaluate retained models from both seeds; candidate is higher development rank. Source aliases execute once. Run only if at least one pilot passes preregistered extension screen.",
+  "decision_rule": "Use paired candidate-source and other retained-source outcomes, group/tail scores and uncertainty. No automatic extension merely for positive point estimate; no promotion from this small screen.",
+  "scope": "Known archive policies omitted from this48-foe stage; ancestors may have trained against them. Not unseen opponents. Four fresh112M ICs,both seats,two action replicas,plus preserved CEM comparator. Targeted weakness sample,not full205 population estimate.",
+  "source_sha256": {
+    "tools/league_compact_assess.py": "34e9e67c9c4a5c7fb252b331f7a8f8f9448616ca3e4028075f571e3f90ff7c18"
+  },
+  "input_sha256": {
+    "runs/league_compact_ppo_train_20261008/plan.json": "6d6837e96b0ae0d76b83b25fb503a588e8812e029f4791048a5c05ab9ac9cb17"
+  }
+}

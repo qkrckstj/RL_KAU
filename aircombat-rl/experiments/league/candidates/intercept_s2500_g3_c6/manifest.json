@@ -1,0 +1,22 @@
+{
+  "policy": "intercept_s2500_g3_c6",
+  "stage": "final_criteria_passed_novel_audit_no_regression",
+  "source_design": "runs/league_interception_train_20261006/s2500/g3/models/c6",
+  "files": {
+    "entrant.json": "e14d267489db294982191545fd21338a8e299715e57549cb9caa5929a9ad3656",
+    "evidence/final_candidate_000.json": "5945abb9aa6b0aeb7f0db6662b636cbb9378e64310fe206dddb30bf25b52fcc6",
+    "evidence/final_candidate_001.json": "90a182533664df9af03e6ff78860101c4dca8b5ea5a3011727ea66ca3f4b6162",
+    "evidence/final_candidate_002.json": "416a13e68b81bb2ebc113afdd7cf6300df378f65a2986e16c2243d460d88579a",
+    "evidence/final_completion.json": "c4940726a6a02df736bd833d1e199bd67f62b0468dc43ce02db1431690668ebc",
+    "evidence/frozen_selection.json": "92fda3fa3c7e2e5d19e73724382f3accd26b8ab13ef7c5cc1c78e4774ea494d8",
+    "evidence/novel_completion.json": "8b3373e23dd153554e5a6e95bc8620de9eec130a8ed12af83932eb82d5344438",
+    "evidence/novel_plan.json": "0de251d07830f081fcca2165c56f56bea8e44cf909214a54e2b8557e4d164179",
+    "evidence/packaging_check.json": "f5ec607156a20d9bf6a0e59df2cde94d0482dcc11dd723619ec557be093fdc48",
+    "evidence/plan.json": "0aae80205d02bf7c487798174d9d3776840c43802b58baf6d4781c1518650afc",
+    "policy.py": "1cf5806f2c3b57e58d3ccc740a853f291ae8e112c434a23526c0869cfff27816",
+    "policy_net.json": "d5ac999dbcc98e7ed424bcd0ef520bb854ff6f37151ef596162f8202649c8c67",
+    "policy_net.zip": "ada951b9b9508e59d9a8529385050a6b4aecad1fbec228d8c85beb0542cbdfbd",
+    "README.md": "81c605b1f4943676107a7a1dc01607e3da96aa8c18f125322c9c91358d51c45c",
+    "wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "status": "evaluation_passed",
+  "selected": {
+    "id": "intercept_s2500_g3_c6",
+    "kind": "submission",
+    "design": "runs/league_interception_train_20261006/s2500/g3/models/c6",
+    "weights": "runs/league_interception_train_20261006/s2500/g3/models/c6/policy_net.zip"
+  },
+  "selected_before_test": true,
+  "final_opened": true,
+  "parent_preserved": true,
+  "comparison": {
+    "candidate": {
+      "objective": 0.7631280952380951,
+      "mean_win_rate": 0.7821476190476191,
+      "mean_score": 0.8486607142857142,
+      "worst_score": 0.5,
+      "lower_quarter_score": 0.5666666666666667,
+      "health": 0.506747619047619,
+      "games": 3360,
+      "steps": 4263404
+    },
+    "parent": {
+      "objective": 0.7047129166666666,
+      "mean_win_rate": 0.7148857142857142,
+      "mean_score": 0.815029761904762,
+      "worst_score": 0.5,
+      "lower_quarter_score": 0.5135416666666667,
+      "health": 0.47335238095238097,
+      "games": 3360,
+      "steps": 4399991
+    },
+    "win_gain": 0.06726190476190486,
+    "objective_gain": 0.05841517857142853,
+    "lower_quarter_gain": 0.05312499999999998,
+    "per_opponent_win_gain": {
+      "cem_original": 0.0,
+      "ddqn_s1": 0.0,
+      "ace": 0.0,
+      "pursuit": 0.0,
+      "evader": 0.4188,
+      "fixed_left": 0.0,
+      "fixed_right": 0.0,
+      "round_00": 0.0,
+      "round_01": 0.0,
+      "round_02": 0.0,
+      "round_03": 0.0,
+      "round_04": 0.0,
+      "round_05": 0.0,
+      "lead": 0.0,
+      "circler": 0.9937,
+      "ddqn_s0": 0.0,
+      "refine_2200": 0.0,
+      "refine_2201": 0.0,
+      "pursuit_650_lead6": 0.0,
+      "gate_s2302_g1_c9": 0.0,
+      "symgate_s2400_g0_c1": 0.0
+    },
+    "worst_opponent_win_gain": 0.0,
+    "evader_loss_increase": 0,
+    "paired_gain": {
+      "mean": 0.06726190476190476,
+      "ci95": [
+        0.0625,
+        0.07202380952380952
+      ],
+      "shared_initial_conditions": 80,
+      "scope": "IC-cluster bootstrap, both seats and all fixed opponents kept together; conditional on learned policies"
+    },
+    "evader_paired_gain": {
+      "mean": 0.41875,
+      "ci95": [
+        0.31875,
+        0.51875
+      ],
+      "shared_initial_conditions": 80,
+      "scope": "IC-cluster bootstrap, both seats and all fixed opponents kept together; conditional on learned policies"
+    },
+    "passed": true
+  },
+  "reference_comparison": {
+    "candidate": {
+      "objective": 0.7631280952380951,
+      "mean_win_rate": 0.7821476190476191,
+      "mean_score": 0.8486607142857142,
+      "worst_score": 0.5,
+      "lower_quarter_score": 0.5666666666666667,
+      "health": 0.506747619047619,
+      "games": 3360,
+      "steps": 4263404
+    },
+    "parent": {
+      "objective": 0.7459502083333331,
+      "mean_win_rate": 0.7651809523809524,
+      "mean_score": 0.8401785714285714,
+      "worst_score": 0.5,
+      "lower_quarter_score": 0.5369791666666667,
+      "health": 0.45770000000000005,
+      "games": 3360,
+      "steps": 4227302
+    },
+    "win_gain": 0.016966666666666685,
+    "objective_gain": 0.017177886904761963,
+    "lower_quarter_gain": 0.029687499999999978,
+    "per_opponent_win_gain": {
+      "cem_original": 0.0,
+      "ddqn_s1": 0.0,
+      "ace": 0.0,
+      "pursuit": 0.0,
+      "evader": 0.3563,
+      "fixed_left": 0.0,
+      "fixed_right": 0.0,
+      "round_00": 0.0,
+      "round_01": 0.0,
+      "round_02": 0.0,
+      "round_03": 0.0,
+      "round_04": 0.0,
+      "round_05": 0.0,
+      "lead": 0.0,
+      "circler": 0.0,
+      "ddqn_s0": 0.0,
+      "refine_2200": 0.0,
+      "refine_2201": 0.0,
+      "pursuit_650_lead6": 0.0,
+      "gate_s2302_g1_c9": 0.0,
+      "symgate_s2400_g0_c1": 0.0
+    },
+    "worst_opponent_win_gain": 0.0,
+    "evader_loss_increase": 0
+  },
+  "evader_gain_vs_reference": {
+    "mean": 0.35625,
+    "ci95": [
+      0.26875,
+      0.45
+    ],
+    "shared_initial_conditions": 80,
+    "scope": "IC-cluster bootstrap, both seats and all fixed opponents kept together; conditional on learned policies"
+  }
+}

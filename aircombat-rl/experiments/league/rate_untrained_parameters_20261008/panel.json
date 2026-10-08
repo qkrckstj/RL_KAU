@@ -1,0 +1,173 @@
+{
+  "created_at": "2026-10-08T05:37:45.728639+00:00",
+  "opponents": [
+    {
+      "id": "untrained_parameter_00",
+      "kind": "submission",
+      "design": "experiments/league/rate_untrained_parameters_20261008/variant_00",
+      "weights": "experiments/league/rate_untrained_parameters_20261008/variant_00/policy_net.zip"
+    },
+    {
+      "id": "untrained_parameter_01",
+      "kind": "submission",
+      "design": "experiments/league/rate_untrained_parameters_20261008/variant_01",
+      "weights": "experiments/league/rate_untrained_parameters_20261008/variant_01/policy_net.zip"
+    },
+    {
+      "id": "untrained_parameter_02",
+      "kind": "submission",
+      "design": "experiments/league/rate_untrained_parameters_20261008/variant_02",
+      "weights": "experiments/league/rate_untrained_parameters_20261008/variant_02/policy_net.zip"
+    },
+    {
+      "id": "untrained_parameter_03",
+      "kind": "submission",
+      "design": "experiments/league/rate_untrained_parameters_20261008/variant_03",
+      "weights": "experiments/league/rate_untrained_parameters_20261008/variant_03/policy_net.zip"
+    },
+    {
+      "id": "untrained_parameter_04",
+      "kind": "submission",
+      "design": "experiments/league/rate_untrained_parameters_20261008/variant_04",
+      "weights": "experiments/league/rate_untrained_parameters_20261008/variant_04/policy_net.zip"
+    },
+    {
+      "id": "untrained_parameter_05",
+      "kind": "submission",
+      "design": "experiments/league/rate_untrained_parameters_20261008/variant_05",
+      "weights": "experiments/league/rate_untrained_parameters_20261008/variant_05/policy_net.zip"
+    },
+    {
+      "id": "untrained_parameter_06",
+      "kind": "submission",
+      "design": "experiments/league/rate_untrained_parameters_20261008/variant_06",
+      "weights": "experiments/league/rate_untrained_parameters_20261008/variant_06/policy_net.zip"
+    },
+    {
+      "id": "untrained_parameter_07",
+      "kind": "submission",
+      "design": "experiments/league/rate_untrained_parameters_20261008/variant_07",
+      "weights": "experiments/league/rate_untrained_parameters_20261008/variant_07/policy_net.zip"
+    }
+  ],
+  "parameters": [
+    [
+      1155.7300238621187,
+      10.181268760730042,
+      14.744367579705443,
+      -49.18221127291005,
+      622.6362726518507,
+      2.0087570898909046,
+      184.06494878746471
+    ],
+    [
+      890.9954218010557,
+      2.2863954073029165,
+      10.165414679698502,
+      -8.626784636288676,
+      472.61789964446655,
+      1.6946697379828628,
+      112.1072932738766
+    ],
+    [
+      2085.070708485629,
+      5.5000553090001905,
+      5.382129692846504,
+      28.045061228438826,
+      559.3412210091878,
+      3.5478031389188396,
+      19.08617602598052
+    ],
+    [
+      1096.830347479018,
+      13.203113268029037,
+      12.212419321961018,
+      -29.344190124989098,
+      506.64291052490705,
+      5.663802751360881,
+      152.87981602072063
+    ],
+    [
+      2238.332040701044,
+      7.3084386189553845,
+      16.767240840424293,
+      14.968925788407489,
+      487.29964962112365,
+      0.7442559400152426,
+      26.814676489181032
+    ],
+    [
+      1714.3510184106153,
+      4.661548197250995,
+      9.086041433392271,
+      -64.15239586927696,
+      548.0433429836462,
+      3.085909224270952,
+      144.6312277405124
+    ],
+    [
+      1387.1982646203444,
+      9.421126837358106,
+      6.433972704038886,
+      52.877636789242985,
+      633.2507084779743,
+      4.696112712147115,
+      95.20787416318655
+    ],
+    [
+      1972.8662777417508,
+      12.242368528702487,
+      3.6872147917780707,
+      40.622311162794034,
+      585.3145883374034,
+      6.949082375905804,
+      71.79081970013556
+    ]
+  ],
+  "parameter_names": [
+    "trigger_range",
+    "escape_seconds",
+    "cooldown_seconds",
+    "escape_angle",
+    "cruise_speed",
+    "lead_seconds",
+    "chase_bonus"
+  ],
+  "generator_seed": 7501,
+  "generation": "Eight fixed stratified random combinations across existing seven-parameter bounds; no outcome-based selection.",
+  "source": "runs/league_rate_ppo_train_20261008",
+  "outcomes_observed": false,
+  "synthetic_action_checks": 2048,
+  "source_sha256": {
+    "tools/league_rate_untrained_panel.py": "f1fb4218ce10be4ed55a148f94033107871d62a134863cff7918212370812fe7",
+    "tools/league_extend_parameter_train.py": "d26f879d9f58e3314c5db1b06d5d550d76fb30e8223e7d492011c2adfe4c2ffb",
+    "experiments/league/extend_parameter_policy.py": "99f12340c1e39beca759d537b1173e2003d407b67685e4223be644134298f821"
+  },
+  "input_sha256": {
+    "experiments/league/rate_untrained_parameters_20261008/variant_00/policy.py": "99f12340c1e39beca759d537b1173e2003d407b67685e4223be644134298f821",
+    "experiments/league/rate_untrained_parameters_20261008/variant_00/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/rate_untrained_parameters_20261008/variant_00/policy_net.zip": "46a763859d9d4739393515cbda32c7ea4580ba8cdd897197de46fd2073f6d195",
+    "experiments/league/rate_untrained_parameters_20261008/variant_01/policy.py": "99f12340c1e39beca759d537b1173e2003d407b67685e4223be644134298f821",
+    "experiments/league/rate_untrained_parameters_20261008/variant_01/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/rate_untrained_parameters_20261008/variant_01/policy_net.zip": "aade29d365f324219a5dfa77e90e89ea9f6af88f3aa69aa0f22f59836ea91f48",
+    "experiments/league/rate_untrained_parameters_20261008/variant_02/policy.py": "99f12340c1e39beca759d537b1173e2003d407b67685e4223be644134298f821",
+    "experiments/league/rate_untrained_parameters_20261008/variant_02/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/rate_untrained_parameters_20261008/variant_02/policy_net.zip": "6e66960ed94cd2a3e34a65491e1f340803c5643a796c7eb4c0471423b86e63da",
+    "experiments/league/rate_untrained_parameters_20261008/variant_03/policy.py": "99f12340c1e39beca759d537b1173e2003d407b67685e4223be644134298f821",
+    "experiments/league/rate_untrained_parameters_20261008/variant_03/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/rate_untrained_parameters_20261008/variant_03/policy_net.zip": "51a79a03333c339e5339d8c86dc7f9750bd0ddb790273357bf810444ef8585b1",
+    "experiments/league/rate_untrained_parameters_20261008/variant_04/policy.py": "99f12340c1e39beca759d537b1173e2003d407b67685e4223be644134298f821",
+    "experiments/league/rate_untrained_parameters_20261008/variant_04/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/rate_untrained_parameters_20261008/variant_04/policy_net.zip": "4ba4ce93a27b7d853b633798b15fa40c8fd1ccda27cf73a13f8c8b17425ca2cc",
+    "experiments/league/rate_untrained_parameters_20261008/variant_05/policy.py": "99f12340c1e39beca759d537b1173e2003d407b67685e4223be644134298f821",
+    "experiments/league/rate_untrained_parameters_20261008/variant_05/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/rate_untrained_parameters_20261008/variant_05/policy_net.zip": "630e837a63c817ccd6e93fe85ffcba8f440dfc89117de3ba35d3dd7119069ba9",
+    "experiments/league/rate_untrained_parameters_20261008/variant_06/policy.py": "99f12340c1e39beca759d537b1173e2003d407b67685e4223be644134298f821",
+    "experiments/league/rate_untrained_parameters_20261008/variant_06/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/rate_untrained_parameters_20261008/variant_06/policy_net.zip": "86c76c9c2d2d209eca30ec6743830627db973ed7e8b192226ebe664783a2d686",
+    "experiments/league/rate_untrained_parameters_20261008/variant_07/policy.py": "99f12340c1e39beca759d537b1173e2003d407b67685e4223be644134298f821",
+    "experiments/league/rate_untrained_parameters_20261008/variant_07/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+    "experiments/league/rate_untrained_parameters_20261008/variant_07/policy_net.zip": "5cc14e20b572f4a6df57d43515b284771aeca6984ab747b444b7ab66551f625c"
+  },
+  "scope": "Not present in the173 training opponents. New parameter combinations of a known controller family,not new architectures or actual student entries. Untrained evidence only until this assessment; then consumed."
+}

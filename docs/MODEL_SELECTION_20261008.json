@@ -1,0 +1,22 @@
+{
+  "status": "paused_by_user",
+  "scope": "Three PPO models in the latest policy drift comparison; not a universal ranking against CEM or future entrants",
+  "primary_reference": {
+    "name": "PPO7400",
+    "learner": "aircombat-rl/runs/league_rate_ppo_train_20261008/control/s7400/checkpoints/step_2621440/learner.zip",
+    "role": "frozen reference and fallback"
+  },
+  "research_candidate": {
+    "name": "rotated7801",
+    "learner": "aircombat-rl/runs/league_compact_rotated_train_20261008/rotated/s7801/checkpoints/step_1310720/learner.zip",
+    "role": "preserve for future investigation; not promoted"
+  },
+  "archived_comparator": {
+    "name": "compact7800",
+    "learner": "aircombat-rl/runs/league_compact_ppo_train_20261008/compact/s7800/checkpoints/step_1310720/learner.zip",
+    "role": "archive and compare; no priority continuation"
+  },
+  "continue_all_three": false,
+  "resume_requires_explicit_user_request": true,
+  "github_upload_automatic": false
+}
