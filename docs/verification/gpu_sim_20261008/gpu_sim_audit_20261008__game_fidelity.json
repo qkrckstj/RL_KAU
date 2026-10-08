@@ -1,0 +1,75 @@
+{
+  "scope": "Two consumed development ICs, both seats; not unseen policy evaluation",
+  "agreement": 4,
+  "games": 4,
+  "runs": [
+    {
+      "seed": 33030000,
+      "seat": "red",
+      "cpu_outcome": "kill",
+      "cpu_steps": 1158,
+      "cpu_health": [
+        1.0,
+        0.0
+      ],
+      "gpu_outcome": "kill",
+      "gpu_steps": 1156,
+      "gpu_health": [
+        1.0,
+        0.0
+      ],
+      "same_verdict": true
+    },
+    {
+      "seed": 33030000,
+      "seat": "blue",
+      "cpu_outcome": "kill",
+      "cpu_steps": 1165,
+      "cpu_health": [
+        0.0,
+        1.0
+      ],
+      "gpu_outcome": "kill",
+      "gpu_steps": 1167,
+      "gpu_health": [
+        0.0,
+        1.0
+      ],
+      "same_verdict": true
+    },
+    {
+      "seed": 33030001,
+      "seat": "red",
+      "cpu_outcome": "kill",
+      "cpu_steps": 1164,
+      "cpu_health": [
+        1.0,
+        0.0
+      ],
+      "gpu_outcome": "kill",
+      "gpu_steps": 1166,
+      "gpu_health": [
+        1.0,
+        0.0
+      ],
+      "same_verdict": true
+    },
+    {
+      "seed": 33030001,
+      "seat": "blue",
+      "cpu_outcome": "kill",
+      "cpu_steps": 1149,
+      "cpu_health": [
+        0.0,
+        1.0
+      ],
+      "gpu_outcome": "kill",
+      "gpu_steps": 1153,
+      "gpu_health": [
+        0.0,
+        1.0
+      ],
+      "same_verdict": true
+    }
+  ]
+}

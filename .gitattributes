@@ -3,6 +3,9 @@
 # Archived logs/patches are immutable experiment evidence.
 aircombat-rl/runs/** -whitespace
 aircombat-rl/experiments/league/bundle/source_snapshot/** -whitespace
+docs/verification/gpu_sim_20261008/*.log -whitespace
+docs/verification/gpu_sim_20261008/nvidia_smi.txt -whitespace
+docs/verification/gpu_upload_20261008/*.log -whitespace
 *.zip binary
 *.pkl binary
 *.png binary

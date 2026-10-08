@@ -1,0 +1,6 @@
+START ppo_warm_cuda_env1_s0
+DONE ppo_warm_cuda_env1_s0: 11.732s, 480 updates
+START ppo_warm_cuda_env1_s1
+DONE ppo_warm_cuda_env1_s1: 11.773s, 480 updates
+START ppo_warm_cuda_env1_s2
+DONE ppo_warm_cuda_env1_s2: 11.852s, 480 updates

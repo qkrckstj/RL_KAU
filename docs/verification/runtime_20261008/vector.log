@@ -1,0 +1,21 @@
+START ppo_warm_cpu_env2_s0
+DONE ppo_warm_cpu_env2_s0: 7.871s, 480 updates
+START ppo_warm_cuda_env2_s0
+DONE ppo_warm_cuda_env2_s0: 10.631s, 473 updates
+START ppo_warm_cuda_env2_s1
+DONE ppo_warm_cuda_env2_s1: 10.881s, 479 updates
+START ppo_warm_cpu_env2_s1
+DONE ppo_warm_cpu_env2_s1: 7.480s, 480 updates
+START ppo_warm_cpu_env2_s2
+DONE ppo_warm_cpu_env2_s2: 7.536s, 480 updates
+START ppo_warm_cuda_env2_s2
+DONE ppo_warm_cuda_env2_s2: 10.948s, 480 updates
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/hoseon/Desktop/박찬서/RL_KAU/aircombat-rl/tools/runtime_audit.py", line 272, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/hoseon/Desktop/박찬서/RL_KAU/aircombat-rl/tools/runtime_audit.py", line 244, in main
+    raise RuntimeError('Step/update budgets differed across devices; do not claim an equal-work speedup')
+RuntimeError: Step/update budgets differed across devices; do not claim an equal-work speedup

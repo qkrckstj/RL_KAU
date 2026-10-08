@@ -1,0 +1,15 @@
+........................................................................ [ 52%]
+................................................................         [100%]
+=============================== warnings summary ===============================
+tests/test_league.py::test_real_parallel_batch_resumes_without_changing_results
+tests/test_league.py::test_real_parallel_batch_resumes_without_changing_results
+  /usr/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=28010) is multi-threaded, use of fork() may lead to deadlocks in the child.
+    self.pid = os.fork()
+
+tests/test_ppo_cpu_rollouts.py::test_callback_checkpoint_does_not_capture_temporary_methods
+tests/test_ppo_cpu_rollouts.py::test_cpu_collection_gpu_updates_and_failure_restoration
+  /home/hoseon/Desktop/박찬서/RL_KAU_GPU/aircombat-rl/.venv/lib/python3.12/site-packages/stable_baselines3/common/on_policy_algorithm.py:150: UserWarning: You are trying to run PPO on the GPU, but it is primarily intended to run on the CPU when not using a CNN policy (you are using ActorCriticPolicy which should be a MlpPolicy). See https://github.com/DLR-RM/stable-baselines3/issues/1245 for more info. You can pass `device='cpu'` or `export CUDA_VISIBLE_DEVICES=` to force using the CPU.Note: The model will train, but the GPU utilization will be poor and the training might take longer than on CPU.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+136 passed, 4 warnings in 26.35s

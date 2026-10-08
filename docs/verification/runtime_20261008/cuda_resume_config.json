@@ -1,0 +1,29 @@
+{
+  "spec": {
+    "variant": "observed_dqn",
+    "task": "fair",
+    "algorithm": "dqn",
+    "observation": "relative_v1",
+    "gamma": 0.999,
+    "finite_match": true,
+    "action_mode": "discrete",
+    "feature_version": 1
+  },
+  "source_sha256": "13422eda2f5c2b84132e066fef0b05f1603076135a544cbcff05373f14e1f193",
+  "replay_resize": null,
+  "seed": 10002,
+  "device": "cuda",
+  "torch": "2.14.1+cu130",
+  "start_step": 204800,
+  "steps": 204928,
+  "additional_steps": 128,
+  "initial_gradient_updates": 50950,
+  "initial_replay_size": 50000,
+  "source_model_sha256": "abb20a40e92b13e3990ded4a7369c31f22a7bb1ce960eaf302a8ba0d63c9a007",
+  "val_band": 900000,
+  "val_n": 2,
+  "val_every": 128,
+  "epsilon": 0.05,
+  "started_utc": "2026-10-08T08:26:49.038485+00:00",
+  "continuation": "Restored learner, optimizer, replay and CPU RNG; fresh episode; not exact trajectory resume."
+}

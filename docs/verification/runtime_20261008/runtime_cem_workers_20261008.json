@@ -1,0 +1,56 @@
+{
+  "started_utc": "2026-10-08T08:27:38.655532+00:00",
+  "jobs_sha256": "6e24fc9c13b35011af87b82f0f1e1b388e6602fd09de0bea2fd3909c028865c9",
+  "runs": [
+    {
+      "repeat": 0,
+      "workers": 3,
+      "seconds": 3.2709407130023465,
+      "games": 24,
+      "steps": 32446,
+      "outcomes_sha256": "4aeff1eb69c253d7805ebc9b4aff8ecd8786e0500060b59ddfaa0488a2ebe4e4"
+    },
+    {
+      "repeat": 0,
+      "workers": 6,
+      "seconds": 2.0749109870012035,
+      "games": 24,
+      "steps": 32446,
+      "outcomes_sha256": "4aeff1eb69c253d7805ebc9b4aff8ecd8786e0500060b59ddfaa0488a2ebe4e4"
+    },
+    {
+      "repeat": 1,
+      "workers": 6,
+      "seconds": 2.036341328002891,
+      "games": 24,
+      "steps": 32446,
+      "outcomes_sha256": "4aeff1eb69c253d7805ebc9b4aff8ecd8786e0500060b59ddfaa0488a2ebe4e4"
+    },
+    {
+      "repeat": 1,
+      "workers": 3,
+      "seconds": 3.2487207480007783,
+      "games": 24,
+      "steps": 32446,
+      "outcomes_sha256": "4aeff1eb69c253d7805ebc9b4aff8ecd8786e0500060b59ddfaa0488a2ebe4e4"
+    },
+    {
+      "repeat": 2,
+      "workers": 3,
+      "seconds": 3.2443774349994783,
+      "games": 24,
+      "steps": 32446,
+      "outcomes_sha256": "4aeff1eb69c253d7805ebc9b4aff8ecd8786e0500060b59ddfaa0488a2ebe4e4"
+    },
+    {
+      "repeat": 2,
+      "workers": 6,
+      "seconds": 2.0434305610033334,
+      "games": 24,
+      "steps": 32446,
+      "outcomes_sha256": "4aeff1eb69c253d7805ebc9b4aff8ecd8786e0500060b59ddfaa0488a2ebe4e4"
+    }
+  ],
+  "finished_utc": "2026-10-08T08:27:54.643514+00:00",
+  "same_outcomes_as_baseline": true
+}

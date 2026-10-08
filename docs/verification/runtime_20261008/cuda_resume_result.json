@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "steps": 204928,
+  "start_step": 204800,
+  "gradient_updates_before": 50950,
+  "gradient_updates_after": 50982,
+  "replay_size_before": 50000,
+  "replay_size_after": 50000,
+  "best_step": 204800,
+  "best_validation_kills": 0,
+  "train_outcomes": {},
+  "finished_utc": "2026-10-08T08:26:51.397474+00:00"
+}

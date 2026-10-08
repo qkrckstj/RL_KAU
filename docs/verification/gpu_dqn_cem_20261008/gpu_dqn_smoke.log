@@ -1,0 +1,16 @@
+{"vector_steps": 256, "samples": 262144, "seconds": 1.1179393269994762, "optimizer_steps": 57, "target_copies": 0, "epsilon": 0.763427734375, "replay_size": 262144, "episodes": 0, "wins": 0}
+{"vector_steps": 512, "samples": 524288, "seconds": 2.1511842319996504, "optimizer_steps": 121, "target_copies": 1, "epsilon": 0.525927734375, "replay_size": 262144, "episodes": 0, "wins": 0}
+{"vector_steps": 768, "samples": 786432, "seconds": 3.1851061130000744, "optimizer_steps": 185, "target_copies": 1, "epsilon": 0.288427734375, "replay_size": 262144, "episodes": 105, "wins": 0}
+{"vector_steps": 1024, "samples": 1048576, "seconds": 4.238551997001196, "optimizer_steps": 249, "target_copies": 2, "epsilon": 0.05092773437500009, "replay_size": 262144, "episodes": 262, "wins": 0}
+{"vector_steps": 1280, "samples": 1310720, "seconds": 5.27369082000223, "optimizer_steps": 313, "target_copies": 3, "epsilon": 0.050000000000000044, "replay_size": 262144, "episodes": 387, "wins": 0}
+{"vector_steps": 1536, "samples": 1572864, "seconds": 6.312546143999498, "optimizer_steps": 377, "target_copies": 3, "epsilon": 0.050000000000000044, "replay_size": 262144, "episodes": 571, "wins": 0}
+{"vector_steps": 1792, "samples": 1835008, "seconds": 7.3501610349994735, "optimizer_steps": 441, "target_copies": 4, "epsilon": 0.050000000000000044, "replay_size": 262144, "episodes": 902, "wins": 0}
+{"vector_steps": 2048, "samples": 2097152, "seconds": 8.39549182400151, "optimizer_steps": 505, "target_copies": 5, "epsilon": 0.050000000000000044, "replay_size": 262144, "episodes": 1225, "wins": 0}
+{"vector_steps": 2304, "samples": 2359296, "seconds": 9.433500297000137, "optimizer_steps": 569, "target_copies": 5, "epsilon": 0.050000000000000044, "replay_size": 262144, "episodes": 1487, "wins": 0}
+{"vector_steps": 2560, "samples": 2621440, "seconds": 10.467680212001142, "optimizer_steps": 633, "target_copies": 6, "epsilon": 0.050000000000000044, "replay_size": 262144, "episodes": 1781, "wins": 0}
+{"vector_steps": 2816, "samples": 2883584, "seconds": 11.5122531349989, "optimizer_steps": 697, "target_copies": 6, "epsilon": 0.050000000000000044, "replay_size": 262144, "episodes": 2115, "wins": 1}
+{"vector_steps": 3072, "samples": 3145728, "seconds": 12.561806457000785, "optimizer_steps": 761, "target_copies": 7, "epsilon": 0.050000000000000044, "replay_size": 262144, "episodes": 2409, "wins": 2}
+{"vector_steps": 3328, "samples": 3407872, "seconds": 13.6002513429994, "optimizer_steps": 825, "target_copies": 8, "epsilon": 0.050000000000000044, "replay_size": 262144, "episodes": 2689, "wins": 3}
+{"vector_steps": 3584, "samples": 3670016, "seconds": 14.63738576600008, "optimizer_steps": 889, "target_copies": 8, "epsilon": 0.050000000000000044, "replay_size": 262144, "episodes": 3014, "wins": 3}
+{"vector_steps": 3840, "samples": 3932160, "seconds": 15.676718110000365, "optimizer_steps": 953, "target_copies": 9, "epsilon": 0.050000000000000044, "replay_size": 262144, "episodes": 3316, "wins": 3}
+{"vector_steps": 4096, "samples": 4194304, "seconds": 16.72001456599901, "optimizer_steps": 1017, "target_copies": 10, "epsilon": 0.050000000000000044, "replay_size": 262144, "episodes": 3577, "wins": 6}

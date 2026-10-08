@@ -1,0 +1,113 @@
+{
+  "scope": "Local evidence, no remote publication claimed",
+  "files": {
+    "pip_check.txt": {
+      "bytes": 30,
+      "sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+    },
+    "gpu_ppo_smoke_20261008__progress.json": {
+      "bytes": 135,
+      "sha256": "e95224692bcfd573bff85c017506ffb3dda50dd508040ff9f17903fb8facb479"
+    },
+    "gpu_ppo_smoke.log": {
+      "bytes": 4685,
+      "sha256": "c11a4c887414357dc70230f95a508bfa784ffaa83f5d05d477a6d1f3ba0d3906"
+    },
+    "gpu_sim_fidelity32_20261008__game_fidelity.json": {
+      "bytes": 1386,
+      "sha256": "aeecf3dbc407df1699d6429b7155a98b25db7e6baa08a4078d25a6a432981063"
+    },
+    "issue_draft.md": {
+      "bytes": 851,
+      "sha256": "3cb9ace29653a6f0b82fe4aa861986ff1c503e4dbe3af4947fb1db43b2430402"
+    },
+    "nvidia_smi.txt": {
+      "bytes": 2057,
+      "sha256": "1c4a239c4201846171054d60b6503109d70b126dc6c6ac84e9d86aaefaab96d8"
+    },
+    "gpu_sim_audit_20261008__manifest.json": {
+      "bytes": 801,
+      "sha256": "cd0f295c15d97b099d188d74d50ae2f8d39b8ac496250a09b2ba81707e641b70"
+    },
+    "gpu_sim_baseline.log": {
+      "bytes": 1509,
+      "sha256": "5376c2686ea0d2c08d92a99fcfa4de0c4d71b7d409ff7a696e8c90a8f8371f3e"
+    },
+    "gpu_sim_fidelity32_20261008__completion.json": {
+      "bytes": 147,
+      "sha256": "d2264597a1317ee92bc00f24cc81739d53143eeb384a6d716c128cc5863793be"
+    },
+    "gpu_ppo_smoke_20261008__results.json": {
+      "bytes": 7151,
+      "sha256": "e63583b412ad1786464b03ec68c371dccfd6294bfc05314ee6e0370e0c9d15d3"
+    },
+    "gpu_sim_audit_20261008__flight_fidelity.json": {
+      "bytes": 37722,
+      "sha256": "55a2f0992d0e3314368acf5be1c0a7763baff9b93f5bcfef3881c961e6b04a39"
+    },
+    "gpu_sim_fidelity32_20261008__flight_fidelity.json": {
+      "bytes": 37477,
+      "sha256": "84cd93d7a4a37081d9b02703fb41cf9dcc0be3d0423ba569474cf3ccc8709990"
+    },
+    "gpu_sim_audit_20261008__throughput.json": {
+      "bytes": 2108,
+      "sha256": "6f8a1e39b04a00667b5cf3cfebdd0a465638c1a9426131c35f93a53e1465cef3"
+    },
+    "gpu_ppo_jsbsim_check_20261008__results.json": {
+      "bytes": 1398,
+      "sha256": "755586b6fefcc161aa87e282959f91472724256cf34d6474349e25f4bb980a14"
+    },
+    "gpu_ppo_smoke_20261008__config.json": {
+      "bytes": 1097,
+      "sha256": "c07e1c2b2fe2acc4fe67a821ac257805dcda94054754e615a249f0a554487580"
+    },
+    "gpu_sim_audit_20261008__completion.json": {
+      "bytes": 160,
+      "sha256": "5f1f52bd351b30403de0ea6f6b83f282a4d6edcf09601357269c17f2fc5d0df2"
+    },
+    "run_artifacts.tar.gz": {
+      "bytes": 221813,
+      "sha256": "c4613b2e66b08ef1819e8e317b0c4e13d3d52bd225953ae6fc774530161d0cdf"
+    },
+    "gpu_sim_fidelity32.log": {
+      "bytes": 344,
+      "sha256": "a30875ae95302862f70681f170c11900a1b4995f70c348b747ac54519e359fac"
+    },
+    "integrity.json": {
+      "bytes": 1134,
+      "sha256": "ef4526b87b4c2a144f42b5e114d74ef6c3b1738beef286d4d0fb71879ce850b2"
+    },
+    "pr_draft.md": {
+      "bytes": 1599,
+      "sha256": "a9d7c5c2f0c1735d4126a7a4bcc0fdf62c402fc7a70ffbf39829fc15aba92eee"
+    },
+    "pip_freeze.txt": {
+      "bytes": 1069,
+      "sha256": "d85d259dac2ac5cd1f886ef79513fb55abc0116f5fb12d3f199bb06c8a6af9ec"
+    },
+    "gpu_sim_final_tests.log": {
+      "bytes": 1509,
+      "sha256": "170e51f176a5cfcac3cc259f3e000a53fefa8d404b5bf780a82a1f861de57df0"
+    },
+    "gpu_fdm_verify.log": {
+      "bytes": 6188,
+      "sha256": "97dbadfa054bc99784c49169480f702310f9b7d7f16c8d3fafe92a8ff5fc4620"
+    },
+    "review.md": {
+      "bytes": 1970,
+      "sha256": "bd4ce8a2b7e98eec3d5975511611859d8265ef7a087c62f84aaf092e97e3d995"
+    },
+    "gpu_sim_audit_20261008__game_fidelity.json": {
+      "bytes": 1358,
+      "sha256": "1dcfc869eb054c100541e118e729cea39c43705ada2d7ce916a83e71a386130e"
+    },
+    "gpu_sim_fidelity32_20261008__manifest.json": {
+      "bytes": 801,
+      "sha256": "86c497946a2f326f254d3db118150be854e62f32dd60990e88c65feebe32f270"
+    },
+    "gpu_sim_audit.log": {
+      "bytes": 1722,
+      "sha256": "55f63e58f38983140f9d1a0823d547675d3ad7b0709ec258dc00b63277131bb0"
+    }
+  }
+}

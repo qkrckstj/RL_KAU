@@ -1,0 +1,68 @@
+FFFFFFF                                                                  [100%]
+=================================== FAILURES ===================================
+________ test_replay_wrap_copies_transitions_and_samples_only_live_rows ________
+
+    def test_replay_wrap_copies_transitions_and_samples_only_live_rows():
+>       from experiments.gpu_sim.dqn.train import Replay
+E       ModuleNotFoundError: No module named 'experiments.gpu_sim.dqn'
+
+tests/test_gpu_dqn_cem.py:9: ModuleNotFoundError
+____________ test_dqn_targets_stop_bootstrap_at_terminal_transition ____________
+
+    def test_dqn_targets_stop_bootstrap_at_terminal_transition():
+>       from experiments.gpu_sim.dqn.train import td_targets
+E       ModuleNotFoundError: No module named 'experiments.gpu_sim.dqn'
+
+tests/test_gpu_dqn_cem.py:29: ModuleNotFoundError
+_____________ test_cem_elites_fit_smoothed_distribution_with_floor _____________
+
+    def test_cem_elites_fit_smoothed_distribution_with_floor():
+>       from experiments.gpu_sim.cem.train import fit_elites
+E       ModuleNotFoundError: No module named 'experiments.gpu_sim.cem'
+
+tests/test_gpu_dqn_cem.py:36: ModuleNotFoundError
+______ test_cem_layout_pairs_each_candidate_opponent_and_ic_in_both_seats ______
+
+    def test_cem_layout_pairs_each_candidate_opponent_and_ic_in_both_seats():
+>       from experiments.gpu_sim.cem.train import paired_layout
+E       ModuleNotFoundError: No module named 'experiments.gpu_sim.cem'
+
+tests/test_gpu_dqn_cem.py:49: ModuleNotFoundError
+___ test_cem_scores_seat_relative_verdicts_and_rejects_incomplete_or_invalid ___
+
+    def test_cem_scores_seat_relative_verdicts_and_rejects_incomplete_or_invalid():
+>       from experiments.gpu_sim.cem.train import game_scores
+E       ModuleNotFoundError: No module named 'experiments.gpu_sim.cem'
+
+tests/test_gpu_dqn_cem.py:59: ModuleNotFoundError
+___________ test_gpu_dqn_updates_target_and_exports_official_policy ____________
+
+tmp_path = PosixPath('/tmp/pytest-of-hoseon/pytest-20/test_gpu_dqn_updates_target_an0')
+
+    @pytest.mark.skipif(not torch.cuda.is_available(), reason='CUDA required')
+    def test_gpu_dqn_updates_target_and_exports_official_policy(tmp_path):
+        pytest.importorskip('jsbsim_f16_cuda')
+>       from experiments.gpu_sim.dqn.train import main
+E       ModuleNotFoundError: No module named 'experiments.gpu_sim.dqn'
+
+tests/test_gpu_dqn_cem.py:70: ModuleNotFoundError
+_________ test_gpu_cem_completes_paired_games_and_updates_distribution _________
+
+tmp_path = PosixPath('/tmp/pytest-of-hoseon/pytest-20/test_gpu_cem_completes_paired_0')
+
+    @pytest.mark.skipif(not torch.cuda.is_available(), reason='CUDA required')
+    def test_gpu_cem_completes_paired_games_and_updates_distribution(tmp_path):
+        pytest.importorskip('jsbsim_f16_cuda')
+>       from experiments.gpu_sim.cem.train import main
+E       ModuleNotFoundError: No module named 'experiments.gpu_sim.cem'
+
+tests/test_gpu_dqn_cem.py:96: ModuleNotFoundError
+=========================== short test summary info ============================
+FAILED tests/test_gpu_dqn_cem.py::test_replay_wrap_copies_transitions_and_samples_only_live_rows
+FAILED tests/test_gpu_dqn_cem.py::test_dqn_targets_stop_bootstrap_at_terminal_transition
+FAILED tests/test_gpu_dqn_cem.py::test_cem_elites_fit_smoothed_distribution_with_floor
+FAILED tests/test_gpu_dqn_cem.py::test_cem_layout_pairs_each_candidate_opponent_and_ic_in_both_seats
+FAILED tests/test_gpu_dqn_cem.py::test_cem_scores_seat_relative_verdicts_and_rejects_incomplete_or_invalid
+FAILED tests/test_gpu_dqn_cem.py::test_gpu_dqn_updates_target_and_exports_official_policy
+FAILED tests/test_gpu_dqn_cem.py::test_gpu_cem_completes_paired_games_and_updates_distribution
+7 failed in 0.68s

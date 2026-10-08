@@ -1,0 +1,3 @@
+# Optional backend; install after requirements-portable.txt and CUDA PyTorch.
+# Upstream F-16 physics is GPL-3.0-or-later. Original JSBSim remains the evaluator.
+jsbsim-f16-cuda @ git+https://github.com/juyoung020/jsbsim-f16-cuda.git@1462017f6a5c724f9780c5d65b0c9552538ef426

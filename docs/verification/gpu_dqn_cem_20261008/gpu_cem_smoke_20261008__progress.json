@@ -1,0 +1,10 @@
+{
+  "generation": 3,
+  "games": 3072,
+  "effective_steps": 4718109,
+  "dispatched_steps": 7375872,
+  "seconds": 18.021877072998905,
+  "best_objective": 1.0007277500014753,
+  "best_game_score": 1.0,
+  "incumbent_objective": 1.0007277500014753
+}

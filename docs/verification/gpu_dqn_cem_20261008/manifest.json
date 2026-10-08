@@ -1,0 +1,109 @@
+{
+  "scope": "Local evidence only; measured pre-population-two-fix source snapshots retained",
+  "files": {
+    "gpu_cem_smoke_20261008__policy_net.json": {
+      "bytes": 922,
+      "sha256": "075ffc3a57b0f2f85449270e86cc7fc711f9d15e912e07071f8a0a64e902645b"
+    },
+    "pip_check.txt": {
+      "bytes": 30,
+      "sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+    },
+    "gpu_dqn_cem_jsbsim.log": {
+      "bytes": 1377,
+      "sha256": "07199d30c2f10ab8ad8d4c0c3bc224777c4c9707e1e97ddf01fb74a1d851eafb"
+    },
+    "gpu_cem_smoke_20261008__progress.json": {
+      "bytes": 244,
+      "sha256": "4b0ea504c5c7384df3b5bd9b659defd33581fccd2f5e4ca285c04725306bd996"
+    },
+    "gpu_dqn_smoke.log": {
+      "bytes": 3200,
+      "sha256": "a13a635f4c3448249274ae47fdc9e638f2510f0ff080af00330a0777b9634b86"
+    },
+    "gpu_dqn_smoke_20261008__progress.json": {
+      "bytes": 224,
+      "sha256": "e872060b63fa9255ed753dd05998eaf4a9dd36b09ce12ca52811ca453ae92683"
+    },
+    "issue_draft.md": {
+      "bytes": 630,
+      "sha256": "6dd3d9cba1f67836dee2aada48c49a94107cc16ebbd867bee51c198c3393a2e2"
+    },
+    "gpu_dqn_cem_jsbsim_check_20261008__completion.json": {
+      "bytes": 6691,
+      "sha256": "bc4ddc8bb04c2d4de31a4ac17675c229faa0cf368cd2fff6ab410c38c59ecbed"
+    },
+    "gpu_cem_smoke_20261008__config.json": {
+      "bytes": 6413,
+      "sha256": "4e782aacce269e08f91fc9d764745194e6f4324223315a770d163f51a714ac16"
+    },
+    "gpu_cem_smoke.log": {
+      "bytes": 677,
+      "sha256": "48051aadd350e6c9e019f8ba38c3479a86b695bc01ea126876afd057d343340a"
+    },
+    "gpu_dqn_smoke_20261008__results.json": {
+      "bytes": 4923,
+      "sha256": "9c5602470bf689d1c60dffaa3dfba2f8c780a3761117854ca5341ce8aa4d60c4"
+    },
+    "gpu_dqn_cem_jsbsim_check_20261008__cem_original_cem.json": {
+      "bytes": 1363,
+      "sha256": "c224f1046a84bf4cfbd72bf95010719389586869c1c25953e9d5bada2eaa1170"
+    },
+    "run_artifacts.tar.gz": {
+      "bytes": 394499,
+      "sha256": "6bda26fcf92f5293b51bfb7ab879ff0abc2fa7f2c190c88752cb5a3bf8bd3f93"
+    },
+    "gpu_dqn_cem_red.log": {
+      "bytes": 3719,
+      "sha256": "ce158bd41ade247b8c123a06f84dfac3e920a01e79ffccc3bf3814d7bb9057a9"
+    },
+    "gpu_dqn_cem_final_tests.log": {
+      "bytes": 1589,
+      "sha256": "69c3164a35f1174d8399b2a22944c8e27b43f0b5c0b42d0c31324f9d87e93ad0"
+    },
+    "integrity.json": {
+      "bytes": 1947,
+      "sha256": "dac9929bafe9ebddabbb0decc163432ad8b6e35f7f143d8925732cb14e144aff"
+    },
+    "pr_draft.md": {
+      "bytes": 1749,
+      "sha256": "f320ccc0cffb30f063f5579e74a9e51876002408c80e3bd8e7b87ca75ec18dd1"
+    },
+    "pip_freeze.txt": {
+      "bytes": 1069,
+      "sha256": "6de93d8eb54d833f1d7489e75b681bc4a345d8632bedaaf1d1b7549305ddfac3"
+    },
+    "gpu_cem_smoke_20261008__training_initial_conditions.json": {
+      "bytes": 1059,
+      "sha256": "f6b76dfbf377e6076b7f4aeef81fc1716f55809dc3833e6ebae54c5bc89ba48c"
+    },
+    "gpu_cem_smoke_20261008__results.json": {
+      "bytes": 1431,
+      "sha256": "fe1451ce8f6cf084e208b012c6793cf8fb473bafe10a39162f51375c51663c20"
+    },
+    "review.md": {
+      "bytes": 1979,
+      "sha256": "cf514fe89aa513f6084cdb9577ef199f943deb101d8c6154d4e779ee96c8a52b"
+    },
+    "gpu_dqn_smoke_20261008__config.json": {
+      "bytes": 5508,
+      "sha256": "061136fd64d5f5f87f1f72238f962bc5689c18a2a05e7b074e8096b3b9a600dc"
+    },
+    "gpu_dqn_cem_jsbsim_check_20261008__dqn_ace.json": {
+      "bytes": 1357,
+      "sha256": "dce346080ebfb6dd59c2f08b395d5b7b910a8f1dc4bb263858a0ab3636260f78"
+    },
+    "gpu_dqn_cem_baseline.log": {
+      "bytes": 1509,
+      "sha256": "dc3fa4a4a38a57eb03781260c435817a39ad41342e0acae4659c3cdb7f90f0f3"
+    },
+    "gpu_dqn_cem_jsbsim_check_20261008__dqn_original_cem.json": {
+      "bytes": 1375,
+      "sha256": "3042976c6b2e20829a492dd5d90999e60cf6c86ec816bc3ca48bd347c0aabb60"
+    },
+    "gpu_dqn_cem_jsbsim_check_20261008__cem_ace.json": {
+      "bytes": 1363,
+      "sha256": "f767ced543bf01dd65cb73f8b249b42a58ff2efbb7f4237e5adccd78c30ecd70"
+    }
+  }
+}

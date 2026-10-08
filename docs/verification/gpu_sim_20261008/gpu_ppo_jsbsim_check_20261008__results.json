@@ -1,0 +1,65 @@
+{
+  "scope": "Loader/execution check on consumed development conditions; not model selection or evidence of policy quality",
+  "own": "gpu_ppo_smoke",
+  "foe": "ace",
+  "band": 33030000,
+  "summary": {
+    "n": 2,
+    "kills": 0,
+    "rate": 0.0,
+    "t_kill": null,
+    "outcomes": {
+      "died": 2
+    },
+    "own_health": 0.0,
+    "opp_health": 1.0,
+    "wez_time": 0.0,
+    "wez_time_foe": 4.95,
+    "engaged": 0.0,
+    "first_wez": null,
+    "longest_track": 0.0,
+    "min_range": 588,
+    "out_of_bounds": 0.0,
+    "wins": 0,
+    "losses": 2,
+    "draws": 0,
+    "score": 0.0
+  },
+  "episodes": [
+    {
+      "seed": 33030000,
+      "outcome": "died",
+      "won": false,
+      "t": 90.2,
+      "steps": 1804,
+      "truncated": false,
+      "own_health": 0.0,
+      "opp_health": 1.0,
+      "wez_time": 0.0,
+      "wez_time_foe": 4.95,
+      "first_wez": null,
+      "longest_track": 0.0,
+      "min_range": 578,
+      "out_of_bounds": false,
+      "seat": "red"
+    },
+    {
+      "seed": 33030000,
+      "outcome": "died",
+      "won": false,
+      "t": 89.4,
+      "steps": 1789,
+      "truncated": false,
+      "own_health": 0.0,
+      "opp_health": 1.0,
+      "wez_time": 0.0,
+      "wez_time_foe": 4.95,
+      "first_wez": null,
+      "longest_track": 0.0,
+      "min_range": 599,
+      "out_of_bounds": false,
+      "seat": "blue"
+    }
+  ],
+  "elapsed_seconds": 1.1105154999968363
+}

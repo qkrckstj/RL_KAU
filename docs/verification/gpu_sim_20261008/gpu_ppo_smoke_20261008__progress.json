@@ -1,0 +1,8 @@
+{
+  "iteration": 40,
+  "steps": 2621440,
+  "seconds": 10.896971660000418,
+  "optimizer_steps": 1280,
+  "episodes": 1068,
+  "wins": 1
+}

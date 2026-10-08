@@ -1,0 +1,138 @@
+START dqn_cpu_env1_s0
+DONE dqn_cpu_env1_s0: 12.061s, 5894 updates
+START dqn_cuda_env1_s0
+DONE dqn_cuda_env1_s0: 15.657s, 5894 updates
+START ddqn_cpu_env1_s0
+DONE ddqn_cpu_env1_s0: 12.053s, 5894 updates
+START ddqn_cuda_env1_s0
+DONE ddqn_cuda_env1_s0: 15.873s, 5894 updates
+START ppo_cpu_env1_s0
+DONE ppo_cpu_env1_s0: 14.124s, 3840 updates
+START ppo_cuda_env1_s0
+DONE ppo_cuda_env1_s0: 23.535s, 3840 updates
+START ppo_warm_cpu_env1_s0
+DONE ppo_warm_cpu_env1_s0: 11.579s, 480 updates
+START ppo_warm_cuda_env1_s0
+DONE ppo_warm_cuda_env1_s0: 18.704s, 480 updates
+START dqn_cuda_env1_s1
+DONE dqn_cuda_env1_s1: 15.538s, 5894 updates
+START dqn_cpu_env1_s1
+DONE dqn_cpu_env1_s1: 12.066s, 5894 updates
+START ddqn_cuda_env1_s1
+DONE ddqn_cuda_env1_s1: 15.810s, 5894 updates
+START ddqn_cpu_env1_s1
+DONE ddqn_cpu_env1_s1: 12.167s, 5894 updates
+START ppo_cuda_env1_s1
+DONE ppo_cuda_env1_s1: 23.648s, 3840 updates
+START ppo_cpu_env1_s1
+DONE ppo_cpu_env1_s1: 14.146s, 3840 updates
+START ppo_warm_cuda_env1_s1
+DONE ppo_warm_cuda_env1_s1: 18.691s, 480 updates
+START ppo_warm_cpu_env1_s1
+DONE ppo_warm_cpu_env1_s1: 11.550s, 480 updates
+START dqn_cpu_env1_s2
+DONE dqn_cpu_env1_s2: 12.164s, 5894 updates
+START dqn_cuda_env1_s2
+DONE dqn_cuda_env1_s2: 15.497s, 5894 updates
+START ddqn_cpu_env1_s2
+DONE ddqn_cpu_env1_s2: 12.164s, 5894 updates
+START ddqn_cuda_env1_s2
+DONE ddqn_cuda_env1_s2: 15.726s, 5894 updates
+START ppo_cpu_env1_s2
+DONE ppo_cpu_env1_s2: 14.065s, 3840 updates
+START ppo_cuda_env1_s2
+DONE ppo_cuda_env1_s2: 23.478s, 3840 updates
+START ppo_warm_cpu_env1_s2
+DONE ppo_warm_cpu_env1_s2: 11.538s, 480 updates
+START ppo_warm_cuda_env1_s2
+DONE ppo_warm_cuda_env1_s2: 18.712s, 480 updates
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+CEM 1 workers: 8.059s
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+CEM 3 workers: 3.232s
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+CEM 3 workers: 3.212s
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+CEM 1 workers: 8.037s
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+CEM 1 workers: 8.051s
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.0 Apr  9 2026 10:00:08
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+CEM 3 workers: 3.229s
