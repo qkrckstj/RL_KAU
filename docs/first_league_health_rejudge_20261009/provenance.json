@@ -1,0 +1,134 @@
+{
+  "description": "Terminal fields copied from original match records; no replay or retraining.",
+  "source_files": [
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0000.json",
+      "sha256": "aee802099afa9fecaa04b80970cf354b4716b7b084b726546c656ee943068d26"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0001.json",
+      "sha256": "e4ef6a916b229d0d64c4a2736378f27f321dcdda1d47d77ab172e2aaa0b00082"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0002.json",
+      "sha256": "e1d9f7b31b2571ddcf38efb92a37810c1569c6663cf4a2dfdbca72fd1ff46a56"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0003.json",
+      "sha256": "e8e3616ba82254c7df0cf8511806a680a7268e5a93d59f3a683661b11ff15041"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0004.json",
+      "sha256": "112cbd9d4073160da29231345dc7f0a6407dad66eedea4a541aafdd6f48c4dd8"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0005.json",
+      "sha256": "ac819822371e77b0ed002404086a76e312a51f25e2b00ff7c7f70b7577f1bcab"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0006.json",
+      "sha256": "5d0dc78c5c36f99e48a43281a9c63d7aa7c072148d53892781442d4d299c36f9"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0007.json",
+      "sha256": "8b9bc9c7571cf8f0517d88d141e740276b6f6e21e66fb60bd57a6b030643ecc0"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0008.json",
+      "sha256": "6da9eade0cf14664fb56e5ea3a023135d835ab8aa578c320cb644b1e52def826"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0009.json",
+      "sha256": "375d71f0c9727ad4aea4de94992abceb3e16c341624d9bc231dd1e10df5f12a3"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0010.json",
+      "sha256": "346d43bb607c47cbd504b8ab2844202467f78ef5ebb7999795d82ed2ffe52ba5"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0011.json",
+      "sha256": "0ea860897274215ff4a8576a586fa71d8b502f132f00754f2d5e231425c856dc"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0012.json",
+      "sha256": "2f25e9a611c7d02f639401389c11b243089e252c044d22ebab1acad9bd9cacd8"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0013.json",
+      "sha256": "b9dc985ed41a25e149e6c371804387f62ce8e6133e32ce343878eeba18916130"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0014.json",
+      "sha256": "d7cf151c64a69d78dca537edf61f2738f2e9bf95d300c674e8a1ef9fce04a7d0"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0015.json",
+      "sha256": "d47fa78e82dbbff09ece758d59daaa9bbf9587148a5b4d883dfdeb1f9c1f8008"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0016.json",
+      "sha256": "b7b25ce86dbfea66ba0e275c7741be0ee61237d95e93c740d5d13823a0df2a6a"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0017.json",
+      "sha256": "b9ccdef6aa45311e839489319a46a5e4bab885c4c458cfe66a4a475ca1737a28"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0018.json",
+      "sha256": "6911a2151985f81f860dfa14a0ee61439b835cc0eae26a68034b720d7c7403b5"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0019.json",
+      "sha256": "54ce5863ef0c92653850c3620034112579ea6cb5a29221d190436989ff03e0b8"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0020.json",
+      "sha256": "170b8e67a3aa418ae91703306c6d50835b74a059a341e1b8bf19ac8277099ffa"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0021.json",
+      "sha256": "dca4440d1a7aadf52a2a425da3e425ebd416a1bb167b122299bd881afbecba77"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0022.json",
+      "sha256": "2abe1133d391ba0a5a14f327390b014979e569d00236645ab22bf53ac3e5f011"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0023.json",
+      "sha256": "d828272c8374676120e392b142c2b7e708b285715e3eff0e913e45df41da5ef0"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0024.json",
+      "sha256": "2daff40d1af590cba515b6d5691ed18f428f36da14bf6936aa07dc3e902a6dc2"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0025.json",
+      "sha256": "9cc937ec9cdbe02e57cdb480f3d162a82b88988d8bda06195ff68abd72cd4628"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0026.json",
+      "sha256": "a4bfd83fc5575bb4e4d3da7f4b5045c5ff98d8d95040c5cefc609533a5922240"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0027.json",
+      "sha256": "29bded03534e2a577fa0d7e647a46d30326c5b13cbf2babe0e1476b4b9106e54"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0028.json",
+      "sha256": "dcf8b6a97c07de3af9df4c4e81443e0e976dc37391a7654964d39559560225b8"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0029.json",
+      "sha256": "62f7257c9f114ad4b5c6b1af69a4bb4af4a37fe8fa198d0a9a8d956b4f559e16"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0030.json",
+      "sha256": "ef9700baf5dd343cce033e53a6ea664031b6e9703947f0344666e9599bfe8f72"
+    },
+    {
+      "path": "aircombat-rl/runs/league_20261006/followup_pool/heldout/match_0031.json",
+      "sha256": "1c9e05936f31aa0d18bcc7fc96921811caf04db6a6dc12f05fcd49c2df260634"
+    }
+  ],
+  "csv_sha256": "34f4c76f4988c20a3c652fb0887010dd40731f031cfa1683aecbc240f39cd077"
+}
