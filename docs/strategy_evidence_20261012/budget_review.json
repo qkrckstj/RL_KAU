@@ -1,0 +1,3878 @@
+{
+  "status": "paired_budget_review_complete",
+  "training": {
+    "budget_s10100": {
+      "games": 1399,
+      "rear_damage_games": 323,
+      "scope": "Mixture training starts, not FairFight performance evidence"
+    },
+    "budget_s10101": {
+      "games": 1402,
+      "rear_damage_games": 292,
+      "scope": "Mixture training starts, not FairFight performance evidence"
+    }
+  },
+  "effects": {
+    "10100_c1": {
+      "all": {
+        "win_rate": {
+          "baseline": 0.6822916666666666,
+          "candidate": 0.7083333333333334,
+          "delta": 0.02604166666666674
+        },
+        "rear_damage": {
+          "baseline": 0.021041666666666705,
+          "candidate": 0.021385416666666712,
+          "delta": 0.00034375000000000724
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.10026041666666663,
+          "candidate": 0.10572916666666661,
+          "delta": 0.005468749999999981
+        },
+        "damage_dealt": {
+          "baseline": 0.9250104166666652,
+          "candidate": 0.9235989583333318,
+          "delta": -0.0014114583333333375
+        },
+        "damage_received": {
+          "baseline": 0.5870833333333322,
+          "candidate": 0.5856354166666654,
+          "delta": -0.0014479166666667709
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5807057291666654,
+          "candidate": 0.5623958333333322,
+          "delta": -0.0183098958333332
+        },
+        "games": 192,
+        "rear_damage_games": {
+          "baseline": 8,
+          "candidate": 8
+        }
+      },
+      "noncircler": {
+        "win_rate": {
+          "baseline": 0.6684782608695652,
+          "candidate": 0.6956521739130435,
+          "delta": 0.02717391304347827
+        },
+        "rear_damage": {
+          "baseline": 5.434782608696132e-05,
+          "candidate": 0.0,
+          "delta": -5.434782608696132e-05
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.005434782608695654,
+          "candidate": 0.0,
+          "delta": -0.005434782608695654
+        },
+        "damage_dealt": {
+          "baseline": 0.9246739130434768,
+          "candidate": 0.9202771739130419,
+          "delta": -0.0043967391304349235
+        },
+        "damage_received": {
+          "baseline": 0.6126086956521727,
+          "candidate": 0.6110978260869553,
+          "delta": -0.0015108695652173987
+        },
+        "head_on_damage_current": {
+          "baseline": 0.6059538043478249,
+          "candidate": 0.5868478260869553,
+          "delta": -0.01910597826086957
+        },
+        "games": 184,
+        "rear_damage_games": {
+          "baseline": 1,
+          "candidate": 0
+        }
+      },
+      "ace": {
+        "win_rate": {
+          "baseline": 0.75,
+          "candidate": 0.75,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9809999999999983,
+          "candidate": 0.9892499999999982,
+          "delta": 0.008249999999999869
+        },
+        "damage_received": {
+          "baseline": 0.8481249999999981,
+          "candidate": 0.9533124999999979,
+          "delta": 0.10518749999999977
+        },
+        "head_on_damage_current": {
+          "baseline": 0.8481249999999981,
+          "candidate": 0.9376249999999978,
+          "delta": 0.08949999999999969
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "evader": {
+        "win_rate": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "head_on_damage_current": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "temporal_extend_left": {
+        "win_rate": {
+          "baseline": 0.25,
+          "candidate": 0.25,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9925624999999983,
+          "candidate": 0.9714999999999981,
+          "delta": -0.021062500000000206
+        },
+        "damage_received": {
+          "baseline": 0.9954374999999982,
+          "candidate": 0.9830624999999983,
+          "delta": -0.012374999999999914
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9954374999999982,
+          "candidate": 0.9830624999999983,
+          "delta": -0.012374999999999914
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "untrained_parameter_01": {
+        "win_rate": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.6199999999999986,
+          "candidate": 0.6620624999999983,
+          "delta": 0.04206249999999978
+        },
+        "damage_received": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9946249999999983,
+          "candidate": 0.9479999999999984,
+          "delta": -0.046624999999999917
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "cem_original": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 0.875,
+          "delta": -0.125
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9616249999999984,
+          "delta": -0.03837500000000005
+        },
+        "damage_received": {
+          "baseline": 0.19181249999999953,
+          "candidate": 0.3671249999999991,
+          "delta": 0.17531249999999957
+        },
+        "head_on_damage_current": {
+          "baseline": 0.19181249999999953,
+          "candidate": 0.2474999999999994,
+          "delta": 0.05568749999999986
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "circler": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.5037500000000008,
+          "candidate": 0.5132500000000011,
+          "delta": 0.009500000000000286
+        },
+        "rear_wez_seconds": {
+          "baseline": 2.281249999999999,
+          "candidate": 2.5374999999999988,
+          "delta": 0.25624999999999964
+        },
+        "damage_dealt": {
+          "baseline": 0.9327499999999985,
+          "candidate": 0.9999999999999984,
+          "delta": 0.06724999999999992
+        },
+        "damage_received": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "head_on_damage_current": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 7,
+          "candidate": 8
+        }
+      },
+      "control_s7600_t1310720_a4900": {
+        "win_rate": {
+          "baseline": 0.125,
+          "candidate": 0.25,
+          "delta": 0.125
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9186874999999982,
+          "candidate": 0.9818124999999982,
+          "delta": 0.06312499999999999
+        },
+        "damage_received": {
+          "baseline": 0.9966874999999984,
+          "candidate": 0.9830624999999983,
+          "delta": -0.01362500000000011
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9892499999999982,
+          "candidate": 0.9830624999999983,
+          "delta": -0.006187499999999901
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "ddqn_s1": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0012500000000001104,
+          "candidate": 0.0,
+          "delta": -0.0012500000000001104
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.12500000000000003,
+          "candidate": 0.0,
+          "delta": -0.12500000000000003
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.3217499999999992,
+          "candidate": 0.3361874999999992,
+          "delta": 0.014437499999999992
+        },
+        "head_on_damage_current": {
+          "baseline": 0.3217499999999992,
+          "candidate": 0.3361874999999992,
+          "delta": 0.014437499999999992
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 1,
+          "candidate": 0
+        }
+      },
+      "episode_mix_sampled_4900": {
+        "win_rate": {
+          "baseline": 0.25,
+          "candidate": 0.375,
+          "delta": 0.125
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9946249999999983,
+          "candidate": 0.9999999999999984,
+          "delta": 0.00537500000000013
+        },
+        "damage_received": {
+          "baseline": 0.9933749999999982,
+          "candidate": 0.9859374999999981,
+          "delta": -0.007437500000000097
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9933749999999982,
+          "candidate": 0.9859374999999981,
+          "delta": -0.007437500000000097
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "fixed_left": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9946249999999983,
+          "delta": -0.00537500000000013
+        },
+        "damage_received": {
+          "baseline": 0.36093749999999913,
+          "candidate": 0.4310624999999989,
+          "delta": 0.07012499999999977
+        },
+        "head_on_damage_current": {
+          "baseline": 0.36093749999999913,
+          "candidate": 0.4310624999999989,
+          "delta": 0.07012499999999977
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "gate_s2302_g1_c9": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5836874999999986,
+          "candidate": 0.5032499999999988,
+          "delta": -0.08043749999999983
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5836874999999986,
+          "candidate": 0.5032499999999988,
+          "delta": -0.08043749999999983
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "history_s6000_t1048576_a4900": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.37331249999999905,
+          "candidate": 0.3774374999999991,
+          "delta": 0.004125000000000045
+        },
+        "head_on_damage_current": {
+          "baseline": 0.37331249999999905,
+          "candidate": 0.3774374999999991,
+          "delta": 0.004125000000000045
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "hold5_s6500_t262144_a4900": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9636874999999985,
+          "delta": -0.03631249999999997
+        },
+        "damage_received": {
+          "baseline": 0.20831249999999948,
+          "candidate": 0.21037499999999948,
+          "delta": 0.002062499999999995
+        },
+        "head_on_damage_current": {
+          "baseline": 0.20831249999999948,
+          "candidate": 0.21037499999999948,
+          "delta": 0.002062499999999995
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "intercept_s2500_g3_c6": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5836874999999986,
+          "candidate": 0.5032499999999988,
+          "delta": -0.08043749999999983
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5836874999999986,
+          "candidate": 0.5032499999999988,
+          "delta": -0.08043749999999983
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "lead": {
+        "win_rate": {
+          "baseline": 0.25,
+          "candidate": 0.0,
+          "delta": -0.25
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9644999999999984,
+          "candidate": 0.8972499999999983,
+          "delta": -0.06725000000000003
+        },
+        "damage_received": {
+          "baseline": 0.9851249999999983,
+          "candidate": 0.9999999999999984,
+          "delta": 0.014875000000000194
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9851249999999983,
+          "candidate": 0.9504999999999986,
+          "delta": -0.034624999999999684
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_contextual_speed_pilot_20261007_c0": {
+        "win_rate": {
+          "baseline": 0.375,
+          "candidate": 0.75,
+          "delta": 0.375
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9892499999999982,
+          "candidate": 0.9302499999999982,
+          "delta": -0.05899999999999994
+        },
+        "damage_received": {
+          "baseline": 0.8023749999999986,
+          "candidate": 0.7086874999999984,
+          "delta": -0.09368750000000026
+        },
+        "head_on_damage_current": {
+          "baseline": 0.8023749999999986,
+          "candidate": 0.6125624999999985,
+          "delta": -0.18981250000000016
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_pursuit_context_train_20261007_346fd4060999": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.45787499999999887,
+          "candidate": 0.5878124999999985,
+          "delta": 0.12993749999999965
+        },
+        "head_on_damage_current": {
+          "baseline": 0.45787499999999887,
+          "candidate": 0.5878124999999985,
+          "delta": 0.12993749999999965
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_residual_continuation_20261007_s3300_t2097152": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.412499999999999,
+          "candidate": 0.4372499999999989,
+          "delta": 0.02474999999999994
+        },
+        "head_on_damage_current": {
+          "baseline": 0.412499999999999,
+          "candidate": 0.4372499999999989,
+          "delta": 0.02474999999999994
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_separated_probe_20261007_parent_0": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.45787499999999887,
+          "candidate": 0.4826249999999988,
+          "delta": 0.02474999999999994
+        },
+        "head_on_damage_current": {
+          "baseline": 0.45787499999999887,
+          "candidate": 0.4826249999999988,
+          "delta": 0.02474999999999994
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "portfolio_s6400_g0_c2_a0": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5197499999999987,
+          "candidate": 0.400124999999999,
+          "delta": -0.1196249999999997
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5197499999999987,
+          "candidate": 0.400124999999999,
+          "delta": -0.1196249999999997
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "pursuit": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5053124999999987,
+          "candidate": 0.49912499999999876,
+          "delta": -0.006187499999999957
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5053124999999987,
+          "candidate": 0.49912499999999876,
+          "delta": -0.006187499999999957
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "reactive_brake_pursuit_right": {
+        "win_rate": {
+          "baseline": 0.125,
+          "candidate": 0.375,
+          "delta": 0.25
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9438749999999984,
+          "candidate": 0.9748124999999983,
+          "delta": 0.03093749999999995
+        },
+        "damage_received": {
+          "baseline": 0.9904999999999984,
+          "candidate": 0.9310624999999981,
+          "delta": -0.059437500000000254
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9616249999999984,
+          "candidate": 0.8238124999999984,
+          "delta": -0.1378125
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "risk_break_cem_s7200_g1_c9": {
+        "win_rate": {
+          "baseline": 0.375,
+          "candidate": 0.5,
+          "delta": 0.125
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9904999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.009500000000000064
+        },
+        "damage_received": {
+          "baseline": 0.9962499999999981,
+          "candidate": 0.974374999999998,
+          "delta": -0.02187500000000009
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9962499999999981,
+          "candidate": 0.974374999999998,
+          "delta": -0.02187500000000009
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "round_00": {
+        "win_rate": {
+          "baseline": 0.875,
+          "candidate": 0.875,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.8724999999999984,
+          "candidate": 0.8394999999999985,
+          "delta": -0.03299999999999992
+        },
+        "damage_received": {
+          "baseline": 0.5053124999999987,
+          "candidate": 0.400124999999999,
+          "delta": -0.10518749999999971
+        },
+        "head_on_damage_current": {
+          "baseline": 0.39393749999999905,
+          "candidate": 0.2825624999999994,
+          "delta": -0.11137499999999967
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      }
+    },
+    "10100_c2": {
+      "all": {
+        "win_rate": {
+          "baseline": 0.6822916666666666,
+          "candidate": 0.7395833333333334,
+          "delta": 0.05729166666666674
+        },
+        "rear_damage": {
+          "baseline": 0.021041666666666705,
+          "candidate": 0.02116145833333338,
+          "delta": 0.00011979166666667429
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.10026041666666663,
+          "candidate": 0.0973958333333333,
+          "delta": -0.002864583333333323
+        },
+        "damage_dealt": {
+          "baseline": 0.9250104166666652,
+          "candidate": 0.9259895833333318,
+          "delta": 0.000979166666666642
+        },
+        "damage_received": {
+          "baseline": 0.5870833333333322,
+          "candidate": 0.5746171874999988,
+          "delta": -0.012466145833333386
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5807057291666654,
+          "candidate": 0.5687552083333322,
+          "delta": -0.011950520833333256
+        },
+        "games": 192,
+        "rear_damage_games": {
+          "baseline": 8,
+          "candidate": 8
+        }
+      },
+      "noncircler": {
+        "win_rate": {
+          "baseline": 0.6684782608695652,
+          "candidate": 0.7282608695652174,
+          "delta": 0.05978260869565222
+        },
+        "rear_damage": {
+          "baseline": 5.434782608696132e-05,
+          "candidate": 0.0,
+          "delta": -5.434782608696132e-05
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.005434782608695654,
+          "candidate": 0.0,
+          "delta": -0.005434782608695654
+        },
+        "damage_dealt": {
+          "baseline": 0.9246739130434768,
+          "candidate": 0.9227717391304332,
+          "delta": -0.0019021739130435922
+        },
+        "damage_received": {
+          "baseline": 0.6126086956521727,
+          "candidate": 0.5996005434782596,
+          "delta": -0.013008152173913046
+        },
+        "head_on_damage_current": {
+          "baseline": 0.6059538043478249,
+          "candidate": 0.5934836956521726,
+          "delta": -0.012470108695652238
+        },
+        "games": 184,
+        "rear_damage_games": {
+          "baseline": 1,
+          "candidate": 0
+        }
+      },
+      "ace": {
+        "win_rate": {
+          "baseline": 0.75,
+          "candidate": 0.625,
+          "delta": -0.125
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9809999999999983,
+          "candidate": 0.9933749999999982,
+          "delta": 0.012374999999999914
+        },
+        "damage_received": {
+          "baseline": 0.8481249999999981,
+          "candidate": 0.940124999999998,
+          "delta": 0.09199999999999986
+        },
+        "head_on_damage_current": {
+          "baseline": 0.8481249999999981,
+          "candidate": 0.940124999999998,
+          "delta": 0.09199999999999986
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "evader": {
+        "win_rate": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "head_on_damage_current": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "temporal_extend_left": {
+        "win_rate": {
+          "baseline": 0.25,
+          "candidate": 0.25,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9925624999999983,
+          "candidate": 0.9801874999999984,
+          "delta": -0.012374999999999914
+        },
+        "damage_received": {
+          "baseline": 0.9954374999999982,
+          "candidate": 0.9768749999999983,
+          "delta": -0.018562499999999926
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9954374999999982,
+          "candidate": 0.9768749999999983,
+          "delta": -0.018562499999999926
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "untrained_parameter_01": {
+        "win_rate": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.6199999999999986,
+          "candidate": 0.6756874999999984,
+          "delta": 0.05568749999999989
+        },
+        "damage_received": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9946249999999983,
+          "candidate": 0.9809999999999983,
+          "delta": -0.013624999999999998
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "cem_original": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9583124999999983,
+          "delta": -0.0416875000000001
+        },
+        "damage_received": {
+          "baseline": 0.19181249999999953,
+          "candidate": 0.2021249999999995,
+          "delta": 0.010312499999999974
+        },
+        "head_on_damage_current": {
+          "baseline": 0.19181249999999953,
+          "candidate": 0.2021249999999995,
+          "delta": 0.010312499999999974
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "circler": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.5037500000000008,
+          "candidate": 0.5078750000000011,
+          "delta": 0.004125000000000267
+        },
+        "rear_wez_seconds": {
+          "baseline": 2.281249999999999,
+          "candidate": 2.3374999999999995,
+          "delta": 0.056250000000000355
+        },
+        "damage_dealt": {
+          "baseline": 0.9327499999999985,
+          "candidate": 0.9999999999999984,
+          "delta": 0.06724999999999992
+        },
+        "damage_received": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "head_on_damage_current": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 7,
+          "candidate": 8
+        }
+      },
+      "control_s7600_t1310720_a4900": {
+        "win_rate": {
+          "baseline": 0.125,
+          "candidate": 0.375,
+          "delta": 0.25
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9186874999999982,
+          "candidate": 0.9611874999999982,
+          "delta": 0.04249999999999998
+        },
+        "damage_received": {
+          "baseline": 0.9966874999999984,
+          "candidate": 0.9900624999999981,
+          "delta": -0.006625000000000325
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9892499999999982,
+          "candidate": 0.9900624999999981,
+          "delta": 0.0008124999999998828
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "ddqn_s1": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0012500000000001104,
+          "candidate": 0.0,
+          "delta": -0.0012500000000001104
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.12500000000000003,
+          "candidate": 0.0,
+          "delta": -0.12500000000000003
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.3217499999999992,
+          "candidate": 0.25781249999999933,
+          "delta": -0.06393749999999987
+        },
+        "head_on_damage_current": {
+          "baseline": 0.3217499999999992,
+          "candidate": 0.25781249999999933,
+          "delta": -0.06393749999999987
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 1,
+          "candidate": 0
+        }
+      },
+      "episode_mix_sampled_4900": {
+        "win_rate": {
+          "baseline": 0.25,
+          "candidate": 0.625,
+          "delta": 0.375
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9946249999999983,
+          "candidate": 0.9999999999999984,
+          "delta": 0.00537500000000013
+        },
+        "damage_received": {
+          "baseline": 0.9933749999999982,
+          "candidate": 0.966937499999998,
+          "delta": -0.026437500000000225
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9933749999999982,
+          "candidate": 0.966937499999998,
+          "delta": -0.026437500000000225
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "fixed_left": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.36093749999999913,
+          "candidate": 0.29081249999999925,
+          "delta": -0.07012499999999988
+        },
+        "head_on_damage_current": {
+          "baseline": 0.36093749999999913,
+          "candidate": 0.29081249999999925,
+          "delta": -0.07012499999999988
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "gate_s2302_g1_c9": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5836874999999986,
+          "candidate": 0.5568749999999987,
+          "delta": -0.026812499999999906
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5836874999999986,
+          "candidate": 0.5568749999999987,
+          "delta": -0.026812499999999906
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "history_s6000_t1048576_a4900": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.37331249999999905,
+          "candidate": 0.2825624999999993,
+          "delta": -0.09074999999999978
+        },
+        "head_on_damage_current": {
+          "baseline": 0.37331249999999905,
+          "candidate": 0.2825624999999993,
+          "delta": -0.09074999999999978
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "hold5_s6500_t262144_a4900": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.20831249999999948,
+          "candidate": 0.1629374999999996,
+          "delta": -0.04537499999999989
+        },
+        "head_on_damage_current": {
+          "baseline": 0.20831249999999948,
+          "candidate": 0.1629374999999996,
+          "delta": -0.04537499999999989
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "intercept_s2500_g3_c6": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5836874999999986,
+          "candidate": 0.5568749999999987,
+          "delta": -0.026812499999999906
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5836874999999986,
+          "candidate": 0.5568749999999987,
+          "delta": -0.026812499999999906
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "lead": {
+        "win_rate": {
+          "baseline": 0.25,
+          "candidate": 0.25,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9644999999999984,
+          "candidate": 0.8799374999999985,
+          "delta": -0.08456249999999987
+        },
+        "damage_received": {
+          "baseline": 0.9851249999999983,
+          "candidate": 0.9954374999999982,
+          "delta": 0.010312499999999947
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9851249999999983,
+          "candidate": 0.9933749999999982,
+          "delta": 0.00824999999999998
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_contextual_speed_pilot_20261007_c0": {
+        "win_rate": {
+          "baseline": 0.375,
+          "candidate": 0.75,
+          "delta": 0.375
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9892499999999982,
+          "candidate": 0.9611874999999982,
+          "delta": -0.02806249999999999
+        },
+        "damage_received": {
+          "baseline": 0.8023749999999986,
+          "candidate": 0.8522499999999982,
+          "delta": 0.04987499999999956
+        },
+        "head_on_damage_current": {
+          "baseline": 0.8023749999999986,
+          "candidate": 0.8522499999999982,
+          "delta": 0.04987499999999956
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_pursuit_context_train_20261007_346fd4060999": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.45787499999999887,
+          "candidate": 0.4599374999999989,
+          "delta": 0.0020625000000000226
+        },
+        "head_on_damage_current": {
+          "baseline": 0.45787499999999887,
+          "candidate": 0.45787499999999887,
+          "delta": 0.0
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_residual_continuation_20261007_s3300_t2097152": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.412499999999999,
+          "candidate": 0.36093749999999913,
+          "delta": -0.051562499999999845
+        },
+        "head_on_damage_current": {
+          "baseline": 0.412499999999999,
+          "candidate": 0.3279374999999992,
+          "delta": -0.08456249999999976
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_separated_probe_20261007_parent_0": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9987499999999984,
+          "delta": -0.0012500000000000844
+        },
+        "damage_received": {
+          "baseline": 0.45787499999999887,
+          "candidate": 0.4537499999999989,
+          "delta": -0.00412499999999999
+        },
+        "head_on_damage_current": {
+          "baseline": 0.45787499999999887,
+          "candidate": 0.42899999999999894,
+          "delta": -0.02887499999999993
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "portfolio_s6400_g0_c2_a0": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5197499999999987,
+          "candidate": 0.4908749999999988,
+          "delta": -0.02887499999999993
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5197499999999987,
+          "candidate": 0.4908749999999988,
+          "delta": -0.02887499999999993
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "pursuit": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5053124999999987,
+          "candidate": 0.5568749999999987,
+          "delta": 0.051562499999999956
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5053124999999987,
+          "candidate": 0.5568749999999987,
+          "delta": 0.051562499999999956
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "reactive_brake_pursuit_right": {
+        "win_rate": {
+          "baseline": 0.125,
+          "candidate": 0.375,
+          "delta": 0.25
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9438749999999984,
+          "candidate": 0.9199374999999983,
+          "delta": -0.023937500000000056
+        },
+        "damage_received": {
+          "baseline": 0.9904999999999984,
+          "candidate": 0.9632499999999982,
+          "delta": -0.02725000000000022
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9616249999999984,
+          "candidate": 0.9529374999999982,
+          "delta": -0.008687500000000181
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "risk_break_cem_s7200_g1_c9": {
+        "win_rate": {
+          "baseline": 0.375,
+          "candidate": 0.5,
+          "delta": 0.125
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9904999999999984,
+          "candidate": 0.9987499999999984,
+          "delta": 0.00824999999999998
+        },
+        "damage_received": {
+          "baseline": 0.9962499999999981,
+          "candidate": 0.9661249999999981,
+          "delta": -0.030124999999999957
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9962499999999981,
+          "candidate": 0.9661249999999981,
+          "delta": -0.030124999999999957
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "round_00": {
+        "win_rate": {
+          "baseline": 0.875,
+          "candidate": 1.0,
+          "delta": 0.125
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.8724999999999984,
+          "candidate": 0.8964374999999984,
+          "delta": 0.023937500000000056
+        },
+        "damage_received": {
+          "baseline": 0.5053124999999987,
+          "candidate": 0.5073749999999988,
+          "delta": 0.002062500000000078
+        },
+        "head_on_damage_current": {
+          "baseline": 0.39393749999999905,
+          "candidate": 0.45787499999999887,
+          "delta": 0.06393749999999981
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      }
+    },
+    "10101_c1": {
+      "all": {
+        "win_rate": {
+          "baseline": 0.7760416666666666,
+          "candidate": 0.7395833333333334,
+          "delta": -0.03645833333333326
+        },
+        "rear_damage": {
+          "baseline": 0.022674479166666706,
+          "candidate": 0.018635416666666713,
+          "delta": -0.004039062499999992
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.11093749999999993,
+          "candidate": 0.09687499999999999,
+          "delta": -0.014062499999999936
+        },
+        "damage_dealt": {
+          "baseline": 0.9340546874999984,
+          "candidate": 0.9173776041666651,
+          "delta": -0.016677083333333287
+        },
+        "damage_received": {
+          "baseline": 0.5774322916666654,
+          "candidate": 0.5544218749999988,
+          "delta": -0.02301041666666659
+        },
+        "head_on_damage_current": {
+          "baseline": 0.576778645833332,
+          "candidate": 0.5532343749999988,
+          "delta": -0.023544270833333214
+        },
+        "games": 192,
+        "rear_damage_games": {
+          "baseline": 8,
+          "candidate": 9
+        }
+      },
+      "noncircler": {
+        "win_rate": {
+          "baseline": 0.7663043478260869,
+          "candidate": 0.7282608695652174,
+          "delta": -0.03804347826086951
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.00023369565217391786,
+          "delta": 0.00023369565217391786
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.005978260869565219,
+          "delta": 0.005978260869565219
+        },
+        "damage_dealt": {
+          "baseline": 0.9311874999999985,
+          "candidate": 0.9137853260869551,
+          "delta": -0.01740217391304344
+        },
+        "damage_received": {
+          "baseline": 0.6025380434782596,
+          "candidate": 0.5785271739130422,
+          "delta": -0.024010869565217363
+        },
+        "head_on_damage_current": {
+          "baseline": 0.6018559782608682,
+          "candidate": 0.5772880434782597,
+          "delta": -0.024567934782608547
+        },
+        "games": 184,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 1
+        }
+      },
+      "ace": {
+        "win_rate": {
+          "baseline": 0.875,
+          "candidate": 0.875,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9966874999999984,
+          "candidate": 0.9987499999999984,
+          "delta": 0.002062499999999967
+        },
+        "damage_received": {
+          "baseline": 0.7932499999999981,
+          "candidate": 0.826249999999998,
+          "delta": 0.03299999999999992
+        },
+        "head_on_damage_current": {
+          "baseline": 0.7932499999999981,
+          "candidate": 0.826249999999998,
+          "delta": 0.03299999999999992
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "evader": {
+        "win_rate": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "head_on_damage_current": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "temporal_extend_left": {
+        "win_rate": {
+          "baseline": 0.375,
+          "candidate": 0.25,
+          "delta": -0.125
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9884374999999983,
+          "delta": -0.011562500000000142
+        },
+        "damage_received": {
+          "baseline": 0.9694374999999982,
+          "candidate": 0.9892499999999982,
+          "delta": 0.01981250000000001
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9694374999999982,
+          "candidate": 0.9892499999999982,
+          "delta": 0.01981250000000001
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "untrained_parameter_01": {
+        "win_rate": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.7519999999999982,
+          "candidate": 0.5836874999999986,
+          "delta": -0.16831249999999964
+        },
+        "damage_received": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9966874999999984,
+          "candidate": 0.9871874999999982,
+          "delta": -0.009500000000000175
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "cem_original": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.24956249999999938,
+          "candidate": 0.1979999999999995,
+          "delta": -0.05156249999999987
+        },
+        "head_on_damage_current": {
+          "baseline": 0.24956249999999938,
+          "candidate": 0.1979999999999995,
+          "delta": -0.05156249999999987
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "circler": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.5441875000000009,
+          "candidate": 0.441875000000001,
+          "delta": -0.10231249999999992
+        },
+        "rear_wez_seconds": {
+          "baseline": 2.6624999999999983,
+          "candidate": 2.1874999999999996,
+          "delta": -0.47499999999999876
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "head_on_damage_current": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 8,
+          "candidate": 8
+        }
+      },
+      "control_s7600_t1310720_a4900": {
+        "win_rate": {
+          "baseline": 0.375,
+          "candidate": 0.125,
+          "delta": -0.25
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9966874999999984,
+          "candidate": 0.9748124999999983,
+          "delta": -0.02187500000000009
+        },
+        "damage_received": {
+          "baseline": 0.9941874999999981,
+          "candidate": 0.9966874999999984,
+          "delta": 0.0025000000000002798
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9941874999999981,
+          "candidate": 0.9966874999999984,
+          "delta": 0.0025000000000002798
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "ddqn_s1": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.005375000000000111,
+          "delta": 0.005375000000000111
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.13750000000000004,
+          "delta": 0.13750000000000004
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.3485624999999991,
+          "candidate": 0.3134999999999992,
+          "delta": -0.035062499999999885
+        },
+        "head_on_damage_current": {
+          "baseline": 0.3485624999999991,
+          "candidate": 0.31143749999999926,
+          "delta": -0.03712499999999985
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 1
+        }
+      },
+      "episode_mix_sampled_4900": {
+        "win_rate": {
+          "baseline": 0.875,
+          "candidate": 1.0,
+          "delta": 0.125
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9987499999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0012500000000000844
+        },
+        "damage_received": {
+          "baseline": 0.9623749999999978,
+          "candidate": 0.9549374999999977,
+          "delta": -0.007437500000000097
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9623749999999978,
+          "candidate": 0.9549374999999977,
+          "delta": -0.007437500000000097
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "fixed_left": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9946249999999983,
+          "delta": -0.00537500000000013
+        },
+        "damage_received": {
+          "baseline": 0.412499999999999,
+          "candidate": 0.32381249999999917,
+          "delta": -0.08868749999999981
+        },
+        "head_on_damage_current": {
+          "baseline": 0.412499999999999,
+          "candidate": 0.3217499999999992,
+          "delta": -0.09074999999999978
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "gate_s2302_g1_c9": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5568749999999987,
+          "candidate": 0.5713124999999986,
+          "delta": 0.014437499999999881
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5568749999999987,
+          "candidate": 0.5713124999999986,
+          "delta": 0.014437499999999881
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "history_s6000_t1048576_a4900": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.39187499999999903,
+          "candidate": 0.2021249999999995,
+          "delta": -0.18974999999999953
+        },
+        "head_on_damage_current": {
+          "baseline": 0.39187499999999903,
+          "candidate": 0.2021249999999995,
+          "delta": -0.18974999999999953
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "hold5_s6500_t262144_a4900": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.21037499999999948,
+          "candidate": 0.0,
+          "delta": -0.21037499999999948
+        },
+        "head_on_damage_current": {
+          "baseline": 0.21037499999999948,
+          "candidate": 0.0,
+          "delta": -0.21037499999999948
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "intercept_s2500_g3_c6": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5568749999999987,
+          "candidate": 0.5713124999999986,
+          "delta": 0.014437499999999881
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5568749999999987,
+          "candidate": 0.5713124999999986,
+          "delta": 0.014437499999999881
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "lead": {
+        "win_rate": {
+          "baseline": 0.25,
+          "candidate": 0.25,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9376874999999983,
+          "candidate": 0.8799374999999985,
+          "delta": -0.05774999999999986
+        },
+        "damage_received": {
+          "baseline": 0.9954374999999982,
+          "candidate": 0.9954374999999982,
+          "delta": 0.0
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9954374999999982,
+          "candidate": 0.9921249999999981,
+          "delta": -0.0033125000000000515
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_contextual_speed_pilot_20261007_c0": {
+        "win_rate": {
+          "baseline": 0.875,
+          "candidate": 0.625,
+          "delta": -0.25
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9348124999999985,
+          "candidate": 0.9281874999999983,
+          "delta": -0.006625000000000214
+        },
+        "damage_received": {
+          "baseline": 0.6756874999999984,
+          "candidate": 0.6802499999999987,
+          "delta": 0.004562500000000247
+        },
+        "head_on_damage_current": {
+          "baseline": 0.6756874999999984,
+          "candidate": 0.6802499999999987,
+          "delta": 0.004562500000000247
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_pursuit_context_train_20261007_346fd4060999": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5836874999999986,
+          "candidate": 0.4908749999999988,
+          "delta": -0.0928124999999998
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5836874999999986,
+          "candidate": 0.4908749999999988,
+          "delta": -0.0928124999999998
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_residual_continuation_20261007_s3300_t2097152": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.45581249999999884,
+          "candidate": 0.398062499999999,
+          "delta": -0.05774999999999986
+        },
+        "head_on_damage_current": {
+          "baseline": 0.45581249999999884,
+          "candidate": 0.398062499999999,
+          "delta": -0.05774999999999986
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_separated_probe_20261007_parent_0": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.49706249999999874,
+          "candidate": 0.410437499999999,
+          "delta": -0.08662499999999973
+        },
+        "head_on_damage_current": {
+          "baseline": 0.49706249999999874,
+          "candidate": 0.410437499999999,
+          "delta": -0.08662499999999973
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "portfolio_s6400_g0_c2_a0": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5053124999999987,
+          "candidate": 0.4413749999999989,
+          "delta": -0.06393749999999981
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5053124999999987,
+          "candidate": 0.4413749999999989,
+          "delta": -0.06393749999999981
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "pursuit": {
+        "win_rate": {
+          "baseline": 0.875,
+          "candidate": 0.75,
+          "delta": -0.125
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9987499999999984,
+          "candidate": 0.9335624999999984,
+          "delta": -0.06518749999999995
+        },
+        "damage_received": {
+          "baseline": 0.4879999999999989,
+          "candidate": 0.5841249999999988,
+          "delta": 0.0961249999999999
+        },
+        "head_on_damage_current": {
+          "baseline": 0.47768749999999893,
+          "candidate": 0.5841249999999988,
+          "delta": 0.10643749999999985
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "reactive_brake_pursuit_right": {
+        "win_rate": {
+          "baseline": 0.375,
+          "candidate": 0.125,
+          "delta": -0.25
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9843124999999984,
+          "candidate": 0.8782499999999982,
+          "delta": -0.10606250000000017
+        },
+        "damage_received": {
+          "baseline": 0.9611874999999982,
+          "candidate": 0.9884374999999983,
+          "delta": 0.027250000000000107
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9591249999999982,
+          "candidate": 0.9801874999999984,
+          "delta": 0.021062500000000206
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "risk_break_cem_s7200_g1_c9": {
+        "win_rate": {
+          "baseline": 0.75,
+          "candidate": 0.75,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9987499999999984,
+          "delta": -0.0012500000000000844
+        },
+        "damage_received": {
+          "baseline": 0.9574374999999978,
+          "candidate": 0.9801249999999978,
+          "delta": 0.02268749999999997
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9574374999999978,
+          "candidate": 0.9801249999999978,
+          "delta": 0.02268749999999997
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "round_00": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.8176249999999985,
+          "candidate": 0.8580624999999984,
+          "delta": 0.040437499999999904
+        },
+        "damage_received": {
+          "baseline": 0.2928749999999993,
+          "candidate": 0.389812499999999,
+          "delta": 0.09693749999999973
+        },
+        "head_on_damage_current": {
+          "baseline": 0.2928749999999993,
+          "candidate": 0.389812499999999,
+          "delta": 0.09693749999999973
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      }
+    },
+    "10101_c2": {
+      "all": {
+        "win_rate": {
+          "baseline": 0.7760416666666666,
+          "candidate": 0.734375,
+          "delta": -0.04166666666666663
+        },
+        "rear_damage": {
+          "baseline": 0.022674479166666706,
+          "candidate": 0.015885416666666718,
+          "delta": -0.006789062499999988
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.11093749999999993,
+          "candidate": 0.08671875000000001,
+          "delta": -0.024218749999999914
+        },
+        "damage_dealt": {
+          "baseline": 0.9340546874999984,
+          "candidate": 0.9297395833333318,
+          "delta": -0.0043151041666665835
+        },
+        "damage_received": {
+          "baseline": 0.5774322916666654,
+          "candidate": 0.5787083333333322,
+          "delta": 0.0012760416666667274
+        },
+        "head_on_damage_current": {
+          "baseline": 0.576778645833332,
+          "candidate": 0.5748567708333321,
+          "delta": -0.0019218749999999618
+        },
+        "games": 192,
+        "rear_damage_games": {
+          "baseline": 8,
+          "candidate": 8
+        }
+      },
+      "noncircler": {
+        "win_rate": {
+          "baseline": 0.7663043478260869,
+          "candidate": 0.7228260869565217,
+          "delta": -0.04347826086956519
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9311874999999985,
+          "candidate": 0.926684782608694,
+          "delta": -0.004502717391304478
+        },
+        "damage_received": {
+          "baseline": 0.6025380434782596,
+          "candidate": 0.60386956521739,
+          "delta": 0.0013315217391304257
+        },
+        "head_on_damage_current": {
+          "baseline": 0.6018559782608682,
+          "candidate": 0.5998505434782596,
+          "delta": -0.002005434782608617
+        },
+        "games": 184,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "ace": {
+        "win_rate": {
+          "baseline": 0.875,
+          "candidate": 0.875,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9966874999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0033125000000000515
+        },
+        "damage_received": {
+          "baseline": 0.7932499999999981,
+          "candidate": 0.8674999999999979,
+          "delta": 0.07424999999999982
+        },
+        "head_on_damage_current": {
+          "baseline": 0.7932499999999981,
+          "candidate": 0.8674999999999979,
+          "delta": 0.07424999999999982
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "evader": {
+        "win_rate": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "head_on_damage_current": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "temporal_extend_left": {
+        "win_rate": {
+          "baseline": 0.375,
+          "candidate": 0.125,
+          "delta": -0.25
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9925624999999983,
+          "delta": -0.007437500000000097
+        },
+        "damage_received": {
+          "baseline": 0.9694374999999982,
+          "candidate": 0.9946249999999983,
+          "delta": 0.02518750000000014
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9694374999999982,
+          "candidate": 0.9946249999999983,
+          "delta": 0.02518750000000014
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "untrained_parameter_01": {
+        "win_rate": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.7519999999999982,
+          "candidate": 0.6393749999999985,
+          "delta": -0.11262499999999975
+        },
+        "damage_received": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9966874999999984,
+          "candidate": 0.9075624999999983,
+          "delta": -0.08912500000000012
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "cem_original": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.24956249999999938,
+          "candidate": 0.13612499999999966,
+          "delta": -0.11343749999999972
+        },
+        "head_on_damage_current": {
+          "baseline": 0.24956249999999938,
+          "candidate": 0.13612499999999966,
+          "delta": -0.11343749999999972
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "circler": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.5441875000000009,
+          "candidate": 0.3812500000000012,
+          "delta": -0.16293749999999974
+        },
+        "rear_wez_seconds": {
+          "baseline": 2.6624999999999983,
+          "candidate": 2.0812500000000003,
+          "delta": -0.581249999999998
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "head_on_damage_current": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 8,
+          "candidate": 8
+        }
+      },
+      "control_s7600_t1310720_a4900": {
+        "win_rate": {
+          "baseline": 0.375,
+          "candidate": 0.25,
+          "delta": -0.125
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9966874999999984,
+          "candidate": 0.9954374999999982,
+          "delta": -0.0012500000000001954
+        },
+        "damage_received": {
+          "baseline": 0.9941874999999981,
+          "candidate": 0.9974999999999983,
+          "delta": 0.0033125000000001625
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9941874999999981,
+          "candidate": 0.9974999999999983,
+          "delta": 0.0033125000000001625
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "ddqn_s1": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.3485624999999991,
+          "candidate": 0.3774374999999991,
+          "delta": 0.028874999999999984
+        },
+        "head_on_damage_current": {
+          "baseline": 0.3485624999999991,
+          "candidate": 0.3774374999999991,
+          "delta": 0.028874999999999984
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "episode_mix_sampled_4900": {
+        "win_rate": {
+          "baseline": 0.875,
+          "candidate": 0.5,
+          "delta": -0.375
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9987499999999984,
+          "candidate": 0.9822499999999984,
+          "delta": -0.01649999999999996
+        },
+        "damage_received": {
+          "baseline": 0.9623749999999978,
+          "candidate": 0.974374999999998,
+          "delta": 0.012000000000000233
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9623749999999978,
+          "candidate": 0.974374999999998,
+          "delta": 0.012000000000000233
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "fixed_left": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.412499999999999,
+          "candidate": 0.37537499999999907,
+          "delta": -0.03712499999999991
+        },
+        "head_on_damage_current": {
+          "baseline": 0.412499999999999,
+          "candidate": 0.37537499999999907,
+          "delta": -0.03712499999999991
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "gate_s2302_g1_c9": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5568749999999987,
+          "candidate": 0.5424374999999987,
+          "delta": -0.014437499999999992
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5568749999999987,
+          "candidate": 0.5424374999999987,
+          "delta": -0.014437499999999992
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "history_s6000_t1048576_a4900": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.39187499999999903,
+          "candidate": 0.29699999999999926,
+          "delta": -0.09487499999999977
+        },
+        "head_on_damage_current": {
+          "baseline": 0.39187499999999903,
+          "candidate": 0.29699999999999926,
+          "delta": -0.09487499999999977
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "hold5_s6500_t262144_a4900": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.21037499999999948,
+          "candidate": 0.09074999999999978,
+          "delta": -0.1196249999999997
+        },
+        "head_on_damage_current": {
+          "baseline": 0.21037499999999948,
+          "candidate": 0.09074999999999978,
+          "delta": -0.1196249999999997
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "intercept_s2500_g3_c6": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5568749999999987,
+          "candidate": 0.5424374999999987,
+          "delta": -0.014437499999999992
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5568749999999987,
+          "candidate": 0.5424374999999987,
+          "delta": -0.014437499999999992
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "lead": {
+        "win_rate": {
+          "baseline": 0.25,
+          "candidate": 0.375,
+          "delta": 0.125
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9376874999999983,
+          "candidate": 0.9389374999999984,
+          "delta": 0.0012500000000000844
+        },
+        "damage_received": {
+          "baseline": 0.9954374999999982,
+          "candidate": 0.9962499999999981,
+          "delta": 0.0008124999999998828
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9954374999999982,
+          "candidate": 0.9962499999999981,
+          "delta": 0.0008124999999998828
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_contextual_speed_pilot_20261007_c0": {
+        "win_rate": {
+          "baseline": 0.875,
+          "candidate": 0.625,
+          "delta": -0.25
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9348124999999985,
+          "candidate": 0.9739999999999984,
+          "delta": 0.03918749999999993
+        },
+        "damage_received": {
+          "baseline": 0.6756874999999984,
+          "candidate": 0.8988749999999981,
+          "delta": 0.22318749999999965
+        },
+        "head_on_damage_current": {
+          "baseline": 0.6756874999999984,
+          "candidate": 0.8988749999999981,
+          "delta": 0.22318749999999965
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_pursuit_context_train_20261007_346fd4060999": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5836874999999986,
+          "candidate": 0.6063749999999986,
+          "delta": 0.02268749999999997
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5836874999999986,
+          "candidate": 0.6063749999999986,
+          "delta": 0.02268749999999997
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_residual_continuation_20261007_s3300_t2097152": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.45581249999999884,
+          "candidate": 0.3547499999999991,
+          "delta": -0.10106249999999972
+        },
+        "head_on_damage_current": {
+          "baseline": 0.45581249999999884,
+          "candidate": 0.3547499999999991,
+          "delta": -0.10106249999999972
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "league_separated_probe_20261007_parent_0": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.49706249999999874,
+          "candidate": 0.5176874999999987,
+          "delta": 0.020625000000000004
+        },
+        "head_on_damage_current": {
+          "baseline": 0.49706249999999874,
+          "candidate": 0.5176874999999987,
+          "delta": 0.020625000000000004
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "portfolio_s6400_g0_c2_a0": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.5053124999999987,
+          "candidate": 0.5279999999999987,
+          "delta": 0.02268749999999997
+        },
+        "head_on_damage_current": {
+          "baseline": 0.5053124999999987,
+          "candidate": 0.5279999999999987,
+          "delta": 0.02268749999999997
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "pursuit": {
+        "win_rate": {
+          "baseline": 0.875,
+          "candidate": 0.875,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9987499999999984,
+          "candidate": 0.9884374999999983,
+          "delta": -0.010312500000000058
+        },
+        "damage_received": {
+          "baseline": 0.4879999999999989,
+          "candidate": 0.5086249999999989,
+          "delta": 0.020625000000000004
+        },
+        "head_on_damage_current": {
+          "baseline": 0.47768749999999893,
+          "candidate": 0.5086249999999989,
+          "delta": 0.03093749999999995
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "reactive_brake_pursuit_right": {
+        "win_rate": {
+          "baseline": 0.375,
+          "candidate": 0.25,
+          "delta": -0.125
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9843124999999984,
+          "candidate": 0.9343749999999983,
+          "delta": -0.04993750000000008
+        },
+        "damage_received": {
+          "baseline": 0.9611874999999982,
+          "candidate": 0.9686249999999983,
+          "delta": 0.007437500000000097
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9591249999999982,
+          "candidate": 0.9686249999999983,
+          "delta": 0.009500000000000064
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "risk_break_cem_s7200_g1_c9": {
+        "win_rate": {
+          "baseline": 0.75,
+          "candidate": 0.75,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.9999999999999984,
+          "candidate": 0.9999999999999984,
+          "delta": 0.0
+        },
+        "damage_received": {
+          "baseline": 0.9574374999999978,
+          "candidate": 0.9698124999999979,
+          "delta": 0.012375000000000025
+        },
+        "head_on_damage_current": {
+          "baseline": 0.9574374999999978,
+          "candidate": 0.9698124999999979,
+          "delta": 0.012375000000000025
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      },
+      "round_00": {
+        "win_rate": {
+          "baseline": 1.0,
+          "candidate": 1.0,
+          "delta": 0.0
+        },
+        "rear_damage": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "rear_wez_seconds": {
+          "baseline": 0.0,
+          "candidate": 0.0,
+          "delta": 0.0
+        },
+        "damage_dealt": {
+          "baseline": 0.8176249999999985,
+          "candidate": 0.8683749999999985,
+          "delta": 0.05074999999999996
+        },
+        "damage_received": {
+          "baseline": 0.2928749999999993,
+          "candidate": 0.3444374999999992,
+          "delta": 0.0515624999999999
+        },
+        "head_on_damage_current": {
+          "baseline": 0.2928749999999993,
+          "candidate": 0.3444374999999992,
+          "delta": 0.0515624999999999
+        },
+        "games": 8,
+        "rear_damage_games": {
+          "baseline": 0,
+          "candidate": 0
+        }
+      }
+    }
+  },
+  "eligible_points": [],
+  "consistent_chunks": [],
+  "decision": "no_consistent_transfer_do_not_extend_same_setting",
+  "scope": "Two shared-ancestor matched continuations, consumed development IC. No unseen final confirmation/statistical superiority claim.",
+  "policy_promoted": false
+}
