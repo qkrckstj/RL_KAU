@@ -28,5 +28,11 @@
     "source": "User-provided PDF; original filename preserved",
     "bytes": 211894,
     "sha256": "e83f9d13b8c5415d78a187a0b9000c5ab6aa90f3029d5c957f5c46caaabed207"
+  },
+  {
+    "file": "2108.13264v4.pdf",
+    "source": "User-provided PDF; original filename preserved",
+    "bytes": 22838819,
+    "sha256": "a6a5abb49e58a9e4a0be8556c8351ce8c3b52e70216bffc9fa80eac0823ec5ed"
   }
 ]

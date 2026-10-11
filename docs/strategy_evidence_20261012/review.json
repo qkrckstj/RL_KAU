@@ -1,0 +1,113 @@
+{
+  "status": "1248cells_verdicts_rewards_and_configuration_verified",
+  "training": [
+    {
+      "seed": 10310,
+      "games": 601,
+      "rear_damage_games": 144
+    },
+    {
+      "seed": 10311,
+      "games": 564,
+      "rear_damage_games": 106
+    }
+  ],
+  "profiles": {
+    "initial": {
+      "games": 192,
+      "wins": 104,
+      "rear_damage": 0.015335937500000044,
+      "rear_wez_seconds": 0.07708333333333332,
+      "damage_dealt": 0.8053828124999985,
+      "damage_received": 0.5607083333333323,
+      "head_on_damage_current": 0.4398151041666658,
+      "win_rate": 0.5416666666666666,
+      "noncircler_rear_games": 7,
+      "noncircler_rear_damage": 0.007679347826086992
+    },
+    "baseline_s10310": {
+      "games": 192,
+      "wins": 112,
+      "rear_damage": 0.00711718750000001,
+      "rear_wez_seconds": 0.05234374999999999,
+      "damage_dealt": 0.8256093749999985,
+      "damage_received": 0.5749557291666655,
+      "head_on_damage_current": 0.46282812499999904,
+      "win_rate": 0.5833333333333334,
+      "noncircler_rear_games": 2,
+      "noncircler_rear_damage": 0.0022608695652174024
+    },
+    "baseline_s10311": {
+      "games": 192,
+      "wins": 119,
+      "rear_damage": 0.015953125000000016,
+      "rear_wez_seconds": 0.07890624999999994,
+      "damage_dealt": 0.8446744791666653,
+      "damage_received": 0.5458359374999989,
+      "head_on_damage_current": 0.4398645833333324,
+      "win_rate": 0.6197916666666666,
+      "noncircler_rear_games": 2,
+      "noncircler_rear_damage": 0.0022608695652174024
+    },
+    "expert0": {
+      "games": 96,
+      "wins": 68,
+      "rear_damage": 0.02722916666666669,
+      "rear_wez_seconds": 0.13124999999999987,
+      "damage_dealt": 0.9364218749999984,
+      "damage_received": 0.5636718749999988,
+      "head_on_damage_current": 0.5609218749999988,
+      "win_rate": 0.7083333333333334,
+      "noncircler_rear_games": 0,
+      "noncircler_rear_damage": 0.0
+    },
+    "expert1": {
+      "games": 96,
+      "wins": 70,
+      "rear_damage": 0.0,
+      "rear_wez_seconds": 0.0,
+      "damage_dealt": 0.9317447916666651,
+      "damage_received": 0.5234166666666656,
+      "head_on_damage_current": 0.5147187499999989,
+      "win_rate": 0.7291666666666666,
+      "noncircler_rear_games": 0,
+      "noncircler_rear_damage": 0.0
+    },
+    "expert2": {
+      "games": 96,
+      "wins": 20,
+      "rear_damage": 0.03719791666666664,
+      "rear_wez_seconds": 0.11874999999999993,
+      "damage_dealt": 0.2014843749999996,
+      "damage_received": 0.7191041666666654,
+      "head_on_damage_current": 0.014302083333333361,
+      "win_rate": 0.20833333333333334,
+      "noncircler_rear_games": 9,
+      "noncircler_rear_damage": 0.03881521739130433
+    },
+    "new_s10310": {
+      "games": 192,
+      "wins": 110,
+      "rear_damage": 0.00711718750000001,
+      "rear_wez_seconds": 0.05234374999999999,
+      "damage_dealt": 0.8178046874999985,
+      "damage_received": 0.5741484374999989,
+      "head_on_damage_current": 0.46086979166666575,
+      "win_rate": 0.5729166666666666,
+      "noncircler_rear_games": 2,
+      "noncircler_rear_damage": 0.0022608695652174024
+    },
+    "new_s10311": {
+      "games": 192,
+      "wins": 120,
+      "rear_damage": 0.019098958333333353,
+      "rear_wez_seconds": 0.09036458333333326,
+      "damage_dealt": 0.8504531249999986,
+      "damage_received": 0.5404557291666656,
+      "head_on_damage_current": 0.4378359374999991,
+      "win_rate": 0.625,
+      "noncircler_rear_games": 2,
+      "noncircler_rear_damage": 0.0022608695652174024
+    }
+  }
+}

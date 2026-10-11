@@ -1,7 +1,7 @@
 # 검토한 논문·교범
 
 훈련 계획에 사용한 원문 위치다. 2026-10-12 사용자 요청으로 현재 전략에 필요한
-[핵심 PDF 5편](docs/papers/README.md)을 추가했다. 나머지는 공식·저자 원문 링크를 유지한다.
+[핵심 PDF 6편](docs/papers/README.md)을 추가했다. 나머지는 공식·저자 원문 링크를 유지한다.
 현재 적용 판단은 [자동 학습 전략](docs/AUTOMATED_TACTICS_STRATEGY_20261012.md), 과거 계획은
 [훈련 계획](JSBSim_비행기_AI_훈련_계획.md)에 있다.
 
@@ -26,3 +26,9 @@
 Ross, Gordon, Bagnell (2011), **A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning**. [공식 논문 페이지](https://proceedings.mlr.press/v15/ross11a.html), [공식 PDF](https://proceedings.mlr.press/v15/ross11a/ross11a.pdf).
 
 후보가 직접 방문한 상태에서 전문가 행동 라벨을 수집하는 설계의 근거다. 프로젝트에서는 CEM을 전문가로 사용한 한 차례 데이터 추가 실험이며 논문 전체 알고리즘이나 이론 보장의 재현은 아니다. 특정 상대 개선이 다른 상대 손실을 동반하여 현재 기본 정책으로 채택하지 않았다.
+
+## 전문가 선택과 평가의 추가 근거
+
+Sutton, Precup, Singh (1999), **Between MDPs and semi-MDPs: A framework for temporal abstraction in reinforcement learning**. [출판사 원문](https://www.sciencedirect.com/science/article/pii/S0004370299000521), [저자 연구 페이지](https://web.eecs.umich.edu/~baveja/Options.html). 일정 시간 전문가 선택을 유지하는 실험의 개념적 근거다. 고정 1초 선택기의 성공이나 논문 알고리즘 전체 재현을 의미하지 않는다.
+
+Agarwal 등 (2021), **Deep Reinforcement Learning at the Edge of the Statistical Precipice**. [보관한 PDF](docs/papers/2108.13264v4.pdf), [공식 원문](https://arxiv.org/abs/2108.13264v4). 적은 반복의 결과를 과대해석하지 않기 위한 평가 참고다. 현재 두 반복을 통계적 우위의 증명으로 부르지 않는다.

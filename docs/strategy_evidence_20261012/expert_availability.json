@@ -1,0 +1,66 @@
+{
+  "cells": 96,
+  "any_expert_win": 81,
+  "winning_rear_available": 12,
+  "winning_rear_without_damage_available": 4,
+  "rear_teacher_unique_win": 7,
+  "rear_teacher_winning_rear_cells": [
+    {
+      "foe": "ace",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.34649999999999964,
+      "received": 0.8414999999999979
+    },
+    {
+      "foe": "ace",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.39599999999999974,
+      "received": 0.9239999999999977
+    },
+    {
+      "foe": "untrained_parameter_01",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.191500000000001,
+      "received": 0.9239999999999977
+    },
+    {
+      "foe": "untrained_parameter_01",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.29050000000000115,
+      "received": 0.7589999999999981
+    },
+    {
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.9999999999999984,
+      "received": 0.9899999999999975
+    },
+    {
+      "foe": "lead",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.016500000000000015,
+      "received": 0.6104999999999985
+    },
+    {
+      "foe": "pursuit",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.09900000000000009,
+      "received": 0.6599999999999984
+    },
+    {
+      "foe": "risk_break_cem_s7200_g1_c9",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.9999999999999984,
+      "received": 0.9899999999999975
+    }
+  ],
+  "scope": "Hindsight whole-episode expert availability, not deployable oracle and not an upper bound on within-episode switching."
+}
