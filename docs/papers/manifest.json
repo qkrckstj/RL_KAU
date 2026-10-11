@@ -1,0 +1,32 @@
+[
+  {
+    "file": "2105.00990v3.pdf",
+    "source": "User-provided PDF; original filename preserved",
+    "bytes": 8581188,
+    "sha256": "f34edd3a6b7cd26b290dae22c7df71f75c91d441194c832dabb80c59da8ea0ba"
+  },
+  {
+    "file": "2510.11474v2.pdf",
+    "source": "User-provided PDF; original filename preserved",
+    "bytes": 1791825,
+    "sha256": "73c50221fe93a5f3003e6d273328210ce6945051340170998e4ee8443b661d4a"
+  },
+  {
+    "file": "1707.06347v2.pdf",
+    "source": "User-provided PDF; original filename preserved",
+    "bytes": 2923532,
+    "sha256": "e78feadadbdbb0b601b3c2bcc81404722cd431a489b307545f9b7bea1e8c4f5b"
+  },
+  {
+    "file": "1710.03748v3.pdf",
+    "source": "User-provided PDF; original filename preserved",
+    "bytes": 4131127,
+    "sha256": "61868bb30e900cd0b72d7ec34202a05d1bd3f2272b6d549d8d28213397c2f299"
+  },
+  {
+    "file": "shaping-icml99.pdf",
+    "source": "User-provided PDF; original filename preserved",
+    "bytes": 211894,
+    "sha256": "e83f9d13b8c5415d78a187a0b9000c5ab6aa90f3029d5c957f5c46caaabed207"
+  }
+]
