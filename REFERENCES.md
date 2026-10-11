@@ -20,3 +20,9 @@
 
 계획서의 페이지 번호는 당시 검토한 PDF를 기준으로 한다.
 `runs/**/source_snapshot/`의 문서는 당시 원본 기록이므로 이전 로컬 PDF 경로가 남아 있을 수 있다.
+
+## 시범 상태 분포 보완의 추가 근거
+
+Ross, Gordon, Bagnell (2011), **A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning**. [공식 논문 페이지](https://proceedings.mlr.press/v15/ross11a.html), [공식 PDF](https://proceedings.mlr.press/v15/ross11a/ross11a.pdf).
+
+후보가 직접 방문한 상태에서 전문가 행동 라벨을 수집하는 설계의 근거다. 프로젝트에서는 CEM을 전문가로 사용한 한 차례 데이터 추가 실험이며 논문 전체 알고리즘이나 이론 보장의 재현은 아니다. 특정 상대 개선이 다른 상대 손실을 동반하여 현재 기본 정책으로 채택하지 않았다.
