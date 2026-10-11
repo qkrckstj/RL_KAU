@@ -1,0 +1,193 @@
+{
+  "status": "rear_opponent_feasibility_complete",
+  "training_steps": 0,
+  "evaluation_games": 64,
+  "evaluation_seconds": 23.83718220004812,
+  "profiles": {
+    "alignment_s10100": {
+      "fixed_right": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 4,
+        "zero_hit_winning_rear_games": 4,
+        "rear_damage": 0.5668750000000008,
+        "rear_wez_seconds": 2.2125,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.0,
+        "head_on_damage_current": 0.0
+      },
+      "league_residual_continuation_20261007_s3301_t2097152": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 4,
+        "zero_hit_winning_rear_games": 4,
+        "rear_damage": 0.331750000000001,
+        "rear_wez_seconds": 1.0250000000000004,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.0,
+        "head_on_damage_current": 0.0
+      },
+      "ddqn_s0": {
+        "games": 4,
+        "wins": 3,
+        "rear_damage_games": 0,
+        "zero_hit_winning_rear_games": 0,
+        "rear_damage": 0.0,
+        "rear_wez_seconds": 0.0,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.8687499999999981,
+        "head_on_damage_current": 0.6707499999999986
+      },
+      "circler": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 4,
+        "zero_hit_winning_rear_games": 4,
+        "rear_damage": 0.440625000000001,
+        "rear_wez_seconds": 2.1375,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.0,
+        "head_on_damage_current": 0.0
+      }
+    },
+    "baseline_s10100": {
+      "fixed_right": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 4,
+        "zero_hit_winning_rear_games": 4,
+        "rear_damage": 0.5998750000000008,
+        "rear_wez_seconds": 1.8375000000000008,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.0,
+        "head_on_damage_current": 0.0
+      },
+      "league_residual_continuation_20261007_s3301_t2097152": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 4,
+        "zero_hit_winning_rear_games": 4,
+        "rear_damage": 0.2616250000000011,
+        "rear_wez_seconds": 0.8125000000000001,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.0,
+        "head_on_damage_current": 0.0
+      },
+      "ddqn_s0": {
+        "games": 4,
+        "wins": 3,
+        "rear_damage_games": 0,
+        "zero_hit_winning_rear_games": 0,
+        "rear_damage": 0.0,
+        "rear_wez_seconds": 0.0,
+        "damage_dealt": 0.9149999999999985,
+        "damage_received": 0.8868749999999979,
+        "head_on_damage_current": 0.6228749999999985
+      },
+      "circler": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 4,
+        "zero_hit_winning_rear_games": 4,
+        "rear_damage": 0.5891250000000001,
+        "rear_wez_seconds": 2.6374999999999984,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.0,
+        "head_on_damage_current": 0.0
+      }
+    },
+    "alignment_s10101": {
+      "fixed_right": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 4,
+        "zero_hit_winning_rear_games": 4,
+        "rear_damage": 0.5668750000000008,
+        "rear_wez_seconds": 1.975,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.0,
+        "head_on_damage_current": 0.0
+      },
+      "league_residual_continuation_20261007_s3301_t2097152": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 4,
+        "zero_hit_winning_rear_games": 4,
+        "rear_damage": 0.2863750000000011,
+        "rear_wez_seconds": 0.8875000000000002,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.0,
+        "head_on_damage_current": 0.0
+      },
+      "ddqn_s0": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 1,
+        "zero_hit_winning_rear_games": 0,
+        "rear_damage": 0.0808750000000003,
+        "rear_wez_seconds": 0.48750000000000027,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.8497499999999979,
+        "head_on_damage_current": 0.6269999999999987
+      },
+      "circler": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 4,
+        "zero_hit_winning_rear_games": 4,
+        "rear_damage": 0.5297500000000007,
+        "rear_wez_seconds": 2.5249999999999986,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.0,
+        "head_on_damage_current": 0.0
+      }
+    },
+    "baseline_s10101": {
+      "fixed_right": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 4,
+        "zero_hit_winning_rear_games": 4,
+        "rear_damage": 0.6386250000000002,
+        "rear_wez_seconds": 2.1249999999999996,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.0,
+        "head_on_damage_current": 0.0
+      },
+      "league_residual_continuation_20261007_s3301_t2097152": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 4,
+        "zero_hit_winning_rear_games": 4,
+        "rear_damage": 0.2698750000000011,
+        "rear_wez_seconds": 0.8375000000000001,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.0,
+        "head_on_damage_current": 0.0
+      },
+      "ddqn_s0": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 0,
+        "zero_hit_winning_rear_games": 0,
+        "rear_damage": 0.0,
+        "rear_wez_seconds": 0.0,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.8744999999999978,
+        "head_on_damage_current": 0.6764999999999983
+      },
+      "circler": {
+        "games": 4,
+        "wins": 4,
+        "rear_damage_games": 4,
+        "zero_hit_winning_rear_games": 4,
+        "rear_damage": 0.465375000000001,
+        "rear_wez_seconds": 2.3374999999999995,
+        "damage_dealt": 0.9999999999999984,
+        "damage_received": 0.0,
+        "head_on_damage_current": 0.0
+      }
+    }
+  },
+  "policy_promoted": false
+}

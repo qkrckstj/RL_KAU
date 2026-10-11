@@ -32,3 +32,7 @@ Ross, Gordon, Bagnell (2011), **A Reduction of Imitation Learning and Structured
 Sutton, Precup, Singh (1999), **Between MDPs and semi-MDPs: A framework for temporal abstraction in reinforcement learning**. [출판사 원문](https://www.sciencedirect.com/science/article/pii/S0004370299000521), [저자 연구 페이지](https://web.eecs.umich.edu/~baveja/Options.html). 일정 시간 전문가 선택을 유지하는 실험의 개념적 근거다. 고정 1초 선택기의 성공이나 논문 알고리즘 전체 재현을 의미하지 않는다.
 
 Agarwal 등 (2021), **Deep Reinforcement Learning at the Edge of the Statistical Precipice**. [보관한 PDF](docs/papers/2108.13264v4.pdf), [공식 원문](https://arxiv.org/abs/2108.13264v4). 적은 반복의 결과를 과대해석하지 않기 위한 평가 참고다. 현재 두 반복을 통계적 우위의 증명으로 부르지 않는다.
+
+## 최신 적용 상태
+
+정렬 잠재 보상 실험은 할인 누적 등식을 검증했지만 두 반복의 승률 개선이 일치하지 않아 채택하지 않았다. Reward Shaping 논문의 이론적 성질과 실제 학습 성능을 구분한다. 상대 난이도 단계화는 다음 비교 후보이며, 경쟁 학습·단계적 훈련 문헌을 배경으로 삼되 아직 효과가 확인된 방법으로 소개하지 않는다. 최신 수치와 판단은 [현재 전략](docs/AUTOMATED_TACTICS_STRATEGY_20261012.md)에 모았다.
