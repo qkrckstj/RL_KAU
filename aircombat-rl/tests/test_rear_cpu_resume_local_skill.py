@@ -25,6 +25,10 @@ def test_resume_preserves_original_judgment_plan_and_checkpoint(tmp_path, monkey
     put(tmp_path/'evaluation_complete.json', {'status': 'queue_drained'})
     original_decision = {'decision': 'review_plateau', 'extend': False}
     put(tmp_path/'s1_budget_decision.json', original_decision)
+    metrics_file = tmp_path/'s1_metrics'/'progress.csv'
+    metrics_file.parent.mkdir()
+    original_metrics = b'time/total_timesteps,train/entropy_loss\n3,-0.7\n'
+    metrics_file.write_bytes(original_metrics)
     def metrics(value):
         return dict(games=16, rear_damage=value, max_rear_wez_streak=2*value,
                     clean_rear_wins=16, rear_damage_games=16, damage_received=0.)
@@ -53,3 +57,7 @@ def test_resume_preserves_original_judgment_plan_and_checkpoint(tmp_path, monkey
     resume = read(tmp_path/'local_skill_resume.json')
     assert resume['status'] == 'prepared_not_launched'
     assert resume['launch_argv'][-1] == '--resume'
+    # Reproduce the logger's next open in write mode: history survives in the
+    # archived segment even when the active path is replaced by later metrics.
+    metrics_file.write_text('time/total_timesteps,train/entropy_loss\n4,-0.8\n')
+    assert (Path(resume['segment'])/'s1_metrics'/'progress.csv').read_bytes() == original_metrics

@@ -70,6 +70,11 @@ def prepare(out):
         for path in snapshots:
             if path.exists():
                 shutil.copyfile(path, segment/path.name)
+        # SB3 configure(..., ['csv']) opens an existing progress.csv in write
+        # mode. Archive these closed-run metrics before the next logger opens.
+        for metrics in out.glob('s*_metrics'):
+            if metrics.is_dir():
+                shutil.copytree(metrics, segment/metrics.name)
         evidence = dict(status='prepared_not_launched', segment=str(segment),
             reviewed_seeds=list(decisions), maximum_steps=plan['maximum_steps'],
             review_source_sha256=sha(Path(__file__)),
