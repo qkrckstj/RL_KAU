@@ -1,0 +1,6 @@
+{
+  "id": "risk_break_cem_s7200_g1_c9",
+  "kind": "submission",
+  "design": "runs/league_risk_break_train_20261008/s7200/g01/c09/policy",
+  "weights": "runs/league_risk_break_train_20261008/s7200/g01/c09/policy/policy_net.zip"
+}

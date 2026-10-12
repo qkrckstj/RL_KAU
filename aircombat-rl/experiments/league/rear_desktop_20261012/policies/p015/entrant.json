@@ -1,0 +1,6 @@
+{
+  "id": "history_s6000_t1048576_a4900",
+  "kind": "submission",
+  "design": "runs/league_history_config_matched_20261007/history/s6000/checkpoints/step_1048576/sampled_4900",
+  "weights": "runs/league_history_config_matched_20261007/history/s6000/checkpoints/step_1048576/sampled_4900/policy_net.zip"
+}

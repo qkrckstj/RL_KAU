@@ -1,0 +1,6 @@
+{
+  "id": "hold5_s6500_t262144_a4901",
+  "kind": "submission",
+  "design": "runs/league_hold_train_20261007/hold5/s6500/checkpoints/step_262144/sampled_4901",
+  "weights": "runs/league_hold_train_20261007/hold5/s6500/checkpoints/step_262144/sampled_4901/policy_net.zip"
+}

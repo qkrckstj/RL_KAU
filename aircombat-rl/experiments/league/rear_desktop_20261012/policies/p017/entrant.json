@@ -1,0 +1,6 @@
+{
+  "id": "gate_s2302_g1_c9",
+  "kind": "submission",
+  "design": "runs/league_adaptive_20261006/s2302/g1/models/c9",
+  "weights": "runs/league_adaptive_20261006/s2302/g1/models/c9/policy_net.zip"
+}

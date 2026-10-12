@@ -1,3 +1,5 @@
+Desktop continuation roster and async architecture: see `../rear_desktop_20261012/README.md` and repository `docs/DESKTOP_REAR_HANDOFF_20261012.md`.
+
 # 후방 전술 개발 모델 묶음
 
 사용자가 선택한 후방 공격 방향의 개발 후보다. 종합 승률 우승 모델로 교체한 것이 아니다. retained_ppo는 영상 첫 경기의 모델, rear_candidate는 두 번째 경기의 geometry_s10101 모델이다. archived_opponent는 첫 경기의 상대다.

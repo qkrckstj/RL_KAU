@@ -1,0 +1,6 @@
+{
+  "id": "league_maneuver_parallel_20261006_545956914cb9",
+  "kind": "submission",
+  "design": "runs/league_maneuver_parallel_20261006/models/545956914cb907da36c0",
+  "weights": "runs/league_maneuver_parallel_20261006/models/545956914cb907da36c0/policy_net.zip"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "control_s7400_t2621440_a4900",
+  "kind": "submission",
+  "design": "runs/league_rate_ppo_train_20261008/control/s7400/checkpoints/step_2621440/sampled_4900",
+  "weights": "runs/league_rate_ppo_train_20261008/control/s7400/checkpoints/step_2621440/sampled_4900/policy_net.zip"
+}

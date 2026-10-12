@@ -1,0 +1,12 @@
+{
+  "action_seed": 4900,
+  "temperature": 1.0,
+  "source": {
+    "id": "history_s6000_t1048576",
+    "kind": "submission",
+    "design": "runs/league_history_config_matched_20261007/history/s6000/checkpoints/step_1048576/submission",
+    "weights": "runs/league_history_config_matched_20261007/history/s6000/checkpoints/step_1048576/submission/policy_net.zip"
+  },
+  "source_weights_sha256": "cbcc50013d99cb9330a6cb1351779f786e2edc421761aebddc1899694620fb38",
+  "rng_protocol": "Same39 public first-frame words and fixed action seed as plain actor; no IDs/private seeds."
+}

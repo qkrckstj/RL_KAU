@@ -1,0 +1,6 @@
+{
+  "id": "symgate_s2400_g0_c1",
+  "kind": "submission",
+  "design": "runs/league_symmetric_20261006/s2400/g0/models/c1",
+  "weights": "runs/league_symmetric_20261006/s2400/g0/models/c1/policy_net.zip"
+}

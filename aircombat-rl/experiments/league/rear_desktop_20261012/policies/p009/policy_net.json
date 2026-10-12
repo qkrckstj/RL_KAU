@@ -1,0 +1,15 @@
+{
+  "kind": "residual_ppo_actor",
+  "teacher": {
+    "id": "league_separated_probe_20261007_parent_0",
+    "kind": "submission",
+    "design": "runs/league_separated_probe_20261007/models/parent_0",
+    "weights": "runs/league_separated_probe_20261007/models/parent_0/policy_net.zip"
+  },
+  "teacher_source_sha256": "7ccb57d704381a94c442ff6b242604f7f889f84c949bc2d177ad2270c10af774",
+  "teacher_weights_sha256": "f6fbc9eafad506f4aa03474d9ed7bb394e3f88a30b2404567b7937207ca453de",
+  "prior_bias": 6.0,
+  "observation_dim": 40,
+  "actions": 9,
+  "scope": "Teacher source/configuration and residual actor are bundled. Original teacher paths are provenance only, not runtime dependencies."
+}

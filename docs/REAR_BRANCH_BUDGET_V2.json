@@ -1,0 +1,65 @@
+{
+  "version": "rear_branch_budget_v2",
+  "status": "planned_not_launched",
+  "effective_date": "2026-10-12",
+  "objective": "Develop rear tactics as a separate lineage; win rate alone is not a rejection criterion.",
+  "parent": {
+    "learner": "experiments/league/rear_branch_20261012/rear_candidate/learner.zip",
+    "sha256": "72668125d95aa12ff3b4a5832f83e1497e8105a05a822b3906166b3b98a04ccb",
+    "original_role": "geometry_s10101",
+    "new_initialization": false
+  },
+  "repeats": 2,
+  "repeat_scope": "Independent continuation RNGs from one shared checkpoint, not independent original initializations.",
+  "additional_steps_per_repeat": 5242880,
+  "conditional_max_additional_steps_per_repeat": 10485760,
+  "checkpoint_every_steps": 655360,
+  "monitor_every_steps": 1310720,
+  "processes": 8,
+  "environments": 32,
+  "early_performance_stop_before_minimum": false,
+  "fixed": {
+    "gamma": 0.999,
+    "gae_lambda": 0.99,
+    "learning_rate": 0.0001,
+    "prior_bias": 6.0,
+    "quarter_fraction": 0.5,
+    "opponent_count": 48,
+    "coverage_period": 2,
+    "tail_coefficients": {
+      "potential": 0.25,
+      "hold": 0.01,
+      "damage": 0.25,
+      "received": 0.5
+    },
+    "position_per_second": 0.01,
+    "actual_rear_damage_coefficient": 0.5,
+    "opponent_focus_weight": 0.0,
+    "do_not_restart_completed_focus_schedule": true
+  },
+  "monitor": {
+    "opponents": 8,
+    "initial_conditions_per_opponent": 8,
+    "seats": 2,
+    "action_replicas": 1,
+    "games_per_checkpoint_per_policy": 128,
+    "scope": "Frozen development panel; descriptive learning curve, not final unseen test."
+  },
+  "stop_exceptions": [
+    "numerical_error_or_corrupt_checkpoint",
+    "unsafe_memory_or_resource_state",
+    "verified_physics_or_verdict_violation",
+    "verified_reward_exploit_or_invalid_measurement",
+    "explicit_user_stop"
+  ],
+  "decision": "At minimum budget use three latest monitoring points and rear metrics; no automatic head-on win-rate gate. Keep promising single repeats; confirm with broader conditions/third RNG if needed.",
+  "next_run_requirements": [
+    "reserve_new_disjoint_training_seed_bands",
+    "freeze_monitor_roster_and_initial_conditions_before_training",
+    "preserve_optimizer_and_live_state_between_chunks",
+    "use_updated_rear_branch_judgement_not_legacy_review_gate",
+    "retain_original_models_and_all_checkpoints"
+  ],
+  "github_upload": "explicit_request_only",
+  "implementation_status": "Budget specification only; old runners still need a dedicated long-continuation driver and updated reviewer before execution."
+}

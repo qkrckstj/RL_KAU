@@ -1,3 +1,7 @@
+> **데스크톱 최신 인계 (2026-10-12):** [장기 학습 + 비동기 평가/코드 검토 구조](docs/DESKTOP_REAR_HANDOFF_20261012.md)를 먼저 읽는다. 출발 모델·48종 훈련 상대·24종 개발 상대를 포함했다. 새 장기 실행기와 분리 구조는 구현할 사양이며 아직 구현/본 실행 전이다. 과거 running/PID 기록을 현재 상태로 해석하지 않는다. 이번 업로드만 승인되었으며 자동 업로드는 금지한다.
+
+> **최신 예산 지시 (2026-10-12):** [후방계보 v2](docs/REAR_BRANCH_PLAN_20261012.md): geometry_s10101에서 같은설정으로 반복당 추가5,242,880단계·새난수2회.655,360마다저장/1,310,720마다평가.최소예산전 승률정체로전략변경금지,기존완료상대강조일정재시작금지.구review승률2%게이트는새실행에사용하지않는다.계획만갱신했으며새학습없음/GitHub게시없음.
+
 > **최신 사용자 지시 (2026-10-12):** 정면 교전 CEM/PPO는 보존하고 후방 전술을 별도 계보로 계속 개발한다. 승률 하락만으로 후방 후보를 버리지 않는다. [새 계획](docs/REAR_BRANCH_PLAN_20261012.md)이 과거 승률 중심 미채택·중단 지침보다 우선한다. 이번 게시만 승인되었으며 이후 GitHub 자동 업로드는 금지한다.
 
 > **Latest geometry-conditioned PPO COMPLETE:** sessions85536/18437 exit0.1310720steps1410games264.28s;384new+384reused eval60.05s,total440.68s. Wins131→128/192 and149→142/192;noncircler rear candidates0/0. Reject/no extension.32stream schedule and768cells verified. Next audit prior annealing history; fixed6→5.5 already failed. No livejobs. Read docs/REAR_GEOMETRY_OPPONENTS_20261012.md. Goal incomplete,no upload.

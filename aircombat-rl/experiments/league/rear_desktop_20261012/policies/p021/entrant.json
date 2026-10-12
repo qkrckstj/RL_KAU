@@ -1,0 +1,6 @@
+{
+  "id": "sampled_s3301_t2097152_a4900",
+  "kind": "submission",
+  "design": "runs/league_residual_sampled_development_20261007/models/sampled_s3301_t2097152_a4900",
+  "weights": "runs/league_residual_sampled_development_20261007/models/sampled_s3301_t2097152_a4900/policy_net.zip"
+}

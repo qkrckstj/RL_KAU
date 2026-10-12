@@ -1,0 +1,6 @@
+{
+  "id": "intercept_s2500_g3_c6",
+  "kind": "submission",
+  "design": "runs/league_interception_train_20261006/s2500/g3/models/c6",
+  "weights": "runs/league_interception_train_20261006/s2500/g3/models/c6/policy_net.zip"
+}

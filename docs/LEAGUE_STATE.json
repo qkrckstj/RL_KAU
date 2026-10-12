@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T23:51:12.532871+00:00",
+  "updated_at": "2026-10-12T00:38:38.348068+00:00",
   "objective": "Preserve FairFight and user_terminal_health_round4_v2; preserve head-on CEM/PPO baseline while independently developing rear-entry, tracking and unilateral attack policies. Do not reject rear candidates solely for lower win rate.",
   "overall_objective_status": "active_health_v2_training_round",
   "completed_batch": "league_compact_rotated_assess_20261008",
@@ -7,75 +7,15 @@
   "evaluation_status": "legacy_verdict_results_not_valid_as_new_rule_ranking_until_rejudged",
   "method": "Assess development-retained extra-budget PPO7601 versus source7400,pureteacher and CEM; source aliases deduplicated.",
   "current_experiment": {
-    "status": "rear_lr_complete_not_adopted",
-    "run": "runs\\league_rear_lr_20261012",
-    "training_steps": 1310720,
-    "training_games": 1378,
-    "training_seconds": 263.9483557000058,
-    "evaluation_games": 384,
-    "reused_control_games": 384,
-    "evaluation_seconds": 60.15907930000685,
-    "total_seconds": 442.35921500000404,
-    "candidate_wins": [
-      136,
-      139
-    ],
-    "baseline_wins": [
-      131,
-      149
-    ],
-    "games_per_policy": 192,
-    "review": "no_consistent_transfer_do_not_extend_same_setting",
-    "policy_promoted": false,
-    "live_jobs": false,
-    "next": "Offline speed/actual-turn/range/first-hit diagnosis of existing80saved trajectories; zero heading command holds target, so do not infer lack of sustained turn from raw action switches. No new train yet; no auto-upload.",
-    "motion_diagnosis": {
-      "status": "80_saved_traces_motion_diagnosed",
-      "report": "docs/REAR_MOTION_DIAGNOSIS_20261012.md",
-      "training_steps": 0,
-      "new_games": 0,
-      "seconds": 0.3426245999871753,
-      "next": "Compare existing successful and failed training approaches by starting geometry before selecting another one-factor intervention."
-    },
-    "training_geometry_diagnosis": {
-      "report": "docs/REAR_TRAINING_GEOMETRY_20261012.md",
-      "completed_training_records": 1373,
-      "new_steps": 0,
-      "new_games": 0,
-      "next": "Fixed-parent paired starting-geometry check before geometry-conditioned opponent sampling."
-    },
-    "fixed_parent_geometry_screen": {
-      "status": "fixed_parent_geometry_screen_complete",
-      "run": "runs/league_rear_geometry_screen_20261012",
-      "training_steps": 0,
-      "evaluation_games": 96,
-      "evaluation_seconds": 15.066290099988692,
-      "total_seconds": 27.66875810001511,
-      "next": "Implement/test geometry-conditioned opponent schedule; unchanged rewards, quarter50, parents, 8 processes/32 envs; then smoke/main."
-    },
-    "geometry_opponent_experiment": {
-      "status": "complete_not_adopted",
-      "session": 85536,
-      "run": "runs/league_rear_geometry_20261012",
-      "next": "Audit prior annealing history before any new intervention; fixed6->5.5 already failed before/after imitation. No live job.",
-      "tests": "4 passed in9.83s",
-      "smoke": {
-        "status": "exit0",
-        "steps": 20480,
-        "games": 12,
-        "training_seconds": 4.005603199999314,
-        "total_seconds": 58.28604540001834
-      },
-      "review": "runs/league_rear_geometry_20261012/review.json",
-      "training_steps": 1310720,
-      "training_games": 1410,
-      "training_seconds": 264.2843633000157,
-      "evaluation_games": 384,
-      "reused_control_games": 384,
-      "evaluation_seconds": 60.0494883999927,
-      "total_seconds": 440.68344049999723,
-      "decision": "no_consistent_transfer_do_not_extend_same_setting"
-    }
+    "status": "budget_v2_plan_ready_not_launched",
+    "plan": "docs/REAR_BRANCH_PLAN_20261012.md",
+    "budget_spec": "docs/REAR_BRANCH_BUDGET_V2.json",
+    "review": "docs/REAR_BUDGET_REVIEW_20261012.md",
+    "parent": "geometry_s10101",
+    "next": "Implement separate long-continuation runner and rear-centric reviewer; then smoke/main. No old 655k or 2percent-win-loss gate.",
+    "additional_steps_per_repeat": 5242880,
+    "repeats": 2,
+    "live_job": null
   },
   "selected_policy": "intercept_s2500_g3_c6",
   "selected_before_final_test": true,
@@ -160,7 +100,7 @@
     "league_finish",
     "league_runner_confirm"
   ],
-  "runtime_note": "Old assessment17584/session95677 completed; mixed-pool benchmark87047 completed and selected16total/4ordinary. Refreshed smoke12562 passed40960steps raw audit. Current training PID17440/session86012 is a NEW process,not old assessment17440; verified live. Original control streams deliberately paired; original reservations preserved.",
+  "runtime_note": "No active training process observed during this planning review; prior PIDs and running entries are historical.",
   "remaining_work": [
     "Address active-roster size using a compact diverse/weakness set while preserving the205-model archive; do not modify frozen active settings in place.",
     "Track current process and saved checkpoints before any transition; no duplicate simulations.",
@@ -6107,6 +6047,80 @@
     "rear_branch": "develop_independently",
     "win_rate_only_rejection": false,
     "retained_development_candidate": "league_rear_geometry_20261012_geometry_s10101",
-    "generalization_proven": false
-  }
+    "generalization_proven": false,
+    "budget_spec": "docs/REAR_BRANCH_BUDGET_V2.json"
+  },
+  "prior_experiment_before_budget_v2": {
+    "status": "rear_lr_complete_not_adopted",
+    "run": "runs\\league_rear_lr_20261012",
+    "training_steps": 1310720,
+    "training_games": 1378,
+    "training_seconds": 263.9483557000058,
+    "evaluation_games": 384,
+    "reused_control_games": 384,
+    "evaluation_seconds": 60.15907930000685,
+    "total_seconds": 442.35921500000404,
+    "candidate_wins": [
+      136,
+      139
+    ],
+    "baseline_wins": [
+      131,
+      149
+    ],
+    "games_per_policy": 192,
+    "review": "no_consistent_transfer_do_not_extend_same_setting",
+    "policy_promoted": false,
+    "live_jobs": false,
+    "next": "Offline speed/actual-turn/range/first-hit diagnosis of existing80saved trajectories; zero heading command holds target, so do not infer lack of sustained turn from raw action switches. No new train yet; no auto-upload.",
+    "motion_diagnosis": {
+      "status": "80_saved_traces_motion_diagnosed",
+      "report": "docs/REAR_MOTION_DIAGNOSIS_20261012.md",
+      "training_steps": 0,
+      "new_games": 0,
+      "seconds": 0.3426245999871753,
+      "next": "Compare existing successful and failed training approaches by starting geometry before selecting another one-factor intervention."
+    },
+    "training_geometry_diagnosis": {
+      "report": "docs/REAR_TRAINING_GEOMETRY_20261012.md",
+      "completed_training_records": 1373,
+      "new_steps": 0,
+      "new_games": 0,
+      "next": "Fixed-parent paired starting-geometry check before geometry-conditioned opponent sampling."
+    },
+    "fixed_parent_geometry_screen": {
+      "status": "fixed_parent_geometry_screen_complete",
+      "run": "runs/league_rear_geometry_screen_20261012",
+      "training_steps": 0,
+      "evaluation_games": 96,
+      "evaluation_seconds": 15.066290099988692,
+      "total_seconds": 27.66875810001511,
+      "next": "Implement/test geometry-conditioned opponent schedule; unchanged rewards, quarter50, parents, 8 processes/32 envs; then smoke/main."
+    },
+    "geometry_opponent_experiment": {
+      "status": "complete_not_adopted",
+      "session": 85536,
+      "run": "runs/league_rear_geometry_20261012",
+      "next": "Audit prior annealing history before any new intervention; fixed6->5.5 already failed before/after imitation. No live job.",
+      "tests": "4 passed in9.83s",
+      "smoke": {
+        "status": "exit0",
+        "steps": 20480,
+        "games": 12,
+        "training_seconds": 4.005603199999314,
+        "total_seconds": 58.28604540001834
+      },
+      "review": "runs/league_rear_geometry_20261012/review.json",
+      "training_steps": 1310720,
+      "training_games": 1410,
+      "training_seconds": 264.2843633000157,
+      "evaluation_games": 384,
+      "reused_control_games": 384,
+      "evaluation_seconds": 60.0494883999927,
+      "total_seconds": 440.68344049999723,
+      "decision": "no_consistent_transfer_do_not_extend_same_setting"
+    }
+  },
+  "desktop_handoff": "docs/DESKTOP_REAR_HANDOFF_20261012.md",
+  "async_training_evaluation_status": "specification_only_not_implemented"
 }

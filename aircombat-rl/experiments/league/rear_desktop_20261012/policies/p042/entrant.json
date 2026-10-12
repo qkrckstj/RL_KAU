@@ -1,0 +1,6 @@
+{
+  "id": "portfolio_s6400_g0_c2_a0",
+  "kind": "submission",
+  "design": "runs/league_portfolio_train_20261007/s6400/g00/c02/action_0",
+  "weights": "runs/league_portfolio_train_20261007/s6400/g00/c02/action_0/policy_net.zip"
+}

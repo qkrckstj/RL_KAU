@@ -1,0 +1,6 @@
+{
+  "id": "league_temporal_repair_20261007_2ca01b55b31e",
+  "kind": "submission",
+  "design": "runs/league_temporal_repair_20261007/models/2ca01b55b31ecda5dbe0",
+  "weights": "runs/league_temporal_repair_20261007/models/2ca01b55b31ecda5dbe0/policy_net.zip"
+}

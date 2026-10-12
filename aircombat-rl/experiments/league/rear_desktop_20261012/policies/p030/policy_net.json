@@ -1,0 +1,13 @@
+{
+  "action_seed": 4900,
+  "temperature": 1.0,
+  "source": {
+    "id": "league_residual_continuation_20261007_s3300_t2097152",
+    "kind": "submission",
+    "design": "runs/league_residual_continuation_20261007/s3300/checkpoints/step_2097152/submission",
+    "weights": "runs/league_residual_continuation_20261007/s3300/checkpoints/step_2097152/submission/policy_net.zip"
+  },
+  "source_weights_sha256": "1f7c606541cdc33276a9df4a405a97450e6923615c039334b741aa3f7e37f9d6",
+  "rng_protocol": "Independent NumPy generator seeded by fixed replicate seed and39 public float32 first-frame words; reset per episode. No global RNG consumption or private environment input.",
+  "scope": "Execution-mode diagnostic only; original teacher and learned actor arrays unchanged."
+}

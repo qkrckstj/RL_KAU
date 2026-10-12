@@ -1,0 +1,6 @@
+{
+  "id": "league_separated_probe_20261007_parent_0",
+  "kind": "submission",
+  "design": "runs/league_separated_probe_20261007/models/parent_0",
+  "weights": "runs/league_separated_probe_20261007/models/parent_0/policy_net.zip"
+}

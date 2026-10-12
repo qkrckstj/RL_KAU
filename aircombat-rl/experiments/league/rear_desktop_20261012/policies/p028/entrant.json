@@ -1,0 +1,6 @@
+{
+  "id": "league_residual_continuation_20261007_s3300_t4194304",
+  "kind": "submission",
+  "design": "runs/league_residual_continuation_20261007/s3300/checkpoints/step_4194304/submission",
+  "weights": "runs/league_residual_continuation_20261007/s3300/checkpoints/step_4194304/submission/policy_net.zip"
+}

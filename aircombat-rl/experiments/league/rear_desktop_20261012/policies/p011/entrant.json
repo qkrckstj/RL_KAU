@@ -1,0 +1,6 @@
+{
+  "id": "episode_mix_sampled_4901",
+  "kind": "submission",
+  "design": "experiments/league/episode_mixture_20261008/sampled_4901",
+  "weights": "experiments/league/episode_mixture_20261008/sampled_4901/policy_net.zip"
+}

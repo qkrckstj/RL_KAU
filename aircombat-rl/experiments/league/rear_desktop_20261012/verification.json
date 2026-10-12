@@ -1,0 +1,7 @@
+{
+  "status": "portable_nonbot_actions_match_originals",
+  "checked_actions": 1260,
+  "roster_training": 48,
+  "roster_development": 24,
+  "scope": "20 fixed public observations per non-bot roster entry, not full matches or training; bots use unchanged repository classes."
+}

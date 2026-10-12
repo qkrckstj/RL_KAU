@@ -1,0 +1,6 @@
+{
+  "mode": "brake_pursuit",
+  "side": 1,
+  "period": 9.0,
+  "speed": 600.0
+}

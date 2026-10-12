@@ -1,0 +1,6 @@
+{
+  "id": "control_s7600_t1310720_a4900",
+  "kind": "submission",
+  "design": "runs/league_rate_budget_train_20261008/control/s7600/checkpoints/step_1310720/sampled_4900",
+  "weights": "runs/league_rate_budget_train_20261008/control/s7600/checkpoints/step_1310720/sampled_4900/policy_net.zip"
+}

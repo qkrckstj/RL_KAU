@@ -1,0 +1,6 @@
+{
+  "id": "extend_cem_s6800_g3_c9",
+  "kind": "submission",
+  "design": "runs/league_extend_parameter_train_20261007/s6800/g03/c09/policy",
+  "weights": "runs/league_extend_parameter_train_20261007/s6800/g03/c09/policy/policy_net.zip"
+}

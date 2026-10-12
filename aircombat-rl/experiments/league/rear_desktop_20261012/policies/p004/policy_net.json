@@ -1,0 +1,13 @@
+{
+  "action_seed": 4900,
+  "temperature": 1.0,
+  "source": {
+    "id": "control_s7601_t1310720",
+    "kind": "submission",
+    "design": "runs/league_rate_budget_train_20261008/control/s7601/checkpoints/step_1310720/submission",
+    "weights": "runs/league_rate_budget_train_20261008/control/s7601/checkpoints/step_1310720/submission/policy_net.zip"
+  },
+  "source_weights_sha256": "ee27745addeb4eebdc193af396809dd12799d091fa8607f334fae22553af38b9",
+  "rng_protocol": "Independent NumPy generator seeded by fixed replicate seed and39 public float32 first-frame words; reset per episode. No global RNG consumption or private environment input.",
+  "scope": "Execution-mode diagnostic only; original teacher and learned actor arrays unchanged."
+}

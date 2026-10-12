@@ -1,0 +1,6 @@
+{
+  "id": "league_pursuit_context_train_20261007_5a5ecfbeabd6",
+  "kind": "submission",
+  "design": "runs/league_pursuit_context_train_20261007/models/5a5ecfbeabd619275b3d",
+  "weights": "runs/league_pursuit_context_train_20261007/models/5a5ecfbeabd619275b3d/policy_net.zip"
+}

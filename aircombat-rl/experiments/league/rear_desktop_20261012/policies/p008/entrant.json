@@ -1,0 +1,6 @@
+{
+  "id": "league_contextual_speed_pilot_20261007_c1",
+  "kind": "submission",
+  "design": "runs/league_contextual_speed_pilot_20261007/models/c1",
+  "weights": "runs/league_contextual_speed_pilot_20261007/models/c1/policy_net.zip"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "switching_turn_strong",
+  "kind": "submission",
+  "design": "experiments/league/switching_audit_20261008/turn_strong",
+  "weights": "experiments/league/switching_audit_20261008/turn_strong/policy_net.zip"
+}

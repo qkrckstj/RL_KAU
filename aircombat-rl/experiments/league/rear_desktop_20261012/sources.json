@@ -1,0 +1,222 @@
+{
+  "p000": {
+    "original_design": "experiments/league/unseen_temporal_repair_20261007/temporal_extend_right",
+    "original_weights": "experiments/league/unseen_temporal_repair_20261007/temporal_extend_right/policy_net.zip",
+    "sha256": "a244ecde359ca26cdfcb9c5375effd9a2006e33684bcd904baee20711ea7eb92"
+  },
+  "p001": {
+    "original_design": "runs/league_interception_train_20261006/s2500/g3/models/c6",
+    "original_weights": "runs/league_interception_train_20261006/s2500/g3/models/c6/policy_net.zip",
+    "sha256": "ada951b9b9508e59d9a8529385050a6b4aecad1fbec228d8c85beb0542cbdfbd"
+  },
+  "p002": {
+    "original_design": "runs/league_extend_parameter_train_20261007/s6800/g03/c09/policy",
+    "original_weights": "runs/league_extend_parameter_train_20261007/s6800/g03/c09/policy/policy_net.zip",
+    "sha256": "008e05830392792e7fc68937cc4660e6e85bd28af9c6db795da03ed8dd372baa"
+  },
+  "p003": {
+    "original_design": "runs/league_rate_ppo_train_20261008/control/s7400/checkpoints/step_2621440/sampled_4900",
+    "original_weights": "runs/league_rate_ppo_train_20261008/control/s7400/checkpoints/step_2621440/sampled_4900/policy_net.zip",
+    "sha256": "38248261aa58faa37614865d1ef24550ce2a71036763b834558a20990e09b26f"
+  },
+  "p004": {
+    "original_design": "runs/league_rate_budget_train_20261008/control/s7601/checkpoints/step_1310720/sampled_4900",
+    "original_weights": "runs/league_rate_budget_train_20261008/control/s7601/checkpoints/step_1310720/sampled_4900/policy_net.zip",
+    "sha256": "b68fc84fd6c1da8078de0312e065e574bb9dbde193dcc4b190884a04ad076640"
+  },
+  "p005": {
+    "original_design": "experiments/league/unseen_temporal_repair_20261007/temporal_extend_left",
+    "original_weights": "experiments/league/unseen_temporal_repair_20261007/temporal_extend_left/policy_net.zip",
+    "sha256": "61ec0dfef0ad98cf9207ef4f192ed3e667cc0ad889c6bea2842d38a314aeb27a"
+  },
+  "p006": {
+    "original_design": "experiments/league/unseen_temporal_repair_20261007/temporal_delayed_left",
+    "original_weights": "experiments/league/unseen_temporal_repair_20261007/temporal_delayed_left/policy_net.zip",
+    "sha256": "822cafaeb7cba0f617141a0d3802b26055a9a2e5c4e71a3d8cd948113edcd0cd"
+  },
+  "p007": {
+    "original_design": "runs/league_contextual_speed_pilot_20261007/models/c0",
+    "original_weights": "runs/league_contextual_speed_pilot_20261007/models/c0/policy_net.zip",
+    "sha256": "75b96f64476cd9a1444a6cad359bf4346533b3b1ab8bfa37b4051dfcc8ef4eae"
+  },
+  "p008": {
+    "original_design": "runs/league_contextual_speed_pilot_20261007/models/c1",
+    "original_weights": "runs/league_contextual_speed_pilot_20261007/models/c1/policy_net.zip",
+    "sha256": "64cf1d0da62c9202414388201d509e246c8ffc049da020fe0b1da653c7803338"
+  },
+  "p009": {
+    "original_design": "runs/league_residual_continuation_20261007/s3301/checkpoints/step_2097152/submission",
+    "original_weights": "runs/league_residual_continuation_20261007/s3301/checkpoints/step_2097152/submission/policy_net.zip",
+    "sha256": "834d2a4238d6b99d56b973fb739c71db16030a4b2684c066a5464be13f8b3edb"
+  },
+  "p010": {
+    "original_design": "runs/league_pursuit_context_train_20261007/models/346fd40609992eaf4b94",
+    "original_weights": "runs/league_pursuit_context_train_20261007/models/346fd40609992eaf4b94/policy_net.zip",
+    "sha256": "e58f5c65f91394b7dfbe8b5bdc3c219885491d440ba95ba1e5817798a28e29e9"
+  },
+  "p011": {
+    "original_design": "experiments/league/episode_mixture_20261008/sampled_4901",
+    "original_weights": "experiments/league/episode_mixture_20261008/sampled_4901/policy_net.zip",
+    "sha256": "cd5a34908f95cc20ebd8eb3e37392ac6ce97791f922986647772f76b6b635c94"
+  },
+  "p012": {
+    "original_design": "runs/plan_a_20261005/double/ddqn/s0",
+    "original_weights": "runs/plan_a_20261005/double/ddqn/s0/policy_net.zip",
+    "sha256": "a7d075694b582de9920fe6b7b7e3603cecc69de64cc0badef0b412871f587a2e"
+  },
+  "p013": {
+    "original_design": "runs/league_symmetric_20261006/s2400/g0/models/c1",
+    "original_weights": "runs/league_symmetric_20261006/s2400/g0/models/c1/policy_net.zip",
+    "sha256": "9987331a3d1ed23fbbdcf8864ebe36ebe96cbc238d33107927df8544d9d7bbf5"
+  },
+  "p014": {
+    "original_design": "runs/league_temporal_repair_20261007/models/2ca01b55b31ecda5dbe0",
+    "original_weights": "runs/league_temporal_repair_20261007/models/2ca01b55b31ecda5dbe0/policy_net.zip",
+    "sha256": "b93272dc65f0690103722c8e13de348bdeeff925f2f21a2ccfbc5381df157df5"
+  },
+  "p015": {
+    "original_design": "runs/league_history_config_matched_20261007/history/s6000/checkpoints/step_1048576/sampled_4900",
+    "original_weights": "runs/league_history_config_matched_20261007/history/s6000/checkpoints/step_1048576/sampled_4900/policy_net.zip",
+    "sha256": "1c2ce896b559d9a6fe57a5aadc8a57a8497018527a462d6b916d04e8815a0cd8"
+  },
+  "p016": {
+    "original_design": "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_left",
+    "original_weights": "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_left/policy_net.zip",
+    "sha256": "cf9a88c7eaf644243adbeb933833028ea9735b927c5783d0dc521b281e8a87c2"
+  },
+  "p017": {
+    "original_design": "runs/league_adaptive_20261006/s2302/g1/models/c9",
+    "original_weights": "runs/league_adaptive_20261006/s2302/g1/models/c9/policy_net.zip",
+    "sha256": "be11b5346c7b9c5fa297d394226048406f12aee965e114381ea33405ecb1a586"
+  },
+  "p018": {
+    "original_design": "runs/league_portfolio_train_20261007/s6400/g00/c02/action_1",
+    "original_weights": "runs/league_portfolio_train_20261007/s6400/g00/c02/action_1/policy_net.zip",
+    "sha256": "898dff06840500e379e1e736ff0d598c489ad7300503c754a056e39e0ea37d0b"
+  },
+  "p019": {
+    "original_design": "runs/league_risk_break_train_20261008/s7200/g01/c09/policy",
+    "original_weights": "runs/league_risk_break_train_20261008/s7200/g01/c09/policy/policy_net.zip",
+    "sha256": "dacac0d2ee565583852ca05d5f4bcba59b61b0071c8fa33644a4fe854f2fbe35"
+  },
+  "p020": {
+    "original_design": "runs/league_hold_train_20261007/hold5/s6500/checkpoints/step_262144/sampled_4901",
+    "original_weights": "runs/league_hold_train_20261007/hold5/s6500/checkpoints/step_262144/sampled_4901/policy_net.zip",
+    "sha256": "31e52720b36d35dcf3101509874fb83dc544aa7e8ab94936e260dd67cd8eb975"
+  },
+  "p021": {
+    "original_design": "runs/league_residual_sampled_development_20261007/models/sampled_s3301_t2097152_a4900",
+    "original_weights": "runs/league_residual_sampled_development_20261007/models/sampled_s3301_t2097152_a4900/policy_net.zip",
+    "sha256": "a486e4a575170c7258a390e9ceaf35087af0b1a04dbeeb5b75ff6151ab9fcbb2"
+  },
+  "p022": {
+    "original_design": "experiments/league/switching_audit_20261008/threat_close",
+    "original_weights": "experiments/league/switching_audit_20261008/threat_close/policy_net.zip",
+    "sha256": "8d032e533aa2ae2f88b28ab7e22e2defc0680ce9fae455f2a2f978503ae18278"
+  },
+  "p023": {
+    "original_design": "experiments/league/rate_untrained_parameters_20261008/variant_02",
+    "original_weights": "experiments/league/rate_untrained_parameters_20261008/variant_02/policy_net.zip",
+    "sha256": "6e66960ed94cd2a3e34a65491e1f340803c5643a796c7eb4c0471423b86e63da"
+  },
+  "p024": {
+    "original_design": "experiments/league/reactive_audit_20261007/reactive_range_escape_right",
+    "original_weights": "experiments/league/reactive_audit_20261007/reactive_range_escape_right/policy_net.zip",
+    "sha256": "99e09ee89fb317e9509edc3371acf1283d19d150ca34cac3e7df3eb8491aaffa"
+  },
+  "p025": {
+    "original_design": "experiments/league/switching_audit_20261008/turn_strong",
+    "original_weights": "experiments/league/switching_audit_20261008/turn_strong/policy_net.zip",
+    "sha256": "9037be38ae285d32c95b513c5e37a66ca5ecd5f6a45336c10ff6f9d42004ae10"
+  },
+  "p026": {
+    "original_design": "experiments/league/episode_mixture_20261008/sampled_4900",
+    "original_weights": "experiments/league/episode_mixture_20261008/sampled_4900/policy_net.zip",
+    "sha256": "3ec368ccce5b51620dde3c45249b28fe884b8dde04647874c10d2fe516425b39"
+  },
+  "p027": {
+    "original_design": "runs/league_maneuver_parallel_20261006/models/545956914cb907da36c0",
+    "original_weights": "runs/league_maneuver_parallel_20261006/models/545956914cb907da36c0/policy_net.zip",
+    "sha256": "d65277c60baf2b015bf52ce19c05eba51039cb8b9fd6c5894b0b1e4aa9bfdc54"
+  },
+  "p028": {
+    "original_design": "runs/league_residual_continuation_20261007/s3300/checkpoints/step_4194304/submission",
+    "original_weights": "runs/league_residual_continuation_20261007/s3300/checkpoints/step_4194304/submission/policy_net.zip",
+    "sha256": "ebe532e663175df22e595d71494f092da235f0f41ebf02f3cb51145823182bdb"
+  },
+  "p029": {
+    "original_design": "runs/league_temporal_repair_20261007/models/6607864eceb41c2c6c0b",
+    "original_weights": "runs/league_temporal_repair_20261007/models/6607864eceb41c2c6c0b/policy_net.zip",
+    "sha256": "7b93884ed79ea26ab154ea09fbafecb4f7bd7724a12f46ce6b97d1980deadac3"
+  },
+  "p030": {
+    "original_design": "runs/league_residual_sampled_development_20261007/models/sampled_s3300_t2097152_a4900",
+    "original_weights": "runs/league_residual_sampled_development_20261007/models/sampled_s3300_t2097152_a4900/policy_net.zip",
+    "sha256": "556756c01d23801ce8352fb3853dc96edb66658826547c07d01b39983130f946"
+  },
+  "p031": {
+    "original_design": "runs/league_hold_train_20261007/hold5/s6501/checkpoints/step_262144/sampled_4900",
+    "original_weights": "runs/league_hold_train_20261007/hold5/s6501/checkpoints/step_262144/sampled_4900/policy_net.zip",
+    "sha256": "a979f5df6ef466df6917d7d86351fb3a0db021a9b749ec88ce42d9da3334b344"
+  },
+  "p032": {
+    "original_design": "runs/league_pursuit_context_train_20261007/models/5a5ecfbeabd619275b3d",
+    "original_weights": "runs/league_pursuit_context_train_20261007/models/5a5ecfbeabd619275b3d/policy_net.zip",
+    "sha256": "1f97d991011ebcc8d9448eefd3a346cba225b9b652ff139355223dad6c280ed8"
+  },
+  "p033": {
+    "original_design": "runs/league_portfolio_train_20261007/s6401/g02/c02/action_0",
+    "original_weights": "runs/league_portfolio_train_20261007/s6401/g02/c02/action_0/policy_net.zip",
+    "sha256": "738cdc4df9a72ef3f37ae476008ee820e9d18704f3f16f0437111be4c3f012e3"
+  },
+  "p034": {
+    "original_design": "runs/plan_a_20261005/double/ddqn/s1",
+    "original_weights": "runs/plan_a_20261005/double/ddqn/s1/checkpoints/step_1024000/policy_net.zip",
+    "sha256": "92fa9ba4c0fbf28352f38fab237e2c75dbab5cf19a2367c1ffa13ecf2d0faa85"
+  },
+  "p035": {
+    "original_design": "experiments/league/rate_untrained_parameters_20261008/variant_04",
+    "original_weights": "experiments/league/rate_untrained_parameters_20261008/variant_04/policy_net.zip",
+    "sha256": "4ba4ce93a27b7d853b633798b15fa40c8fd1ccda27cf73a13f8c8b17425ca2cc"
+  },
+  "p036": {
+    "original_design": "runs/league_rate_budget_train_20261008/control/s7600/checkpoints/step_1310720/sampled_4900",
+    "original_weights": "runs/league_rate_budget_train_20261008/control/s7600/checkpoints/step_1310720/sampled_4900/policy_net.zip",
+    "sha256": "684314e1aed6d58c35bde6db60bee9b4d169a5e92aa1ce998859bfe46312cfa1"
+  },
+  "p037": {
+    "original_design": "experiments/league/switching_audit_20261008/range_wide",
+    "original_weights": "experiments/league/switching_audit_20261008/range_wide/policy_net.zip",
+    "sha256": "036ba4ef3ca64cd1d6c7d1ef72a90dab0b5172708bbd23d788f210c42d86776f"
+  },
+  "p038": {
+    "original_design": "experiments/league/rate_untrained_parameters_20261008/variant_01",
+    "original_weights": "experiments/league/rate_untrained_parameters_20261008/variant_01/policy_net.zip",
+    "sha256": "aade29d365f324219a5dfa77e90e89ea9f6af88f3aa69aa0f22f59836ea91f48"
+  },
+  "p039": {
+    "original_design": "runs/league_hold_train_20261007/hold5/s6500/checkpoints/step_262144/sampled_4900",
+    "original_weights": "runs/league_hold_train_20261007/hold5/s6500/checkpoints/step_262144/sampled_4900/policy_net.zip",
+    "sha256": "ab32d2bdfcf5997ce85fb44654f67f63163e6f42e84192fa664881ba6206ecff"
+  },
+  "p040": {
+    "original_design": "runs/league_residual_continuation_20261007/s3300/checkpoints/step_2097152/submission",
+    "original_weights": "runs/league_residual_continuation_20261007/s3300/checkpoints/step_2097152/submission/policy_net.zip",
+    "sha256": "1f7c606541cdc33276a9df4a405a97450e6923615c039334b741aa3f7e37f9d6"
+  },
+  "p041": {
+    "original_design": "runs/league_separated_probe_20261007/models/parent_0",
+    "original_weights": "runs/league_separated_probe_20261007/models/parent_0/policy_net.zip",
+    "sha256": "f6fbc9eafad506f4aa03474d9ed7bb394e3f88a30b2404567b7937207ca453de"
+  },
+  "p042": {
+    "original_design": "runs/league_portfolio_train_20261007/s6400/g00/c02/action_0",
+    "original_weights": "runs/league_portfolio_train_20261007/s6400/g00/c02/action_0/policy_net.zip",
+    "sha256": "898dff06840500e379e1e736ff0d598c489ad7300503c754a056e39e0ea37d0b"
+  },
+  "p043": {
+    "original_design": "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_right",
+    "original_weights": "experiments/league/reactive_audit_20261007/reactive_brake_pursuit_right/policy_net.zip",
+    "sha256": "51324bec4eed0e2fb37a49ae83897710b6547151507751977dedad6a1b878af9"
+  }
+}
