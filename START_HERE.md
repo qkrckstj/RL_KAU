@@ -1,3 +1,9 @@
+# Latest: CPU rear learning and independent evaluation —2026-10-12
+
+Live CPUtrainer605509/evaluator605510;8processes/32environments selectedbytwo-pass measurements(10599steps/s,2/4/16=4583/7605/10231). Mainrun:aircombat-rl/runs/rear_cpu_main_20261012. Additional5242880steps/repeat,twoRNGs,conditionalmaximum10485760. Save655360/monitor1310720;models and~1pppositivegainsretained,no2ppdiscardgate. Latest observedseed42100,steps781184;notafinalresult. Currentreport:aircombat-rl/runs/rear_cpu_main_20261012/SUMMARY.md.
+
+GPUexperimentended;no newCUDAJSBSimlearning. Originalmodelsandpriorworktreepreserved. Docs:docs/REAR_CPU_ASYNC_20261012.md. NewrunsbackendoriginalnativeCPUJSBSim;publishedWindowsrear/durationexactnessdidnotpass onLinux,so newlocalbaselinesareused. GoalcontinueswithlatestuserCPUinstructions;noautomaticGitHubupload.
+
 > **데스크톱 최신 인계 (2026-10-12):** [장기 학습 + 비동기 평가/코드 검토 구조](docs/DESKTOP_REAR_HANDOFF_20261012.md)를 먼저 읽는다. 출발 모델·48종 훈련 상대·24종 개발 상대를 포함했다. 새 장기 실행기와 분리 구조는 구현할 사양이며 아직 구현/본 실행 전이다. 과거 running/PID 기록을 현재 상태로 해석하지 않는다. 이번 업로드만 승인되었으며 자동 업로드는 금지한다.
 
 > **최신 예산 지시 (2026-10-12):** [후방계보 v2](docs/REAR_BRANCH_PLAN_20261012.md): geometry_s10101에서 같은설정으로 반복당 추가5,242,880단계·새난수2회.655,360마다저장/1,310,720마다평가.최소예산전 승률정체로전략변경금지,기존완료상대강조일정재시작금지.구review승률2%게이트는새실행에사용하지않는다.계획만갱신했으며새학습없음/GitHub게시없음.

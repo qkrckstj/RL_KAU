@@ -19,7 +19,7 @@ dependencies = [
 # the same boundary the package enforces in code: the environment does not
 # import a learning library, so someone who only wants to fly it does not pay
 # for torch.
-train = ["stable-baselines3", "torch"]
+train = ["stable-baselines3", "torch", "psutil"]
 dev = ["pytest"]
 
 [build-system]
