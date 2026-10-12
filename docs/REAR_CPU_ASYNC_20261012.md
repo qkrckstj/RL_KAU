@@ -1,3 +1,5 @@
+> Current run: `aircombat-rl/runs/rear_cpu_entropy003_20261012/PROGRESS.md`. CPU controls and entropy0.01 maximum cycles are complete and preserved. The new continuation starts from rear specialist s42201 maximum with entropy0.003, fresh RNGs42300/42301 and bands1840400000/1850400000. Actor, critic, Adam and counter restored exactly;896 selected-parent games reused. Other learning/evaluation settings remain fixed. Wins and rear skill are compared separately; no frontline promotion/publication.
+
 # Continuous CPU rear learning and independent evaluation
 
 The remote update at commit `1c397248b3e398de32bc8e50e1ff84a4cbc29ff2` was inspected in `.worktrees/rear-async`. The current handoff, rear budget v2, portable parent and opponent bundles, automated tactics strategy, reward code, curriculum code, and reference runners were reviewed. The previous CUDA worktree and models remain intact. Remote main removed its old GPU prototype directory, so it was not merged over the CUDA worktree.

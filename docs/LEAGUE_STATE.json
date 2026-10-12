@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T02:46:33.128361+00:00",
+  "updated_at": "2026-10-12T04:03:10.932695+00:00",
   "objective": "Preserve FairFight and user_terminal_health_round4_v2; preserve head-on CEM/PPO baseline while independently developing rear-entry, tracking and unilateral attack policies. Do not reject rear candidates solely for lower win rate.",
   "overall_objective_status": "active_health_v2_training_round",
   "completed_batch": "league_compact_rotated_assess_20261008",
@@ -5111,7 +5111,7 @@
     "completion_verified": true,
     "native_exit_code_retained": false
   },
-  "current_report": "docs/HISTORY_PPO_20261007.md",
+  "current_report": "aircombat-rl/runs/rear_cpu_entropy003_20261012/PROGRESS.md",
   "last_completed_experiment": {
     "name": "matched_sampled_ppo_strategy_pilots",
     "run_folder": "aircombat-rl/runs/league_sampled_strategy_20261007",
@@ -5631,7 +5631,7 @@
     "completed_experiment": false
   },
   "compact_roster_report": "docs/COMPACT_LEAGUE_20261008.md",
-  "next_action": "Monitor actual curriculum run, then validate new raw FairFight evaluation and compare each repeat against parent tail_s9100/9101 under matched budgets. Rear-start training success is not FairFight success. Adapt stage/reward based on transfer. No GitHub upload.",
+  "next_action": "Monitor existing trainer/evaluator; do not duplicate. At minimum inspect fixed whole-panel AND per-opponent rear skill trends. Reuse existing cells. If local-skill extension is needed after terminal minimum, use archived-metrics resume preparation. No unchanged extension above10,485,760; preserve all candidates; no publication.",
   "completed_compact_training": {
     "name": "compact48_opponent_ppo",
     "run_folder": "aircombat-rl/runs/league_compact_ppo_train_20261008",
@@ -6122,18 +6122,56 @@
     }
   },
   "desktop_handoff": "docs/DESKTOP_REAR_HANDOFF_20261012.md",
-  "async_training_evaluation_status": "specification_only_not_implemented",
+  "async_training_evaluation_status": "implemented_native_cpu_independent_evaluator",
   "cpu_rear_goal_automation": {
-    "updated_at": "2026-10-12T02:46:33.128361+00:00",
-    "status": "running",
+    "updated_at": "2026-10-12T04:03:10.932695+00:00",
+    "status": "bounded_entropy003_running",
+    "goal_status": "active",
+    "run": "runs/rear_cpu_entropy003_20261012",
+    "previous_completed_run": "runs/rear_cpu_entropy01_20261012",
+    "backend": "original_cpu_jsbsim",
+    "processes": {
+      "trainer": 612684,
+      "evaluator": 612685
+    },
+    "reporter_pid": 612701,
+    "workers": 8,
+    "environments": 32,
+    "intervention": {
+      "factor": "ppo.ent_coef",
+      "old": 0.01,
+      "new": 0.003
+    },
+    "minimum_steps_per_repeat": 5242880,
+    "maximum_steps_per_repeat": 10485760,
+    "seeds": [
+      42300,
+      42301
+    ],
+    "training_bands": [
+      1840400000,
+      1850400000
+    ],
+    "parent_checkpoint": "s42201_step_010485760",
+    "parent_prefix_steps": 11141120,
+    "parent_selected_for": "Highest substantial clean rear wins and mean rear damage on fixed development panel; not highest win rate",
+    "parent_win_rate": 0.51171875,
+    "preserved_original_geometry_win_rate": 0.69921875,
+    "preserved_best_cpu_win_rate": 0.73828125,
+    "reused_parent_evaluation_games": 896,
+    "candidate_retention": "All checkpoints including small positive gains and rear specialists, independent of overall win regression",
+    "evaluation": "independent low-priority original CPU process; fixed monitor128/development768",
+    "live_report": "runs/rear_cpu_entropy003_20261012/PROGRESS.md",
+    "next_action": "Monitor existing trainer/evaluator; do not duplicate. At minimum inspect fixed whole-panel AND per-opponent rear skill trends. Reuse existing cells. If local-skill extension is needed after terminal minimum, use archived-metrics resume preparation. No unchanged extension above10,485,760; preserve all candidates; no publication."
+  },
+  "previous_cpu_rear_goal_automation": {
+    "updated_at": "2026-10-12T03:59:36.315644+00:00",
+    "status": "maximum_budget_complete",
     "goal_status": "active",
     "run": "runs/rear_cpu_entropy01_20261012",
     "previous_completed_run": "runs/rear_cpu_main_20261012",
     "backend": "original_cpu_jsbsim",
-    "processes": {
-      "trainer": 607770,
-      "evaluator": 607771
-    },
+    "processes": {},
     "workers": 8,
     "environments": 32,
     "intervention": {
@@ -6150,8 +6188,44 @@
     "evaluation": "independent low-priority native CPU process; fixed monitor and development conditions",
     "reused_parent_evaluation_games": 896,
     "candidate_retention": "All checkpoints; preserve small win gains and rear skill candidates independently.",
-    "next_action": "Monitor existing processes; at minimum use three recent rear monitor points plus broader development panel for bounded extension; compare to the preserved entropy-zero controls. Do not duplicate, edit frozen code, or automatically publish.",
-    "reporter_pid": 608341,
-    "live_report": "runs/rear_cpu_entropy01_20261012/PROGRESS.md"
+    "next_action": "Restore highest substantial-rear-skill checkpoint, reduce entropy to0.003, preserve stronger win candidates",
+    "reporter_pid": null,
+    "live_report": "runs/rear_cpu_entropy01_20261012/PROGRESS.md",
+    "diagnostic_games": 2,
+    "latest_rear_skill_evidence": {
+      "seed": 42200,
+      "development_games": 768,
+      "clean_rear_wins_parent": 33,
+      "clean_rear_wins_candidate": 71,
+      "new_rear_cells": 69,
+      "lost_rear_cells": 31,
+      "new_opponents": [
+        "cem_original",
+        "ddqn_s1",
+        "fixed_left",
+        "round_00"
+      ],
+      "win_rate_parent": 0.69921875,
+      "win_rate_candidate": 0.6796875
+    },
+    "updated_at_unix": 1791774452.648307,
+    "minimum_cycle_report": "runs/rear_cpu_entropy01_20261012/MINIMUM_CYCLE_REVIEW.md",
+    "minimum_cycle_summary": {
+      "additional_training_steps": 10485760,
+      "new_evaluation_games": 2560,
+      "reused_parent_games": 896,
+      "elapsed_seconds": 1989.5609526634216,
+      "development_win_rates": [
+        0.6796875,
+        0.7213541666666666
+      ],
+      "development_clean_rear_wins": [
+        71,
+        67
+      ],
+      "parent_win_rate": 0.69921875,
+      "parent_clean_rear_wins": 33
+    },
+    "maximum_cycle_report": "runs/rear_cpu_entropy01_20261012/MAXIMUM_CYCLE_REVIEW.md"
   }
 }
