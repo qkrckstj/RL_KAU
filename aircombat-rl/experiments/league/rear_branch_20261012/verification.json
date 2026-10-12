@@ -1,0 +1,23 @@
+{
+  "status": "two_exact_wins_and_learner_load_verified",
+  "exact_replay_fields": [
+    "own_health",
+    "opp_health",
+    "duration",
+    "round4_win",
+    "actual_rear_damage"
+  ],
+  "learners": {
+    "retained_ppo": {
+      "policy_class": "experiments.league.residual_ppo_policy.ResidualPriorPolicy",
+      "optimizer_state_entries": 12,
+      "prior_bias": 6.0
+    },
+    "rear_candidate": {
+      "policy_class": "experiments.league.residual_ppo_policy.ResidualPriorPolicy",
+      "optimizer_state_entries": 12,
+      "prior_bias": 6.0
+    }
+  },
+  "scope": "Verified locally using copied inference bundles and learner snapshots; not a fresh-machine full48opponent training restoration test."
+}

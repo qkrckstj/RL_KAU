@@ -1,0 +1,13 @@
+{
+  "action_seed": 4900,
+  "temperature": 1.0,
+  "source": {
+    "id": "league_tail_retention_pilot_20261012",
+    "kind": "submission",
+    "design": "runs/league_tail_retention_pilot_20261012/checkpoint/submission",
+    "weights": "runs/league_tail_retention_pilot_20261012/checkpoint/submission/policy_net.zip"
+  },
+  "source_weights_sha256": "f9959bdba323f77b8d5032a79adee6de84c455fbcbb055c172d525d16b56db1a",
+  "rng_protocol": "Independent NumPy generator seeded by fixed replicate seed and39 public float32 first-frame words; reset per episode. No global RNG consumption or private environment input.",
+  "scope": "Execution-mode diagnostic only; original teacher and learned actor arrays unchanged."
+}

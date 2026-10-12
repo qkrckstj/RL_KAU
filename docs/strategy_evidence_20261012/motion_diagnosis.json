@@ -1,0 +1,3171 @@
+{
+  "status": "80_saved_traces_motion_diagnosed",
+  "training_steps": 0,
+  "new_games": 0,
+  "seconds": 0.3426245999871753,
+  "profiles": {
+    "aft": {
+      "games": 12,
+      "reached_rear": 9,
+      "hit_before_rear": 8,
+      "entry_median_aim": 123.89708608935294,
+      "rear_episode_medians": {
+        "speed": 153.55688884893226,
+        "opp_speed": 195.02074770038314,
+        "abs_rate_deg": 7.0617051755822,
+        "opp_abs_rate_deg": 8.659833453607275,
+        "closing": -264.6805661578011,
+        "aim_deg": 108.14076050562042
+      }
+    },
+    "control": {
+      "games": 12,
+      "reached_rear": 10,
+      "hit_before_rear": 8,
+      "entry_median_aim": 125.85162040437231,
+      "rear_episode_medians": {
+        "speed": 153.35204538073324,
+        "opp_speed": 185.88643909528554,
+        "abs_rate_deg": 6.199140131129353,
+        "opp_abs_rate_deg": 8.530884867901726,
+        "closing": -238.7489699518675,
+        "aim_deg": 99.47121584295115
+      }
+    },
+    "expert0": {
+      "games": 12,
+      "reached_rear": 12,
+      "hit_before_rear": 10,
+      "entry_median_aim": 149.96957126680292,
+      "rear_episode_medians": {
+        "speed": 268.9023182753291,
+        "opp_speed": 231.16329565700642,
+        "abs_rate_deg": 12.144800057424,
+        "opp_abs_rate_deg": 11.781105801864086,
+        "closing": -474.8126194486871,
+        "aim_deg": 154.47623655780035
+      }
+    },
+    "expert1": {
+      "games": 12,
+      "reached_rear": 12,
+      "hit_before_rear": 8,
+      "entry_median_aim": 143.36948381555652,
+      "rear_episode_medians": {
+        "speed": 259.0158420290223,
+        "opp_speed": 241.79239804799099,
+        "abs_rate_deg": 13.166191152044897,
+        "opp_abs_rate_deg": 11.75198922034263,
+        "closing": -478.40253124840393,
+        "aim_deg": 155.9586254896564
+      }
+    },
+    "expert2": {
+      "games": 12,
+      "reached_rear": 7,
+      "hit_before_rear": 7,
+      "entry_median_aim": 105.75183510728131,
+      "rear_episode_medians": {
+        "speed": 154.58481968018768,
+        "opp_speed": 244.79916964205674,
+        "abs_rate_deg": 7.0378000737044415,
+        "opp_abs_rate_deg": 9.344690920366492,
+        "closing": -202.98989362488507,
+        "aim_deg": 82.00875376830672
+      }
+    }
+  },
+  "episodes": [
+    {
+      "role": "aft",
+      "foe": "ace",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 163,
+        "seconds": 8.150001525878906,
+        "distance": 761.1469569725268,
+        "aim_deg": 61.91340832058842,
+        "speed": 153.34959920940415,
+        "opp_speed": 184.09614321407975,
+        "closing": -140.26387854907844,
+        "abs_rate_deg": 6.073351552697587,
+        "opp_abs_rate_deg": 8.659833453607275
+      },
+      "near": {
+        "ticks": 163,
+        "seconds": 8.150001525878906,
+        "distance": 761.1469569725268,
+        "aim_deg": 61.91340832058842,
+        "speed": 153.34959920940415,
+        "opp_speed": 184.09614321407975,
+        "closing": -140.26387854907844,
+        "abs_rate_deg": 6.073351552697587,
+        "opp_abs_rate_deg": 8.659833453607275
+      },
+      "entry": {
+        "time": 53.150001525878906,
+        "health": 0.15850000000000092,
+        "aim_deg": 20.037524649907883,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 412.1793144356124,
+          "aim_deg": 29.465616307780056,
+          "speed": 154.52595047654702,
+          "opp_speed": 216.89945141977063,
+          "closing": 62.917970908771906,
+          "abs_rate_deg": 5.733184071089915,
+          "opp_abs_rate_deg": 8.80910862805261
+        }
+      },
+      "first_hit": 40.150001525878906
+    },
+    {
+      "role": "aft",
+      "foe": "ace",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 137,
+        "seconds": 6.849998474121094,
+        "distance": 621.5897261407005,
+        "aim_deg": 58.85233693152689,
+        "speed": 153.07413893390572,
+        "opp_speed": 182.93952656872892,
+        "closing": -128.73855064413118,
+        "abs_rate_deg": 6.1410580736695985,
+        "opp_abs_rate_deg": 8.705500982052378
+      },
+      "near": {
+        "ticks": 137,
+        "seconds": 6.849998474121094,
+        "distance": 621.5897261407005,
+        "aim_deg": 58.85233693152689,
+        "speed": 153.07413893390572,
+        "opp_speed": 182.93952656872892,
+        "closing": -128.73855064413118,
+        "abs_rate_deg": 6.1410580736695985,
+        "opp_abs_rate_deg": 8.705500982052378
+      },
+      "entry": {
+        "time": 52.94999694824219,
+        "health": 0.09250000000000089,
+        "aim_deg": 20.637007110139848,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 371.1160690301885,
+          "aim_deg": 34.34790046278029,
+          "speed": 153.77479852449758,
+          "opp_speed": 216.31679094107707,
+          "closing": 49.830202325360055,
+          "abs_rate_deg": 5.649587657969095,
+          "opp_abs_rate_deg": 8.76205149681058
+        }
+      },
+      "first_hit": 40.849998474121094
+    },
+    {
+      "role": "aft",
+      "foe": "ace",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 127,
+        "seconds": 6.349998474121094,
+        "distance": 867.0062647419454,
+        "aim_deg": 73.59120972400119,
+        "speed": 152.96755031994343,
+        "opp_speed": 195.02074770038314,
+        "closing": -188.8707738634609,
+        "abs_rate_deg": 5.55263050275942,
+        "opp_abs_rate_deg": 8.398255543090704
+      },
+      "near": {
+        "ticks": 338,
+        "seconds": 16.89999771118164,
+        "distance": 1954.5465278956112,
+        "aim_deg": 75.38671953036079,
+        "speed": 153.9441934893915,
+        "opp_speed": 203.0738844036547,
+        "closing": -196.23647587905262,
+        "abs_rate_deg": 5.892272124759425,
+        "opp_abs_rate_deg": 7.971741165440477
+      },
+      "entry": {
+        "time": 56.20000076293945,
+        "health": 0.30700000000000105,
+        "aim_deg": 34.8236707609856,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 100,
+          "seconds": 5.000003814697266,
+          "distance": 529.9129021146932,
+          "aim_deg": 22.58737423410309,
+          "speed": 166.67082885589042,
+          "opp_speed": 226.06684352288067,
+          "closing": 130.5052596945094,
+          "abs_rate_deg": 6.828355456524876,
+          "opp_abs_rate_deg": 9.266932268940515
+        }
+      },
+      "first_hit": 40.44999694824219
+    },
+    {
+      "role": "aft",
+      "foe": "ace",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 107,
+        "seconds": 5.350002288818359,
+        "distance": 866.4295446663913,
+        "aim_deg": 87.16890109430953,
+        "speed": 157.69665878241773,
+        "opp_speed": 198.4564542308026,
+        "closing": -228.38557706666876,
+        "abs_rate_deg": 4.686947325603338,
+        "opp_abs_rate_deg": 8.597317388601907
+      },
+      "near": {
+        "ticks": 301,
+        "seconds": 15.050003051757812,
+        "distance": 2036.6762096167952,
+        "aim_deg": 88.09109152972538,
+        "speed": 154.41203988822062,
+        "opp_speed": 204.60098660822356,
+        "closing": -233.45972819439768,
+        "abs_rate_deg": 5.05332426315123,
+        "opp_abs_rate_deg": 8.117120667075207
+      },
+      "entry": {
+        "time": 55.25,
+        "health": 0.30700000000000105,
+        "aim_deg": 48.52639724221625,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 562.6349914197976,
+          "aim_deg": 24.452467418572258,
+          "speed": 175.93690637952795,
+          "opp_speed": 231.11562844339588,
+          "closing": 151.97421826559312,
+          "abs_rate_deg": 5.387597592012018,
+          "opp_abs_rate_deg": 9.469889099412027
+        }
+      },
+      "first_hit": 39.25
+    },
+    {
+      "role": "aft",
+      "foe": "cem_original",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": {
+        "ticks": 28,
+        "seconds": 1.3999996185302734,
+        "distance": 1693.5057961694474,
+        "aim_deg": 134.82862185468605,
+        "speed": 153.8296819654572,
+        "opp_speed": 157.79431994316892,
+        "closing": -253.77347156333462,
+        "abs_rate_deg": 5.275208989866583,
+        "opp_abs_rate_deg": 6.236212909231958
+      },
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "aft",
+      "foe": "cem_original",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 50,
+        "seconds": 2.5,
+        "distance": 1167.483059754196,
+        "aim_deg": 134.91467270612583,
+        "speed": 153.11280704562054,
+        "opp_speed": 158.8533063955873,
+        "closing": -264.6805661578011,
+        "abs_rate_deg": 7.0617051755822,
+        "opp_abs_rate_deg": 7.607776998218739
+      },
+      "near": {
+        "ticks": 119,
+        "seconds": 5.94999885559082,
+        "distance": 1622.8719322996963,
+        "aim_deg": 135.24372596587244,
+        "speed": 153.287694160079,
+        "opp_speed": 158.30532945870723,
+        "closing": -260.9862428092707,
+        "abs_rate_deg": 6.142346241574716,
+        "opp_abs_rate_deg": 6.735762131473313
+      },
+      "entry": {
+        "time": 93.25,
+        "health": 1.0,
+        "aim_deg": 132.5436157759903,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049999237060547,
+          "distance": 524.7006203501622,
+          "aim_deg": 84.60959723844637,
+          "speed": 153.68477688717064,
+          "opp_speed": 157.73837966267047,
+          "closing": -20.109729392480602,
+          "abs_rate_deg": 7.122629949197262,
+          "opp_abs_rate_deg": 7.734192590719074
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "aft",
+      "foe": "cem_original",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 72,
+        "seconds": 3.6000003814697266,
+        "distance": 995.4964816859194,
+        "aim_deg": 137.55343494898153,
+        "speed": 153.55688884893226,
+        "opp_speed": 157.8142580387555,
+        "closing": -275.6410416739137,
+        "abs_rate_deg": 7.871968520516409,
+        "opp_abs_rate_deg": 7.773271811473236
+      },
+      "near": {
+        "ticks": 160,
+        "seconds": 8.0,
+        "distance": 1602.9777712938226,
+        "aim_deg": 136.7620876475518,
+        "speed": 153.58769349831135,
+        "opp_speed": 157.77088167273368,
+        "closing": -267.1498719749277,
+        "abs_rate_deg": 6.595997252939128,
+        "opp_abs_rate_deg": 6.89218614183809
+      },
+      "entry": {
+        "time": 91.14999961853027,
+        "health": 0.7690000000000006,
+        "aim_deg": 131.24757882520862,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.05000114440918,
+          "distance": 480.45131350713433,
+          "aim_deg": 34.33107507861288,
+          "speed": 153.748123475271,
+          "opp_speed": 157.0562312777971,
+          "closing": 226.3406080576576,
+          "abs_rate_deg": 2.2563191191195084,
+          "opp_abs_rate_deg": 7.150497546236699
+        }
+      },
+      "first_hit": 85.79999923706055
+    },
+    {
+      "role": "aft",
+      "foe": "cem_original",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": 88.20000076293945
+    },
+    {
+      "role": "aft",
+      "foe": "circler",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "aft",
+      "foe": "circler",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "aft",
+      "foe": "circler",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "aft",
+      "foe": "circler",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "aft",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 51,
+        "seconds": 2.5500030517578125,
+        "distance": 1062.395823264143,
+        "aim_deg": 114.18405050782864,
+        "speed": 157.8361873258802,
+        "opp_speed": 291.2252021493724,
+        "closing": -334.69639757170995,
+        "abs_rate_deg": 7.693055534255789,
+        "opp_abs_rate_deg": 10.267533966039446
+      },
+      "near": {
+        "ticks": 219,
+        "seconds": 10.950004577636719,
+        "distance": 2463.714175004045,
+        "aim_deg": 95.87560888636744,
+        "speed": 156.68986031575741,
+        "opp_speed": 282.90824933502324,
+        "closing": -318.7235399399043,
+        "abs_rate_deg": 6.894245364434628,
+        "opp_abs_rate_deg": 10.545441643388058
+      },
+      "entry": {
+        "time": 44.150001525878906,
+        "health": 0.3895000000000011,
+        "aim_deg": 130.45646576911952,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 537.0460814816871,
+          "aim_deg": 102.89704130038099,
+          "speed": 174.21946278134013,
+          "opp_speed": 292.6153049530536,
+          "closing": 265.55229056944864,
+          "abs_rate_deg": 7.769231852609202,
+          "opp_abs_rate_deg": 9.265542311783358
+        }
+      },
+      "first_hit": 39.75
+    },
+    {
+      "role": "aft",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": 41.19999694824219
+    },
+    {
+      "role": "aft",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 61,
+        "seconds": 3.0500030517578125,
+        "distance": 920.277732736726,
+        "aim_deg": 126.03352159027455,
+        "speed": 164.77165627480213,
+        "opp_speed": 293.5455061902768,
+        "closing": -379.3020532662889,
+        "abs_rate_deg": 7.618132931973487,
+        "opp_abs_rate_deg": 10.638053355963084
+      },
+      "near": {
+        "ticks": 204,
+        "seconds": 10.199996948242188,
+        "distance": 2256.9285857463574,
+        "aim_deg": 107.37138541458377,
+        "speed": 158.72502681144425,
+        "opp_speed": 287.91651054667545,
+        "closing": -359.6273718580686,
+        "abs_rate_deg": 6.976735214780992,
+        "opp_abs_rate_deg": 10.76153563939645
+      },
+      "entry": {
+        "time": 43.30000305175781,
+        "health": 0.3565000000000011,
+        "aim_deg": 149.08631954355712,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 737.4724145432752,
+          "aim_deg": 41.97739936528355,
+          "speed": 178.88906743629613,
+          "opp_speed": 293.1042299678952,
+          "closing": 446.77354483127476,
+          "abs_rate_deg": 7.744504303939061,
+          "opp_abs_rate_deg": 11.107941691152003
+        }
+      },
+      "first_hit": 40.099998474121094
+    },
+    {
+      "role": "aft",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 61,
+        "seconds": 3.0500030517578125,
+        "distance": 1052.8814459761038,
+        "aim_deg": 108.14076050562042,
+        "speed": 160.0287974161258,
+        "opp_speed": 253.45918561775835,
+        "closing": -294.1534424852017,
+        "abs_rate_deg": 7.969647951499243,
+        "opp_abs_rate_deg": 13.511201972929282
+      },
+      "near": {
+        "ticks": 258,
+        "seconds": 12.900001525878906,
+        "distance": 2461.2541422856375,
+        "aim_deg": 93.40521903055833,
+        "speed": 157.83844827078667,
+        "opp_speed": 243.06640595741385,
+        "closing": -267.950791752295,
+        "abs_rate_deg": 6.837657778290014,
+        "opp_abs_rate_deg": 10.363097061590626
+      },
+      "entry": {
+        "time": 44.55000305175781,
+        "health": 0.17500000000000093,
+        "aim_deg": 123.89708608935294,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 453.52109703002856,
+          "aim_deg": 105.99313047234614,
+          "speed": 176.61378360886528,
+          "opp_speed": 256.3367521486536,
+          "closing": 204.4714878351224,
+          "abs_rate_deg": 8.100253125690708,
+          "opp_abs_rate_deg": 13.686044144162368
+        }
+      },
+      "first_hit": 39.599998474121094
+    },
+    {
+      "role": "control",
+      "foe": "ace",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.16500000000000015,
+      "rear": {
+        "ticks": 149,
+        "seconds": 7.450000762939453,
+        "distance": 630.417417150968,
+        "aim_deg": 55.6321283618646,
+        "speed": 153.19487305419128,
+        "opp_speed": 180.6778038683575,
+        "closing": -117.77997993580026,
+        "abs_rate_deg": 5.968515274747836,
+        "opp_abs_rate_deg": 8.559966944889744
+      },
+      "near": {
+        "ticks": 149,
+        "seconds": 7.450000762939453,
+        "distance": 630.417417150968,
+        "aim_deg": 55.6321283618646,
+        "speed": 153.19487305419128,
+        "opp_speed": 180.6778038683575,
+        "closing": -117.77997993580026,
+        "abs_rate_deg": 5.968515274747836,
+        "opp_abs_rate_deg": 8.559966944889744
+      },
+      "entry": {
+        "time": 53.400001525878906,
+        "health": 0.15850000000000092,
+        "aim_deg": 9.310530934151775,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 386.34442752094344,
+          "aim_deg": 34.33470657137452,
+          "speed": 154.38643645808162,
+          "opp_speed": 214.53328070187376,
+          "closing": 63.08969355293976,
+          "abs_rate_deg": 5.745750852147292,
+          "opp_abs_rate_deg": 8.799694381513667
+        }
+      },
+      "first_hit": 40.150001525878906
+    },
+    {
+      "role": "control",
+      "foe": "ace",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.21449999999999986,
+      "rear": {
+        "ticks": 134,
+        "seconds": 6.700000762939453,
+        "distance": 542.852310306482,
+        "aim_deg": 51.64233361943914,
+        "speed": 153.06673377007996,
+        "opp_speed": 176.16274225234523,
+        "closing": -109.88325939749507,
+        "abs_rate_deg": 5.964802863345214,
+        "opp_abs_rate_deg": 8.578521200720097
+      },
+      "near": {
+        "ticks": 134,
+        "seconds": 6.700000762939453,
+        "distance": 542.852310306482,
+        "aim_deg": 51.64233361943914,
+        "speed": 153.06673377007996,
+        "opp_speed": 176.16274225234523,
+        "closing": -109.88325939749507,
+        "abs_rate_deg": 5.964802863345214,
+        "opp_abs_rate_deg": 8.578521200720097
+      },
+      "entry": {
+        "time": 53.150001525878906,
+        "health": 0.07600000000000089,
+        "aim_deg": 7.795803884680845,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 351.0958897313648,
+          "aim_deg": 39.34319718036169,
+          "speed": 153.93589479790077,
+          "opp_speed": 214.35099612432074,
+          "closing": 49.348905930388234,
+          "abs_rate_deg": 5.42010730822567,
+          "opp_abs_rate_deg": 8.795107594809334
+        }
+      },
+      "first_hit": 40.849998474121094
+    },
+    {
+      "role": "control",
+      "foe": "ace",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 137,
+        "seconds": 6.849998474121094,
+        "distance": 843.5744235813155,
+        "aim_deg": 71.38523502139938,
+        "speed": 153.26755750336457,
+        "opp_speed": 191.0950743222136,
+        "closing": -177.8423737891867,
+        "abs_rate_deg": 5.440875110214379,
+        "opp_abs_rate_deg": 7.9094797479578345
+      },
+      "near": {
+        "ticks": 365,
+        "seconds": 18.25,
+        "distance": 1960.8217736690565,
+        "aim_deg": 71.80149897291619,
+        "speed": 153.81396894206426,
+        "opp_speed": 200.66454933804602,
+        "closing": -183.04390072883507,
+        "abs_rate_deg": 6.056293082702019,
+        "opp_abs_rate_deg": 7.794136164499918
+      },
+      "entry": {
+        "time": 56.29999923706055,
+        "health": 0.29050000000000104,
+        "aim_deg": 29.215180015277873,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049999237060547,
+          "distance": 512.0761148358423,
+          "aim_deg": 24.245470903995184,
+          "speed": 167.69677746769062,
+          "opp_speed": 224.51620740186604,
+          "closing": 129.2156119002116,
+          "abs_rate_deg": 5.550993135719234,
+          "opp_abs_rate_deg": 9.255161057866394
+        }
+      },
+      "first_hit": 40.44999694824219
+    },
+    {
+      "role": "control",
+      "foe": "ace",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 113,
+        "seconds": 5.649997711181641,
+        "distance": 854.9052215866229,
+        "aim_deg": 85.05391123471605,
+        "speed": 156.238845188177,
+        "opp_speed": 196.53373487984055,
+        "closing": -220.84593275568892,
+        "abs_rate_deg": 4.741043249268127,
+        "opp_abs_rate_deg": 8.50180279091371
+      },
+      "near": {
+        "ticks": 314,
+        "seconds": 15.699996948242188,
+        "distance": 2027.874100909146,
+        "aim_deg": 85.2874402456371,
+        "speed": 154.4632949999319,
+        "opp_speed": 203.4440324779228,
+        "closing": -225.33507127356245,
+        "abs_rate_deg": 5.086188989960547,
+        "opp_abs_rate_deg": 8.075155056860176
+      },
+      "entry": {
+        "time": 55.19999694824219,
+        "health": 0.30700000000000105,
+        "aim_deg": 42.415650225531515,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 560.2035832448436,
+          "aim_deg": 25.93536972910557,
+          "speed": 176.48798401480107,
+          "opp_speed": 230.45143937950292,
+          "closing": 150.119309448597,
+          "abs_rate_deg": 5.746570424824948,
+          "opp_abs_rate_deg": 9.438273079698241
+        }
+      },
+      "first_hit": 39.25
+    },
+    {
+      "role": "control",
+      "foe": "cem_original",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 3,
+        "seconds": 0.14999961853027344,
+        "distance": 1484.5631524249252,
+        "aim_deg": 133.36176956940812,
+        "speed": 153.26031617342832,
+        "opp_speed": 159.78148393128512,
+        "closing": -253.59943939655045,
+        "abs_rate_deg": 4.568578341119651,
+        "opp_abs_rate_deg": 4.222760586681737
+      },
+      "near": {
+        "ticks": 37,
+        "seconds": 1.8499984741210938,
+        "distance": 1700.9163223999053,
+        "aim_deg": 134.7954557021604,
+        "speed": 153.74041914888284,
+        "opp_speed": 157.71423021736476,
+        "closing": -254.405547510257,
+        "abs_rate_deg": 5.017806737512731,
+        "opp_abs_rate_deg": 6.277039627265328
+      },
+      "entry": {
+        "time": 96.25,
+        "health": 1.0,
+        "aim_deg": 133.2367129600489,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049999237060547,
+          "distance": 863.4746208623469,
+          "aim_deg": 123.43428647951593,
+          "speed": 152.76172437114147,
+          "opp_speed": 156.6035511596444,
+          "closing": -226.25470902148825,
+          "abs_rate_deg": 6.47341056228587,
+          "opp_abs_rate_deg": 6.712009875440619
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "control",
+      "foe": "cem_original",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 37,
+        "seconds": 1.8500003814697266,
+        "distance": 1260.0344776831246,
+        "aim_deg": 135.66808598954356,
+        "speed": 153.2551396788641,
+        "opp_speed": 156.72475612949188,
+        "closing": -262.47718390446687,
+        "abs_rate_deg": 6.429764987510869,
+        "opp_abs_rate_deg": 7.908318598081191
+      },
+      "near": {
+        "ticks": 101,
+        "seconds": 5.049999237060547,
+        "distance": 1677.9608631849712,
+        "aim_deg": 135.56242880906493,
+        "speed": 153.387772983622,
+        "opp_speed": 157.44904720892873,
+        "closing": -260.3685318113756,
+        "abs_rate_deg": 6.19452968308974,
+        "opp_abs_rate_deg": 5.451598670839848
+      },
+      "entry": {
+        "time": 93.89999961853027,
+        "health": 1.0,
+        "aim_deg": 134.03264390801255,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049999237060547,
+          "distance": 535.4736218526668,
+          "aim_deg": 106.33197773393194,
+          "speed": 153.29396487405268,
+          "opp_speed": 157.83862389272528,
+          "closing": -144.92711034790733,
+          "abs_rate_deg": 6.987663351770969,
+          "opp_abs_rate_deg": 8.06271717046579
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "control",
+      "foe": "cem_original",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 73,
+        "seconds": 3.6499996185302734,
+        "distance": 992.9987091487756,
+        "aim_deg": 138.71013050881174,
+        "speed": 153.43653325810192,
+        "opp_speed": 158.28129951117828,
+        "closing": -277.59567907812067,
+        "abs_rate_deg": 7.574164921208354,
+        "opp_abs_rate_deg": 7.679981889986
+      },
+      "near": {
+        "ticks": 158,
+        "seconds": 7.899999618530273,
+        "distance": 1583.7581326793984,
+        "aim_deg": 137.90396578155338,
+        "speed": 153.56542955241986,
+        "opp_speed": 157.79468254037377,
+        "closing": -268.81290753631765,
+        "abs_rate_deg": 6.563160617456997,
+        "opp_abs_rate_deg": 6.939855560609324
+      },
+      "entry": {
+        "time": 91.14999961853027,
+        "health": 0.6535000000000009,
+        "aim_deg": 132.0787510581104,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.05000114440918,
+          "distance": 471.1918390617103,
+          "aim_deg": 34.33482708591574,
+          "speed": 153.80904398071908,
+          "opp_speed": 156.92986053981764,
+          "closing": 235.46567657299892,
+          "abs_rate_deg": 1.1375668765852667,
+          "opp_abs_rate_deg": 7.194211423945619
+        }
+      },
+      "first_hit": 85.79999923706055
+    },
+    {
+      "role": "control",
+      "foe": "cem_original",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": 88.20000076293945
+    },
+    {
+      "role": "control",
+      "foe": "circler",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "control",
+      "foe": "circler",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "control",
+      "foe": "circler",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "control",
+      "foe": "circler",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "control",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 52,
+        "seconds": 2.5999984741210938,
+        "distance": 1069.638073879038,
+        "aim_deg": 113.88852045118625,
+        "speed": 157.67912532552208,
+        "opp_speed": 291.1813840231405,
+        "closing": -334.7150232033378,
+        "abs_rate_deg": 7.709142670131961,
+        "opp_abs_rate_deg": 10.268116617636318
+      },
+      "near": {
+        "ticks": 219,
+        "seconds": 10.950004577636719,
+        "distance": 2461.8912562327732,
+        "aim_deg": 95.81752419959143,
+        "speed": 156.69070731569377,
+        "opp_speed": 282.90824933502324,
+        "closing": -318.5985014863493,
+        "abs_rate_deg": 6.89315260086442,
+        "opp_abs_rate_deg": 10.545441643388058
+      },
+      "entry": {
+        "time": 44.150001525878906,
+        "health": 0.3895000000000011,
+        "aim_deg": 130.48467038657645,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 536.4396386164063,
+          "aim_deg": 103.54988235006275,
+          "speed": 174.1571717308995,
+          "opp_speed": 292.6153049530536,
+          "closing": 265.24680501172594,
+          "abs_rate_deg": 7.65181015049878,
+          "opp_abs_rate_deg": 9.265542311783358
+        }
+      },
+      "first_hit": 39.75
+    },
+    {
+      "role": "control",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": 41.19999694824219
+    },
+    {
+      "role": "control",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 61,
+        "seconds": 3.0500030517578125,
+        "distance": 919.3216408164467,
+        "aim_deg": 126.03008674410724,
+        "speed": 164.70065876575828,
+        "opp_speed": 293.5455061902768,
+        "closing": -379.0980183847765,
+        "abs_rate_deg": 7.606043693015369,
+        "opp_abs_rate_deg": 10.638053355963084
+      },
+      "near": {
+        "ticks": 204,
+        "seconds": 10.199996948242188,
+        "distance": 2255.394892060738,
+        "aim_deg": 107.31979115839462,
+        "speed": 158.71659647737502,
+        "opp_speed": 287.91651054667545,
+        "closing": -359.50165836609983,
+        "abs_rate_deg": 6.979194099571712,
+        "opp_abs_rate_deg": 10.76153563939645
+      },
+      "entry": {
+        "time": 43.30000305175781,
+        "health": 0.3565000000000011,
+        "aim_deg": 149.1280744315544,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 737.4724145432752,
+          "aim_deg": 41.97739936528355,
+          "speed": 178.88906743629613,
+          "opp_speed": 293.1042299678952,
+          "closing": 446.77354483127476,
+          "abs_rate_deg": 7.650785528316316,
+          "opp_abs_rate_deg": 11.107941691152003
+        }
+      },
+      "first_hit": 40.099998474121094
+    },
+    {
+      "role": "control",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.175000000000001,
+      "rear": {
+        "ticks": 132,
+        "seconds": 6.5999956130981445,
+        "distance": 1090.6957030092778,
+        "aim_deg": 78.08529199121003,
+        "speed": 154.5174992515926,
+        "opp_speed": 238.52086177965202,
+        "closing": -223.89850050718456,
+        "abs_rate_deg": 7.158285070903315,
+        "opp_abs_rate_deg": 12.29482964689701
+      },
+      "near": {
+        "ticks": 388,
+        "seconds": 19.39999485015869,
+        "distance": 1861.505440538188,
+        "aim_deg": 84.79671862254236,
+        "speed": 154.17354941026127,
+        "opp_speed": 240.6381876412413,
+        "closing": -233.8214678316308,
+        "abs_rate_deg": 6.588910893165667,
+        "opp_abs_rate_deg": 10.216458714351125
+      },
+      "entry": {
+        "time": 44.599998474121094,
+        "health": 0.17500000000000093,
+        "aim_deg": 121.21857042216818,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 442.84708703082754,
+          "aim_deg": 116.42109642018383,
+          "speed": 175.7776216413298,
+          "opp_speed": 256.3367521486536,
+          "closing": 185.11714771149263,
+          "abs_rate_deg": 7.625304192902969,
+          "opp_abs_rate_deg": 14.008907711235521
+        }
+      },
+      "first_hit": 39.599998474121094
+    },
+    {
+      "role": "expert0",
+      "foe": "ace",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 104,
+        "seconds": 5.200000762939453,
+        "distance": 891.7300160207882,
+        "aim_deg": 154.1207108975328,
+        "speed": 253.05045740311192,
+        "opp_speed": 230.7573468723705,
+        "closing": -475.9635285500689,
+        "abs_rate_deg": 12.35115811033884,
+        "opp_abs_rate_deg": 11.605758740259876
+      },
+      "near": {
+        "ticks": 257,
+        "seconds": 12.85000228881836,
+        "distance": 1735.1455191293317,
+        "aim_deg": 138.49645617085116,
+        "speed": 243.86481048549012,
+        "opp_speed": 223.43731418844166,
+        "closing": -440.84867929622385,
+        "abs_rate_deg": 11.294436547174538,
+        "opp_abs_rate_deg": 10.512385545389304
+      },
+      "entry": {
+        "time": 27.400001525878906,
+        "health": 0.9010000000000002,
+        "aim_deg": 149.29654638077218,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 952.7578505302934,
+          "aim_deg": 12.308310900328705,
+          "speed": 276.51988794441866,
+          "opp_speed": 269.3710110904398,
+          "closing": 536.1040946185307,
+          "abs_rate_deg": 13.753932080961464,
+          "opp_abs_rate_deg": 14.679639420372892
+        }
+      },
+      "first_hit": 24.849998474121094
+    },
+    {
+      "role": "expert0",
+      "foe": "ace",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 110,
+        "seconds": 5.499996185302734,
+        "distance": 864.3863045308542,
+        "aim_deg": 153.99157550784537,
+        "speed": 255.60271832659225,
+        "opp_speed": 229.8450387896321,
+        "closing": -471.72008757269066,
+        "abs_rate_deg": 12.89182196390926,
+        "opp_abs_rate_deg": 11.956452863468295
+      },
+      "near": {
+        "ticks": 274,
+        "seconds": 13.700000762939453,
+        "distance": 1759.5462738652964,
+        "aim_deg": 131.0159482989555,
+        "speed": 244.41730983748027,
+        "opp_speed": 223.43240339304737,
+        "closing": -422.68227963986635,
+        "abs_rate_deg": 11.383366967138624,
+        "opp_abs_rate_deg": 10.297708757098022
+      },
+      "entry": {
+        "time": 27.099998474121094,
+        "health": 0.8020000000000005,
+        "aim_deg": 152.89098567527492,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 1109.3456223634141,
+          "aim_deg": 5.11177710525658,
+          "speed": 277.0069877231311,
+          "opp_speed": 268.4419680680862,
+          "closing": 537.1843412108799,
+          "abs_rate_deg": 3.5028417011183586,
+          "opp_abs_rate_deg": 14.244434196911342
+        }
+      },
+      "first_hit": 24.849998474121094
+    },
+    {
+      "role": "expert0",
+      "foe": "ace",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 112,
+        "seconds": 5.599998474121094,
+        "distance": 828.5211719366471,
+        "aim_deg": 150.4728940402,
+        "speed": 258.54065187098365,
+        "opp_speed": 231.71548101826056,
+        "closing": -473.6617103473053,
+        "abs_rate_deg": 13.825401763587124,
+        "opp_abs_rate_deg": 12.713910215848621
+      },
+      "near": {
+        "ticks": 291,
+        "seconds": 14.549995422363281,
+        "distance": 1815.5820629233783,
+        "aim_deg": 132.73568905296338,
+        "speed": 249.2444805773746,
+        "opp_speed": 222.84221106130582,
+        "closing": -428.5526941392172,
+        "abs_rate_deg": 11.479593699749355,
+        "opp_abs_rate_deg": 10.176044307165371
+      },
+      "entry": {
+        "time": 24.949996948242188,
+        "health": 0.6700000000000008,
+        "aim_deg": 131.4894541149556,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 1256.435082263957,
+          "aim_deg": 4.500537194645607,
+          "speed": 278.6961295120771,
+          "opp_speed": 268.82077835297866,
+          "closing": 539.409103922439,
+          "abs_rate_deg": 4.52883004649273,
+          "opp_abs_rate_deg": 12.593007383063027
+        }
+      },
+      "first_hit": 23.0
+    },
+    {
+      "role": "expert0",
+      "foe": "ace",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 108,
+        "seconds": 5.400001525878906,
+        "distance": 870.556349328939,
+        "aim_deg": 157.15170269464545,
+        "speed": 255.54544295640022,
+        "opp_speed": 231.5692444416423,
+        "closing": -480.08461107475296,
+        "abs_rate_deg": 13.254087031486149,
+        "opp_abs_rate_deg": 12.04901040061758
+      },
+      "near": {
+        "ticks": 129,
+        "seconds": 6.450004577636719,
+        "distance": 931.69619721419,
+        "aim_deg": 155.9879952932603,
+        "speed": 255.59114851943463,
+        "opp_speed": 234.2900593288167,
+        "closing": -478.2705564549788,
+        "abs_rate_deg": 12.732759729665867,
+        "opp_abs_rate_deg": 12.111034196729427
+      },
+      "entry": {
+        "time": 25.199996948242188,
+        "health": 0.7525000000000006,
+        "aim_deg": 152.2455479059314,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 1109.4220721096842,
+          "aim_deg": 11.09235893402233,
+          "speed": 278.32797480504536,
+          "opp_speed": 270.9005618643048,
+          "closing": 542.3040526042307,
+          "abs_rate_deg": 8.108450103150423,
+          "opp_abs_rate_deg": 13.190339269627314
+        }
+      },
+      "first_hit": 22.949996948242188
+    },
+    {
+      "role": "expert0",
+      "foe": "cem_original",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 24,
+        "seconds": 1.2000045776367188,
+        "distance": 344.11177403653915,
+        "aim_deg": 136.4020442989604,
+        "speed": 296.55180483101265,
+        "opp_speed": 165.89699283480206,
+        "closing": -360.0187075744415,
+        "abs_rate_deg": 4.268105484295587,
+        "opp_abs_rate_deg": 6.392120503924608
+      },
+      "near": {
+        "ticks": 29,
+        "seconds": 1.4500045776367188,
+        "distance": 299.3639092266748,
+        "aim_deg": 132.04080685773948,
+        "speed": 296.5143863539702,
+        "opp_speed": 165.5282779438205,
+        "closing": -351.80390411485075,
+        "abs_rate_deg": 5.445935207943882,
+        "opp_abs_rate_deg": 6.492279380676547
+      },
+      "entry": {
+        "time": 43.900001525878906,
+        "health": 1.0,
+        "aim_deg": 105.45266079185129,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 968.143256164301,
+          "aim_deg": 6.7205665777792465,
+          "speed": 292.7438070395081,
+          "opp_speed": 167.39254934074867,
+          "closing": 436.6866823705274,
+          "abs_rate_deg": 9.940050625493498,
+          "opp_abs_rate_deg": 7.277805377577209
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert0",
+      "foe": "cem_original",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 28,
+        "seconds": 1.399993896484375,
+        "distance": 370.32144615695796,
+        "aim_deg": 139.40854408422996,
+        "speed": 295.88600679293023,
+        "opp_speed": 165.44581737099128,
+        "closing": -366.25670771881016,
+        "abs_rate_deg": 3.891877455291476,
+        "opp_abs_rate_deg": 7.510564018031257
+      },
+      "near": {
+        "ticks": 31,
+        "seconds": 1.5499954223632812,
+        "distance": 342.87873235596714,
+        "aim_deg": 137.32156873782787,
+        "speed": 295.85898416569,
+        "opp_speed": 165.527727146178,
+        "closing": -362.4333862301463,
+        "abs_rate_deg": 4.239376270617235,
+        "opp_abs_rate_deg": 7.608878481053521
+      },
+      "entry": {
+        "time": 43.099998474121094,
+        "health": 1.0,
+        "aim_deg": 99.43546373351059,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 997.1829016899549,
+          "aim_deg": 4.915085218554314,
+          "speed": 292.44796149581833,
+          "opp_speed": 167.17932605522677,
+          "closing": 440.6562333551051,
+          "abs_rate_deg": 10.68175456033706,
+          "opp_abs_rate_deg": 6.954110752386009
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert0",
+      "foe": "cem_original",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 47,
+        "seconds": 2.3499984741210938,
+        "distance": 644.801495889089,
+        "aim_deg": 169.69040753741444,
+        "speed": 294.11269299304854,
+        "opp_speed": 167.54175989807544,
+        "closing": -427.79922674491723,
+        "abs_rate_deg": 11.318249860083958,
+        "opp_abs_rate_deg": 6.9556818397324545
+      },
+      "near": {
+        "ticks": 53,
+        "seconds": 2.6500015258789062,
+        "distance": 580.5065451898334,
+        "aim_deg": 167.392839268851,
+        "speed": 293.96059136670357,
+        "opp_speed": 167.22726419236102,
+        "closing": -427.2883675197366,
+        "abs_rate_deg": 10.983676563436577,
+        "opp_abs_rate_deg": 6.994233231108549
+      },
+      "entry": {
+        "time": 42.19999694824219,
+        "health": 0.7690000000000006,
+        "aim_deg": 150.64259615283362,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 967.7479134952092,
+          "aim_deg": 6.67889309504985,
+          "speed": 292.71988195708605,
+          "opp_speed": 167.21491268767073,
+          "closing": 453.64981978451436,
+          "abs_rate_deg": 10.048947900447036,
+          "opp_abs_rate_deg": 7.281630050072934
+        }
+      },
+      "first_hit": 39.5
+    },
+    {
+      "role": "expert0",
+      "foe": "cem_original",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 42,
+        "seconds": 2.0999984741210938,
+        "distance": 600.908693502357,
+        "aim_deg": 167.15698845475112,
+        "speed": 295.4950522587419,
+        "opp_speed": 166.03134822678487,
+        "closing": -423.8268960052943,
+        "abs_rate_deg": 11.270537714801634,
+        "opp_abs_rate_deg": 7.429754590795808
+      },
+      "near": {
+        "ticks": 48,
+        "seconds": 2.4000015258789062,
+        "distance": 537.3296687116431,
+        "aim_deg": 164.49620180245228,
+        "speed": 295.3376925430109,
+        "opp_speed": 166.31801111106654,
+        "closing": -423.7452036685281,
+        "abs_rate_deg": 10.929274847423194,
+        "opp_abs_rate_deg": 7.30017288190488
+      },
+      "entry": {
+        "time": 43.55000305175781,
+        "health": 0.8845000000000003,
+        "aim_deg": 147.11838274068643,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 948.0623737574483,
+          "aim_deg": 6.608558989178707,
+          "speed": 292.71945529164265,
+          "opp_speed": 166.8892752297756,
+          "closing": 449.50739533984154,
+          "abs_rate_deg": 10.17526798398051,
+          "opp_abs_rate_deg": 6.946356527188864
+        }
+      },
+      "first_hit": 40.80000305175781
+    },
+    {
+      "role": "expert0",
+      "foe": "circler",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.5215000000000013,
+      "rear": {
+        "ticks": 157,
+        "seconds": 7.850006103515625,
+        "distance": 1262.9238976691245,
+        "aim_deg": 69.39647058363768,
+        "speed": 257.1659294604376,
+        "opp_speed": 223.14876426442498,
+        "closing": -174.7073847451837,
+        "abs_rate_deg": 9.41579730268679,
+        "opp_abs_rate_deg": 1.4074794784263434
+      },
+      "near": {
+        "ticks": 667,
+        "seconds": 33.35000228881836,
+        "distance": 1887.477916901998,
+        "aim_deg": 18.116357167534588,
+        "speed": 257.353384761159,
+        "opp_speed": 222.71050497931938,
+        "closing": 27.109478638875565,
+        "abs_rate_deg": 10.645687859514313,
+        "opp_abs_rate_deg": 5.181460567185503
+      },
+      "entry": {
+        "time": 41.400001525878906,
+        "health": 1.0,
+        "aim_deg": 44.57123882445253,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 980.421149208486,
+          "aim_deg": 6.919399973605005,
+          "speed": 264.53722627950344,
+          "opp_speed": 222.2246791688262,
+          "closing": 272.0780949844141,
+          "abs_rate_deg": 11.716884190649736,
+          "opp_abs_rate_deg": 5.177757428720195
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert0",
+      "foe": "circler",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.6535000000000006,
+      "rear": {
+        "ticks": 168,
+        "seconds": 8.39999771118164,
+        "distance": 1276.3945715246523,
+        "aim_deg": 64.4583339498428,
+        "speed": 260.28504587440966,
+        "opp_speed": 223.1362150121849,
+        "closing": -150.82836228564219,
+        "abs_rate_deg": 9.527918640813411,
+        "opp_abs_rate_deg": 3.906670420425055
+      },
+      "near": {
+        "ticks": 636,
+        "seconds": 31.799999237060547,
+        "distance": 1815.3847480907243,
+        "aim_deg": 15.864970044080644,
+        "speed": 259.95189610310206,
+        "opp_speed": 222.69264406857553,
+        "closing": 28.87228696712087,
+        "abs_rate_deg": 10.428696842273308,
+        "opp_abs_rate_deg": 5.406381211487005
+      },
+      "entry": {
+        "time": 41.94999694824219,
+        "health": 1.0,
+        "aim_deg": 41.90237664235049,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 1032.0396348606532,
+          "aim_deg": 8.498743112901318,
+          "speed": 267.812345674866,
+          "opp_speed": 222.21312832849642,
+          "closing": 271.81943075251763,
+          "abs_rate_deg": 12.03261644569815,
+          "opp_abs_rate_deg": 5.2496175977837
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert0",
+      "foe": "circler",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.6700000000000004,
+      "rear": {
+        "ticks": 173,
+        "seconds": 8.650001525878906,
+        "distance": 1272.723150798762,
+        "aim_deg": 57.140030753317504,
+        "speed": 269.7746834999746,
+        "opp_speed": 230.0934505142644,
+        "closing": -107.23293340602268,
+        "abs_rate_deg": 9.553850461880229,
+        "opp_abs_rate_deg": 4.952404500177164
+      },
+      "near": {
+        "ticks": 587,
+        "seconds": 29.349998474121094,
+        "distance": 1737.7281662203,
+        "aim_deg": 15.765781519360173,
+        "speed": 268.32368334662794,
+        "opp_speed": 230.03076643095613,
+        "closing": 30.36168924983819,
+        "abs_rate_deg": 10.306399612405324,
+        "opp_abs_rate_deg": 5.691112673636954
+      },
+      "entry": {
+        "time": 38.55000305175781,
+        "health": 1.0,
+        "aim_deg": 36.31614902966297,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 1067.133288886402,
+          "aim_deg": 7.094823975780109,
+          "speed": 275.49494157995656,
+          "opp_speed": 230.34518799384716,
+          "closing": 275.6439052770232,
+          "abs_rate_deg": 11.061547849303873,
+          "opp_abs_rate_deg": 4.798324836778008
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert0",
+      "foe": "circler",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.7689999999999999,
+      "rear": {
+        "ticks": 204,
+        "seconds": 10.200000762939453,
+        "distance": 1251.3888063838378,
+        "aim_deg": 27.71941002800691,
+        "speed": 277.9237328990439,
+        "opp_speed": 230.26769636202977,
+        "closing": 44.01274790603645,
+        "abs_rate_deg": 10.443724316400814,
+        "opp_abs_rate_deg": 5.792691454665546
+      },
+      "near": {
+        "ticks": 805,
+        "seconds": 40.25,
+        "distance": 2040.2491280642587,
+        "aim_deg": 12.069482892101314,
+        "speed": 267.2362268431792,
+        "opp_speed": 230.11138622185612,
+        "closing": 33.968885691185754,
+        "abs_rate_deg": 10.753066721727349,
+        "opp_abs_rate_deg": 6.023958735144809
+      },
+      "entry": {
+        "time": 36.69999694824219,
+        "health": 1.0,
+        "aim_deg": 42.850751419679916,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 1117.0809772346256,
+          "aim_deg": 7.832276190068155,
+          "speed": 273.35696605685274,
+          "opp_speed": 229.8143248970322,
+          "closing": 338.4203555852825,
+          "abs_rate_deg": 11.954011914581528,
+          "opp_abs_rate_deg": 5.356453830261124
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert0",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 107,
+        "seconds": 5.350002288818359,
+        "distance": 822.3469871701965,
+        "aim_deg": 154.83176221806787,
+        "speed": 255.34864284350536,
+        "opp_speed": 254.94988216591312,
+        "closing": -499.0754109328436,
+        "abs_rate_deg": 12.620736258657026,
+        "opp_abs_rate_deg": 12.710356367340045
+      },
+      "near": {
+        "ticks": 205,
+        "seconds": 10.249996185302734,
+        "distance": 1390.1041102725371,
+        "aim_deg": 148.9987474278357,
+        "speed": 271.8108187884602,
+        "opp_speed": 269.9351604915704,
+        "closing": -491.0148455714444,
+        "abs_rate_deg": 11.892272743667926,
+        "opp_abs_rate_deg": 12.047917470289619
+      },
+      "entry": {
+        "time": 26.75,
+        "health": 0.6205000000000009,
+        "aim_deg": 142.95176822092438,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 1258.649183480578,
+          "aim_deg": 6.955480704338837,
+          "speed": 276.3411820737697,
+          "opp_speed": 276.0244957342459,
+          "closing": 543.2011223706661,
+          "abs_rate_deg": 9.40432328519962,
+          "opp_abs_rate_deg": 9.638174689223872
+        }
+      },
+      "first_hit": 24.800003051757812
+    },
+    {
+      "role": "expert0",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 51,
+        "seconds": 2.5500030517578125,
+        "distance": 837.4182665669148,
+        "aim_deg": 162.8687401546119,
+        "speed": 277.66457918211375,
+        "opp_speed": 259.44265876726917,
+        "closing": -531.927619650678,
+        "abs_rate_deg": 11.938442004509161,
+        "opp_abs_rate_deg": 13.516952447361605
+      },
+      "near": {
+        "ticks": 105,
+        "seconds": 5.25,
+        "distance": 1417.7194062948868,
+        "aim_deg": 154.47184528188666,
+        "speed": 276.6765094550716,
+        "opp_speed": 258.17903182320293,
+        "closing": -516.3254923537614,
+        "abs_rate_deg": 11.882164680643513,
+        "opp_abs_rate_deg": 13.203452432469795
+      },
+      "entry": {
+        "time": 27.0,
+        "health": 0.4720000000000012,
+        "aim_deg": 171.0736065228498,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 1166.042326260821,
+          "aim_deg": 3.8771369684227563,
+          "speed": 276.7291087586747,
+          "opp_speed": 259.1498426487584,
+          "closing": 533.2075599892884,
+          "abs_rate_deg": 3.550930635548689,
+          "opp_abs_rate_deg": 5.395246937003465
+        }
+      },
+      "first_hit": 24.849998474121094
+    },
+    {
+      "role": "expert0",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 106,
+        "seconds": 5.299999237060547,
+        "distance": 835.1591520481534,
+        "aim_deg": 153.15471072093501,
+        "speed": 260.1400573685445,
+        "opp_speed": 257.23129294337025,
+        "closing": -496.138612128452,
+        "abs_rate_deg": 13.4941275421448,
+        "opp_abs_rate_deg": 12.712481377617788
+      },
+      "near": {
+        "ticks": 205,
+        "seconds": 10.25,
+        "distance": 1444.2345952004116,
+        "aim_deg": 147.79786819070483,
+        "speed": 273.0465656900267,
+        "opp_speed": 275.2177429879295,
+        "closing": -492.71397503149757,
+        "abs_rate_deg": 11.954560267169713,
+        "opp_abs_rate_deg": 11.82861926570338
+      },
+      "entry": {
+        "time": 24.849998474121094,
+        "health": 0.5710000000000011,
+        "aim_deg": 151.04713107434904,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 1250.414502075083,
+          "aim_deg": 9.257512998853903,
+          "speed": 278.2627461393693,
+          "opp_speed": 277.02630872795044,
+          "closing": 545.4926287376293,
+          "abs_rate_deg": 9.258622657039481,
+          "opp_abs_rate_deg": 4.3831970802917875
+        }
+      },
+      "first_hit": 22.849998474121094
+    },
+    {
+      "role": "expert0",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 50,
+        "seconds": 2.5,
+        "distance": 826.6055861480304,
+        "aim_deg": 172.68951615558814,
+        "speed": 280.0224064624923,
+        "opp_speed": 258.26431158354785,
+        "closing": -535.1146562298552,
+        "abs_rate_deg": 11.93024627773261,
+        "opp_abs_rate_deg": 2.692909685344411
+      },
+      "near": {
+        "ticks": 110,
+        "seconds": 5.5,
+        "distance": 1495.534529947066,
+        "aim_deg": 159.2690071806668,
+        "speed": 279.1771314478721,
+        "opp_speed": 258.0466608704047,
+        "closing": -528.1759066930771,
+        "abs_rate_deg": 11.601662961343543,
+        "opp_abs_rate_deg": 13.218514159682467
+      },
+      "entry": {
+        "time": 25.099998474121094,
+        "health": 0.4720000000000012,
+        "aim_deg": 172.08420889352186,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 1174.1109585229324,
+          "aim_deg": 4.827430291257509,
+          "speed": 277.77523852244457,
+          "opp_speed": 258.99036198561737,
+          "closing": 534.9405023094063,
+          "abs_rate_deg": 4.994475897630126,
+          "opp_abs_rate_deg": 3.2151836144409227
+        }
+      },
+      "first_hit": 22.949996948242188
+    },
+    {
+      "role": "expert1",
+      "foe": "ace",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 53,
+        "seconds": 2.6500015258789062,
+        "distance": 889.9367063276312,
+        "aim_deg": 159.5056158864269,
+        "speed": 259.2585414475843,
+        "opp_speed": 237.95579593857005,
+        "closing": -470.9871876004662,
+        "abs_rate_deg": 13.479785020285837,
+        "opp_abs_rate_deg": 11.818784393571518
+      },
+      "near": {
+        "ticks": 63,
+        "seconds": 3.1500015258789062,
+        "distance": 1007.8445761508669,
+        "aim_deg": 158.12784550998168,
+        "speed": 258.851705259553,
+        "opp_speed": 237.1797837191164,
+        "closing": -467.94984171469747,
+        "abs_rate_deg": 13.32446009334929,
+        "opp_abs_rate_deg": 11.838621312484888
+      },
+      "entry": {
+        "time": 27.300003051757812,
+        "health": 0.5710000000000011,
+        "aim_deg": 157.38702415378137,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 1046.3806849720354,
+          "aim_deg": 5.550457348184442,
+          "speed": 259.0674185588647,
+          "opp_speed": 269.4752123716866,
+          "closing": 521.7424534840721,
+          "abs_rate_deg": 4.187289319004591,
+          "opp_abs_rate_deg": 14.602053206888208
+        }
+      },
+      "first_hit": 24.900001525878906
+    },
+    {
+      "role": "expert1",
+      "foe": "ace",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 53,
+        "seconds": 2.6500015258789062,
+        "distance": 866.7861059232337,
+        "aim_deg": 155.1637693171174,
+        "speed": 263.56036281943983,
+        "opp_speed": 239.91844502338813,
+        "closing": -477.099618764364,
+        "abs_rate_deg": 13.005525630816091,
+        "opp_abs_rate_deg": 11.900331874998201
+      },
+      "near": {
+        "ticks": 79,
+        "seconds": 3.9499969482421875,
+        "distance": 1175.9494015732646,
+        "aim_deg": 152.4259924934534,
+        "speed": 262.49785489441786,
+        "opp_speed": 238.06916317652983,
+        "closing": -468.5827615322465,
+        "abs_rate_deg": 13.200412501125598,
+        "opp_abs_rate_deg": 11.861811959148412
+      },
+      "entry": {
+        "time": 27.199996948242188,
+        "health": 0.7195000000000007,
+        "aim_deg": 152.02920678274435,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 1094.4660813264582,
+          "aim_deg": 5.350061765858214,
+          "speed": 262.5436490114041,
+          "opp_speed": 268.7405391660968,
+          "closing": 525.2989966375075,
+          "abs_rate_deg": 3.1077473875600794,
+          "opp_abs_rate_deg": 14.838988295322695
+        }
+      },
+      "first_hit": 24.900001525878906
+    },
+    {
+      "role": "expert1",
+      "foe": "ace",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 56,
+        "seconds": 2.7999954223632812,
+        "distance": 834.8330728437801,
+        "aim_deg": 156.75348166219538,
+        "speed": 258.95798306261423,
+        "opp_speed": 244.97193125710726,
+        "closing": -483.47407901419047,
+        "abs_rate_deg": 13.326856673273703,
+        "opp_abs_rate_deg": 12.246712266904161
+      },
+      "near": {
+        "ticks": 85,
+        "seconds": 4.25,
+        "distance": 1184.88693324954,
+        "aim_deg": 152.47017085836757,
+        "speed": 258.15467086843415,
+        "opp_speed": 242.09147941407096,
+        "closing": -472.6263262107673,
+        "abs_rate_deg": 13.23323023975793,
+        "opp_abs_rate_deg": 12.094707195048732
+      },
+      "entry": {
+        "time": 25.199996948242188,
+        "health": 0.6205000000000009,
+        "aim_deg": 140.84944491046366,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 1172.7907671269961,
+          "aim_deg": 6.437010080908492,
+          "speed": 258.7328283563148,
+          "opp_speed": 268.80337558823885,
+          "closing": 523.3203260071227,
+          "abs_rate_deg": 4.035372003417867,
+          "opp_abs_rate_deg": 12.650122080996706
+        }
+      },
+      "first_hit": 23.050003051757812
+    },
+    {
+      "role": "expert1",
+      "foe": "ace",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 56,
+        "seconds": 2.7999954223632812,
+        "distance": 832.5480190454011,
+        "aim_deg": 166.4449607640297,
+        "speed": 257.40747223074914,
+        "opp_speed": 243.66635107259384,
+        "closing": -479.7054437324439,
+        "abs_rate_deg": 13.902138140170761,
+        "opp_abs_rate_deg": 12.109154211486086
+      },
+      "near": {
+        "ticks": 64,
+        "seconds": 3.1999969482421875,
+        "distance": 928.7346689633537,
+        "aim_deg": 164.74360159279246,
+        "speed": 257.2176660985525,
+        "opp_speed": 242.11911799219035,
+        "closing": -476.93630304505285,
+        "abs_rate_deg": 13.486826908464318,
+        "opp_abs_rate_deg": 12.094537081293652
+      },
+      "entry": {
+        "time": 25.199996948242188,
+        "health": 0.5380000000000011,
+        "aim_deg": 151.1587241900062,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 1167.7156753691627,
+          "aim_deg": 7.1853351689120455,
+          "speed": 258.45230644397174,
+          "opp_speed": 271.2872705157852,
+          "closing": 527.4299802074245,
+          "abs_rate_deg": 7.2729048674234384,
+          "opp_abs_rate_deg": 13.190339269627314
+        }
+      },
+      "first_hit": 23.050003051757812
+    },
+    {
+      "role": "expert1",
+      "foe": "cem_original",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 87,
+        "seconds": 4.350002288818359,
+        "distance": 932.1714218732714,
+        "aim_deg": 107.53342551100462,
+        "speed": 226.83986650181467,
+        "opp_speed": 157.72895011564881,
+        "closing": -246.28093798603695,
+        "abs_rate_deg": 8.79967771422194,
+        "opp_abs_rate_deg": 7.078646038451092
+      },
+      "near": {
+        "ticks": 322,
+        "seconds": 16.100001335144043,
+        "distance": 2480.424738374545,
+        "aim_deg": 100.79829389122102,
+        "speed": 224.4815980153642,
+        "opp_speed": 157.49635225390017,
+        "closing": -231.4740471965856,
+        "abs_rate_deg": 8.657641576842336,
+        "opp_abs_rate_deg": 6.550809490280848
+      },
+      "entry": {
+        "time": 44.69999694824219,
+        "health": 1.0,
+        "aim_deg": 39.22877241790067,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 971.9536916302094,
+          "aim_deg": 7.505105675200945,
+          "speed": 258.6460544158433,
+          "opp_speed": 166.48143901788006,
+          "closing": 383.16876208337186,
+          "abs_rate_deg": 11.755968456432758,
+          "opp_abs_rate_deg": 7.256769678850729
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert1",
+      "foe": "cem_original",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 77,
+        "seconds": 3.849994659423828,
+        "distance": 1012.9150279723864,
+        "aim_deg": 106.34115709514916,
+        "speed": 227.02870650608097,
+        "opp_speed": 159.396913720248,
+        "closing": -242.19983292619312,
+        "abs_rate_deg": 8.851722564485348,
+        "opp_abs_rate_deg": 6.566803377199138
+      },
+      "near": {
+        "ticks": 317,
+        "seconds": 15.849994659423828,
+        "distance": 2554.4620270372116,
+        "aim_deg": 99.83017139795881,
+        "speed": 224.5627086506856,
+        "opp_speed": 157.83765118682308,
+        "closing": -225.25205610587565,
+        "abs_rate_deg": 8.659115638313677,
+        "opp_abs_rate_deg": 6.4095473190704935
+      },
+      "entry": {
+        "time": 43.94999694824219,
+        "health": 1.0,
+        "aim_deg": 34.81166460728421,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 968.1172625524935,
+          "aim_deg": 6.566764497871386,
+          "speed": 258.79514359349594,
+          "opp_speed": 167.33878263872344,
+          "closing": 390.0109485156974,
+          "abs_rate_deg": 13.98737369864689,
+          "opp_abs_rate_deg": 7.241197797975283
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert1",
+      "foe": "cem_original",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 34,
+        "seconds": 1.6999969482421875,
+        "distance": 411.5998476838754,
+        "aim_deg": 140.23775398822804,
+        "speed": 264.1867786500836,
+        "opp_speed": 168.1116918914879,
+        "closing": -355.24397881616727,
+        "abs_rate_deg": 5.959122090061988,
+        "opp_abs_rate_deg": 7.610415289258901
+      },
+      "near": {
+        "ticks": 37,
+        "seconds": 1.8499984741210938,
+        "distance": 384.9716895587213,
+        "aim_deg": 139.41988148696134,
+        "speed": 264.1693146827383,
+        "opp_speed": 168.01359376208012,
+        "closing": -353.0414107663021,
+        "abs_rate_deg": 6.3484224262585425,
+        "opp_abs_rate_deg": 7.5381562981789765
+      },
+      "entry": {
+        "time": 43.19999694824219,
+        "health": 1.0,
+        "aim_deg": 99.21633838806885,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 924.4948333143072,
+          "aim_deg": 5.562813630441522,
+          "speed": 260.42447543358145,
+          "opp_speed": 166.52510986798288,
+          "closing": 412.5921729847859,
+          "abs_rate_deg": 11.48412555019569,
+          "opp_abs_rate_deg": 7.065809244957093
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert1",
+      "foe": "cem_original",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 33,
+        "seconds": 1.6500015258789062,
+        "distance": 388.02956660819143,
+        "aim_deg": 136.16220873256262,
+        "speed": 262.85795990176416,
+        "opp_speed": 165.80680695128376,
+        "closing": -337.0636339666583,
+        "abs_rate_deg": 16.174275923510326,
+        "opp_abs_rate_deg": 6.569489690913797
+      },
+      "near": {
+        "ticks": 37,
+        "seconds": 1.8499984741210938,
+        "distance": 354.45306724450677,
+        "aim_deg": 132.2200187621415,
+        "speed": 262.53495459887534,
+        "opp_speed": 165.80680695128376,
+        "closing": -331.73825981862205,
+        "abs_rate_deg": 14.22067872088604,
+        "opp_abs_rate_deg": 6.666950541831616
+      },
+      "entry": {
+        "time": 44.55000305175781,
+        "health": 1.0,
+        "aim_deg": 93.72213842096899,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 906.666446810431,
+          "aim_deg": 8.443971778488375,
+          "speed": 260.7411574267136,
+          "opp_speed": 167.38333471172888,
+          "closing": 401.46199017684245,
+          "abs_rate_deg": 12.095253576833837,
+          "opp_abs_rate_deg": 7.1524092987656225
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert1",
+      "foe": "circler",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 122,
+        "seconds": 6.099998474121094,
+        "distance": 1050.8714974367351,
+        "aim_deg": 109.51022028440653,
+        "speed": 244.07727232601096,
+        "opp_speed": 223.1286225069061,
+        "closing": -253.92576550990808,
+        "abs_rate_deg": 12.912533335354127,
+        "opp_abs_rate_deg": 1.953460512687356
+      },
+      "near": {
+        "ticks": 357,
+        "seconds": 17.84999656677246,
+        "distance": 2086.4104185402725,
+        "aim_deg": 147.3459595330028,
+        "speed": 243.93764942481,
+        "opp_speed": 222.86864270855943,
+        "closing": -420.1305234613654,
+        "abs_rate_deg": 9.795733571097761,
+        "opp_abs_rate_deg": 3.9678540372915934
+      },
+      "entry": {
+        "time": 40.80000305175781,
+        "health": 1.0,
+        "aim_deg": 100.45101219610775,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 939.7406326953004,
+          "aim_deg": 17.762132099721583,
+          "speed": 260.6681777249369,
+          "opp_speed": 223.0855315406318,
+          "closing": 362.27959277519494,
+          "abs_rate_deg": 3.004007054498461,
+          "opp_abs_rate_deg": 5.177757428720195
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert1",
+      "foe": "circler",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 70,
+        "seconds": 3.5,
+        "distance": 782.6159955936254,
+        "aim_deg": 139.85205122933093,
+        "speed": 252.80359098237227,
+        "opp_speed": 223.14585173035135,
+        "closing": -372.70818054822337,
+        "abs_rate_deg": 13.880528044356293,
+        "opp_abs_rate_deg": 0.8234601552903891
+      },
+      "near": {
+        "ticks": 181,
+        "seconds": 9.049995422363281,
+        "distance": 1969.6828239266426,
+        "aim_deg": 154.19154370589322,
+        "speed": 245.41218106185602,
+        "opp_speed": 223.04934954164776,
+        "closing": -440.91015913057885,
+        "abs_rate_deg": 10.42168616906214,
+        "opp_abs_rate_deg": 3.4036582738558034
+      },
+      "entry": {
+        "time": 41.599998474121094,
+        "health": 1.0,
+        "aim_deg": 62.730766843268746,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 919.8847940146,
+          "aim_deg": 5.8897404557101085,
+          "speed": 257.9279943400779,
+          "opp_speed": 222.21312832849642,
+          "closing": 352.44345343090436,
+          "abs_rate_deg": 14.518554784793324,
+          "opp_abs_rate_deg": 5.2496175977837
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert1",
+      "foe": "circler",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 97,
+        "seconds": 4.850002288818359,
+        "distance": 1170.9590434686384,
+        "aim_deg": 107.50886483213704,
+        "speed": 261.4042982946958,
+        "opp_speed": 229.76682606664193,
+        "closing": -255.0512845063304,
+        "abs_rate_deg": 13.042757301317073,
+        "opp_abs_rate_deg": 5.290608655589965
+      },
+      "near": {
+        "ticks": 328,
+        "seconds": 16.39999771118164,
+        "distance": 2184.424192620607,
+        "aim_deg": 150.64273700370717,
+        "speed": 246.57888064916773,
+        "opp_speed": 230.0536571737915,
+        "closing": -434.0024142525121,
+        "abs_rate_deg": 11.809944259773907,
+        "opp_abs_rate_deg": 5.790774157752969
+      },
+      "entry": {
+        "time": 38.44999694824219,
+        "health": 1.0,
+        "aim_deg": 85.46314368900994,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 999.9491545288494,
+          "aim_deg": 18.237875523018914,
+          "speed": 260.59298816765346,
+          "opp_speed": 230.34518799384716,
+          "closing": 357.76210872418056,
+          "abs_rate_deg": 3.2299359226387145,
+          "opp_abs_rate_deg": 4.758072182782769
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert1",
+      "foe": "circler",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 142,
+        "seconds": 7.100002288818359,
+        "distance": 1055.7983916721378,
+        "aim_deg": 101.46244743720294,
+        "speed": 239.27087731788953,
+        "opp_speed": 230.2579508452119,
+        "closing": -225.95166982026524,
+        "abs_rate_deg": 13.381163108074674,
+        "opp_abs_rate_deg": 9.821002430772445
+      },
+      "near": {
+        "ticks": 371,
+        "seconds": 18.550003051757812,
+        "distance": 1932.4835911207251,
+        "aim_deg": 151.02342902467313,
+        "speed": 238.58643158247543,
+        "opp_speed": 230.33475611631812,
+        "closing": -433.31203340546296,
+        "abs_rate_deg": 9.90316985499902,
+        "opp_abs_rate_deg": 5.271347228224472
+      },
+      "entry": {
+        "time": 36.75,
+        "health": 1.0,
+        "aim_deg": 59.13415329263153,
+        "hit_before": false,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 1018.3943033212172,
+          "aim_deg": 5.668576367738349,
+          "speed": 257.8423404056009,
+          "opp_speed": 229.8233282900567,
+          "closing": 390.143421116956,
+          "abs_rate_deg": 14.570328914490641,
+          "opp_abs_rate_deg": 4.952131309284613
+        }
+      },
+      "first_hit": null
+    },
+    {
+      "role": "expert1",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 52,
+        "seconds": 2.5999984741210938,
+        "distance": 828.2281735602694,
+        "aim_deg": 154.6685749908877,
+        "speed": 259.42487700141885,
+        "opp_speed": 278.92515693021244,
+        "closing": -522.7831837431311,
+        "abs_rate_deg": 13.469342201490104,
+        "opp_abs_rate_deg": 11.68519404711374
+      },
+      "near": {
+        "ticks": 124,
+        "seconds": 6.1999969482421875,
+        "distance": 1707.2771895533892,
+        "aim_deg": 142.3718043682399,
+        "speed": 257.29314544685076,
+        "opp_speed": 276.9466795570585,
+        "closing": -493.4150943940474,
+        "abs_rate_deg": 13.149727857166358,
+        "opp_abs_rate_deg": 11.787253587070671
+      },
+      "entry": {
+        "time": 26.949996948242188,
+        "health": 0.587500000000001,
+        "aim_deg": 141.42703821929265,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 1192.813735682644,
+          "aim_deg": 4.790485355823681,
+          "speed": 259.1498426487584,
+          "opp_speed": 276.0846185397356,
+          "closing": 528.780613384477,
+          "abs_rate_deg": 5.395246937003465,
+          "opp_abs_rate_deg": 9.946880397807291
+        }
+      },
+      "first_hit": 24.849998474121094
+    },
+    {
+      "role": "expert1",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 53,
+        "seconds": 2.6500015258789062,
+        "distance": 827.6204762930705,
+        "aim_deg": 166.29586156799715,
+        "speed": 259.07370099543033,
+        "opp_speed": 259.4070952355685,
+        "closing": -510.7920720282309,
+        "abs_rate_deg": 13.502733055260178,
+        "opp_abs_rate_deg": 13.4217319556186
+      },
+      "near": {
+        "ticks": 92,
+        "seconds": 4.599998474121094,
+        "distance": 1223.5272624949935,
+        "aim_deg": 157.30028362189086,
+        "speed": 258.03298549176554,
+        "opp_speed": 258.35593120606745,
+        "closing": -499.6875332716874,
+        "abs_rate_deg": 13.222166008609587,
+        "opp_abs_rate_deg": 13.214568598236543
+      },
+      "entry": {
+        "time": 27.150001525878906,
+        "health": 0.43900000000000117,
+        "aim_deg": 161.21480044826916,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 1132.0779588826992,
+          "aim_deg": 2.757114884808552,
+          "speed": 258.97192084494617,
+          "opp_speed": 259.1498426487584,
+          "closing": 515.2313180413344,
+          "abs_rate_deg": 3.14715908219555,
+          "opp_abs_rate_deg": 4.461341598741074
+        }
+      },
+      "first_hit": 24.900001525878906
+    },
+    {
+      "role": "expert1",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 51,
+        "seconds": 2.5500030517578125,
+        "distance": 812.6367504436854,
+        "aim_deg": 163.1990538421783,
+        "speed": 258.2425504527553,
+        "opp_speed": 279.94638141859116,
+        "closing": -530.4184977003982,
+        "abs_rate_deg": 2.6694823260472984,
+        "opp_abs_rate_deg": 12.941598961958993
+      },
+      "near": {
+        "ticks": 125,
+        "seconds": 6.25,
+        "distance": 1709.7241337878118,
+        "aim_deg": 148.74365788028115,
+        "speed": 257.8990952399834,
+        "opp_speed": 278.0947774918716,
+        "closing": -509.12896353888067,
+        "abs_rate_deg": 13.21151156380007,
+        "opp_abs_rate_deg": 11.784521261250767
+      },
+      "entry": {
+        "time": 25.050003051757812,
+        "health": 0.5545000000000011,
+        "aim_deg": 145.3119294118204,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 1201.0942333923997,
+          "aim_deg": 3.0946011878391686,
+          "speed": 258.99036198561737,
+          "opp_speed": 277.5373927897235,
+          "closing": 530.9332215696128,
+          "abs_rate_deg": 3.252064384935402,
+          "opp_abs_rate_deg": 8.127576383889759
+        }
+      },
+      "first_hit": 22.949996948242188
+    },
+    {
+      "role": "expert1",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 52,
+        "seconds": 2.5999984741210938,
+        "distance": 822.0871388367686,
+        "aim_deg": 172.24798344027687,
+        "speed": 257.83394326404823,
+        "opp_speed": 258.50283241623976,
+        "closing": -513.5549447536625,
+        "abs_rate_deg": 2.755130151383865,
+        "opp_abs_rate_deg": 2.8435291461666807
+      },
+      "near": {
+        "ticks": 105,
+        "seconds": 5.25,
+        "distance": 1375.6183683555457,
+        "aim_deg": 160.28430770181387,
+        "speed": 257.7046551396473,
+        "opp_speed": 258.0113747353647,
+        "closing": -507.9864892078714,
+        "abs_rate_deg": 13.198944782742693,
+        "opp_abs_rate_deg": 13.220526863254277
+      },
+      "entry": {
+        "time": 25.300003051757812,
+        "health": 0.4555000000000012,
+        "aim_deg": 165.3527107100471,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 1128.9802168131555,
+          "aim_deg": 5.211668185550112,
+          "speed": 258.4140858871788,
+          "opp_speed": 258.99036198561737,
+          "closing": 515.1718200855042,
+          "abs_rate_deg": 4.903230139517859,
+          "opp_abs_rate_deg": 3.2151836144409227
+        }
+      },
+      "first_hit": 23.050003051757812
+    },
+    {
+      "role": "expert2",
+      "foe": "ace",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.34649999999999964,
+      "rear": {
+        "ticks": 142,
+        "seconds": 7.100002288818359,
+        "distance": 518.4163933316167,
+        "aim_deg": 50.48086023444991,
+        "speed": 153.92374236873025,
+        "opp_speed": 170.76497439991698,
+        "closing": -92.4335738825286,
+        "abs_rate_deg": 5.755858665035072,
+        "opp_abs_rate_deg": 7.575206755111791
+      },
+      "near": {
+        "ticks": 142,
+        "seconds": 7.100002288818359,
+        "distance": 518.4163933316167,
+        "aim_deg": 50.48086023444991,
+        "speed": 153.92374236873025,
+        "opp_speed": 170.76497439991698,
+        "closing": -92.4335738825286,
+        "abs_rate_deg": 5.755858665035072,
+        "opp_abs_rate_deg": 7.575206755111791
+      },
+      "entry": {
+        "time": 54.0,
+        "health": 0.15850000000000092,
+        "aim_deg": 1.6300033348830065,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 347.05549530494164,
+          "aim_deg": 40.421167119138374,
+          "speed": 154.30220846242563,
+          "opp_speed": 210.17729600122718,
+          "closing": 58.28500799370346,
+          "abs_rate_deg": 6.227534085764115,
+          "opp_abs_rate_deg": 8.791556113206163
+        }
+      },
+      "first_hit": 40.150001525878906
+    },
+    {
+      "role": "expert2",
+      "foe": "ace",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.39599999999999974,
+      "rear": {
+        "ticks": 138,
+        "seconds": 6.900001525878906,
+        "distance": 479.5881204417185,
+        "aim_deg": 46.16589954637395,
+        "speed": 153.38379285344914,
+        "opp_speed": 171.8775166063545,
+        "closing": -87.41286911498383,
+        "abs_rate_deg": 5.593660811318541,
+        "opp_abs_rate_deg": 7.632991141768227
+      },
+      "near": {
+        "ticks": 138,
+        "seconds": 6.900001525878906,
+        "distance": 479.5881204417185,
+        "aim_deg": 46.16589954637395,
+        "speed": 153.38379285344914,
+        "opp_speed": 171.8775166063545,
+        "closing": -87.41286911498383,
+        "abs_rate_deg": 5.593660811318541,
+        "opp_abs_rate_deg": 7.632991141768227
+      },
+      "entry": {
+        "time": 53.900001525878906,
+        "health": 0.07600000000000089,
+        "aim_deg": 0.9562425381040437,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 327.27765734421456,
+          "aim_deg": 40.25126382743178,
+          "speed": 153.97002069829483,
+          "opp_speed": 210.6661081193659,
+          "closing": 48.930859913807616,
+          "abs_rate_deg": 6.0348880384244294,
+          "opp_abs_rate_deg": 8.808471978210115
+        }
+      },
+      "first_hit": 40.80000305175781
+    },
+    {
+      "role": "expert2",
+      "foe": "ace",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": 40.400001525878906
+    },
+    {
+      "role": "expert2",
+      "foe": "ace",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 146,
+        "seconds": 7.299999237060547,
+        "distance": 843.8987087928175,
+        "aim_deg": 72.00244669375132,
+        "speed": 153.8349504672255,
+        "opp_speed": 188.96036595910527,
+        "closing": -168.25014847062488,
+        "abs_rate_deg": 6.145897994138565,
+        "opp_abs_rate_deg": 7.597471945810413
+      },
+      "near": {
+        "ticks": 381,
+        "seconds": 19.049999237060547,
+        "distance": 1904.4140484007605,
+        "aim_deg": 68.79638875074536,
+        "speed": 153.3971321444435,
+        "opp_speed": 199.13770099864428,
+        "closing": -172.75185538440581,
+        "abs_rate_deg": 6.078414695425419,
+        "opp_abs_rate_deg": 7.552665221158769
+      },
+      "entry": {
+        "time": 56.70000076293945,
+        "health": 0.29050000000000104,
+        "aim_deg": 24.073418565629446,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 100,
+          "seconds": 5.000003814697266,
+          "distance": 467.23018131308777,
+          "aim_deg": 31.00668955172547,
+          "speed": 152.64843984112392,
+          "opp_speed": 219.9401489684798,
+          "closing": 104.79161914862915,
+          "abs_rate_deg": 6.464925876789636,
+          "opp_abs_rate_deg": 9.368976977879587
+        }
+      },
+      "first_hit": 39.19999694824219
+    },
+    {
+      "role": "expert2",
+      "foe": "cem_original",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "expert2",
+      "foe": "cem_original",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "expert2",
+      "foe": "cem_original",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "expert2",
+      "foe": "cem_original",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "expert2",
+      "foe": "circler",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "expert2",
+      "foe": "circler",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "expert2",
+      "foe": "circler",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": {
+        "ticks": 111,
+        "seconds": 5.5500030517578125,
+        "distance": 3830.296177301838,
+        "aim_deg": 21.37744778198461,
+        "speed": 153.7838218508178,
+        "opp_speed": 229.27669503648423,
+        "closing": -41.160504496157586,
+        "abs_rate_deg": 6.581670712549368,
+        "opp_abs_rate_deg": 5.744276742687857
+      },
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "expert2",
+      "foe": "circler",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": null,
+      "near": null,
+      "entry": null,
+      "first_hit": null
+    },
+    {
+      "role": "expert2",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000000,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 53,
+        "seconds": 2.6500015258789062,
+        "distance": 1060.2589708300668,
+        "aim_deg": 112.04491594750888,
+        "speed": 155.74506784463588,
+        "opp_speed": 291.0826433528467,
+        "closing": -331.15022496686953,
+        "abs_rate_deg": 7.695241061396203,
+        "opp_abs_rate_deg": 10.272523941728913
+      },
+      "near": {
+        "ticks": 221,
+        "seconds": 11.050003051757812,
+        "distance": 2449.1000761406713,
+        "aim_deg": 95.14654330603895,
+        "speed": 154.05232629138638,
+        "opp_speed": 282.72514269930997,
+        "closing": -315.95971596420156,
+        "abs_rate_deg": 6.640724216146652,
+        "opp_abs_rate_deg": 10.523859562876474
+      },
+      "entry": {
+        "time": 44.150001525878906,
+        "health": 0.3895000000000011,
+        "aim_deg": 129.19347549250588,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 524.9500193425827,
+          "aim_deg": 104.24769125027345,
+          "speed": 172.18797497898495,
+          "opp_speed": 292.5887141515078,
+          "closing": 264.77522003748203,
+          "abs_rate_deg": 7.617859741080935,
+          "opp_abs_rate_deg": 9.228934732181429
+        }
+      },
+      "first_hit": 39.75
+    },
+    {
+      "role": "expert2",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000000,
+      "seat": "blue",
+      "rear_damage": 0.9999999999999984,
+      "rear": {
+        "ticks": 155,
+        "seconds": 7.749993037432432,
+        "distance": 725.5913142107967,
+        "aim_deg": 82.00875376830672,
+        "speed": 154.58481968018768,
+        "opp_speed": 244.79916964205674,
+        "closing": -202.98989362488507,
+        "abs_rate_deg": 7.0378000737044415,
+        "opp_abs_rate_deg": 9.344690920366492
+      },
+      "near": {
+        "ticks": 467,
+        "seconds": 23.349997233599424,
+        "distance": 1955.3761056781543,
+        "aim_deg": 76.94108680577719,
+        "speed": 153.98742074500115,
+        "opp_speed": 244.92504541731049,
+        "closing": -216.5748978043211,
+        "abs_rate_deg": 6.434136375281762,
+        "opp_abs_rate_deg": 9.15291936632892
+      },
+      "entry": {
+        "time": 47.349998474121094,
+        "health": 0.010000000000000883,
+        "aim_deg": 105.75183510728131,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 412.3116925246312,
+          "aim_deg": 124.36684980417036,
+          "speed": 171.3531834174537,
+          "opp_speed": 255.31532993085779,
+          "closing": 12.941632494057533,
+          "abs_rate_deg": 8.064595148126097,
+          "opp_abs_rate_deg": 12.94296491642175
+        }
+      },
+      "first_hit": 41.19999694824219
+    },
+    {
+      "role": "expert2",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000001,
+      "seat": "red",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 60,
+        "seconds": 3.0,
+        "distance": 933.1950608306195,
+        "aim_deg": 125.42167338469295,
+        "speed": 163.78872091874027,
+        "opp_speed": 293.63654427930123,
+        "closing": -377.46030902429766,
+        "abs_rate_deg": 7.625426129300321,
+        "opp_abs_rate_deg": 10.621931091116409
+      },
+      "near": {
+        "ticks": 203,
+        "seconds": 10.149993896484375,
+        "distance": 2263.5968394873707,
+        "aim_deg": 107.0864082222396,
+        "speed": 154.15645133239374,
+        "opp_speed": 287.85990225557117,
+        "closing": -358.27796219549856,
+        "abs_rate_deg": 6.794257497760706,
+        "opp_abs_rate_deg": 10.729845495860454
+      },
+      "entry": {
+        "time": 43.349998474121094,
+        "health": 0.3565000000000011,
+        "aim_deg": 147.3505990918296,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.049995422363281,
+          "distance": 703.5378168975899,
+          "aim_deg": 44.63362359305612,
+          "speed": 178.94774198548978,
+          "opp_speed": 293.2081529680983,
+          "closing": 442.72242019333794,
+          "abs_rate_deg": 7.596651323009446,
+          "opp_abs_rate_deg": 10.639692501318395
+        }
+      },
+      "first_hit": 40.05000305175781
+    },
+    {
+      "role": "expert2",
+      "foe": "episode_mix_sampled_4900",
+      "seed": 115000001,
+      "seat": "blue",
+      "rear_damage": 0.0,
+      "rear": {
+        "ticks": 62,
+        "seconds": 3.100006103515625,
+        "distance": 1046.0507995828702,
+        "aim_deg": 107.4293709287762,
+        "speed": 158.32001882707493,
+        "opp_speed": 253.66907930387663,
+        "closing": -293.21996823392715,
+        "abs_rate_deg": 7.783713179454699,
+        "opp_abs_rate_deg": 13.504918582400594
+      },
+      "near": {
+        "ticks": 255,
+        "seconds": 12.750003814697266,
+        "distance": 2427.6020200765356,
+        "aim_deg": 93.8274438149493,
+        "speed": 154.03462753168705,
+        "opp_speed": 243.0329218616196,
+        "closing": -269.442644621164,
+        "abs_rate_deg": 6.629250198659481,
+        "opp_abs_rate_deg": 10.184556474327268
+      },
+      "entry": {
+        "time": 44.5,
+        "health": 0.19150000000000095,
+        "aim_deg": 123.7466399142218,
+        "hit_before": true,
+        "preceding5s": {
+          "ticks": 101,
+          "seconds": 5.0500030517578125,
+          "distance": 453.99845822822954,
+          "aim_deg": 107.01817664372068,
+          "speed": 175.81094330545483,
+          "opp_speed": 256.6192805154433,
+          "closing": 212.6659849250998,
+          "abs_rate_deg": 8.03099266834224,
+          "opp_abs_rate_deg": 13.596599745011838
+        }
+      },
+      "first_hit": 39.599998474121094
+    }
+  ],
+  "input_sha256": {
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/aft_ace.json": "c19b0effff22b12cca54897b318308e2ff6aa4abe13d13c9ff8b26a741b9cf1b",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_ace/115000000_red.npz": "50547aeaa73c47551a50f51a68bdc18c1230024378cd261ac679bf09a27c14d4",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_ace/115000000_blue.npz": "46579d594035d3cfc4e4034bbee419b2a56373e77d10681508c918f24e5fcc1d",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_ace/115000001_red.npz": "c8f1ba2bf9de5a72f5d30761a1e8b5012ec5b907ed8a51a15e3b1ac85fc432d9",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_ace/115000001_blue.npz": "9beb52316c2b7f60a936aa4103637a10cfe18d9e44869a2f5fce0dab62075052",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/aft_cem_original.json": "10c9969b82d1c4972a9895717623398842a1da3d5ef091a2842f6de3e256567b",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_cem_original/115000000_red.npz": "95258f55b1d907e6b30055e3dac81e5b38a5f73ea8553d1f350bd47acfc68a39",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_cem_original/115000000_blue.npz": "5eabd7188dfd863ea3038a1d90b8ce846aa610f5c04ec2fc72fa64381a8cb74b",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_cem_original/115000001_red.npz": "8be8d4f011c939330fa71bcb930bde31a005cd18c5131000a9ef366c2fe9b26c",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_cem_original/115000001_blue.npz": "b15ba89b7eae282bfb72a1ae9942dea140017c66e64a36f619c717361f98818a",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/aft_circler.json": "24f053c612fc4dcbe78c4576ff8512ef621957d64cb93dec82dd4aa2ab7b91e8",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_circler/115000000_red.npz": "54041d3ba6cd978e5eb1a0d9841b316c4944a8eeed32af74a858c2605a456fba",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_circler/115000000_blue.npz": "9ea904ef334a822471c87aa8168f69d536fe85030d5a47ca9fb8a9beab5c855a",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_circler/115000001_red.npz": "6c8d64b88ff8e54456f1ddc9f2ff102cfe07f66b3aa601df0e68c8c701fd0847",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_circler/115000001_blue.npz": "e54701efecefd6781659ab6286aa6a54011cb51f1ee143c8b2dcaf382e832513",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/aft_episode_mix_sampled_4900.json": "471041964d5eca24fc4a0906917031914888f757b79dab9f9c3e420641658156",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_episode_mix_sampled_4900/115000000_red.npz": "679daa164c5e26b72af27a51b62975101b7d5c9c0d5f5d3ea675e2ef7a8e5ec8",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_episode_mix_sampled_4900/115000000_blue.npz": "df9fc5ed04aef7637b6b137db8621001263f5df098d84b65a2af4d7600b36739",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_episode_mix_sampled_4900/115000001_red.npz": "d2e7904b305f385df70dd1cb8985d416aff5740d128f8620be13adea5a157404",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/aft_episode_mix_sampled_4900/115000001_blue.npz": "a5d098dc6b415c736bdbd2d2b251859cb5ecda9fb581633a3a7d772c2662319f",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/control_ace.json": "a75020db085326084fe401592502026f381404538f14d22ce90af1660222e573",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_ace/115000000_red.npz": "011c0e61383712ce0e499990fcee6a3127cef34cb8bd21f7840ba23f879c1e14",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_ace/115000000_blue.npz": "6e5bec1f333ade1bef5289bd87d2327894bd41caf7f67b306f92039bb4b12c7f",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_ace/115000001_red.npz": "5580f2af4436760d5040f51304e50ad48e1090736c93e0feca0fa3c567605c32",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_ace/115000001_blue.npz": "d41b7065e623b8ebfb6b031e1e358c6becba76b4bcd65c23059def1324c1a842",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/control_cem_original.json": "bc09cf110690c944e823d1bf2e983967cdb3447ddc2f07e4aacbacef6d42127c",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_cem_original/115000000_red.npz": "f9f027c3405aa97b76a4c1f1a775235cc17e8997ef2c89e325f066e4addf86f1",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_cem_original/115000000_blue.npz": "3c7c96fd21d4a44a04be96f2ab83ac74eaf54e62ac07c49a8397c990f8e336e6",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_cem_original/115000001_red.npz": "4e336e231d04c7e06bf9c727a96f9c063297faf3ae579ca4777585c777d17505",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_cem_original/115000001_blue.npz": "a65efb5be157cdabb4270ac6221547fabc6bacbb7b46043ccaa1693ebf734a40",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/control_circler.json": "e9e848729b4478cdac793eef81fe026398d9bb5dcc9a10e74283f161de572507",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_circler/115000000_red.npz": "27307b3754ee17a57988a1951726c4e9f0b7bb0915a74ba5868a6d2ef162f48f",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_circler/115000000_blue.npz": "0bdf1e0ad267a7da9b375509d2951ca5ef32793dfe12c321341135ed4b8b3902",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_circler/115000001_red.npz": "05a68637e50269a1a74af501a3adfe8c832e49c1911426064fcf8ba3db814e7c",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_circler/115000001_blue.npz": "d48cda21e5bf622f192662dfe889df221d410218148e0d9e108471730e57a10f",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/control_episode_mix_sampled_4900.json": "cd757856aa67c9294772813881ebd311b724aee97ea3480f73881be02a3f1a35",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_episode_mix_sampled_4900/115000000_red.npz": "04fed7232badc2a0fd348f11e4918e314e6c7aecbcd8292d48d4fdf8141c0c3e",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_episode_mix_sampled_4900/115000000_blue.npz": "c1ec4b1d856411f7905e5fc77010805ff1522152fa40ba1ea247898546c6abf0",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_episode_mix_sampled_4900/115000001_red.npz": "5eacf3bfcc00a3c4a1f30f2ffa49de2531e8b4e4f1786d40b414fc81cbfff604",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/control_episode_mix_sampled_4900/115000001_blue.npz": "aed9ef9b367979e3dfedfd5d6f3514e35c671a1148b7ff25ccac70936f57c9da",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/expert0_ace.json": "fb7f55f5b513a3b55361c8216902883b689cda5997ea9d4233e1ee12ad4abde5",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_ace/115000000_red.npz": "903daa8ad465c3c451c6d0f130ce482c8fd0d78ff46aaae9f37a57a9677c02e2",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_ace/115000000_blue.npz": "d1ac7941b92112fb526c7e39ab3164ed8c8b9374e288530d9bd11e0f732a7c7b",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_ace/115000001_red.npz": "546f685c9e89a1e68ebf863f4d7376d64173c2016649c79b9c01b94777c3e58a",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_ace/115000001_blue.npz": "ee32b6c1b583d5e6cac75d2b001fef456abcb79d2b72fe073bd14f277c865224",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/expert0_cem_original.json": "dc46cb12b8251b9fac0cecce6dfedb33fe64614761f8cf8fb1afb59135b5fff0",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_cem_original/115000000_red.npz": "34473ba8e6b825022ea5bef2fbb011505a3e172022b1f8625df296ff44da70cd",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_cem_original/115000000_blue.npz": "e65ac7837ce489de0b1068e2c3217b9d2c0b063e89c8b844ab6bfdc5bc94bcf5",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_cem_original/115000001_red.npz": "d77458c7b76be582775e1f85b337d8067ba33bc81a87edce4e57751c7388d081",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_cem_original/115000001_blue.npz": "d8a45a7803dfa747ae2a2904a6110386f3ee32e79094a49c4a82ef546a20c499",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/expert0_circler.json": "652917f34283934a785d1c98c9622e100eeaf04cdb5c209469165c6404e2d3fb",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_circler/115000000_red.npz": "abff6b1bbf1578bb82899d6478ae7d72c6c2241c9bbb9e2eed0a65d05c3c3ae4",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_circler/115000000_blue.npz": "d79ddd6c0c6ff9d01c5f8d4cb5eef2a6ee2c86716d5bae0ee1851b7b840e20b6",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_circler/115000001_red.npz": "b405eb4a55e23076c418788e0241e219d3f825cb444a6d6adcba13883882b44e",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_circler/115000001_blue.npz": "0d8ddb99da272787c24180683aca3a05871de2192402ed3234acfa138d538eaa",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/expert0_episode_mix_sampled_4900.json": "d6da8847328f14a44665ffa4d3f48d24fa39569d626b4b8895be8deaca2553e1",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_episode_mix_sampled_4900/115000000_red.npz": "f9ba0adc98c6d06cfcf3bd5ef2669fc388ef4d4ad2142fe1dc6d2f46a99a5619",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_episode_mix_sampled_4900/115000000_blue.npz": "bd895bbdaddb953fdc52a2533e881a043959393cdf4126abba3e9feefbf13d5b",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_episode_mix_sampled_4900/115000001_red.npz": "a43806d0998b271b522dd09e2d56709fdb1e3c4b34a64174f1a3158f3d842d53",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert0_episode_mix_sampled_4900/115000001_blue.npz": "4198eb4cc6843d8b0495d6126c512f55b95f544939116f2c86e9ef605604a7b4",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/expert1_ace.json": "20588261172b7b8d44bd0251f4e2bd6ee638c2a8ee5119d13d831a05d02a6981",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_ace/115000000_red.npz": "0e5430918379d414ae059497e862fc286c71aa8e15c7e12b56ad928688cbf696",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_ace/115000000_blue.npz": "950963ec90c6bd6745b645985d98817b61e70803b8c0c8a34d2b853ad8daeeaa",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_ace/115000001_red.npz": "5c751a88c1a229ce4aad67a5b96f9f13aab3f07d9e9325693f1632a3f454ea12",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_ace/115000001_blue.npz": "69f5def96a151569632b43761bbf7d068bea5ae9f849866e8340139d3a85052f",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/expert1_cem_original.json": "1ea720453f7829262a122675387e8dec2bf29304567322fc5b6bd5dd8dd14999",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_cem_original/115000000_red.npz": "313f9defa6f21b864d05f6baaf88ddd1c429f55ced0b67b7705a32acd2a71cb0",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_cem_original/115000000_blue.npz": "7f35c622405bcd9929ab0cf2b396c542c830d49b29d1d2a206ff16f0c0b6c3ed",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_cem_original/115000001_red.npz": "bc1dc9e627e6d339790fd7721b7c2ae9f35bf03699f24acef3a2440f8daf3c53",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_cem_original/115000001_blue.npz": "4a4d0a2a13505a093542f933341d8edcc8568fc079930dad7a4611f885d246a4",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/expert1_circler.json": "17ebf640d2e9e37c1f63d54e742131d500fdd8ffe3496a90c6b2b7fa76d47fff",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_circler/115000000_red.npz": "b2e529386e5f47c19d8d63409dac18d39a89c1f51018a469001811f619b2e826",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_circler/115000000_blue.npz": "0de8a3a345355d045896157a1cce54cd37c0e12d163fc1047fcf81e993a3ac66",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_circler/115000001_red.npz": "dadd2f5830006be60bdbec867f24022b60e696531803cd3c0c4bf6267f26e9c6",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_circler/115000001_blue.npz": "bc382abd9b0a87866492178bbd88476318b7c1c029280c60b1e7c665a1baf980",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/expert1_episode_mix_sampled_4900.json": "b08980ef2e1f49e83499ab5fd389d9d20ce84ae5dc4241d08d713b52d25ae46a",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_episode_mix_sampled_4900/115000000_red.npz": "9b9f20f03d6211e660cb17cbcf19c0a04cdaca92769b9ae79928cedf23dc1f59",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_episode_mix_sampled_4900/115000000_blue.npz": "35f044880d07f352a862d1d234d6bc65baaad654f295dc3ff5eef187baac989a",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_episode_mix_sampled_4900/115000001_red.npz": "96f96da088fce2dc27d4093ee7ab5dda6aa92b5ddfd82b45c3edb4a033f1fa98",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert1_episode_mix_sampled_4900/115000001_blue.npz": "b5ec9bb4dd78efacff655c98328dac6d7a955233f509b08e648f032259832aa2",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/expert2_ace.json": "a97b7f5f973bc42ebb9337f4d2795704cd56d6fec67a448262e697529d122ae8",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_ace/115000000_red.npz": "e06e99335f654694e8c84433ad28a279566626bbd6d02961d75c33eb41ea94ab",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_ace/115000000_blue.npz": "5623f68d7a732f7499eabed0dc2c1d9b3594e71ad600949bc4b51f130467ff0a",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_ace/115000001_red.npz": "65512973c51455460a27b53fc1425f1d34937bb740df7653d5704d96edea7fa5",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_ace/115000001_blue.npz": "a5facc669eef5bcdfaf8df18c68a2761934a75ec1f193fcf7f6cd229a0cba8c6",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/expert2_cem_original.json": "0ff7cfec137c1ebfb65327653549270d2d67d5ce1de45a2e865b4eea1c05cb17",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_cem_original/115000000_red.npz": "20c55e192e1c049f4944e8130e10ac330117819d7b020886ec6c0c84ebf73c95",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_cem_original/115000000_blue.npz": "26f0032e794a4422893816a0e7c4e66a281c172546b4cad926fb70f47bc3737f",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_cem_original/115000001_red.npz": "024820e0920a6c85e6dba8a587dc1e8f18905b94813a1d2a937d7fc4aaeec650",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_cem_original/115000001_blue.npz": "de41463c45b97761f411f649feb34ea578ce69f60b199bf396ebb18969fd6da5",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/expert2_circler.json": "21dc5a6b8cacf8a59286d20152e1a4a58534f1921d8e8ef336583c4fdc8fe9ad",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_circler/115000000_red.npz": "59a145921733304a3041684bf95e7c3ee2a3d2d37b2d23e41c3c725ca834dbb5",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_circler/115000000_blue.npz": "3708860c58af4f5bcae5555dd75b8926954519f44cf0e650d5f559503e7bca7c",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_circler/115000001_red.npz": "54eae3fabfd37660f7a8129cad32be77ffd897d23e6937bd4575b9f4bd7e2074",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_circler/115000001_blue.npz": "cc78c39018c5c88eccf017e2f5b6f8a3afbc36c6121a6cd6c82cb7f83315ac6c",
+    "runs/league_rear_trajectory_diagnosis_20261012/matches/expert2_episode_mix_sampled_4900.json": "b9e317461ced74819ac728b87b1667e1382be57300dc7d98629b035e148fe85b",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_episode_mix_sampled_4900/115000000_red.npz": "651786e9c18d727a893105b9f7b7a5a58624de490535eb0ba02426989634a12e",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_episode_mix_sampled_4900/115000000_blue.npz": "cf552f13f4e9bbaa8b56093a11593dc400177a373a40143df1cf437d0db6ac0c",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_episode_mix_sampled_4900/115000001_red.npz": "b4a34496dc662748c2c394bdf020927cd08300e6809f86685a63cea976b428b7",
+    "runs/league_rear_trajectory_diagnosis_20261012/traces/expert2_episode_mix_sampled_4900/115000001_blue.npz": "8c4b163d46ea990fea46dd4235bf4c7846b833a06c13b4878053a1607032c4aa"
+  },
+  "scope": "Old five diagnostic policies, not latest LR candidates. SI m/s; heading rate deg/s from wrapped finite differences. Episode medians then role median, no tick pooling. Descriptive correlations, not causal proof or turn-radius estimates."
+}

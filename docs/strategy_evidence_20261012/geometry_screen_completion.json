@@ -1,0 +1,119 @@
+{
+  "status": "fixed_parent_geometry_screen_complete",
+  "training_steps": 0,
+  "training_seconds": 0,
+  "evaluation_games": 96,
+  "evaluation_seconds": 15.066290099988692,
+  "total_seconds": 27.66875810001511,
+  "profiles": {
+    "fixed_right": {
+      "neutral": {
+        "games": 8,
+        "wins": 8,
+        "rear_games": 8,
+        "clean_rear_wins": 8,
+        "mean_rear": 0.5565625000000008,
+        "mean_received": 0.0
+      },
+      "quarter": {
+        "games": 8,
+        "wins": 8,
+        "rear_games": 4,
+        "clean_rear_wins": 4,
+        "mean_rear": 0.4999999999999992,
+        "mean_received": 0.0
+      }
+    },
+    "league_residual_continuation_20261007_s3301_t2097152": {
+      "neutral": {
+        "games": 8,
+        "wins": 8,
+        "rear_games": 8,
+        "clean_rear_wins": 8,
+        "mean_rear": 0.2987500000000011,
+        "mean_received": 0.0
+      },
+      "quarter": {
+        "games": 8,
+        "wins": 8,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.0
+      }
+    },
+    "extend_cem_s6800_g3_c9": {
+      "neutral": {
+        "games": 8,
+        "wins": 2,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9727499999999982
+      },
+      "quarter": {
+        "games": 8,
+        "wins": 8,
+        "rear_games": 8,
+        "clean_rear_wins": 8,
+        "mean_rear": 0.5875000000000006,
+        "mean_received": 0.0
+      }
+    },
+    "switching_turn_strong": {
+      "neutral": {
+        "games": 8,
+        "wins": 4,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9681874999999981
+      },
+      "quarter": {
+        "games": 8,
+        "wins": 8,
+        "rear_games": 8,
+        "clean_rear_wins": 8,
+        "mean_rear": 0.5050000000000004,
+        "mean_received": 0.0
+      }
+    },
+    "ace": {
+      "neutral": {
+        "games": 8,
+        "wins": 6,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.8481249999999981
+      },
+      "quarter": {
+        "games": 8,
+        "wins": 8,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.0
+      }
+    },
+    "lead": {
+      "neutral": {
+        "games": 8,
+        "wins": 1,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9987499999999984
+      },
+      "quarter": {
+        "games": 8,
+        "wins": 8,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.0
+      }
+    }
+  },
+  "policy_promoted": false
+}

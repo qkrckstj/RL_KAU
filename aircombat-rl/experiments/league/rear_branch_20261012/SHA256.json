@@ -1,0 +1,19 @@
+{
+  "archived_opponent/policy.py": "474614dc8ae8ea6af48815674b21c101344a29b7fb630ac35926e0c500ca96d2",
+  "archived_opponent/policy_net.json": "8691bd80415a663e1f8bedf72ace8ccdb69509656977015650aac47d3977acaa",
+  "archived_opponent/policy_net.zip": "834d2a4238d6b99d56b973fb739c71db16030a4b2684c066a5464be13f8b3edb",
+  "archived_opponent/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+  "manifest.json": "9f07bfa6eec2fb4f6147a87677b03cfbd5878a343d17a79b9c2b197f16b14152",
+  "rear_candidate/learner.zip": "72668125d95aa12ff3b4a5832f83e1497e8105a05a822b3906166b3b98a04ccb",
+  "rear_candidate/policy.py": "f5963d4df5ee4e1c4ae7b7c9f581b0ee4bf867b28cf16616dddd8fab3251806d",
+  "rear_candidate/policy_net.json": "497e428e912357c640fc16abaf99b980c3eca78a98413916b1519828de16eed0",
+  "rear_candidate/policy_net.zip": "be12137e79cfd2dd2e84a372f777b1a16e22e9946aae901e4a59abf1a4bf3b67",
+  "rear_candidate/rng.pt": "914b76fa20af8dabd427ab28dfb54c4658704e32f0c8ae856d3d674aa893f570",
+  "rear_candidate/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e",
+  "retained_ppo/learner.zip": "51cdca36dff1eefd980a1a8c5643f612c1d3c76209780a35e49347096725ac78",
+  "retained_ppo/policy.py": "f5963d4df5ee4e1c4ae7b7c9f581b0ee4bf867b28cf16616dddd8fab3251806d",
+  "retained_ppo/policy_net.json": "7c096397a1f63650139726dfa16de3b530a12f57671adea0cf5c1a0fd257ab12",
+  "retained_ppo/policy_net.zip": "ebb19604c7971876e9bfacc137c290a209dc654a13c198bb77e5120eca8dc21b",
+  "retained_ppo/rng.pt": "e16c298e5b5c7dfc1b55a7251649f050ff4e196b1106262d948f9f6b1d671986",
+  "retained_ppo/wrappers.py": "7015430865e00f301ed2736c8dd4bf8b6ce760ffb3379f48da253cc6b2fced3e"
+}

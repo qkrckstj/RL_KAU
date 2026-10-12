@@ -1,0 +1,1015 @@
+{
+  "status": "completed_training_geometry_described",
+  "new_training_steps": 0,
+  "new_evaluation_games": 0,
+  "recorded_training_games": 1373,
+  "groups": {
+    "10100": {
+      "neutral": {
+        "games": 331,
+        "wins": 217,
+        "rear_games": 51,
+        "clean_rear_wins": 51,
+        "mean_rear": 0.0815181268882176,
+        "mean_received": 0.5890649551936507,
+        "mean_rear_streak": 0.2897280966767371
+      },
+      "training_tail_quarter": {
+        "games": 328,
+        "wins": 305,
+        "rear_games": 114,
+        "clean_rear_wins": 113,
+        "mean_rear": 0.167236280487805,
+        "mean_received": 0.07276676842806543,
+        "mean_rear_streak": 0.671493902439024
+      }
+    },
+    "10101": {
+      "neutral": {
+        "games": 330,
+        "wins": 225,
+        "rear_games": 53,
+        "clean_rear_wins": 51,
+        "mean_rear": 0.07879393939393946,
+        "mean_received": 0.6173484851182862,
+        "mean_rear_streak": 0.3187878787878786
+      },
+      "training_tail_quarter": {
+        "games": 384,
+        "wins": 369,
+        "rear_games": 144,
+        "clean_rear_wins": 142,
+        "mean_rear": 0.17901692708333347,
+        "mean_received": 0.04289453125481183,
+        "mean_rear_streak": 0.7145833333333329
+      }
+    }
+  },
+  "by_foe": {
+    "ace": {
+      "neutral": {
+        "games": 12,
+        "wins": 11,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.8794583338312805,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 9,
+        "wins": 9,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.1111111111111111
+      }
+    },
+    "cem_original": {
+      "neutral": {
+        "games": 9,
+        "wins": 9,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.4399999988575776,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 11,
+        "wins": 11,
+        "rear_games": 2,
+        "clean_rear_wins": 2,
+        "mean_rear": 0.06390909090909092,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.3681818181818182
+      }
+    },
+    "circler": {
+      "neutral": {
+        "games": 12,
+        "wins": 12,
+        "rear_games": 12,
+        "clean_rear_wins": 12,
+        "mean_rear": 0.72775,
+        "mean_received": 0.0,
+        "mean_rear_streak": 2.754166666666664
+      },
+      "training_tail_quarter": {
+        "games": 12,
+        "wins": 12,
+        "rear_games": 12,
+        "clean_rear_wins": 12,
+        "mean_rear": 0.9455416666666652,
+        "mean_received": 0.0,
+        "mean_rear_streak": 3.708333333333328
+      }
+    },
+    "control_s7400_t2621440_a4900": {
+      "neutral": {
+        "games": 15,
+        "wins": 7,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9755333335449298,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 18,
+        "wins": 15,
+        "rear_games": 11,
+        "clean_rear_wins": 11,
+        "mean_rear": 0.1747777777777784,
+        "mean_received": 0.16666666666666666,
+        "mean_rear_streak": 0.647222222222222
+      }
+    },
+    "control_s7600_t1310720_a4900": {
+      "neutral": {
+        "games": 12,
+        "wins": 2,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9983333333705863,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 12,
+        "wins": 12,
+        "rear_games": 11,
+        "clean_rear_wins": 11,
+        "mean_rear": 0.20029166666666762,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.7875
+      }
+    },
+    "control_s7601_t1310720_a4900": {
+      "neutral": {
+        "games": 10,
+        "wins": 2,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9930499998852611,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 9,
+        "wins": 9,
+        "rear_games": 7,
+        "clean_rear_wins": 7,
+        "mean_rear": 0.16911111111111193,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.6500000000000002
+      }
+    },
+    "ddqn_s0": {
+      "neutral": {
+        "games": 17,
+        "wins": 15,
+        "rear_games": 1,
+        "clean_rear_wins": 1,
+        "mean_rear": 0.02485294117647066,
+        "mean_received": 0.6101176502073512,
+        "mean_rear_streak": 0.07647058823529415
+      },
+      "training_tail_quarter": {
+        "games": 12,
+        "wins": 12,
+        "rear_games": 1,
+        "clean_rear_wins": 1,
+        "mean_rear": 0.03658333333333344,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.15833333333333338
+      }
+    },
+    "ddqn_s1": {
+      "neutral": {
+        "games": 6,
+        "wins": 6,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.5500000019868215,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 7,
+        "wins": 7,
+        "rear_games": 5,
+        "clean_rear_wins": 5,
+        "mean_rear": 0.6647857142857135,
+        "mean_received": 0.0,
+        "mean_rear_streak": 2.571428571428568
+      }
+    },
+    "episode_mix_sampled_4900": {
+      "neutral": {
+        "games": 21,
+        "wins": 8,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9694761900852124,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 6,
+        "wins": 5,
+        "rear_games": 4,
+        "clean_rear_wins": 4,
+        "mean_rear": 0.23766666666666744,
+        "mean_received": 0.22166666388511658,
+        "mean_rear_streak": 0.7333333333333336
+      }
+    },
+    "episode_mix_sampled_4901": {
+      "neutral": {
+        "games": 14,
+        "wins": 7,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9855714283351388,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 18,
+        "wins": 18,
+        "rear_games": 18,
+        "clean_rear_wins": 18,
+        "mean_rear": 0.4197500000000008,
+        "mean_received": 0.0,
+        "mean_rear_streak": 1.5083333333333326
+      }
+    },
+    "evader": {
+      "neutral": {
+        "games": 17,
+        "wins": 0,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 21,
+        "wins": 20,
+        "rear_games": 14,
+        "clean_rear_wins": 14,
+        "mean_rear": 0.41066666666666635,
+        "mean_received": 0.0,
+        "mean_rear_streak": 2.069047619047617
+      }
+    },
+    "extend_cem_s6800_g3_c9": {
+      "neutral": {
+        "games": 12,
+        "wins": 7,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9790416670342287,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 21,
+        "wins": 21,
+        "rear_games": 21,
+        "clean_rear_wins": 21,
+        "mean_rear": 0.6157857142857148,
+        "mean_received": 0.0,
+        "mean_rear_streak": 2.057142857142857
+      }
+    },
+    "fixed_left": {
+      "neutral": {
+        "games": 14,
+        "wins": 14,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.4832142804350172,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 17,
+        "wins": 17,
+        "rear_games": 5,
+        "clean_rear_wins": 5,
+        "mean_rear": 0.1881176470588233,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.8529411764705873
+      }
+    },
+    "fixed_right": {
+      "neutral": {
+        "games": 57,
+        "wins": 57,
+        "rear_games": 54,
+        "clean_rear_wins": 54,
+        "mean_rear": 0.5760263157894742,
+        "mean_received": 0.0008684208518580386,
+        "mean_rear_streak": 2.1885964912280698
+      },
+      "training_tail_quarter": {
+        "games": 62,
+        "wins": 62,
+        "rear_games": 5,
+        "clean_rear_wins": 5,
+        "mean_rear": 0.04402419354838706,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.2330645161290321
+      }
+    },
+    "gate_s2302_g1_c9": {
+      "neutral": {
+        "games": 11,
+        "wins": 11,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.5279999998482791,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 14,
+        "wins": 14,
+        "rear_games": 3,
+        "clean_rear_wins": 3,
+        "mean_rear": 0.08982142857142872,
+        "mean_received": 0.010607144662312098,
+        "mean_rear_streak": 0.5178571428571426
+      }
+    },
+    "history_s6000_t1048576_a4900": {
+      "neutral": {
+        "games": 18,
+        "wins": 18,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.2951666663090388,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 13,
+        "wins": 11,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.15384615384615385,
+        "mean_rear_streak": 0.08076923076923077
+      }
+    },
+    "hold5_s6500_t262144_a4901": {
+      "neutral": {
+        "games": 8,
+        "wins": 8,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.19593749940395355,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 17,
+        "wins": 17,
+        "rear_games": 1,
+        "clean_rear_wins": 1,
+        "mean_rear": 0.005441176470588288,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.06764705882352941
+      }
+    },
+    "hold5_s6501_t262144_a4900": {
+      "neutral": {
+        "games": 9,
+        "wins": 9,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.37399999962912667,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 13,
+        "wins": 13,
+        "rear_games": 4,
+        "clean_rear_wins": 4,
+        "mean_rear": 0.08811538461538486,
+        "mean_received": 0.03680769296792837,
+        "mean_rear_streak": 0.2730769230769231
+      }
+    },
+    "intercept_s2500_g3_c6": {
+      "neutral": {
+        "games": 9,
+        "wins": 9,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.5133333288960986,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 8,
+        "wins": 8,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.0
+      }
+    },
+    "lead": {
+      "neutral": {
+        "games": 15,
+        "wins": 7,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9557333325346311,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 15,
+        "wins": 14,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.0
+      }
+    },
+    "league_contextual_speed_pilot_20261007_c0": {
+      "neutral": {
+        "games": 6,
+        "wins": 4,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.7678333384295305,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 13,
+        "wins": 10,
+        "rear_games": 1,
+        "clean_rear_wins": 1,
+        "mean_rear": 0.0025384615384615406,
+        "mean_received": 0.23076923076923078,
+        "mean_rear_streak": 0.34999999999999953
+      }
+    },
+    "league_contextual_speed_pilot_20261007_c1": {
+      "neutral": {
+        "games": 8,
+        "wins": 5,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.7957500026095659,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 8,
+        "wins": 5,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.375,
+        "mean_rear_streak": 0.06874999999999999
+      }
+    },
+    "league_maneuver_parallel_20261006_545956914cb9": {
+      "neutral": {
+        "games": 16,
+        "wins": 15,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.8421250018291175,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 11,
+        "wins": 8,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.27422727238048206,
+        "mean_rear_streak": 0.0
+      }
+    },
+    "league_pursuit_context_train_20261007_346fd4060999": {
+      "neutral": {
+        "games": 7,
+        "wins": 7,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.47378571544374737,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 9,
+        "wins": 6,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.3333333333333333,
+        "mean_rear_streak": 0.0
+      }
+    },
+    "league_pursuit_context_train_20261007_5a5ecfbeabd6": {
+      "neutral": {
+        "games": 11,
+        "wins": 11,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.7590000046925112,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 12,
+        "wins": 11,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.14108333239952722,
+        "mean_rear_streak": 0.0
+      }
+    },
+    "league_residual_continuation_20261007_s3300_t4194304": {
+      "neutral": {
+        "games": 10,
+        "wins": 10,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.3217500030994415,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 7,
+        "wins": 7,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.08249999795641218,
+        "mean_rear_streak": 0.0
+      }
+    },
+    "league_residual_continuation_20261007_s3301_t2097152": {
+      "neutral": {
+        "games": 57,
+        "wins": 47,
+        "rear_games": 36,
+        "clean_rear_wins": 34,
+        "mean_rear": 0.17535964912280744,
+        "mean_received": 0.19575438622319907,
+        "mean_rear_streak": 0.6578947368421051
+      },
+      "training_tail_quarter": {
+        "games": 57,
+        "wins": 51,
+        "rear_games": 4,
+        "clean_rear_wins": 3,
+        "mean_rear": 0.03671052631578944,
+        "mean_received": 0.12581578955838554,
+        "mean_rear_streak": 0.18421052631578927
+      }
+    },
+    "league_temporal_repair_20261007_2ca01b55b31e": {
+      "neutral": {
+        "games": 2,
+        "wins": 2,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.6435000076889992,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 6,
+        "wins": 6,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.21666666666666676
+      }
+    },
+    "league_temporal_repair_20261007_6607864eceb4": {
+      "neutral": {
+        "games": 14,
+        "wins": 13,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.49925000433410915,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 9,
+        "wins": 9,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.016500002808041044,
+        "mean_rear_streak": 0.011111111111111112
+      }
+    },
+    "novel_lag_fast": {
+      "neutral": {
+        "games": 13,
+        "wins": 2,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9781538470146748,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 17,
+        "wins": 16,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.008823529411764707
+      }
+    },
+    "novel_opening_right": {
+      "neutral": {
+        "games": 12,
+        "wins": 7,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.5128750000149012,
+        "mean_rear_streak": 0.04166666666666667
+      },
+      "training_tail_quarter": {
+        "games": 17,
+        "wins": 16,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.10152941240983851,
+        "mean_rear_streak": 0.044117647058823525
+      }
+    },
+    "portfolio_s6400_g0_c2_a1": {
+      "neutral": {
+        "games": 12,
+        "wins": 12,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.4688750021159649,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 8,
+        "wins": 7,
+        "rear_games": 1,
+        "clean_rear_wins": 1,
+        "mean_rear": 0.0755000000000001,
+        "mean_received": 0.125,
+        "mean_rear_streak": 0.23125000000000012
+      }
+    },
+    "portfolio_s6401_g2_c2_a0": {
+      "neutral": {
+        "games": 7,
+        "wins": 7,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.3370714272771563,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 7,
+        "wins": 7,
+        "rear_games": 1,
+        "clean_rear_wins": 1,
+        "mean_rear": 0.010857142857142984,
+        "mean_received": 0.007071426936558315,
+        "mean_rear_streak": 0.03571428571428571
+      }
+    },
+    "pursuit": {
+      "neutral": {
+        "games": 9,
+        "wins": 9,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.3685000042120616,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 7,
+        "wins": 6,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.0
+      }
+    },
+    "reactive_brake_pursuit_left": {
+      "neutral": {
+        "games": 10,
+        "wins": 2,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9847999995574355,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 16,
+        "wins": 15,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.10828125057742,
+        "mean_rear_streak": 0.0
+      }
+    },
+    "reactive_range_escape_right": {
+      "neutral": {
+        "games": 13,
+        "wins": 3,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9850000001203555,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 11,
+        "wins": 11,
+        "rear_games": 11,
+        "clean_rear_wins": 11,
+        "mean_rear": 0.8754999999999992,
+        "mean_received": 0.0,
+        "mean_rear_streak": 2.995454545454543
+      }
+    },
+    "risk_break_cem_s7200_g1_c9": {
+      "neutral": {
+        "games": 7,
+        "wins": 0,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 1.0,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 15,
+        "wins": 15,
+        "rear_games": 14,
+        "clean_rear_wins": 14,
+        "mean_rear": 0.4684666666666673,
+        "mean_received": 0.0,
+        "mean_rear_streak": 1.6333333333333335
+      }
+    },
+    "sampled_s3300_t2097152_a4900": {
+      "neutral": {
+        "games": 11,
+        "wins": 11,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.4515000039880926,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 12,
+        "wins": 12,
+        "rear_games": 1,
+        "clean_rear_wins": 1,
+        "mean_rear": 0.01320833333333341,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.19166666666666674
+      }
+    },
+    "sampled_s3301_t2097152_a4900": {
+      "neutral": {
+        "games": 7,
+        "wins": 5,
+        "rear_games": 1,
+        "clean_rear_wins": 1,
+        "mean_rear": 0.14285714285714263,
+        "mean_received": 0.5567857112203326,
+        "mean_rear_streak": 0.5714285714285705
+      },
+      "training_tail_quarter": {
+        "games": 9,
+        "wins": 8,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.1111111111111111,
+        "mean_rear_streak": 0.04444444444444444
+      }
+    },
+    "switching_range_wide": {
+      "neutral": {
+        "games": 14,
+        "wins": 6,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9674285711454493,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 22,
+        "wins": 22,
+        "rear_games": 19,
+        "clean_rear_wins": 19,
+        "mean_rear": 0.25838636363636447,
+        "mean_received": 0.025499999523162842,
+        "mean_rear_streak": 0.9318181818181814
+      }
+    },
+    "switching_threat_close": {
+      "neutral": {
+        "games": 14,
+        "wins": 5,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9822857143091304,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 17,
+        "wins": 17,
+        "rear_games": 15,
+        "clean_rear_wins": 15,
+        "mean_rear": 0.3227058823529418,
+        "mean_received": 0.06211764847531038,
+        "mean_rear_streak": 1.217647058823529
+      }
+    },
+    "switching_turn_strong": {
+      "neutral": {
+        "games": 20,
+        "wins": 8,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9745500000193715,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 25,
+        "wins": 25,
+        "rear_games": 24,
+        "clean_rear_wins": 24,
+        "mean_rear": 0.29868000000000094,
+        "mean_received": 0.0,
+        "mean_rear_streak": 1.2339999999999993
+      }
+    },
+    "symgate_s2400_g0_c1": {
+      "neutral": {
+        "games": 14,
+        "wins": 14,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.4902857169508934,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 13,
+        "wins": 13,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.11153846153846159
+      }
+    },
+    "temporal_delayed_left": {
+      "neutral": {
+        "games": 16,
+        "wins": 0,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 1.0,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 17,
+        "wins": 16,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.058823529411764705,
+        "mean_rear_streak": 0.07647058823529414
+      }
+    },
+    "temporal_extend_left": {
+      "neutral": {
+        "games": 15,
+        "wins": 7,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9810333328942458,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 16,
+        "wins": 13,
+        "rear_games": 15,
+        "clean_rear_wins": 13,
+        "mean_rear": 0.2236562500000009,
+        "mean_received": 0.17243750020861626,
+        "mean_rear_streak": 0.7468750000000002
+      }
+    },
+    "temporal_extend_right": {
+      "neutral": {
+        "games": 10,
+        "wins": 4,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.987749999947846,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 14,
+        "wins": 13,
+        "rear_games": 11,
+        "clean_rear_wins": 11,
+        "mean_rear": 0.24003571428571507,
+        "mean_received": 0.06364285733018603,
+        "mean_rear_streak": 1.007142857142857
+      }
+    },
+    "untrained_parameter_02": {
+      "neutral": {
+        "games": 15,
+        "wins": 4,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.9313333330055078,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 15,
+        "wins": 15,
+        "rear_games": 15,
+        "clean_rear_wins": 15,
+        "mean_rear": 0.9361999999999988,
+        "mean_received": 0.0,
+        "mean_rear_streak": 3.439999999999996
+      }
+    },
+    "untrained_parameter_04": {
+      "neutral": {
+        "games": 13,
+        "wins": 3,
+        "rear_games": 0,
+        "clean_rear_wins": 0,
+        "mean_rear": 0.0,
+        "mean_received": 0.8136538450534527,
+        "mean_rear_streak": 0.0
+      },
+      "training_tail_quarter": {
+        "games": 7,
+        "wins": 7,
+        "rear_games": 2,
+        "clean_rear_wins": 2,
+        "mean_rear": 0.168785714285714,
+        "mean_received": 0.0,
+        "mean_rear_streak": 0.7857142857142849
+      }
+    }
+  },
+  "input_sha256": {
+    "runs/league_rear_opponent_curriculum_20261012/curriculum_s10100/training_episodes.jsonl": "883d779642b8016e106685da8f7ef275a72e24061a7660e84954c0d4b7c737c1",
+    "runs/league_rear_opponent_curriculum_20261012/curriculum_s10101/training_episodes.jsonl": "96140c1ac2694ef321b89599abd35c078cb0dc629101d3d85df4ef83fadd4860"
+  },
+  "scope": "Changing policies during an already rejected opponent-distribution experiment. Completed episodes only; different durations affect composition. Recorded starting geometry, not paired causal comparison or fixed-parent evaluation. No first-hit timestamps available."
+}

@@ -1,0 +1,80 @@
+{
+  "models": {
+    "retained_ppo": {
+      "original_spec": {
+        "id": "league_tail_retention_pilot_20261012_a4900",
+        "kind": "submission",
+        "design": "runs/league_tail_retention_pilot_20261012/checkpoint/sampled_4900",
+        "weights": "runs/league_tail_retention_pilot_20261012/checkpoint/sampled_4900/policy_net.zip"
+      },
+      "directory": "retained_ppo",
+      "weights_sha256": "ebb19604c7971876e9bfacc137c290a209dc654a13c198bb77e5120eca8dc21b"
+    },
+    "archived_opponent": {
+      "original_spec": {
+        "id": "league_residual_continuation_20261007_s3301_t2097152",
+        "kind": "submission",
+        "design": "runs/league_residual_continuation_20261007/s3301/checkpoints/step_2097152/submission",
+        "weights": "runs/league_residual_continuation_20261007/s3301/checkpoints/step_2097152/submission/policy_net.zip"
+      },
+      "directory": "archived_opponent",
+      "weights_sha256": "834d2a4238d6b99d56b973fb739c71db16030a4b2684c066a5464be13f8b3edb"
+    },
+    "rear_candidate": {
+      "original_spec": {
+        "id": "league_rear_geometry_20261012_geometry_s10101_a4901",
+        "kind": "submission",
+        "design": "runs/league_rear_geometry_20261012/geometry_s10101/checkpoint/sampled_4901",
+        "weights": "runs/league_rear_geometry_20261012/geometry_s10101/checkpoint/sampled_4901/policy_net.zip"
+      },
+      "directory": "rear_candidate",
+      "weights_sha256": "be12137e79cfd2dd2e84a372f777b1a16e22e9946aae901e4a59abf1a4bf3b67"
+    }
+  },
+  "games": [
+    {
+      "seed": 441000000,
+      "seat": "red",
+      "result": "WIN",
+      "own_health": 1.0,
+      "opp_health": 0.0,
+      "rear_damage": 0.5215000000000013,
+      "duration": 62.2999999999986,
+      "label": "기존 PPO",
+      "own": {
+        "id": "league_tail_retention_pilot_20261012_a4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_branch_20261012/retained_ppo",
+        "weights": "experiments/league/rear_branch_20261012/retained_ppo/policy_net.zip"
+      },
+      "foe": {
+        "id": "league_residual_continuation_20261007_s3301_t2097152",
+        "kind": "submission",
+        "design": "experiments/league/rear_branch_20261012/archived_opponent",
+        "weights": "experiments/league/rear_branch_20261012/archived_opponent/policy_net.zip"
+      }
+    },
+    {
+      "seed": 115000000,
+      "seat": "blue",
+      "result": "WIN",
+      "own_health": 1.0,
+      "opp_health": 0.0,
+      "rear_damage": 0.9999999999999984,
+      "duration": 83.19999999999742,
+      "label": "최신 후보",
+      "own": {
+        "id": "league_rear_geometry_20261012_geometry_s10101_a4901",
+        "kind": "submission",
+        "design": "experiments/league/rear_branch_20261012/rear_candidate",
+        "weights": "experiments/league/rear_branch_20261012/rear_candidate/policy_net.zip"
+      },
+      "foe": {
+        "id": "circler",
+        "kind": "bot",
+        "name": "circler"
+      }
+    }
+  ],
+  "scope": "Selected successful examples; original FairFight starts. Separate rear-development candidate, not overall champion. Learner snapshots preserve actor/critic/optimizer; no exact mid-episode process resume."
+}

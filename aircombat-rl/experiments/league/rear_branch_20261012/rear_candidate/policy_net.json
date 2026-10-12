@@ -1,0 +1,13 @@
+{
+  "action_seed": 4901,
+  "temperature": 1.0,
+  "source": {
+    "id": "league_rear_geometry_20261012_geometry_s10101",
+    "kind": "submission",
+    "design": "runs/league_rear_geometry_20261012/geometry_s10101/checkpoint/submission",
+    "weights": "runs/league_rear_geometry_20261012/geometry_s10101/checkpoint/submission/policy_net.zip"
+  },
+  "source_weights_sha256": "5c3f5461b68cefc9387397070767fd3c6c8a63ce8370672b8c602cba23a808a3",
+  "rng_protocol": "Independent NumPy generator seeded by fixed replicate seed and39 public float32 first-frame words; reset per episode. No global RNG consumption or private environment input.",
+  "scope": "Execution-mode diagnostic only; original teacher and learned actor arrays unchanged."
+}
