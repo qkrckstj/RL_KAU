@@ -1,0 +1,16 @@
+{
+  "action_seed": 4900,
+  "temperature": 1.0,
+  "source": {
+    "id": "s47238_step_010485760",
+    "kind": "submission",
+    "design": "runs/aim_cpu_encounter_speed_20261015/checkpoints/.s47238_step_010485760.tmp/greedy",
+    "weights": "runs/aim_cpu_encounter_speed_20261015/checkpoints/.s47238_step_010485760.tmp/greedy/policy_net.zip"
+  },
+  "source_weights_sha256": "d0b2924c6a9e77e9f57ba45b631f3b1b5002fa46da1a0a427dae5404f3c077f4",
+  "policy_history_rule": "public_range1500_first_entry_then_exit_v1",
+  "rng_protocol": "Unchanged public first-frame float32 words plus sampler seed and739; one categorical draw per action; reset per episode.",
+  "post_encounter_speed_temperature": 2.0,
+  "speed_distribution_rule": "preserve_heading_marginal_temper_conditional_speed_v1",
+  "speed_scope": "Only after the existing range-history event. Same transformation in PPO and sampled inference; opening unchanged."
+}

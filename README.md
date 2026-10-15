@@ -1,3 +1,5 @@
+> **2026-10-15 desktop handoff:** [Seven preserved models, dependencies and execution](docs/DESKTOP_SEVEN_MODELS_20261015.md). Historical running/PID and pause notices below are not current process state. New local training was explicitly authorized on 2026-10-15; future GitHub uploads require a new request.
+
 # RL_KAU — JSBSim 강화학습 실험
 
 ## 최신 자동 학습 전략 — 2026-10-12

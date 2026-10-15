@@ -1,0 +1,6 @@
+{
+  "id": "s45800_step_002621440",
+  "kind": "submission",
+  "design": "runs/aim_cpu_control_guidance_20261013/checkpoints/.s45800_step_002621440.tmp/greedy",
+  "weights": "runs/aim_cpu_control_guidance_20261013/checkpoints/.s45800_step_002621440.tmp/greedy/policy_net.zip"
+}

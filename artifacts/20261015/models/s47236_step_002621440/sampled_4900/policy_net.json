@@ -1,0 +1,13 @@
+{
+  "action_seed": 4900,
+  "temperature": 1.0,
+  "source": {
+    "id": "s47236_step_002621440",
+    "kind": "submission",
+    "design": "runs/aim_cpu_encounter_actor_v2_20261015/checkpoints/.s47236_step_002621440.tmp/greedy",
+    "weights": "runs/aim_cpu_encounter_actor_v2_20261015/checkpoints/.s47236_step_002621440.tmp/greedy/policy_net.zip"
+  },
+  "source_weights_sha256": "c0e46f016fa39b95002f8b296f7da9af4f29ca31b6c9f55fd0195ab6ff5c25c2",
+  "policy_history_rule": "public_range1500_first_entry_then_exit_v1",
+  "rng_protocol": "Unchanged public first-frame float32 words plus sampler seed and739; one categorical draw per action; reset per episode."
+}

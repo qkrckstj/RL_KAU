@@ -1,3 +1,5 @@
+> **2026-10-15 desktop handoff:** [Seven preserved models, dependencies and execution](docs/DESKTOP_SEVEN_MODELS_20261015.md). Historical running/PID and pause notices below are not current process state. New local training was explicitly authorized on 2026-10-15; future GitHub uploads require a new request.
+
 # Latest: CPU rear learning and independent evaluation —2026-10-12
 
 Live CPUtrainer605509/evaluator605510;8processes/32environments selectedbytwo-pass measurements(10599steps/s,2/4/16=4583/7605/10231). Mainrun:aircombat-rl/runs/rear_cpu_main_20261012. Additional5242880steps/repeat,twoRNGs,conditionalmaximum10485760. Save655360/monitor1310720;models and~1pppositivegainsretained,no2ppdiscardgate. Latest observedseed42100,steps781184;notafinalresult. Currentreport:aircombat-rl/runs/rear_cpu_main_20261012/SUMMARY.md.

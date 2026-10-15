@@ -1,0 +1,734 @@
+{
+  "source_plan_sha256": "1616788ba1885fce1b1e6f187902b8835af4550e07106bafc90765ba8248239b",
+  "omitted_fields": {
+    "frozen_sha256": 8816
+  },
+  "scope": "Recorded settings, not a portable frozen-run resume manifest. Full original plan preserved locally.",
+  "settings": {
+    "ppo": {
+      "learning_rate": 3e-05,
+      "n_steps": 640,
+      "batch_size": 512,
+      "n_epochs": 4,
+      "gamma": 0.999,
+      "gae_lambda": 0.99,
+      "clip_range": 0.05,
+      "target_kl": 0.015,
+      "ent_coef": 0.003,
+      "max_grad_norm": 0.5
+    },
+    "tail_coefficients": {
+      "potential": 0.0,
+      "hold": 0.0,
+      "damage": 0.0,
+      "received": 0.0
+    },
+    "position_per_second": 0.0,
+    "rear_damage_coefficient": 0.0,
+    "curriculum": {
+      "stage": "quarter",
+      "fraction": 0.5
+    },
+    "coverage_period": 2,
+    "workers": 32,
+    "processes": 8,
+    "teacher": {
+      "id": "temporal_extend_right",
+      "kind": "submission",
+      "design": "experiments/league/rear_desktop_20261012/policies/p000",
+      "weights": "experiments/league/rear_desktop_20261012/policies/p000/policy_net.zip"
+    },
+    "opponents": [
+      {
+        "id": "cem_original",
+        "kind": "cem",
+        "parameters": [
+          46.5795821161632,
+          324.6037751529909,
+          305.6533702700848,
+          2.418697871782606,
+          18.936747197224676,
+          0.48848060094490076,
+          3.5707727915270118
+        ]
+      },
+      {
+        "id": "ace",
+        "kind": "bot",
+        "name": "ace"
+      },
+      {
+        "id": "evader",
+        "kind": "bot",
+        "name": "evader"
+      },
+      {
+        "id": "fixed_left",
+        "kind": "fixed",
+        "action": 0
+      },
+      {
+        "id": "fixed_right",
+        "kind": "fixed",
+        "action": 6
+      },
+      {
+        "id": "intercept_s2500_g3_c6",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p001",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p001/policy_net.zip"
+      },
+      {
+        "id": "extend_cem_s6800_g3_c9",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p002",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p002/policy_net.zip"
+      },
+      {
+        "id": "control_s7400_t2621440_a4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p003",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p003/policy_net.zip"
+      },
+      {
+        "id": "control_s7601_t1310720_a4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p004",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p004/policy_net.zip"
+      },
+      {
+        "id": "temporal_extend_left",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p005",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p005/policy_net.zip"
+      },
+      {
+        "id": "temporal_delayed_left",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p006",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p006/policy_net.zip"
+      },
+      {
+        "id": "temporal_extend_right",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p000",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p000/policy_net.zip"
+      },
+      {
+        "id": "novel_opening_right",
+        "kind": "reactive",
+        "parameters": [
+          20.0,
+          500.0,
+          325.8867572400507,
+          3.515351603786926,
+          -5.006961204788112,
+          0.4779232792843636,
+          3.8915620667485746,
+          1.0,
+          0.0,
+          7832.976317212762,
+          604.105238698359,
+          3.8743231728056506,
+          35.02624439249268,
+          128.5075794112313,
+          309.65068212464746,
+          152.72036821855625,
+          0.0
+        ]
+      },
+      {
+        "id": "league_contextual_speed_pilot_20261007_c0",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p007",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p007/policy_net.zip"
+      },
+      {
+        "id": "league_contextual_speed_pilot_20261007_c1",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p008",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p008/policy_net.zip"
+      },
+      {
+        "id": "circler",
+        "kind": "bot",
+        "name": "circler"
+      },
+      {
+        "id": "lead",
+        "kind": "bot",
+        "name": "lead"
+      },
+      {
+        "id": "pursuit",
+        "kind": "bot",
+        "name": "pursuit"
+      },
+      {
+        "id": "league_residual_continuation_20261007_s3301_t2097152",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p009",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p009/policy_net.zip"
+      },
+      {
+        "id": "league_pursuit_context_train_20261007_346fd4060999",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p010",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p010/policy_net.zip"
+      },
+      {
+        "id": "episode_mix_sampled_4901",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p011",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p011/policy_net.zip"
+      },
+      {
+        "id": "ddqn_s0",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p012",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p012/policy_net.zip"
+      },
+      {
+        "id": "symgate_s2400_g0_c1",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p013",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p013/policy_net.zip"
+      },
+      {
+        "id": "league_temporal_repair_20261007_2ca01b55b31e",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p014",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p014/policy_net.zip"
+      },
+      {
+        "id": "history_s6000_t1048576_a4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p015",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p015/policy_net.zip"
+      },
+      {
+        "id": "reactive_brake_pursuit_left",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p016",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p016/policy_net.zip"
+      },
+      {
+        "id": "gate_s2302_g1_c9",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p017",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p017/policy_net.zip"
+      },
+      {
+        "id": "portfolio_s6400_g0_c2_a1",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p018",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p018/policy_net.zip"
+      },
+      {
+        "id": "risk_break_cem_s7200_g1_c9",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p019",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p019/policy_net.zip"
+      },
+      {
+        "id": "hold5_s6500_t262144_a4901",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p020",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p020/policy_net.zip"
+      },
+      {
+        "id": "sampled_s3301_t2097152_a4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p021",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p021/policy_net.zip"
+      },
+      {
+        "id": "switching_threat_close",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p022",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p022/policy_net.zip"
+      },
+      {
+        "id": "untrained_parameter_02",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p023",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p023/policy_net.zip"
+      },
+      {
+        "id": "reactive_range_escape_right",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p024",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p024/policy_net.zip"
+      },
+      {
+        "id": "switching_turn_strong",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p025",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p025/policy_net.zip"
+      },
+      {
+        "id": "novel_lag_fast",
+        "kind": "reactive",
+        "parameters": [
+          0.0,
+          333.084677145468,
+          550.0,
+          -1.5,
+          0.0,
+          0.4779232792843636,
+          3.8915620667485746,
+          -0.14925445697884832,
+          1578.6403144613018,
+          7832.976317212762,
+          550.0,
+          3.8743231728056506,
+          35.02624439249268,
+          128.5075794112313,
+          309.65068212464746,
+          152.72036821855625,
+          5358.7614671072115
+        ]
+      },
+      {
+        "id": "episode_mix_sampled_4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p026",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p026/policy_net.zip"
+      },
+      {
+        "id": "league_maneuver_parallel_20261006_545956914cb9",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p027",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p027/policy_net.zip"
+      },
+      {
+        "id": "league_residual_continuation_20261007_s3300_t4194304",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p028",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p028/policy_net.zip"
+      },
+      {
+        "id": "league_temporal_repair_20261007_6607864eceb4",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p029",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p029/policy_net.zip"
+      },
+      {
+        "id": "sampled_s3300_t2097152_a4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p030",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p030/policy_net.zip"
+      },
+      {
+        "id": "hold5_s6501_t262144_a4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p031",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p031/policy_net.zip"
+      },
+      {
+        "id": "league_pursuit_context_train_20261007_5a5ecfbeabd6",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p032",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p032/policy_net.zip"
+      },
+      {
+        "id": "portfolio_s6401_g2_c2_a0",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p033",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p033/policy_net.zip"
+      },
+      {
+        "id": "ddqn_s1",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p034",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p034/policy_net.zip"
+      },
+      {
+        "id": "untrained_parameter_04",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p035",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p035/policy_net.zip"
+      },
+      {
+        "id": "control_s7600_t1310720_a4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p036",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p036/policy_net.zip"
+      },
+      {
+        "id": "switching_range_wide",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p037",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p037/policy_net.zip"
+      }
+    ],
+    "probabilities": [
+      0.02049663542648936,
+      0.02166573651765038,
+      0.032967047065540225,
+      0.015330780234654146,
+      0.015287480194240774,
+      0.015330780234654146,
+      0.023741037960771233,
+      0.021272935657209082,
+      0.02400083820325146,
+      0.0243905385669718,
+      0.025213239334825846,
+      0.020796635212662,
+      0.025073289327662632,
+      0.020786585326738896,
+      0.021176285690459234,
+      0.02829064270089615,
+      0.031018545246938527,
+      0.02244513724509106,
+      0.0174957822553227,
+      0.015330780234654146,
+      0.024856789125595774,
+      0.016023580881268082,
+      0.020886335790209702,
+      0.016023580881268082,
+      0.02049663542648936,
+      0.025592889812623084,
+      0.020886335790209702,
+      0.015287480194240774,
+      0.02984944415577751,
+      0.016023580881268082,
+      0.018967983629377315,
+      0.0224420367483701,
+      0.021662636020929424,
+      0.024120688438568468,
+      0.02283173711209044,
+      0.022648487064513854,
+      0.02351448787278127,
+      0.01675968156829539,
+      0.016023580881268082,
+      0.016023580881268082,
+      0.015330780234654146,
+      0.015287480194240774,
+      0.015287480194240774,
+      0.015287480194240774,
+      0.014941079870933805,
+      0.02322143747581078,
+      0.02400083820325146,
+      0.02361113783953112
+    ],
+    "development_opponents": [
+      {
+        "id": "ace",
+        "kind": "bot",
+        "name": "ace"
+      },
+      {
+        "id": "evader",
+        "kind": "bot",
+        "name": "evader"
+      },
+      {
+        "id": "temporal_extend_left",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p005",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p005/policy_net.zip"
+      },
+      {
+        "id": "untrained_parameter_01",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p038",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p038/policy_net.zip"
+      },
+      {
+        "id": "cem_original",
+        "kind": "cem",
+        "parameters": [
+          46.5795821161632,
+          324.6037751529909,
+          305.6533702700848,
+          2.418697871782606,
+          18.936747197224676,
+          0.48848060094490076,
+          3.5707727915270118
+        ]
+      },
+      {
+        "id": "circler",
+        "kind": "bot",
+        "name": "circler"
+      },
+      {
+        "id": "control_s7600_t1310720_a4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p036",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p036/policy_net.zip"
+      },
+      {
+        "id": "ddqn_s1",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p034",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p034/policy_net.zip"
+      },
+      {
+        "id": "episode_mix_sampled_4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p026",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p026/policy_net.zip"
+      },
+      {
+        "id": "gate_s2302_g1_c9",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p017",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p017/policy_net.zip"
+      },
+      {
+        "id": "history_s6000_t1048576_a4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p015",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p015/policy_net.zip"
+      },
+      {
+        "id": "hold5_s6500_t262144_a4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p039",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p039/policy_net.zip"
+      },
+      {
+        "id": "lead",
+        "kind": "bot",
+        "name": "lead"
+      },
+      {
+        "id": "league_contextual_speed_pilot_20261007_c0",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p007",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p007/policy_net.zip"
+      },
+      {
+        "id": "league_pursuit_context_train_20261007_346fd4060999",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p010",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p010/policy_net.zip"
+      },
+      {
+        "id": "league_residual_continuation_20261007_s3300_t2097152",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p040",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p040/policy_net.zip"
+      },
+      {
+        "id": "portfolio_s6400_g0_c2_a0",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p042",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p042/policy_net.zip"
+      },
+      {
+        "id": "pursuit",
+        "kind": "bot",
+        "name": "pursuit"
+      },
+      {
+        "id": "reactive_brake_pursuit_right",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p043",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p043/policy_net.zip"
+      },
+      {
+        "id": "risk_break_cem_s7200_g1_c9",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p019",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p019/policy_net.zip"
+      },
+      {
+        "id": "round_00",
+        "kind": "reactive",
+        "parameters": [
+          49.054643429137045,
+          344.9320165839133,
+          300.0,
+          1.6189913657693618,
+          0.6358662057947555,
+          0.5462355091182627,
+          2.216714533307004,
+          -0.917163597878225,
+          0.0,
+          707.5735938951951,
+          345.41311022978886,
+          316.31072988578927,
+          60.368798937664934,
+          133.49953714021927,
+          300.0,
+          101.85583422915799,
+          5633.5384761216865
+        ]
+      }
+    ],
+    "completed_focus_weight": 0.0,
+    "parent": "runs/aim_cpu_heading_memory_20261014/heading_memory_parent.zip",
+    "scope": "Bounded originalCPU LR1e-4to3e-5 study frompreserved585/12 learner;original epochs4/clip0.05 andallrewards fixed.",
+    "budget_spec_repository_relative": "docs/REAR_BRANCH_BUDGET_V2.json",
+    "seeds": [
+      46500,
+      46501
+    ],
+    "training_bands": [
+      2680400000,
+      2690400000
+    ],
+    "minimum_steps": 5242880,
+    "maximum_steps": 10485760,
+    "checkpoint_steps": 655360,
+    "monitor_steps": 1310720,
+    "monitor_opponents": [
+      {
+        "id": "untrained_parameter_01",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p038",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p038/policy_net.zip"
+      },
+      {
+        "id": "temporal_extend_left",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p005",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p005/policy_net.zip"
+      },
+      {
+        "id": "evader",
+        "kind": "bot",
+        "name": "evader"
+      },
+      {
+        "id": "reactive_brake_pursuit_right",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p043",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p043/policy_net.zip"
+      },
+      {
+        "id": "control_s7600_t1310720_a4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p036",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p036/policy_net.zip"
+      },
+      {
+        "id": "risk_break_cem_s7200_g1_c9",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p019",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p019/policy_net.zip"
+      },
+      {
+        "id": "episode_mix_sampled_4900",
+        "kind": "submission",
+        "design": "experiments/league/rear_desktop_20261012/policies/p026",
+        "weights": "experiments/league/rear_desktop_20261012/policies/p026/policy_net.zip"
+      },
+      {
+        "id": "lead",
+        "kind": "bot",
+        "name": "lead"
+      }
+    ],
+    "monitor_band": 1702600000,
+    "development_band": 1702600000,
+    "monitor_ics": 4,
+    "development_ics": 8,
+    "smoke": false,
+    "device": "cpu",
+    "evaluation_processes": 1,
+    "candidate_rule": "Preserve every checkpoint and small gain. Keep one empirically distinct evaluation representative per historical cluster; retain archived members.",
+    "physics": "Original native JSBSim; no CUDA replacement",
+    "rule": "user_terminal_health_round4_v2",
+    "config_id": "147c26a449b9fbc51f88d0ac5dd4bc948eea4f6dee3b5bd823345d546f27fba6",
+    "parent_source": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_guidance_range12k_20261013/checkpoints/s45900_step_010485760/learner.zip",
+    "selected_parent_checkpoint": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_guidance_range12k_20261013/checkpoints/s45900_step_010485760",
+    "source_run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_rate_input_20261014",
+    "previous_completed_run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_clip005_win585_rear12_continue_20261013",
+    "control_run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_clip005_win585_rear12_continue_20261013",
+    "rear_win_floor": 1.0,
+    "baseline_substantial_clean": 12,
+    "intervention": {
+      "factor": "public_heading_command_memory",
+      "control": "43statelessfeatures",
+      "value": "44publicmemoryfeatures",
+      "unchanged": "projected original actor/critic/Adam/counters/teacher/prior6/PPO/48foes/quarter0.5/current public-rate reward/all other rewards/native physics/guns/actions"
+    },
+    "budget_policy": "Combat retention/trends and paired native672win/HP gain gate bounded extension;rear scores never gate continuation.",
+    "comparison_scope": "New public maintained-heading error cue starts with zero actor/critic weights and Adam moments. Initial inference verified on consumed1609frame trace;cached672paired baseline reused with unchanged teacher/math. Tensor shapes and ZIP bytes change;not byte-identical or unseen validation.",
+    "reference_rear_parent_checkpoint": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_weakrear010_20261013/checkpoints/s43500_step_002621440",
+    "reference_rear_parent_development": {
+      "games": 768,
+      "wins": 580,
+      "win_rate": 0.7552083333333334,
+      "rear_damage_games": 32,
+      "clean_rear_wins": 32,
+      "rear_before_first_received_games": 32,
+      "rear_damage": 0.018983072916666704,
+      "rear_wez_seconds": 0.09537760416666664,
+      "max_rear_wez_streak": 0.09121093749999998,
+      "damage_dealt": 0.9322636718749985,
+      "damage_received": 0.5866725260416654,
+      "head_on_damage": 0.5714459635416654
+    },
+    "reference_rear_parent_substantial_clean": 6,
+    "reference_balanced_parent_checkpoint": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_damage050_win585_continue_20261013/checkpoints/s44400_step_006553600",
+    "reference_balanced_parent_development": {
+      "games": 768,
+      "wins": 582,
+      "win_rate": 0.7578125,
+      "rear_damage_games": 34,
+      "clean_rear_wins": 34,
+      "rear_before_first_received_games": 34,
+      "rear_damage": 0.022631510416666695,
+      "rear_wez_seconds": 0.10846354166666662,
+      "max_rear_wez_streak": 0.10722656249999996,
+      "damage_dealt": 0.9294869791666652,
+      "damage_received": 0.5829726562499987,
+      "head_on_damage": 0.5655800781249988
+    },
+    "reference_balanced_parent_substantial_clean": 11,
+    "reference_best_win_parent_checkpoint": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_joint585_epochs2_20261013/checkpoints/s44801_step_005242880",
+    "reference_best_win_parent_development": {
+      "games": 768,
+      "wins": 586,
+      "win_rate": 0.7630208333333334,
+      "rear_damage_games": 33,
+      "clean_rear_wins": 33,
+      "rear_before_first_received_games": 33,
+      "rear_damage": 0.021140625000000034,
+      "rear_wez_seconds": 0.10260416666666665,
+      "max_rear_wez_streak": 0.0973958333333333,
+      "damage_dealt": 0.9358567708333317,
+      "damage_received": 0.5704082031249987,
+      "head_on_damage": 0.5557747395833321
+    },
+    "reference_best_win_parent_substantial_clean": 9,
+    "maximum_update_epochs_per_checkpoint": 128,
+    "maximum_update_epochs_per_minimum": 1024,
+    "maximum_update_epochs_per_cap": 2048,
+    "aim_coefficients": {
+      "potential": 0.05,
+      "damage": 0.5,
+      "received": 0.5
+    },
+    "objective": "Predictive aiming, actual damage exchange and native CPU win rate. Rear development held by latest user.",
+    "baseline_monitor_expected": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_predictive_20261013/baseline_monitor_expected.json",
+    "evaluation_roster_report": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_predictive_20261013/evaluation_roster.json",
+    "source_assessment": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_mixed_start_early393_20261013",
+    "relative_potential_coefficient": 1.0,
+    "completed_repeat_audit": "Wait for every queued target-seed evaluation, then read all completed target-seed episodes/CSV/paired cells before adaptive changes; refuse partial audit and preserve actual learning completion timestamps.",
+    "control_guidance_coefficient": 0.05,
+    "rejected_factor_evidence_run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_received1_20261013",
+    "control_guidance_range": 12000.0,
+    "diagnostic_evidence_run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_control_guidance_20261013",
+    "monitor_action_seeds": [
+      4900,
+      4901
+    ],
+    "original_reference_checkpoint": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_predictive_20261013/checkpoints/s45300_step_000000000",
+    "original_reference_wins": 493,
+    "parent_choice": "Best complete672native prior6parent including unchanged comparator;provisional consumed-development choice",
+    "baseline_unique_games": 672,
+    "baseline_panel_entries": 800,
+    "prior_bias": 6.0,
+    "comparator_prior_bias": 6.0,
+    "heading_feedback": "public_euler_heading_rate_v1",
+    "learner_feature_dim": 44,
+    "public_observation_dim": 39,
+    "heading_memory_contract": "Publicraw39+executedstudentactionhistory;cue=tanh(wrap(maintainedheading-currentheading)/.5). Zeroheadingretainscommand. Resetperepisode;no timedtacticalswitch."
+  }
+}

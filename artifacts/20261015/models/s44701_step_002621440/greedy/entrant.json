@@ -1,0 +1,6 @@
+{
+  "id": "s44701_step_002621440",
+  "kind": "submission",
+  "design": "runs/rear_cpu_clip005_win585_rear12_continue_20261013/checkpoints/.s44701_step_002621440.tmp/greedy",
+  "weights": "runs/rear_cpu_clip005_win585_rear12_continue_20261013/checkpoints/.s44701_step_002621440.tmp/greedy/policy_net.zip"
+}

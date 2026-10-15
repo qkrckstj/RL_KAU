@@ -1,0 +1,63 @@
+{
+  "opening_bank_sha256": "e415102edf5d7204bf7dca18dc0fedc69f03c82cef775f0983f0fb43829bca2e",
+  "opening_kl": 0.0,
+  "checkpoint_id": "s47236_step_002621440",
+  "config_id": "d6e12221dfdf8b7738d93ce672cb4370cce34331227cd2e685411156c0b8ee15",
+  "seed": 47236,
+  "prefix_steps": 64225280,
+  "additional_steps": 2621440,
+  "total_steps": 66846720,
+  "training_games": 2946,
+  "training_seconds": 847.026521689957,
+  "sampled_specs": {
+    "4900": {
+      "id": "s47236_step_002621440_a4900",
+      "kind": "submission",
+      "design": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_actor_v2_20261015/checkpoints/s47236_step_002621440/sampled_4900",
+      "weights": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_actor_v2_20261015/checkpoints/s47236_step_002621440/sampled_4900/policy_net.zip"
+    },
+    "4901": {
+      "id": "s47236_step_002621440_a4901",
+      "kind": "submission",
+      "design": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_actor_v2_20261015/checkpoints/s47236_step_002621440/sampled_4901",
+      "weights": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_actor_v2_20261015/checkpoints/s47236_step_002621440/sampled_4901/policy_net.zip"
+    }
+  },
+  "baseline": false,
+  "device": "cpu",
+  "prefix_work": {
+    "resets": 2978,
+    "attempted": 1475,
+    "post_encounter": 1394,
+    "fallback_no_entry": 27,
+    "fallback_no_exit": 54,
+    "native_steps": 1630877,
+    "native_seconds": 532.0068691404304,
+    "fallback_no_reengagement": 0
+  },
+  "actor_feature_sha256": "8b1006a13088523ab43e62b86aaa9f9bbb360d77f1a3a1957bef8ef433fb924c",
+  "resume_scope": "Optimizer/RNG/sampler preserved; native episodes restart after a process restart.",
+  "files": {
+    "greedy/artifact_sha256.json": "ef4ba3a4a567ade5dd87aae7decf6b1a325ffabb211eed6cbed2acafaedaab4c",
+    "greedy/entrant.json": "dec1ccd13672a4cc59975e7119e26ce0c5b1596a1dfe1dc9a408c616d1a84ab5",
+    "greedy/policy.py": "e2c01ac94770c44f59907f21deefc6d99d239298136c6fe1f9f108834cbefe00",
+    "greedy/policy_net.json": "db917f1e7b6517f4bfd0e2fa3175ed1a9034c4de5727047051f3ec05119eaf78",
+    "greedy/policy_net.zip": "c0e46f016fa39b95002f8b296f7da9af4f29ca31b6c9f55fd0195ab6ff5c25c2",
+    "greedy/wrappers.py": "2983af7cef6f95c2ed0a1cc53961ecdc076bd12d5edf6de4d21920e15022a299",
+    "learner.zip": "c7b4ee33326465d3a254691db6537d7241089f9c8bfcc8efa00303db8e31d112",
+    "rng.pt": "cd895eaeb20134dc5212e2ae871da38e9baf5ccc7b028de8e870154100a0e725",
+    "sampled_4900/artifact_sha256.json": "8dd3d920059279df2c0f3f7d354824067a88a1d3cfc02fed4c17602bc935abee",
+    "sampled_4900/entrant.json": "544246c279bda83fbe54e9884b916c4817d9dd9f48418d3bdaaa42daea56d9f9",
+    "sampled_4900/policy.py": "cdb84f624dffa42378651443d24f2998701c56b2861377e9004ef842ad3580f5",
+    "sampled_4900/policy_net.json": "290265dd8cd1cbcb5916630d9de2bceabfc6c0d9179b84a4aa087278f30fa9ba",
+    "sampled_4900/policy_net.zip": "52c1d264dcf3c0e7d39c223a2ff5e756921e0133716730d4ebdd6db721e6cd9e",
+    "sampled_4900/wrappers.py": "2983af7cef6f95c2ed0a1cc53961ecdc076bd12d5edf6de4d21920e15022a299",
+    "sampled_4901/artifact_sha256.json": "0ce6a1d331ef08db2135c3108dba6a3e521e49dc0ee860c7f31bc48960e9c828",
+    "sampled_4901/entrant.json": "db80fbffe16082ab9ac6439942e0db56e830819c987093adcdb046a0a6cd7e21",
+    "sampled_4901/policy.py": "cdb84f624dffa42378651443d24f2998701c56b2861377e9004ef842ad3580f5",
+    "sampled_4901/policy_net.json": "cb268deb90865918e0aaaf2450afb98eb1ef9c60c504ab6348ea968bd41872f3",
+    "sampled_4901/policy_net.zip": "abab826b2e2286100bd12a236aa6083b76ac5754c41e0168a005e50979899f61",
+    "sampled_4901/wrappers.py": "2983af7cef6f95c2ed0a1cc53961ecdc076bd12d5edf6de4d21920e15022a299",
+    "workers.pt": "c4709624dcb3a6a267123ba60883f88dd910bdb8e1d9887339b4699d4143a189"
+  }
+}

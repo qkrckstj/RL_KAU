@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T04:03:10.932695+00:00",
+  "updated_at": "2026-10-12T11:53:38.671908+00:00",
   "objective": "Preserve FairFight and user_terminal_health_round4_v2; preserve head-on CEM/PPO baseline while independently developing rear-entry, tracking and unilateral attack policies. Do not reject rear candidates solely for lower win rate.",
   "overall_objective_status": "active_health_v2_training_round",
   "completed_batch": "league_compact_rotated_assess_20261008",
@@ -100,7 +100,7 @@
     "league_finish",
     "league_runner_confirm"
   ],
-  "runtime_note": "No active training process observed during this planning review; prior PIDs and running entries are historical.",
+  "runtime_note": "Latest native CPU rear experiment is cpu_rear_goal_automation:entropy-only retention from stronger original source. Older win champions,rear specialists and all partial gains retained. Historical PIDs elsewhere are not live evidence.",
   "remaining_work": [
     "Address active-roster size using a compact diverse/weakness set while preserving the205-model archive; do not modify frozen active settings in place.",
     "Track current process and saved checkpoints before any transition; no duplicate simulations.",
@@ -5111,7 +5111,7 @@
     "completion_verified": true,
     "native_exit_code_retained": false
   },
-  "current_report": "aircombat-rl/runs/rear_cpu_entropy003_20261012/PROGRESS.md",
+  "current_report": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_mutual_continue_20261015/PROGRESS.md",
   "last_completed_experiment": {
     "name": "matched_sampled_ppo_strategy_pilots",
     "run_folder": "aircombat-rl/runs/league_sampled_strategy_20261007",
@@ -5631,7 +5631,7 @@
     "completed_experiment": false
   },
   "compact_roster_report": "docs/COMPACT_LEAGUE_20261008.md",
-  "next_action": "Monitor existing trainer/evaluator; do not duplicate. At minimum inspect fixed whole-panel AND per-opponent rear skill trends. Reuse existing cells. If local-skill extension is needed after terminal minimum, use archived-metrics resume preparation. No unchanged extension above10,485,760; preserve all candidates; no publication.",
+  "next_action": "Monitor existing native trainer/evaluator/reporter without duplicate launch. Learning-rate retention is a hypothesis; compare fixed actual rear damage,substantial clean rear wins and win rates at minimum/conditional maximum. Do not infer causal superiority against entropy0.003 branch with different ancestor. No speed-code optimization,physics change or publication.",
   "completed_compact_training": {
     "name": "compact48_opponent_ppo",
     "run_folder": "aircombat-rl/runs/league_compact_ppo_train_20261008",
@@ -6122,110 +6122,653 @@
     }
   },
   "desktop_handoff": "docs/DESKTOP_REAR_HANDOFF_20261012.md",
-  "async_training_evaluation_status": "implemented_native_cpu_independent_evaluator",
+  "async_training_evaluation_status": "Original CPU JSBSim balanced-neural rear feedback trial running;generic damage0.125,rear-only0.5,parent LR1e-4/entropy0.01 preserved,8process32env/48foes,fresh42700/42701. Full source archive and896 cached cells qualified;all old candidates retained;no publication.",
   "cpu_rear_goal_automation": {
-    "updated_at": "2026-10-12T04:03:10.932695+00:00",
-    "status": "bounded_entropy003_running",
+    "updated_unix": 1791868566.3872428,
+    "status": "assessment_complete_retained588_next_continuation",
     "goal_status": "active",
-    "run": "runs/rear_cpu_entropy003_20261012",
-    "previous_completed_run": "runs/rear_cpu_entropy01_20261012",
-    "backend": "original_cpu_jsbsim",
+    "run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_joint585_lr3e5_early393_20261013",
+    "backend": "original native CPU JSBSim",
+    "mode": "evaluation_only",
+    "workers": 0,
+    "environments": 0,
+    "actual_evaluator_processes": 1,
     "processes": {
-      "trainer": 612684,
-      "evaluator": 612685
+      "evaluator": 681491
     },
-    "reporter_pid": 612701,
-    "workers": 8,
-    "environments": 32,
-    "intervention": {
-      "factor": "ppo.ent_coef",
-      "old": 0.01,
-      "new": 0.003
+    "sessions": {
+      "evaluator": 39866
     },
-    "minimum_steps_per_repeat": 5242880,
-    "maximum_steps_per_repeat": 10485760,
-    "seeds": [
-      42300,
-      42301
-    ],
-    "training_bands": [
-      1840400000,
-      1850400000
-    ],
-    "parent_checkpoint": "s42201_step_010485760",
-    "parent_prefix_steps": 11141120,
-    "parent_selected_for": "Highest substantial clean rear wins and mean rear damage on fixed development panel; not highest win rate",
-    "parent_win_rate": 0.51171875,
-    "preserved_original_geometry_win_rate": 0.69921875,
-    "preserved_best_cpu_win_rate": 0.73828125,
+    "new_training_steps": 0,
+    "new_baseline_games": 0,
     "reused_parent_evaluation_games": 896,
-    "candidate_retention": "All checkpoints including small positive gains and rear specialists, independent of overall win regression",
-    "evaluation": "independent low-priority original CPU process; fixed monitor128/development768",
-    "live_report": "runs/rear_cpu_entropy003_20261012/PROGRESS.md",
-    "next_action": "Monitor existing trainer/evaluator; do not duplicate. At minimum inspect fixed whole-panel AND per-opponent rear skill trends. Reuse existing cells. If local-skill extension is needed after terminal minimum, use archived-metrics resume preparation. No unchanged extension above10,485,760; preserve all candidates; no publication."
+    "scheduled_new_evaluation_games": 768,
+    "checkpoint": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_joint585_lr3e5_20261013/checkpoints/s45200_step_003932160",
+    "source_learner_sha256": "12cf61746e402031451ea995e39f58fc517b263c134d25c81a5a1f3d0637efae",
+    "selected_parent_development_wins": 585,
+    "selected_parent_substantial_clean": 12,
+    "best_win_reference_wins": 586,
+    "best_win_reference_substantial_clean": 9,
+    "retained_endpoints": [
+      {
+        "wins": 578,
+        "substantial_clean": 7
+      },
+      {
+        "wins": 584,
+        "substantial_clean": 7
+      }
+    ],
+    "within_episode_rule": "One policy; fixed reward coefficients; no episode-clock model/reward switching.",
+    "live_report": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_joint585_lr3e5_early393_20261013/ASSESSMENT.md",
+    "previous_cycle_report": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_joint585_lr3e5_20261013/CYCLE_REVIEW.md",
+    "next_action": "Keep588/9 as new best-win consumed-development candidate: +3wins vs585/12, +2vs586/9, highermeanrear than585 but fewer substantialrear cases9vs12. No automaticfrontlinepromotion orcausal/unseen claim. Next bounded unchanged-setting continuation canuse588/9,while585/12 remainsstronger large-rear reference. Aim-feature/auxiliary-loss idea is discussiononly; no gun/observation/reward modifications authorized by that question.",
+    "assessment_review": {
+      "recorded_unix": 1791868566.3606458,
+      "status": "complete",
+      "goal_status": "active",
+      "checkpoint": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_joint585_lr3e5_20261013/checkpoints/s45200_step_003932160",
+      "learner_sha256": "12cf61746e402031451ea995e39f58fc517b263c134d25c81a5a1f3d0637efae",
+      "candidate": {
+        "games": 768,
+        "wins": 588,
+        "win_rate": 0.765625,
+        "rear_damage_games": 34,
+        "clean_rear_wins": 34,
+        "rear_before_first_received_games": 34,
+        "rear_damage": 0.022064453125000032,
+        "rear_wez_seconds": 0.10611979166666663,
+        "max_rear_wez_streak": 0.10566406249999998,
+        "damage_dealt": 0.9352037760416652,
+        "damage_received": 0.5772695312499988,
+        "head_on_damage": 0.5608912760416654
+      },
+      "selected_parent": {
+        "games": 768,
+        "wins": 585,
+        "win_rate": 0.76171875,
+        "rear_damage_games": 36,
+        "clean_rear_wins": 34,
+        "rear_before_first_received_games": 34,
+        "rear_damage": 0.021703776041666706,
+        "rear_wez_seconds": 0.1091145833333333,
+        "max_rear_wez_streak": 0.1042317708333333,
+        "damage_dealt": 0.9303854166666651,
+        "damage_received": 0.5837929687499988,
+        "head_on_damage": 0.5664648437499987
+      },
+      "substantial_clean": 9,
+      "selected_parent_substantial_clean": 12,
+      "paired_wins_vs_selected": {
+        "retained": 552,
+        "lost": 33,
+        "new": 36
+      },
+      "outcomes": {
+        "win": 588,
+        "draw": 129,
+        "loss": 51
+      },
+      "new_training_steps": 0,
+      "new_evaluation_games": 768,
+      "new_baseline_games": 0,
+      "reused_baseline_games": 896,
+      "evaluation_seconds": 366.81845478503965,
+      "overall_elapsed_seconds": 367.57,
+      "decision": "Keep588/9 as new best-win consumed-development candidate: +3wins vs585/12, +2vs586/9, highermeanrear than585 but fewer substantialrear cases9vs12. No automaticfrontlinepromotion orcausal/unseen claim. Next bounded unchanged-setting continuation canuse588/9,while585/12 remainsstronger large-rear reference. Aim-feature/auxiliary-loss idea is discussiononly; no gun/observation/reward modifications authorized by that question.",
+      "scope": "Consumed adaptive development; descriptive win/rear tradeoff, not causal superiority or unseen-final generalization.",
+      "reference_rear_parent_checkpoint": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_weakrear010_20261013/checkpoints/s43500_step_002621440",
+      "reference_rear_parent_development": {
+        "games": 768,
+        "wins": 580,
+        "win_rate": 0.7552083333333334,
+        "rear_damage_games": 32,
+        "clean_rear_wins": 32,
+        "rear_before_first_received_games": 32,
+        "rear_damage": 0.018983072916666704,
+        "rear_wez_seconds": 0.09537760416666664,
+        "max_rear_wez_streak": 0.09121093749999998,
+        "damage_dealt": 0.9322636718749985,
+        "damage_received": 0.5866725260416654,
+        "head_on_damage": 0.5714459635416654
+      },
+      "reference_rear_parent_substantial_clean": 6,
+      "reference_balanced_parent_checkpoint": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_damage050_win585_continue_20261013/checkpoints/s44400_step_006553600",
+      "reference_balanced_parent_development": {
+        "games": 768,
+        "wins": 582,
+        "win_rate": 0.7578125,
+        "rear_damage_games": 34,
+        "clean_rear_wins": 34,
+        "rear_before_first_received_games": 34,
+        "rear_damage": 0.022631510416666695,
+        "rear_wez_seconds": 0.10846354166666662,
+        "max_rear_wez_streak": 0.10722656249999996,
+        "damage_dealt": 0.9294869791666652,
+        "damage_received": 0.5829726562499987,
+        "head_on_damage": 0.5655800781249988
+      },
+      "reference_balanced_parent_substantial_clean": 11,
+      "reference_best_win_parent_checkpoint": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_joint585_epochs2_20261013/checkpoints/s44801_step_005242880",
+      "reference_best_win_parent_development": {
+        "games": 768,
+        "wins": 586,
+        "win_rate": 0.7630208333333334,
+        "rear_damage_games": 33,
+        "clean_rear_wins": 33,
+        "rear_before_first_received_games": 33,
+        "rear_damage": 0.021140625000000034,
+        "rear_wez_seconds": 0.10260416666666665,
+        "max_rear_wez_streak": 0.0973958333333333,
+        "damage_dealt": 0.9358567708333317,
+        "damage_received": 0.5704082031249987,
+        "head_on_damage": 0.5557747395833321
+      },
+      "reference_best_win_parent_substantial_clean": 9
+    },
+    "latest_user_override": "Rear objective held. Continue predictive aiming under cpu_aim_goal_automation. This record is archived, not a live process claim."
   },
   "previous_cpu_rear_goal_automation": {
-    "updated_at": "2026-10-12T03:59:36.315644+00:00",
-    "status": "maximum_budget_complete",
+    "updated_at": "2026-10-12T11:12:48.397234+00:00",
+    "status": "both_minimum_cycles_complete_neither_extended",
     "goal_status": "active",
-    "run": "runs/rear_cpu_entropy01_20261012",
-    "previous_completed_run": "runs/rear_cpu_main_20261012",
+    "run": "runs/rear_cpu_position002_20261012",
+    "previous_completed_run": "runs/rear_cpu_damage0125_lr3e5_20261012",
+    "source_run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_damage0125_continue_20261012",
     "backend": "original_cpu_jsbsim",
-    "processes": {},
+    "processes": {
+      "trainer": 628676,
+      "evaluator": 628677
+    },
+    "reporter_pid": 628731,
+    "sessions": {
+      "trainer": 14080,
+      "reporter": 89841
+    },
     "workers": 8,
     "environments": 32,
+    "seeds": [
+      43000,
+      43001
+    ],
+    "training_bands": [
+      1980400000,
+      1990400000
+    ],
+    "parent_checkpoint": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_damage0125_continue_20261012/checkpoints/s42800_step_005242880",
+    "parent_selection": "Measured first minimum55.859375% win/mean rear0.08637240/121 clean59 substantial cases/neural14 clean. Exact source remains stronger rear than both lower-LR candidates;not overall-win champion.",
     "intervention": {
-      "factor": "ppo.ent_coef",
-      "old": 0,
-      "new": 0.01
+      "factor": "position_per_second",
+      "control": 0.01,
+      "value": 0.02
+    },
+    "learning_settings": {
+      "learning_rate": 0.0001,
+      "entropy": 0.01,
+      "generic_damage": 0.125,
+      "rear_damage": 0.5,
+      "position_per_second": 0.02,
+      "prior": 6
     },
     "minimum_steps_per_repeat": 5242880,
     "maximum_steps_per_repeat": 10485760,
-    "seeds": [
-      42200,
-      42201
-    ],
-    "evaluation": "independent low-priority native CPU process; fixed monitor and development conditions",
     "reused_parent_evaluation_games": 896,
-    "candidate_retention": "All checkpoints; preserve small win gains and rear skill candidates independently.",
-    "next_action": "Restore highest substantial-rear-skill checkpoint, reduce entropy to0.003, preserve stronger win candidates",
-    "reporter_pid": null,
-    "live_report": "runs/rear_cpu_entropy01_20261012/PROGRESS.md",
-    "diagnostic_games": 2,
-    "latest_rear_skill_evidence": {
-      "seed": 42200,
-      "development_games": 768,
-      "clean_rear_wins_parent": 33,
-      "clean_rear_wins_candidate": 71,
-      "new_rear_cells": 69,
-      "lost_rear_cells": 31,
-      "new_opponents": [
-        "cem_original",
-        "ddqn_s1",
-        "fixed_left",
-        "round_00"
-      ],
-      "win_rate_parent": 0.69921875,
-      "win_rate_candidate": 0.6796875
-    },
-    "updated_at_unix": 1791774452.648307,
-    "minimum_cycle_report": "runs/rear_cpu_entropy01_20261012/MINIMUM_CYCLE_REVIEW.md",
-    "minimum_cycle_summary": {
-      "additional_training_steps": 10485760,
+    "new_baseline_games": 0,
+    "live_report": "runs/rear_cpu_position002_20261012/PROGRESS.md",
+    "previous_cycle_report": "runs/rear_cpu_damage0125_lr3e5_20261012/CYCLE_REVIEW.md",
+    "previous_cycle_summary": {
+      "total_additional_steps": 10485760,
+      "total_training_games": 10966,
+      "total_training_seconds": 1107.5828888899996,
       "new_evaluation_games": 2560,
-      "reused_parent_games": 896,
-      "elapsed_seconds": 1989.5609526634216,
-      "development_win_rates": [
-        0.6796875,
-        0.7213541666666666
-      ],
-      "development_clean_rear_wins": [
-        71,
-        67
-      ],
-      "parent_win_rate": 0.69921875,
-      "parent_clean_rear_wins": 33
+      "evaluation_seconds": 1284.2502390409936,
+      "overall_wall_seconds": 1999.1073472499847,
+      "preserved_checkpoints": 16
     },
-    "maximum_cycle_report": "runs/rear_cpu_entropy01_20261012/MAXIMUM_CYCLE_REVIEW.md"
+    "parent_num_timesteps": 21626880,
+    "parent_updates": 6784,
+    "archive_byte_identical": true,
+    "reward_objective_evidence": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_damage0125_lr3e5_20261012/REWARD_OBJECTIVE_REVIEW.md",
+    "comparison_scope": "Only dense position reward changes relative to actual selected first-minimum LR1e-4/entropy0.01 rear source. Previous LR trial uses other LR;adaptive selection/fresh RNGs/episode reset,not causal matched control or unseen final evidence.",
+    "preserved_overall_win_reference": {
+      "run": "runs/rear_cpu_main_20261012",
+      "seeds": [
+        42100,
+        42101
+      ],
+      "steps": 5242880,
+      "games": 768,
+      "wins": 567,
+      "win_rate": 0.73828125
+    },
+    "next_action": "Confirm all terminal processes/queue/locks,prepare fresh entropy0.005 study from original stronger rear source. Actor/critic/Adam/counters and other native source conditions unchanged;all old candidates preserved.",
+    "first_learning_evidence": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_position002_20261012/first_learning_evidence.json",
+    "first_saved_learning": {
+      "additional_steps": 655360,
+      "training_games": 679,
+      "training_seconds": 66.00819811801193,
+      "policy_changed": true,
+      "optimizer_changed": true,
+      "counter_increase_exact": true,
+      "position_per_second": 0.02
+    },
+    "first_monitor_report": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_position002_20261012/FIRST_MONITOR_REVIEW.md",
+    "first_monitor_review": {
+      "additional_steps": 1310720,
+      "training_games": 1335,
+      "training_seconds": 131.54929710400756,
+      "new_evaluation_games": 128,
+      "evaluation_seconds": 64.98901675501838,
+      "phase_wall_seconds": 204.16397547721863,
+      "win_gain_pp": -1.5625
+    },
+    "latest_monitor": {
+      "seed": 43000,
+      "additional_steps": 3932160,
+      "summary": {
+        "games": 128,
+        "wins": 61,
+        "win_rate": 0.4765625,
+        "rear_damage_games": 35,
+        "clean_rear_wins": 34,
+        "rear_before_first_received_games": 35,
+        "rear_damage": 0.12346484375000011,
+        "rear_wez_seconds": 0.5011718749999998,
+        "max_rear_wez_streak": 0.48789062499999986,
+        "damage_dealt": 0.8714257812499985,
+        "damage_received": 0.5968281249999989,
+        "head_on_damage": 0.5166640624999991
+      },
+      "neural": {
+        "summary": {
+          "games": 16,
+          "wins": 15,
+          "win_rate": 0.9375,
+          "rear_damage_games": 7,
+          "clean_rear_wins": 6,
+          "rear_before_first_received_games": 7,
+          "rear_damage": 0.27806249999999977,
+          "rear_wez_seconds": 1.0343749999999987,
+          "max_rear_wez_streak": 1.0343749999999987,
+          "damage_dealt": 0.9529687499999985,
+          "damage_received": 0.058781249999999854,
+          "head_on_damage": 0.0
+        },
+        "retained": 6,
+        "lost": 8,
+        "new": 0,
+        "substantial": 4
+      }
+    },
+    "monitor_trend_report": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_position002_20261012/MONITOR_TREND_REVIEW.md",
+    "first_minimum_learning_report": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_position002_20261012/FIRST_MINIMUM_LEARNING_REPORT.md",
+    "first_minimum_learning": {
+      "additional_steps": 5242880,
+      "training_games": 5203,
+      "training_seconds": 549.6302295489586,
+      "new_completed_evaluation_games": 384,
+      "completed_evaluation_seconds": 200.1206116619869
+    },
+    "first_minimum_report": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_position002_20261012/S43000_MINIMUM_DEVELOPMENT_REVIEW.md",
+    "first_minimum_review": {
+      "additional_steps": 5242880,
+      "training_games": 5203,
+      "training_seconds": 549.6302295489586,
+      "new_evaluation_games": 1280,
+      "evaluation_seconds": 640.2846295810305,
+      "phase_wall_seconds": 997.2542865276337,
+      "win_gain_vs_selected_parent_pp": -0.78125
+    },
+    "first_extension_decision": {
+      "decision": "review_plateau",
+      "extend": false,
+      "improving_points_by_metric": {
+        "rear_damage": 1,
+        "clean_rear_wins": 0,
+        "max_rear_wez_streak": 1,
+        "rear_damage_games": 0
+      },
+      "preserved_rear_lower_received_points": 0,
+      "scope": "Descriptive development trends;not confirmed superiority or frontline promotion."
+    },
+    "first_minimum_retention_verdict": "Position0.02 first RNG loses broad/neural rear skill;preserve measured source and middle monitoring gain,no adoption or additional first extension.",
+    "both_repeat_monitor_curve": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_position002_20261012/BOTH_REPEAT_MONITOR_CURVE.md",
+    "latest_second_monitor": {
+      "additional_steps": 3932160,
+      "summary": {
+        "games": 128,
+        "wins": 74,
+        "win_rate": 0.578125,
+        "rear_damage_games": 38,
+        "clean_rear_wins": 38,
+        "rear_before_first_received_games": 38,
+        "rear_damage": 0.17541796875,
+        "rear_wez_seconds": 0.6687499999999995,
+        "max_rear_wez_streak": 0.6675781249999996,
+        "damage_dealt": 0.8828203124999985,
+        "damage_received": 0.547863281249999,
+        "head_on_damage": 0.4616640624999991
+      },
+      "neural": {
+        "games": 16,
+        "wins": 16,
+        "win_rate": 1.0,
+        "rear_damage_games": 9,
+        "clean_rear_wins": 9,
+        "rear_before_first_received_games": 9,
+        "rear_damage": 0.4422499999999995,
+        "rear_wez_seconds": 1.715624999999998,
+        "max_rear_wez_streak": 1.715624999999998,
+        "damage_dealt": 0.9931874999999984,
+        "damage_received": 0.0,
+        "head_on_damage": 0.0
+      },
+      "substantial_candidate": 7
+    },
+    "second_minimum_learning_report": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_position002_20261012/SECOND_MINIMUM_LEARNING_REPORT.md",
+    "second_minimum_learning": {
+      "additional_steps": 5242880,
+      "training_games": 5524,
+      "training_seconds": 551.9774072839646,
+      "new_completed_evaluation_games": 512,
+      "completed_evaluation_seconds": 262.83661527594086
+    },
+    "second_minimum_monitor": {
+      "games": 128,
+      "wins": 57,
+      "win_rate": 0.4453125,
+      "rear_damage_games": 25,
+      "clean_rear_wins": 25,
+      "rear_before_first_received_games": 25,
+      "rear_damage": 0.14431640624999992,
+      "rear_wez_seconds": 0.5269531249999996,
+      "max_rear_wez_streak": 0.5238281249999995,
+      "damage_dealt": 0.8189218749999985,
+      "damage_received": 0.584121093749999,
+      "head_on_damage": 0.5039257812499991
+    },
+    "second_minimum_neural_monitor": {
+      "games": 16,
+      "wins": 9,
+      "win_rate": 0.5625,
+      "rear_damage_games": 4,
+      "clean_rear_wins": 4,
+      "rear_before_first_received_games": 4,
+      "rear_damage": 0.2499999999999996,
+      "rear_wez_seconds": 0.9999999999999984,
+      "max_rear_wez_streak": 0.9999999999999984,
+      "damage_dealt": 0.4739999999999992,
+      "damage_received": 0.050531249999999875,
+      "head_on_damage": 0.050531249999999875
+    },
+    "update_scale_and_timing_review": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_position002_20261012/UPDATE_SCALE_AND_TIMING_REVIEW.md",
+    "second_minimum_report": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_position002_20261012/S43001_MINIMUM_DEVELOPMENT_REVIEW.md",
+    "second_minimum_review": {
+      "additional_steps": 5242880,
+      "training_games": 5524,
+      "training_seconds": 551.9774072839646,
+      "new_evaluation_games": 1280,
+      "evaluation_seconds": 614.717054738896,
+      "elapsed_from_shared_run_start": 1974.7258760929108,
+      "win_gain_vs_selected_parent_pp": -1.041666666666663
+    },
+    "cycle_report": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_position002_20261012/CYCLE_REVIEW.md",
+    "cycle_summary": {
+      "total_additional_steps": 10485760,
+      "total_training_games": 10727,
+      "total_training_seconds": 1101.6076368329232,
+      "new_evaluation_games": 2560,
+      "evaluation_seconds": 1255.0016843199264,
+      "overall_wall_seconds": 1974.7258760929108,
+      "preserved_checkpoints": 16
+    },
+    "next_parent": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/rear_cpu_damage0125_continue_20261012/checkpoints/s42800_step_005242880",
+    "next_intervention": {
+      "factor": "ppo.ent_coef",
+      "control": 0.01,
+      "value": 0.005
+    }
+  },
+  "frontline_defeat_videos_20261013": {
+    "run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/frontline_loss_videos_20261013",
+    "model": "s42100_step_005242880",
+    "viewer": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/frontline_loss_videos_20261013/index.html",
+    "video_files": [
+      "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/frontline_loss_videos_20261013/ace.mp4",
+      "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/frontline_loss_videos_20261013/reactive_brake_pursuit_right.mp4"
+    ],
+    "diagnostic_games": 2,
+    "simulation_steps": 2457,
+    "exact_archive_metrics": true,
+    "verification": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/frontline_loss_videos_20261013/verification.json",
+    "models_and_physics_preserved": true
+  },
+  "cpu_aim_goal_automation": {
+    "status": "running_first_monitor_reviewed_tradeoff_retained",
+    "goal_status": "active",
+    "active_run": "runs/aim_cpu_encounter_speed_20261015",
+    "previous_completed_run": "runs/aim_cpu_encounter_loss_focus_20261015",
+    "selected_reference_checkpoint": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_actor_v2_20261015/checkpoints/s47236_step_002621440",
+    "parent_all54_wins": 1319,
+    "parent_all54_games": 1728,
+    "baseline_monitor_wins": 60,
+    "baseline_monitor_games": 128,
+    "baseline_endpoint_wins": 508,
+    "baseline_endpoint_games": 672,
+    "seed": 47238,
+    "training_band": 3324600000,
+    "planned_additional_steps": 10485760,
+    "planned_new_periodic_evaluation_games": 1056,
+    "single_factor": {
+      "factor": "post_encounter_conditional_speed_temperature",
+      "temperature": 2.0,
+      "formula": "q(heading,speed)=p(heading)*softmax(original_heading_row/2)[speed]",
+      "evidence": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_loss_focus_20261015/POST_CYCLE_DIAGNOSIS_DECISION.json",
+      "unchanged": "Selected full NN/Adam/counters/frozen opening; all54 original sampling weights; PPO/rewards/physics/controller/prefix pool/coverage/evaluation",
+      "limitation": "Only fixed-state heading marginals and opening behavior are preserved; suffix speed choices and closed-loop trajectories intentionally change."
+    },
+    "speed_exploration": {
+      "temperature": 2.0,
+      "rule": "preserve_heading_marginal_temper_conditional_speed_v1",
+      "phase": "after_existing_range_exit",
+      "training_and_export_match": true
+    },
+    "controller_unchanged": true,
+    "physics_unchanged": true,
+    "all_models_retained": true,
+    "publication": false,
+    "processes": {
+      "trainer": {
+        "pid": 934382,
+        "create_time": 1792065298.53,
+        "status": "sleeping",
+        "cmdline": [
+          ".venv/bin/python",
+          "runs/aim_cpu_encounter_speed_20261015/aim_cpu_runner.py",
+          "launch",
+          "--out",
+          "runs/aim_cpu_encounter_speed_20261015",
+          "--workers",
+          "8",
+          "--resume"
+        ]
+      },
+      "evaluator": {
+        "pid": 934383,
+        "create_time": 1792065299.5,
+        "status": "sleeping",
+        "cmdline": [
+          "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/.venv/bin/python",
+          "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_speed_20261015/aim_cpu_runner.py",
+          "evaluate",
+          "--out",
+          "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_speed_20261015"
+        ]
+      },
+      "reporter": {
+        "pid": 934394,
+        "create_time": 1792065299.69,
+        "status": "sleeping",
+        "cmdline": [
+          ".venv/bin/python",
+          "-m",
+          "tools.aim_encounter_speed_reporting",
+          "--out",
+          "runs/aim_cpu_encounter_speed_20261015",
+          "--watch"
+        ]
+      }
+    },
+    "trainer_tool_session": 73995,
+    "reporter_tool_session": 60149,
+    "checked_at": 1792067115.0922382,
+    "initial_core_state_exact": true,
+    "initial_opening_distribution_exact": true,
+    "initial_suffix_distribution_changed": true,
+    "baseline_unique_reused_games": 672,
+    "new_completed_evaluation_games": 128,
+    "test_count": 28,
+    "test_evidence": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_speed_20261015/TEST_EVIDENCE.json",
+    "implementation_review": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_speed_20261015/INDEPENDENT_REVIEW.json",
+    "experiment_plan": "docs/superpowers/plans/2026-10-15-encounter-speed-exploration.md",
+    "training_running": true,
+    "evaluation_running": true,
+    "next_action": "Prioritize finishing unified-all-model inventory, protocol and launching fresh originalCPU evaluation. Preserve trainer73995/reporter60149. Do not start a new training intervention before the requested all-model comparison is addressed. Keep incumbent unchanged pending fresh rankings.",
+    "training_tool_launches": 1,
+    "initial_runtime_review": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_speed_20261015/INITIAL_RUNTIME_REVIEW.json",
+    "last_observed_live_training": {
+      "seed": 47238,
+      "additional_steps": 2980320,
+      "training_games": 3411,
+      "pid": 934382,
+      "available_host_gib": 16.324382781982422,
+      "elapsed_seconds": 1023.6584293269552
+    },
+    "first_checkpoint_review": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_speed_20261015/FIRST_CHECKPOINT_REVIEW.json",
+    "last_verified_checkpoint_steps": 655360,
+    "last_verified_training_games": 766,
+    "last_verified_training_seconds": 231.4297127739992,
+    "previous_goal_turn": "verified_wait_existing_trainer73995_first_monitor_pending",
+    "this_goal_turn": "progress_first_monitor_paired_analysis_and_retention_decision",
+    "analysis_readers": {
+      "first": "review_first_checkpoint.py",
+      "monitor": "review_monitor.py [additional_steps]",
+      "training": "review_final_training.py",
+      "representative": "review_endpoint.py [additional_steps]",
+      "qualification": "review_all54.py [additional_steps]"
+    },
+    "fixed_state_speed_review": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_speed_20261015/FIXED_STATE_SPEED_REVIEW.json",
+    "new_native_diagnostic_games": 0,
+    "verified_wait_session": 73995,
+    "verified_live_wait": true,
+    "interrupted_wait_note": "Observation interrupted by user question; trainer PID/create_time reverified live; no restart.",
+    "first_monitor_review": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_speed_20261015/S47238_MONITOR_002621440_REVIEW.json",
+    "first_monitor_decision": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_encounter_speed_20261015/FIRST_MONITOR_DECISION.json",
+    "latest_monitor": {
+      "additional_steps": 2621440,
+      "parent_wins": 60,
+      "candidate_wins": 60,
+      "games": 128,
+      "parent_draws": 49,
+      "candidate_draws": 51,
+      "parent_losses": 19,
+      "candidate_losses": 17,
+      "new_wins": 1,
+      "lost_wins": 1,
+      "target_wins": 4,
+      "target_games": 16,
+      "target_draws": 3,
+      "target_losses": 9
+    },
+    "user_priority": "Historical recorded win-rate ranking with one representative per broad family; report complete. No all-model or top10 fresh evaluation requested by latest scope.",
+    "unified_evaluation_run": "runs/unified_all_models_20261015",
+    "unified_evaluation_status": "superseded_by_family_historical_report",
+    "selection_metric": "opponent_any_loss_v1"
+  },
+  "controller_environment_study": {
+    "objective": "Improve controllability and learnability, not immediate frozen-PPO win rate",
+    "report": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/controller_environment_followup_20261014/REPORT.md",
+    "results": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/controller_environment_followup_20261014/ANALYSIS.json",
+    "status": "complete_no_candidate_installed",
+    "training_steps": 7077888,
+    "combat_games": 0,
+    "flight_traces": 120,
+    "installed": false,
+    "priorities": [
+      "normalized turn effort",
+      "own control-state observability",
+      "neutral-transition reverse-yaw suppression"
+    ],
+    "original_sources_verified": true,
+    "previous_fixed_policy_screen_corrected": {
+      "original": 60,
+      "anticipation": 60,
+      "roll_response": 42,
+      "speed_schedule": 46
+    },
+    "run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/controller_environment_followup_20261014",
+    "runtime": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/controller_environment_followup_20261014/runtime.json",
+    "learning_plan": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/controller_environment_followup_20261014/learning_plan.json",
+    "scope": "Native single-aircraft tracking study; not combat or production installation",
+    "training_episodes": 11520,
+    "evaluation_episodes": 1728,
+    "prior_learnability_flight_traces": 39,
+    "completed_trials": 18,
+    "verification": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/controller_environment_followup_20261014/VERIFICATION.json",
+    "review": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/controller_environment_followup_20261014/REVIEW.md",
+    "timing": {
+      "training_steps": 7077888,
+      "training_episodes": 11520,
+      "evaluation_episodes": 1728,
+      "training_seconds": 348.667592922342,
+      "evaluation_seconds": 144.95393480046187,
+      "elapsed_seconds": 515.8329517119564,
+      "combat_games": 0
+    },
+    "decision": "Retain original controller; no tested candidate improved short-budget heading-tracking learnability",
+    "initial_learning_run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/controller_environment_v2_20261014"
+  },
+  "previous_cpu_aim_goal_automation": {
+    "status": "start025_prepared_review_pending",
+    "goal_status": "active",
+    "run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_start025_20261014",
+    "source_run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_selected510_resume_20261014",
+    "evidence_run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_reference510_v2_20261014",
+    "controller_study_excluded": true,
+    "all_models_retained": true,
+    "publication": false,
+    "checked_at": 1791975169.4304922,
+    "previous_goal_turn": "progress",
+    "this_goal_turn": "progress",
+    "next_action": "Bounded review then two unchanged-reward start-mixture repetitions"
+  },
+  "unified_all_models_evaluation": {
+    "run": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/unified_all_models_20261015",
+    "status": "superseded_by_user_family_historical_ranking_report",
+    "scope": "Every historically evaluated model across archived evaluation protocols; no previous-score shortlist.",
+    "new_games": 0
+  },
+  "historical_family_ranking": {
+    "status": "complete_report_only",
+    "report": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/HISTORICAL_FAMILY_WIN_RATE_RANKING_20261015.md",
+    "evaluated_checkpoints": 674,
+    "families": 7,
+    "ranking_metric": "historical_game_wins_over_all_games_no_panel_weighting",
+    "new_games": 0,
+    "supersedes": "all-model reevaluation and per-panel top10 collection",
+    "updated_at": 1792069716.0313208
+  },
+  "desktop_seven_20261015": {
+    "status": "compact_publication_verified_training_not_started",
+    "manifest": "artifacts/20261015/manifest.json",
+    "report": "docs/DESKTOP_SEVEN_MODELS_20261015.md",
+    "training_authorized": true,
+    "future_auto_upload": false,
+    "screen_games": 224,
+    "confirmation_games": 448,
+    "artifact_files": 151,
+    "artifact_bytes": 3450005,
+    "isolated_snapshot_smoke_games": 14,
+    "local_policy_tests_passed": 42
   }
 }

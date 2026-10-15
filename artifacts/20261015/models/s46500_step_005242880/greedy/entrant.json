@@ -1,0 +1,6 @@
+{
+  "id": "s46500_step_005242880",
+  "kind": "submission",
+  "design": "runs/aim_cpu_heading_memory_20261014/checkpoints/.s46500_step_005242880.tmp/greedy",
+  "weights": "runs/aim_cpu_heading_memory_20261014/checkpoints/.s46500_step_005242880.tmp/greedy/policy_net.zip"
+}
