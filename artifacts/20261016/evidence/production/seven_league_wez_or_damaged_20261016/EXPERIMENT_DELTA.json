@@ -1,0 +1,14 @@
+{
+  "changed_training_factor": "extend lowerprior condition to publicWEZ OR ownhealth<1",
+  "original_source": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_threat_refzero_20261016/parents/s73501_step_005242880_refzero",
+  "changed_control": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_wez_or_damaged_20261016/parents/s73501_step_005242880_refzero_wez_or_damaged_control",
+  "old_policy_function_preserved": false,
+  "old_model_preserved": true,
+  "learned_state_exact": true,
+  "source_panel": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_threat_refzero_20261016/baseline",
+  "production_config_sha256": "41720282a8490b3bab66fb8a06893fb7483c4d9b0741e6353c778cec74307da8",
+  "smoke_config_sha256": "7652309be261cdb48ace5ede4bb5b865006672546b0da6f2c7236d65074a6b97",
+  "smoke_plan_sha256": "2600e90fa77b2f924f1a942109e8bb0fcb984e063d85067fe55c765230d8abcf",
+  "production_not_started": true,
+  "prepared_time": 1792136339.4983594
+}

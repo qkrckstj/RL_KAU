@@ -1,0 +1,242 @@
+"""Prepare one fixed GAE-lambda experiment from the preserved native500 learner."""
+import argparse
+import copy
+import fcntl
+import hashlib
+import json
+import math
+import shutil
+import time
+import zipfile
+from pathlib import Path
+from experiments.rear_async.storage import identity,read,sha,verify,write
+from tools.rear_async_cpu import ROOT,check_plan
+
+
+def long_credit_ppo(control):
+    if control.get('gamma') != .999 or control.get('gae_lambda') != .99:
+        raise ValueError('Control GAE or gamma differs')
+    return dict(copy.deepcopy(control), gae_lambda=.999)
+
+
+def learner_load_options(ppo):
+    if ppo.get('gamma') != .999 or ppo.get('gae_lambda') != .999:
+        raise ValueError('Planned GAE or gamma differs')
+    return dict(gae_lambda=ppo['gae_lambda'])
+
+
+def credit_runner(code):
+    boundaries = [
+        ('    from experiments.aim_async.reference_ppo import ReferenceAnchoredPPO as PPO',
+         '    from experiments.aim_async.reference_ppo import ReferenceAnchoredPPO as PPO\n    from tools.prepare_aim_long_credit import learner_load_options'),
+        ("force_reset=True,n_steps=640)",
+         "force_reset=True,n_steps=640,**learner_load_options(plan['ppo']))"),
+        ('model.gae_lambda==.99', "model.gae_lambda==plan['ppo']['gae_lambda']"),
+        ('                assert model.n_envs==32 and model.n_steps==640',
+         '                assert model.n_envs==32 and model.n_steps==640\n'
+         '                assert model.rollout_buffer.gamma==model.gamma\n'
+         '                assert model.rollout_buffer.gae_lambda==model.gae_lambda\n'
+         "                write(out/f's{seed}_credit_runtime.json',dict(seed=seed,model_gamma=model.gamma,buffer_gamma=model.rollout_buffer.gamma,model_gae_lambda=model.gae_lambda,buffer_gae_lambda=model.rollout_buffer.gae_lambda,reference_coefficient=model.reference_coefficient,reference_policy_hash=model.reference_policy_hash))"),
+    ]
+    for old,new in boundaries:
+        if code.count(old)!=1:raise ValueError('Credit runner boundary differs: '+old)
+        code=code.replace(old,new)
+    return code
+
+
+def choose_full(entries):
+    full=[e for e in entries if e['kind']=='development']
+    if any(e['summary']['games']!=672 for e in full):
+        raise ValueError('Incomplete full native panel')
+    baselines=[e for e in full if e['baseline']]
+    candidates=[e for e in full if not e['baseline']]
+    if len(baselines)!=1 or not candidates:
+        raise ValueError('No qualified full-panel improvement')
+    chosen=max(candidates,key=lambda e:(e['summary']['wins'],
+        e['summary'].get('damage_dealt',0)-e['summary'].get('damage_received',0),
+        -e.get('additional_steps',0)))
+    if chosen['summary']['wins']<=baselines[0]['summary']['wins']:
+        raise ValueError('No qualified full-panel improvement')
+    return chosen
+
+
+def short_budget():
+    return dict(minimum_steps=3932160,maximum_steps=5242880,checkpoint_steps=655360,monitor_steps=1310720,maximum_update_epochs_per_minimum=768,maximum_update_epochs_per_cap=1024,maximum_update_epochs_per_checkpoint=128)
+
+
+def prepare(source,out):
+    if out.exists() or not out.is_relative_to(ROOT/'runs'):
+        raise ValueError('Use a fresh output under runs')
+    if not (source/'training_complete.json').exists() or (source/'training_failure.json').exists():
+        raise RuntimeError('Source not successfully terminal')
+    if read(source/'evaluation_complete.json')['status']!='queue_drained':
+        raise RuntimeError('Source evaluation not drained')
+    for path in (source/'queue').glob('*.json'):
+        folder=source/'evaluations'/read(path)['job_id']
+        if not (folder/'completion.json').exists() or (folder/'blocked.json').exists():
+            raise RuntimeError('Source queue incomplete or blocked')
+    import psutil
+    for proc in psutil.process_iter(['cmdline','status']):
+        args=proc.info['cmdline'] or []
+        if proc.info['status']!=psutil.STATUS_ZOMBIE and any(Path(a).name=='aim_cpu_runner.py' or a=='tools.rear_async_cpu' for a in args) and any(a in args for a in ('launch','evaluate')):
+            raise RuntimeError('Existing native trainer/evaluator:'+str(proc.pid))
+    if psutil.virtual_memory().available<10*2**30:raise MemoryError('Need10GiB available')
+    locks=[]
+    try:
+        for name in ('launch.lock','training.lock','evaluation.lock'):
+            lock=(source/name).open('a');locks.append(lock);fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+        original=read(source/'plan.json');check_plan(original)
+        diagnosis=ROOT/'runs/aim_cpu_reference_midpoint_20261014'
+        control=ROOT/'runs/aim_cpu_reference_anchor01_20261014'
+        if read(diagnosis/'QUALIFICATION_REVIEW.json')['status']!='complete_all_full_paired_cells_and_opponent_groups_reviewed':
+            raise ValueError('Midpoint qualification not analyzed')
+        if read(control/'TWO_REPEAT_REVIEW.json')['status']!='two_repeats_complete_analyzed' or read(control/'evaluation_complete.json')['status']!='queue_drained':
+            raise ValueError('Reference control not terminal and analyzed')
+        if not (control/'training_complete.json').exists() or (control/'training_failure.json').exists():
+            raise ValueError('Reference control failed or incomplete')
+        control_plan=read(control/'plan.json')
+        if control_plan['reference_kl_coefficient']!=.1:
+            raise ValueError('Reference control coefficient differs')
+        for key in ('ppo','aim_coefficients','tail_coefficients','prior_bias','learner_feature_dim',
+                    'teacher','opponents','curriculum','coverage_period','development_opponents',
+                    'monitor_opponents','monitor_ics','development_ics','monitor_action_seeds',
+                    'monitor_band','development_band','heading_feedback','relative_enemy_feedback',
+                    'terminal_draw_penalty','processes','workers'):
+            if control_plan[key]!=original[key]:raise ValueError('Reference control conditions differ: '+key)
+        for key in ('minimum_steps','maximum_steps','checkpoint_steps','monitor_steps'):
+            if control_plan[key]!=short_budget()[key]:raise ValueError('Reference control budget differs: '+key)
+        check_plan(read(diagnosis/'plan.json'))
+        review=read(source/'TWO_REPEAT_REVIEW.json');audit=read(source/'CYCLE_LOG_AUDIT.json')
+        if review['status']!='two_repeats_complete_analyzed' or set(audit['training'])!={str(s) for s in original['seeds']}:
+            raise ValueError('Source repeats not completely analyzed')
+        for seed in original['seeds']:
+            trained=audit['training'][str(seed)]
+            if trained['all_episodes']['games']!=read(source/f's{seed}_result.json')['training_games'] or trained['nonfinite_ppo_fields']:
+                raise ValueError('Completed audit differs or nonfinite')
+        if (original['relative_enemy_feedback']!='public_enemy_los_cos_v1' or original['ppo']['learning_rate']!=1e-5
+                or original['terminal_draw_penalty']!=.25 or original['learner_feature_dim']!=43 or original['prior_bias']!=6.
+                or original['processes']!=8 or original['workers']!=32
+                or original['aim_coefficients']!=dict(potential=.05,damage=.5,received=.75) or original['ppo']['ent_coef']!=.003):
+            raise ValueError('Expected completed originalLOS/received0.75/rate1e-5/draw0.25 control')
+        entries=[(p,read(p)) for p in (source/'evaluations').glob('*/completion.json')]
+        chosen=choose_full([e for _,e in entries])
+        checkpoint=Path(chosen['checkpoint']).resolve();metadata=verify(checkpoint)
+        if str(checkpoint)!=review['selected_peak']['path'] or chosen['summary']['wins']!=review['selected_peak']['wins'] or chosen['checkpoint_id']!=metadata['checkpoint_id']:
+            raise ValueError('Reviewed full-panel parent identity differs')
+        parent=checkpoint/'learner.zip'
+        with zipfile.ZipFile(parent) as archive:
+            serialized=json.loads(archive.read('data'))
+            before=dict(policy=hashlib.sha256(archive.read('policy.pth')).hexdigest(),
+                optimizer=hashlib.sha256(archive.read('policy.optimizer.pth')).hexdigest(),
+                decisions=serialized['num_timesteps'],updates=serialized['_n_updates'])
+        for key in ('learning_rate','n_steps','n_epochs','batch_size','gamma','gae_lambda','target_kl','ent_coef','max_grad_norm'):
+            if serialized[key]!=original['ppo'][key]:raise ValueError('Saved parent PPO differs:'+key)
+        exported=read(checkpoint/'greedy/policy_net.json')
+        if serialized['num_timesteps']!=metadata['total_steps'] or serialized['n_envs']!=32 or serialized['policy_kwargs']['prior_bias']!=6. or exported['observation_dim']!=43 or exported['prior_bias']!=6. or exported['teacher']!=original['teacher']:
+            raise ValueError('Saved parent counters/feature/teacher contract differs')
+        from experiments.aim_async.evaluate import profile
+        panels=[]
+        for kind in ('monitor','development'):
+            matches=[(p,e) for p,e in entries if e['checkpoint_id']==metadata['checkpoint_id'] and not e['baseline'] and e['kind']==kind]
+            if len(matches)!=1:raise ValueError('Ambiguous qualified panel')
+            path,entry=matches[0];files=sorted((path.parent/'cells').glob('*.json'));rows=[read(f) for f in files]
+            samplers=original['monitor_action_seeds'] if kind=='monitor' else [4900,4901]
+            expected={(f['id'],original[kind+'_band']+i,seat,action) for f in original[kind+'_opponents'] for i in range(original[kind+'_ics']) for seat in ('red','blue') for action in samplers}
+            keys={tuple(r[k] for k in ('opponent','seed','seat','action_seed')) for r in rows}
+            if len(rows)!=len(expected) or keys!=expected:raise ValueError('Incomplete or unpaired qualified panel')
+            measured=profile(rows)
+            if measured.keys()!=entry['summary'].keys() or any(measured[k]!=v and not (measured[k] is not None and v is not None and math.isclose(measured[k],v,rel_tol=0.,abs_tol=1e-12)) for k,v in entry['summary'].items()):
+                raise ValueError('Qualified native profile differs')
+            panels.append((path,entry,rows,files))
+        full=next(rows for _,e,rows,_ in panels if e['kind']=='development');monitor=next(rows for _,e,rows,_ in panels if e['kind']=='monitor')
+        indexed=lambda rows:{tuple(r[k] for k in ('opponent','seed','seat','action_seed')):r for r in rows}
+        if len(full)!=672 or len(monitor)!=128 or any(indexed(full).get(k)!=r for k,r in indexed(monitor).items()):
+            raise ValueError('Monitor not exact qualified full subset')
+        seeds,bands=[47070,47071],[2960400000,2970400000]
+        for path in ROOT.parent.parent.parent.glob('**/training_reservation_*.json'):
+            reservation=read(path)
+            if any(b<reservation['stop_exclusive'] and b+1000000>reservation['start'] for b in bands):raise ValueError('Reserved training band:'+str(path))
+        out.mkdir(parents=True);prepared=out/'qualified500_parent.zip';shutil.copyfile(parent,prepared)
+        if sha(prepared)!=sha(parent):raise ValueError('Copied qualified learner bytes differ')
+        runner=out/'aim_cpu_runner.py';code=(source/'aim_cpu_runner.py').read_text();old='from tools.aim_cpu_received_weight_reporting import update'
+        if code.count(old)!=1:raise ValueError('Reporter boundary differs')
+        code=code.replace(old,'from tools.aim_cpu_long_credit_reporting import update')
+        loader='from stable_baselines3 import PPO'
+        if code.count(loader)!=1:raise ValueError('PPO loader boundary differs')
+        code=code.replace(loader,'from experiments.aim_async.reference_ppo import ReferenceAnchoredPPO as PPO')
+        line="                model=PPO.load(latest/'learner.zip' if latest else ROOT/plan['parent'],env=vec,device='cpu',seed=seed,force_reset=True,n_steps=640)"
+        if code.count(line)!=1:raise ValueError('PPO load call boundary differs')
+        code=code.replace(line,line+"\n                model.attach_reference(ROOT/plan['reference_archive'],plan['reference_kl_coefficient'])\n                assert model.reference_policy_hash==plan['reference_policy_sha256']")
+        code=credit_runner(code)
+        compile(code,str(runner),'exec');runner.write_text(code)
+        budget=out/'SHORT_CONTINUATION_BUDGET.json'
+        settings=short_budget()
+        write(budget,dict(settings,reason='Preserve the reference-KL control budget and three-monitor/live/resume gate; only GAE lambda changes.'))
+        expected_monitor=out/'baseline_monitor_expected.json';write(expected_monitor,monitor)
+        plan=copy.deepcopy(original);plan.update(reference_archive=str(prepared.relative_to(ROOT)),reference_kl_coefficient=.1,reference_policy_sha256=before['policy'],analysis_run=str(diagnosis),comparison_control_run=str(control),parent=str(prepared.relative_to(ROOT)),parent_source=str(parent),source_run=str(source),
+            selected_parent_checkpoint=str(checkpoint),selected_parent_assessment=str(source/'S47021_MINIMUM_FULL_REVIEW.json'),
+            seeds=seeds,training_bands=bands,minimum_steps=settings['minimum_steps'],maximum_steps=settings['maximum_steps'],
+            maximum_update_epochs_per_minimum=settings['maximum_update_epochs_per_minimum'],maximum_update_epochs_per_cap=settings['maximum_update_epochs_per_cap'],
+            budget_spec_repository_relative=str(budget.relative_to(ROOT.parent)),baseline_monitor_expected=str(expected_monitor),
+            scope='Fixed GAE lambda0.999 CPU PPO continuation with referenceKL0.1 from provisional native500/672.',
+            intervention=dict(factor='gae_lambda',control=.99,value=.999,fixed_reference_kl=.1,
+                parent='Nativequalified500checkpoint;provisionaladaptive selection,not128monitor peak.',
+                unchanged='NN/initializedAdam/counters/initiallearnerbytes/43features/teacher/prior6/allrewards/referenceKL0.1/otherPPOsettings/48foes/probabilities/quarter0.5/nativephysics/guns/verdict/evaluation/shortbudget'),
+            comparison_scope='GAElambda0.999 versus completed referenceKL0.1/lambda0.99 control495/488; different trainingRNG/bands, exploratory not causalconfirmation. Consumed672development is not unseen finalvalidation.',
+            parent_choice='Highest complete native672candidate500;preserve499/498fallbacks;onewin is not statisticalconfirmation.',
+            qualified_parent_full_wins=500,qualified_parent_full_games=672,
+            historical_reference_fields='Inherited legacy reference_* fields record earlier leaguehistory;activecomparator is cached500/672selected_parent_checkpoint.')
+        plan['ppo']=long_credit_ppo(original['ppo'])
+        inherited=read(diagnosis/'plan.json')['frozen_sha256']
+        for name,digest in inherited.items():
+            if name in plan['frozen_sha256'] and plan['frozen_sha256'][name]!=digest:raise ValueError('Inherited frozen digest differs: '+name)
+            plan['frozen_sha256'][name]=digest
+        inputs=[prepared,runner,budget,expected_monitor,Path(__file__).resolve(),ROOT/'tests/test_aim_long_credit.py',ROOT/'tools/aim_cpu_long_credit_reporting.py',ROOT/'tools/aim_cpu_reference_reporting.py',ROOT/'experiments/aim_async/reference_ppo.py',checkpoint/'READY.json']
+        inputs.extend([diagnosis/name for name in ('plan.json','QUALIFICATION_REVIEW.json','QUALIFICATION_REPORT.md','QUALIFICATION_TIMING.json','CREDIT_DIAGNOSIS.json','NEXT_LONG_CREDIT_PLAN.md','REVIEW.json')])
+        for completion in (diagnosis/'evaluations').glob('*/completion.json'):
+            inputs.extend([completion,*completion.parent.glob('cells/*.json')])
+            proof=completion.parent/'reuse_manifest.json'
+            if proof.exists():inputs.append(proof)
+        inputs.extend(control/name for name in ('plan.json','CYCLE_LOG_AUDIT.json','TWO_REPEAT_REVIEW.json','REPEAT_RESULTS.md','S47060_COMPLETED_REVIEW.json','S47061_COMPLETED_REVIEW.json','training_complete.json','evaluation_complete.json','REVIEW.json'))
+        import inspect
+        from stable_baselines3 import PPO
+        from stable_baselines3.common.base_class import BaseAlgorithm
+        from stable_baselines3.common.save_util import load_from_zip_file
+        from stable_baselines3.common.buffers import RolloutBuffer
+        inputs.extend([Path(inspect.getfile(obj)) for obj in (PPO,BaseAlgorithm,load_from_zip_file,RolloutBuffer)])
+        inputs.extend(checkpoint/name for name in metadata['files'])
+        inputs.extend(source/name for name in ('plan.json','parent_verification.json','CYCLE_LOG_AUDIT.json','TWO_REPEAT_REVIEW.json',
+            'S47020_COMPLETED_REVIEW.json','S47021_COMPLETED_REVIEW.json','S47021_MINIMUM_FULL_REVIEW.json','REPEAT_RESULTS.md',
+            'NEXT_SHORT_CONTINUATION_PLAN.md','REVIEW.json','training_complete.json','evaluation_complete.json'))
+        inputs.extend(source/name for name in audit['read_files'])
+        for path,_,_,files in panels:inputs.extend([path,*files])
+        plan['frozen_sha256'].update({str(p.relative_to(ROOT)):sha(p) for p in inputs})
+        plan['config_id']=identity({k:v for k,v in plan.items() if k not in ('config_id','frozen_sha256')});write(out/'plan.json',plan)
+        for path,entry,rows,_ in panels:
+            folder=out/'evaluations'/identity(dict(config_id=plan['config_id'],parent=metadata['checkpoint_id'],kind=entry['kind']))
+            reused=dict(entry,seed=seeds[0],additional_steps=0,baseline=True,status='reused_byte_identical_qualified500_initial_learner',actual_new_games=0,
+                new_games_in_final_attempt=0,reused_cells_in_final_attempt=len(rows),reused_from_sibling_games=0,wall_seconds=0.,
+                reused_from_run=str(source),reused_from_evaluation=str(path.parent),
+                reuse_basis='Qualified500learnerZIP byte-identical; NN/initializedAdam/counters/features/teacher/prior/nativeinference unchanged. GAE/reference-loss/budget/freshRNG affect futurelearning only.')
+            write(folder/'completion.json',reused);write(out/'candidates'/f'{folder.name}.json',reused)
+            for row in rows:write(folder/'cells'/f"{identity({k:row[k] for k in ('opponent','seed','seat','action_seed')})}.json",row)
+        write(out/'baseline_checkpoint.json',dict(path=str(checkpoint)))
+        write(out/'parent_verification.json',dict(before=before,after=before,restored=before,state_exact=True,source_sha256=sha(parent),prepared_sha256=sha(prepared),
+            byte_identical=True,byte_identical_to_qualified_parent=True,state_basis='Byte-identical serializedlearnercopy,not an additional model-load test.',
+            policy_behavior_unchanged=True,initial_native_behavior_preserved=True,comparator_wins=500,comparator_games=672,
+            baseline_unique_games=672,baseline_panel_entries=800,new_baseline_games=0,fixed_learning_rate=1e-5,archive_gae_lambda=.99,loaded_gae_lambda=.999,load_override=learner_load_options(plan['ppo']),qualified_checkpoint=str(checkpoint)))
+        for band in bands:
+            with (ROOT/f'runs/training_reservation_{band}.json').open('x') as file:json.dump(dict(run=str(out),start=band,stop_exclusive=band+1000000),file)
+        write(out/'started.json',dict(time=time.time(),status='prepared_not_launched'))
+        write(out/'goal_control.json',dict(status='prepared_review_pending',goal_status='active',automatic_learning=True,publication=False,
+            next_action='One cumulative read-only review, then two fixedGAElambda0.999/referenceKL0.1 qualified500 CPU PPO repeats.'))
+        check_plan(original);check_plan(plan)
+        print(json.dumps(dict(out=str(out),prepared=True,comparator_wins=500,new_baseline_games=0,parent_state_exact=True,byte_identical=True,
+            minimum_steps=settings['minimum_steps'],maximum_steps=settings['maximum_steps'],frozen_files=len(plan['frozen_sha256']))))
+    finally:
+        for lock in locks:lock.close()
+
+
+if __name__=='__main__':
+    parser=argparse.ArgumentParser();parser.add_argument('--source',type=Path,required=True);parser.add_argument('--out',type=Path,required=True)
+    args=parser.parse_args();prepare(args.source.resolve(),args.out.resolve())

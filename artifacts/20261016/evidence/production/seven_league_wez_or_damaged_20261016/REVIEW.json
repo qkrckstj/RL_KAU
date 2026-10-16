@@ -1,0 +1,9 @@
+{
+  "status": "approved_two_bounded_production_candidates",
+  "config_sha256": "41720282a8490b3bab66fb8a06893fb7483c4d9b0741e6353c778cec74307da8",
+  "control_completion_sha256": "df51ba99f339e53c7f8691576ea1ee5b7004efaa2c9d979d710c8d165af42a60",
+  "smoke_validation_sha256": "c37bc5fb2428453b85b206901dcd729052325563bfae463295cd58053e5af02a",
+  "reviewer": "/root/publication_review",
+  "blocking_findings": [],
+  "scope": "Two bounded production candidates 74500 and 74501; preserve strict screen, fresh conditional confirmation and append-only admission."
+}

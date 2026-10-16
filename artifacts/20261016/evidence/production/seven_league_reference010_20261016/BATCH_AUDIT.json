@@ -1,0 +1,141 @@
+{
+  "iterations": [
+    {
+      "iteration": 0,
+      "training": {
+        "decisions": 5242880,
+        "training_games": 3858,
+        "training_seconds": 603.309216857655,
+        "wall_seconds": 604.2121047050459,
+        "checkpoint": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference010_20261016/iteration_000/checkpoints/s61000_step_005242880",
+        "parent_sha256": "757d70949e4651f0e1394fbdd23ab66d334fc7e768d89d0e0ba2a1a48bd2300e"
+      },
+      "score": {
+        "games": 224,
+        "opponent_wins": 0,
+        "opponent_losses": 7,
+        "all_pass": false,
+        "game_wins": 16,
+        "game_draws": 196,
+        "game_losses": 12,
+        "per_opponent": {
+          "s44701_step_002621440": {
+            "wins": 3,
+            "draws": 27,
+            "losses": 2,
+            "verdict": "loss"
+          },
+          "s45800_step_002621440": {
+            "wins": 0,
+            "draws": 32,
+            "losses": 0,
+            "verdict": "loss"
+          },
+          "s46201_step_005242880": {
+            "wins": 2,
+            "draws": 29,
+            "losses": 1,
+            "verdict": "loss"
+          },
+          "s46401_step_005242880": {
+            "wins": 4,
+            "draws": 26,
+            "losses": 2,
+            "verdict": "loss"
+          },
+          "s46500_step_005242880": {
+            "wins": 3,
+            "draws": 26,
+            "losses": 3,
+            "verdict": "loss"
+          },
+          "s47236_step_002621440": {
+            "wins": 2,
+            "draws": 28,
+            "losses": 2,
+            "verdict": "loss"
+          },
+          "s47238_step_010485760": {
+            "wins": 2,
+            "draws": 28,
+            "losses": 2,
+            "verdict": "loss"
+          }
+        }
+      },
+      "evaluation_seconds": 36.19790451100562
+    },
+    {
+      "iteration": 1,
+      "training": {
+        "decisions": 5242880,
+        "training_games": 3853,
+        "training_seconds": 606.8063682190841,
+        "wall_seconds": 607.8212452819571,
+        "checkpoint": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference010_20261016/iteration_001/checkpoints/s61001_step_005242880",
+        "parent_sha256": "757d70949e4651f0e1394fbdd23ab66d334fc7e768d89d0e0ba2a1a48bd2300e"
+      },
+      "score": {
+        "games": 224,
+        "opponent_wins": 0,
+        "opponent_losses": 7,
+        "all_pass": false,
+        "game_wins": 17,
+        "game_draws": 187,
+        "game_losses": 20,
+        "per_opponent": {
+          "s44701_step_002621440": {
+            "wins": 3,
+            "draws": 23,
+            "losses": 6,
+            "verdict": "loss"
+          },
+          "s45800_step_002621440": {
+            "wins": 1,
+            "draws": 29,
+            "losses": 2,
+            "verdict": "loss"
+          },
+          "s46201_step_005242880": {
+            "wins": 2,
+            "draws": 27,
+            "losses": 3,
+            "verdict": "loss"
+          },
+          "s46401_step_005242880": {
+            "wins": 3,
+            "draws": 27,
+            "losses": 2,
+            "verdict": "loss"
+          },
+          "s46500_step_005242880": {
+            "wins": 4,
+            "draws": 27,
+            "losses": 1,
+            "verdict": "loss"
+          },
+          "s47236_step_002621440": {
+            "wins": 2,
+            "draws": 27,
+            "losses": 3,
+            "verdict": "loss"
+          },
+          "s47238_step_010485760": {
+            "wins": 2,
+            "draws": 27,
+            "losses": 3,
+            "verdict": "loss"
+          }
+        }
+      },
+      "evaluation_seconds": 36.60103059397079
+    }
+  ],
+  "training_decisions": 10485760,
+  "training_episodes": 7711,
+  "training_seconds": 1210.115585076739,
+  "evaluation_games_including_baseline": 672,
+  "evaluation_seconds_including_baseline": 110.22475543490145,
+  "pool_size": 7,
+  "confirmation_games": 0
+}

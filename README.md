@@ -1,3 +1,5 @@
+> **2026-10-16 CPU continuation — PAUSED:** [Install, verify and continue on another computer](docs/CPU_CONTINUATION_HANDOFF_20261016.md) · [All seven-opponent learning/evaluation progress](docs/SEVEN_OPPONENT_PROGRESS_20261016.md). Original seven preserved, feedback002 retained (203W/4D/17L, strict1/7), no qualified v1. CPU-only execution verified; read current handoff before historical running/PID labels below. Future uploads require a new request.
+
 # RL_KAU — JSBSim 강화학습 실험
 
 ## 최신 자동 학습 전략 — 2026-10-12

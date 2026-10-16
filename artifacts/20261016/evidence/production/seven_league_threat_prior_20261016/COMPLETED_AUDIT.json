@@ -1,0 +1,240 @@
+{
+  "controller_session": 67408,
+  "controller_exit": 0,
+  "raw_screens_authenticated": true,
+  "actual_model_pool_bound": true,
+  "frozen_inputs_verified": true,
+  "checkpoint_ready_plan_bound": true,
+  "pool_size": 7,
+  "training_decisions": 10485760,
+  "training_episodes": 7565,
+  "training_seconds": 1196.1860165802063,
+  "evaluation_games_including_baseline": 672,
+  "selected_branch": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_threat_prior_20261016/iteration_001/checkpoints/s73501_step_005242880",
+  "selected_score": {
+    "games": 224,
+    "opponent_wins": 1,
+    "opponent_losses": 6,
+    "all_pass": false,
+    "game_wins": 10,
+    "game_draws": 199,
+    "game_losses": 15,
+    "per_opponent": {
+      "s44701_step_002621440": {
+        "wins": 0,
+        "draws": 30,
+        "losses": 2,
+        "verdict": "loss"
+      },
+      "s45800_step_002621440": {
+        "wins": 1,
+        "draws": 31,
+        "losses": 0,
+        "verdict": "win"
+      },
+      "s46201_step_005242880": {
+        "wins": 1,
+        "draws": 27,
+        "losses": 4,
+        "verdict": "loss"
+      },
+      "s46401_step_005242880": {
+        "wins": 1,
+        "draws": 28,
+        "losses": 3,
+        "verdict": "loss"
+      },
+      "s46500_step_005242880": {
+        "wins": 2,
+        "draws": 28,
+        "losses": 2,
+        "verdict": "loss"
+      },
+      "s47236_step_002621440": {
+        "wins": 2,
+        "draws": 28,
+        "losses": 2,
+        "verdict": "loss"
+      },
+      "s47238_step_010485760": {
+        "wins": 3,
+        "draws": 27,
+        "losses": 2,
+        "verdict": "loss"
+      }
+    }
+  },
+  "global_incumbent_unchanged": true,
+  "campaign_before_sha256": "8b3b567c5a34c9c418fd10cfbeb69e577eda53aed12b99f92cc8cb3162e7a4bd",
+  "campaign_after_sha256": "b2e21475927b4580cf4fa360a94cf23f56dae2a6ca83142d1ba1f6d743982f38",
+  "script_sha256": "39177d07c98df172f39fcb3780ae761cc6dd4485b035ae5ee56d93798eab56cb",
+  "records": [
+    {
+      "run": "seven_league_threat_prior_20261016",
+      "iteration": 0,
+      "checkpoint": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_threat_prior_20261016/iteration_000/checkpoints/s73500_step_005242880",
+      "source_result_sha256": "32d44ee4b2f27989bae906f1efe1cfbfa940e507e42320550d74f8ebf1d64b99",
+      "learning_rate": 3.75e-06,
+      "entropy_coefficient": 0.0,
+      "received_cost": 0.75,
+      "allocation_loss_weight": 16.0,
+      "training": {
+        "decisions": 5242880,
+        "training_games": 3791,
+        "training_seconds": 598.0663059492363,
+        "wall_seconds": 598.9821218569996,
+        "checkpoint": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_threat_prior_20261016/iteration_000/checkpoints/s73500_step_005242880",
+        "parent_sha256": "99898991a5ec33d157add68026fd6fb0a623c5874e7d7300fe21b46e2303c7c7"
+      },
+      "evaluation_games": 224,
+      "evaluation_seconds": 37.72182262095157,
+      "score": {
+        "games": 224,
+        "opponent_wins": 0,
+        "opponent_losses": 7,
+        "all_pass": false,
+        "game_wins": 16,
+        "game_draws": 180,
+        "game_losses": 28,
+        "per_opponent": {
+          "s44701_step_002621440": {
+            "wins": 2,
+            "draws": 27,
+            "losses": 3,
+            "verdict": "loss"
+          },
+          "s45800_step_002621440": {
+            "wins": 0,
+            "draws": 28,
+            "losses": 4,
+            "verdict": "loss"
+          },
+          "s46201_step_005242880": {
+            "wins": 3,
+            "draws": 24,
+            "losses": 5,
+            "verdict": "loss"
+          },
+          "s46401_step_005242880": {
+            "wins": 2,
+            "draws": 27,
+            "losses": 3,
+            "verdict": "loss"
+          },
+          "s46500_step_005242880": {
+            "wins": 3,
+            "draws": 25,
+            "losses": 4,
+            "verdict": "loss"
+          },
+          "s47236_step_002621440": {
+            "wins": 3,
+            "draws": 25,
+            "losses": 4,
+            "verdict": "loss"
+          },
+          "s47238_step_010485760": {
+            "wins": 3,
+            "draws": 24,
+            "losses": 5,
+            "verdict": "loss"
+          }
+        }
+      },
+      "promoted": false,
+      "relative_potential_coefficient": 1.0,
+      "control_guidance_coefficient": 0.05,
+      "gamma": 0.9995,
+      "gae_lambda": 0.999,
+      "rollout_ticks": 2048,
+      "terminal_win_bonus": 1.0,
+      "terminal_draw_penalty": 0.25,
+      "reference_coefficient": 0.3
+    },
+    {
+      "run": "seven_league_threat_prior_20261016",
+      "iteration": 1,
+      "checkpoint": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_threat_prior_20261016/iteration_001/checkpoints/s73501_step_005242880",
+      "source_result_sha256": "481b06b9aa88393122d2f397529a0910bef3dd367d5aeef39ff44dacb1e8c96e",
+      "learning_rate": 3.75e-06,
+      "entropy_coefficient": 0.0,
+      "received_cost": 0.75,
+      "allocation_loss_weight": 16.0,
+      "training": {
+        "decisions": 5242880,
+        "training_games": 3774,
+        "training_seconds": 598.1197106309701,
+        "wall_seconds": 599.2201949469745,
+        "checkpoint": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_threat_prior_20261016/iteration_001/checkpoints/s73501_step_005242880",
+        "parent_sha256": "99898991a5ec33d157add68026fd6fb0a623c5874e7d7300fe21b46e2303c7c7"
+      },
+      "evaluation_games": 224,
+      "evaluation_seconds": 37.63138734200038,
+      "score": {
+        "games": 224,
+        "opponent_wins": 1,
+        "opponent_losses": 6,
+        "all_pass": false,
+        "game_wins": 10,
+        "game_draws": 199,
+        "game_losses": 15,
+        "per_opponent": {
+          "s44701_step_002621440": {
+            "wins": 0,
+            "draws": 30,
+            "losses": 2,
+            "verdict": "loss"
+          },
+          "s45800_step_002621440": {
+            "wins": 1,
+            "draws": 31,
+            "losses": 0,
+            "verdict": "win"
+          },
+          "s46201_step_005242880": {
+            "wins": 1,
+            "draws": 27,
+            "losses": 4,
+            "verdict": "loss"
+          },
+          "s46401_step_005242880": {
+            "wins": 1,
+            "draws": 28,
+            "losses": 3,
+            "verdict": "loss"
+          },
+          "s46500_step_005242880": {
+            "wins": 2,
+            "draws": 28,
+            "losses": 2,
+            "verdict": "loss"
+          },
+          "s47236_step_002621440": {
+            "wins": 2,
+            "draws": 28,
+            "losses": 2,
+            "verdict": "loss"
+          },
+          "s47238_step_010485760": {
+            "wins": 3,
+            "draws": 27,
+            "losses": 2,
+            "verdict": "loss"
+          }
+        }
+      },
+      "promoted": false,
+      "relative_potential_coefficient": 1.0,
+      "control_guidance_coefficient": 0.05,
+      "gamma": 0.9995,
+      "gae_lambda": 0.999,
+      "rollout_ticks": 2048,
+      "terminal_win_bonus": 1.0,
+      "terminal_draw_penalty": 0.25,
+      "reference_coefficient": 0.3
+    }
+  ],
+  "confirmation_games": 0,
+  "admissions": 0,
+  "scope": "Adaptive consumed development panels;no unseen or universal-performance evidence."
+}

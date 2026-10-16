@@ -1,0 +1,115 @@
+{
+  "screen_session": 61507,
+  "screen_observed_exit": 0,
+  "screen_games": 224,
+  "score": {
+    "games": 224,
+    "opponent_wins": 0,
+    "opponent_losses": 7,
+    "all_pass": false,
+    "game_wins": 202,
+    "game_draws": 1,
+    "game_losses": 21,
+    "per_opponent": {
+      "s44701_step_002621440": {
+        "wins": 29,
+        "draws": 0,
+        "losses": 3,
+        "verdict": "loss"
+      },
+      "s45800_step_002621440": {
+        "wins": 30,
+        "draws": 0,
+        "losses": 2,
+        "verdict": "loss"
+      },
+      "s46201_step_005242880": {
+        "wins": 26,
+        "draws": 0,
+        "losses": 6,
+        "verdict": "loss"
+      },
+      "s46401_step_005242880": {
+        "wins": 28,
+        "draws": 0,
+        "losses": 4,
+        "verdict": "loss"
+      },
+      "s46500_step_005242880": {
+        "wins": 29,
+        "draws": 1,
+        "losses": 2,
+        "verdict": "loss"
+      },
+      "s47236_step_002621440": {
+        "wins": 30,
+        "draws": 0,
+        "losses": 2,
+        "verdict": "loss"
+      },
+      "s47238_step_010485760": {
+        "wins": 30,
+        "draws": 0,
+        "losses": 2,
+        "verdict": "loss"
+      }
+    }
+  },
+  "seconds": 51.666548517066985,
+  "paired_outcomes": [
+    {
+      "previous": "draw",
+      "current": "draw",
+      "games": 1
+    },
+    {
+      "previous": "draw",
+      "current": "loss",
+      "games": 3
+    },
+    {
+      "previous": "loss",
+      "current": "loss",
+      "games": 15
+    },
+    {
+      "previous": "loss",
+      "current": "win",
+      "games": 2
+    },
+    {
+      "previous": "win",
+      "current": "loss",
+      "games": 3
+    },
+    {
+      "previous": "win",
+      "current": "win",
+      "games": 200
+    }
+  ],
+  "only_parameter_change": {
+    "brake_speed": [
+      482.0,
+      520.0
+    ]
+  },
+  "runtime_policy_identical_to_parent": true,
+  "new_native_games_this_candidate": 224,
+  "new_native_games_this_goal_turn": 450,
+  "new_neural_training_decisions": 0,
+  "total_completed_direct_diagnostic_games": 4021,
+  "adopted_as_working_reference": false,
+  "retained_working_reference": "manual_feedback_002",
+  "retained_working_reference_wdl": [
+    203,
+    4,
+    17
+  ],
+  "retained_working_reference_strict_passes": 1,
+  "qualified_version": null,
+  "fresh_confirmation_started": false,
+  "admitted": false,
+  "published": false,
+  "all_frozen_hashes_verified": true
+}

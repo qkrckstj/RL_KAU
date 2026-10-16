@@ -1,0 +1,12 @@
+{
+  "reviewer": "/root/publication_review",
+  "important_defects": [],
+  "checks": [
+    "Only damage reward coefficient changed in study settings",
+    "Parent READY and frozen hashes",
+    "Fresh reservations",
+    "Baseline gate authenticates224full nonwall rows"
+  ],
+  "synthetic_reward_reexecuted_by_root": true,
+  "native_baseline_gate_passed": true
+}

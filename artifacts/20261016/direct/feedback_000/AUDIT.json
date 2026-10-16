@@ -1,0 +1,71 @@
+{
+  "screen_session": 18093,
+  "screen_observed_exit": 0,
+  "screen_games": 224,
+  "score": {
+    "games": 224,
+    "opponent_wins": 0,
+    "opponent_losses": 7,
+    "all_pass": false,
+    "game_wins": 160,
+    "game_draws": 6,
+    "game_losses": 58,
+    "per_opponent": {
+      "s44701_step_002621440": {
+        "wins": 24,
+        "draws": 0,
+        "losses": 8,
+        "verdict": "loss"
+      },
+      "s45800_step_002621440": {
+        "wins": 22,
+        "draws": 0,
+        "losses": 10,
+        "verdict": "loss"
+      },
+      "s46201_step_005242880": {
+        "wins": 21,
+        "draws": 1,
+        "losses": 10,
+        "verdict": "loss"
+      },
+      "s46401_step_005242880": {
+        "wins": 25,
+        "draws": 1,
+        "losses": 6,
+        "verdict": "loss"
+      },
+      "s46500_step_005242880": {
+        "wins": 24,
+        "draws": 0,
+        "losses": 8,
+        "verdict": "loss"
+      },
+      "s47236_step_002621440": {
+        "wins": 22,
+        "draws": 1,
+        "losses": 9,
+        "verdict": "loss"
+      },
+      "s47238_step_010485760": {
+        "wins": 22,
+        "draws": 3,
+        "losses": 7,
+        "verdict": "loss"
+      }
+    }
+  },
+  "seconds": 47.99127974396106,
+  "trace_session": 98589,
+  "trace_observed_exit": 0,
+  "trace_games": 1,
+  "trace_reference_exact": true,
+  "trace_seconds": 0.8591860650340095,
+  "new_native_games": 225,
+  "new_neural_training_decisions": 0,
+  "total_direct_games": 3346,
+  "all_frozen_hashes_verified": true,
+  "qualified_version": null,
+  "admitted": false,
+  "published": false
+}

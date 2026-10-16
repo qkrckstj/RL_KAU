@@ -1,0 +1,43 @@
+{
+  "checkpoint_id": "s61500_step_005242880",
+  "additional_steps": 5242880,
+  "training_games": 3860,
+  "training_seconds": 602.2328873050865,
+  "seed": 61500,
+  "config_id": "dbaf1727d090d51aaf7b33a41de6a2485b7d1d23ee32b2118ee736c0eaad3efc",
+  "sampled_specs": {
+    "4900": {
+      "id": "s61500_step_005242880_a4900",
+      "kind": "submission",
+      "design": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference100_20261016/iteration_000/checkpoints/s61500_step_005242880/sampled_4900",
+      "weights": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference100_20261016/iteration_000/checkpoints/s61500_step_005242880/sampled_4900/policy_net.zip"
+    },
+    "4901": {
+      "id": "s61500_step_005242880_a4901",
+      "kind": "submission",
+      "design": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference100_20261016/iteration_000/checkpoints/s61500_step_005242880/sampled_4901",
+      "weights": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference100_20261016/iteration_000/checkpoints/s61500_step_005242880/sampled_4901/policy_net.zip"
+    }
+  },
+  "files": {
+    "greedy/artifact_sha256.json": "76cd74382fcb70d2ff6a01e245222e21a6f94279eb0b688f07dbfef0e6ae52d4",
+    "greedy/entrant.json": "c1568a4c7b4dedf060ab19e9ecd44dbf49f1415ddd34a53213c3d46201a36ce8",
+    "greedy/policy.py": "ca5e840aeee20109a635054f2c3280d84f13cb197fe57065a57fb2ae7fcc060a",
+    "greedy/policy_net.json": "bc582470766ad286eb17a54dcb1fe59ca9ee948c5da3feba6fd2682aea8c0bb3",
+    "greedy/policy_net.zip": "521c73a237eb97f195f2e39542a3837ea402041bc18adece1395e9b92e048417",
+    "greedy/wrappers.py": "2983af7cef6f95c2ed0a1cc53961ecdc076bd12d5edf6de4d21920e15022a299",
+    "learner.zip": "58fd3fdf8ee2f2461f1e8c094bc85aaf0ce432bfd91d3f49adbeb4a6949caee3",
+    "rng.pt": "f10546fbea4f89a0869085e10b8e50de19710f986f35611784b9ce14af4ea7d3",
+    "sampled_4900/entrant.json": "553c9dae4f3c08817b1d7659fe63cb1874594b01936904c2a632f7fbf0714fb5",
+    "sampled_4900/policy.py": "c6b48d70e1821c18b79845306ebef761824302c8cce2c3007551299e36a6cf64",
+    "sampled_4900/policy_net.json": "f54947b7c4281000beb33964ee6db5f702165ecafbc4dcf5a2a30deab251707f",
+    "sampled_4900/policy_net.zip": "c205cbf71fa7d128dd1cacc03a63bd23c9e07b52526aee8f3de7d6d9d7a25a05",
+    "sampled_4900/wrappers.py": "2983af7cef6f95c2ed0a1cc53961ecdc076bd12d5edf6de4d21920e15022a299",
+    "sampled_4901/entrant.json": "7f9afc48499fd0c52fc5a2c087c1d70b75275f6eac7d90cd7c5e144295a4c026",
+    "sampled_4901/policy.py": "c6b48d70e1821c18b79845306ebef761824302c8cce2c3007551299e36a6cf64",
+    "sampled_4901/policy_net.json": "a520e321d44f8e5fa877b2807558fd01d64d3a1d47c11d76f4aaa34a04b10d9a",
+    "sampled_4901/policy_net.zip": "6923343df04985ea2e626205ed3a0b3cbcb34100001977fd2d13387292ec7df7",
+    "sampled_4901/wrappers.py": "2983af7cef6f95c2ed0a1cc53961ecdc076bd12d5edf6de4d21920e15022a299",
+    "workers.pt": "1a7bce87678b4398c3eb7e128bcfc186a82c5dbf721834103829798b958b31a5"
+  }
+}

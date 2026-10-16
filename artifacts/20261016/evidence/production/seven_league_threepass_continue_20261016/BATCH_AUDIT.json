@@ -1,0 +1,141 @@
+{
+  "iterations": [
+    {
+      "iteration": 0,
+      "training": {
+        "decisions": 5242880,
+        "training_games": 3706,
+        "training_seconds": 556.0469737247331,
+        "wall_seconds": 556.8516208060319,
+        "checkpoint": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_threepass_continue_20261016/iteration_000/checkpoints/s56500_step_005242880",
+        "parent_sha256": "757d70949e4651f0e1394fbdd23ab66d334fc7e768d89d0e0ba2a1a48bd2300e"
+      },
+      "score": {
+        "games": 224,
+        "opponent_wins": 0,
+        "opponent_losses": 7,
+        "all_pass": false,
+        "game_wins": 30,
+        "game_draws": 154,
+        "game_losses": 40,
+        "per_opponent": {
+          "s44701_step_002621440": {
+            "wins": 6,
+            "draws": 17,
+            "losses": 9,
+            "verdict": "loss"
+          },
+          "s45800_step_002621440": {
+            "wins": 4,
+            "draws": 23,
+            "losses": 5,
+            "verdict": "loss"
+          },
+          "s46201_step_005242880": {
+            "wins": 4,
+            "draws": 25,
+            "losses": 3,
+            "verdict": "loss"
+          },
+          "s46401_step_005242880": {
+            "wins": 5,
+            "draws": 21,
+            "losses": 6,
+            "verdict": "loss"
+          },
+          "s46500_step_005242880": {
+            "wins": 8,
+            "draws": 22,
+            "losses": 2,
+            "verdict": "loss"
+          },
+          "s47236_step_002621440": {
+            "wins": 1,
+            "draws": 22,
+            "losses": 9,
+            "verdict": "loss"
+          },
+          "s47238_step_010485760": {
+            "wins": 2,
+            "draws": 24,
+            "losses": 6,
+            "verdict": "loss"
+          }
+        }
+      },
+      "evaluation_seconds": 40.944950383971445
+    },
+    {
+      "iteration": 1,
+      "training": {
+        "decisions": 5242880,
+        "training_games": 3696,
+        "training_seconds": 560.2852275579935,
+        "wall_seconds": 561.3061744639417,
+        "checkpoint": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_threepass_continue_20261016/iteration_001/checkpoints/s56501_step_005242880",
+        "parent_sha256": "757d70949e4651f0e1394fbdd23ab66d334fc7e768d89d0e0ba2a1a48bd2300e"
+      },
+      "score": {
+        "games": 224,
+        "opponent_wins": 0,
+        "opponent_losses": 7,
+        "all_pass": false,
+        "game_wins": 40,
+        "game_draws": 136,
+        "game_losses": 48,
+        "per_opponent": {
+          "s44701_step_002621440": {
+            "wins": 6,
+            "draws": 20,
+            "losses": 6,
+            "verdict": "loss"
+          },
+          "s45800_step_002621440": {
+            "wins": 10,
+            "draws": 13,
+            "losses": 9,
+            "verdict": "loss"
+          },
+          "s46201_step_005242880": {
+            "wins": 4,
+            "draws": 25,
+            "losses": 3,
+            "verdict": "loss"
+          },
+          "s46401_step_005242880": {
+            "wins": 6,
+            "draws": 18,
+            "losses": 8,
+            "verdict": "loss"
+          },
+          "s46500_step_005242880": {
+            "wins": 4,
+            "draws": 22,
+            "losses": 6,
+            "verdict": "loss"
+          },
+          "s47236_step_002621440": {
+            "wins": 4,
+            "draws": 20,
+            "losses": 8,
+            "verdict": "loss"
+          },
+          "s47238_step_010485760": {
+            "wins": 6,
+            "draws": 18,
+            "losses": 8,
+            "verdict": "loss"
+          }
+        }
+      },
+      "evaluation_seconds": 43.35476790799294
+    }
+  ],
+  "training_decisions": 10485760,
+  "training_episodes": 7402,
+  "training_seconds": 1116.3322012827266,
+  "evaluation_games_including_baseline": 672,
+  "evaluation_seconds_including_baseline": 121.58863434800878,
+  "pool_size": 7,
+  "confirmation_games": 0
+}

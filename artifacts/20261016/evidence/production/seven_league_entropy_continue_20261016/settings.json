@@ -1,0 +1,117 @@
+{
+  "scope": "Portable inspection metadata; not an executable frozen historical run config.",
+  "source_config_sha256": "e3a69ac61592e8d027519ef64636065cca3b817c0d101d30c2467a84ab6210c6",
+  "settings": {
+    "smoke": false,
+    "rounds": 2,
+    "screen_band": 3401500000,
+    "confirmation_band": 3501590000,
+    "training_band": 3731500000,
+    "seed": 56000,
+    "initial_parent": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_entropy010_20261016/iteration_001/checkpoints/s55501_step_005242880",
+    "decisions": 5242880,
+    "checkpoint_steps": 655360,
+    "workers": 32,
+    "processes": 8,
+    "evaluation_processes": 3,
+    "teacher": {
+      "id": "temporal_extend_right",
+      "kind": "submission",
+      "design": "experiments/league/rear_desktop_20261012/policies/p000",
+      "weights": "experiments/league/rear_desktop_20261012/policies/p000/policy_net.zip"
+    },
+    "ppo": {
+      "learning_rate": 1.5e-05,
+      "n_steps": 640,
+      "batch_size": 512,
+      "n_epochs": 4,
+      "gamma": 0.999,
+      "gae_lambda": 0.99,
+      "clip_range": 0.05,
+      "target_kl": 0.015,
+      "ent_coef": 0.01,
+      "max_grad_norm": 0.5
+    },
+    "aim_coefficients": {
+      "potential": 0.05,
+      "damage": 0.5,
+      "received": 0.75
+    },
+    "relative_potential_coefficient": 1.0,
+    "control_guidance_coefficient": 0.05,
+    "curriculum": {
+      "stage": "disabled",
+      "fraction": 0.0
+    },
+    "coverage_period": 2,
+    "history_reference": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/docs/HISTORICAL_WEIGHT_AND_SETTING_CHANGES_20261015.md",
+    "rule": "user_terminal_health_round4_v2",
+    "future_upload_authorized": false,
+    "adaptation": "Half uniform plus half previous development nonwin frequency; periodic full coverage. After two consecutive non-improving iterations halve LR once. Preserve all checkpoints; review bounded batch before changing more factors.",
+    "continuation": {
+      "source": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_entropy010_20261016",
+      "source_config_sha256": "91b5f3c3055138d9c95f6a00e40f17f603cd80998023b298190d3987434723b9",
+      "selection": {
+        "parent": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_entropy010_20261016/iteration_001/checkpoints/s55501_step_005242880",
+        "score": {
+          "games": 224,
+          "opponent_wins": 1,
+          "opponent_losses": 6,
+          "all_pass": false,
+          "game_wins": 16,
+          "game_draws": 195,
+          "game_losses": 13,
+          "per_opponent": {
+            "s44701_step_002621440": {
+              "wins": 3,
+              "draws": 28,
+              "losses": 1,
+              "verdict": "loss"
+            },
+            "s45800_step_002621440": {
+              "wins": 0,
+              "draws": 29,
+              "losses": 3,
+              "verdict": "loss"
+            },
+            "s46201_step_005242880": {
+              "wins": 1,
+              "draws": 31,
+              "losses": 0,
+              "verdict": "win"
+            },
+            "s46401_step_005242880": {
+              "wins": 1,
+              "draws": 29,
+              "losses": 2,
+              "verdict": "loss"
+            },
+            "s46500_step_005242880": {
+              "wins": 3,
+              "draws": 27,
+              "losses": 2,
+              "verdict": "loss"
+            },
+            "s47236_step_002621440": {
+              "wins": 4,
+              "draws": 24,
+              "losses": 4,
+              "verdict": "loss"
+            },
+            "s47238_step_010485760": {
+              "wins": 4,
+              "draws": 27,
+              "losses": 1,
+              "verdict": "loss"
+            }
+          }
+        },
+        "stalled": 0,
+        "learning_rate_factor": 1.0
+      },
+      "screen_scope": "Previously consumed screen reused; fresh baseline replay is counted as evaluation, never unseen evidence.",
+      "hypothesis": "Second entropy candidate improved strict rank:1/7passes with13losses versus retained1/7with20losses. Continue new s55501parent at unchanged entropy.01,LR1.5e-5,receivedcost.75,allocation4and5,242,880decisions. Retain old best and all originals. Parent-family reassessment deferred because its no-improvement condition no longer holds. Consumed screen selection is not unseen validation."
+    },
+    "allocation_loss_weight": 4.0
+  }
+}

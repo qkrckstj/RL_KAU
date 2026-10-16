@@ -1,0 +1,16 @@
+{
+  "status": "approved_one_fixed_224_screen",
+  "plan_sha256": "24ca948959e5963aeca279a7084119f2217f83e34845bd2e3a80d36be2ef3327",
+  "reviewed_policy_sha256": "74c4cad2e56e64a54df10cd5d86ef7f12d539a22158219c11bc8422a31547b49",
+  "reviewed_runner_sha256": "726ddd5568ef1cce10ea0259f13fb70669961248f7c82867c7ee8c93de6a18d9",
+  "verified_frozen_files": 3007,
+  "verified_games": 224,
+  "findings": [],
+  "scope": "One positional-egress-gate revision of preserved signed predecessor, unchanged224 consumed screen. No grid, neural learning, v1, confirmation, admission or publication.",
+  "limits": [
+    "Opening separation uses horizontal relative position/velocity; do not describe it as a full3D separation condition.",
+    "Guard tests and consumed-tape loader parity do not establish closed-loop safety, victory or remaining-loss resolution.",
+    "egress_hold remains a latched phase;entry predicates are not continuously enforced afterward,as in predecessor."
+  ],
+  "native_games_executed_by_reviewer": 0
+}

@@ -1,0 +1,8 @@
+{
+  "available_bytes": 26246299648,
+  "workers": 3,
+  "meminfo": {
+    "CommitLimit": "24376256 kB",
+    "Committed_AS": "23143240 kB"
+  }
+}

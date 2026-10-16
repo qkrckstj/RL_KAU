@@ -1,0 +1,16 @@
+{
+  "reviewer": "/root/publication_review",
+  "approved": true,
+  "important_issues": [],
+  "tests": "Previously qualified47tests;no worker/runner changes for this config",
+  "native_validation_cases": 12,
+  "native_validation_executions": 24,
+  "native_validation_session": 75262,
+  "native_validation_exit": 0,
+  "smoke_session": 13585,
+  "smoke_exit": 0,
+  "baseline_session": 35630,
+  "baseline_exit": 0,
+  "baseline_games": 224,
+  "learning_rate_override_reviewed": true
+}

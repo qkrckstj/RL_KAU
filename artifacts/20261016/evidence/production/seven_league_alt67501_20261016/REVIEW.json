@@ -1,0 +1,9 @@
+{
+  "reviewer": "/root/publication_review",
+  "important_defects": [],
+  "resolved": [
+    "Freeze alternate and global baseline completions",
+    "Correct alternate-parent audit scope"
+  ],
+  "native_baseline_gate_passed": true
+}

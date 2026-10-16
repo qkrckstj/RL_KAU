@@ -1,0 +1,14 @@
+{
+  "previous_config_sha256": "28962898d3f8108bae9df8fb4af4c77e86cafb87f907fdbb3f1a8520646da67d",
+  "selected_gamma": 0.9995,
+  "previous_draw_penalty": 0.0,
+  "selected_draw_penalty": 0.25,
+  "win_bonus": 0.0,
+  "learning_rate_override": {
+    "automatic": 4.6875e-07,
+    "selected": 9.375e-07,
+    "reason": "Hold learning rate fixed to isolate draw utility after two non-improving gamma candidates."
+  },
+  "all_other_training_settings_unchanged": true,
+  "worker_family": "43inputControlGuidance"
+}

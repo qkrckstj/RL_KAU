@@ -1,0 +1,89 @@
+{
+  "scope": "Publication reproducibility validation only. No new training, no fresh confirmation, no admission. Historical production/direct totals unchanged.",
+  "source_base_commit": "2d495b3840b27a29ef965db0f2751d72df1b7a0a",
+  "platform": "Ubuntu Linux x86_64",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "packages": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.3",
+    "jsbsim": "1.3.0",
+    "gymnasium": "1.3.0",
+    "pygame": "2.6.1",
+    "stable-baselines3": "2.9.0",
+    "psutil": "7.2.2",
+    "pytest": "9.1.1"
+  },
+  "cuda_build": null,
+  "cuda_available": false,
+  "pip_check_exit": 0,
+  "related_tests": {
+    "passed": 70,
+    "seconds": 1.61,
+    "exit": 0,
+    "command": "python -m pytest -q tests/test_cpu_handoff.py tests/test_agent_direct*.py tests/test_agent_manual_replay.py tests/test_manual_feedback*.py tests/test_range_evaluate.py tests/test_early_range_evaluate.py"
+  },
+  "selected_neural_loads": {
+    "count": 2,
+    "device": "cpu",
+    "observation_dim": 43,
+    "actions": 9,
+    "optimizer_state_entries_each": 12,
+    "exit": 0
+  },
+  "native_smoke": {
+    "games": 14,
+    "wdl": [
+      13,
+      1,
+      0
+    ],
+    "seconds": 8.522890049032867,
+    "original_feedback002_all_nonwall_cell_fields_exact": true,
+    "workers": 1,
+    "thread_limits": 1,
+    "exec_session": 83545,
+    "exit": 0,
+    "scope": "7 original opponents, both seats, one consumed initial condition, action RNG4900. Not the224screen or unseen evidence."
+  },
+  "original_seven_unchanged": true,
+  "historical_inventory_unchanged": true,
+  "direct_raw_score_audits": [
+    {
+      "candidate": "feedback_000",
+      "raw_cells": 224,
+      "score_exact": true
+    },
+    {
+      "candidate": "feedback_001",
+      "raw_cells": 224,
+      "score_exact": true
+    },
+    {
+      "candidate": "feedback_002",
+      "raw_cells": 224,
+      "score_exact": true
+    },
+    {
+      "candidate": "feedback_003",
+      "raw_cells": 224,
+      "score_exact": true
+    }
+  ],
+  "manifest_files": 2759,
+  "independent_review": "Existing publication_review agent: no blocking findings after recursive candidate-file hashing fix; verified ledger consistency, paths, paused scope, protocol and focused tests. No extra native games.",
+  "goal_status": "paused",
+  "training_resumed": false,
+  "qualified_version": null,
+  "merge_performed": false,
+  "clean_index_snapshot": {
+    "verified_files": 2910,
+    "tests_passed": 70,
+    "test_seconds": 1.69,
+    "exit": 0,
+    "scope": "Export of Git index only; modules confirmed loaded from exported snapshot. No native games repeated."
+  },
+  "whitespace_check": {
+    "new_entry_and_handoff_docs_exit": 0,
+    "historical_reports_and_one_frozen_source": "Retained original trailing blank lines; not reformatted to preserve evidence bytes."
+  }
+}

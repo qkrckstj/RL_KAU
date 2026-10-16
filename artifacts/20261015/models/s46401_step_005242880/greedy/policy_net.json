@@ -1,0 +1,18 @@
+{
+  "kind": "predictive_aim_rate_input_ppo_actor",
+  "teacher": {
+    "id": "temporal_extend_right",
+    "kind": "submission",
+    "design": "experiments/league/rear_desktop_20261012/policies/p000",
+    "weights": "experiments/league/rear_desktop_20261012/policies/p000/policy_net.zip"
+  },
+  "teacher_source_sha256": "6934d1e2e16b418e07ec5572f4bba60b72da5f8bfbe0388defdb33edfa1d323e",
+  "teacher_weights_sha256": "a244ecde359ca26cdfcb9c5375effd9a2006e33684bcd904baee20711ea7eb92",
+  "prior_bias": 6.0,
+  "observation_dim": 44,
+  "actions": 9,
+  "scope": "Teacher source/configuration and residual actor are bundled. Original teacher paths are provenance only, not runtime dependencies.",
+  "public_observation_dim": 39,
+  "feature_contract": "31 relative +3 public analytic lead +1 public heading rate +9 prior. Submission remains39 raw channels.",
+  "first_layer": "Original40, lead3 and heading-rate1 dot products computed separately before ReLU; rate column starts0."
+}

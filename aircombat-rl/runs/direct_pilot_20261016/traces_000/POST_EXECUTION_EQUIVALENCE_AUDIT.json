@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "screen_session": 63484,
+  "screen_actual_exit": 0,
+  "trace_session": 28262,
+  "trace_actual_exit": 0,
+  "checks": [
+    {
+      "path": "runs/direct_pilot_20261016/traces_000/agent_043_red",
+      "original_cell": "runs/direct_pilot_20261016/grid_000/cells/agent_043_red.json",
+      "original_cell_sha256": "441159ced547f45191af3b3daa410dae4ea76936c0d315e05f4b4005908ace07",
+      "differences": [],
+      "trace_sha256": "0bccec194e9e3e31463fefea81d97cc8233d54a6283cd2460863df60231ed51d",
+      "result_sha256": "a67d35d9bef4952cdc3bb53dc2ef2f9ca98ccce53ba55909557f05a8475363c0"
+    },
+    {
+      "path": "runs/direct_pilot_20261016/traces_000/agent_024_blue",
+      "original_cell": "runs/direct_pilot_20261016/grid_000/cells/agent_024_blue.json",
+      "original_cell_sha256": "7112c5eba44e030d25404f6da988c2c9c976d502a6d832e92635d736227c636e",
+      "differences": [],
+      "trace_sha256": "47a5296d574d172e16ded19bcad1ac5cbea0a450d07aac53484488876472ca69",
+      "result_sha256": "d0826c226ff926329d12efec1c50791f0b2a277c3e126ee3926ca82da3b11bbb"
+    },
+    {
+      "path": "runs/direct_pilot_20261016/traces_000/agent_024_red",
+      "original_cell": "runs/direct_pilot_20261016/grid_000/cells/agent_024_red.json",
+      "original_cell_sha256": "e628f2ad12b6da965bce38e2e4f8e966c4c97ea6571002a248b47ac865de3409",
+      "differences": [],
+      "trace_sha256": "b3657c3d3702640187e21ed360d3010aeba47e23fb93a8988e8da849bce4490f",
+      "result_sha256": "7ce227d221ede8ffceddd6059bdcaa5284f4a3bbacc52cb61c14e7e4f0d16b45"
+    }
+  ],
+  "note": "Equivalence verified after execution;not a pre-execution gate. No replay repeated."
+}

@@ -1,0 +1,13 @@
+{
+  "source": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_rollout2048_20261016",
+  "source_parent": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_continue68501_20261016/iteration_000/checkpoints/s69000_step_005242880",
+  "actual_parent": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_longref030_20261016/parents/s69000_step_005242880",
+  "changed_training_factor": "reference_coefficient",
+  "previous": 1.0,
+  "selected": 0.3,
+  "all_inference_payloads_unchanged": true,
+  "source_panel": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_rollout2048_20261016/baseline",
+  "automatic_lr_overridden": 1.875e-06,
+  "selected_lr": 3.75e-06,
+  "production_not_started": true
+}

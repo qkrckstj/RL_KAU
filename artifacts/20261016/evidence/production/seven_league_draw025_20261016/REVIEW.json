@@ -1,0 +1,16 @@
+{
+  "reviewer": "/root/publication_review",
+  "approved": true,
+  "important_issues": [],
+  "tests": "47passed in1.74s",
+  "native_validation_cases": 12,
+  "native_validation_executions": 24,
+  "native_validation_session": 80029,
+  "native_validation_exit": 0,
+  "smoke_session": 50384,
+  "smoke_exit": 0,
+  "baseline_session": 46974,
+  "baseline_exit": 0,
+  "baseline_games": 224,
+  "learning_rate_override_reviewed": true
+}

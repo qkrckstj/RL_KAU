@@ -1,0 +1,13 @@
+{
+  "previous_config_sha256": "e8f7a7fc1ae897d88bcb971e08459f7982a7086f70a1b62759dda6e291319ced",
+  "previous_win_bonus": 0.0,
+  "selected_win_bonus": 1.0,
+  "draw_penalty_unchanged": 0.25,
+  "gamma_unchanged": 0.9995,
+  "learning_rate_override": {
+    "automatic": 4.6875e-07,
+    "selected": 9.375e-07,
+    "reason": "Hold source learning rate to isolate win bonus after non-improving draw candidates."
+  },
+  "all_other_training_settings_unchanged": true
+}

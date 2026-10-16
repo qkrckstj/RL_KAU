@@ -1,0 +1,94 @@
+{
+  "screen_session": 88589,
+  "screen_observed_exit": 0,
+  "screen_games": 224,
+  "score": {
+    "games": 224,
+    "opponent_wins": 1,
+    "opponent_losses": 6,
+    "all_pass": false,
+    "game_wins": 203,
+    "game_draws": 4,
+    "game_losses": 17,
+    "per_opponent": {
+      "s44701_step_002621440": {
+        "wins": 30,
+        "draws": 0,
+        "losses": 2,
+        "verdict": "loss"
+      },
+      "s45800_step_002621440": {
+        "wins": 28,
+        "draws": 0,
+        "losses": 4,
+        "verdict": "loss"
+      },
+      "s46201_step_005242880": {
+        "wins": 26,
+        "draws": 1,
+        "losses": 5,
+        "verdict": "loss"
+      },
+      "s46401_step_005242880": {
+        "wins": 28,
+        "draws": 1,
+        "losses": 3,
+        "verdict": "loss"
+      },
+      "s46500_step_005242880": {
+        "wins": 29,
+        "draws": 1,
+        "losses": 2,
+        "verdict": "loss"
+      },
+      "s47236_step_002621440": {
+        "wins": 31,
+        "draws": 0,
+        "losses": 1,
+        "verdict": "loss"
+      },
+      "s47238_step_010485760": {
+        "wins": 31,
+        "draws": 1,
+        "losses": 0,
+        "verdict": "win"
+      }
+    }
+  },
+  "seconds": 52.1652964099776,
+  "paired_outcomes": [
+    {
+      "previous": "draw",
+      "current": "draw",
+      "games": 4
+    },
+    {
+      "previous": "loss",
+      "current": "loss",
+      "games": 17
+    },
+    {
+      "previous": "loss",
+      "current": "win",
+      "games": 14
+    },
+    {
+      "previous": "win",
+      "current": "win",
+      "games": 189
+    }
+  ],
+  "trace_session": 2369,
+  "trace_observed_exit": 0,
+  "trace_games": 1,
+  "trace_reference_exact": true,
+  "trace_seconds": 0.5078485790872946,
+  "new_native_games": 225,
+  "new_neural_training_decisions": 0,
+  "total_completed_direct_diagnostic_games": 3796,
+  "qualified_version": null,
+  "fresh_confirmation_started": false,
+  "admitted": false,
+  "published": false,
+  "frozen_hashes_verified": true
+}

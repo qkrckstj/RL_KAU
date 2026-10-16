@@ -1,0 +1,6 @@
+{
+  "reviewer": "/root/publication_review",
+  "important_defects": [],
+  "native_baseline_gate_passed": true,
+  "exact_restore_and_self_reference_preflight": true
+}

@@ -1,0 +1,13 @@
+{
+  "action_seed": 4900,
+  "temperature": 1.0,
+  "source": {
+    "id": "s46201_step_005242880",
+    "kind": "submission",
+    "design": "runs/aim_cpu_state_prior_20261013/checkpoints/.s46201_step_005242880.tmp/greedy",
+    "weights": "runs/aim_cpu_state_prior_20261013/checkpoints/.s46201_step_005242880.tmp/greedy/policy_net.zip"
+  },
+  "source_weights_sha256": "c05f361c04e130a93c44dc8fea16c2b544f93f5fe4d84cb0b20c4a5c336d96aa",
+  "rng_protocol": "Independent NumPy generator seeded by fixed replicate seed and39 public float32 first-frame words; reset per episode. No global RNG consumption or private environment input.",
+  "scope": "Execution-mode diagnostic only; original teacher and learned actor arrays unchanged."
+}

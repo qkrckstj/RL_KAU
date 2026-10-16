@@ -1,0 +1,56 @@
+{
+  "result": {
+    "own_health": 0.0,
+    "opp_health": 0.6535000000000009,
+    "result": "loss",
+    "steps": 2130,
+    "duration": 106.49999999999609
+  },
+  "reference_terminal_exact": true,
+  "phases": {
+    "wide": 313,
+    "turn_in": 170,
+    "approach": 249,
+    "right_brake": 65,
+    "right_hold": 82,
+    "right_intercept": 1251
+  },
+  "transitions": [
+    {
+      "step": 0,
+      "t": 0.0,
+      "phase": "wide"
+    },
+    {
+      "step": 313,
+      "t": 15.650000000000087,
+      "phase": "turn_in"
+    },
+    {
+      "step": 483,
+      "t": 24.150000000000208,
+      "phase": "approach"
+    },
+    {
+      "step": 732,
+      "t": 36.60000000000006,
+      "phase": "right_brake"
+    },
+    {
+      "step": 797,
+      "t": 39.84999999999987,
+      "phase": "right_hold"
+    },
+    {
+      "step": 879,
+      "t": 43.94999999999964,
+      "phase": "right_intercept"
+    }
+  ],
+  "minimum_range_m": 103.39064361632055,
+  "first_pass_minimum_range_m": 103.39064361632055,
+  "elapsed_seconds": 0.8591860650340095,
+  "new_native_games": 1,
+  "new_neural_training_decisions": 0,
+  "admitted": false
+}

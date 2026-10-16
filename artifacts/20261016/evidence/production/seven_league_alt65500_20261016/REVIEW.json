@@ -1,0 +1,12 @@
+{
+  "reviewer": "/root/publication_review",
+  "important_defects": [],
+  "verified": [
+    "Parent and global incumbent input bindings and scores",
+    "READY and frozen hashes",
+    "Source settings and reference binding unchanged",
+    "Fresh reservations",
+    "Branch/global distinction"
+  ],
+  "native_baseline_gate_passed": true
+}

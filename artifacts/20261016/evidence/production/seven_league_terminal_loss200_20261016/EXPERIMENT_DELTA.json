@@ -1,0 +1,11 @@
+{
+  "changed_factor": "additionalterminal loss penalty0to2;totalterminal loss-1to-3",
+  "original_source": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_wez_or_damaged_20261016/iteration_000/checkpoints/s74500_step_005242880",
+  "actor_function_unchanged": true,
+  "source_learning_state_exact": true,
+  "production_config_sha256": "e21b36c55b5b3f7c8c4702a96bba63b3b5a8b25c42758e38173297c053d4fc83",
+  "smoke_config_sha256": "fa06508d5e6d176a3d0e859101dbbbc9198d9c74d32fba603c9cc2334f9d16f6",
+  "smoke_plan_sha256": "5522de8cee7b5e1e55908264417e99b1b09b6c785f537b6028e254057e6f7fe0",
+  "production_not_started": true,
+  "prepared_time": 1792149044.8852885
+}

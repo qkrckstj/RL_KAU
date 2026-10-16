@@ -1,0 +1,15 @@
+{
+  "reviewer": "/root/publication_review",
+  "important_defects": [],
+  "checks": [
+    "Only reference coefficient learner metadata changed",
+    "All learned payloads and nonlearner files identical",
+    "READY and frozen hashes verified",
+    "Other study settings unchanged",
+    "Reservations verified"
+  ],
+  "limitations": [
+    "Fresh training RNG and adaptive allocations preclude paired causal effect estimation."
+  ],
+  "native_baseline_gate_passed": true
+}

@@ -1,0 +1,9 @@
+# Learning rate 3.75e-6 position diagnostics
+
+Consumed complete screens only. Early means first received damage at<=30seconds. Later rear damage does not imply no intervening or simultaneous received damage. Rear WEZ streak measures the existing geometric flag,not guaranteed unilateral damage. No unseen or universal-performance claim.
+
+|Panel|Opponent passes|W/D/L|Mutual-zero draws|Rear-damage games|Received then later rear|Mean rear streak (s)|Longest rear streak (s)|
+|---|---:|---|---:|---:|---:|---:|---:|
+|baseline|2/7|16/197/11|197|0|0|0.000|0.000|
+|iteration_000|1/7|11/199/14|199|0|0|0.000|0.000|
+|iteration_001|0/7|11/196/17|196|0|0|0.000|0.000|

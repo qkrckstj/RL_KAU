@@ -1,0 +1,8 @@
+{
+  "status": "approved_two_bounded_production_candidates",
+  "reviewer": "/root/publication_review",
+  "config_sha256": "f23c4dbef3231587dc0b9d008503c2c63eb3c5a03eae5a23243fffbfea3d19c7",
+  "control_completion_sha256": "f7837eed4e262310e9d2d8a00e4d67e6d9ad5aaae5c8d2f8f287490947590c1f",
+  "smoke_validation_sha256": "7edec5f3bf2a445ee9b11a0a87c86248f5e0f5c84a722c562127ed3df29886c5",
+  "findings": []
+}

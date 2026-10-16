@@ -1,0 +1,6 @@
+{
+  "id": "s47238_step_010485760_a4900",
+  "kind": "submission",
+  "design": "runs/aim_cpu_encounter_speed_20261015/checkpoints/.s47238_step_010485760.tmp/sampled_4900",
+  "weights": "runs/aim_cpu_encounter_speed_20261015/checkpoints/.s47238_step_010485760.tmp/sampled_4900/policy_net.zip"
+}

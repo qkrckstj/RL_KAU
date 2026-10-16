@@ -1,0 +1,48 @@
+{
+  "checkpoint_id": "s45800_step_002621440",
+  "config_id": "084456057cb8c4c9a44c9064e42ec8beb8a407c37cc861628679b96bc94a0254",
+  "seed": 45800,
+  "prefix_steps": 26869760,
+  "additional_steps": 2621440,
+  "total_steps": 29491200,
+  "training_games": 3049,
+  "training_seconds": 273.722451486974,
+  "sampled_specs": {
+    "4900": {
+      "id": "s45800_step_002621440_a4900",
+      "kind": "submission",
+      "design": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_control_guidance_20261013/checkpoints/s45800_step_002621440/sampled_4900",
+      "weights": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_control_guidance_20261013/checkpoints/s45800_step_002621440/sampled_4900/policy_net.zip"
+    },
+    "4901": {
+      "id": "s45800_step_002621440_a4901",
+      "kind": "submission",
+      "design": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_control_guidance_20261013/checkpoints/s45800_step_002621440/sampled_4901",
+      "weights": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/aim_cpu_control_guidance_20261013/checkpoints/s45800_step_002621440/sampled_4901/policy_net.zip"
+    }
+  },
+  "baseline": false,
+  "device": "cpu",
+  "resume_scope": "Optimizer/RNG/sampler preserved; native episodes restart after a process restart.",
+  "files": {
+    "greedy/artifact_sha256.json": "f5dd4f84e916d437b8aa6705ba714dbb45e10eb09c0ace1403caf512aa32b8b5",
+    "greedy/entrant.json": "49abc743751620df4a36a18130b50494b32b546d69378377f2f1bd8470f8f2bd",
+    "greedy/policy.py": "ca5e840aeee20109a635054f2c3280d84f13cb197fe57065a57fb2ae7fcc060a",
+    "greedy/policy_net.json": "bc582470766ad286eb17a54dcb1fe59ca9ee948c5da3feba6fd2682aea8c0bb3",
+    "greedy/policy_net.zip": "ab0d87389997e1d4e21b059656b5e29a2471448766eb40490cde8a121a6c05c6",
+    "greedy/wrappers.py": "2983af7cef6f95c2ed0a1cc53961ecdc076bd12d5edf6de4d21920e15022a299",
+    "learner.zip": "1f3283a90447075c93531012d5e08ad563d7464c1eb2ea5a6dba5c1ea1f1b4ad",
+    "rng.pt": "2a83470439e0a9b5f067008ce9a37ce53e010603818ed3b0366c6ff35ae42f0e",
+    "sampled_4900/entrant.json": "1cf79d41f3986a968618b2c7d304d0f4c5c77df796d00ec033f9ccbd834e9f56",
+    "sampled_4900/policy.py": "c6b48d70e1821c18b79845306ebef761824302c8cce2c3007551299e36a6cf64",
+    "sampled_4900/policy_net.json": "bb0b841316776b4a051e50f0fceaa953d151292a735cc3feb934ceb0c4210d0e",
+    "sampled_4900/policy_net.zip": "eb65d69639189d49bba7460cb1ef2af0d3dc98d2463fbfcf048f7044876044d9",
+    "sampled_4900/wrappers.py": "2983af7cef6f95c2ed0a1cc53961ecdc076bd12d5edf6de4d21920e15022a299",
+    "sampled_4901/entrant.json": "9f53ed611951f5ef2f761e062c98400cc4dbe52760ba9b179a996045aee2a7fb",
+    "sampled_4901/policy.py": "c6b48d70e1821c18b79845306ebef761824302c8cce2c3007551299e36a6cf64",
+    "sampled_4901/policy_net.json": "3e71a639d0c34e0e7c73450e44a4e8658b009864e8eb4347d1982ece3fc99d3a",
+    "sampled_4901/policy_net.zip": "0fafcb7f7ba133c9551fb4de63b1570ac305c5f0e0f0a056171c9d3ffc77c30d",
+    "sampled_4901/wrappers.py": "2983af7cef6f95c2ed0a1cc53961ecdc076bd12d5edf6de4d21920e15022a299",
+    "workers.pt": "8530b327d252d34365f05bd50038ec81c0b41584751093ae9f9c2a8a9b0d044d"
+  }
+}

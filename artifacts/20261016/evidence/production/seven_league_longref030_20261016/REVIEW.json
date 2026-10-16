@@ -1,0 +1,20 @@
+{
+  "reviewer": "/root/publication_review",
+  "approved": true,
+  "important_issues": [],
+  "config_only_reference_coefficient_change": true,
+  "metadata_copy_and_ready_provenance_reviewed": true,
+  "actual_reference_archive_function_and_prior6_fixed": true,
+  "automatic_lr_override_reviewed": true,
+  "smoke_session": 6943,
+  "smoke_exit": 0,
+  "positive_reference_learning_verified": true,
+  "baseline_session": 52674,
+  "baseline_exit": 0,
+  "baseline_games": 224,
+  "baseline_raw_exact": true,
+  "source_copy_bound_separately": true,
+  "production_config_unchanged_since_smoke": true,
+  "config_sha256": "d9c8f54a33fdf9a769486055652316ce308d218e65301d430de55f191075b653",
+  "baseline_script_sha256": "2bc08dea35506dc2c691076c08c52ca0d74f5c79b7044ef790bda8a4442f0900"
+}

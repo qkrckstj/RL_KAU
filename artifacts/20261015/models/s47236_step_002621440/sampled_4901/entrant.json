@@ -1,0 +1,6 @@
+{
+  "id": "s47236_step_002621440_a4901",
+  "kind": "submission",
+  "design": "runs/aim_cpu_encounter_actor_v2_20261015/checkpoints/.s47236_step_002621440.tmp/sampled_4901",
+  "weights": "runs/aim_cpu_encounter_actor_v2_20261015/checkpoints/.s47236_step_002621440.tmp/sampled_4901/policy_net.zip"
+}

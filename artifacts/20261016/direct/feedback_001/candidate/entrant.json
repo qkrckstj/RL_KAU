@@ -1,0 +1,6 @@
+{
+  "id": "manual_feedback_001",
+  "kind": "submission",
+  "design": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/direct_pilot_20261016/feedback_001/candidate",
+  "weights": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/direct_pilot_20261016/feedback_001/candidate/policy_net.zip"
+}

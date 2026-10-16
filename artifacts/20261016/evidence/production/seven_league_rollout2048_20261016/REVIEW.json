@@ -1,0 +1,19 @@
+{
+  "reviewer": "/root/publication_review",
+  "approved": true,
+  "important_issues": [],
+  "config_only_rollout_length_change": true,
+  "automatic_lr_override_reviewed": true,
+  "implementation_tests_passed": 71,
+  "smoke_session": 28767,
+  "smoke_exit": 0,
+  "positive_reference_learning_verified": true,
+  "actual_smoke_adam_steps": 1536,
+  "baseline_session": 43240,
+  "baseline_exit": 0,
+  "baseline_games": 224,
+  "baseline_raw_exact": true,
+  "production_config_unchanged_since_smoke": true,
+  "config_sha256": "f1aa41cbdc6fffc095f0ad54affe2185200ff89545218693278177020d2ed8e4",
+  "baseline_script_sha256": "40ab48f0034feb8953e4a1835e0867c5742b2786de83618978efe2180191a6be"
+}

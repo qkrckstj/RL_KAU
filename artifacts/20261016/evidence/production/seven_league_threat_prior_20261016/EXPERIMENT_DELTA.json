@@ -1,0 +1,13 @@
+{
+  "changed_training_factor": "public-threat teacherprior6to3",
+  "original_source": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_longref030_20261016/iteration_000/checkpoints/s73000_step_005242880",
+  "changed_control": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_threat_prior_20261016/parents/s73000_step_005242880_threat_prior_control",
+  "old_policy_function_preserved": false,
+  "old_model_preserved": true,
+  "learned_state_exact": true,
+  "source_panel": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_longref030_20261016/iteration_000/screen",
+  "production_config_sha256": "7c5fd9cb7f4e6f22e74c35b3ee5288ecb6f4bc50a32ef489a715acb60694794f",
+  "smoke_config_sha256": "e401ed0e7a8314160446f299c709a1b8c363ec0eccb02f7c6f27c6ef234b9d35",
+  "production_not_started": true,
+  "prepared_time": 1792132131.4672706
+}

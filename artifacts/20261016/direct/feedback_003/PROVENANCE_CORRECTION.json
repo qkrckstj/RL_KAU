@@ -1,0 +1,23 @@
+{
+  "review": "FINAL_REVIEW.json",
+  "nonblocking_corrections": [
+    "last_completed_manual_condition now manual006s46201red",
+    "older egressdiagnostic preserved underhistorical_loss_diagnostics;currentdiagnostic now exactmutualreplay+manual006"
+  ],
+  "previous_manual_condition": {
+    "opponent": "s45800_step_002621440",
+    "seed": 3401500000,
+    "seat": "red",
+    "action_seed": 4900
+  },
+  "previous_loss_diagnostic": {
+    "run": "aircombat-rl/runs/direct_pilot_20261016/feedback_001/trace_failure_000",
+    "session": 18499,
+    "observed_exit": 0,
+    "reference_terminal_exact": true,
+    "confirmed": "Egress_turn never reached hold;range/ownbearing/body-opposition gates did not coincide;earnedhealthlead lost.",
+    "proposed_next_factor": "Positional enemy-bearing and opening-separation egress gate."
+  },
+  "source_or_frozen_inputs_changed": false,
+  "new_native_games": 0
+}

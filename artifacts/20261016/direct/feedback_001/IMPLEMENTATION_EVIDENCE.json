@@ -1,0 +1,12 @@
+{
+  "new_tests_red": 3,
+  "related_checks_passed": 54,
+  "related_test_seconds": 1.39,
+  "prepare_session": 86369,
+  "prepare_exit": 0,
+  "changed_factor": "Remove absolute value in unilateral signed gun-lead attack-entry gate only.",
+  "first_divergence_on_actual_failed_tape": "t53.75;oldright8,newleft2;lead-17.304deg;range1498.33m",
+  "new_neural_training_decisions": 0,
+  "new_native_games": 0,
+  "qualified_version": null
+}

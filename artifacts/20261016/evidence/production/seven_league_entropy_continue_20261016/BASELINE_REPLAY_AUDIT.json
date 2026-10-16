@@ -1,0 +1,8 @@
+{
+  "games": 224,
+  "exact_nonwall_replay": true,
+  "source": "runs/seven_league_entropy010_20261016/iteration_001/screen",
+  "parent_restoration_exact": true,
+  "entropy_coefficient_unchanged": true,
+  "consumed_screen": true
+}

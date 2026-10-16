@@ -1,0 +1,18 @@
+{
+  "reviewer": "/root/publication_review",
+  "approved": true,
+  "important_issues": [],
+  "config_only_learning_rate_change": true,
+  "automatic_lr_override_reviewed": true,
+  "smoke_session": 18219,
+  "smoke_exit": 0,
+  "baseline_session": 32528,
+  "baseline_exit": 0,
+  "baseline_games": 224,
+  "baseline_raw_exact": true,
+  "production_config_unchanged_since_smoke": true,
+  "config_sha256": "be66b93bdf94f7f52cdd5ee1e4690003c6ccacda27b4032a5ec90c36fa6f24db",
+  "baseline_script_sha256": "c7fc6f453f6f69fe68497f0b366dc4b068841bbfa760ccfb67d6d86de6712ec7",
+  "baseline_script_unchanged_from_previously_reviewed_lambda_gate": true,
+  "source_smoke_tests": "Existing runner unchanged;new native109episode smoke verified actual saved model/Adam LR and all other settings."
+}

@@ -1,0 +1,11 @@
+{
+  "reviewer": "/root/publication_review",
+  "important_defects": [],
+  "verified": [
+    "Candidate READY and full frozen files",
+    "Source-study learning settings and saved reference unchanged",
+    "Exploratory/global incumbent scores and evidence hashes",
+    "Fresh training/confirmation reservations"
+  ],
+  "followup": "Global incumbent completion added to frozen_sha256; native raw baseline gate remains required."
+}

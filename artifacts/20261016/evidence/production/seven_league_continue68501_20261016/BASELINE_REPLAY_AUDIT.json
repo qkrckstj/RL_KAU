@@ -1,0 +1,10 @@
+{
+  "source": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_alt58001_20261016/iteration_001/screen",
+  "source_completion_sha256": "a1f3c3b9ad7162d60754c5351b606cde046e9a6f99aa76c86c460f3d8a4518d2",
+  "new_completion_sha256": "b4260be646d94b91a82a406e11765273ad64039f63a2fd6372b3f7d5ff6559a6",
+  "games": 224,
+  "all_non_wall_fields_exact": true,
+  "raw_authenticated": true,
+  "bindings_verified": true,
+  "scope": "Consumed screen replay;224new evaluations,zero training.Not unseen evidence.s68501 branch-parent replay;global incumbent61500 is separate."
+}

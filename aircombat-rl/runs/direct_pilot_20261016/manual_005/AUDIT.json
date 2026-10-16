@@ -1,0 +1,39 @@
+{
+  "session": 57049,
+  "observed_exit": 0,
+  "opponent": "s45800_step_002621440",
+  "seat": "red",
+  "seed": 3401500000,
+  "action_seed": 4900,
+  "result": "win",
+  "win_type": "terminal_health_advantage_after_side_attack_and_egress_not_opponent_kill",
+  "final_health": [
+    0.6039999723434448,
+    0.0430000014603138
+  ],
+  "steps": 2401,
+  "commands": 18,
+  "simulation_seconds": 120.04999999999532,
+  "wall_seconds_including_agent_decisions": 181.65481110708788,
+  "max_unilateral_wez_seconds": 3.049999999999997,
+  "unilateral_damage_dealt": 0.6929999999701977,
+  "unilateral_damage_received": 0,
+  "early_received": 0.3960000276565552,
+  "new_native_games": 1,
+  "new_standard_screen_games": 0,
+  "new_neural_training_decisions": 0,
+  "total_completed_direct_diagnostic_games": 3121,
+  "manual_episodes_completed": 6,
+  "frozen_hashes_verified": true,
+  "source_sha256": {
+    "plan.json": "e6f579e3130698f6860b1551516966b62edf67d61d42118da03214bd24ce7fce",
+    "commands.jsonl": "4ade114cf560673bf7f48ca991ddc438bf56080b9f1aaf9f2d96b353c6931293",
+    "trace.jsonl": "0e35f442eb39e44723b853bf26c26e84d8a73ea206815b2f97c3cb8216052320",
+    "completion.json": "1f63b155293ca2345b4bb7e5a022288c05d6e08fdffad7ea55f64c20264a5dcb"
+  },
+  "qualified_version_assigned": null,
+  "all_seven_qualified": false,
+  "confirmation_started": false,
+  "admitted": false,
+  "published": false
+}

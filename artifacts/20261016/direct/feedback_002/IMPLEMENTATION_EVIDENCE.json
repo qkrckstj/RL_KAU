@@ -1,0 +1,12 @@
+{
+  "new_tests_red": 8,
+  "related_checks_passed": 62,
+  "related_test_seconds": 1.81,
+  "prepare_session": 76936,
+  "prepare_exit": 0,
+  "official_loader_states": 8314,
+  "duplicate_queries": 8314,
+  "new_neural_training_decisions": 0,
+  "new_native_games": 0,
+  "qualified_version": null
+}

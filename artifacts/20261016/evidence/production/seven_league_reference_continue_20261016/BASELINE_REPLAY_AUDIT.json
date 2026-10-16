@@ -1,0 +1,17 @@
+{
+  "games": 224,
+  "raw_authenticated": true,
+  "score_matches_retained_parent": true,
+  "bindings_verified": true,
+  "frozen_hashes_verified": true,
+  "parent_restore_exact": true,
+  "reference_intervention": {
+    "archive": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_entropy_continue_20261016/iteration_001/checkpoints/s56001_step_005242880/learner.zip",
+    "archive_sha256": "757d70949e4651f0e1394fbdd23ab66d334fc7e768d89d0e0ba2a1a48bd2300e",
+    "policy_hash": "a121e6c2937a871edd80b0306c336244f9545d7ea63213c8c98a040993bd98f8",
+    "coefficient": 1.0,
+    "learner_state_preserved": true
+  },
+  "trainer_pid": 981616,
+  "consumed_screen": true
+}

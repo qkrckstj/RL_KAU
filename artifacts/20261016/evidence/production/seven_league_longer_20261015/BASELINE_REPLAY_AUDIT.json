@@ -1,0 +1,11 @@
+{
+  "games": 224,
+  "all_nonwall_fields_exact": true,
+  "excluded_fields": [
+    "wall_seconds"
+  ],
+  "score_exact": true,
+  "model_identity_stable_after_inference": true,
+  "source": "runs/seven_league_main_20261015/iteration_001/screen",
+  "consumed_conditions": true
+}

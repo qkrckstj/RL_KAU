@@ -1,0 +1,9 @@
+{
+  "status": "approved_two_bounded_production_candidates",
+  "reviewer": "/root/publication_review",
+  "config_sha256": "e21b36c55b5b3f7c8c4702a96bba63b3b5a8b25c42758e38173297c053d4fc83",
+  "baseline_completion_sha256": "fa05789ef3eeef488eb93749249c719d7d48f102c0a99e957a3f6d848b4f4582",
+  "smoke_validation_sha256": "6bd7826f44a07adc4308bb6562c2ec9ad27adda3520daab1401107b8d7d11a75",
+  "baseline_audit_sha256": "be17b3660bfa14342da981f28fe4952cbed7e75fb3c1e61e4de9397a059ef1fb",
+  "findings": []
+}

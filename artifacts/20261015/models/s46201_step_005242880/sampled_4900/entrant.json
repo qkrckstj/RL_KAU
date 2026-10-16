@@ -1,0 +1,6 @@
+{
+  "id": "s46201_step_005242880_a4900",
+  "kind": "submission",
+  "design": "runs/aim_cpu_state_prior_20261013/checkpoints/.s46201_step_005242880.tmp/sampled_4900",
+  "weights": "runs/aim_cpu_state_prior_20261013/checkpoints/.s46201_step_005242880.tmp/sampled_4900/policy_net.zip"
+}
