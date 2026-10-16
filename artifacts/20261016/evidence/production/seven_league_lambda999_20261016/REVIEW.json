@@ -1,0 +1,17 @@
+{
+  "reviewer": "/root/publication_review",
+  "approved": true,
+  "important_issues": [],
+  "config_only_lambda_change": true,
+  "automatic_lr_override_reviewed": true,
+  "smoke_session": 99837,
+  "smoke_exit": 0,
+  "baseline_session": 35824,
+  "baseline_exit": 0,
+  "baseline_games": 224,
+  "baseline_raw_exact": true,
+  "production_config_unchanged_since_smoke": true,
+  "config_sha256": "dc17bd1b7eeeb7060a858e7fa4132f8c5a644f897acf84b29917797689663d26",
+  "baseline_script_sha256": "c7fc6f453f6f69fe68497f0b366dc4b068841bbfa760ccfb67d6d86de6712ec7",
+  "source_smoke_tests": "Previously qualified real SB3 return/state/save/load tests; new real-class lambda.999 roundtrip and native110episode smoke verified."
+}

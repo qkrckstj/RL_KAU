@@ -1,0 +1,18 @@
+{
+  "status": "approved_one_fixed_224_screen",
+  "plan_sha256": "07d25b242a2002d6627babda120aec9e8fbfcfd652b5187bcc88db780b4bd46f",
+  "reviewed_policy_sha256": "5f721a62f733846281912d0834e61baba211ae03bdc99c36aa392afed62af352",
+  "reviewed_runner_sha256": "a5dfae74c93222e3801c4e61872a7292f5fb6bb0c71269405ce279fb40afe1da",
+  "verified_frozen_files": 2997,
+  "games": 224,
+  "findings": [],
+  "scope": "One unchanged224screen of signed-gate-only revision; predecessor preserved. No grid, neural learning, v1 assignment, confirmation, admission or publication.",
+  "previous_screen_verified": {
+    "games": 224,
+    "wins": 160,
+    "draws": 6,
+    "losses": 58
+  },
+  "evidence_limits": "Consumed failure tape identifies a missed state transition. Improved closed-loop outcome from signed gate remains a hypothesis until this screen; no guarantee that earlier reversal is successful.",
+  "native_games_executed_by_reviewer": 0
+}

@@ -1,0 +1,39 @@
+{
+  "status": "approved_completed_evidence_report",
+  "reviewed_sha256": {
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/direct_pilot_20261016/feedback_001/plan.json": "07d25b242a2002d6627babda120aec9e8fbfcfd652b5187bcc88db780b4bd46f",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/direct_pilot_20261016/feedback_001/completion.json": "2dc051daf300f4f642287c092a1441d64e9a731ec8a428925c0c379e2f1ea50f",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/direct_pilot_20261016/feedback_001/AUDIT.json": "1def7a9aa9c4f5c90daa536f2baa750743f4ffc543a19dfbd80cda7daebab1f0",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/direct_pilot_20261016/feedback_001/REPORT.md": "6b65cff35e0ea54231510195fd727ebbcb808a22afd038206b0a78a1788ae42c",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/direct_pilot_20261016/feedback_001/trace_failure_000/trace.jsonl": "f226942d7090deeede14a87625c48a82367eb05ee64e81a70cc2f7fd30f28389",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/direct_pilot_20261016/feedback_001/trace_failure_000/completion.json": "b67831c991f1aab4a68bc64ea26e669f6c0e14600e07eea668991d9ff8f844c8"
+  },
+  "verified": {
+    "previous_wdl": [
+      160,
+      6,
+      58
+    ],
+    "current_wdl": [
+      189,
+      4,
+      31
+    ],
+    "original_wins_preserved": 160,
+    "loss_to_win": 26,
+    "draw_to_win": 3,
+    "loss_to_draw": 1,
+    "unchanged_losses": 31,
+    "unchanged_draws": 3,
+    "opponent_passes": 0,
+    "goal_turn_native_games": 450,
+    "total_direct_games": 3571,
+    "neural_training_decisions": 0,
+    "remaining_failure_terminal_exact": true,
+    "remaining_failure_never_entered_egress_hold": true,
+    "qualified_versions": []
+  },
+  "findings": [],
+  "scope": "Completed consumed-screen evidence and remaining failure diagnosis only. Future positional egress criterion is unimplemented and unproven; no next native run approved. Native session exits were observed by parent,not independently by reviewer.",
+  "native_games_executed_by_reviewer": 0
+}

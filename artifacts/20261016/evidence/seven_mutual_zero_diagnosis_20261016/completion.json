@@ -1,0 +1,19 @@
+{
+  "games": 224,
+  "training_decisions": 0,
+  "new_diagnostic_executions": 224,
+  "elapsed_seconds": 45.15784892300144,
+  "all_non_wall_metrics_exact": true,
+  "source_completion_sha256": "6544b437d1fd10c80f5349cef93c81ab32c29df57094518a4c81786bdbc87def",
+  "inputs_sha256": "adcd4f876f58bfab4f69ff18a8f0282cfb8c1f7f002c4f80b2901710081a8236",
+  "draw_games": 197,
+  "both_zero_draws": 197,
+  "same_tick_zero_draws": 197,
+  "steps_starting_dead": 0,
+  "native_reasons": {
+    "mutual": 212,
+    "kill": 6,
+    "died": 6
+  },
+  "scope": "Consumed-panel diagnostic replays; not new generalization evidence. Discrete decision ticks, not within-tick physical timestamps."
+}

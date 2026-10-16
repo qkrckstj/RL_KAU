@@ -1,0 +1,14 @@
+{
+  "changed_training_factor": "reference_coefficient",
+  "previous": 0.3,
+  "selected": 0.0,
+  "source_parent": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_threat_prior_20261016/iteration_001/checkpoints/s73501_step_005242880",
+  "actual_parent": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_threat_refzero_20261016/parents/s73501_step_005242880_refzero",
+  "source_panel": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_threat_prior_20261016/iteration_001/screen",
+  "all_initial_policy_critic_optimizer_state_and_export_payloads_exact": true,
+  "production_config_sha256": "864ef73423af846d67788fbec0e23eb42ccb4b17f6cedeff8dcd7c042e7de163",
+  "smoke_config_sha256": "b89925a5243449af1b76f478740b9d0290519fbc5af59d48c4d600ae4b0befb7",
+  "smoke_plan_sha256": "831b2e4e0ce296664bef317f2b68d39a8fe37942ea6bb89d3a6ac005dd11f411",
+  "production_not_started": true,
+  "available_memory_bytes": 26568658944
+}

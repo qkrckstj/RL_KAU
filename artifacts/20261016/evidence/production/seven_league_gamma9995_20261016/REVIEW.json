@@ -1,0 +1,12 @@
+{
+  "reviewer": "/root/publication_review",
+  "important_issues": [],
+  "approved": true,
+  "tests": "37 passed in1.44s",
+  "native_smoke_session": 57143,
+  "smoke_exit": 0,
+  "baseline_session": 88933,
+  "baseline_exit": 0,
+  "baseline_games": 224,
+  "scope": "Gamma-only intervention,model/buffer/wrapper consistency,exact restore/source bindings reviewed."
+}

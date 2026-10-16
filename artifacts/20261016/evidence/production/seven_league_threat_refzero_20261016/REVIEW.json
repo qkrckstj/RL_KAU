@@ -1,0 +1,11 @@
+{
+  "reviewer": "/root/publication_review",
+  "status": "approved_two_bounded_production_candidates",
+  "config_sha256": "864ef73423af846d67788fbec0e23eb42ccb4b17f6cedeff8dcd7c042e7de163",
+  "baseline_completion_sha256": "ef191d77b333b8a3665193deed40e3528022e7388bb244e2a9276a9ae93fd059",
+  "smoke_validation_sha256": "24cc560b72d894dc288c32dce18ad4e088d30841c67d2c9d67bf871ee8e93a51",
+  "baseline_audit_sha256": "1ad9fd98b7f97466579eef2eb047bda1a54b5ac675a3203ce900f2d9cc5c5abf",
+  "strict_acceptance_unchanged": true,
+  "initial_parent_is_metadata_copy_not_smoke_child": true,
+  "no_blocking_findings": true
+}

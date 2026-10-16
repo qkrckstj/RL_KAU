@@ -1,0 +1,10 @@
+{
+  "source": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference100_20261016/iteration_000/screen",
+  "source_completion_sha256": "43fc244e621f451739d76a3875d4431d4c51b506e36566ca43416a31b9dc153c",
+  "clone_completion_sha256": "30e1e026e6653e0b4d12feb5d42f04460b35413f1c672b5d2c31351afc7f716e",
+  "games": 224,
+  "all_non_wall_fields_exact": true,
+  "raw_authenticated": true,
+  "bindings_verified": true,
+  "scope": "Consumed screen replay;224new evaluation executions, zero training. Not unseen evidence."
+}

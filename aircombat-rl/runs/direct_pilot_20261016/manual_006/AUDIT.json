@@ -1,0 +1,26 @@
+{
+  "session": 57849,
+  "observed_exit": 0,
+  "result": "loss",
+  "final_health": [
+    0.0,
+    0.47200000286102295
+  ],
+  "steps": 1486,
+  "commands": 13,
+  "simulation_seconds": 74.29999923706055,
+  "wall_seconds_including_decisions": 221.2246338929981,
+  "replayed_prefix_exact_steps": 828,
+  "replayed_prefix_seconds": 41.4,
+  "manual_continuation_commands": 9,
+  "new_native_games": 1,
+  "new_neural_training_decisions": 0,
+  "max_unilateral_seconds": 0.0,
+  "total_completed_direct_diagnostic_games": 3797,
+  "source_sha256": {
+    "plan.json": "2bb08a4eee43dda13168b6f49f70efb34b045679cfca553e465656678c7e667e",
+    "commands.jsonl": "cdd03497d6b274994b3c6eb67d7d09dbbd97393bdf97e7fab0a07ae4a52e04dd",
+    "trace.jsonl": "5aa3ea62dc4bd302d457c85ecafc16bdd9c44a555d9256d61117e052b0af44be",
+    "completion.json": "1e997a4b9982377508b2e02fdc4dd5a1894761daabf4c45b824d962a6fa69f86"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "trace_sha256": "f226942d7090deeede14a87625c48a82367eb05ee64e81a70cc2f7fd30f28389",
+  "first_proposed_positional_egress_state": {
+    "step_before_action": 1282,
+    "time_before_action": 64.0999984741211,
+    "range_m": 1118.7189181306462,
+    "own_abs_bearing_deg": 146.82275445390877,
+    "enemy_abs_bearing_to_own_deg": 127.12862199581961,
+    "body_heading_difference_deg": 93.95137644972836,
+    "separation_opening_ms": 428.73882178707714,
+    "own_health": 0.4884999990463257,
+    "opponent_health": 0.4059999883174896,
+    "opponent_in_wez": 0.0,
+    "old_hold_gate_would_fire": false
+  },
+  "status": "Offline observer only. A new gate can recognize this opening geometry;closed-loop survival/wins unproven.",
+  "new_native_games": 0,
+  "new_neural_training_decisions": 0
+}

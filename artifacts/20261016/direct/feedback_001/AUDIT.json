@@ -1,0 +1,107 @@
+{
+  "screen_session": 1758,
+  "screen_observed_exit": 0,
+  "screen_games": 224,
+  "score": {
+    "games": 224,
+    "opponent_wins": 0,
+    "opponent_losses": 7,
+    "all_pass": false,
+    "game_wins": 189,
+    "game_draws": 4,
+    "game_losses": 31,
+    "per_opponent": {
+      "s44701_step_002621440": {
+        "wins": 25,
+        "draws": 0,
+        "losses": 7,
+        "verdict": "loss"
+      },
+      "s45800_step_002621440": {
+        "wins": 27,
+        "draws": 0,
+        "losses": 5,
+        "verdict": "loss"
+      },
+      "s46201_step_005242880": {
+        "wins": 21,
+        "draws": 1,
+        "losses": 10,
+        "verdict": "loss"
+      },
+      "s46401_step_005242880": {
+        "wins": 28,
+        "draws": 1,
+        "losses": 3,
+        "verdict": "loss"
+      },
+      "s46500_step_005242880": {
+        "wins": 28,
+        "draws": 1,
+        "losses": 3,
+        "verdict": "loss"
+      },
+      "s47236_step_002621440": {
+        "wins": 30,
+        "draws": 0,
+        "losses": 2,
+        "verdict": "loss"
+      },
+      "s47238_step_010485760": {
+        "wins": 30,
+        "draws": 1,
+        "losses": 1,
+        "verdict": "loss"
+      }
+    }
+  },
+  "seconds": 50.12100376107264,
+  "paired_outcome_changes": [
+    {
+      "previous": "draw",
+      "current": "draw",
+      "games": 3
+    },
+    {
+      "previous": "draw",
+      "current": "win",
+      "games": 3
+    },
+    {
+      "previous": "loss",
+      "current": "draw",
+      "games": 1
+    },
+    {
+      "previous": "loss",
+      "current": "loss",
+      "games": 31
+    },
+    {
+      "previous": "loss",
+      "current": "win",
+      "games": 26
+    },
+    {
+      "previous": "win",
+      "current": "win",
+      "games": 160
+    }
+  ],
+  "previous_wins_preserved": true,
+  "trace_session": 18499,
+  "trace_observed_exit": 0,
+  "trace_games": 1,
+  "trace_reference_exact": true,
+  "trace_seconds": 0.6569828419014812,
+  "new_native_games_this_candidate": 225,
+  "new_native_games_this_goal_turn": 450,
+  "new_standard_screen_games_this_goal_turn": 448,
+  "new_neural_training_decisions": 0,
+  "total_completed_direct_diagnostic_games": 3571,
+  "frozen_hashes_verified": true,
+  "qualified_version": null,
+  "fresh_confirmation_started": false,
+  "admitted": false,
+  "published": false
+}

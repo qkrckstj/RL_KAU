@@ -1,0 +1,20 @@
+{
+  "scope": "Compact CPU continuation snapshot. Original seven remain under artifacts/20261015. Frozen historical absolute paths are provenance only.",
+  "working_controller": "artifacts/20261016/direct/feedback_002/candidate",
+  "rejected_controller": "artifacts/20261016/direct/feedback_003/candidate",
+  "neural_checkpoints": {
+    "neural_best_strict_s61500": "artifacts/20261016/models/neural_best_strict_s61500",
+    "neural_latest_s75501": "artifacts/20261016/models/neural_latest_s75501"
+  },
+  "original_opponent_manifest": "artifacts/20261015/manifest.json",
+  "source_base_commit": "2d495b3840b27a29ef965db0f2751d72df1b7a0a",
+  "omissions": [
+    "Intermediate neural checkpoints and full replay buffers",
+    "Old broad-grid raw cells; textual reports retained",
+    "Unrelated unpublished GPU source",
+    "Virtual environments and caches"
+  ],
+  "exact_historical_process_resume": false,
+  "goal_status": "paused",
+  "qualified_version": null
+}

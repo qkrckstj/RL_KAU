@@ -1,0 +1,13 @@
+{
+  "source": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_wez_or_damaged_20261016/iteration_000/screen",
+  "source_completion_sha256": "f5199dc0192ddf0a454e732e5497464c8ab4bdcba3331eb7c1ed1b8533553fae",
+  "new_completion_sha256": "fa05789ef3eeef488eb93749249c719d7d48f102c0a99e957a3f6d848b4f4582",
+  "games": 224,
+  "source_checkpoint": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_wez_or_damaged_20261016/iteration_000/checkpoints/s74500_step_005242880",
+  "unchanged_checkpoint": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_wez_or_damaged_20261016/iteration_000/checkpoints/s74500_step_005242880",
+  "initial_source_audit_sha256": "3a1eb1f0db736c33226dad5654277b71c802c050653871d5d842902586382ef1",
+  "all_non_wall_fields_exact": true,
+  "raw_authenticated": true,
+  "bindings_verified": true,
+  "scope": "Consumed screen replay;224new evaluations,zero training.Not unseen evidence.Actual retained74500branch-parent replay;global incumbent61500 is separate."
+}

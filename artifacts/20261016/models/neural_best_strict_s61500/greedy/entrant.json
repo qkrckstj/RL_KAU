@@ -1,0 +1,6 @@
+{
+  "id": "s61500_step_005242880",
+  "kind": "submission",
+  "design": "runs/seven_league_reference100_20261016/iteration_000/checkpoints/.s61500_step_005242880.tmp/greedy",
+  "weights": "runs/seven_league_reference100_20261016/iteration_000/checkpoints/.s61500_step_005242880.tmp/greedy/policy_net.zip"
+}

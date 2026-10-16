@@ -1,0 +1,13 @@
+{
+  "new_tests_red": "16 failed because manual_feedback_policy did not exist",
+  "first_green_attempt": "14 passed,2 failed due sparse manual005 fixture missing alignment transition",
+  "fixture_diagnosis": "Public bearing at tick500=-27.6718, still below -27.5threshold;tick505=-25.5414 crossed. Fixture now includes505; controller threshold/source not altered to pass fixture.",
+  "related_tests_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 .venv/bin/python -m pytest -q tests/test_manual_feedback.py tests/test_agent_manual_replay.py tests/test_agent_direct_pilot.py tests/test_agent_direct_prediction.py tests/test_agent_direct_setpoint.py tests/test_agent_direct_gun.py tests/test_agent_direct_opening.py tests/test_agent_direct_opening_evaluate.py tests/test_agent_direct_evaluate.py",
+  "related_tests_passed": 51,
+  "related_test_seconds": 1.27,
+  "preparation_session": 29084,
+  "preparation_exit": 0,
+  "new_native_games": 0,
+  "new_neural_training_decisions": 0,
+  "qualified_version": null
+}

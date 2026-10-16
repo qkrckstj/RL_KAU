@@ -1,0 +1,13 @@
+{
+  "source": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_rollout2048_20261016/baseline",
+  "source_completion_sha256": "d0a4adf6284f794afb741f18f936d2e7339bd11a7fe7a0bf96fd496f776572a2",
+  "new_completion_sha256": "16a3cce04bfcaef2980ddc5d051972823880086681b98bf5fae0f2a63372642d",
+  "games": 224,
+  "source_checkpoint": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_continue68501_20261016/iteration_000/checkpoints/s69000_step_005242880",
+  "copied_checkpoint": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_longref030_20261016/parents/s69000_step_005242880",
+  "metadata_copy_audit_sha256": "d129cf17468d981dfa448ec4f7ca6a3ce2360ab9180aae4a7f8dfd22662e26c4",
+  "all_non_wall_fields_exact": true,
+  "raw_authenticated": true,
+  "bindings_verified": true,
+  "scope": "Consumed screen replay;224new evaluations,zero training.Not unseen evidence.s69000 branch-parent replay;global incumbent61500 is separate."
+}

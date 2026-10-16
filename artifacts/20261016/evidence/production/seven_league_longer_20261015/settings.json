@@ -1,0 +1,122 @@
+{
+  "scope": "Portable inspection metadata; not an executable frozen historical run config.",
+  "source_config_sha256": "dfedc955c1686366248800c6b27f27359e8e0e08e70d9ad374e344c892e4c9fe",
+  "settings": {
+    "smoke": false,
+    "rounds": 2,
+    "screen_band": 3401500000,
+    "confirmation_band": 3501520000,
+    "training_band": 3621500000,
+    "seed": 52500,
+    "initial_parent": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_main_20261015/iteration_001/checkpoints/s51501_step_001310720",
+    "decisions": 5242880,
+    "checkpoint_steps": 655360,
+    "workers": 32,
+    "processes": 8,
+    "evaluation_processes": 3,
+    "teacher": {
+      "id": "temporal_extend_right",
+      "kind": "submission",
+      "design": "experiments/league/rear_desktop_20261012/policies/p000",
+      "weights": "experiments/league/rear_desktop_20261012/policies/p000/policy_net.zip"
+    },
+    "ppo": {
+      "learning_rate": 1.5e-05,
+      "n_steps": 640,
+      "batch_size": 512,
+      "n_epochs": 4,
+      "gamma": 0.999,
+      "gae_lambda": 0.99,
+      "clip_range": 0.05,
+      "target_kl": 0.015,
+      "ent_coef": 0.003,
+      "max_grad_norm": 0.5
+    },
+    "aim_coefficients": {
+      "potential": 0.05,
+      "damage": 0.5,
+      "received": 0.5
+    },
+    "relative_potential_coefficient": 1.0,
+    "control_guidance_coefficient": 0.05,
+    "curriculum": {
+      "stage": "disabled",
+      "fraction": 0.0
+    },
+    "coverage_period": 2,
+    "history_reference": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/docs/HISTORICAL_WEIGHT_AND_SETTING_CHANGES_20261015.md",
+    "rule": "user_terminal_health_round4_v2",
+    "future_upload_authorized": false,
+    "adaptation": "Half uniform plus half previous development nonwin frequency; periodic full coverage. After two consecutive non-improving iterations halve LR once. Preserve all checkpoints; review bounded batch before changing more factors.",
+    "continuation": {
+      "source": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_lowerlr_20261015",
+      "source_config_sha256": "068b4775db08645dcf34e5565b11dac173c3a00ff6dfb7ae75b1ba8b0e75993e",
+      "selection": {
+        "parent": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_main_20261015/iteration_001/checkpoints/s51501_step_001310720",
+        "score": {
+          "games": 224,
+          "opponent_wins": 1,
+          "opponent_losses": 6,
+          "all_pass": false,
+          "game_wins": 42,
+          "game_draws": 162,
+          "game_losses": 20,
+          "per_opponent": {
+            "s44701_step_002621440": {
+              "wins": 5,
+              "draws": 26,
+              "losses": 1,
+              "verdict": "loss"
+            },
+            "s45800_step_002621440": {
+              "wins": 2,
+              "draws": 28,
+              "losses": 2,
+              "verdict": "loss"
+            },
+            "s46201_step_005242880": {
+              "wins": 8,
+              "draws": 23,
+              "losses": 1,
+              "verdict": "loss"
+            },
+            "s46401_step_005242880": {
+              "wins": 8,
+              "draws": 24,
+              "losses": 0,
+              "verdict": "win"
+            },
+            "s46500_step_005242880": {
+              "wins": 1,
+              "draws": 28,
+              "losses": 3,
+              "verdict": "loss"
+            },
+            "s47236_step_002621440": {
+              "wins": 8,
+              "draws": 17,
+              "losses": 7,
+              "verdict": "loss"
+            },
+            "s47238_step_010485760": {
+              "wins": 10,
+              "draws": 16,
+              "losses": 6,
+              "verdict": "loss"
+            }
+          }
+        },
+        "stalled": 2,
+        "learning_rate_factor": 0.5
+      },
+      "screen_scope": "Previously consumed screen reused; fresh baseline replay is counted as evaluation, never unseen evidence.",
+      "hypothesis": "Two short lower-rate candidates failed to improve the retained parent. Hold LR at1.5e-5 and increase per-candidate decisions fourfold to test insufficient update duration. New RNG streams and adaptive opponent allocation prevent a causal isolated comparison. Historical draw penalties did not show a reliable gain on their different panels; defer reward changes.",
+      "explicit_override": {
+        "automatic_learning_rate": 7.5e-06,
+        "selected_learning_rate": 1.5e-05,
+        "previous_decisions": 1310720,
+        "selected_decisions": 5242880
+      }
+    }
+  }
+}

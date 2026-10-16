@@ -1,0 +1,41 @@
+{
+  "source_files": [
+    "aircombat_gym/core/envelope.py",
+    "aircombat_gym/core/control/autopilot.py"
+  ],
+  "altitude_ft": 20000.0,
+  "nominal": [
+    {
+      "speed_kt": 400.0,
+      "max_load": 4.52,
+      "level_turn_deg_s": 11.05401661279782
+    },
+    {
+      "speed_kt": 450.0,
+      "max_load": 5.5,
+      "level_turn_deg_s": 12.261801861357952
+    },
+    {
+      "speed_kt": 480.0,
+      "max_load": 5.9799999999999995,
+      "level_turn_deg_s": 12.606984647036292
+    },
+    {
+      "speed_kt": 500.0,
+      "max_load": 6.3,
+      "level_turn_deg_s": 12.812391452288194
+    },
+    {
+      "speed_kt": 520.0,
+      "max_load": 6.22,
+      "level_turn_deg_s": 12.149116793831494
+    },
+    {
+      "speed_kt": 550.0,
+      "max_load": 6.1,
+      "level_turn_deg_s": 11.244527304066631
+    }
+  ],
+  "scope": "Offline source-model envelope only,not observed native turn rate.",
+  "new_native_games": 0
+}

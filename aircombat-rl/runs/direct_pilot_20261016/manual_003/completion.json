@@ -1,0 +1,76 @@
+{
+  "status": "terminal",
+  "steps": 1090,
+  "result": "win",
+  "snapshot": {
+    "t": 54.5,
+    "health": [
+      0.5049999952316284,
+      0.0
+    ],
+    "range_m": 498.00554758260466,
+    "heading_deg": [
+      211.11953532045,
+      87.2491301558772
+    ],
+    "speed_kt": [
+      478.1778540842915,
+      535.5759871666709
+    ],
+    "own_bearing_error_deg": 13.315433667966692,
+    "foe_bearing_error_deg": -42.814161167460504,
+    "wez": [
+      1.0,
+      0.0
+    ],
+    "track": [
+      2.450000047683716,
+      0.0
+    ],
+    "rear": false,
+    "first_received": 36.75000000000005,
+    "first_unilateral": 52.04999999999918,
+    "first_rear": null,
+    "longest_unilateral_s": 2.499999999999999,
+    "longest_rear_s": 0.0,
+    "done": true
+  },
+  "elapsed_seconds": 18.672050404013135,
+  "new_training_decisions": 0,
+  "command_count": 16,
+  "input_sha256": {
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/artifacts/20261015/models/s47236_step_002621440/sampled_4900/wrappers.py": "2983af7cef6f95c2ed0a1cc53961ecdc076bd12d5edf6de4d21920e15022a299",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/artifacts/20261015/models/s47236_step_002621440/sampled_4900/entrant.json": "544246c279bda83fbe54e9884b916c4817d9dd9f48418d3bdaaa42daea56d9f9",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/artifacts/20261015/models/s47236_step_002621440/sampled_4900/policy_net.zip": "52c1d264dcf3c0e7d39c223a2ff5e756921e0133716730d4ebdd6db721e6cd9e",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/artifacts/20261015/models/s47236_step_002621440/sampled_4900/policy.py": "cdb84f624dffa42378651443d24f2998701c56b2861377e9004ef842ad3580f5",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/artifacts/20261015/models/s47236_step_002621440/sampled_4900/artifact_sha256.json": "8dd3d920059279df2c0f3f7d354824067a88a1d3cfc02fed4c17602bc935abee",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/artifacts/20261015/models/s47236_step_002621440/sampled_4900/policy_net.json": "290265dd8cd1cbcb5916630d9de2bceabfc6c0d9179b84a4aa087278f30fa9ba",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/__init__.py": "7a7d34804096c97d9edd29c334271a78380613c4add004c5864b1686f6b92bee",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/tools/render.py": "44cdc7a5b6133afc8e8689183d5a5798d3c0d71c99917483c95266bec84d2a3f",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/tools/__init__.py": "1e53eed17378808e9923747a76802bde02b6d26731338c2e64741fd582bbf730",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/tools/manual_operation.py": "d81b3df0ff1596e081af539f664474cb64651fdfea7bbf7bdc8147ddef8b52af",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/tools/auto_operation.py": "c1b81ac6fd6f863032cbc364175e688f161eb0c85b301b3cebf0500519bb20b3",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/wvr/__init__.py": "ee36aa27a15459ca87e7d349c13cb3646a2d5f5c2f4a4bfb4aa5a9a636c65c85",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/wvr/engagement.py": "478765a4fe4a0f1d68cc1583e1b2f3dc2869f4fcc9d3240b3328aa47742414b9",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/wvr/obs.py": "ab08af221d27df2bcb7a233b540134c25fc2f891f035d6a6d3a0485711c1a7e4",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/wvr/actions.py": "2c05fde386971b3e1aacd773a3186f0847bbc801aebe394be00fd35d72a73f7c",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/wvr/play.py": "04cd830eabee8c185df305a83310ac593335c31c8ce214dec5c0b39c0acf9576",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/wvr/baselines.py": "5137356c7808d699689fa9a71596ca7ce415ca0be6265457953268f805e1db1b",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/core/__init__.py": "3388185b1d766cf03f8295dc3f0ccd2216518699d5b7a840136746ba1ac2916e",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/core/tacview.py": "0039039ab99b1bc055a87081ace71db3b1ee6eac6fbe8c0372d80f4c9220bc76",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/core/envelope.py": "8be7361782c21532eaf9a0826fb84481e1f3457b7010282b97c6b06fbb64d0e9",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/core/aircraft.py": "d154ade534a67afe6dfefbbbd1c7b91c4547a3c175ed3a16b3a47315b57bc48c",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/wvr/envs/__init__.py": "7b4aa45227b35a0787e789f5b2230efc2358311298c45d0a1f81c28694fc016a",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/wvr/envs/evader.py": "545c944caefc5c64fe155c30a6319d6ae8a4d6ad1aa010ed4ef092c2e165998c",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/wvr/envs/circular.py": "e545b15e18515978d905091e83bb1476cd7ddb9c4e46fdcb6ed7ced1f448a2f7",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/wvr/envs/base.py": "878de26ba2e393af0f506828b364024bc8587db021fc12550fa90c336de8a0f1",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/wvr/envs/advantaged.py": "f54f5cfb833505f8321e6141b964978f269a4a64c62a61c41553bf80862ac50e",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/wvr/envs/fair.py": "f7f5429c240eef866662876ac2d6cd11925b5d73c52032547e67fad49771082f",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/core/control/__init__.py": "e4fcf37f183a55a5094189038c8da574862799fbe19f161816498707fc18d916",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/core/control/autopilot.py": "e894b37a95e440f30364cd714e14d844c65cfbbadbadf17f8d5b8f11c35f1068",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/core/backends/__init__.py": "950fc433f31a37986cb0e98ca9ba735b5fd79819dc91110738cc93dfd243e449",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/core/backends/base.py": "4f81d90411ea799ee905de1b17f55b695231ee4ee607be30cea6ed6679b2b5b3",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/aircombat_gym/core/backends/jsbsim_f16.py": "6adeca0c79decaa5c1e6c1133a3df7d9a71ad17db99686ece7ae1b0460883537",
+    "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/direct_control_probe_20261016.py": "e0b33b0d837d0837b4e483db48816ea2398dd7f28a15036f5a4a952718418bf5"
+  }
+}

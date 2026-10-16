@@ -1,0 +1,27 @@
+{
+  "kind": "manual_derived_public_observation_state_machine_not_neural",
+  "observation_dim": 39,
+  "actions": 9,
+  "parameters": {
+    "wide_bearing_deg": -103.0,
+    "align_bearing_deg": -27.5,
+    "merge_range": 240.0,
+    "brake_speed": 520.0,
+    "turn_angle_deg": 34.5,
+    "attack_lead_deg": 12.0,
+    "attack_brake_health_gap": 0.05,
+    "egress_range": 1100.0,
+    "egress_foe_bearing_deg": 90.0,
+    "egress_bearing_deg": 120.0
+  },
+  "qualified_version": null,
+  "parent_candidate": "manual_feedback_002",
+  "changed_factor": "brake_speed482to520_only",
+  "parent_model_id": "43190527781a7ab9d8938001d46a64a93df882c00faec604aa6715be83f96630",
+  "source_demonstrations": [
+    "manual_003",
+    "manual_004",
+    "manual_005"
+  ],
+  "failure_reference": "manual_002"
+}

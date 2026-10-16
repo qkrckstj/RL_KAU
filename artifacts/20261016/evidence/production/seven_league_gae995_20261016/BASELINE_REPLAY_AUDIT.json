@@ -1,0 +1,14 @@
+{
+  "games": 224,
+  "raw_authenticated": true,
+  "score_matches_retained_parent": true,
+  "bindings_verified": true,
+  "frozen_hashes_verified": true,
+  "actual_gae_intervention": {
+    "previous": 0.99,
+    "selected": 0.995
+  },
+  "parent_restore_exact": true,
+  "trainer_pid": 975682,
+  "consumed_screen": true
+}

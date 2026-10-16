@@ -1,0 +1,8 @@
+{
+  "games": 224,
+  "raw_authenticated": true,
+  "all_non_wall_fields_exact": true,
+  "source": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference_refresh_20261016/baseline",
+  "source_completion_sha256": "30e1e026e6653e0b4d12feb5d42f04460b35413f1c672b5d2c31351afc7f716e",
+  "scope": "Consumed development replay,224new executions, not unseen validation."
+}

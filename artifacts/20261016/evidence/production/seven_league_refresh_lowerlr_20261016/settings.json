@@ -1,0 +1,146 @@
+{
+  "scope": "Portable inspection metadata; not an executable frozen historical run config.",
+  "source_config_sha256": "a815b425d691f07cda8efc462d1f307a562ecb135939f7354a880cc0631d4160",
+  "settings": {
+    "smoke": false,
+    "rounds": 2,
+    "screen_band": 3401500000,
+    "confirmation_band": 3501730000,
+    "training_band": 4021500000,
+    "seed": 63000,
+    "initial_parent": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference_refresh_20261016/parents/s61500_step_005242880",
+    "decisions": 5242880,
+    "checkpoint_steps": 655360,
+    "workers": 32,
+    "processes": 8,
+    "evaluation_processes": 3,
+    "teacher": {
+      "id": "temporal_extend_right",
+      "kind": "submission",
+      "design": "experiments/league/rear_desktop_20261012/policies/p000",
+      "weights": "experiments/league/rear_desktop_20261012/policies/p000/policy_net.zip"
+    },
+    "ppo": {
+      "learning_rate": 1.875e-06,
+      "n_steps": 640,
+      "batch_size": 512,
+      "n_epochs": 4,
+      "gamma": 0.999,
+      "gae_lambda": 0.99,
+      "clip_range": 0.05,
+      "target_kl": 0.015,
+      "ent_coef": 0.0,
+      "max_grad_norm": 0.5
+    },
+    "aim_coefficients": {
+      "potential": 0.05,
+      "damage": 0.5,
+      "received": 0.75
+    },
+    "relative_potential_coefficient": 1.0,
+    "control_guidance_coefficient": 0.05,
+    "curriculum": {
+      "stage": "disabled",
+      "fraction": 0.0
+    },
+    "coverage_period": 2,
+    "history_reference": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/docs/HISTORICAL_WEIGHT_AND_SETTING_CHANGES_20261015.md",
+    "rule": "user_terminal_health_round4_v2",
+    "future_upload_authorized": false,
+    "adaptation": "Half uniform plus half previous development nonwin frequency; periodic full coverage. After two consecutive non-improving iterations halve LR once. Preserve all checkpoints; review bounded batch before changing more factors.",
+    "continuation": {
+      "source": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference_refresh_20261016",
+      "source_config_sha256": "6d78b656a8182c49c9b596b4609d102ea7835447587d5c9c4f84c8e420d87e55",
+      "selection": {
+        "parent": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference_refresh_20261016/parents/s61500_step_005242880",
+        "score": {
+          "games": 224,
+          "opponent_wins": 3,
+          "opponent_losses": 4,
+          "all_pass": false,
+          "game_wins": 14,
+          "game_draws": 202,
+          "game_losses": 8,
+          "per_opponent": {
+            "s44701_step_002621440": {
+              "wins": 1,
+              "draws": 28,
+              "losses": 3,
+              "verdict": "loss"
+            },
+            "s45800_step_002621440": {
+              "wins": 2,
+              "draws": 30,
+              "losses": 0,
+              "verdict": "win"
+            },
+            "s46201_step_005242880": {
+              "wins": 2,
+              "draws": 30,
+              "losses": 0,
+              "verdict": "win"
+            },
+            "s46401_step_005242880": {
+              "wins": 2,
+              "draws": 27,
+              "losses": 3,
+              "verdict": "loss"
+            },
+            "s46500_step_005242880": {
+              "wins": 2,
+              "draws": 29,
+              "losses": 1,
+              "verdict": "loss"
+            },
+            "s47236_step_002621440": {
+              "wins": 3,
+              "draws": 29,
+              "losses": 0,
+              "verdict": "win"
+            },
+            "s47238_step_010485760": {
+              "wins": 2,
+              "draws": 29,
+              "losses": 1,
+              "verdict": "loss"
+            }
+          }
+        },
+        "stalled": 2,
+        "learning_rate_factor": 0.5
+      },
+      "screen_scope": "Previously consumed screen reused; fresh baseline replay is counted as evaluation, never unseen evidence.",
+      "hypothesis": "After consecutive non-improvement, smaller PPO updates may retain the achieved opponent pass while reducing regression. Otherwise extend the improving parent without copying historical schedules."
+    },
+    "allocation_loss_weight": 16.0,
+    "reference_archive": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference_refresh_20261016/parents/s61500_step_005242880/learner.zip",
+    "reference_coefficient": 1.0,
+    "reference_refresh": {
+      "proof": {
+        "source_sha256": "58fd3fdf8ee2f2461f1e8c094bc85aaf0ce432bfd91d3f49adbeb4a6949caee3",
+        "prepared_sha256": "f69f44234338b60dcd054e30d9a8c472852d879083adcefc186d2965b688a26a",
+        "policy_sha256": "326340a9de08d59af0be58092e754c343aa14cbf0b93f1a9dec345118fbc6de7",
+        "optimizer_sha256": "90e7fcc2be362102605bf2c332b666c4e8039429e97f151860369f58a14906fe",
+        "old_reference_policy_sha256": "a121e6c2937a871edd80b0306c336244f9545d7ea63213c8c98a040993bd98f8",
+        "new_reference_policy_sha256": "326340a9de08d59af0be58092e754c343aa14cbf0b93f1a9dec345118fbc6de7",
+        "changed_data_fields": [
+          "reference_archive",
+          "reference_policy_hash"
+        ],
+        "non_data_payloads_exact": true,
+        "source_num_timesteps": 46530560,
+        "source_n_updates": 11648
+      },
+      "source": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference100_20261016/iteration_000/checkpoints/s61500_step_005242880",
+      "destination": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference_refresh_20261016/parents/s61500_step_005242880",
+      "learner_state_exact": true,
+      "synthetic_inference_exact": true,
+      "nonlearner_files_exact": true,
+      "final_reference_path_verified": true,
+      "ready_verified": true,
+      "new_training_decisions": 0,
+      "new_simulation_executions": 0,
+      "requires_native_baseline_before_training": true
+    }
+  }
+}

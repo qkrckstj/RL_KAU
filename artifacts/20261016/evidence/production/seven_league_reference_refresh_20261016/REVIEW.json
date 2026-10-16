@@ -1,0 +1,13 @@
+{
+  "reviewer": "/root/publication_review",
+  "important_defects": [],
+  "verified": [
+    "Two reference metadata fields only; all other ZIP payloads identical",
+    "Exports RNG workers preserved",
+    "Final reference path and READY correct",
+    "LR3.75e-6 and remaining comparison settings unchanged",
+    "1087 frozen hashes match",
+    "Fresh training and confirmation reservations"
+  ],
+  "launch_gate": "Separately authenticated full paired native baseline required before controller"
+}

@@ -1,0 +1,52 @@
+{
+  "scope": "Portable inspection metadata; not an executable frozen historical run config.",
+  "source_config_sha256": "3f1be0a55487086cfa35f33a68c536d47271d0142c580ba46da4b43e7b76df21",
+  "settings": {
+    "smoke": false,
+    "rounds": 4,
+    "screen_band": 3401500000,
+    "confirmation_band": 3501500000,
+    "training_band": 3601500000,
+    "seed": 51500,
+    "initial_parent": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/artifacts/20261015/models/s45800_step_002621440",
+    "decisions": 1310720,
+    "checkpoint_steps": 655360,
+    "workers": 32,
+    "processes": 8,
+    "evaluation_processes": 3,
+    "teacher": {
+      "id": "temporal_extend_right",
+      "kind": "submission",
+      "design": "experiments/league/rear_desktop_20261012/policies/p000",
+      "weights": "experiments/league/rear_desktop_20261012/policies/p000/policy_net.zip"
+    },
+    "ppo": {
+      "learning_rate": 3e-05,
+      "n_steps": 640,
+      "batch_size": 512,
+      "n_epochs": 4,
+      "gamma": 0.999,
+      "gae_lambda": 0.99,
+      "clip_range": 0.05,
+      "target_kl": 0.015,
+      "ent_coef": 0.003,
+      "max_grad_norm": 0.5
+    },
+    "aim_coefficients": {
+      "potential": 0.05,
+      "damage": 0.5,
+      "received": 0.5
+    },
+    "relative_potential_coefficient": 1.0,
+    "control_guidance_coefficient": 0.05,
+    "curriculum": {
+      "stage": "disabled",
+      "fraction": 0.0
+    },
+    "coverage_period": 2,
+    "history_reference": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/docs/HISTORICAL_WEIGHT_AND_SETTING_CHANGES_20261015.md",
+    "rule": "user_terminal_health_round4_v2",
+    "future_upload_authorized": false,
+    "adaptation": "Half uniform plus half previous development nonwin frequency; periodic full coverage. After two consecutive non-improving iterations halve LR once. Preserve all checkpoints; review bounded batch before changing more factors."
+  }
+}

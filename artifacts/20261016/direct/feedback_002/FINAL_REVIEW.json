@@ -1,0 +1,18 @@
+{
+  "status": "approved_completed_evidence_report",
+  "completion_sha256": "f401b7a0e8fc751887cb8c2c87f5e5e05857e56282f92b3b5b21494e482b0bac",
+  "report_sha256": "9461b28d90cc948d9edb3934a692211aa6b4a5c9d36e43bc51c3bc04ae90f856",
+  "verified_wdl": [
+    203,
+    4,
+    17
+  ],
+  "strict_opponent_passes": 1,
+  "prior189_wins_preserved": true,
+  "loss_to_win": 14,
+  "manual006_prefix_transitions_exact": 828,
+  "new_native_games": 226,
+  "total_direct_games": 3797,
+  "findings": [],
+  "scope": "Consumed development evidence only;no qualifiedv1 or all7 success. Session exits observed by parent."
+}

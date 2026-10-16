@@ -1,0 +1,21 @@
+{
+  "status": "approved_one_fixed_224_screen",
+  "plan_sha256": "063b46dfa149fa48b041a65d88a8e4c9ff14c72600d944c60dcd74d97983ac31",
+  "reviewed_runner_sha256": "e6a4d31e9254f19a58f8c1d786bd823547c51150dbbe000794fe7ae3eaf2b86e",
+  "reviewed_policy_sha256": "0f4026c08e27cdb971a0bdedffe9bc5342ded41bbb00c7fb7b35b613017102d1",
+  "verified_frozen_files": 2992,
+  "verified_games": 224,
+  "findings": [],
+  "scope": "One frozen public-observation feedback candidate, original seven opponents, eight consumed shared IC, both seats, two opponent RNGs. Approval is for this screen only. No variable grid, neural learning, curriculum, fresh confirmation, admission, version v1 or publication.",
+  "evidence_limits": [
+    "Official-loader qualification establishes source/package parity on 6755 consumed observations and duplicate calls, not reproduction of manual actions or closed-loop success.",
+    "State-machine phases and terminal egress hold are hypotheses whose performance must be measured; no universal tactical claim."
+  ],
+  "checks": [
+    "All frozen hashes and candidate model_files match.",
+    "Prepared plan hash and exact unique224 opponent/seed/seat/action tuples match.",
+    "Native run has not started; shared nonblocking controller lock, runtime refusal and12GiB available-memory gate present.",
+    "Reset,duplicate-query,rotation,relative lead,retained command and phase tests inspected; test suite was reported passed by parent,not rerun by reviewer."
+  ],
+  "native_games_executed_by_reviewer": 0
+}

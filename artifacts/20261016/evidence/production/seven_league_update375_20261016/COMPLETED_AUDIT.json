@@ -1,0 +1,15 @@
+{
+  "controller_session": 78345,
+  "controller_exit": 0,
+  "raw_screens_authenticated": true,
+  "actual_model_pool_bound": true,
+  "frozen_inputs_verified": true,
+  "checkpoint_ready_plan_bound": true,
+  "pool_size": 7,
+  "training_decisions": 10485760,
+  "training_episodes": 7606,
+  "training_seconds": 1182.1453888220713,
+  "evaluation_games_including_baseline": 672,
+  "selected_branch": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_continue68501_20261016/iteration_000/checkpoints/s69000_step_005242880",
+  "global_incumbent_unchanged": true
+}

@@ -1,0 +1,12 @@
+{
+  "controller_exit_code": 0,
+  "session": 90781,
+  "raw_screens_authenticated": true,
+  "frozen_hashes_verified": true,
+  "training_decisions": 10485760,
+  "training_episodes": 7700,
+  "evaluation_games_including_baseline": 672,
+  "pool_size": 7,
+  "confirmations": 0,
+  "admissions": 0
+}

@@ -1,0 +1,9 @@
+{
+  "reviewer": "/root/publication_review",
+  "important_defects": [],
+  "resolved_findings": [
+    "Removed inherited relative_reward_study metadata inconsistent with actual relative1 setting"
+  ],
+  "native_baseline_gate_passed": true,
+  "synthetic_reward_cases": 32
+}

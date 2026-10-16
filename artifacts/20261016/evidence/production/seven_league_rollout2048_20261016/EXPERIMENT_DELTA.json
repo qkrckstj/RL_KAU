@@ -1,0 +1,11 @@
+{
+  "source": "seven_league_update375_20261016",
+  "parent": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_continue68501_20261016/iteration_000/checkpoints/s69000_step_005242880",
+  "previous_rollout_ticks": 640,
+  "selected_rollout_ticks": 2048,
+  "selected_learning_rate": 3.75e-06,
+  "automatic_lr_overridden": 1.875e-06,
+  "other_training_settings_preserved": true,
+  "baseline_required": true,
+  "production_not_started": true
+}

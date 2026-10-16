@@ -1,0 +1,11 @@
+{
+  "games": 224,
+  "exact_nonwall_replay": true,
+  "parent_restoration_exact": true,
+  "source": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_entropy_continue_20261016/iteration_001/screen",
+  "consumed_screen": true,
+  "entropy_intervention": {
+    "previous": 0.01,
+    "selected": 0.0
+  }
+}

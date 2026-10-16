@@ -1,0 +1,11 @@
+{
+  "status": "approved_one_fixed_224_screen",
+  "plan_sha256": "d09c25a2f9532c5bc8402eaa6bf030c914a66363a4c76cbe48f8710f051c70dc",
+  "verified_frozen_files": 3020,
+  "games": 224,
+  "findings": [],
+  "change": "Only brake_speed482->520;policy.py identical to feedback002;exact parent identity preserved.",
+  "scope": "One fixed224 consumed screen only. No neural learning,v1,confirmation,admission,publication or grid.",
+  "limits": "Nominal envelope and retained target near500kt motivate a hypothesis;actual speed/turn performance and outcome require measurement.",
+  "native_games_executed_by_reviewer": 0
+}

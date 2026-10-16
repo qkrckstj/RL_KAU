@@ -1,0 +1,33 @@
+{
+  "session": 19906,
+  "observed_exit": 0,
+  "run": "manual_004",
+  "seat": "blue",
+  "seed": 3401500000,
+  "action_seed": 4900,
+  "opponent": "s47236_step_002621440",
+  "result": "win",
+  "final_health": [
+    0.5049999952316284,
+    0.0
+  ],
+  "steps": 1094,
+  "simulation_seconds": 54.7,
+  "wall_seconds_including_decisions": 80.17903491004836,
+  "commands": 13,
+  "max_unilateral_wez_seconds": 2.5999999999999988,
+  "unilateral_damage_dealt": 0.5379999876022339,
+  "unilateral_damage_received": 0,
+  "new_neural_training_decisions": 0,
+  "new_native_games": 1,
+  "new_standard_screen_games": 0,
+  "total_completed_direct_diagnostic_games": 3120,
+  "input_hashes_verified": true,
+  "source_sha256": {
+    "plan.json": "0efc5ccda0bdeda5734c4483ee3781bfeed9ee11407b4086b37353d923381a71",
+    "commands.jsonl": "5b570acb78a6bc6bc1d126db31ee18460ab9bfda9567402666ac85577f4bd254",
+    "trace.jsonl": "fac0e80330c42c013e51460ad414bb1ece68777c6e04310cf302ca2cdc142c38",
+    "completion.json": "e494c0b49164115f03455edf752a58b9c810ebe8ce1b0ed9ad20826fd13e5b98"
+  },
+  "scope": "Direct agent-selected command intervals; same consumed IC and RNG as red demonstration, opposite physical seat. Not a passing224screen or unseen confirmation."
+}

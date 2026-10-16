@@ -1,0 +1,40 @@
+{
+  "mode": "Post-hoc rendering of the exact recorded game, not a new simulation or generated flight.",
+  "source_trace_sha256": "dd62269418c7fdb8b806bf9c15a293a4c576d6fdd11ce6fc2c480d7bf6b45317",
+  "source_steps": 1090,
+  "source_duration_seconds": 54.5,
+  "source_result": "win",
+  "full": {
+    "path": "manual003_full_match.mp4",
+    "frames": 1131,
+    "fps": 20,
+    "seconds": 56.55,
+    "sha256": "290639032da30935afa2a3c44a9b00e610c4eb1c835c1d412fb45e0c27750f58"
+  },
+  "highlight": {
+    "path": "manual003_side_attack_slow.mp4",
+    "frames": 342,
+    "fps": 20,
+    "seconds": 17.1,
+    "sha256": "865667e4c86f0be64bc38629479777d0f475cde1f60f5c03fa49c4cc4ab38533"
+  },
+  "new_simulation_games": 0,
+  "new_neural_training_decisions": 0,
+  "display_colors": {
+    "own": "green",
+    "opponent": "pink"
+  },
+  "highlight_source_interval_seconds": [
+    47.0,
+    54.5
+  ],
+  "highlight_playback_speed": 0.5,
+  "gun_half_cone_deg": 30,
+  "gun_range_m": [
+    150,
+    1500
+  ],
+  "weapon_flags_source": "recorded raw34/raw35; track raw32/raw33",
+  "end_card_extra_seconds": 2,
+  "renderer_sha256": "7a9579d3f66de595bb292393d4f8d30f1dc6eeb8a7ab6838a30dbdd9ea1b9657"
+}

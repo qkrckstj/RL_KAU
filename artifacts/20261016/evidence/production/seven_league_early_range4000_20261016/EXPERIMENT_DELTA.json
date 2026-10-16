@@ -1,0 +1,14 @@
+{
+  "changed_training_factor": "addfloat32publicrange<=4km toexistingWEZ_ORdamagedcondition relative74500originalconfigloss0",
+  "original_source": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_wez_or_damaged_20261016/iteration_000/checkpoints/s74500_step_005242880",
+  "changed_control": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_early_range4000_20261016/parents/s74500_step_005242880_early_range_control",
+  "old_policy_function_preserved": false,
+  "old_model_preserved": true,
+  "learned_state_exact": true,
+  "source_panel": "/home/hoseon/Desktop/\ubc15\ucc2c\uc11c/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_wez_or_damaged_20261016/iteration_000/screen",
+  "production_config_sha256": "f23c4dbef3231587dc0b9d008503c2c63eb3c5a03eae5a23243fffbfea3d19c7",
+  "smoke_config_sha256": "f82ac86e56e0365dc951e8438480f332c24a5fada151861676ebf2a8cca652c0",
+  "smoke_plan_sha256": "441d0ae9eafaa752397acda13b2ce3e7e6396abacf862107d4cb1a8eccd0d2f4",
+  "production_not_started": true,
+  "prepared_time": 1792151297.21289
+}

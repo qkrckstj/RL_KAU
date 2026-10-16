@@ -1,0 +1,13 @@
+{
+  "available_bytes": 26168950784,
+  "workers": 3,
+  "meminfo": {
+    "CommitLimit": "24376256 kB",
+    "Committed_AS": "23149404 kB"
+  },
+  "thread_env": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

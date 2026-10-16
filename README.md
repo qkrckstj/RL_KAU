@@ -1,4 +1,4 @@
-> **2026-10-15 desktop handoff:** [Seven preserved models, dependencies and execution](docs/DESKTOP_SEVEN_MODELS_20261015.md). Historical running/PID and pause notices below are not current process state. New local training was explicitly authorized on 2026-10-15; future GitHub uploads require a new request.
+> **2026-10-16 CPU continuation — PAUSED:** [Install, verify and continue on another computer](docs/CPU_CONTINUATION_HANDOFF_20261016.md) · [All seven-opponent learning/evaluation progress](docs/SEVEN_OPPONENT_PROGRESS_20261016.md). Original seven preserved, feedback002 retained (203W/4D/17L, strict1/7), no qualified v1. CPU-only execution verified; read current handoff before historical running/PID labels below. Future uploads require a new request.
 
 # RL_KAU — JSBSim 강화학습 실험
 

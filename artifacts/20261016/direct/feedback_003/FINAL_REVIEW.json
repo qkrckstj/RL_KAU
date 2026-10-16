@@ -1,0 +1,45 @@
+{
+  "status": "approved_completed_evidence_report_with_state_metadata_notes",
+  "completion_sha256": "61fae0c89670dd9965256326f5f78e5c1d8b244ba13c64a0d1597e3489159c3b",
+  "report_sha256": "e80e3b976e91351a701cc50f626879b04775995ce42cced280b189a7b6201fd0",
+  "verified_wdl": [
+    202,
+    1,
+    21
+  ],
+  "strict_opponent_passes": 0,
+  "paired_outcomes": {
+    "win_to_win": 200,
+    "win_to_loss": 3,
+    "loss_to_win": 2,
+    "loss_to_loss": 15,
+    "draw_to_loss": 3,
+    "draw_to_draw": 1
+  },
+  "retained_reference": "manual_feedback_002",
+  "retained_reference_wdl": [
+    203,
+    4,
+    17
+  ],
+  "retained_reference_passes": 1,
+  "new_native_games_goal_turn": 450,
+  "total_direct_games": 4021,
+  "new_neural_training_decisions": 0,
+  "findings": [
+    {
+      "severity": "nonblocking_metadata",
+      "file": "../docs/LEAGUE_STATE.json",
+      "field": "direct_teacher_goal_20261016.last_completed_manual_condition",
+      "description": "Still s45800 from manual005 while last_manual_run is manual006;actual manual006 is s46201 red IC3401500000/action4900."
+    },
+    {
+      "severity": "nonblocking_metadata",
+      "file": "../docs/LEAGUE_STATE.json",
+      "field": "direct_teacher_goal_20261016.remaining_loss_diagnostic",
+      "description": "Still describes feedback001 egress failure/proposed positional gate already implemented. Mark historical or point current diagnosis at feedback002 mutual replay and failed manual006."
+    }
+  ],
+  "scope": "Completed evidence review only;next merge_range600 hypothesis not reviewed for implementation or launch. No qualifiedv1,confirmation,admission or publication. Session exits observed by parent.",
+  "native_games_executed_by_reviewer": 0
+}

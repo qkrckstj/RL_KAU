@@ -1,0 +1,67 @@
+{
+  "official_loader_predictions": 9458,
+  "repeated_queries": 9458,
+  "action_and_phase_exact": true,
+  "phase_coverage": {
+    "manual_002": [
+      "approach",
+      "attack",
+      "egress_hold",
+      "egress_turn",
+      "right_brake",
+      "right_hold",
+      "right_intercept",
+      "turn_in",
+      "wide"
+    ],
+    "manual_003": [
+      "approach",
+      "attack",
+      "right_brake",
+      "right_hold",
+      "right_intercept",
+      "turn_in",
+      "wide"
+    ],
+    "manual_004": [
+      "approach",
+      "attack",
+      "right_brake",
+      "right_hold",
+      "right_intercept",
+      "turn_in",
+      "wide"
+    ],
+    "manual_005": [
+      "approach",
+      "attack",
+      "egress_hold",
+      "egress_turn",
+      "right_brake",
+      "right_hold",
+      "right_intercept",
+      "turn_in",
+      "wide"
+    ],
+    "feedback001_exact_failure_tape": [
+      "approach",
+      "attack",
+      "egress_hold",
+      "egress_turn",
+      "right_brake",
+      "right_hold",
+      "right_intercept",
+      "turn_in",
+      "wide"
+    ],
+    "feedback002_exact_mutual_tape": [
+      "approach",
+      "right_brake",
+      "right_hold",
+      "right_intercept",
+      "turn_in",
+      "wide"
+    ]
+  },
+  "scope": "Offline parity of source and packaged controller on consumed tapes. Not closed-loop generalization or reproduction of manual actions."
+}

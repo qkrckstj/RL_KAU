@@ -1,0 +1,13 @@
+{
+  "changed_factor": "candidate brake_speed482to520 only",
+  "runtime_policy_byte_identical_to_parent": true,
+  "same_source_related_checks": 62,
+  "same_source_test_seconds": 1.81,
+  "prepare_session": 39589,
+  "prepare_exit": 0,
+  "official_loader_states": 9458,
+  "duplicate_queries": 9458,
+  "new_neural_training_decisions": 0,
+  "new_native_games": 0,
+  "qualified_version": null
+}

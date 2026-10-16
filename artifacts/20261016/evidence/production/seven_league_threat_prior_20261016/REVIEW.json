@@ -1,0 +1,24 @@
+{
+  "reviewer": "/root/publication_review",
+  "status": "approved_two_bounded_production_candidates",
+  "config_sha256": "7c5fd9cb7f4e6f22e74c35b3ee5288ecb6f4bc50a32ef489a715acb60694794f",
+  "control_completion_sha256": "123077323442eae8adbd3e3bb3cb5245f9f3c71f51a631dcb43f18119526e610",
+  "smoke_validation_sha256": "af4a20d25bd6c2875628718ef8af6ccdca95e9b3c8de6661fb8be4c395f5e1e8",
+  "control_qualification_sha256": "99be056ce8bc18c289b9bc11586b558967025dbd112b552d4c6d16714e412f78",
+  "approved_rounds": 2,
+  "decisions_per_candidate": 5242880,
+  "control_session": 50768,
+  "control_exit": 0,
+  "smoke_session": 39462,
+  "smoke_exit": 0,
+  "independently_verified": [
+    "Frozenhashes/configunchanged",
+    "224rawcontrolcells/model/pool/gatesums",
+    "SmokeREADY/plan/initializedgatedparent",
+    "Savedsettingsand12Adamstates+1536steps/12epochs",
+    "Productionparentis untrainedgatedcopy,not smokelearner"
+  ],
+  "control_installation_regressed": true,
+  "required_reporting": "Separatelearningvscontrolandoriginal/globalperformance;freshconfirmationbeforeadmission.",
+  "publication_authorized": false
+}

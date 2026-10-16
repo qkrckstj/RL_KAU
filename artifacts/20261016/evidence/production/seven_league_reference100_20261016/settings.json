@@ -1,0 +1,124 @@
+{
+  "scope": "Portable inspection metadata; not an executable frozen historical run config.",
+  "source_config_sha256": "7dda173f45fd417890bb071be3fc4bcffe009c9f7889b203dfe7b60ecbd921cc",
+  "settings": {
+    "smoke": false,
+    "rounds": 2,
+    "screen_band": 3401500000,
+    "confirmation_band": 3501700000,
+    "training_band": 3961500000,
+    "seed": 61500,
+    "initial_parent": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_entropy_continue_20261016/iteration_001/checkpoints/s56001_step_005242880",
+    "decisions": 5242880,
+    "checkpoint_steps": 655360,
+    "workers": 32,
+    "processes": 8,
+    "evaluation_processes": 3,
+    "teacher": {
+      "id": "temporal_extend_right",
+      "kind": "submission",
+      "design": "experiments/league/rear_desktop_20261012/policies/p000",
+      "weights": "experiments/league/rear_desktop_20261012/policies/p000/policy_net.zip"
+    },
+    "ppo": {
+      "learning_rate": 3.75e-06,
+      "n_steps": 640,
+      "batch_size": 512,
+      "n_epochs": 4,
+      "gamma": 0.999,
+      "gae_lambda": 0.99,
+      "clip_range": 0.05,
+      "target_kl": 0.015,
+      "ent_coef": 0.0,
+      "max_grad_norm": 0.5
+    },
+    "aim_coefficients": {
+      "potential": 0.05,
+      "damage": 0.5,
+      "received": 0.75
+    },
+    "relative_potential_coefficient": 1.0,
+    "control_guidance_coefficient": 0.05,
+    "curriculum": {
+      "stage": "disabled",
+      "fraction": 0.0
+    },
+    "coverage_period": 2,
+    "history_reference": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/docs/HISTORICAL_WEIGHT_AND_SETTING_CHANGES_20261015.md",
+    "rule": "user_terminal_health_round4_v2",
+    "future_upload_authorized": false,
+    "adaptation": "Half uniform plus half previous development nonwin frequency; periodic full coverage. After two consecutive non-improving iterations halve LR once. Preserve all checkpoints; review bounded batch before changing more factors.",
+    "continuation": {
+      "source": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_reference010_20261016",
+      "source_config_sha256": "62745fd8b3d912e6f4b0cae0fb33693cfe56a2ef089fb4058c6ad3d84b54b682",
+      "selection": {
+        "parent": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_entropy_continue_20261016/iteration_001/checkpoints/s56001_step_005242880",
+        "score": {
+          "games": 224,
+          "opponent_wins": 3,
+          "opponent_losses": 4,
+          "all_pass": false,
+          "game_wins": 16,
+          "game_draws": 198,
+          "game_losses": 10,
+          "per_opponent": {
+            "s44701_step_002621440": {
+              "wins": 1,
+              "draws": 26,
+              "losses": 5,
+              "verdict": "loss"
+            },
+            "s45800_step_002621440": {
+              "wins": 3,
+              "draws": 29,
+              "losses": 0,
+              "verdict": "win"
+            },
+            "s46201_step_005242880": {
+              "wins": 3,
+              "draws": 29,
+              "losses": 0,
+              "verdict": "win"
+            },
+            "s46401_step_005242880": {
+              "wins": 3,
+              "draws": 26,
+              "losses": 3,
+              "verdict": "loss"
+            },
+            "s46500_step_005242880": {
+              "wins": 1,
+              "draws": 31,
+              "losses": 0,
+              "verdict": "win"
+            },
+            "s47236_step_002621440": {
+              "wins": 2,
+              "draws": 29,
+              "losses": 1,
+              "verdict": "loss"
+            },
+            "s47238_step_010485760": {
+              "wins": 3,
+              "draws": 28,
+              "losses": 1,
+              "verdict": "loss"
+            }
+          }
+        },
+        "stalled": 2,
+        "learning_rate_factor": 0.5
+      },
+      "screen_scope": "Previously consumed screen reused; fresh baseline replay is counted as evaluation, never unseen evidence.",
+      "hypothesis": "Both fixed-reference.1repeats lost retained opponent passes. Increase only reference coefficient.1to1.0 to test stronger retention against same fixed s56001 on training rollouts. Full budgets, same original7, no universal or per-cell retention guarantee.",
+      "learning_rate_override": {
+        "automatic": 1.875e-06,
+        "selected": 3.75e-06,
+        "reason": "Isolate reference coefficient change"
+      }
+    },
+    "allocation_loss_weight": 16.0,
+    "reference_archive": "/home/hoseon/Desktop/박찬서/RL_KAU/.worktrees/rear-async/aircombat-rl/runs/seven_league_entropy_continue_20261016/iteration_001/checkpoints/s56001_step_005242880/learner.zip",
+    "reference_coefficient": 1.0
+  }
+}
