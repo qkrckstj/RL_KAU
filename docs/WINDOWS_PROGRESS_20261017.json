@@ -1,0 +1,3570 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-17T09:36:34.205819+09:00",
+  "source_base_commit": "75831a09192d720609f4a4893e109ba6ab69e683",
+  "publication_scope": "Aggregate results and documentation only; local source completions and executable candidates are not included.",
+  "passing_rule": "all_games_win_draws_fail_20261017",
+  "latest_completed_candidate": "feedback_039",
+  "latest_448_candidate": "feedback_038",
+  "independent_final_confirmation_passed": false,
+  "new_neural_training_decisions_in_listed_completions": 0,
+  "listed_completed_games": 16576,
+  "listed_completed_runs": 55,
+  "count_scope": "Completed 224/448 panels in feedback-prefixed top-level run folders only. Excludes manual episodes, diagnostics, earlier neural training, and other folders. Not a project lifetime total.",
+  "results": [
+    {
+      "candidate": "feedback_004",
+      "panel": "original224",
+      "games": 224,
+      "wins": 209,
+      "draws": 0,
+      "losses": 15,
+      "elapsed_seconds": 88.75,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss"
+        },
+        "s45800_step_002621440": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss"
+        },
+        "s46201_step_005242880": {
+          "wins": 29,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss"
+        },
+        "s46401_step_005242880": {
+          "wins": 28,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss"
+        },
+        "s46500_step_005242880": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss"
+        },
+        "s47236_step_002621440": {
+          "wins": 31,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss"
+        },
+        "s47238_step_010485760": {
+          "wins": 31,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss"
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback004_merge600_windows_screen_20261017/completion.json",
+      "source_sha256": "06ca6c032fe42750311b9ad749d7df01f004fbc370f42b252937b6c7318ec8c9"
+    },
+    {
+      "candidate": "feedback_005",
+      "panel": "original224",
+      "games": 224,
+      "wins": 209,
+      "draws": 0,
+      "losses": 15,
+      "elapsed_seconds": 162.31299999999464,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss"
+        },
+        "s45800_step_002621440": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss"
+        },
+        "s46201_step_005242880": {
+          "wins": 29,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss"
+        },
+        "s46401_step_005242880": {
+          "wins": 28,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss"
+        },
+        "s46500_step_005242880": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss"
+        },
+        "s47236_step_002621440": {
+          "wins": 31,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss"
+        },
+        "s47238_step_010485760": {
+          "wins": 31,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss"
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback005_hold45_windows_screen_20261017/completion.json",
+      "source_sha256": "5c0c16aa1a3e4ce6a4eb61900e297cc5f7a035556812db6f4d5a0ae3cfeff338"
+    },
+    {
+      "candidate": "feedback_006",
+      "panel": "original224",
+      "games": 224,
+      "wins": 209,
+      "draws": 3,
+      "losses": 12,
+      "elapsed_seconds": 112.0,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss"
+        },
+        "s45800_step_002621440": {
+          "wins": 30,
+          "draws": 2,
+          "losses": 0,
+          "verdict": "win"
+        },
+        "s46201_step_005242880": {
+          "wins": 29,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss"
+        },
+        "s46401_step_005242880": {
+          "wins": 28,
+          "draws": 1,
+          "losses": 3,
+          "verdict": "loss"
+        },
+        "s46500_step_005242880": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss"
+        },
+        "s47236_step_002621440": {
+          "wins": 31,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss"
+        },
+        "s47238_step_010485760": {
+          "wins": 31,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss"
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback006_mutual_entry_windows_screen_20261017/completion.json",
+      "source_sha256": "0f5a64bd27b769dd5d8bfbc18d2431f783bfbf68fd5815a707f646861d95d6d5"
+    },
+    {
+      "candidate": "feedback_007",
+      "panel": "original224",
+      "games": 224,
+      "wins": 211,
+      "draws": 3,
+      "losses": 10,
+      "elapsed_seconds": 217.68799999999464,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s45800_step_002621440": {
+          "wins": 30,
+          "draws": 2,
+          "losses": 0,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46201_step_005242880": {
+          "wins": 29,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46401_step_005242880": {
+          "wins": 28,
+          "draws": 1,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s46500_step_005242880": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback007_anticipatory_strict224_20261017_v2/completion.json",
+      "source_sha256": "57d733a3331680003de1f96b9a7969a9832b7a607899321be700868f9fbf1f9c"
+    },
+    {
+      "candidate": "feedback_008",
+      "panel": "original224",
+      "games": 224,
+      "wins": 212,
+      "draws": 3,
+      "losses": 9,
+      "elapsed_seconds": 92.56299999999464,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s45800_step_002621440": {
+          "wins": 30,
+          "draws": 2,
+          "losses": 0,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46201_step_005242880": {
+          "wins": 29,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46401_step_005242880": {
+          "wins": 28,
+          "draws": 1,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s46500_step_005242880": {
+          "wins": 31,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback008_lowdeficit_strict224_20261017/completion.json",
+      "source_sha256": "215c4e73296a49ff4aeb08afdeadc77407c21253b9dbbbd4c718f412c81c1372"
+    },
+    {
+      "candidate": "feedback_009",
+      "panel": "original224",
+      "games": 224,
+      "wins": 213,
+      "draws": 3,
+      "losses": 8,
+      "elapsed_seconds": 159.2970000000205,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s45800_step_002621440": {
+          "wins": 30,
+          "draws": 2,
+          "losses": 0,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46201_step_005242880": {
+          "wins": 29,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46401_step_005242880": {
+          "wins": 28,
+          "draws": 1,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback009_equalapproach_strict224_20261017/completion.json",
+      "source_sha256": "fd3d6f2a0d6aaaede76279bdabf80ecce23f9fce375f05dd41e490888027c69c"
+    },
+    {
+      "candidate": "feedback_010",
+      "panel": "original224",
+      "games": 224,
+      "wins": 214,
+      "draws": 2,
+      "losses": 8,
+      "elapsed_seconds": 74.92200000002049,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 29,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46401_step_005242880": {
+          "wins": 28,
+          "draws": 1,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s46500_step_005242880": {
+          "wins": 31,
+          "draws": 1,
+          "losses": 0,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback010_shortcorrection_strict224_20261017/completion.json",
+      "source_sha256": "51531d1bfea3bf06eac5e548a895bf8f401554d94c2afcbf51dca8489046f09a"
+    },
+    {
+      "candidate": "feedback_011",
+      "panel": "original224",
+      "games": 224,
+      "wins": 215,
+      "draws": 1,
+      "losses": 8,
+      "elapsed_seconds": 73.81299999999464,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 30,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 29,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46401_step_005242880": {
+          "wins": 28,
+          "draws": 1,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback011_shortguard_strict224_20261017/completion.json",
+      "source_sha256": "c3c097ac46ed436bb2bd193fe9ae1a3acd7efb1e87e0d983c29fcd754bca22bb"
+    },
+    {
+      "candidate": "feedback_012",
+      "panel": "original224",
+      "games": 224,
+      "wins": 211,
+      "draws": 2,
+      "losses": 11,
+      "elapsed_seconds": 75.78200000000652,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 28,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s46401_step_005242880": {
+          "wins": 26,
+          "draws": 1,
+          "losses": 5,
+          "verdict": "loss",
+          "effective_losses": 6
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 31,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s47238_step_010485760": {
+          "wins": 30,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback012_earlyhold_strict224_20261017/completion.json",
+      "source_sha256": "3f94365600254846375340d3d7a175b7e2a9d7e2f9ba4af389a9e667b0bc4a6d"
+    },
+    {
+      "candidate": "feedback_013",
+      "panel": "original224",
+      "games": 224,
+      "wins": 218,
+      "draws": 1,
+      "losses": 5,
+      "elapsed_seconds": 74.14100000000326,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 29,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46401_step_005242880": {
+          "wins": 29,
+          "draws": 1,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback013_earlyguard_strict224_20261017/completion.json",
+      "source_sha256": "fe92f381524c8e44b23f5e13c5e5c83af686c05330d29ee0647840625620a202"
+    },
+    {
+      "candidate": "feedback_014",
+      "panel": "original224",
+      "games": 224,
+      "wins": 105,
+      "draws": 54,
+      "losses": 65,
+      "elapsed_seconds": 57.625,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 15,
+          "draws": 3,
+          "losses": 14,
+          "verdict": "loss",
+          "effective_losses": 17
+        },
+        "s45800_step_002621440": {
+          "wins": 15,
+          "draws": 7,
+          "losses": 10,
+          "verdict": "loss",
+          "effective_losses": 17
+        },
+        "s46201_step_005242880": {
+          "wins": 13,
+          "draws": 9,
+          "losses": 10,
+          "verdict": "loss",
+          "effective_losses": 19
+        },
+        "s46401_step_005242880": {
+          "wins": 11,
+          "draws": 9,
+          "losses": 12,
+          "verdict": "loss",
+          "effective_losses": 21
+        },
+        "s46500_step_005242880": {
+          "wins": 16,
+          "draws": 9,
+          "losses": 7,
+          "verdict": "loss",
+          "effective_losses": 16
+        },
+        "s47236_step_002621440": {
+          "wins": 18,
+          "draws": 8,
+          "losses": 6,
+          "verdict": "loss",
+          "effective_losses": 14
+        },
+        "s47238_step_010485760": {
+          "wins": 17,
+          "draws": 9,
+          "losses": 6,
+          "verdict": "loss",
+          "effective_losses": 15
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback014_fastentry_brake_strict224_20261017/completion.json",
+      "source_sha256": "3d3d246a41169bdd7bed1f50d8a511f59d2704f53659d3872f1b8bd5462f8c6b"
+    },
+    {
+      "candidate": "feedback_015",
+      "panel": "original224",
+      "games": 224,
+      "wins": 220,
+      "draws": 1,
+      "losses": 3,
+      "elapsed_seconds": 84.60999999998603,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 31,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s46401_step_005242880": {
+          "wins": 29,
+          "draws": 1,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback015_firstpass_feint_strict224_20261017/completion.json",
+      "source_sha256": "c9c2de20e9ce516f6c5bf71984f00bb32e1f1b01e19b0a0523b49b5b2c506275"
+    },
+    {
+      "candidate": "feedback_016",
+      "panel": "original224",
+      "games": 224,
+      "wins": 221,
+      "draws": 1,
+      "losses": 2,
+      "elapsed_seconds": 82.5,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 31,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s46401_step_005242880": {
+          "wins": 30,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback016_direction_guard_strict224_20261017/completion.json",
+      "source_sha256": "309461a41612f339e96e5c030fadf26e4c7c9c0465b31f50edebc77338b08e85"
+    },
+    {
+      "candidate": "feedback_017",
+      "panel": "original224",
+      "games": 224,
+      "wins": 176,
+      "draws": 0,
+      "losses": 48,
+      "elapsed_seconds": 84.60899999999674,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 24,
+          "draws": 0,
+          "losses": 8,
+          "verdict": "loss",
+          "effective_losses": 8
+        },
+        "s45800_step_002621440": {
+          "wins": 23,
+          "draws": 0,
+          "losses": 9,
+          "verdict": "loss",
+          "effective_losses": 9
+        },
+        "s46201_step_005242880": {
+          "wins": 26,
+          "draws": 0,
+          "losses": 6,
+          "verdict": "loss",
+          "effective_losses": 6
+        },
+        "s46401_step_005242880": {
+          "wins": 24,
+          "draws": 0,
+          "losses": 8,
+          "verdict": "loss",
+          "effective_losses": 8
+        },
+        "s46500_step_005242880": {
+          "wins": 23,
+          "draws": 0,
+          "losses": 9,
+          "verdict": "loss",
+          "effective_losses": 9
+        },
+        "s47236_step_002621440": {
+          "wins": 28,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s47238_step_010485760": {
+          "wins": 28,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 4
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback017_rollaware_feint_strict224_20261017/completion.json",
+      "source_sha256": "471fd116972c382b363a1ec6490a54386aa3d33bc64dd999a66eaf245d417897"
+    },
+    {
+      "candidate": "feedback_018",
+      "panel": "original224",
+      "games": 224,
+      "wins": 223,
+      "draws": 0,
+      "losses": 1,
+      "elapsed_seconds": 85.20300000000861,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 31,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback018_rollguard_feint_strict224_20261017/completion.json",
+      "source_sha256": "961406a42d2cb620e8c30e8057a1db2b44285aca5fed13bf3b1f18c98a9160ba"
+    },
+    {
+      "candidate": "feedback_019",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 92.45300000000861,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback019_side_approach_strict224_20261017/completion.json",
+      "source_sha256": "9ade094440b6fbbd891261937acd26ef8b02c0ed9d8c455f61e65c05c09048f5"
+    },
+    {
+      "candidate": "feedback_019",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 418,
+      "draws": 5,
+      "losses": 25,
+      "elapsed_seconds": 166.09400000001187,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 59,
+          "draws": 1,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 5
+        },
+        "s45800_step_002621440": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46201_step_005242880": {
+          "wins": 60,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s46401_step_005242880": {
+          "wins": 54,
+          "draws": 1,
+          "losses": 9,
+          "verdict": "loss",
+          "effective_losses": 10
+        },
+        "s46500_step_005242880": {
+          "wins": 62,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s47236_step_002621440": {
+          "wins": 61,
+          "draws": 1,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s47238_step_010485760": {
+          "wins": 61,
+          "draws": 1,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 3
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback019_unused448_confirmation_20261017/completion.json",
+      "source_sha256": "77b8e55634c33019663e628af4fd6af64ed856d2b16837e6f57edd9dbb14b1b8"
+    },
+    {
+      "candidate": "feedback_020",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 420,
+      "draws": 5,
+      "losses": 23,
+      "elapsed_seconds": 167.875,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 59,
+          "draws": 1,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 5
+        },
+        "s45800_step_002621440": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46201_step_005242880": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46401_step_005242880": {
+          "wins": 55,
+          "draws": 1,
+          "losses": 8,
+          "verdict": "loss",
+          "effective_losses": 9
+        },
+        "s46500_step_005242880": {
+          "wins": 62,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s47236_step_002621440": {
+          "wins": 61,
+          "draws": 1,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s47238_step_010485760": {
+          "wins": 61,
+          "draws": 1,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 3
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback020_consumed448_regression_20261017/completion.json",
+      "source_sha256": "e7420c480b5b7b27a96fbec96f776befe68fc082788926d0552f0011cc97828f"
+    },
+    {
+      "candidate": "feedback_020",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 87.92199999999139,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback020_early_lead_departure_strict224_20261017/completion.json",
+      "source_sha256": "42efaa86cfdfe407815e87a66c4eed9fdebd3abf1fe1a138b66f99ef468326a0"
+    },
+    {
+      "candidate": "feedback_021",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 421,
+      "draws": 7,
+      "losses": 20,
+      "elapsed_seconds": 170.5,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 59,
+          "draws": 1,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 5
+        },
+        "s45800_step_002621440": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46201_step_005242880": {
+          "wins": 61,
+          "draws": 1,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46401_step_005242880": {
+          "wins": 55,
+          "draws": 1,
+          "losses": 8,
+          "verdict": "loss",
+          "effective_losses": 9
+        },
+        "s46500_step_005242880": {
+          "wins": 62,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s47236_step_002621440": {
+          "wins": 62,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s47238_step_010485760": {
+          "wins": 61,
+          "draws": 2,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 3
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback021_consumed448_regression_20261017/completion.json",
+      "source_sha256": "984f7b371f6cf369a5c3629b7c7762f4c033d9deafc26e626485efa8f0c484cd"
+    },
+    {
+      "candidate": "feedback_021",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 88.28200000000652,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback021_merge_reversal_strict224_20261017_v2/completion.json",
+      "source_sha256": "b41f31696f1459c7e240d62e4dfe060a79ab5b5b8b51fb152042582c0adffbf3"
+    },
+    {
+      "candidate": "feedback_022",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 422,
+      "draws": 7,
+      "losses": 19,
+      "elapsed_seconds": 170.95300000000861,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 59,
+          "draws": 1,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 5
+        },
+        "s45800_step_002621440": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46201_step_005242880": {
+          "wins": 61,
+          "draws": 1,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46401_step_005242880": {
+          "wins": 55,
+          "draws": 2,
+          "losses": 7,
+          "verdict": "loss",
+          "effective_losses": 9
+        },
+        "s46500_step_005242880": {
+          "wins": 62,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s47236_step_002621440": {
+          "wins": 62,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s47238_step_010485760": {
+          "wins": 62,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback022_consumed448_regression_20261017/completion.json",
+      "source_sha256": "6e5768f59341286eec57636955ec20e4293449d835338b0966e8079513e5fd9d"
+    },
+    {
+      "candidate": "feedback_022",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 89.53100000001723,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback022_equal_health_brake_strict224_20261017/completion.json",
+      "source_sha256": "351380bf9cb96c250b66578d3aff4d812e2fbebee79915facc3b9d2be23a49d4"
+    },
+    {
+      "candidate": "feedback_023",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 421,
+      "draws": 10,
+      "losses": 17,
+      "elapsed_seconds": 167.59399999998277,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 59,
+          "draws": 1,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 5
+        },
+        "s45800_step_002621440": {
+          "wins": 60,
+          "draws": 1,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s46201_step_005242880": {
+          "wins": 61,
+          "draws": 1,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46401_step_005242880": {
+          "wins": 55,
+          "draws": 2,
+          "losses": 7,
+          "verdict": "loss",
+          "effective_losses": 9
+        },
+        "s46500_step_005242880": {
+          "wins": 62,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s47236_step_002621440": {
+          "wins": 62,
+          "draws": 2,
+          "losses": 0,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s47238_step_010485760": {
+          "wins": 62,
+          "draws": 2,
+          "losses": 0,
+          "verdict": "loss",
+          "effective_losses": 2
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback023_consumed448_regression_20261017/completion.json",
+      "source_sha256": "a789da5a6f97e65863c718b27a9ecadff4ce95736704ea661e2d9e636e96c253"
+    },
+    {
+      "candidate": "feedback_023",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 89.5,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback023_early_return_brake_strict224_20261017/completion.json",
+      "source_sha256": "364ef78b1056af29291741df01f067b5728a2dac6bfff5873b4487410d9f4d46"
+    },
+    {
+      "candidate": "feedback_024",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 423,
+      "draws": 6,
+      "losses": 19,
+      "elapsed_seconds": 171.56200000000536,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 59,
+          "draws": 1,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 5
+        },
+        "s45800_step_002621440": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46201_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46401_step_005242880": {
+          "wins": 55,
+          "draws": 2,
+          "losses": 7,
+          "verdict": "loss",
+          "effective_losses": 9
+        },
+        "s46500_step_005242880": {
+          "wins": 62,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s47236_step_002621440": {
+          "wins": 62,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s47238_step_010485760": {
+          "wins": 62,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback024_consumed448_regression_20261017/completion.json",
+      "source_sha256": "c08270950e2282411d14d57092995d6eebbf28e438a2546b5fd9a55d9ba6e196"
+    },
+    {
+      "candidate": "feedback_024",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 90.0460000000021,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback024_guarded_return_brake_strict224_20261017/completion.json",
+      "source_sha256": "b6d0597efe6c6d1174e3641648f0a8d5d628649c80dce79b270eb49aeb1a4d1c"
+    },
+    {
+      "candidate": "feedback_025",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 90.28200000000652,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback025_advance_return_brake_strict224_20261017/completion.json",
+      "source_sha256": "6044f3f98094bb4da9e6f864cc808b19cd266dcb7c117b6beb66957a974e8c99"
+    },
+    {
+      "candidate": "feedback_025",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 425,
+      "draws": 4,
+      "losses": 19,
+      "elapsed_seconds": 173.78099999998813,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 59,
+          "draws": 1,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 5
+        },
+        "s45800_step_002621440": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46201_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46401_step_005242880": {
+          "wins": 55,
+          "draws": 2,
+          "losses": 7,
+          "verdict": "loss",
+          "effective_losses": 9
+        },
+        "s46500_step_005242880": {
+          "wins": 62,
+          "draws": 1,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s47236_step_002621440": {
+          "wins": 63,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s47238_step_010485760": {
+          "wins": 63,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback025_consumed448_regression_20261017/completion.json",
+      "source_sha256": "265259fef1a0035c3dac51e02ce924a09a677e177b650d519a4a84a2e06f7814"
+    },
+    {
+      "candidate": "feedback_026",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 427,
+      "draws": 1,
+      "losses": 20,
+      "elapsed_seconds": 182.18799999999464,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 59,
+          "draws": 0,
+          "losses": 5,
+          "verdict": "loss",
+          "effective_losses": 5
+        },
+        "s45800_step_002621440": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46201_step_005242880": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46401_step_005242880": {
+          "wins": 55,
+          "draws": 1,
+          "losses": 8,
+          "verdict": "loss",
+          "effective_losses": 9
+        },
+        "s46500_step_005242880": {
+          "wins": 63,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s47236_step_002621440": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback026_consumed448_regression_20261017/completion.json",
+      "source_sha256": "ad4512dc5f249ac7fecc88507869ba98922480ce02d12e2474c6a9ba7ba113f7"
+    },
+    {
+      "candidate": "feedback_026",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 92.76500000001397,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback026_initial_offset_strict224_20261017/completion.json",
+      "source_sha256": "45dcd71887c5b5c7543efdf051ff51b49055873b3a255b294a758e5ab1deee1a"
+    },
+    {
+      "candidate": "feedback_027",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 430,
+      "draws": 1,
+      "losses": 17,
+      "elapsed_seconds": 175.96899999998277,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 60,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s45800_step_002621440": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46201_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46401_step_005242880": {
+          "wins": 56,
+          "draws": 1,
+          "losses": 7,
+          "verdict": "loss",
+          "effective_losses": 8
+        },
+        "s46500_step_005242880": {
+          "wins": 63,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s47236_step_002621440": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback027_consumed448_regression_20261017/completion.json",
+      "source_sha256": "e7f759db8b4ac964d6af3f783e888c727545798bc871f5bc1b8dc67e33479f05"
+    },
+    {
+      "candidate": "feedback_027",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 92.01499999998487,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback027_guarded_initial_offset_strict224_20261017/completion.json",
+      "source_sha256": "a63b8af97087af179ae7897e48503cec7b192d1f7b54a6d360cee85fe8fb86d3"
+    },
+    {
+      "candidate": "feedback_028",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 431,
+      "draws": 0,
+      "losses": 17,
+      "elapsed_seconds": 178.40700000000652,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 60,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s45800_step_002621440": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46201_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46401_step_005242880": {
+          "wins": 57,
+          "draws": 0,
+          "losses": 7,
+          "verdict": "loss",
+          "effective_losses": 7
+        },
+        "s46500_step_005242880": {
+          "wins": 63,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s47236_step_002621440": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback028_consumed448_regression_20261017/completion.json",
+      "source_sha256": "ef712429b520957c38f469f4ee4ec06c17afdd1e4ecf961fd31b33ff2b97fd52"
+    },
+    {
+      "candidate": "feedback_028",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 93.35899999999674,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback028_deficit_return_brake_strict224_20261017/completion.json",
+      "source_sha256": "d348a8864b39c733fd926b1b729ee62a95ff6a3055e2af2187b34c407f3a10d7"
+    },
+    {
+      "candidate": "feedback_029",
+      "panel": "original224",
+      "games": 224,
+      "wins": 223,
+      "draws": 0,
+      "losses": 1,
+      "elapsed_seconds": 92.56200000000536,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 31,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback029_merge_left_track_strict224_20261017/completion.json",
+      "source_sha256": "5152f36b531c51cf8b29f03d7ee2b32f7905dc57ed5e739923ed0c40e4bcab21"
+    },
+    {
+      "candidate": "feedback_030",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 433,
+      "draws": 0,
+      "losses": 15,
+      "elapsed_seconds": 180.20300000000861,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 60,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s45800_step_002621440": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46201_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46401_step_005242880": {
+          "wins": 59,
+          "draws": 0,
+          "losses": 5,
+          "verdict": "loss",
+          "effective_losses": 5
+        },
+        "s46500_step_005242880": {
+          "wins": 63,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s47236_step_002621440": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback030_consumed448_regression_20261017/completion.json",
+      "source_sha256": "2d2eb2fe43d3178f7af872489531864d09be333733ce4d6593232b5e8a0426b6"
+    },
+    {
+      "candidate": "feedback_030",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 93.79699999999139,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback030_level_merge_left_track_strict224_20261017/completion.json",
+      "source_sha256": "447b2c879f0527ccf26297f8ad3c3a51d355d35ffe2d1918efb43441fa627e8c"
+    },
+    {
+      "candidate": "feedback_031",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 94.29699999999139,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback031_attack_counterturn_strict224_20261017/completion.json",
+      "source_sha256": "95de2e9917dc3f25db7e76ad6bed411c251b2e28604662f5bcee803edf753a9b"
+    },
+    {
+      "candidate": "feedback_031",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 434,
+      "draws": 0,
+      "losses": 14,
+      "elapsed_seconds": 180.78099999998813,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 60,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s45800_step_002621440": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46201_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46401_step_005242880": {
+          "wins": 59,
+          "draws": 0,
+          "losses": 5,
+          "verdict": "loss",
+          "effective_losses": 5
+        },
+        "s46500_step_005242880": {
+          "wins": 63,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s47236_step_002621440": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback031_consumed448_regression_20261017/completion.json",
+      "source_sha256": "fc464df4199ecf72eef950bad34374ecd14e2ea84fe73cd008ebf8a79aa9841f"
+    },
+    {
+      "candidate": "feedback_032",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 435,
+      "draws": 0,
+      "losses": 13,
+      "elapsed_seconds": 185.78099999998813,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 60,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s45800_step_002621440": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46201_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46401_step_005242880": {
+          "wins": 60,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s46500_step_005242880": {
+          "wins": 63,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s47236_step_002621440": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback032_consumed448_regression_20261017/completion.json",
+      "source_sha256": "13a7dc68a3dcbb0b8db7af8f4b8986d84eb68fae48187ae6610c8abe667e9c3a"
+    },
+    {
+      "candidate": "feedback_032",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 96.09400000001187,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback032_widened_track_strict224_20261017/completion.json",
+      "source_sha256": "b4b3b861054f2bc774182bd591911d72c6d2def32f3462747278daee4a5c9fd8"
+    },
+    {
+      "candidate": "feedback_033",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 436,
+      "draws": 0,
+      "losses": 12,
+      "elapsed_seconds": 183.53200000000652,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 60,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s45800_step_002621440": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46201_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46401_step_005242880": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46500_step_005242880": {
+          "wins": 63,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s47236_step_002621440": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback033_v2_consumed448_regression_20261017/completion.json",
+      "source_sha256": "f947d94bbff3d94f6b9c5be5cb025d1498970567c2efc8ffcfbfb3143ecdce4e"
+    },
+    {
+      "candidate": "feedback_033",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 95.15700000000652,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback033_v2_early_deficit_brake_strict224_20261017/completion.json",
+      "source_sha256": "13b7f6011ad1201954bbd05ea5df1d12861c895b01d0047083e245fc412b34b3"
+    },
+    {
+      "candidate": "feedback_034",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 435,
+      "draws": 0,
+      "losses": 13,
+      "elapsed_seconds": 194.39100000000326,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 60,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s45800_step_002621440": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46201_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46401_step_005242880": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46500_step_005242880": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 63,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        },
+        "s47238_step_010485760": {
+          "wins": 63,
+          "draws": 0,
+          "losses": 1,
+          "verdict": "loss",
+          "effective_losses": 1
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback034_consumed448_regression_20261017/completion.json",
+      "source_sha256": "4cbb24be7954af113cfbd03241aa50c2910fd505a8868d85ad2a336c6b7a5469"
+    },
+    {
+      "candidate": "feedback_034",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 95.20300000000861,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback034_moderate_deficit_brake_strict224_20261017/completion.json",
+      "source_sha256": "4e6a63518baa22698a99c9ca5b33961e76fc9423b9642c79ea8596d4fe712f36"
+    },
+    {
+      "candidate": "feedback_035",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 437,
+      "draws": 0,
+      "losses": 11,
+      "elapsed_seconds": 186.10899999999674,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 60,
+          "draws": 0,
+          "losses": 4,
+          "verdict": "loss",
+          "effective_losses": 4
+        },
+        "s45800_step_002621440": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46201_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46401_step_005242880": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46500_step_005242880": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback035_consumed448_regression_20261017/completion.json",
+      "source_sha256": "2053aa8d1d0b97a2e0f25fa6a2904389482f3087d254b7a06637d0ab0e888f33"
+    },
+    {
+      "candidate": "feedback_035",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 102.06299999999464,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback035_guarded_moderate_deficit_brake_strict224_20261017/completion.json",
+      "source_sha256": "1b0510032f4480166299d532d58786b12a9572434bd95f61066aaf2ffc8aafe5"
+    },
+    {
+      "candidate": "feedback_036",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 438,
+      "draws": 0,
+      "losses": 10,
+      "elapsed_seconds": 187.82800000000861,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s45800_step_002621440": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46201_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46401_step_005242880": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s46500_step_005242880": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback036_consumed448_regression_20261017/completion.json",
+      "source_sha256": "a1b34c8951050109693072df87a1fb6cf52477469465c118ca885222db623f06"
+    },
+    {
+      "candidate": "feedback_036",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 97.95300000000861,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback036_side_recovery_follow_strict224_20261017/completion.json",
+      "source_sha256": "4f1287b3bfb9ebf55841ee99eb2a447aed23c1079e42fef15377ca98f0a458ae"
+    },
+    {
+      "candidate": "feedback_037",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 439,
+      "draws": 0,
+      "losses": 9,
+      "elapsed_seconds": 190.1720000000205,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 61,
+          "draws": 0,
+          "losses": 3,
+          "verdict": "loss",
+          "effective_losses": 3
+        },
+        "s45800_step_002621440": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46201_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46401_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46500_step_005242880": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback037_consumed448_regression_20261017/completion.json",
+      "source_sha256": "d2430b5ca3dca2b3d9ef8c81e74a7db3856b17bd14a0eec7d5ba70a1c2340629"
+    },
+    {
+      "candidate": "feedback_037",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 97.15600000001723,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback037_short_return_correction_strict224_20261017/completion.json",
+      "source_sha256": "68c0373bcda82e55fdc19eacc55e30feaf44d2dec3307ad3952a6b0530a982dd"
+    },
+    {
+      "candidate": "feedback_038",
+      "panel": "consumed448",
+      "games": 448,
+      "wins": 440,
+      "draws": 0,
+      "losses": 8,
+      "elapsed_seconds": 193.84400000001187,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s45800_step_002621440": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46201_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46401_step_005242880": {
+          "wins": 62,
+          "draws": 0,
+          "losses": 2,
+          "verdict": "loss",
+          "effective_losses": 2
+        },
+        "s46500_step_005242880": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 64,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback038_consumed448_regression_20261017/completion.json",
+      "source_sha256": "c59656dc748298c470700a8aab5448dbc9cad384a458550b41753675026c0452"
+    },
+    {
+      "candidate": "feedback_038",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 99.28099999998813,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback038_deficit_short_return_correction_strict224_20261017/completion.json",
+      "source_sha256": "f8474b1df4d076c1a2292f272b246477fd53ee6b8478e1a2392e97da0c675b91"
+    },
+    {
+      "candidate": "feedback_039",
+      "panel": "original224",
+      "games": 224,
+      "wins": 224,
+      "draws": 0,
+      "losses": 0,
+      "elapsed_seconds": 117.70299999997951,
+      "new_neural_training_decisions": 0,
+      "admitted": false,
+      "qualified_version": null,
+      "per_opponent": {
+        "s44701_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s45800_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46201_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46401_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s46500_step_005242880": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47236_step_002621440": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        },
+        "s47238_step_010485760": {
+          "wins": 32,
+          "draws": 0,
+          "losses": 0,
+          "verdict": "win",
+          "effective_losses": 0
+        }
+      },
+      "source_local_path": "aircombat-rl/runs/feedback039_widened_deficit_correction_strict224_20261017/completion.json",
+      "source_sha256": "9991246e905a373cb501fa1dc9e820fc656214b5e3ae7d7d43932d186f132777"
+    }
+  ]
+}
